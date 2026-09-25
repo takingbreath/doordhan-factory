@@ -47,11 +47,11 @@ If you think one of these is holding the channel back, say so at a gate.
 - Higgsfield runs about 3 video jobs at once. A 429 means wait, then resubmit.
 - **Voices:** Seed Audio designing a voice from an image produced unusable results. Cloned or designed ElevenLabs voices worked well. Levelling every line to the same loudness fixed speakers sounding unequal. A 1.15 tempo suited the anchors.
   Sarika and Gupta live on Higgsfield as voice elements (text2speech_v2, variant elevenlabs, about 0.15 credits a short line). Sachdev's voice has been deleted. A new Higgsfield voice element costs 40 credits, so make new voices on ElevenLabs (pipeline/tts_elevenlabs.py, eleven_v3) where they cost no credits.
-- **Text on screen:** building cards, slates and numbers locally was more reliable than asking a video model to keep text stable.
+- **Text on screen:** building cards, slates and numbers locally was more reliable than asking a video model to keep text stable. The old-TV look softens everything to about 400 pixels across, so make on-screen text big and bold (the DOORDHAN bug and the title card survive it; small print does not, which suits fine-print jokes).
 - **First frame:** showing the subject immediately (the real NSE logo in the anchor's inset box) makes the topic clear to someone scrolling.
 - **Cutting:** cut points taken from our own track timings were wrong, because generated clips shift timing. Measure on the clip itself (speech_map.py). A cut before the last word and a dead gap between two shots of one thought were the two edit mistakes Akhilesh caught.
 - **Music:** a sting under dialogue fought the voice. Shortening the sting from the front kept its ending intact.
-- **Finish:** a light grain and colour-fringe pass (assemble.py) makes everything feel like one broadcast.
+- **Finish, the old-TV look:** generated clips come out crisp and modern. Akhilesh wants every reel to look like it played on a CRT in the 80s–90s, not like HD. pipeline/look.py builds that on purpose at the end of assemble.py: SD softness, colour bleeding sideways, a faint antenna ghost, chunky grain, soft scanlines, bloom, milky blacks, 25 fps (Indian PAL). The sound is a TV speaker: mono, no deep bass. Presets: `broadcast` (default, off-air Doordarshan) and `vhs` (a worn tape; suits the teleshop). Making the edit smaller is not the look (it only blurs), and generating at a lower resolution saves nothing: Wan's cheapest tier is 720p.
 
 ## Quality bar
 Akhilesh should never be the one to find gibberish audio, lips that don't move, a word cut off, garbled text, a jarring cut or a wrong fact.

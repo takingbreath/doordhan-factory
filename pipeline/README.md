@@ -4,7 +4,7 @@ Requirements: ffmpeg and ffprobe on PATH, Python 3.9+, numpy, pillow (`pip3 inst
 Check the toolchain (no credits, no network): `python3 pipeline/self_test.py` → must end with ALL PASS.
 ElevenLabs tools read ELEVENLABS_API_KEY from the environment or from the repo's git-ignored `.env`, and never print it. `python3 pipeline/tts_elevenlabs.py --check` confirms the key, the quota and that the default model is still offered.
 
-Frames: the edit runs at 720x1280, 24 fps (Wan 720p delivers 718x1282). Mouth boxes and inset-box coordinates are always given in the 480x854 analysis frame, so numbers in formats/ and registry/ stay valid.
+Frames: the edit runs at 720x1280, 25 fps (Wan 720p delivers 718x1282); the 80s–90s CRT softness is added on purpose by look.py at the end. Mouth boxes and inset-box coordinates are always given in the 480x854 analysis frame, so numbers in formats/ and registry/ stay valid.
 
 | Tool | Use |
 |---|---|
@@ -20,6 +20,7 @@ Frames: the edit runs at 720x1280, 24 fps (Wan 720p delivers 718x1282). Mouth bo
 | contact_sheet.py | Frames at an fps or at given times, tiled into one image. |
 | inset_card.py | `card`: logo card for the anchor's inset box. `overlay`: put it on a clip (auto-detects the box). |
 | montage.py | Title card + the last N seconds of the sting (ending kept intact). |
-| assemble.py | Edit list → final reel: each part levelled to -16 LUFS, 90s finish, 1080x1920, -14 LUFS, plus a joins contact sheet. |
+| assemble.py | Edit list → final reel: each part levelled to -16 LUFS, old-TV look and TV-speaker sound, 1080x1920 at 25 fps, -14 LUFS, plus a joins contact sheet. |
+| look.py | The old-TV picture (presets broadcast, vhs, clean). `look.py CLIP OUT --preset vhs` previews it on one clip and writes a before/after frame. |
 
 `fixtures/` holds a real 3-second Sarika line that the self-test uses; synthetic tones hid a levelling bug that real speech exposed.

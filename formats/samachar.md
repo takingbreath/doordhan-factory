@@ -16,7 +16,7 @@
 - New story, new location: generate Gupta's keyframe there from his sheet and the style reference, with onlookers reacting to the camera.
 
 ## Look and graphics
-- Flat powder-blue studio, DOORDHAN rupee-coin bug top-right, 90s CRT softness.
+- Flat powder-blue studio, DOORDHAN rupee-coin bug top-right, 90s CRT softness. Finish: look `broadcast` (the default in assemble.py).
 - Inset box story graphic: the subject's real logo on a light card (inset_card.py auto-detects the box, which sits around x=308–465, y=47–201 in 480x854).
 
 ## Sound

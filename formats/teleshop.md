@@ -17,7 +17,7 @@
 - Split screen, presenter above and caller below: f0a0aa7f-db50-4ddc-aae6-b003dec12d3f (reference only; as a Seedance start image it was flagged twice)
 
 ## Look and graphics
-Pink 90s studio, price graphic, lower third, starbursts and fine-print strips; the DOORDHAN coin bug.
+Pink 90s studio, price graphic, lower third, starbursts and fine-print strips; the DOORDHAN coin bug. Finish: look `vhs` in edit.json (a cable-TV teleshop taped off air: softer, more colour bleed and noise).
 Built locally in Episode 1: the "5 TAREEKH / SUBAH 6:02" title card, the HUM FINANCE end slate (assets/cards/hum_finance_slate.png) with scrolling fine-print jokes for anyone who pauses, and the DOORDHAN end ident (logo at assets/logos/doordhan_logo.png on studio pink).
 
 ## Sound

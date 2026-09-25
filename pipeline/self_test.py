@@ -85,6 +85,13 @@ def assemble_one():
     json.dump({"out": f1, "parts": [{"file": clip}]}, open(e1, "w"))
     tool("assemble.py", e1); return f"{duration(f1):.1f}s"
 step("assemble a one-part edit (no joins)", assemble_one)
+def looks():
+    got = []
+    for preset in ("broadcast", "vhs", "clean"):
+        o = os.path.join(T, f"look_{preset}.mp4")
+        tool("look.py", clip, o, "--preset", preset, "--at", "1.0"); got.append(f"{preset} {duration(o):.1f}s")
+    return ", ".join(got)
+step("look presets render (broadcast, vhs, clean)", looks)
 for r in results:
     print(f"{r[0]}  {r[1]}  {r[2][:160]}")
 print("\nALL PASS" if all(r[0] == "PASS" for r in results) else "\nSOME STEPS FAILED")
