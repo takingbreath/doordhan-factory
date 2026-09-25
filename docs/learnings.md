@@ -1,6 +1,6 @@
-# Learnings (written by the analyst, read by the morning desk)
+# Learnings (written by the strategist, read by the morning desk)
 
-The analyst routine updates this file every Sunday, and on any day a reel takes off. The morning desk reads it before grading stories, and the writers read it before scripting.
+The strategist routine updates this file every Sunday, whenever a bet is won or stopped, and on any day a reel takes off. The bets themselves live in docs/strategy.md. The morning desk reads it before grading stories, and the writers read it before scripting.
 Keep "This week" to 5–8 bullets, each with its evidence. Move older weeks down; delete anything later disproved.
 
 ## Ride now

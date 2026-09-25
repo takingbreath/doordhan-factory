@@ -93,6 +93,37 @@ def looks():
         tool("look.py", clip, o, "--preset", preset, "--at", "1.0"); got.append(f"{preset} {duration(o):.1f}s")
     return ", ".join(got)
 step("look presets render (broadcast, vhs, clean)", looks)
+def scoreboard():
+    R = os.path.join(T, "sb"); os.makedirs(os.path.join(R, "registry")); os.makedirs(os.path.join(R, "docs"))
+    open(os.path.join(R, "docs", "strategy.md"), "w").write("x\n<!-- scoreboard -->\n<!-- /scoreboard -->\n")
+    bet = lambda i, m, t, s, mn, mx: dict(id=i, name=i, status="open", applies="every reel", lever="l", thesis="t",
+                                          metric=m, baseline=0, target=t, stop=s, min_reels=mn, max_reels=mx)
+    json.dump({"bets": [bet("B1", "skip_rate", 45, 58, 3, 6), bet("B2", "watched_pct", 45, 32, 3, 6),
+                        bet("B3", "sends_per_1k", 8, 2, 3, 3), bet("B4", "skip_rate", 45, 58, 3, 6)]},
+              open(os.path.join(R, "registry", "bets.json"), "w"))
+    sb = lambda *a: tool("scoreboard.py", *a, "--root", R, "--now", "2026-10-10 21:30")
+    reels = [("R1", "B1;B2;B3", 40, 20), ("R2", "B1;B2;B3", 42, 25), ("R3", "B1;B2;B3", 44, 28), ("R4", "B4", 50, 40), ("R5", "B4", 50, 40)]
+    for rid, bets, *_ in reels:
+        sb("add-reel", "--id", rid, "--format", "samachar", "--story", "s", "--bets", bets)
+    ig = [dict(shortcode="C" + rid, caption=rid, playCount=1000, likeCount=10, commentCount=1, durationSeconds=25,
+               timestamp="2026-10-05T14:00:00Z", shares=5, saves=3, avgWatchTimeMs=8000, avgWatchedPct=w, skipRate=sk)
+          for rid, _, sk, w in reels]
+    f = os.path.join(T, "ig.json"); json.dump({"followersCount": 40, "summary": {"views": 5000}, "reels": ig}, open(f, "w"))
+    sb("ingest-ig", f)
+    for rid, *_ in reels:
+        sb("link", rid, "C" + rid)
+    out = sb("report"); sb("write")
+    want = {"B1": "TARGET HIT", "B2": "STOP HIT", "B3": "TIME STOP", "B4": "HOLD"}
+    got = {b: next((v for v in ("TARGET HIT", "STOP HIT", "TIME STOP", "HOLD") if f"| {b} {b} |" in l and f"**{v}**" in l), None)
+           for b in want for l in out.splitlines() if f"| {b} {b} |" in l}
+    assert got == want, got
+    assert "B1" in open(os.path.join(R, "docs", "strategy.md")).read() and os.path.exists(os.path.join(R, "registry", "performance.md"))
+    try:
+        sb("add-reel", "--id", "R9", "--format", "x", "--story", "s", "--bets", "B9"); raise AssertionError("unknown bet accepted")
+    except RuntimeError:
+        pass
+    return "target, stop, time stop and hold verdicts; ingest, link, write"
+step("scoreboard verdicts", scoreboard)
 for r in results:
     print(f"{r[0]}  {r[1]}  {r[2][:160]}")
 print("\nALL PASS" if all(r[0] == "PASS" for r in results) else "\nSOME STEPS FAILED")

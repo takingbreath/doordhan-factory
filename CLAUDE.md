@@ -66,7 +66,8 @@ When you present a final, say in plain language what you checked and anything yo
 - formats/: show templates (one file each) and the template for new ones.
 - docs/script-bible.md: writing notes and the two episodes that worked.
 - playbooks/: the paths that have worked for the news desk, script, production and posting kit. Improve them freely.
+- docs/strategy.md: how we trade for growth: the bets (each with a target and a stop), the campaign, this week's plan and the working rhythm. Numbers live in registry/reels.csv, snapshots.csv, account.csv and bets.json; `pipeline/scoreboard.py` gives the verdicts.
 - registry/assets.json: every Higgsfield and voice ID. registry/episodes.md: the episode log and lessons.
 - pipeline/: tools (see pipeline/README.md); `python3 pipeline/self_test.py` must end ALL PASS. assets/: stings, logos, cards, reusable clips.
-- routines/: the cloud news-desk routine's prompt (it runs Mon–Sat 7:30 IST and emails three options). SETUP.md: how the system is wired (repo, connectors, keys, routine).
+- routines/: the two cloud routines' instructions: the morning session (Mon–Sat 7:30 IST: news desk, then script and production) and the strategist (nightly 21:30 IST; weekly review on Sundays). Each routine reads its file from the repo at the start of every run. SETUP.md: how the system is wired (repo, connectors, keys, routines).
 - work/ and outputs/: scratch and finals (git-ignored).

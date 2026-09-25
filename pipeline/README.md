@@ -23,6 +23,7 @@ Frames: the edit runs at 720x1280, 25 fps (Wan 720p delivers 718x1282); the 80sâ
 | montage.py | Title card + the last N seconds of the sting (ending kept intact). |
 | assemble.py | Edit list â†’ final reel: each part levelled to -16 LUFS, old-TV look and TV-speaker sound, 1080x1920 at 25 fps, -14 LUFS, plus a joins contact sheet. |
 | trends.py | News-desk trend meter: labels each candidate HOT, RISING, FLAT or COLD from Google Trends India, Google News momentum (today's share of the week) and YouTube this week (views, best views per hour). No login needed; vidIQ adds keyword and outlier data on top. |
+| scoreboard.py | The strategy book's arithmetic (docs/strategy.md). `ingest-ig` records a vidIQ Instagram owner-insights reading, `link` ties a reel to its post, `add-reel` records a new episode with the bets it carries and its credits. With no argument it prints the report: each bet's value pooled over its reels against baseline, target and stop, and a verdict (TARGET HIT, STOP HIT, TIME STOP, HOLD). `brief` gives three lines for the morning email; `write` regenerates registry/performance.md and the book in docs/strategy.md. |
 | deep_leads.py | The last 7 days of headlines from the deep-lane research sources (docs/sources.md), deduplicated and newest first. |
 | look.py | The old-TV picture (presets broadcast, vhs, clean). `look.py CLIP OUT --preset vhs` previews it on one clip and writes a before/after frame. |
 

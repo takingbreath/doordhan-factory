@@ -1,0 +1,48 @@
+{
+  "_doc": "The strategy book. One bet = one lever, judged on one metric against the baseline it opened at. Verdicts come from pipeline/scoreboard.py. Status: open, won, stopped, no-edge, watch. Rules in docs/strategy.md.",
+  "campaign": {
+    "name": "Stage 1: Stop the scroll",
+    "started": "2026-09-26",
+    "ends": "2026-10-11",
+    "goal": "prove people stop for our reels and stay to the end",
+    "targets": [
+      {"metric": "skip_rate", "target": 45},
+      {"metric": "watched_pct", "target": 45},
+      {"metric": "views", "target": 500},
+      {"metric": "best_views", "target": 2000},
+      {"metric": "followers", "target": 100}
+    ],
+    "stop": {
+      "after_reels": 10,
+      "metric": "views",
+      "level": 300,
+      "means": "The current strategy isn't stopping the scroll. Check Account Status and the AI-profile label first (a restricted account looks exactly like this), then the Sunday review brings 2-3 alternative strategies, each with its own target and stop, for Akhilesh to pick. No more tweaking the same approach."
+    }
+  },
+  "bets": [
+    {
+      "id": "B1", "name": "Hook in frame one", "status": "open", "opened": "2026-09-26", "applies": "every reel",
+      "lever": "Frame 1: the anchor looks into the lens, already saying the viewer's stake; the hook in 6 big words or fewer on screen; nothing (Namaskar, title, logo) before it; a cut or punch-in by 1 s; cover = frame 1",
+      "thesis": "54-67% skipped in the first 3 s: E2 opened on Sarika looking down with no hook text, E1 on a teleshop set with no stake",
+      "metric": "skip_rate", "baseline": 60.7, "target": 45, "stop": 58, "min_reels": 3, "max_reels": 6
+    },
+    {
+      "id": "B2", "name": "Tight 20-30 s", "status": "open", "opened": "2026-09-26", "applies": "every reel",
+      "lever": "20-30 s total; title montage 1.5 s or less and only after the hook; payoff by 20 s; the last line echoes the hook so a replay feels natural; no dead air",
+      "thesis": "The 56 s and 33 s reels were watched about 25% of the way; shorter and tighter should lift completion, which Instagram ranks on",
+      "metric": "watched_pct", "baseline": 26.3, "target": 45, "stop": 32, "min_reels": 3, "max_reels": 6
+    },
+    {
+      "id": "B3", "name": "A line worth sending", "status": "open", "opened": "2026-09-26", "applies": "every reel",
+      "lever": "Every script lands one line a viewer would forward to a specific person (a number to remember, a jab at the system, an 'I told you so'); never ask for shares",
+      "thesis": "Sends per reach is the signal Instagram weighs most for reaching non-followers; the comedy reel got the only send so far",
+      "metric": "sends_per_1k", "baseline": 2.6, "target": 8, "stop": 2, "min_reels": 4, "max_reels": 6
+    },
+    {
+      "id": "W1", "name": "Glam Sarika", "status": "watch", "opened": "2026-09-26", "applies": "Samachar reels",
+      "lever": "Sarika in the glam wardrobe (formats/samachar.md) on every Samachar reel",
+      "thesis": "Akhilesh: a glamorous anchor is a hook for this audience. Confounded with B1 on skip rate while both run, so it is compared with the other formats at the monthly review",
+      "metric": "skip_rate", "baseline": 66.9, "target": null, "stop": null, "min_reels": 3, "max_reels": 6
+    }
+  ]
+}

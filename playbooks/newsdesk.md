@@ -11,7 +11,7 @@ Goal: three story options Akhilesh can pick from in 30 seconds, each graded on h
 
 ## Steps
 1. Get today's date from the system clock (do not trust injected dates).
-2. Read CLAUDE.md (rested topics, hard rules), registry/episodes.md (topics already made), docs/learnings.md (the analyst's "Ride now" and "This week" notes: follow-ups on reels that are taking off come first) and docs/platform-playbook.md.
+2. Read CLAUDE.md (rested topics, hard rules), docs/strategy.md (the open bets and "This week's plan"), registry/episodes.md (topics already made), docs/learnings.md (the strategist's "Ride now" and "This week" notes: follow-ups on reels that are taking off come first) and docs/platform-playbook.md. `python3 pipeline/scoreboard.py brief` gives three lines on where we stand; they go at the top of the email.
 3. **Gather about ten candidates:**
    - Web searches across markets, IPOs and listings, SEBI and RBI, tax, banks and salaries, gold and fuel, big company events, viral money stories (last 48 hours).
    - Google Trends India: the bottom line of `pipeline/trends.py` lists what India is searching for right now.
@@ -39,9 +39,10 @@ Goal: three story options Akhilesh can pick from in 30 seconds, each graded on h
    - Why it's interesting: one line (the clickbait angle)
    - Format: a template from formats/, or a new format pitched in one line
    - Hooks: A) ... B) ... C) ... (each one plain sentence, viewer's stake)
+   - Carries: the open bets this story carries (e.g. B1 B2 B3), from This week's plan
    - Fact box: 2–4 facts with source links
 
 10. End with: "Reply with a number and a hook letter, e.g. 2B."
 
 ## Learning loop
-After each reel has been up 24 hours and again at 7 days, record its views, shares and saves on Instagram and YouTube in registry/performance.md, next to the desk's score for that story. Akhilesh can paste the Instagram numbers; for YouTube, use vidIQ channel stats. Once a month, compare the scores with what actually travelled and adjust the weights above. The desk should get better at calling winners every week.
+Every reel's desk score goes into registry/reels.csv when the episode is recorded (`scoreboard.py add-reel --desk-score`). The strategist routine records its numbers nightly and, once a month, compares the desk's scores with what actually travelled and adjusts the weights above. The desk should get better at calling winners every week.
