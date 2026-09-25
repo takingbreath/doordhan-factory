@@ -14,7 +14,7 @@ Goal: three story options Akhilesh can pick from in 30 seconds.
    - Why it's interesting: one line (the clickbait angle)
    - Format: a template from formats/, or a new format pitched in one line
    - Hooks: A) ... B) ... C) ... (each one plain sentence, viewer's stake)
-   - Fact box: 2–4 facts with source links (open each link and confirm the number is on the page; drop a fact rather than guess)
+   - Fact box: 2–4 facts with source links (open each link and confirm the number is on the page; drop a fact rather than guess). Hooks use only numbers from the fact box; the first live run put a 9% from a 2025 study into a hook while its fact box said 8–12%.
 
    Give the three options different shapes where the news allows (e.g. one market/listing story, one policy or tax change, one viral money story), so the pick is a real choice.
 6. End with: "Reply with a number and a hook letter, e.g. 2B."
