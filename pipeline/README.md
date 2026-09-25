@@ -22,6 +22,7 @@ Frames: the edit runs at 720x1280, 25 fps (Wan 720p delivers 718x1282); the 80sâ
 | inset_card.py | `card`: logo card for the anchor's inset box. `overlay`: put it on a clip (auto-detects the box). |
 | montage.py | Title card + the last N seconds of the sting (ending kept intact). |
 | assemble.py | Edit list â†’ final reel: each part levelled to -16 LUFS, old-TV look and TV-speaker sound, 1080x1920 at 25 fps, -14 LUFS, plus a joins contact sheet. |
+| trends.py | News-desk trend meter: labels each candidate HOT, RISING, FLAT or COLD from Google Trends India, Google News momentum (today's share of the week) and YouTube this week (views, best views per hour). No login needed; vidIQ adds keyword and outlier data on top. |
 | look.py | The old-TV picture (presets broadcast, vhs, clean). `look.py CLIP OUT --preset vhs` previews it on one clip and writes a before/after frame. |
 
 `fixtures/` holds a real 3-second Sarika line that the self-test uses; synthetic tones hid a levelling bug that real speech exposed.
