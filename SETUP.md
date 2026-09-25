@@ -9,6 +9,8 @@
 
 **Every night at 21:30 IST** the Doordhan strategist routine records each posted reel's numbers via vidIQ and runs the strategy book (docs/strategy.md): every bet has a target and a stop loss, and it acts on a hit the same night, pinging your phone. On Sundays it emails the weekly strategy review (the account, each bet's result, what we learned, next week's plan, your yes/no decisions), and you reply in its session. The morning desk executes "This week's plan".
 
+**Getting back into a routine's session:** routine runs ("⚡ Doordhan news desk", "⚡ Doordhan strategist") don't appear in the Claude app's main Code session list, which shows your own sessions. They still exist and keep waiting for your reply. Get back in with the link at the top of that run's email, by tapping its phone notification, or at claude.ai/code/routines → the routine → its runs. Opening one restarts its cloud machine for a few seconds; the conversation is kept.
+
 **Doordhan studio** is the Claude Code session on the laptop (Remote Control on). Use it for anything outside the daily flow: fixes, experiments, new formats. Every new local session starts with Remote Control on and pings the phone when it needs you (`remoteControlAtStartup` and `inputNeededNotifEnabled` in ~/.claude/settings.json).
 Permissions: this repo's `.claude/settings.json` runs local sessions with no prompts, and the routine's tools and connectors (Gmail, Higgsfield, ElevenLabs) are pre-allowed.
 

@@ -90,7 +90,7 @@ Your method, the rules of the book and the working rhythm are in docs/strategy.m
       4. Next week's plan: the lines from step 10.
       5. Your decisions: numbered yes/no questions, each with its upside and its stop. Then "Reply in this session: e.g. 1 yes, 2 no".
       6. Platform and policy notes: only if something changed.
-    - End with the session link: read $CLAUDE_CODE_SESSION_ID and write https://claude.ai/code/<that id, with a leading "cse_" replaced by "session_">.
+    - Put the session link on the first line ("Reply here: <link>") and again at the end: the direct link to this session, https://claude.ai/code/session_<id>. Find the id with `env | grep -iE 'session|cse_'` and use the value that starts with "cse_", replacing "cse_" with "session_" (a bare UUID is not it). Routine sessions don't appear in the app's main Code list.
     - Save a copy as reports/weekly-<YYYY-MM-DD>.md. Commit and push. Push notification: "Doordhan weekly strategy is in your inbox: <one-line headline>".
 13. **Wait for his replies in this session.** Apply what he approves (bets.json, strategy.md, the playbooks), log each decision, and commit and push.
 
