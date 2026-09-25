@@ -51,6 +51,14 @@ Ideas not generated yet:
 - ivory kurti with a deep neck and a sheer dupatta, side braid
 - an off-shoulder 90s top in mustard or red, big curls
 
+## Performance: hot and classy, not hot and cheap
+Akhilesh, 2026-09-25: "there is a line between looking hot and classy vs hot and cheap. We need to be on the hot-and-classy side." The outfit carries the glamour; her performance stays a newsreader's.
+- **Classy:** poise, a steady and level head, still shoulders, a direct gaze, expression carried by the eyes and eyebrows, the knowing half-smile at the end.
+- **Cheap (never):** head wobbling, bobbing or tilting, hair tossing, leaning into the camera, pouts, winks, lip bites, shoulder shimmies.
+- **Wan prompts:** Wan acts out every attitude word. "Glamorous", "playful", "confident", "tilt of the head" and "her hair moves" added a wobble (head travel 66–83 px/s against 37 for the accepted shot). Keep this sentence for every Sarika talking shot and add no attitude words:
+  "The news anchor from the start image reads the news in Hindi, her lips moving in exact sync with the provided audio. She is a poised professional newsreader: head steady and level, shoulders still, only a small natural nod on a stressed word, expression carried by her eyes, a faint knowing smile at the end. No head tilting, no bobbing, no hair movement. Locked-off studio camera."
+- **QC:** `headcheck.py` (it runs inside qc.py) must PASS (≤45 px/s). If it fails, reshoot with the sentence above rather than cut around it.
+
 ## Look and graphics
 - Flat powder-blue studio, DOORDHAN rupee-coin bug top-right, 90s CRT softness. Finish: look `broadcast` (the default in assemble.py).
 - Inset box story graphic: the subject's real logo on a light card (inset_card.py auto-detects the box, which sits around x=308–465, y=47–201 in 480x854).

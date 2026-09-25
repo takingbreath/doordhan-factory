@@ -61,6 +61,7 @@ def mismatch():
     out = tool("check_match.py", clip, rev); assert out.startswith("FAIL"), out; return "reversed track rejected"
 step("check_match rejects different audio", mismatch)
 step("lipcheck runs", lambda: tool("lipcheck.py", clip, "--box", "190", "350", "100", "80"))
+step("headcheck runs", lambda: tool("headcheck.py", clip, "--mouth", "190", "350", "100", "80"))
 title, logo = os.path.join(T, "title.png"), os.path.join(T, "logo.png")
 def imgs():
     im = Image.new("RGB", (752, 1344), (20, 40, 160)); ImageDraw.Draw(im).ellipse([226, 400, 526, 700], fill=(230, 180, 40)); im.save(title)

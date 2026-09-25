@@ -2,7 +2,7 @@
 """All the checks for one generated talking shot, in one go, written to a notes file you can keep with the shot.
 Usage: qc.py CLIP.mp4 --track TRACK.mp3 --box X Y W H [--expect "script line"] [--out qc.md]
   --box: mouth box in the 480x854 analysis frame (lipcheck.py --face-crop helps you find it)
-Runs: format probe, speech_map, check_match, lipcheck, transcript vs script (if an ElevenLabs key is set),
+Runs: format probe, speech_map, check_match, lipcheck, headcheck (no wobble), transcript vs script (API key),
 loudness, and a 4 fps contact sheet. It does not replace looking at the sheet yourself."""
 import argparse, json, os, subprocess, sys
 from common import FFPROBE, loudness
@@ -33,6 +33,7 @@ if a.track:
     rows.append(("check_match", tool("check_match.py", a.clip, a.track).split("  (")[0]))
 if a.box:
     rows.append(("lipcheck", tool("lipcheck.py", a.clip, "--box", *map(str, a.box))))
+    rows.append(("headcheck", tool("headcheck.py", a.clip, "--mouth", *map(str, a.box))))
 if a.expect:
     rows.append(("transcript", tool("transcribe.py", a.clip, "--expect", a.expect).replace("\n", " | ")))
 I, P = loudness(a.clip)

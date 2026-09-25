@@ -16,6 +16,7 @@ Frames: the edit runs at 720x1280, 25 fps (Wan 720p delivers 718x1282); the 80s�
 | speech_map.py | Speech start/end/pauses of any file. Use on generated clips to choose cut points. |
 | check_match.py | Did the generated clip keep our audio? Envelope correlation ≥0.90 = PASS (Wan). Low = re-voiced or re-timed. Reports a constant offset if there is one. |
 | lipcheck.py | Mouth motion speaking vs silent, and mouth vs head while speaking. `--face-crop` saves a frame to find the mouth box. |
+| headcheck.py | Head travel in px/s: a steady newsreader passes (≤45), a wobbling or tilting head fails. Tracks Sarika's bindi; phase correlation for others. `--mouth` takes the lipcheck box. |
 | transcribe.py | ElevenLabs Scribe (scribe_v2): what was actually said, similarity to the script, and the last word's end time. Catches gibberish. |
 | contact_sheet.py | Frames at an fps or at given times, tiled into one image. |
 | inset_card.py | `card`: logo card for the anchor's inset box. `overlay`: put it on a clip (auto-detects the box). |
