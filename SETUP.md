@@ -1,14 +1,14 @@
 # Setup: how the system is wired (as of 2026-09-25)
 
 ## Day to day (from your phone)
-1. **7:30 IST, Mon–Sat:** the cloud news desk emails three story options ("Doordhan desk — <date> — 3 stories"). Each run also appears as a session under the routine at claude.ai/code/routines.
-2. **Pick:** open the Claude app → Code → **Doordhan studio** and reply with a number and a hook letter, e.g. `2B`. Doordhan studio is the Claude Code session on the laptop, reachable from the phone through Remote Control. It reads the desk email itself. Gate 1: the story.
-3. **Script:** it replies with the script, 20–30 seconds, plus each character's outfit for the episode. Reply "approved" or send edits. Gate 2: the script. No credits are spent before this.
-4. **Production:** you can watch progress on the phone. The final video arrives in the session with its QC notes. Gate 3: the final.
-5. **Post kit:** caption, settings and YouTube Shorts details, ready to copy. You post.
+1. **7:30 IST, Mon–Sat:** the routine starts a cloud session (Opus 5.5). It researches, emails three story options with a direct link to that session, and pings your phone.
+2. **Pick:** open the link (or Claude app → Code → Routines → Doordhan news desk → today's run) and reply, e.g. `2B`. Gate 1.
+3. **Script:** it replies there with the script (20–30 s) and each character's outfit, and pings you. Reply "approved" or send edits. Gate 2; nothing is spent before this.
+4. **Production, in the same cloud session:** it installs its tools, runs the self-test, and makes the reel (Higgsfield, ElevenLabs transcript checks, full QC), posting one line per milestone. The laptop isn't needed.
+5. **Final:** a playable link in the session and by email, with QC notes and credits spent; your phone gets pinged. Gate 3. Then the posting kit, and the episode is logged and pushed to the repo. You post.
 
-Doordhan studio needs the laptop awake with the Claude app open. If the laptop is off, reply to the morning run's own session (claude.ai/code → Routines → Doordhan news desk → today's run) instead: it can write the script and get your approval there, then email you "Doordhan script approved — <date>". Production then starts when you tell Doordhan studio "produce".
-Permissions: this repo's `.claude/settings.json` runs every session here with no permission prompts (bypassPermissions), and Doordhan studio already runs that way. The routine's tools are pre-allowed.
+**Doordhan studio** is the Claude Code session on the laptop (Remote Control on). Use it for anything outside the daily flow: fixes, experiments, new formats. Every new local session starts with Remote Control on and pings the phone when it needs you (`remoteControlAtStartup` and `inputNeededNotifEnabled` in ~/.claude/settings.json).
+Permissions: this repo's `.claude/settings.json` runs local sessions with no prompts, and the routine's tools and connectors (Gmail, Higgsfield, ElevenLabs) are pre-allowed.
 
 ## Pieces
 | Piece | Where | Notes |
@@ -18,7 +18,7 @@ Permissions: this repo's `.claude/settings.json` runs every session here with no
 | Higgsfield | claude.ai connector, `https://mcp.higgsfield.ai/mcp`, signed in (Pro plan) | Available to any Claude Code session signed in with the claude.ai account. A terminal session that uses an API key instead needs `claude mcp add --transport http higgsfield https://mcp.higgsfield.ai/mcp`, then sign in via `/mcp`. |
 | ElevenLabs | claude.ai connector (`api.elevenlabs.io/v1/mcp`), connected 2026-09-25. Optional API key for the scripts: `ELEVENLABS_API_KEY`, or `ELEVENLABS_API_KEY=...` in `~/doordhan-factory/.env` (git-ignored, chmod 600) | The connector generates speech (eleven_v3, eleven_v4), transcribes (eleven_scribe_v1; verified on the test shot) and designs voices, working through ElevenLabs "flows" (see playbooks/produce.md step 3). The file-based scripts (`tts_elevenlabs.py`, `transcribe.py`, the transcript line in `qc.py`) need the key; `python3 pipeline/tts_elevenlabs.py --check` confirms it without printing it. Don't add the server with `claude mcp add` as well; it duplicates the connector. The URL printed on ElevenLabs' setup page fails with a resource mismatch (`api.us.elevenlabs.io`). |
 | Gmail | claude.ai connector (`gmailmcp.googleapis.com`) | The routine sends the desk email with it. Claude Code can read that email at the script step. |
-| News desk routine | https://claude.ai/code/routines/trig_01MBsrTHZTFUuyMXHiyAbfBC ("Doordhan news desk", model claude-sonnet-5) | Cron `0 2 * * 1-6` (UTC) = 07:30 IST Mon–Sat. Clones this repo, runs routines/newsdesk-routine-prompt.md, and has the Gmail connector only (no Higgsfield, so it can't spend credits). |
+| Morning routine | https://claude.ai/code/routines/trig_01MBsrTHZTFUuyMXHiyAbfBC ("Doordhan news desk", model claude-opus-5-5) | Cron `0 2 * * 1-6` (UTC) = 07:30 IST Mon–Sat. Clones this repo and runs routines/newsdesk-routine-prompt.md: the news desk, then script and production in the same session once you reply. Connectors: Gmail, Higgsfield, ElevenLabs. No credits before the script is approved. Cloud probe 2026-09-25: ffmpeg and numpy install in about 30 s, self-test ALL PASS, Higgsfield downloads and uploads work, it can push to main, and PushNotification reaches the phone. |
 
 To change the routine (time, recipient, model): edit it at claude.ai/code/routines, or ask Claude Code to update it with /schedule. Keep routines/newsdesk-routine-prompt.md in step with it.
 

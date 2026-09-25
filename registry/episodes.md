@@ -49,3 +49,8 @@ Add a row per episode, and a line whenever you change a default or a tool.
   - **Fallback when the laptop is off:** reply in the morning run's own cloud session (listed under the routine). It writes the script, gets approval and emails "Doordhan script approved — <date> — <slug>"; the studio then produces from that email. The routine's allowed tools now include Write and Edit.
   - **No permission prompts:** `.claude/settings.json` sets `defaultMode: bypassPermissions` for every session in this repo; the studio session already runs that way.
   - **Length target 20–30 seconds, never over** (CLAUDE.md, script bible, script and news-desk playbooks, the routine prompt). Scripts get cut to fit before they're sent.
+- 2026-09-25 (Akhilesh: every morning run should reach the phone, and the first video should be made in that session):
+  - **The morning routine now runs the whole episode in its own cloud session.** Cloud sessions show in the Claude app anyway. It uses Opus 5.5, with Gmail, Higgsfield and ElevenLabs attached: news desk, then script and production after his reply, final delivered as a Higgsfield link plus email, then the post kit and a push to main. The email links straight to the session (from $CLAUDE_CODE_SESSION_ID), and PushNotification pings him at every gate.
+  - **Cloud probe:** no ffmpeg or numpy on a fresh machine, but both install in about 30 s. Self-test ALL PASS; downloads and uploads work; it can push to main.
+  - Local sessions start with Remote Control on and ping the phone when they need input (user settings). Doordhan studio stays for work outside the daily flow.
+
