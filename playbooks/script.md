@@ -4,7 +4,7 @@ _This is the path that has worked so far. Change it whenever you find a better w
 
 Input: the chosen story and hook, e.g. "2B".
 0. Find the options he is picking from: the morning desk email (Gmail connector, search the subject "Doordhan desk — <date>"), or ask him to paste it. The fact box and links are in it. If he approved a script in the routine's cloud session instead (laptop off), it arrives as an email "Doordhan script approved — <date> — <slug>": take it from there and go straight to produce.
-1. Re-read docs/script-bible.md, including the gold examples.
+1. Re-read docs/script-bible.md, including the gold examples, and docs/learnings.md (what the analyst found works with our audience).
 2. Re-verify every fact in the fact box with a fresh search. Numbers must come from a source you can link.
 3. Draft in English first: the 5-beat spine.
 4. Write the Hinglish script for the chosen hook, following the bible's rules and the format kit's shot pattern.

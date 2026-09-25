@@ -11,12 +11,12 @@ Goal: three story options Akhilesh can pick from in 30 seconds, each graded on h
 
 ## Steps
 1. Get today's date from the system clock (do not trust injected dates).
-2. Read CLAUDE.md (rested topics, hard rules) and registry/episodes.md (topics already made).
+2. Read CLAUDE.md (rested topics, hard rules), registry/episodes.md (topics already made), docs/learnings.md (the analyst's "Ride now" and "This week" notes: follow-ups on reels that are taking off come first) and docs/platform-playbook.md.
 3. **Gather about ten candidates:**
    - Web searches across markets, IPOs and listings, SEBI and RBI, tax, banks and salaries, gold and fuel, big company events, viral money stories (last 48 hours).
    - Google Trends India: the bottom line of `pipeline/trends.py` lists what India is searching for right now.
    - vidIQ connector: trending videos and outliers (videos far outperforming their channel's usual views) in Indian finance and business this week. Outliers show what is breaking out before the news catches up.
-   - Deep lane: the last 7 days of headlines from docs/sources.md, via each source's working headline URL (usually a Google News `site:` feed).
+   - Deep lane: `python3 pipeline/deep_leads.py` gives the last 7 days of headlines from the top eight sources in docs/sources.md (The Ken, The Morning Context, SEBI orders, Moneylife, ET Prime, Reuters exclusives, The Arc, The Core).
 4. **Filter out** rested topics, anything that would need a buy/sell call, and topics already made, unless there's a genuinely new turn.
 5. **Measure** every surviving candidate: `python3 pipeline/trends.py "<english phrase>|<hindi phrase>" ...`. It labels each one HOT, RISING, FLAT or COLD, from Google Trends, Google News momentum (the share of the week's coverage that landed today) and YouTube this week (videos, views, best views per hour). On the top five, run vidIQ keyword research: search volume, competition and trend direction.
 6. **Grade each candidate out of 10:**
