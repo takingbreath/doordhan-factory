@@ -1,0 +1,90 @@
+{
+  "_note": "Higgsfield job/media IDs usable as media values in generation calls. Update whenever you create an asset.",
+  "style": {
+    "doordhan_look_vertical": "2557c287-bf5c-4905-933e-9b75f04c4a79",
+    "doordhan_look_4x3": "82b77b0f-5b58-43ab-b6bd-89c1033bb8f5",
+    "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612"
+  },
+  "characters": {
+    "sarika": {
+      "role": "Samachar anchor",
+      "sheet": "85391de0-1855-486d-9e6b-0e7c841fc038"
+    },
+    "gupta": {
+      "role": "Samachar field correspondent",
+      "sheet": "b51d1f5e-bad5-4f00-af03-f55ff28ed8a0"
+    },
+    "sachdev": {
+      "role": "Teleshop presenter",
+      "sheet": "0e4faf46-aa1e-4c29-b2b9-dd2d84f5b2e2"
+    },
+    "rahul": {
+      "role": "Teleshop caller",
+      "sheet": "8bfe4cbc-c483-455a-a9fc-c1080f1fb435",
+      "room": "c0f6ef01-915e-4313-bcfe-31b657ac733d"
+    }
+  },
+  "keyframes": {
+    "samachar_desk_medium": "3501fe96-8bd8-41e8-bd02-3c5ca42c8bea",
+    "samachar_closeup": "1aed7ca2-bbe1-44e2-8237-6a82d4c5d2cf",
+    "samachar_title_card": "4b8532b9-f3c8-47a6-80fe-e54b139a724e",
+    "gupta_stock_exchange": "bed104cc-72e2-4c6b-a3ac-3bde4ef6ebd1",
+    "gupta_street_office": "6d133894-ac0d-4276-aead-4a32b14ac821",
+    "teleshop_pitch_style_frame": "2557c287-bf5c-4905-933e-9b75f04c4a79",
+    "teleshop_interest_zero": "63332224-ec16-433a-b8e9-85d296dc79c6",
+    "teleshop_fineprint_grin": "2ff0a336-2931-4cc2-97e4-c471cddf7ffc",
+    "teleshop_rahul_wait": "b051a771-57dd-41a7-8478-f29c98c699e5",
+    "teleshop_rahul_dawn_phone": "674ae3b2-8e71-4d1d-b029-b01565e2a27e",
+    "teleshop_sms_bounced": "6262a8b9-f916-425c-9771-297a865d7177",
+    "teleshop_split_screen_reference_only": "f0a0aa7f-db50-4ddc-aae6-b003dec12d3f"
+  },
+  "voices": {
+    "sarika": {
+      "provider": "higgsfield",
+      "model": "text2speech_v2",
+      "variant": "elevenlabs",
+      "voice_type": "element",
+      "voice_id": "6603e914-681e-4966-9bbb-cfb1daebf1d5",
+      "tempo": 1.15,
+      "elevenlabs_voice_id": null
+    },
+    "gupta": {
+      "provider": "higgsfield",
+      "model": "text2speech_v2",
+      "variant": "elevenlabs",
+      "voice_type": "element",
+      "voice_id": "70f487de-93d3-4c8c-bac9-65d384893c78",
+      "tempo": 1.15,
+      "elevenlabs_voice_id": null
+    },
+    "sachdev": {
+      "provider": "higgsfield",
+      "model": "text2speech_v2",
+      "variant": "elevenlabs",
+      "voice_type": "element",
+      "voice_id": "37d2ed5d-2bf5-4065-8290-9c989d2f3d4e",
+      "status": "possibly deleted to free a clone slot; verify with list_voices",
+      "tempo": 1.0,
+      "elevenlabs_voice_id": null
+    },
+    "rahul": {
+      "provider": "higgsfield",
+      "model": "seed_audio",
+      "audio_reference": "70ea3252-872f-428f-9776-c356e521f141",
+      "loudness_rate": 40,
+      "phone": true,
+      "elevenlabs_voice_id": null
+    }
+  },
+  "audio": {
+    "samachar_sting": "assets/audio/samachar_sting.mp3"
+  },
+  "logos": {
+    "nse": "assets/logos/nse_logo.png",
+    "doordhan": "assets/logos/doordhan_logo.png"
+  },
+  "cards": {
+    "samachar_title": "assets/cards/samachar_title.png",
+    "hum_finance_slate": "assets/cards/hum_finance_slate.png"
+  }
+}
