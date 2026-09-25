@@ -17,6 +17,7 @@
 - New story, new location: generate Gupta's keyframe there from his sheet and the style reference, with onlookers reacting to the camera.
 
 ## Sarika's wardrobe (a new look every episode)
+> **Platform risk, flagged 2026-09-25, awaiting Akhilesh's decision:** Instagram's Recommendation Guidelines exclude "pictures of people in see-through clothing" from recommendations, and Meta demotes suggestive posing. w1's sheer black chiffon is see-through fabric. Recommended: keep the neckline level but use opaque fabrics (silk, satin, georgette, crepe) and head-and-shoulders framing, never a chest-focused frame. See docs/platform-playbook.md.
 Akhilesh, 2026-09-25: a glamorous anchor with visible cleavage is the hook for this audience, at the level of the black deep-V sari (w1). The same clothes every episode gets boring, so vary the outfit, neckline shape and hairstyle, and don't go beyond w1, because overdone reads as AI. It doesn't have to be a sari every time.
 1. **Never repeat on air.** Each episode she wears an outfit and hairstyle she hasn't worn before. Check registry `wardrobe_log`, pick from the bank or design a new outfit, add it to the bank, and log it once the final is approved. Propose the outfit in one line at the script gate.
 2. **Cleavage at w1's level is the baseline.** Vary its shape rather than its amount: deep V, sweetheart, wrap, camisole under an open blazer, satin shirt unbuttoned to a V, off-shoulder. Stay at or just under w1; never more.

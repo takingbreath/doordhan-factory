@@ -31,7 +31,7 @@ real options, and a Hinglish draft he can punch up in two minutes. Clarity beats
 - One real joke line per reel minimum. Jokes land on the system, the seller or the herd.
 - Characters in shot speak; long explanations go to the correspondent or a voice-over.
 - Numbers: at most two per reel, and round them the way a person would say them.
-- Compliance: no buy/sell calls, no promised returns (a hard rule in CLAUDE.md).
+- Compliance: no buy/sell calls, no promised returns (a hard rule in CLAUDE.md). Also avoid "guaranteed" and "risk-free", and don't pair price data under 30 days old with a named stock in a directional way (SEBI, from 1 Jul 2026). No "share/comment/tag" asks: Meta demotes them. Details in docs/platform-playbook.md.
 
 ## What didn't land with Akhilesh (learn from it; don't fear trying new things)
 - Clever-but-unclear hooks (a GMP countdown "300... 200... 150... 60" read as noise).
