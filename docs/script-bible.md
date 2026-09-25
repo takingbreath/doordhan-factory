@@ -13,6 +13,14 @@ real options, and a Hinglish draft he can punch up in two minutes. Clarity beats
 6. Anything that needs his decision (length over cap, compliance edge).
 7. Wardrobe: one line per on-screen character with this episode's outfit (new every episode; see the format file), e.g. "Sarika: bottle-green georgette, sweetheart blouse, low bun".
 
+## The first 3 seconds (from the first Instagram data, 2026-09-25)
+54–67% of viewers swiped away within 3 seconds, and the reel that opened on Sarika looking down at her papers lost the most. So:
+- The first words are the stake. The Samachar can still open like a news reading: "नमस्कार — <hook question>" in one breath, with no pause after नमस्कार.
+- Frame 1: eye contact, the subject visible (logo inset), and the hook as big bold on-screen text in Roman Hinglish, e.g. "NSE IPO: galat faisla?" Use a 90s-TV lower-third headline strip, built locally.
+- Something changes inside the first second: a cut, a push-in or a caption slam.
+- The title card comes after the hook, never first.
+- Choose the cover frame: eye contact plus the hook text.
+
 ## What has worked (defaults, not laws)
 - Write the idea in English first. Translate to Hinglish last. Thinking in Hindi first produced clunky lines.
 - Hinglish = spoken Hindi with the English words people actually say (listing gain, investors, watchlist, business). Not shuddh Hindi.

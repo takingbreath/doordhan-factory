@@ -208,8 +208,11 @@
   },
   "channels": {
     "_note": "Doordhan's own accounts, for the analyst. Fill in the handles; connect both inside vidIQ (app.vidiq.com) so owner insights work.",
-    "instagram_handle": null,
+    "instagram_handle": "doordhan",
     "youtube_channel_id": null,
-    "vidiq_connected_youtube_2026_09_25": "UC6HBARrXIDyTNfhI0YRl19w is 'The Y-Axis' (0 videos), not Doordhan"
+    "vidiq_connected_youtube_2026_09_25": "UC6HBARrXIDyTNfhI0YRl19w is 'The Y-Axis' (0 videos), not Doordhan",
+    "instagram_platform_account_id": "38813220511658947",
+    "instagram_display_name": "DoorDhan | Finance News",
+    "_youtube": "No Doordhan YouTube channel yet (Akhilesh, 2026-09-25); 'The Y-Axis' is unrelated."
   }
 }
