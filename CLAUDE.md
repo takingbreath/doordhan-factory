@@ -36,6 +36,7 @@ If you think one of these is holding the channel back, say so at a gate.
 - **News reels** open like a news reading, not a sales pitch.
 - **Humour** lands on the system, the seller or the herd, not the viewer.
 - **Topics to rest for now:** EMIs, loans, iPhone.
+- **Wardrobe changes every episode.** No character wears the same outfit twice on air. Sarika is now a glamorous 90s film-star newsreader: her sari, hairstyle and neckline vary each episode as a hook, never escalating and never overdone, because overdone reads as AI. Rules, outfit bank and filter limits are in formats/samachar.md; worn outfits go in registry `wardrobe_log`.
 
 ## What production has taught us (defaults, with the reason)
 - **Character sheets:** seedream_v5_pro, 2k, 1:1, about 2.5 credits. Beat Nano Banana for character consistency. Recipe in formats/_TEMPLATE.md.

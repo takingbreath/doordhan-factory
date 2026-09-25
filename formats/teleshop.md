@@ -4,8 +4,8 @@
 **When to use it:** products and pitches with hidden costs or tricks, like "No-Cost EMI", "guaranteed returns" plans, insurance-plus-investment, credit card offers, and any marketing that makes a number look smaller than it is. (EMI and loan topics are resting for now.) Episode 1: iPhone 18 Pro on EMI.
 
 ## Characters
-- **SACHDEV**, presenter. Shiny grey double-breasted suit, pink shirt, maroon tie, moustache, relentless grin. Sheet 0e4faf46-aa1e-4c29-b2b9-dd2d84f5b2e2. Voice: none right now. His Higgsfield clone was confirmed deleted on 2026-09-25; before the next teleshop, design or clone a voice on ElevenLabs (no credits) rather than a new Higgsfield voice element (40 credits), and put its id in the registry.
-- **RAHUL**, caller. Tired young office clerk, checked shirt, small green-walled rented room, beige cordless phone. Sheet 8bfe4cbc-c483-455a-a9fc-c1080f1fb435. Room c0f6ef01-915e-4313-bcfe-31b657ac733d. Voice: registry "rahul" (landline EQ with prep_line.py --phone).
+- **SACHDEV**, presenter. Shiny grey double-breasted suit, pink shirt, maroon tie, moustache, relentless grin. New outfit every episode: a different loud 90s suit, shirt and tie (shiny teal, mustard, maroon...); the moustache, puffed hair and grin stay. Sheet 0e4faf46-aa1e-4c29-b2b9-dd2d84f5b2e2. Voice: none right now. His Higgsfield clone was confirmed deleted on 2026-09-25; before the next teleshop, design or clone a voice on ElevenLabs (no credits) rather than a new Higgsfield voice element (40 credits), and put its id in the registry.
+- **RAHUL**, caller. Tired young office clerk, checked shirt, small green-walled rented room, beige cordless phone. A different shirt each episode (plain, stripes or big checks; small checks shimmer). Sheet 8bfe4cbc-c483-455a-a9fc-c1080f1fb435. Room c0f6ef01-915e-4313-bcfe-31b657ac733d. Voice: registry "rahul" (landline EQ with prep_line.py --phone).
 
 ## Sets and keyframes (from Episode 1)
 - Pink studio with the presenter, price graphic, "ABHI CALL KAREIN!" lower third and DOORDHAN bug; the master style frame: 2557c287-bf5c-4905-933e-9b75f04c4a79 (4:3 original 82b77b0f-5b58-43ab-b6bd-89c1033bb8f5)

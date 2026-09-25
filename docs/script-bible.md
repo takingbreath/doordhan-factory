@@ -11,6 +11,7 @@ real options, and a Hinglish draft he can punch up in two minutes. Clarity beats
 4. Word count and estimated duration (about 2.9 spoken words per second after the 1.15 tempo).
 5. Fact box: every number or claim, with its source link.
 6. Anything that needs his decision (length over cap, compliance edge).
+7. Wardrobe: one line per on-screen character with this episode's outfit (new every episode; see the format file), e.g. "Sarika: bottle-green georgette, sweetheart blouse, low bun".
 
 ## What has worked (defaults, not laws)
 - Write the idea in English first. Translate to Hinglish last. Thinking in Hindi first produced clunky lines.

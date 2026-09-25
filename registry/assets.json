@@ -37,9 +37,11 @@
     "teleshop_rahul_dawn_phone": "674ae3b2-8e71-4d1d-b029-b01565e2a27e",
     "teleshop_sms_bounced": "6262a8b9-f916-425c-9771-297a865d7177",
     "teleshop_split_screen_reference_only": "f0a0aa7f-db50-4ddc-aae6-b003dec12d3f",
-    "samachar_closeup_glam_maroon": "53a7d3d5-118b-48ce-be8e-3dd475dcd202",
-    "samachar_closeup_glam_black": "c4ffcaa4-6c7c-495f-ad4e-06a5300fda80",
-    "samachar_closeup_glam_black_vneck_edge": "6980440f-99d3-4db4-89e9-5805d4a03303"
+    "samachar_closeup_glam_black_vneck_edge": "6980440f-99d3-4db4-89e9-5805d4a03303",
+    "sarika_closeup_w1_maroon_chiffon": "53a7d3d5-118b-48ce-be8e-3dd475dcd202",
+    "sarika_closeup_w2_black_chiffon": "c4ffcaa4-6c7c-495f-ad4e-06a5300fda80",
+    "sarika_closeup_w3_green_georgette": "2274317d-c793-4fa5-8005-393969961364",
+    "sarika_closeup_w4_peach_chiffon": "9a5a400f-cfbf-4035-bcad-573ad0c67dff"
   },
   "voices": {
     "sarika": {
@@ -111,6 +113,12 @@
         355,
         100,
         80
+      ],
+      "sarika_closeup_w1_maroon_chiffon": [
+        200,
+        375,
+        80,
+        60
       ]
     }
   },
@@ -126,11 +134,51 @@
         "track_media": "c52e73ab-0911-421d-9aab-9b4124f3d7f5"
       },
       "notes": "3 s Wan 2.7 720p close-up from the setup test (2026-09-25). Passed check_match (1.00) and lipcheck. Reusable as an opening or sign-off ident."
+    },
+    "sarika_glam_maroon_tagline": {
+      "video_job": "f3593cec-5c19-46cf-a6b5-8ecc2cbba578",
+      "line": "नमस्कार। सब कुछ महँगा... सच मुफ़्त।",
+      "outfit": "w1 maroon chiffon",
+      "notes": "3 s Wan 720p from the X1 glam test. Audio kept (1.00); lips move (1.15 / 1.30 with head tilts)."
     }
   },
   "keyframes_notes": {
-    "samachar_closeup_glam_maroon": "2026-09-25 Sarika glam test: maroon chiffon with a gold border, sleeveless gold blouse, hair open, jhumkas, red lipstick. Same face and close-up framing as samachar_closeup. Animated as the glam tagline test.",
-    "samachar_closeup_glam_black": "2026-09-25: black chiffon with a sequinned border, sleeveless boat neck, hair open, silver jhumkas.",
+    "sarika_closeup_w*": "Sarika's wardrobe bank (formats/samachar.md). One close-up per outfit; the table there has details and mouth boxes.",
     "samachar_closeup_glam_black_vneck_edge": "2026-09-25: deep-V version, the only one of five cleavage-forward prompts GPT Image 2.5 let through. The face drifted older, and using it as a reference trips the NSFW filter. Not for production."
+  },
+  "wardrobe_log": {
+    "_note": "One row per character per episode, added when the final is approved. Nobody wears the same outfit twice on air.",
+    "rows": [
+      {
+        "episode": "2",
+        "date": "2026-09-25",
+        "character": "sarika",
+        "outfit": "w5 mustard handloom, maroon border; low bun"
+      },
+      {
+        "episode": "2",
+        "date": "2026-09-25",
+        "character": "gupta",
+        "outfit": "sand-beige Nehru half-jacket, pale blue shirt"
+      },
+      {
+        "episode": "1",
+        "date": "2026-09-23",
+        "character": "sachdev",
+        "outfit": "shiny grey double-breasted suit, pink shirt, maroon tie"
+      },
+      {
+        "episode": "1",
+        "date": "2026-09-23",
+        "character": "rahul",
+        "outfit": "checked shirt"
+      },
+      {
+        "episode": "X1 (test, not aired)",
+        "date": "2026-09-25",
+        "character": "sarika",
+        "outfit": "w1 maroon chiffon, gold sleeveless blouse; open waves"
+      }
+    ]
   }
 }

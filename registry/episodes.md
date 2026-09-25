@@ -30,4 +30,9 @@ Add a row per episode, and a line whenever you change a default or a tool.
   - **Not a return to 480p:** it saves no money (Wan's cheapest tier is 720p) and only blurs; the look is built deliberately instead. The edit stays at 720.
   - The test final dropped from 19 MB to 13 MB, because the softer grain compresses better.
   - **ElevenLabs connector verified:** transcribing Sarika's line gave "नमस्कार सब कुछ महंगा सच मुफ्त", matching the script word for word (16.5 ElevenLabs credits, about ₹0.29).
+- 2026-09-25 (Akhilesh picked the maroon glam look, and asked for new clothes every video, varied necklines and hairstyles, not overdone):
+  - **Sarika is now a glamorous 90s film-star newsreader** with a new outfit and hairstyle every episode. Rules and a 5-outfit bank are in formats/samachar.md, and CLAUDE.md carries the short version. Worn outfits go in registry `wardrobe_log`; the script message proposes each character's outfit. Gupta, Sachdev and Rahul change clothes each episode too, keeping their signature items.
+  - **Neckline ladder, tested:** outfits named by blouse cut ("sweetheart neckline", "square neckline", "boat neck", "sleeveless") passed 5 of 5; prompts that said "cleavage" were blocked 4 of 5. So prompts name the cut and never say "cleavage", and a blocked prompt steps one rung more modest rather than being reworded to get past the filter.
+  - Light 90s makeup (kohl, brown-red or rose lipstick) keeps her looking 26; heavy glam makeup aged her.
+  - Credits: 0.5 for two new bank outfits (green georgette, peach chiffon). Experiments this week: 5.75 of 15.
 
