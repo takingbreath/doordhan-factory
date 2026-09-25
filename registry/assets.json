@@ -36,7 +36,10 @@
     "teleshop_rahul_wait": "b051a771-57dd-41a7-8478-f29c98c699e5",
     "teleshop_rahul_dawn_phone": "674ae3b2-8e71-4d1d-b029-b01565e2a27e",
     "teleshop_sms_bounced": "6262a8b9-f916-425c-9771-297a865d7177",
-    "teleshop_split_screen_reference_only": "f0a0aa7f-db50-4ddc-aae6-b003dec12d3f"
+    "teleshop_split_screen_reference_only": "f0a0aa7f-db50-4ddc-aae6-b003dec12d3f",
+    "samachar_closeup_glam_maroon": "53a7d3d5-118b-48ce-be8e-3dd475dcd202",
+    "samachar_closeup_glam_black": "c4ffcaa4-6c7c-495f-ad4e-06a5300fda80",
+    "samachar_closeup_glam_black_vneck_edge": "6980440f-99d3-4db4-89e9-5805d4a03303"
   },
   "voices": {
     "sarika": {
@@ -124,5 +127,10 @@
       },
       "notes": "3 s Wan 2.7 720p close-up from the setup test (2026-09-25). Passed check_match (1.00) and lipcheck. Reusable as an opening or sign-off ident."
     }
+  },
+  "keyframes_notes": {
+    "samachar_closeup_glam_maroon": "2026-09-25 Sarika glam test: maroon chiffon with a gold border, sleeveless gold blouse, hair open, jhumkas, red lipstick. Same face and close-up framing as samachar_closeup. Animated as the glam tagline test.",
+    "samachar_closeup_glam_black": "2026-09-25: black chiffon with a sequinned border, sleeveless boat neck, hair open, silver jhumkas.",
+    "samachar_closeup_glam_black_vneck_edge": "2026-09-25: deep-V version, the only one of five cleavage-forward prompts GPT Image 2.5 let through. The face drifted older, and using it as a reference trips the NSFW filter. Not for production."
   }
 }

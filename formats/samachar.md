@@ -8,6 +8,7 @@
 - **GUPTA**, field correspondent. About 40, bald, moustache, metal spectacles, sand-beige Nehru half-jacket over a pale blue shirt, press card, a dark mic with a DOORDHAN flag. Sheet b51d1f5e-bad5-4f00-af03-f55ff28ed8a0. Voice: registry "gupta".
 
 ## Sets and keyframes
+- Glam Sarika (test, 2026-09-25, awaiting Akhilesh's pick): close-ups in the same framing, 90s film-star styling. Maroon chiffon with a gold sleeveless blouse: 53a7d3d5-118b-48ce-be8e-3dd475dcd202 (animated; mouth box 200 375 80 60). Black chiffon with a sleeveless boat neck: c4ffcaa4-6c7c-495f-ad4e-06a5300fda80. The image model blocks cleavage-forward prompts, so glam comes from hair, makeup, jewellery, bare shoulders and attitude.
 - Desk, medium shot, framed inset box top-right ("DOORDHAN समाचार"): 3501fe96-8bd8-41e8-bd02-3c5ca42c8bea
 - Anchor close-up on the powder-blue backdrop: 1aed7ca2-bbe1-44e2-8237-6a82d4c5d2cf (mouth box for lipcheck: 195 355 100 80)
 - Gupta outside a 90s stock exchange (ticker board, crowd, onlookers staring at him): bed104cc-72e2-4c6b-a3ac-3bde4ef6ebd1
