@@ -18,7 +18,7 @@ run([FFMPEG, "-y", "-v", "error", "-ss", f"{start:.3f}", "-i", a.sting, "-af",
      "aresample=48000,aformat=channel_layouts=stereo,afade=t=in:d=0.15", tmp])
 I, _ = loudness(tmp)
 frames = int(round(a.seconds * FPS))
-vf = (f"scale={W*3}:{H*3},zoompan=z='1.12-0.12*on/{frames}':x='iw/2-iw/zoom/2':y='ih/2-ih/zoom/2':"
+vf = (f"scale={W*2}:{H*2},zoompan=z='1.12-0.12*on/{frames}':x='iw/2-iw/zoom/2':y='ih/2-ih/zoom/2':"
       f"d={frames}:s={W}x{H}:fps={FPS},eq=brightness='0.015*sin(50*t)',format=yuv420p,setsar=1")
 run([FFMPEG, "-y", "-v", "error", "-loop", "1", "-framerate", str(FPS), "-i", a.image, "-i", tmp,
      "-filter_complex", f"[0:v]{vf}[v];[1:a]volume={a.lufs - I:.2f}dB[a]", "-map", "[v]", "-map", "[a]",

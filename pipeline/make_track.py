@@ -30,3 +30,8 @@ clip = max(a.min, math.ceil(speech_end + a.hold))
 run([FFMPEG, "-y", "-v", "error", "-i", joined, "-af", f"apad=whole_dur={clip}", "-t", str(clip),
      "-c:a", "libmp3lame", "-b:a", "256k", "-ar", "48000", a.out])
 print(f"{a.out}: clip duration {clip}s (speech ends at {speech_end:.2f}s)")
+# Video models bill per whole second, so a hold that spills past a boundary buys a second of silence.
+tight = max(a.min, math.ceil(speech_end + 0.2))
+if tight < clip:
+    print(f"  note: --hold {max(0.2, round(tight - speech_end - 0.01, 2))} would make it {tight}s "
+          f"(saves {clip - tight}s of video, about {1.5 * (clip - tight):.1f} credits on Wan 720p)")

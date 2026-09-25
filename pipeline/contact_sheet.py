@@ -3,7 +3,7 @@
 contact_sheet.py CLIP.mp4 OUT.png --fps 2            (every half second)
 contact_sheet.py CLIP.mp4 OUT.png --times 3.9 4.2 ... (specific moments, e.g. either side of each join)"""
 import argparse, os, tempfile
-from common import FFMPEG, run
+from common import FFMPEG, run, duration
 
 p = argparse.ArgumentParser()
 p.add_argument("clip"); p.add_argument("out")
@@ -16,9 +16,14 @@ if a.times:
         f = os.path.join(tmp, f"{i:03d}.png")
         run([FFMPEG, "-y", "-v", "error", "-ss", str(t), "-i", a.clip, "-frames:v", "1", "-vf", f"scale={a.width}:-2", f])
         ins += ["-i", f]
-    run([FFMPEG, "-y", "-v", "error", *ins, "-filter_complex", f"hstack=inputs={len(a.times)}", a.out])
+    if len(a.times) == 1:   # hstack needs two or more inputs (a one-part edit has no joins)
+        run([FFMPEG, "-y", "-v", "error", *ins, a.out])
+    else:
+        run([FFMPEG, "-y", "-v", "error", *ins, "-filter_complex", f"hstack=inputs={len(a.times)}", a.out])
 else:
     fps = a.fps or 1
-    run([FFMPEG, "-y", "-v", "error", "-i", a.clip, "-vf", f"fps={fps},scale={a.width}:-2,tile=12x2",
+    n = max(1, round(duration(a.clip) * fps))
+    cols = min(12, n); rows = -(-n // cols)          # grid sized to the clip (was always 12x2)
+    run([FFMPEG, "-y", "-v", "error", "-i", a.clip, "-vf", f"fps={fps},scale={a.width}:-2,tile={cols}x{rows}",
          "-frames:v", "1", a.out])
 print(a.out)

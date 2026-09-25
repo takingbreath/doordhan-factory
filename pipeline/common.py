@@ -4,7 +4,9 @@ import numpy as np
 
 FFMPEG = shutil.which("ffmpeg") or "ffmpeg"
 FFPROBE = shutil.which("ffprobe") or "ffprobe"
-W, H, FPS = 480, 854, 24          # working resolution (9:16)
+W, H, FPS = 720, 1280, 24         # edit resolution (9:16). Wan 720p delivers 718x1282; editing at 480 threw half of it away
+AW, AH = 480, 854                 # analysis frame: lipcheck boxes and inset-box coordinates are given in this frame
+S = W / AW                        # analysis -> edit scale
 
 
 def run(cmd):

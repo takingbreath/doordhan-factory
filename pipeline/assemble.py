@@ -4,11 +4,13 @@ Usage: assemble.py work/<ep>/edit.json
 edit.json:
 { "out": "outputs/<ep>/final.mp4",
   "parts": [ {"file": "work/<ep>/A.mp4", "start": 0, "end": 4.06},
-             {"file": "work/<ep>/montage.mkv"},
+             {"file": "work/<ep>/montage.mkv", "lufs": -17},
              {"file": "work/<ep>/C.mp4", "start": 0.1, "end": 13.0} ],
   "target_lufs": -14, "finish": true }
-Cut points must come from speech_map.py on each generated clip. Never cut before the last word."""
-import json, os, subprocess, sys, tempfile
+Cut points must come from speech_map.py on each generated clip. Never cut before the last word.
+Each part with sound is levelled to its "lufs" (default -16, the line level) before joining: video models change
+the level of the track we give them (Wan raised one by 3 dB), which undoes the per-line levelling. "lufs": null skips it."""
+import json, os, shutil, subprocess, sys, tempfile
 from common import FFMPEG, FFPROBE, W, H, FPS, run, duration, loudness
 
 spec = json.load(open(sys.argv[1]))
@@ -31,7 +33,16 @@ for i, p in enumerate(spec["parts"]):
                 "-map", "0:v", "-map", "1:a"]
     cmd += ["-c:v", "libx264", "-crf", "16", "-preset", "veryfast", "-pix_fmt", "yuv420p",
             "-c:a", "pcm_s16le", "-ar", "48000", "-ac", "2", out]
-    run(cmd); parts.append(out); t += duration(out); bounds.append(t)
+    run(cmd)
+    target = p.get("lufs", -16)
+    if has_audio and target is not None:
+        I0, _ = loudness(out)
+        if I0 is not None and I0 > -60 and abs(target - I0) > 0.3:
+            pre = out + ".pre.mkv"; shutil.move(out, pre)
+            run([FFMPEG, "-y", "-v", "error", "-i", pre, "-c:v", "copy", "-af",
+                 f"volume={target - I0:.2f}dB,alimiter=limit=0.84:level=false", "-c:a", "pcm_s16le", out])
+            print(f"part {i}: levelled {I0} -> {target} LUFS")
+    parts.append(out); t += duration(out); bounds.append(t)
 lst = os.path.join(tmp, "list.txt")
 open(lst, "w").write("".join(f"file '{p}'\n" for p in parts))
 joined = os.path.join(tmp, "joined.mkv")

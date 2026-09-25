@@ -40,6 +40,12 @@ step("prep_line (trim, tighten pauses, level, tempo)", lambda: tool("prep_line.p
 def lvl():
     I, _ = loudness(line); assert abs(I + 16) < 1.0, f"loudness {I}"; return f"{I} LUFS"
 step("line levelled to -16 LUFS", lvl)
+# A real TTS line (Sarika, 3 s). Synthetic tones hid a bug: before 2026-09-25 this line landed at -17.3 LUFS.
+real = os.path.join(T, "real.wav")
+def real_line():
+    tool("prep_line.py", os.path.join(here, "fixtures", "sarika_line_raw.mp3"), real, "--tempo", "1.15")
+    I, _ = loudness(real); assert abs(I + 16) < 0.5, f"real line landed at {I} LUFS"; return f"{I} LUFS"
+step("prep_line hits -16 LUFS on a real voice line", real_line)
 track = os.path.join(T, "track.mp3")
 step("make_track (padded, whole seconds)", lambda: tool("make_track.py", track, line, "--min", "4"))
 clip = os.path.join(T, "clip.mp4")
@@ -49,6 +55,12 @@ step("speech_map", lambda: tool("speech_map.py", clip))
 def match():
     out = tool("check_match.py", clip, track); assert out.startswith("PASS"), out; return out
 step("check_match", match)
+def mismatch():
+    rev = os.path.join(T, "rev.mp3")
+    run([FFMPEG, "-y", "-v", "error", "-i", track, "-af", "areverse", rev])
+    out = tool("check_match.py", clip, rev); assert out.startswith("FAIL"), out; return "reversed track rejected"
+step("check_match rejects different audio", mismatch)
+step("lipcheck runs", lambda: tool("lipcheck.py", clip, "--box", "190", "350", "100", "80"))
 title, logo = os.path.join(T, "title.png"), os.path.join(T, "logo.png")
 def imgs():
     im = Image.new("RGB", (752, 1344), (20, 40, 160)); ImageDraw.Draw(im).ellipse([226, 400, 526, 700], fill=(230, 180, 40)); im.save(title)
@@ -68,6 +80,11 @@ def assemble():
                {"file": clip, "start": 0.0}], "target_lufs": -14}, open(edit, "w"))
     out = tool("assemble.py", edit); I, _ = loudness(final); assert abs(I + 14) < 1.0, f"final loudness {I}"; return out.splitlines()[0]
 step("assemble (finish, 1080x1920, -14 LUFS, joins sheet)", assemble)
+def assemble_one():
+    e1, f1 = os.path.join(T, "edit1.json"), os.path.join(T, "final1.mp4")
+    json.dump({"out": f1, "parts": [{"file": clip}]}, open(e1, "w"))
+    tool("assemble.py", e1); return f"{duration(f1):.1f}s"
+step("assemble a one-part edit (no joins)", assemble_one)
 for r in results:
     print(f"{r[0]}  {r[1]}  {r[2][:160]}")
 print("\nALL PASS" if all(r[0] == "PASS" for r in results) else "\nSOME STEPS FAILED")

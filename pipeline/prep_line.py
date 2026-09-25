@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Clean one raw TTS line: trim edge silence, tighten long pauses, level to -16 LUFS, optional tempo, peak limit.
 Usage: prep_line.py RAW.mp3 OUT.wav [--tempo 1.15] [--phone]"""
-import argparse, os, tempfile
+import argparse, os, shutil, tempfile
 from common import FFMPEG, run, loudness, duration, speech_map
 
 p = argparse.ArgumentParser()
@@ -30,5 +30,15 @@ if abs(a.tempo - 1) > 1e-3:
     post += f",atempo={a.tempo}"
 post += ",alimiter=limit=0.84:level=false"
 run([FFMPEG, "-y", "-v", "error", "-i", tmp, "-af", post, a.out])
+# Tempo and the peak limiter pull real speech off target (a TTS line landed at -17.3 instead of -16),
+# so measure the finished file and correct the residual.
+for _ in range(3):
+    I2, _ = loudness(a.out)
+    if I2 is None or abs(a.target - I2) < 0.3:
+        break
+    prev = os.path.join(tempfile.mkdtemp(), "p.wav")
+    shutil.move(a.out, prev)
+    run([FFMPEG, "-y", "-v", "error", "-i", prev, "-af",
+         f"volume={a.target - I2:.2f}dB,alimiter=limit=0.84:level=false", a.out])
 sm = speech_map(a.out)
 print(f"{a.out}: {duration(a.out):.2f}s  loudness {loudness(a.out)[0]} LUFS  pauses {sm['pauses']}")
