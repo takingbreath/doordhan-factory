@@ -13,7 +13,8 @@ Goal: three story options Akhilesh can pick from in 30 seconds, each graded on h
 1. Get today's date from the system clock (do not trust injected dates).
 2. Read CLAUDE.md (rested topics, hard rules), docs/strategy.md (the open bets and "This week's plan"), registry/episodes.md (topics already made), docs/learnings.md (the strategist's "Ride now" and "This week" notes: follow-ups on reels that are taking off come first) and docs/platform-playbook.md. `python3 pipeline/scoreboard.py brief` gives three lines on where we stand; they go at the top of the email.
 3. **Gather about ten candidates:**
-   - Web searches across markets, IPOs and listings, SEBI and RBI, tax, banks and salaries, gold and fuel, big company events, viral money stories (last 48 hours).
+   - Web searches across markets, big stock movers, IPOs and listings, SEBI and RBI, tax, banks and salaries, gold and fuel, big company events, viral money stories (last 48 hours).
+   - **Big stock movers (Akhilesh, 2026-09-26: people always want to know why a stock crashed or flew):** the biggest one-day and one-week gainers and losers among well-known listed companies (Nifty 500, recent IPOs, household brands). Search e.g. "top losers this week", "shares crash", "stock zooms", and keep any move of about 10% or more in a day, or 20% or more in a week, with a clear cause. The reel explains why it moved and what to watch next, never whether to buy or sell. Mind the SEBI price-data rule in docs/platform-playbook.md: report the move as news, with no price chart, price levels, targets or analyst ratings.
    - Google Trends India: the bottom line of `pipeline/trends.py` lists what India is searching for right now.
    - vidIQ connector: trending videos and outliers (videos far outperforming their channel's usual views) in Indian finance and business this week. Outliers show what is breaking out before the news catches up.
    - Deep lane: `python3 pipeline/deep_leads.py` gives the last 7 days of headlines from the top eight sources in docs/sources.md (The Ken, The Morning Context, SEBI orders, Moneylife, ET Prime, Reuters exclusives, The Arc, The Core).
@@ -24,7 +25,7 @@ Goal: three story options Akhilesh can pick from in 30 seconds, each graded on h
    | Factor | Points | What earns them |
    |---|---|---|
    | Momentum | 0–3 | 3 HOT (trending on Google, or a video on it gaining ≥3,000 views/hour within 72 h); 2 RISING (≥35% of the week's coverage came today, or uploads are accelerating); 1 FLAT; 0 COLD or fading. The deep lane can score 0 here. |
-   | Stake | 0–2 | Hits the viewer's money or time this week (2), some day (1), abstract (0). |
+   | Stake | 0–2 | Hits the viewer's money as an investor this week (2), some day (1), abstract (0). Our viewers watch for investing stories: everyday banking chores (a bank strike, a holiday, branch timings) score 0 here however hot they are (Akhilesh, 2026-09-26). |
    | Shareability | 0–2 | Makes someone send it to a friend: outrage at the system, a surprising number, relatable pain, an "I told you so". |
    | Gap | 0–2 | Plenty of interest but few good Hinglish shorts on it (vidIQ competition low, few Shorts), or a deep-lane story nobody has made yet. 0 if everyone has already posted the same angle. |
    | Clarity | 0–1 | One number or image that lands in two seconds. |
