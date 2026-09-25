@@ -4,7 +4,7 @@
 **When to use it:** fresh news (listings, SEBI or RBI moves, markets, tax, prices) where the viewer has a stake and a clear question. Episode 2: NSE listing.
 
 ## Characters
-- **SARIKA**, anchor. 26, poised, with a knowing wit; since 2026-09-25 a glamorous 1990s film-star newsreader (Akhilesh's call) who wears a **new outfit and hairstyle every episode** (see "Sarika's wardrobe" below). Her face always comes from sheet 85391de0-1855-486d-9e6b-0e7c841fc038. Voice: registry "sarika" (Higgsfield voice element, tempo 1.15; verified 2026-09-25).
+- **SARIKA**, anchor. 26, poised, with a knowing wit; since 2026-09-25 a glamorous, sexy 1990s newsreader (Akhilesh's call) who wears a **new outfit and hairstyle every episode**, sari or not (see "Sarika's wardrobe" below). Her face always comes from sheet 85391de0-1855-486d-9e6b-0e7c841fc038. Voice: registry "sarika" (Higgsfield voice element, tempo 1.15; verified 2026-09-25).
 - **GUPTA**, field correspondent. About 40, bald, moustache, metal spectacles, sand-beige Nehru half-jacket over a pale blue shirt, press card, a dark mic with a DOORDHAN flag. Sheet b51d1f5e-bad5-4f00-af03-f55ff28ed8a0. Voice: registry "gupta". He changes clothes each episode too: a different shirt and half-jacket colour (plain or bold patterns, never small checks), keeping his spectacles, moustache, press card and DOORDHAN mic.
 
 ## Sets and keyframes
@@ -17,30 +17,39 @@
 - New story, new location: generate Gupta's keyframe there from his sheet and the style reference, with onlookers reacting to the camera.
 
 ## Sarika's wardrobe (a new look every episode)
-Akhilesh, 2026-09-25: the same clothes every time gets boring. Vary the neckline and hairstyle to keep interest, as a hook, but don't overdo it, because overdone reads as AI.
-1. **Never repeat on air.** Each episode she wears an outfit and hairstyle she hasn't worn before. Check registry `wardrobe_log`, pick from the bank below or design a new one, add it to the bank, and log it once the final is approved. Propose the outfit in one line at the script gate.
-2. **The neckline is the hook: vary it, don't escalate it.** Rotate between modest (boat or round neck), medium (square, sweetheart, sleeveless under sheer chiffon; the maroon look is the baseline) and bold (deep V, used sparingly).
-   With GPT Image 2.5, name the blouse cut and fabric and never write "cleavage": 4 of 5 prompts that did were blocked, while cut names passed every time. If a prompt is blocked, go one rung more modest; don't reword it to slip past the filter.
-3. **Glamorous, not AI-glossy.** Use real 1990s saris and blouse cuts, and natural skin texture with a few flyaways. Makeup is the era's: kohl and brown-red or rose lipstick, no contouring, no glass skin. One or two pieces of jewellery, flat TV-studio light. No pouts, sultry poses or hair flips. Heavy glam makeup ages her, so keep it light enough that she reads 26.
-4. **Colour** must stand out against the powder-blue set: no blue saris.
-5. **Same face, same set.** References: sheet 85391de0 for the face, close-up 1aed7ca2 for the look, framing and logo. Prompt: copy the wording of a bank keyframe's prompt (it's stored with the job) and change only the outfit, hair and makeup lines.
-6. **Framing** stays the head-and-shoulders close-up, because lip-sync needs it. The neckline is only partly in frame; the desk shot shows more.
-7. **Cost:** one close-up keyframe per outfit, 0.25 credits (plus a desk frame if the episode opens at the desk). Find its mouth box with `lipcheck.py --face-crop` and record it in the bank.
+Akhilesh, 2026-09-25: a glamorous anchor with visible cleavage is the hook for this audience, at the level of the black deep-V sari (w1). The same clothes every episode gets boring, so vary the outfit, neckline shape and hairstyle, and don't go beyond w1, because overdone reads as AI. It doesn't have to be a sari every time.
+1. **Never repeat on air.** Each episode she wears an outfit and hairstyle she hasn't worn before. Check registry `wardrobe_log`, pick from the bank or design a new outfit, add it to the bank, and log it once the final is approved. Propose the outfit in one line at the script gate.
+2. **Cleavage at w1's level is the baseline.** Vary its shape rather than its amount: deep V, sweetheart, wrap, camisole under an open blazer, satin shirt unbuttoned to a V, off-shoulder. Stay at or just under w1; never more.
+3. **Mix sari and non-sari**, all believable for 1990s India:
+   - chiffon or georgette saris with low-cut blouses
+   - power dressing (blazers with shoulder pads over camisoles)
+   - satin or silk shirts
+   - wrap dresses
+   - Indo-western kurtis with deep necks
+   - the occasional salwar suit
+   Roughly alternate, and never the same kind of outfit twice in a row.
+4. **Model:** make wardrobe keyframes with **seedream_v4_5** (1 credit). GPT Image 2.5 blocked 6 of 8 prompts at this level, and Seedream produced the blazer look on the first try. Wan 2.7 animated w1 with no flag, and its lips scored best of all the tests (1.51 / 1.67). If Seedream blocks a prompt, make that outfit less revealing; don't reword it to slip past the filter.
+5. **Glamorous, not AI-glossy.** Natural skin texture and a few flyaways. The era's makeup: kohl, brick-red or rose lipstick, no contouring, no glass skin. One or two pieces of jewellery, flat TV-studio light. No pouts, sultry poses or hair flips; the knowing half-smile is her thing. Heavy makeup ages her, so keep it light enough that she reads 26.
+6. **Colour** must stand out against the powder-blue set: no blue outfits.
+7. **Same face, same set.** References: sheet 85391de0 for the face, close-up 1aed7ca2 for the look, the powder-blue set and the logo. Frame from just above her head to mid-chest: the face is big enough for lip-sync and the neckline is in shot. Start from the prompt of the nearest bank keyframe (it's stored with the job) and change only the outfit, hair and makeup lines.
+8. **Cost:** one close-up keyframe per outfit, 1 credit on Seedream (plus a desk frame if the episode opens at the desk). Find its mouth box with `lipcheck.py --face-crop` and record it in the bank.
 
-| # | Outfit | Hair | Neckline | Close-up keyframe | Worn |
+| # | Outfit | Hair | Type | Close-up keyframe | Worn |
 |---|---|---|---|---|---|
-| 1 | Maroon chiffon, thin gold border; fitted sleeveless gold-silk blouse; gold chain, gold jhumkas; red lipstick | open glossy 90s waves over one shoulder | medium (baseline) | 53a7d3d5-118b-48ce-be8e-3dd475dcd202 (mouth box 200 375 80 60) | glam test X1 (Akhilesh's pick) |
-| 2 | Sheer black chiffon, sequinned silver border; sleeveless black boat-neck blouse; silver jhumkas | open, side-swept waves | modest, with sheer drape | c4ffcaa4-6c7c-495f-ad4e-06a5300fda80 | not yet |
-| 3 | Bottle-green georgette, thin gold border; short-sleeved sweetheart blouse; emerald studs, gold chain; brown-red lipstick | loose low bun, face-framing strands | medium | 2274317d-c793-4fa5-8005-393969961364 | not yet |
-| 4 | Sheer peach chiffon, silver border; sleeveless square-neck blouse; pearl drops; rose lipstick | half-up, soft loose curls | medium | 9a5a400f-cfbf-4035-bcad-573ad0c67dff | not yet |
-| 5 | Mustard handloom, maroon border (the original) | low bun with soft waves | modest | 1aed7ca2-bbe1-44e2-8237-6a82d4c5d2cf | Episode 2, T1; keep for sombre stories |
+| w1 | Sheer black chiffon, sequinned silver border; fitted black sleeveless deep-V blouse; thin pendant, silver jhumkas; deep red lipstick | open, voluminous side-swept waves | sari (**the reference level**) | 6980440f-99d3-4db4-89e9-5805d4a03303 (GPT Image; mouth box 220 360 70 55) | test X2, Akhilesh's pick |
+| w2 | Black blazer with puffed shoulders, open over an ivory satin deep-V camisole; gold hoops; brick-red lipstick | big 90s blow-dry, shoulder length | power dressing | 0182e812-01ff-4161-b46e-2e22b3c4ff1e (Seedream 4.5) | not yet |
+| w3 | Maroon chiffon, gold border; sleeveless gold-silk blouse; gold jhumkas | open glossy waves | sari, more covered | 53a7d3d5-118b-48ce-be8e-3dd475dcd202 (mouth box 200 375 80 60) | test X1; too covered on its own, better as a change of pace |
+| w4 | Mustard handloom, maroon border (the original) | low bun with soft waves | sari, modest | 1aed7ca2-bbe1-44e2-8237-6a82d4c5d2cf | Episode 2, T1; only for sombre stories |
+
+Retired (Akhilesh: "don't show anything at all"): black boat neck c4ffcaa4, green sweetheart 2274317d, peach square-neck 9a5a400f.
 
 Ideas not generated yet:
-- fuchsia georgette, sleeveless, high voluminous ponytail
-- white chiffon with black polka dots, red blouse, open curls
-- mauve sequinned chiffon, sleeveless V, blow-dried layered bob
-- ivory silk with a red border, puff-sleeve blouse, side braid
-- a bold deep-V look (expect the filter to block it sometimes)
+- wine-red satin shirt unbuttoned to a V, high voluminous ponytail
+- emerald wrap dress with a deep V, blow-dried layered bob
+- fuchsia georgette sari with a low sweetheart blouse, hair open
+- white chiffon sari with black polka dots and a red deep-V blouse, curls
+- ivory kurti with a deep neck and a sheer dupatta, side braid
+- an off-shoulder 90s top in mustard or red, big curls
 
 ## Look and graphics
 - Flat powder-blue studio, DOORDHAN rupee-coin bug top-right, 90s CRT softness. Finish: look `broadcast` (the default in assemble.py).

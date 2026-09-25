@@ -37,11 +37,10 @@
     "teleshop_rahul_dawn_phone": "674ae3b2-8e71-4d1d-b029-b01565e2a27e",
     "teleshop_sms_bounced": "6262a8b9-f916-425c-9771-297a865d7177",
     "teleshop_split_screen_reference_only": "f0a0aa7f-db50-4ddc-aae6-b003dec12d3f",
-    "samachar_closeup_glam_black_vneck_edge": "6980440f-99d3-4db4-89e9-5805d4a03303",
-    "sarika_closeup_w1_maroon_chiffon": "53a7d3d5-118b-48ce-be8e-3dd475dcd202",
-    "sarika_closeup_w2_black_chiffon": "c4ffcaa4-6c7c-495f-ad4e-06a5300fda80",
-    "sarika_closeup_w3_green_georgette": "2274317d-c793-4fa5-8005-393969961364",
-    "sarika_closeup_w4_peach_chiffon": "9a5a400f-cfbf-4035-bcad-573ad0c67dff"
+    "sarika_closeup_w1_black_vneck_sari": "6980440f-99d3-4db4-89e9-5805d4a03303",
+    "sarika_closeup_w2_power_blazer": "0182e812-01ff-4161-b46e-2e22b3c4ff1e",
+    "sarika_closeup_w3_maroon_chiffon": "53a7d3d5-118b-48ce-be8e-3dd475dcd202",
+    "sarika_closeup_w4_mustard_handloom": "1aed7ca2-bbe1-44e2-8237-6a82d4c5d2cf"
   },
   "voices": {
     "sarika": {
@@ -103,7 +102,10 @@
     "seedream_v5_pro_2k_sheet": 2.5,
     "text2speech_v2_short_line": "0.15 (about 0.15 per 3 s of speech; 0.3-0.75 per line in Episode 2)",
     "higgsfield_voice_element_create": 40,
-    "_billing": "video bills per whole second of requested duration; make_track.py flags holds that spill into an extra second"
+    "_billing": "video bills per whole second of requested duration; make_track.py flags holds that spill into an extra second",
+    "seedream_v4_5_keyframe": 1,
+    "nano_banana_pro_1k": 2,
+    "seedream_v5_pro_keyframe": 2.5
   },
   "qc": {
     "_note": "Mouth boxes [x, y, w, h] in the 480x854 analysis frame, for lipcheck.py / qc.py --box.",
@@ -114,7 +116,13 @@
         100,
         80
       ],
-      "sarika_closeup_w1_maroon_chiffon": [
+      "sarika_closeup_w1_black_vneck_sari": [
+        220,
+        360,
+        70,
+        55
+      ],
+      "sarika_closeup_w3_maroon_chiffon": [
         200,
         375,
         80,
@@ -138,13 +146,24 @@
     "sarika_glam_maroon_tagline": {
       "video_job": "f3593cec-5c19-46cf-a6b5-8ecc2cbba578",
       "line": "नमस्कार। सब कुछ महँगा... सच मुफ़्त।",
-      "outfit": "w1 maroon chiffon",
+      "outfit": "w3 maroon chiffon",
       "notes": "3 s Wan 720p from the X1 glam test. Audio kept (1.00); lips move (1.15 / 1.30 with head tilts)."
+    },
+    "sarika_w1_black_vneck_tagline": {
+      "video_job": "b8e99dd7-3e59-4a0d-9e86-5487af6af382",
+      "line": "नमस्कार। सब कुछ महँगा... सच मुफ़्त।",
+      "outfit": "w1",
+      "notes": "3 s Wan 720p; Wan animated w1 with no flag; audio 1.00; lipcheck 1.51 / 1.67 (best so far)."
     }
   },
   "keyframes_notes": {
-    "sarika_closeup_w*": "Sarika's wardrobe bank (formats/samachar.md). One close-up per outfit; the table there has details and mouth boxes.",
-    "samachar_closeup_glam_black_vneck_edge": "2026-09-25: deep-V version, the only one of five cleavage-forward prompts GPT Image 2.5 let through. The face drifted older, and using it as a reference trips the NSFW filter. Not for production."
+    "sarika_closeup_w*": "Sarika's wardrobe bank (formats/samachar.md). w1 is Akhilesh's reference level. New outfits come from seedream_v4_5.",
+    "retired": {
+      "black_boatneck": "c4ffcaa4-6c7c-495f-ad4e-06a5300fda80",
+      "green_sweetheart": "2274317d-c793-4fa5-8005-393969961364",
+      "peach_squareneck": "9a5a400f-cfbf-4035-bcad-573ad0c67dff",
+      "why": "too covered (Akhilesh)"
+    }
   },
   "wardrobe_log": {
     "_note": "One row per character per episode, added when the final is approved. Nobody wears the same outfit twice on air.",
@@ -177,7 +196,13 @@
         "episode": "X1 (test, not aired)",
         "date": "2026-09-25",
         "character": "sarika",
-        "outfit": "w1 maroon chiffon, gold sleeveless blouse; open waves"
+        "outfit": "w3 maroon chiffon, gold sleeveless blouse; open waves"
+      },
+      {
+        "episode": "X2 (test, not aired)",
+        "date": "2026-09-25",
+        "character": "sarika",
+        "outfit": "w1 black chiffon deep-V sari; open side-swept waves"
       }
     ]
   }
