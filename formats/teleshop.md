@@ -4,7 +4,7 @@
 **When to use it:** products and pitches with hidden costs or tricks, like "No-Cost EMI", "guaranteed returns" plans, insurance-plus-investment, credit card offers, and any marketing that makes a number look smaller than it is. (EMI and loan topics are resting for now.) Episode 1: iPhone 18 Pro on EMI.
 
 ## Characters
-- **SACHDEV**, presenter. Shiny grey double-breasted suit, pink shirt, maroon tie, moustache, relentless grin. Sheet 0e4faf46-aa1e-4c29-b2b9-dd2d84f5b2e2. Voice: registry "sachdev" (his Higgsfield clone may have been deleted; recreate on ElevenLabs if so).
+- **SACHDEV**, presenter. Shiny grey double-breasted suit, pink shirt, maroon tie, moustache, relentless grin. Sheet 0e4faf46-aa1e-4c29-b2b9-dd2d84f5b2e2. Voice: none right now. His Higgsfield clone was confirmed deleted on 2026-09-25; before the next teleshop, design or clone a voice on ElevenLabs (no credits) rather than a new Higgsfield voice element (40 credits), and put its id in the registry.
 - **RAHUL**, caller. Tired young office clerk, checked shirt, small green-walled rented room, beige cordless phone. Sheet 8bfe4cbc-c483-455a-a9fc-c1080f1fb435. Room c0f6ef01-915e-4313-bcfe-31b657ac733d. Voice: registry "rahul" (landline EQ with prep_line.py --phone).
 
 ## Sets and keyframes (from Episode 1)

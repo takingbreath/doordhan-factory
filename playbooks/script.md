@@ -3,6 +3,7 @@
 _This is the path that has worked so far. Change it whenever you find a better way, and note what you changed in registry/episodes.md._
 
 Input: the chosen story and hook, e.g. "2B".
+0. Find the options he is picking from: the morning desk email (Gmail connector, search the subject "Doordhan desk — <date>"), or ask him to paste it. The fact box and links are in it.
 1. Re-read docs/script-bible.md, including the gold examples.
 2. Re-verify every fact in the fact box with a fresh search. Numbers must come from a source you can link.
 3. Draft in English first: the 5-beat spine.

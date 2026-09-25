@@ -46,7 +46,9 @@
       "voice_type": "element",
       "voice_id": "6603e914-681e-4966-9bbb-cfb1daebf1d5",
       "tempo": 1.15,
-      "elevenlabs_voice_id": null
+      "elevenlabs_voice_id": null,
+      "higgsfield_name": "Sarika-News-Anchor-Female",
+      "status": "verified in list_voices 2026-09-25; used for the setup test shot"
     },
     "gupta": {
       "provider": "higgsfield",
@@ -55,15 +57,14 @@
       "voice_type": "element",
       "voice_id": "70f487de-93d3-4c8c-bac9-65d384893c78",
       "tempo": 1.15,
-      "elevenlabs_voice_id": null
+      "elevenlabs_voice_id": null,
+      "higgsfield_name": "gupta-news-reporter",
+      "status": "verified in list_voices 2026-09-25"
     },
     "sachdev": {
-      "provider": "higgsfield",
-      "model": "text2speech_v2",
-      "variant": "elevenlabs",
-      "voice_type": "element",
-      "voice_id": "37d2ed5d-2bf5-4065-8290-9c989d2f3d4e",
-      "status": "possibly deleted to free a clone slot; verify with list_voices",
+      "provider": null,
+      "deleted_higgsfield_voice_id": "37d2ed5d-2bf5-4065-8290-9c989d2f3d4e",
+      "status": "DELETED: not in list_voices on 2026-09-25 (the account has only the Sarika and Gupta custom voices). Recreate before the next teleshop: an ElevenLabs designed/cloned voice (no Higgsfield credits) is cheaper than a new Higgsfield voice element (40 credits).",
       "tempo": 1.0,
       "elevenlabs_voice_id": null
     },
@@ -73,7 +74,8 @@
       "audio_reference": "70ea3252-872f-428f-9776-c356e521f141",
       "loudness_rate": 40,
       "phone": true,
-      "elevenlabs_voice_id": null
+      "elevenlabs_voice_id": null,
+      "status": "audio_reference job verified 2026-09-25. It is a Seed Audio line designed from Rahul's image (27e3f8d7), the method that later proved unreliable; consider an ElevenLabs voice for him too."
     }
   },
   "audio": {
@@ -86,5 +88,41 @@
   "cards": {
     "samachar_title": "assets/cards/samachar_title.png",
     "hum_finance_slate": "assets/cards/hum_finance_slate.png"
+  },
+  "_verified": "2026-09-25: every job ID below was fetched from the Higgsfield account (all exist); voices checked with list_voices. Character sheets and keyframes are image jobs, not Elements (the account has no Elements).",
+  "_costs_credits": {
+    "wan2_7_720p_per_second": 1.5,
+    "wan2_7_1080p_per_second": 2.5,
+    "seedance_2_5_480p_per_second": 3,
+    "gpt_image_2_5_keyframe": 0.25,
+    "seedream_v5_pro_2k_sheet": 2.5,
+    "text2speech_v2_short_line": "0.15 (about 0.15 per 3 s of speech; 0.3-0.75 per line in Episode 2)",
+    "higgsfield_voice_element_create": 40,
+    "_billing": "video bills per whole second of requested duration; make_track.py flags holds that spill into an extra second"
+  },
+  "qc": {
+    "_note": "Mouth boxes [x, y, w, h] in the 480x854 analysis frame, for lipcheck.py / qc.py --box.",
+    "mouth_box_480": {
+      "samachar_closeup": [
+        195,
+        355,
+        100,
+        80
+      ]
+    }
+  },
+  "clips": {
+    "_note": "Finished generated clips worth reusing.",
+    "sarika_tagline_ident": {
+      "video_job": "aa861d44-0c79-40cc-a728-c61d2e5d1179",
+      "local": "assets/clips/sarika_tagline_ident.mp4",
+      "line": "नमस्कार। सब कुछ महँगा... सच मुफ़्त।",
+      "made_from": {
+        "keyframe": "1aed7ca2-bbe1-44e2-8237-6a82d4c5d2cf",
+        "tts_job": "2e40bcab-8e14-4511-aa64-aa61919b9338",
+        "track_media": "c52e73ab-0911-421d-9aab-9b4124f3d7f5"
+      },
+      "notes": "3 s Wan 2.7 720p close-up from the setup test (2026-09-25). Passed check_match (1.00) and lipcheck. Reusable as an opening or sign-off ident."
+    }
   }
 }

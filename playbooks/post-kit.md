@@ -6,3 +6,10 @@ Deliver as one message Akhilesh can copy from.
 - Caption: line 1 = the hook with the main keywords (e.g. "NSE IPO"). Line 2–3 = the story in Roman Hinglish. Then a send-CTA ("Us dost ko bhejo jo..."). Then "Not investment advice. Characters are AI-generated." Then exactly 5 hashtags: topic tag, company or theme tag, #StockMarketIndia or #PersonalFinance, one niche tag, #Doordhan.
 - Settings: AI label ON. Poll (one question that echoes the hook, 2–3 short options) or Prompt. Link a reel: the previous episode. Rename audio: "Doordhan Samachar – <topic>" (or the show name). Location: the story's place if meaningful. Tag people: none. Audience: Everyone. Facebook cross-post: OFF (it points at his personal profile). Threads optional. Story: ON.
 - Reminder once per new format: the profile should carry Instagram's AI-generated profile label.
+
+## YouTube Shorts (same final video)
+- Title (≤60 characters): the hook in Roman Hinglish with the main keyword, e.g. "NSE IPO: galat faisla tha?" Add #Shorts at the end of the title or description.
+- Description: line 1 = the hook; lines 2–3 = the story in Roman Hinglish; then "Not investment advice. Characters are AI-generated." and the same 5 hashtags.
+- Settings: "Altered or synthetic content" = Yes (YouTube requires the disclosure for realistic AI people; it is the Shorts equivalent of Instagram's AI label). Made for kids: No. Category: News & Politics for Samachar, Entertainment for Teleshop. Comments on. Related video: the previous episode.
+- Upload the same 1080x1920 file; nothing needs re-editing. Shorts take up to 3 minutes, so our 30-second cap is well inside it.
+

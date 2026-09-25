@@ -3,7 +3,7 @@
 Read this first, every session.
 
 ## The job
-Doordhan ("door" + "dhan": money that's always far away) is an all-AI, faceless Instagram Reels channel about money, for Indian working professionals.
+Doordhan ("door" + "dhan": money that's always far away) is an all-AI, faceless channel about money for Indian working professionals, posted as Instagram Reels and YouTube Shorts.
 Every reel is a clip from a fake old Indian TV channel. Hinglish (spoken Hindi with the English words people actually use).
 Tagline: "Sab kuch mehnga. Sach muft."
 
@@ -40,11 +40,13 @@ If you think one of these is holding the channel back, say so at a gate.
 ## What production has taught us (defaults, with the reason)
 - **Character sheets:** seedream_v5_pro, 2k, 1:1, about 2.5 credits. Beat Nano Banana for character consistency. Recipe in formats/_TEMPLATE.md.
 - **Keyframes:** gpt_image_2_5, 9:16, 0.25 credits, with the style reference and character sheets. It gives the best 90s broadcast look and usually renders short Hindi and English text correctly. Still look at every keyframe.
-- **Talking shots:** wan2_7 at 720p, about 1.5 credits a second, driven by our own audio track. It keeps the exact audio, so the voice stays the voice we chose. It animated lips well in close-ups and barely at all in a waist-up shot.
+- **Talking shots:** wan2_7 at 720p, 1.5 credits a second (1080p is 2.5), driven by our own audio track. It keeps the exact audio, so the voice stays the voice we chose. It animated lips well in close-ups and barely at all in a waist-up shot. It returns 718x1282 at 30 fps and raises the level (+3 dB on the test shot); the pipeline edits at 720x1280 and re-levels each part, so neither needs handling by hand.
+- **Billing:** video is billed per whole second of requested duration. A 0.4 s hold that spills past a second costs 1.5 credits of silence; make_track.py says when a shorter hold fits.
 - **Scenes without dialogue:** seedance_2_5 at 480p, 3 credits a second. Good motion and camera work. Used for dialogue, it re-voiced the lines: pauses moved, lines stretched, and one Hindi line came out as gibberish. If you try it for dialogue anyway, check_match.py will tell you whether the audio survived.
 - Seedance flagged split-screen start images as NSFW (refunded). Some prompts trigger a Higgsfield preset suggestion; pass declined_preset_id from the registry.
 - Higgsfield runs about 3 video jobs at once. A 429 means wait, then resubmit.
 - **Voices:** Seed Audio designing a voice from an image produced unusable results. Cloned or designed ElevenLabs voices worked well. Levelling every line to the same loudness fixed speakers sounding unequal. A 1.15 tempo suited the anchors.
+  Sarika and Gupta live on Higgsfield as voice elements (text2speech_v2, variant elevenlabs, about 0.15 credits a short line). Sachdev's voice has been deleted. A new Higgsfield voice element costs 40 credits, so make new voices on ElevenLabs (pipeline/tts_elevenlabs.py, eleven_v3) where they cost no credits.
 - **Text on screen:** building cards, slates and numbers locally was more reliable than asking a video model to keep text stable.
 - **First frame:** showing the subject immediately (the real NSE logo in the anchor's inset box) makes the topic clear to someone scrolling.
 - **Cutting:** cut points taken from our own track timings were wrong, because generated clips shift timing. Measure on the clip itself (speech_map.py). A cut before the last word and a dead gap between two shots of one thought were the two edit mistakes Akhilesh caught.
@@ -53,7 +55,8 @@ If you think one of these is holding the channel back, say so at a gate.
 
 ## Quality bar
 Akhilesh should never be the one to find gibberish audio, lips that don't move, a word cut off, garbled text, a jarring cut or a wrong fact.
-The tools in pipeline/ help: check_match, lipcheck, speech_map, contact sheets, loudness. Use them, or better ones.
+The tools in pipeline/ help: qc.py runs them all on a talking shot (format, speech_map, check_match, lipcheck, a transcript against the script via ElevenLabs Scribe, loudness, contact sheet) and writes the notes. Use them, or better ones.
+The checks are proxies. Look at the contact sheet and the full-size frames yourself; nobody has listened to the audio unless a transcript came back matching the script.
 When you present a final, say in plain language what you checked and anything you're unsure about.
 
 ## Map
@@ -61,5 +64,6 @@ When you present a final, say in plain language what you checked and anything yo
 - docs/script-bible.md: writing notes and the two episodes that worked.
 - playbooks/: the paths that have worked for the news desk, script, production and posting kit. Improve them freely.
 - registry/assets.json: every Higgsfield and voice ID. registry/episodes.md: the episode log and lessons.
-- pipeline/: tools (see pipeline/README.md). assets/: stings, logos, cards.
+- pipeline/: tools (see pipeline/README.md); `python3 pipeline/self_test.py` must end ALL PASS. assets/: stings, logos, cards, reusable clips.
+- routines/: the cloud news-desk routine's prompt (it runs Mon–Sat 7:30 IST and emails three options). SETUP.md: how the system is wired (repo, connectors, keys, routine).
 - work/ and outputs/: scratch and finals (git-ignored).
