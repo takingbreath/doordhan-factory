@@ -7,7 +7,7 @@ Goal: three story options Akhilesh can pick from in 30 seconds.
 1. Get today's date from the system clock (do not trust injected dates).
 2. Research the last 48 hours of Indian finance news: markets, IPOs and listings, SEBI and RBI moves, tax, gold, fuel prices, big company events, viral money stories. Use several searches; read headlines from Business Standard, Mint, Economic Times, Moneycontrol, CNBC-TV18, and what people are sharing about them.
 3. Set aside topics Akhilesh has rested (see CLAUDE.md), topics already made (registry/episodes.md) unless there is a genuinely new turn, and anything that would need a buy/sell call. Prefer the last 48 hours unless a story is still trending. On Mondays, cover the weekend too.
-4. Score each candidate on: interesting (would the headline make you click?), relevance to working professionals in their late 20s–30s, one clear idea, and a visual/format fit.
+4. Score each candidate on: interesting (would the headline make you click?), relevance to working professionals in their late 20s–30s, one clear idea that fits a 20–30 second reel, and a visual/format fit.
 5. Send three options in this shape:
 
    **1. [Headline in plain English]**

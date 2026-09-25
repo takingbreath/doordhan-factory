@@ -30,8 +30,8 @@ Everything below is accumulated experience, not law.
 If you think one of these is holding the channel back, say so at a gate.
 - **Audience:** late 20s to 30s, finance-aware. Use everyday jargon (IPO, GMP, listing gain, SIP) without explaining it. Don't treat viewers as dumb; do cut genuinely unfamiliar mechanics.
 - **Interesting beats important.** Clickbait-style headlines are a good signal of what is interesting.
-- **One idea per reel.** His cap is 30 seconds; 15 to 25 is the sweet spot. If a script runs over, flag it with the trade-off.
-- **Structure that has worked:** 0–2s the strongest statement; 2–5s why the viewer should care; 5–20s the evidence; 20–25s a payoff that answers the hook.
+- **One idea per reel, 20 to 30 seconds** (Akhilesh, 2026-09-25): never over 30. That is about 50 to 75 spoken words at the 1.15 tempo, plus the 2.5 s title montage. If a script runs over, cut it before sending, don't just flag it.
+- **Structure that has worked:** 0–2s the strongest statement; 2–5s why the viewer should care; 5–20s the evidence; 20–28s a payoff that answers the hook.
 - **Hooks that landed** were plain statements of the viewer's own stake ("Was investing in the NSE IPO a mistake?"). Clever-but-unclear hooks didn't.
 - **News reels** open like a news reading, not a sales pitch.
 - **Humour** lands on the system, the seller or the herd, not the viewer.

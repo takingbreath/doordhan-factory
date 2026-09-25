@@ -8,7 +8,7 @@ real options, and a Hinglish draft he can punch up in two minutes. Clarity beats
 2. Three hook options (A/B/C) and two ending options (X/Y), in English.
 3. The full Hinglish script for your recommended combination, with speaker tags and delivery tags, e.g.
    **ANCHOR** [crisp]: ...
-4. Word count and estimated duration (about 2.9 spoken words per second after the 1.15 tempo).
+4. Word count and estimated duration (about 2.9 spoken words per second after the 1.15 tempo). Target 20–30 seconds in total, never over 30: about 50–75 spoken words plus the 2.5 s montage.
 5. Fact box: every number or claim, with its source link.
 6. Anything that needs his decision (length over cap, compliance edge).
 7. Wardrobe: one line per on-screen character with this episode's outfit (new every episode; see the format file), e.g. "Sarika: bottle-green georgette, sweetheart blouse, low bun".

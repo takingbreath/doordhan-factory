@@ -1,11 +1,14 @@
 # Setup: how the system is wired (as of 2026-09-25)
 
-## Day to day
-1. **7:30 IST, Mon–Sat:** the cloud news desk emails Akhilesh three story options (subject "Doordhan desk — <date> — 3 stories").
-2. He opens Claude Code in `~/doordhan-factory` and replies with a pick, e.g. `2B`. Gate 1: the story.
-3. Claude writes the script (playbooks/script.md). Gate 2: the script. No episode credits are spent before this.
-4. Claude produces (playbooks/produce.md) and presents the final with its QC notes. Gate 3: the final video.
-5. Claude gives the posting kit for Instagram and YouTube Shorts (playbooks/post-kit.md). Akhilesh posts.
+## Day to day (from your phone)
+1. **7:30 IST, Mon–Sat:** the cloud news desk emails three story options ("Doordhan desk — <date> — 3 stories"). Each run also appears as a session under the routine at claude.ai/code/routines.
+2. **Pick:** open the Claude app → Code → **Doordhan studio** and reply with a number and a hook letter, e.g. `2B`. Doordhan studio is the Claude Code session on the laptop, reachable from the phone through Remote Control. It reads the desk email itself. Gate 1: the story.
+3. **Script:** it replies with the script, 20–30 seconds, plus each character's outfit for the episode. Reply "approved" or send edits. Gate 2: the script. No credits are spent before this.
+4. **Production:** you can watch progress on the phone. The final video arrives in the session with its QC notes. Gate 3: the final.
+5. **Post kit:** caption, settings and YouTube Shorts details, ready to copy. You post.
+
+Doordhan studio needs the laptop awake with the Claude app open. If the laptop is off, reply to the morning run's own session (claude.ai/code → Routines → Doordhan news desk → today's run) instead: it can write the script and get your approval there, then email you "Doordhan script approved — <date>". Production then starts when you tell Doordhan studio "produce".
+Permissions: this repo's `.claude/settings.json` runs every session here with no permission prompts (bypassPermissions), and Doordhan studio already runs that way. The routine's tools are pre-allowed.
 
 ## Pieces
 | Piece | Where | Notes |
