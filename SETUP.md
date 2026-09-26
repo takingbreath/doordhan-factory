@@ -28,6 +28,19 @@ Permissions: this repo's `.claude/settings.json` runs local sessions with no pro
 
 Each routine's own prompt is a short bootstrap: the recipient email, the never-publish and credit rules, and "read routines/<name>-routine-prompt.md and follow it". To change what a routine does, edit its file in the repo. To change the time, recipient or model, edit it at claude.ai/code/routines or ask Claude Code (/schedule).
 
+## Adding a teammate who makes videos
+**No secrets go in this repo, ever** (hard rule 5). A key committed once stays in the git history for good, and everyone with repo access gets it. This setup doesn't use API keys anyway; every service is a sign-in, so each person signs in with their own account.
+
+| What | How the teammate gets it |
+|---|---|
+| This repo | A GitHub invite (Settings → Collaborators). |
+| Claude Code | Their own Claude plan (Pro or Max) and the Claude desktop app. Clone the repo and open the folder in the Code tab; CLAUDE.md loads by itself. |
+| Higgsfield (all the characters, voices, keyframes and credits) | Everything in registry/assets.json lives in Akhilesh's **private** Higgsfield workspace (Max plan). Two options: (1) a shared team workspace on higgsfield.ai with the teammate invited; they connect Higgsfield in their own claude.ai account (Settings → Connectors) and switch to that workspace. Check first that the registry's IDs work from the team workspace; if they don't, copy the character sheets and keyframes across. (2) Akhilesh signs Higgsfield in on their machine himself. Never share the password through the repo, email or chat; if a password must be shared, use a password manager's share feature. |
+| ElevenLabs | Only used to transcribe lines for QC and to design new voices; all character voices live on Higgsfield. The teammate connects their own ElevenLabs account (the free tier is enough for QC) as a claude.ai connector. If a script ever needs an API key, they create their own and put it in their local `.env`, which is git-ignored. |
+| vidIQ, Gmail, routines | Not needed to make videos. They run on Akhilesh's account; teammates can be copied on the routine emails. |
+
+The hard rules apply to every reel: the three approval gates, the credit budget per episode, no publishing. Log credits in registry/episodes.md and record the reel with `scoreboard.py add-reel`, so the strategist can judge it.
+
 ## Known snag on this Mac
 The `claude` on PATH is an old npm install (1.0.17, `~/.npm-global`) that crashes under Node 25. The desktop app bundles a current Claude Code. For the terminal, run `npm i -g @anthropic-ai/claude-code@latest` or use the native installer.
 
