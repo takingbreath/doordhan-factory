@@ -82,6 +82,7 @@ Your method, the rules of the book and the working rhythm are in docs/strategy.m
 11. **Update docs/learnings.md "This week":** 5–8 bullets of keep doing, stop and try next, each with evidence. Move last week down.
 12. **Email Akhilesh** with the Gmail connector's send_message (send it, don't just draft it):
     - To: <AKHILESH_EMAIL>
+    - Cc: <TEAM_CC> (teammates, read-only: the session link won't open for them, so picks and replies still come from Akhilesh)
     - Subject: "Doordhan strategy — week of <date>"
     - Plain text, in this order:
       1. The account, in three lines: followers (+/-), plays, stage progress (on track or behind, and why).

@@ -8,6 +8,7 @@ PART 1: NEWS DESK (runs on its own at 7:30 IST)
 5. In Part 1, spend no Higgsfield credits and don't commit.
 6. Send ONE email with the Gmail connector's send_message tool (send it; don't just draft it):
    - To: <AKHILESH_EMAIL>
+   - Cc: <TEAM_CC> (teammates, read-only: the session link won't open for them, so picks and replies still come from Akhilesh)
    - Subject: Doordhan desk — <date from step 1, e.g. Mon 28 Sep 2026> — 3 stories
    - Body, plain text. First line: "Pick here: " and the direct link to this session, https://claude.ai/code/session_<id>. Find the id with `env | grep -iE 'session|cse_'` and use the value that starts with "cse_", replacing "cse_" with "session_" (a bare UUID is not it). Routine sessions don't appear in the app's main Code list, so this link (and the phone notification) is how Akhilesh gets back in. Then one short opening line; then "Where we stand:" and the three lines from `scoreboard.py brief`; then the three options in the playbook's shape (headline with trend label, score and posting window; one line of trend evidence; why it's interesting; format; hooks A/B/C; fact box with links), then your recommendation in one line, then: "To pick: open the link at the top and reply with a number and a hook letter, e.g. 2B." Repeat the link on the last line.
 7. If sending fails, create a Gmail draft with the same content and say so in your final message.

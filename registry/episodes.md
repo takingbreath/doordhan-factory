@@ -83,4 +83,4 @@ Add a row per episode, and a line whenever you change a default or a tool.
   - **Voice drafts before video:** voice the whole script first and send it end to end with the measured length; it caught a 73 s script labelled 30 s and a line that read "it's cheap now" as a statement. Budget 2-4 credits per full draft, and count them toward the 60.
   - **Compliance edge:** Akhilesh chose to end on a stop-loss line ("stop-loss pe nikal jaiye") as education; the reel shows "Education only. Not buy/sell advice." on screen and in the caption, and no price levels or analyst targets (SEBI price-data rule).
   - **Voices move to ElevenLabs** from the next episode (CLAUDE.md, Voices).
-
+- 2026-09-26: Naveen (GitHub canaveensetia) is copied on the morning desk email and the Sunday strategy email. The routine files say `Cc: <TEAM_CC>`; the addresses live only in the routines' bootstrap prompts, never in the repo. Today's 7:30 desk email was forwarded to him.
