@@ -1,109 +1,165 @@
 # How Doordhan emails look
 
-Every email the routines send (the morning desk, the final video, the weekly strategy review) is plain text, written to be read on a phone in two minutes. Akhilesh asked for readable, not fancy (2026-09-26): no HTML.
+Every email the routines send (the morning desk, the final video, the weekly strategy review) is plain text, laid out to be read on a phone. No HTML.
+
+Akhilesh (2026-09-26): **keep all the content** (the ratings, how each story was evaluated, everything that was seen and checked). The earlier emails had the right content; they just weren't readable. So nothing gets cut; the layout does the work.
 
 ## Rules
-1. **Action first.** Line 1 says what to do, with the link. Line 3 gives the recommendation. Context goes at the bottom.
-2. **One block per story or topic,** separated by a divider line (`━━━━━━━━━━━━━━━━━━━━`) with a blank line on each side.
-3. **Titles in CAPS on their own line.** Plain text has no bold, so capitals do its job.
-4. **Short labelled lines, one idea each, with a blank line between them.** No paragraph runs longer than about 3 lines on a phone.
-5. **Each hook, fact and question on its own line.** Never run A) B) C) together.
-6. **No links inside sentences.** Gmail turns every link into a 200-character google.com redirect, which buries the sentence around it.
-   - Put links on their own line at the end of a block, starting "Read:".
-   - At most 2 per story.
-   - The session link goes on line 1 and on the last line.
-7. **No internal jargon:**
-   - no bet IDs (B1, W1);
-   - no file paths;
-   - no scoreboard words (WAITING, HOLD, verdict);
-   - no "Carries".
-
-   Say it in plain words. `python3 pipeline/scoreboard.py status` gives the "where we stand" lines already in plain English.
-8. **No Markdown.** Asterisks, hashes and backticks show up as literal characters in plain text. Use capitals, "•" bullets and blank lines.
-9. **Hinglish hooks exactly as they would be spoken,** in quotes.
+1. **Keep every piece of content.**
+   - For the desk: the score and its breakdown, all the trend evidence, why it's interesting, the format, all three hooks, the line worth sending, the tests the reel carries, every fact with its source, any watch-outs, and anything else "on the wire".
+2. **Action first.** Line 1 says what to do, with the link. The recommendation and its reasons come next.
+3. **Dividers between stories.** Use a divider line (`━━━━━━━━━━━━━━━━━━━━`) with a blank line on each side.
+4. **Story titles in CAPS,** numbered. Plain text has no bold, so capitals do its job.
+5. **Sections inside a story:**
+   - a short label line ending in a colon ("Score:", "What we saw:", "Hooks:");
+   - the content underneath;
+   - a blank line between sections.
+6. **One item per line.**
+   - Each hook, fact, piece of evidence and question gets its own line.
+   - Lists use "•".
+   - Never run A) B) C) together on one line.
+7. **Links on their own line, under the thing they support.**
+   - Gmail turns every link into a long google.com redirect, which buries any sentence it sits inside.
+   - So each fact gets a source line ("BusinessToday, 25 Sep:") with its link on the next line.
+   - Keep every link; just never put one mid-sentence.
+8. **Plain words for internal labels.** Write "Tests this reel carries: hook in frame one, tight 20–30 s, a line worth sending", not "Carries: B1 B2 B3". No file paths.
+   - `python3 pipeline/scoreboard.py status` gives the "where we stand" lines in plain English, numbers included.
+9. **No Markdown.** Asterisks, hashes and backticks show up as literal characters.
+10. **Hinglish hooks and lines exactly as they would be spoken,** in quotes.
 
 ## The morning desk email
 
-Subject: `Doordhan desk — Sat 26 Sep — pick 1A?` (the date and the recommended pick)
+Subject: `Doordhan desk — Sat 26 Sep — 3 stories, pick 1A?`
 
 ```
-Pick today's story: <session link>
+Pick today's story here: <session link>
 
-My pick: 1A, Tata Sons vs Tata Trusts. It's the hottest of the three, it hits every investor's SIP, and nobody has made a Hinglish Short on it yet.
+MY PICK: 1A
+It's the hottest of the three and hits every investor's money. The hook is a plain statement of their stake, and nobody has made a Hinglish Short on it yet. Runner-up: 2, if you want a stock-mover. It's Saturday, so it can go up tonight (7–9 pm) or Monday.
 
 ━━━━━━━━━━━━━━━━━━━━
 
-1. TATA SONS VS TATA TRUSTS
-Rising · 8/10 · post by Mon 28 Sep
+1. TATA SONS VS TATA TRUSTS: THE OWNER SAYS NO, THE BOARD SAYS YES, AND THE LISTING IS HEADED FOR COURT
+RISING · 8/10 · post by Mon 28 Sep
 
-The story: the Trusts own 66% of Tata Sons and said no to a listing. The board said yes. It's heading to court.
+Score: 8/10
+Momentum 2/3 · Stake 2/2 · Shareability 2/2 · Gap 2/2 · Clarity 0/1
 
-Why people will watch: TCS, Titan and Tata Motors sit in almost every SIP, so it's the viewer's fight too.
+What we saw:
+• News: 45 of the week's 100 articles landed today (rising)
+• YouTube this week: 12 videos, 408K views
+• vidIQ "tata sons listing": search volume 53, competition 46
+• Outliers: all long-form news (NEWS9, Mint, ANI); no Hinglish Shorts on it
+
+Why it's interesting:
+A 158-year-old family business having a public fight. TCS, Titan and Tata Motors are in nearly every Nifty fund and SIP, so it's the viewer's fight too.
+
+Format:
+Samachar (news reading). Sarika's close-up, with the Tata Sons name on a card in the inset box.
 
 Hooks:
 A) "Aapke SIP mein Tata hai? Toh Tata ke ghar ka jhagda aapka bhi hai."
-B) "66% ka maalik bola nahi, board bola haan."
+B) "66% ka maalik bola nahi, board bola haan: Tata Sons ka IPO ab court tay karega?"
 C) "Tata Sons listing: owner vs board, beech mein aapka paisa."
 
-Show: Samachar. Sarika in close-up, the Tata Sons name in the inset box.
+Line worth sending:
+"Board aur maalik lad rahe hain; bill shareholder bharega."
 
-Buzz: 45 of the week's 100 news articles came today. 408K YouTube views this week, and no Hinglish Shorts yet.
+Tests this reel carries:
+Hook in frame one · Tight 20–30 s · A line worth sending
 
-Facts:
-• Tata Trusts own 66% of Tata Sons.
-• The board reappointed Chandrasekaran and backed a listing against the Trusts' wishes.
-• The Trusts are weighing the NCLT or the Bombay High Court.
+Fact box:
+• Tata Trusts own 66% of Tata Sons. The board reappointed Chandrasekaran and agreed to proceed with a listing despite the Trusts' opposition. The Trusts are weighing the NCLT or the Bombay High Court.
+  BusinessToday, 25 Sep:
+  <link>
 
-Read: <link>
+• Salve vs Singhvi: the "majority amongst two" row over the articles, and the casting vote.
+  Reuters explainer via TBS, 25 Sep:
+  <link>
+
+• Context only (8 days old, not for a hook): listed Tata firms lost $4 bn in market value on 18 Sep.
+  Business Recorder:
+  <link>
 
 ━━━━━━━━━━━━━━━━━━━━
 
-2. ...
+2. ... (same sections)
+
+━━━━━━━━━━━━━━━━━━━━
+
+3. DEEP LANE: ... (same sections; "What we saw" names the outlet, e.g. "via The Ken, 24 Sep")
+
+━━━━━━━━━━━━━━━━━━━━
+
+ALSO ON THE WIRE (if anything)
+• ...
 
 ━━━━━━━━━━━━━━━━━━━━
 
 WHERE WE STAND
-<the lines from scoreboard.py status>
+<scoreboard.py status, as is>
 
 To pick, reply in the session with a number and a hook letter, e.g. 1A:
 <session link>
 ```
 
-Add a "Watch out:" line to a story only when it needs one: a compliance edge, a rested topic, or a missing voice. Keep it to one or two sentences.
+Add a "Watch out:" section to a story whenever there's a compliance edge, a rested topic, or a missing voice, with the full reasoning.
 
 ## The weekly strategy email
 
 Subject: `Doordhan strategy — week of <date> — <one-line headline>`
 
+The content is everything in the strategist's step 12: the account, the book, what we learned, next week's plan, decisions, and platform and policy. Every number stays.
+
 ```
 Reply with your decisions here: <session link>
 
 THIS WEEK IN ONE LINE
-<the headline: what happened and what we do next>
+<what happened and what we do next>
 
 ━━━━━━━━━━━━━━━━━━━━
 
 YOUR DECISIONS
-1. <question>? Upside: ... If it doesn't work: ...
+1. <question>?
+   Upside: ...
+   If it doesn't work: ... (the stop)
 2. ...
 Reply e.g. "1 yes, 2 no".
 
 ━━━━━━━━━━━━━━━━━━━━
 
 THE ACCOUNT
-<followers, plays, best and worst reel, one line each>
+Followers: ...
+Plays this week: ...
+Best reel: ...
+Worst reel: ...
+Stage 1 progress: ... (on track / behind, and why)
+Credits this week: ... (... per 1,000 plays)
 
-WHAT WE TESTED
-• <the bet in plain words>: <result in plain words>. <kept / dropped / still testing>.
+━━━━━━━━━━━━━━━━━━━━
+
+THE BETS
+Hook in frame one
+  Swipe-aways in the first 3 s: 61% at the start → 48% now. Target 45%, stop 58%.
+  Reels: 3 of 3. Verdict: still testing / hit its target / hit its stop.
+  Why: ...
+(one block per bet, including those closed this week)
+
+━━━━━━━━━━━━━━━━━━━━
 
 WHAT WE LEARNED
-• ... (one line each, with the number that shows it)
+• ... (each with the numbers that show it)
 
 NEXT WEEK
-• ... (what every reel will do)
-
-PLATFORM AND POLICY (only if something changed)
 • ...
+
+WHAT THE COMMENTS AND THE MARKET SAID
+• ...
+
+PLATFORM AND POLICY (if anything changed)
+• ...
+  Source:
+  <link>
 
 <session link>
 ```
@@ -113,14 +169,18 @@ PLATFORM AND POLICY (only if something changed)
 Subject: `Doordhan final — <date> — <story>`
 
 ```
-Watch it: <video link>
-Approve or send fixes: <session link>
+Watch it:
+<video link>
 
-LENGTH: 28 s · CREDITS: 47
+Approve or send fixes here:
+<session link>
 
-WHAT I CHECKED
+Length: 28 s
+Credits: 47 (budget 60)
+
+What I checked:
 • ...
 
-NOT SURE ABOUT
+Not sure about:
 • ... (or "Nothing.")
 ```

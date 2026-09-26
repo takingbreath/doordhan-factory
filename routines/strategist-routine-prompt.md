@@ -84,7 +84,7 @@ Your method, the rules of the book and the working rhythm are in docs/strategy.m
     - To: <AKHILESH_EMAIL>
     - Cc: <TEAM_CC> (teammates, read-only: the session link won't open for them, so picks and replies still come from Akhilesh)
     - Subject: "Doordhan strategy — week of <date> — <one-line headline>"
-    - Plain text laid out exactly as the weekly strategy email in routines/email-style.md (read it first): decisions near the top, one block per section with dividers, no bet IDs, file paths or Markdown, and links only on their own lines. Cover, in plain words:
+    - Plain text laid out exactly as the weekly strategy email in routines/email-style.md (read it first). Keep every number and finding, and change only the layout: decisions near the top, a divider between sections, one item per line, links on their own lines, plain words instead of bet IDs, and no Markdown. Cover:
       1. The account, in three lines: followers (+/-), plays, stage progress (on track or behind, and why).
       2. The book: each bet in one line (thesis, reels, metric now against baseline → target and stop, verdict), including those closed this week.
       3. What we learned: three lines with evidence.

@@ -33,13 +33,15 @@ Goal: three story options Akhilesh can pick from in 30 seconds, each graded on h
    Also note the **window**: until when the story stays relevant, e.g. "post by Sun 27 Sep; the strike starts Monday".
 7. **Pick** the top two from the hot lane and the best one from the deep lane, in different shapes (e.g. wallet hit, market move, rule or company story). Recommend one.
 8. **Verify the fact box:** open each source page and confirm every number is on it. A hook may only use numbers from its own fact box, and a source older than a week can give context but never the headline number.
-9. Send the options in this shape in the session. The email version uses the plain-text layout in routines/email-style.md, which says the same things in plain words, with no bet IDs and no inline links:
+9. Send the options in this shape in the session. The email carries exactly the same content, laid out as the plain-text template in routines/email-style.md:
 
    **1. [Headline in plain English]**  (HOT · 8/10 · post by Sun 27 Sep)
+   - Score breakdown: Momentum x/3 · Stake x/2 · Shareability x/2 · Gap x/2 · Clarity x/1
    - Trend evidence: one line, e.g. "Google trending: बैंक 5000+; 90 news articles today; YouTube this week 1.1M views, top video 15K/hr"
    - Why it's interesting: one line (the clickbait angle)
    - Format: a template from formats/, or a new format pitched in one line
    - Hooks: A) ... B) ... C) ... (each one plain sentence, viewer's stake)
+   - Line worth sending: the one line a viewer would forward
    - Carries: the open bets this story carries (e.g. B1 B2 B3), from This week's plan
    - Fact box: 2–4 facts with source links
 
