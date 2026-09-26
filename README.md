@@ -38,7 +38,7 @@ flowchart LR
    - It emails Akhilesh three options, each with a hook, a fact box with sources, and a posting window.
 2. **Gate 1:** Akhilesh replies with a pick, e.g. `2B` (story 2, hook B), from his phone.
 3. **Script:** Hinglish, 20–30 seconds. Every number is re-checked against a source.
-4. **Gate 2:** Akhilesh approves or edits. No money is spent before this.
+4. **Gate 2:** Akhilesh or Naveen approves or edits. No money is spent before this.
 5. **Production**, in the same cloud session:
    - **Voices:** ElevenLabs voices, run through Higgsfield.
    - **Keyframes (the still images each shot starts from):** Higgsfield's image models, GPT Image 2.5 and Seedream 4.5.
@@ -85,7 +85,7 @@ All characters are AI-generated and labelled as such. New formats follow [format
 ## The rules that never bend
 
 The full text is in [CLAUDE.md](CLAUDE.md). Only Akhilesh can change these.
-1. **Three approval gates:** the story, the script and the final video.
+1. **Three approval gates:** the story (Akhilesh), and the script and the final video (Akhilesh or Naveen).
 2. **Budget:** up to 60 Higgsfield credits per episode, plus 15 a week on experiments. Anything above that needs Akhilesh's approval.
 3. **Compliance:** no buy/sell calls and no promised returns (SEBI finfluencer rules). Every caption says "Not investment advice", and AI labels are on every post and on the profile.
 4. **Real people:** no real person's likeness, and no cloned voice of a real person.

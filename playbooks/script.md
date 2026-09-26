@@ -10,4 +10,4 @@ Input: the chosen story and hook, e.g. "2B".
 4. Write the Hinglish script for the chosen hook, following the bible's rules and the format kit's shot pattern.
 5. Count words; estimate duration at 2.9 words per second plus about 3 seconds for a montage or cards. It must land between 20 and 30 seconds; cut to fit before sending.
 6. Send the script message exactly as specified in the bible.
-7. Wait for his approval. Apply his edits as written; if you think one of his lines hurts the reel, say why in one line and let him decide.
+7. Wait for approval from Akhilesh or Naveen (either may approve a script). Apply his edits as written; if you think one of his lines hurts the reel, say why in one line and let him decide.
