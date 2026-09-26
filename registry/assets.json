@@ -40,7 +40,8 @@
     "sarika_closeup_w1_black_vneck_sari": "6980440f-99d3-4db4-89e9-5805d4a03303",
     "sarika_closeup_w2_power_blazer": "0182e812-01ff-4161-b46e-2e22b3c4ff1e",
     "sarika_closeup_w3_maroon_chiffon": "53a7d3d5-118b-48ce-be8e-3dd475dcd202",
-    "sarika_closeup_w4_mustard_handloom": "1aed7ca2-bbe1-44e2-8237-6a82d4c5d2cf"
+    "sarika_closeup_w4_mustard_handloom": "1aed7ca2-bbe1-44e2-8237-6a82d4c5d2cf",
+    "gupta_bima_bhavan_maroon": "b27f95ae-22a5-4679-9612-25fc7216e66e"
   },
   "voices": {
     "sarika": {
@@ -87,7 +88,8 @@
   },
   "logos": {
     "nse": "assets/logos/nse_logo.png",
-    "doordhan": "assets/logos/doordhan_logo.png"
+    "doordhan": "assets/logos/doordhan_logo.png",
+    "policybazaar": "assets/logos/policybazaar_logo_crop.png (official, from policybazaar.com og image; full: assets/logos/policybazaar_logo.jpg)"
   },
   "cards": {
     "samachar_title": "assets/cards/samachar_title.png",
@@ -100,12 +102,13 @@
     "seedance_2_5_480p_per_second": 3,
     "gpt_image_2_5_keyframe": 0.25,
     "seedream_v5_pro_2k_sheet": 2.5,
-    "text2speech_v2_short_line": "0.15 (about 0.15 per 3 s of speech; 0.3-0.75 per line in Episode 2)",
+    "text2speech_v2_short_line": "0.15 per ~3 s of speech: a 4 s line 0.3, an 11 s line 0.6, a 25 s line 1.35 (E3). Every full-script voice draft costs 2-4 credits.",
     "higgsfield_voice_element_create": 40,
     "_billing": "video bills per whole second of requested duration; make_track.py flags holds that spill into an extra second",
     "seedream_v4_5_keyframe": 1,
     "nano_banana_pro_1k": 2,
-    "seedream_v5_pro_keyframe": 2.5
+    "seedream_v5_pro_keyframe": 2.5,
+    "gpt_image_2_5_keyframe_high": 1.5
   },
   "qc": {
     "_note": "Mouth boxes [x, y, w, h] in the 480x854 analysis frame, for lipcheck.py / qc.py --box.",
@@ -127,6 +130,18 @@
         375,
         80,
         60
+      ],
+      "sarika_closeup_w2_power_blazer": [
+        205,
+        385,
+        70,
+        55
+      ],
+      "gupta_bima_bhavan_maroon": [
+        190,
+        468,
+        75,
+        47
       ]
     }
   },
@@ -154,6 +169,11 @@
       "line": "नमस्कार। सब कुछ महँगा... सच मुफ़्त।",
       "outfit": "w1",
       "notes": "3 s Wan 720p; Wan animated w1 with no flag; audio 1.00; lipcheck 1.51 / 1.67 (best so far)."
+    },
+    "e3_pbfintech_final": {
+      "higgsfield_media": "16ec5346-c869-4172-b8d4-e1080e82c8d1",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3JacmHOWkWJ6udDpC4Ik42twFAC/16ec5346-c869-4172-b8d4-e1080e82c8d1.mp4",
+      "notes": "E3 final, 32.2 s. Shots: Wan jobs 80592a5f (Sarika hook), 9ac98fe1 + 321cf7ce (Gupta), eade8a81 (Sarika close)."
     }
   },
   "keyframes_notes": {
@@ -168,6 +188,18 @@
   "wardrobe_log": {
     "_note": "One row per character per episode, added when the final is approved. Nobody wears the same outfit twice on air.",
     "rows": [
+      {
+        "episode": "3",
+        "date": "2026-09-26",
+        "character": "sarika",
+        "outfit": "w2 black puff-shoulder blazer, ivory satin deep-V camisole; big 90s blow-dry"
+      },
+      {
+        "episode": "3",
+        "date": "2026-09-26",
+        "character": "gupta",
+        "outfit": "maroon Nehru half-jacket, cream shirt"
+      },
       {
         "episode": "2",
         "date": "2026-09-25",

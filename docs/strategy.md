@@ -50,7 +50,7 @@ Stage 1 targets are live in the block below. Stages 2 and 3 are the plan after t
 
 ## The book and where we stand
 <!-- scoreboard -->
-_Updated 2026-09-25 23:45 IST by `scoreboard.py write`._
+_Updated 2026-09-26 08:44 IST by `scoreboard.py write`._
 
 **Stage 1: Stop the scroll** (2026-09-26 to 2026-10-11): prove people stop for our reels and stay to the end
 
@@ -63,10 +63,10 @@ _Updated 2026-09-25 23:45 IST by `scoreboard.py write`._
 
 | Bet | Lever | Judged on | Baseline | Now | Target | Stop | Reels (judged/carried) | Verdict |
 |---|---|---|---|---|---|---|---|---|
-| B1 Hook in frame one | Frame 1: the anchor looks into the lens, already saying the viewer's stake; the hook in 6 big words or fewer on screen; nothing (Namaskar, title, logo) before it; a cut or punch-in by 1 s; cover = frame 1 | skip rate % | 60.7 | – | 45 | 58 | 0/0 (judge at 3, max 6) | **WAITING** no reel with readings yet |
-| B2 Tight 20-30 s | 20-30 s total; title montage 1.5 s or less and only after the hook; payoff by 20 s; the last line echoes the hook so a replay feels natural; no dead air | watched % | 26.3 | – | 45 | 32 | 0/0 (judge at 3, max 6) | **WAITING** no reel with readings yet |
-| B3 A line worth sending | Every script lands one line a viewer would forward to a specific person (a number to remember, a jab at the system, an 'I told you so'); never ask for shares | sends per 1k plays | 2.6 | – | 8 | 2 | 0/0 (judge at 4, max 6) | **WAITING** no reel with readings yet |
-| W1 Glam Sarika | Sarika in the glam wardrobe (formats/samachar.md) on every Samachar reel | skip rate % | 66.9 | – | – | – | 0/0 (judge at 3, max 6) | **WATCH** tracked; judged at the monthly review |
+| B1 Hook in frame one | Frame 1: the anchor looks into the lens, already saying the viewer's stake; the hook in 6 big words or fewer on screen; nothing (Namaskar, title, logo) before it; a cut or punch-in by 1 s; cover = frame 1 | skip rate % | 60.7 | – | 45 | 58 | 0/1 (judge at 3, max 6) | **WAITING** no reel with readings yet |
+| B2 Tight 20-30 s | 20-30 s total; title montage 1.5 s or less and only after the hook; payoff by 20 s; the last line echoes the hook so a replay feels natural; no dead air | watched % | 26.3 | – | 45 | 32 | 0/1 (judge at 3, max 6) | **WAITING** no reel with readings yet |
+| B3 A line worth sending | Every script lands one line a viewer would forward to a specific person (a number to remember, a jab at the system, an 'I told you so'); never ask for shares | sends per 1k plays | 2.6 | – | 8 | 2 | 0/1 (judge at 4, max 6) | **WAITING** no reel with readings yet |
+| W1 Glam Sarika | Sarika in the glam wardrobe (formats/samachar.md) on every Samachar reel | skip rate % | 66.9 | – | – | – | 0/1 (judge at 3, max 6) | **WATCH** tracked; judged at the monthly review |
 <!-- /scoreboard -->
 
 ## This week's plan

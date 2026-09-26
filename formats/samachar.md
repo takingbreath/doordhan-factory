@@ -12,6 +12,7 @@
 - Desk, medium shot, framed inset box top-right ("DOORDHAN समाचार"): 3501fe96-8bd8-41e8-bd02-3c5ca42c8bea
 - Anchor close-up on the powder-blue backdrop (original mustard sari): 1aed7ca2-bbe1-44e2-8237-6a82d4c5d2cf (mouth box for lipcheck: 195 355 100 80). Use it as the set, framing and logo reference for every new outfit.
 - Gupta outside a 90s stock exchange (ticker board, crowd, onlookers staring at him): bed104cc-72e2-4c6b-a3ac-3bde4ef6ebd1
+- Gupta outside 'BIMA BHAVAN', a 90s insurance office with a queue (maroon half-jacket, cream shirt; worn in E3): b27f95ae-22a5-4679-9612-25fc7216e66e (mouth box 190 468 75 47; head steady 8-14 px/s)
 - Gupta on a plain Mumbai street with a queue (weaker; the location looked like a college): 6d133894-ac0d-4276-aead-4a32b14ac821
 - Opening title card "दूरधन समाचार": 4b8532b9-f3c8-47a6-80fe-e54b139a724e (local copy: assets/cards/samachar_title.png)
 - New story, new location: generate Gupta's keyframe there from his sheet and the style reference, with onlookers reacting to the camera.
@@ -38,7 +39,7 @@ Akhilesh, 2026-09-25: a glamorous anchor with visible cleavage is the hook for t
 | # | Outfit | Hair | Type | Close-up keyframe | Worn |
 |---|---|---|---|---|---|
 | w1 | Sheer black chiffon, sequinned silver border; fitted black sleeveless deep-V blouse; thin pendant, silver jhumkas; deep red lipstick | open, voluminous side-swept waves | sari (**the reference level**) | 6980440f-99d3-4db4-89e9-5805d4a03303 (GPT Image; mouth box 220 360 70 55) | test X2, Akhilesh's pick |
-| w2 | Black blazer with puffed shoulders, open over an ivory satin deep-V camisole; gold hoops; brick-red lipstick | big 90s blow-dry, shoulder length | power dressing | 0182e812-01ff-4161-b46e-2e22b3c4ff1e (Seedream 4.5) | not yet |
+| w2 | Black blazer with puffed shoulders, open over an ivory satin deep-V camisole; gold hoops; brick-red lipstick | big 90s blow-dry, shoulder length | power dressing | 0182e812-01ff-4161-b46e-2e22b3c4ff1e (Seedream 4.5; mouth box 205 385 70 55) | Episode 3 (Policybazaar). Wan headcheck 49-50 px/s on it: the keyframe's angled, smiling head seems to invite small tilts; straighten the head in the next keyframe |
 | w3 | Maroon chiffon, gold border; sleeveless gold-silk blouse; gold jhumkas | open glossy waves | sari, more covered | 53a7d3d5-118b-48ce-be8e-3dd475dcd202 (mouth box 200 375 80 60) | test X1; too covered on its own, better as a change of pace |
 | w4 | Mustard handloom, maroon border (the original) | low bun with soft waves | sari, modest | 1aed7ca2-bbe1-44e2-8237-6a82d4c5d2cf | Episode 2, T1; only for sombre stories |
 
