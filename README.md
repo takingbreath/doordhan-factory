@@ -29,7 +29,7 @@ flowchart LR
     I -->|numbers, verdicts, next plan| A
 ```
 
-1. **News desk** (Mon–Sat, 7:30 IST): a scheduled Claude session gathers candidate stories and grades each out of 10.
+1. **News desk** (every day, 7:30 IST): a scheduled Claude session gathers candidate stories and grades each out of 10.
    - **Sources:**
      - Google Trends India, Google News momentum and YouTube;
      - vidIQ's trending videos and breakout videos in Indian finance;

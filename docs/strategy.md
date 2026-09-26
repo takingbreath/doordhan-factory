@@ -96,7 +96,7 @@ _Written by the strategist every Sunday. The morning session executes it: each s
 ## Working rhythm
 | When | Who | What |
 |---|---|---|
-| Mon–Sat 7:30 IST | Morning session (cloud) | Desk email. The top three lines are the scoreboard brief: where we stand and what today's reel carries. Then three stories, each tagged with the bets it serves. |
+| Every day 7:30 IST | Morning session (cloud) | Desk email. The top three lines are the scoreboard brief: where we stand and what today's reel carries. Then three stories, each tagged with the bets it serves. |
 | Morning | Akhilesh | Picks a story (30 s). |
 | Midday | Session, then Akhilesh | Script, with the bets it carries and how. Akhilesh approves (2 min). |
 | Afternoon | Session, then Akhilesh | Final with QC notes. Akhilesh approves (2 min). |
