@@ -85,3 +85,8 @@ Add a row per episode, and a line whenever you change a default or a tool.
   - **Voices move to ElevenLabs** from the next episode (CLAUDE.md, Voices).
 - 2026-09-26: Naveen (GitHub canaveensetia) is copied on the morning desk email and the Sunday strategy email. The routine files say `Cc: <TEAM_CC>`; the addresses live only in the routines' bootstrap prompts, never in the repo. Today's 7:30 desk email was forwarded to him.
 - 2026-09-26 **Hard rule 1 changed, with Akhilesh's agreement:** Naveen may approve the script and the final video; the story pick stays with Akhilesh, and so do spending beyond the budgets and publishing. Why: Naveen makes videos too and shouldn't wait on Akhilesh at every gate. Akhilesh: "We will change it later if needed." Updated in CLAUDE.md, README, SETUP and the script playbook.
+- 2026-09-26 (Akhilesh: the morning email is unformatted and hard to read; plain text, not HTML, but readable):
+  - **The causes:** every source link sat inside a sentence, and Gmail rewrites each link as a ~200-character google.com redirect; each story crammed ten fields into dense lines, with all three hooks on one line; and internal jargon (B1/B2/B3, WAITING, docs/strategy.md) leaked into the email.
+  - **routines/email-style.md:** the rules and exact templates for the desk, final-video and weekly emails. Action and recommendation first; CAPS titles; dividers between stories; each hook and fact on its own line; links only on their own "Read:" lines, at most two per story; no bet IDs, file paths or Markdown. The subject line carries the recommended pick.
+  - **`scoreboard.py status`:** the "where we stand" lines in plain English, for emails.
+

@@ -9,7 +9,8 @@ Data, all in registry/ (edit these, never the generated tables):
 
 Usage (from the repo root):
   scoreboard.py                     full report
-  scoreboard.py brief               three lines for the top of the morning email
+  scoreboard.py brief               three lines on where we stand (for sessions; uses bet IDs)
+  scoreboard.py status              the same in plain English, for emails
   scoreboard.py write               regenerate registry/performance.md and the book in docs/strategy.md
   scoreboard.py ingest-ig FILE      add a reading from vidIQ's Instagram owner insights (the tool's JSON, saved to FILE)
   scoreboard.py link REEL CODE      tie a reel row to its Instagram shortcode once it's posted
@@ -277,6 +278,48 @@ def brief(d):
     return "\n".join(L)
 
 
+PLAIN = {  # how each metric reads in an email: (name, unit)
+    "skip_rate": ("swipe-aways in the first 3 s", "%"),
+    "watched_pct": ("average watched", "%"),
+    "sends_per_1k": ("shares per 1,000 plays", ""),
+    "saves_per_1k": ("saves per 1,000 plays", ""),
+    "likes_per_1k": ("likes per 1,000 plays", ""),
+    "comments_per_1k": ("comments per 1,000 plays", ""),
+    "views": ("plays per reel", ""),
+    "credits_per_1k": ("credits per 1,000 plays", ""),
+}
+VERDICT_PLAIN = {"TARGET HIT": "hit its target, now standard", "STOP HIT": "hit its stop, dropped",
+                 "TIME STOP": "no clear effect, closed", "WON": "won", "STOPPED": "stopped", "NO-EDGE": "no clear effect"}
+
+
+def status(d):
+    """Plain-English status for emails: no bet IDs, no file paths, no jargon."""
+    f, df = followers(d)
+    reads = readings(d)
+    posted = [r for r in d["reels"] if r["id"] in reads]
+    L = [f"{f if f is not None else '?'} followers ({'+' if (df or 0) >= 0 else ''}{df if df is not None else 0} this week)"]
+    last = max(posted, key=lambda r: r["posted_ist"], default=None)
+    if last:
+        s = reads[last["id"]][0]
+        bits = [f"{fmt(num(s['views']))} plays so far"]
+        if num(s["skip_rate"]) is not None:
+            bits.append(f"{num(s['skip_rate']):.0f}% swiped away in the first 3 s")
+        if num(s["watched_pct"]) is not None:
+            bits.append(f"watched {num(s['watched_pct']):.0f}% of the way")
+        L.append(f"Last reel ({last['story']}): " + ", ".join(bits))
+    opens = [x for x in book_rows(d) if x["bet"].get("status") == "open"]
+    if opens:
+        L.append("What every reel is testing:")
+        for x in opens:
+            b, m = x["bet"], x["bet"]["metric"]
+            name, unit = PLAIN.get(m, (label(m), ""))
+            now = x["value"] if x["value"] is not None else b.get("baseline")
+            v = lambda n: "?" if n is None else (f"{n:.0f}" if unit == "%" else f"{n:g}") + unit
+            where = VERDICT_PLAIN.get(x["verdict"], f"{x['n']} of {b['min_reels']} reels in")
+            L.append(f"- {b['name']}: {name} {v(now)} now, target {v(b['target'])} ({where})")
+    return "\n".join(L)
+
+
 def replace_between(path, tag, body):
     s = open(path).read()
     a, b = f"<!-- {tag} -->", f"<!-- /{tag} -->"
@@ -361,7 +404,7 @@ def add_reel(d, a):
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("cmd", nargs="?", default="report", choices=["report", "brief", "write", "ingest-ig", "link", "add-reel"])
+    ap.add_argument("cmd", nargs="?", default="report", choices=["report", "brief", "status", "write", "ingest-ig", "link", "add-reel"])
     ap.add_argument("args", nargs="*")
     ap.add_argument("--root"); ap.add_argument("--now"); ap.add_argument("--platform", default="instagram")
     for f in ("id", "format", "story", "bets", "length", "outfit", "desk-score", "credits", "notes"):
@@ -374,6 +417,8 @@ if __name__ == "__main__":
         print(report(d))
     elif a.cmd == "brief":
         print(brief(d))
+    elif a.cmd == "status":
+        print(status(d))
     elif a.cmd == "write":
         write(d, now); print("wrote registry/performance.md and the book in docs/strategy.md")
     elif a.cmd == "ingest-ig":

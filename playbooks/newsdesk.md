@@ -33,7 +33,7 @@ Goal: three story options Akhilesh can pick from in 30 seconds, each graded on h
    Also note the **window**: until when the story stays relevant, e.g. "post by Sun 27 Sep; the strike starts Monday".
 7. **Pick** the top two from the hot lane and the best one from the deep lane, in different shapes (e.g. wallet hit, market move, rule or company story). Recommend one.
 8. **Verify the fact box:** open each source page and confirm every number is on it. A hook may only use numbers from its own fact box, and a source older than a week can give context but never the headline number.
-9. Send the options in this shape:
+9. Send the options in this shape in the session. The email version uses the plain-text layout in routines/email-style.md, which says the same things in plain words, with no bet IDs and no inline links:
 
    **1. [Headline in plain English]**  (HOT · 8/10 · post by Sun 27 Sep)
    - Trend evidence: one line, e.g. "Google trending: बैंक 5000+; 90 news articles today; YouTube this week 1.1M views, top video 15K/hr"
