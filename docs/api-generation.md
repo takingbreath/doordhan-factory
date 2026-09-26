@@ -18,28 +18,28 @@ HIGGSFIELD_API_SECRET=<hex>       # the second half of the dashboard's key:secre
 available. Voice generation via `--voice sarika --text-file line.txt --out raw.mp3`. Client:
 `pipeline/elevenlabs_api.py`.
 
-## Higgsfield — client built + AUTHENTICATED; only REST model slugs/paths remain
-`pipeline/higgsfield_api.py` (shared client) + `pipeline/higgsfield.py` (CLI: `check|cost|audio|
-image|video`) mirror the ElevenLabs client exactly. The request **payload shapes** match the MCP
-tool calls the playbooks document (text2speech_v2/elevenlabs/element, wan2_7 + start_image +
-audio_references, seedream_v4_5 / gpt_image_2_5, `get_cost` preflight, `declined_preset_id`).
+## Higgsfield — client VERIFIED WORKING against the real API
+`pipeline/higgsfield_api.py` + `pipeline/higgsfield.py`. Verified live against the documented API
+(docs.higgsfield.ai, 2026-09-26):
+- **Base URL `https://api.higgsfield.ai`**; endpoints are path-based `/{provider}/{model}/.../{task}`
+  (e.g. `/minimax/hailuo-2.3/standard/text-to-video`, `/kling-video/v2.5-turbo/pro/text-to-video`).
+- **Auth `Authorization: Key <KEY_ID>:<KEY_SECRET>`** (legacy `hf-api-key`/`hf-secret` also accepted).
+- **Async lifecycle:** POST model endpoint -> `{request_id, status_url}` -> poll
+  `GET /requests/{request_id}/status` -> download output when `completed`.
+- **Transport:** Zscaler CA bundle (`~/.zscaler-bundle.pem` via SSL context) + browser User-Agent
+  to clear Cloudflare 1010.
+- **PROOF it works:** `higgsfield.py check` -> `/health 204, key auth accepted`; a POST to a real
+  model endpoint with an empty body returns `400 "'prompt' is a required property"` — i.e. base,
+  auth, path, and body-validation are all correct. A valid `{prompt: ...}` POST creates a real
+  request (spends the account's prepaid USD balance).
 
-**Transport SOLVED (verified 2026-09-26).** Two things gated it, both now handled in the client:
-1. **Zscaler corporate-proxy TLS** — the client honors a CA bundle via `SSL_CERT_FILE` /
-   `REQUESTS_CA_BUNDLE` / `~/.zscaler-bundle.pem` (same convention as the platform's
-   `NODE_EXTRA_CA_CERTS`, AGENTS.md §11).
-2. **Cloudflare `403 error code: 1010`** — a browser-integrity block on non-browser client
-   fingerprints. Fixed by sending a browser `User-Agent` (see `higgsfield_api.UA`).
-   Result: `python3 pipeline/higgsfield.py check` → `/health 204 OK, auth scheme 'hmac' accepted`.
-   The real API host **is `platform.higgsfield.ai`** with `/v1/*` paths, auth = key/secret headers.
-
-**Remaining (needs the API reference, not discoverable safely by probing):** the correct REST
-**model slugs + generate path**. A `get_cost` preflight against `/v1/generate*` returns a real
-`404 model_not_found` for `text2speech_v2` — i.e. auth + transport work, but the MCP tool name
-isn't the REST model id. From Higgsfield's API docs, set the real model ids (map into
-`higgsfield_api.MODELS`) and the generate/status paths (`higgsfield.py` defaults), then
-`... cost --json '{...}'` should return a credit estimate (free) before any real spend. Probing
-further blindly is avoided on purpose: a wrong-but-valid path could submit a credit-spending job.
+**Remaining for the Doordhan E4 reel specifically:** the exact model slugs the engine uses
+(`wan2_7` talking-head lip-sync from start_image+audio; the text-to-speech model) are not in the
+public OpenAPI sample (which is explicitly non-authoritative) — they live in per-model docs on
+console.higgsfield.ai (login-gated). Get the endpoint path + schema for the talking-head + TTS
+models from the console, map them into `higgsfield.py`'s image/video/audio subcommands, then run
+`work/e4-tax-audit-deadline/HANDOFF.md`. Documented models (hailuo/seedance text-to-video, kling)
+are runnable via `higgsfield.py video --path /minimax/hailuo-2.3/standard/text-to-video` today.
 
 ## What's still Claude/agent-only vs API-able
 - **Creative judgment** (story pick, script, wardrobe, QC "hot-and-classy" calls) — an agent (or a

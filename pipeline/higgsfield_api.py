@@ -22,10 +22,13 @@ HIGGSFIELD_AUTH_SCHEME to match the dashboard's API docs rather than guessing in
 import json, os, ssl, sys, time, urllib.request, urllib.error
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-# Overridable; the default is the documented platform host. Confirm against Higgsfield API docs.
-API = os.environ.get("HIGGSFIELD_API_BASE", "https://platform.higgsfield.ai").rstrip("/")
-# 'bearer' (Authorization: Bearer <key>), 'hmac' (hf-api-key/hf-secret headers), or 'basic'.
-AUTH_SCHEME = os.environ.get("HIGGSFIELD_AUTH_SCHEME", "hmac")
+# Verified against docs.higgsfield.ai (2026-09-26): the REST API host is api.higgsfield.ai, and
+# model endpoints are path-based (/{provider}/{model}/.../{task}, e.g.
+# /minimax/hailuo-2.3/standard/text-to-video). Overridable for preview environments.
+API = os.environ.get("HIGGSFIELD_API_BASE", "https://api.higgsfield.ai").rstrip("/")
+# Documented auth: `Authorization: Key <KEY_ID>:<KEY_SECRET>` (preferred). The legacy
+# hf-api-key/hf-secret headers are also still accepted. Default to the documented header.
+AUTH_SCHEME = os.environ.get("HIGGSFIELD_AUTH_SCHEME", "key")
 # Cloudflare in front of the API rejects non-browser client fingerprints with `403 error code:
 # 1010` unless a browser User-Agent is sent (confirmed 2026-09-26: with this UA /v1/health returns
 # a real API 405, without it a CF 1010). Overridable if it ever needs refreshing.
@@ -75,13 +78,16 @@ def creds():
 
 def _auth_headers():
     k, s = creds()
+    if AUTH_SCHEME == "key":
+        # Documented preferred scheme: `Authorization: Key <KEY_ID>:<KEY_SECRET>`.
+        return {"Authorization": f"Key {k}:{s}"}
     if AUTH_SCHEME == "bearer":
         return {"Authorization": f"Bearer {k}"}
     if AUTH_SCHEME == "basic":
         import base64
         tok = base64.b64encode(f"{k}:{s}".encode()).decode()
         return {"Authorization": f"Basic {tok}"}
-    # default hmac-style: key + secret as separate headers (common for key:secret pairs)
+    # legacy hmac-style: key + secret as separate headers (still accepted by the API)
     return {"hf-api-key": k, **({"hf-secret": s} if s else {})}
 
 
@@ -129,8 +135,9 @@ def voice_from_registry(name):
 
 def poll(status_path, ok=("completed", "succeeded", "done"),
          fail=("failed", "error", "cancelled"), every=4, timeout=600):
-    """Poll an async job to a terminal state. Returns the final job JSON.
-    Job-status shape (`state`/`status` + result URL) is confirmed by --check against a real job."""
+    """Poll an async request to a terminal state. Returns the final request JSON.
+    Higgsfield's documented lifecycle: submit -> {request_id, status_url} -> poll
+    GET /requests/{request_id}/status -> download output when `completed`."""
     start = time.time()
     while time.time() - start < timeout:
         st, body = request(status_path, method="GET")
