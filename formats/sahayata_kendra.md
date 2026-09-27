@@ -114,3 +114,9 @@ The rotary phone rings, he picks up and gives the full-name intro. The caller's 
   - Pans, multiple angles and POVs are welcome.
   - Push-ins and zooms that follow the action: punch in on the pick-up; pull out as he exhales the sigh.
   - The analog look stays. Lip-synced shots still hold the camera still in the model; the moves happen in the edit or in non-talking shots.
+- **The edit (E01, 2026-09-27):** assets/edits/sk01_build.py composes every frame in Python: zoom and crash-zoom crops on the talking shots, whip pans, shakes, kinetic text, captions, a tally board and checklists. It mixes the voice lines, the sfx.py kit and the fan room tone with numpy, then hands one raw file to assemble.py (`"look": "kendra"`).
+  - Talking shots: one Wan clip per line. The angle changes inside a line are crops of that clip, so lip-sync never breaks across a cut.
+  - Cutaways: Wan 2.7 image-to-video with no audio, at 1.5 credits a second (half Seedance's price).
+  - Captions: 2–3 words at 66 px. Wrap to two lines rather than shrinking.
+  - The rupee sign exists only in Baloo 2 Devanagari; the sprite renderer falls back to it automatically.
+
