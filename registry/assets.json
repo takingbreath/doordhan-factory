@@ -22,6 +22,22 @@
       "role": "Teleshop caller",
       "sheet": "8bfe4cbc-c483-455a-a9fc-c1080f1fb435",
       "room": "c0f6ef01-915e-4313-bcfe-31b657ac733d"
+    },
+    "pandey": {
+      "role": "Sahayata Kendra operator (Vidyasagar Pandey)",
+      "sheet": "0e19cfb4-46bc-431c-9e8f-5015416124c7",
+      "sheet_v1_headset": "2b30c3b1-b7fa-4560-9a5c-76950453ab20",
+      "expression_ref": "369af5a0-bb84-4918-baf4-56adcf7fd8b8",
+      "note": "deadpan = heavy-lidded and tired, never wide-eyed; see formats/sahayata_kendra.md Performance"
+    },
+    "billu": {
+      "role": "Sahayata Kendra office cat",
+      "sheet": "077c7b16-5911-4a12-838c-1adde9fc0ea9",
+      "superseded": {
+        "grey_v1": "659872c1-c93c-44fa-8cb1-f1c865a09549",
+        "ginger_plush_v2": "78b1ae06-8e9a-419d-9e67-513118462269"
+      },
+      "note": "real ginger street cat: notched left ear, scarred nose; contrasts with the green set"
     }
   },
   "keyframes": {
@@ -41,7 +57,18 @@
     "sarika_closeup_w2_power_blazer": "0182e812-01ff-4161-b46e-2e22b3c4ff1e",
     "sarika_closeup_w3_maroon_chiffon": "53a7d3d5-118b-48ce-be8e-3dd475dcd202",
     "sarika_closeup_w4_mustard_handloom": "1aed7ca2-bbe1-44e2-8237-6a82d4c5d2cf",
-    "gupta_bima_bhavan_maroon": "b27f95ae-22a5-4679-9612-25fc7216e66e"
+    "gupta_bima_bhavan_maroon": "b27f95ae-22a5-4679-9612-25fc7216e66e",
+    "kendra_master": "455286ed-c486-4b6f-a523-53cdfd419284",
+    "kendra_cold_open_both_look_at_phone": "c3692eee-4512-4e0d-812c-01daeed5a9b1",
+    "kendra_cold_open_start_both_to_lens": "e2c77184-4572-4cb5-999f-7fb51be9dba1",
+    "kendra_front_talk": "369af5a0-bb84-4918-baf4-56adcf7fd8b8",
+    "kendra_left_talk": "93b0322a-84dc-472e-b7b6-d0c3d8b4a250",
+    "kendra_low_talk": "eb2af48d-69d3-4376-8607-da8e1a60e0b1",
+    "kendra_right_talk": "d72e1859-acd0-403b-8486-303600617d40",
+    "kendra_two_shot_billu": "2c61e83a-0bf6-42cb-a5ba-b3ec6509b4d7",
+    "kendra_listen_ecu": "2aca9c6e-74b9-4bf0-b3ee-f072acf5320f",
+    "kendra_overhead_phone": "25ffdb7f-42cf-4978-9028-2cc2a1c36f28",
+    "kendra_billu_closeup": "ee6148ed-e42a-4de2-a81e-b1f3dfde6662"
   },
   "voices": {
     "sarika": {
@@ -81,6 +108,21 @@
       "phone": true,
       "elevenlabs_voice_id": null,
       "status": "audio_reference job verified 2026-09-25. It is a Seed Audio line designed from Rahul's image (27e3f8d7), the method that later proved unreliable; consider an ElevenLabs voice for him too."
+    },
+    "pandey": {
+      "provider": "elevenlabs",
+      "model": "eleven_v3",
+      "elevenlabs_voice_id": "RkuMBi6AZByWfSR5Ul5E",
+      "name": "Pandey (Akhilesh's clone)",
+      "tags": "[flat, brisk] default; [slowly] only before punch words",
+      "status": "used on E5 (2026-09-27)"
+    },
+    "kendra_caller_e5": {
+      "provider": "elevenlabs",
+      "model": "eleven_v3",
+      "elevenlabs_voice_id": "YgpoWAqBbWpygO1YiIEI",
+      "name": "Bobby - Energetic natural voiceover",
+      "treatment": "landline: 380-3000 Hz, 8 kHz crush, +7 dB at 1.6 kHz, line hiss (see work/sk01 build notes in assets/edits/sk01_build.py)"
     }
   },
   "audio": {
@@ -174,6 +216,19 @@
       "higgsfield_media": "16ec5346-c869-4172-b8d4-e1080e82c8d1",
       "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3JacmHOWkWJ6udDpC4Ik42twFAC/16ec5346-c869-4172-b8d4-e1080e82c8d1.mp4",
       "notes": "E3 final, 32.2 s. Shots: Wan jobs 80592a5f (Sarika hook), 9ac98fe1 + 321cf7ce (Gupta), eade8a81 (Sarika close)."
+    },
+    "sahayata_endcard": {
+      "local": "assets/clips/sahayata_endcard.mp4",
+      "build": "pipeline/sahayata_endcard.py",
+      "note": "AAPKI CALL HAMARE LIYE MAHATVAPURN THI; disconnect beeps + Fur Elise hold music; kendra look"
+    },
+    "kendra_reusable_e5": {
+      "_note": "Wan jobs from E5 worth reusing (no dialogue)",
+      "cold_open_turn": "7517004f-c7a8-4fb6-aca5-8d3b4010a629",
+      "listen_ecu": "c98ae9c4-35db-412c-a9d9-586664133bdc",
+      "overhead_hangup": "2d108df9-e447-4418-b2eb-ff9c1743c18d",
+      "billu_loaf_turn_away": "e60d71fb-8e48-4ea4-a28b-3e3d756c2c80",
+      "billu_sitting_turn_away": "a986b63b-ca96-4c1e-82b4-08cf7a53f8ec"
     }
   },
   "keyframes_notes": {
@@ -235,6 +290,12 @@
         "date": "2026-09-25",
         "character": "sarika",
         "outfit": "w1 black chiffon deep-V sari; open side-swept waves"
+      },
+      {
+        "episode": "5",
+        "date": "2026-09-27",
+        "character": "pandey",
+        "outfit": "off-white half-sleeve shirt buttoned to the collar, brown cable-knit sweater vest, blue ID lanyard"
       }
     ]
   },
