@@ -39,7 +39,7 @@ S["P4"] = S["P3"] + 10.20 + 0.35
 S["P5"] = S["P4"] + 11.20 + 0.35
 S["P6"] = S["P5"] + 6.45 + 0.50
 P6_END = S["P6"] + 4.40
-BILLU_END = P6_END + 2.1          # Billu turns away
+BILLU_END = P6_END + 2.7          # Billu blinks, then turns away
 HANG = BILLU_END + 0.35           # cradle clack of the final hang-up (ring burst before it)
 CARD = HANG + 0.55                # closing card starts
 CARD_LEN = 4.8
@@ -212,10 +212,10 @@ def zoomed(arr, z, cx=W / 2, cy=H / 2):
 
 
 # Each shot: start, end, clip factory, zoom(t) -> (z, cx, cy)
-FACE_FRONT = (360, 730)     # T1/T5 face centre in 720x1280
-FACE_LEFT = (405, 540)      # T2
-FACE_LOW = (375, 560)       # T3
-FACE_RIGHT = (380, 510)     # T4/T6
+FACE_FRONT = (360, 600)     # T1/T5 face centre in 720x1280
+FACE_LEFT = (395, 490)      # T2
+FACE_LOW = (400, 500)       # T3
+FACE_RIGHT = (370, 490)     # T4/T6
 
 
 def const(z, c=(W / 2, H / 2)):
@@ -294,12 +294,12 @@ shot(GHATAO, S["P3"] - LEAD, *TK("P2", GHATAO - (S["P2"] - LEAD)), const(1.22, F
 NAHI, MOTA, LAKH = P("P3", 6.28), P("P3", 7.25), P("P3", 8.88)
 shot(S["P3"] - LEAD, S["P4"] - LEAD, *TK("P3"),
      lambda t: ((1.0 + 0.1 * ease((t - S["P3"]) / 6.0)) if t < NAHI else
-                (1.0 + 0.9 * ease((t - NAHI) / 0.1)) if t < MOTA else
-                (1.25 if t < LAKH else 1.25 + 0.15 * ease((t - LAKH) / 0.15)), 375, 520 if t < MOTA else 560))
+                (1.0 + 0.6 * ease((t - NAHI) / 0.1)) if t < MOTA else
+                (1.0 if t < LAKH else 1.0 + 0.1 * ease((t - LAKH) / 0.15)), *FACE_LOW))
 # 7. P4 3/4 right: neighbour; slow push from "Bhai"
 BHAI, WOH = P("P4", 7.95), P("P4", 9.10)
 shot(S["P4"] - LEAD, S["P5"] - LEAD, *TK("P4"),
-     lambda t: (1.0 if t < BHAI else 1.0 + 0.22 * ease((t - BHAI) / (P("P4", 11.2) - BHAI)), *FACE_RIGHT))
+     lambda t: (1.0 if t < BHAI else 1.0 + 0.1 * ease((t - BHAI) / (P("P4", 11.2) - BHAI)), *FACE_RIGHT))
 # 8. P5 front: comment / like
 shot(S["P5"] - LEAD, S["P6"] - LEAD, *TK("P5"),
      steps([(0, 1.0), (P("P5", 3.8), 1.2), (P("P5", 5.85), 1.35)], FACE_FRONT))
@@ -312,11 +312,14 @@ if TALK["P6"][1] == 0.5:  # v2: the two-shot with Billu in frame; creep in on Bi
 else:
     shot(S["P6"] - LEAD, P6_END + 0.05, *TK("P6"), ramp(S["P6"], P6_END, 1.0, 1.12, FACE_RIGHT))
 # 10. Billu turns away
-shot(P6_END + 0.05, BILLU_END + 0.15, f"{V}/K4.mp4", 1.05, const(1.05, (360, 700)))
+if os.path.exists(f"{V}/K5.mp4") and TALK["P6"][1] == 0.5:  # continues the zoom-in on the sitting Billu
+    shot(P6_END + 0.05, BILLU_END + 0.15, f"{V}/K5.mp4", 0.6, const(1.0))
+else:
+    shot(P6_END + 0.05, BILLU_END + 0.15, f"{V}/K4.mp4", 1.05, const(1.05, (360, 700)))
 # 11. phone rings again; he hangs up without answering
 shot(BILLU_END + 0.15, CARD, f"{V}/K3.mp4", 0.10, const(1.12, (360, 560)))
 
-WHIPS = [LOAN, GHATAO, P6_END + 0.05]          # whip-pan transitions (direction alternates)
+WHIPS = [LOAN, GHATAO] + ([] if TALK["P6"][1] == 0.5 else [P6_END + 0.05])          # whip-pan transitions (direction alternates)
 SHAKES = [(HANGUP1, 0.25, 14), (GHATAO + 0.12, 0.3, 16), (NAHI, 0.2, 10), (LAKH, 0.35, 22), (HANG, 0.25, 14),
           (P("P4", 9.1), 0.25, 8)]
 
@@ -470,7 +473,7 @@ arrows(P("P5", 5.85), S["P6"] - LEAD, RED)
 # P6
 caption(P("P6", 0.0), P("P6", 1.5), "BILLU KA GHAR HOTA,")
 caption(P("P6", 1.55), P("P6", 4.15), "TOH WOH BHI TOP 1% MEIN HOTA,")
-text_event(P("P6", 4.15), P6_END + 0.05, "KA?", name="TitanOne.ttf", size=150, fill=YEL, cy=1000, stroke=9)
+text_event(P("P6", 4.15), P6_END + 0.6, "KA?", name="TitanOne.ttf", size=150, fill=YEL, cy=1150, stroke=9)
 
 # the DOORDHAN bug, top right, throughout the programme (not on the card)
 bug = sprite("DOORDHAN", font("Bungee.ttf", 30), (255, 255, 255, 215), stroke=3, shadow=3, pad=6)
