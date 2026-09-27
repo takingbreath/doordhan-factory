@@ -86,7 +86,13 @@ The rotary phone rings, he picks up and gives the full-name intro. The caller's 
 - Hanging up mid-caller.
 - Closing card: "Aapki call hamare liye mahatvapurn hai." over the hold music.
 
-## Production notes (to be filled in)
+## Production notes
+- **Voice pacing (E01, 2026-09-27; Akhilesh: "generally he speaks a little fast, slower only to emphasise"):**
+  - Default tag: `[flat, brisk]` or `[flat, matter-of-fact, normal pace]`. Add `[slowly]` only before the punch words.
+  - Never tag a whole line "slow". On eleven_v3 that, plus `[pause]`/`[long pause]`, left 1–1.8 s gaps mid-line and stretched the episode from about 65 s to 82 s.
+  - The brisk takes kept pauses only at the punches.
+- **ElevenLabs connector:** at most 3 generations run at once on this plan. Launch at most 3 takes per batch; the rest fail with "Too many concurrent requests".
+- **Caller voice for E01:** "Bobby – Energetic natural voiceover" (YgpoWAqBbWpygO1YiIEI) with phone EQ (highpass 300 Hz, lowpass 3.4 kHz, light compression). Pandey: cloned "Pandey" (RkuMBi6AZByWfSR5Ul5E).
 - **Keyframes:** a chest-up desk keyframe for talking shots (Wan 2.7 at 720p, driven by our own audio). Cutaways: phone, tea, register and stamp, Billu. Stamp and on-screen cards are built locally.
 - **Needed before episode 1:**
   - Vidyasagar's Seedream character sheet (no headset)
