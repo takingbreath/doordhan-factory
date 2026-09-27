@@ -103,3 +103,14 @@ The rotary phone rings, he picks up and gives the full-name intro. The caller's 
   - the stamp graphic
   - "pandey" voice ID in the registry
 - **Look:** `broadcast`.
+- **Closing card (reusable):** assets/clips/sahayata_endcard.mp4, rebuilt with `pipeline/sahayata_endcard.py`.
+  - Sound: the call cuts (three disconnect beeps), then the Kendra's hold music (Für Elise on a cheap 90s keyboard, public domain).
+  - Picture: "AAPKI CALL HAMARE LIYE MAHATVAPURN HAI." in Roman Hinglish, with "(Your call is important to us.)" underneath.
+- **On-screen text (Akhilesh, 2026-09-27):**
+  - Roman Hinglish, never Devanagari.
+  - The caller's question goes on screen in **English**, big and bold in a funky font.
+  - Fonts are in assets/fonts (Bungee, Rubik Mono One, Titan One, Baloo 2), downloaded from jsDelivr's fontsource; GitHub's raw files were blocked from the cloud machine.
+- **Camera (Akhilesh, 2026-09-27):** the format is for creative edits, not a locked-off 1990s camera.
+  - Pans, multiple angles and POVs are welcome.
+  - Push-ins and zooms that follow the action: punch in on the pick-up; pull out as he exhales the sigh.
+  - The analog look stays. Lip-synced shots still hold the camera still in the model; the moves happen in the edit or in non-talking shots.
