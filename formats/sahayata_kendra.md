@@ -12,7 +12,7 @@ _Created 2026-09-27 from Akhilesh's brief. A starting point: experiment freely a
 Original character; no resemblance to any real person. Reference sheet: Akhilesh's image (2026-09-27); a Seedream sheet ID is to be recorded here once generated.
 - **Who:** mid 30s, fifteen years on the phones. His name means "ocean of knowledge"; he believes it is accurate, and he is right. Nothing surprises him.
 - **Look:** tall and very thin, long neck, big dark unblinking eyes, a jet-black bowl cut with a dead-straight fringe just above the eyebrows (the full bowl cut is visible in every shot), a thick black moustache, a completely deadpan face. Mustard half-sleeve terrycot shirt buttoned to the top, a pen in the chest pocket, an ID card on a blue lanyard, a steel watch, dark brown trousers. He holds a cream corded telephone receiver, often wedged between ear and shoulder. **He never wears a headset** (ignore the one on the reference sheet).
-- **Desk:** rotary phone, steel tumbler of tea gone cold, a fat register he never opens, a rubber stamp, a ceiling fan, a peeling green wall with a "Grahak hi Bhagwan hai" board.
+- **Desk (keep it bare; Akhilesh 2026-09-27: "declutter the table"):** only the cream rotary phone, one steel tumbler of cold tea, and a red register with a rubber stamp on it. No pen stand, files or papers. Room: ceiling fan, tubelight, calendar, grey almirah, peeling green wall with a blue enamel "DOORDHAN SAHAYATA KENDRA" board. Master keyframe: Higgsfield cea04d16-99fc-448f-a8be-00f55b798bca.
 - **Voice:** ElevenLabs voice "pandey" (Akhilesh's; add its ID to registry/assets.json). Hindi with a light Bihari/Bhojpuri flavour: the intonation and a few markers ("ka", "hum", "kahe", "hai na"), never a heavy dialect, never a caricature. Slow, flat and unhurried, with short sentences and long pauses. He never shouts, laughs or gets excited.
 - **Mannerisms:**
   - He stares into camera and blinks about once an episode.
@@ -32,7 +32,7 @@ Original character; no resemblance to any real person. Reference sheet: Akhilesh
 - **Not:** a clown, angry, a shouting TV expert, or a teacher. He delivers verdicts rather than lectures. He doesn't do jokes; things are funny around him.
 
 ### BILLU, the office cat
-A plain, slightly fat grey tabby that lives on the desk. Nobody's cat; it arrived one day and stayed. It is the second deadpan in the room, with opinions shown only in stares.
+A slightly fat, bright orange ginger tabby with a white chest bib and white paws that lives on the desk (grey until 2026-09-27; Akhilesh: grey vanished into the green room, so Billu must contrast with the set). Sheet: Higgsfield 78b1ae06-8e9a-419d-9e67-513118462269. Nobody's cat; it arrived one day and stayed. It is the second deadpan in the room, with opinions shown only in stares.
 - **What it does:**
   - A slow, unimpressed stare at the phone when a question is stupid, or at the camera when a reel claim is absurd.
   - It ignores, looks away from, or yawns at Vidyasagar when he glances over for approval (use this lightly).
