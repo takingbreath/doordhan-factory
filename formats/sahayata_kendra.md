@@ -12,16 +12,16 @@ _Created 2026-09-27 from Akhilesh's brief. A starting point: experiment freely a
 Original character; no resemblance to any real person. Reference sheet: Akhilesh's image (2026-09-27); a Seedream sheet ID is to be recorded here once generated.
 - **Who:** mid 30s, fifteen years on the phones. His name means "ocean of knowledge"; he believes it is accurate, and he is right. Nothing surprises him.
 - **Look:** tall and very thin, long neck, big dark unblinking eyes, a jet-black bowl cut with a dead-straight fringe just above the eyebrows (the full bowl cut is visible in every shot), a thick black moustache, a completely deadpan face. Mustard half-sleeve terrycot shirt buttoned to the top, a pen in the chest pocket, an ID card on a blue lanyard, a steel watch, dark brown trousers. He holds a cream corded telephone receiver, often wedged between ear and shoulder. **He never wears a headset** (ignore the one on the reference sheet).
-- **Desk (keep it bare; Akhilesh 2026-09-27: "declutter the table"):** only the cream rotary phone, one steel tumbler of cold tea, and a red register with a rubber stamp on it. No pen stand, files or papers. Room: ceiling fan, tubelight, calendar, grey almirah, peeling green wall with a blue enamel "DOORDHAN SAHAYATA KENDRA" board. Master keyframe: Higgsfield cea04d16-99fc-448f-a8be-00f55b798bca.
+- **Desk (Akhilesh 2026-09-27): only two things on it, Billu and the phone.** No register, stamp, tumbler, pen or papers. Room: ceiling fan, tubelight, calendar, grey almirah, peeling green wall with a blue enamel "DOORDHAN SAHAYATA KENDRA" board.
+- **Floor plan (fixed for every angle):** Pandey sits centre; Billu lies at the far screen-left end of the desk (Pandey's right); the cream rotary phone is at the screen-right end (Pandey's left hand); empty desk between them. Master keyframe: Higgsfield 455286ed-c486-4b6f-a523-53cdfd419284. Generate every other angle from the master and check it against this plan (Akhilesh caught a cold-open frame that moved the phone to the centre).
 - **Voice:** ElevenLabs voice "pandey" (Akhilesh's; add its ID to registry/assets.json). Hindi with a light Bihari/Bhojpuri flavour: the intonation and a few markers ("ka", "hum", "kahe", "hai na"), never a heavy dialect, never a caricature. Slow, flat and unhurried, with short sentences and long pauses. He never shouts, laughs or gets excited.
 - **Mannerisms:**
   - He stares into camera and blinks about once an episode.
   - A long sigh comes before every answer.
-  - Cold-tea sip, a slight grimace, then he sips again.
-  - "Ek minute hold kariye" mid-sentence, then the hold music, then he carries on as if nothing happened.
+    - "Ek minute hold kariye" mid-sentence, then the hold music, then he carries on as if nothing happened.
   - When the caller says something absurd, he holds the receiver away from his ear and looks at it.
   - He says the verdict to camera with the receiver away from his ear.
-  - The last beat is the rubber stamp on the register: SATYAAPIT or GALAT.
+  - The last beat is the verdict stamp: SATYAAPIT or GALAT (a graphic slammed on screen in the edit, since the desk holds only the phone and Billu).
   - He hangs up mid-caller after the sign-off.
   - Full-name intro every call ("Doordhan Sahayata Kendra, Vidyasagar Pandey bol rahe hain"); callers shorten it or get it wrong, and he corrects them flatly.
 - **Behaviour:**
@@ -32,7 +32,7 @@ Original character; no resemblance to any real person. Reference sheet: Akhilesh
 - **Not:** a clown, angry, a shouting TV expert, or a teacher. He delivers verdicts rather than lectures. He doesn't do jokes; things are funny around him.
 
 ### BILLU, the office cat
-A slightly fat, bright orange ginger tabby with a white chest bib and white paws that lives on the desk (grey until 2026-09-27; Akhilesh: grey vanished into the green room, so Billu must contrast with the set). Sheet: Higgsfield 78b1ae06-8e9a-419d-9e67-513118462269. Nobody's cat; it arrived one day and stayed. It is the second deadpan in the room, with opinions shown only in stares.
+A real Indian street cat (desi billi): an orange ginger tabby, a bit heavy in the belly, with a short coarse slightly dusty coat, a notch in the left ear, a healed scar on the nose and bored half-closed eyes. Akhilesh (2026-09-27): grey vanished into the green room, so Billu must contrast with the set; and a plush, symmetrical studio cat "looks very AI", so Billu is a real cat with real flaws, and in video he moves like one (ears swivel, head turns, slow blinks). Sheet: Higgsfield 077c7b16-5911-4a12-838c-1adde9fc0ea9 (prompted as candid film photos, which read far less AI than a studio sheet). Nobody's cat; it arrived one day and stayed. It is the second deadpan in the room, with opinions shown only in stares.
 - **What it does:**
   - A slow, unimpressed stare at the phone when a question is stupid, or at the camera when a reel claim is absurd.
   - It ignores, looks away from, or yawns at Vidyasagar when he glances over for approval (use this lightly).
