@@ -50,23 +50,23 @@ Stage 1 targets are live in the block below. Stages 2 and 3 are the plan after t
 
 ## The book and where we stand
 <!-- scoreboard -->
-_Updated 2026-09-27 21:33 IST by `scoreboard.py write`._
+_Updated 2026-09-27 23:46 IST by `scoreboard.py write`._
 
 **Stage 1: Stop the scroll** (2026-09-26 to 2026-10-11): prove people stop for our reels and stay to the end
 
-- skip rate %: now 54.8, target 45 → not yet
-- watched %: now 41.1, target 45 → not yet
+- skip rate %: now 54.6, target 45 → not yet
+- watched %: now 42.5, target 45 → not yet
 - median plays at 72 h: now –, target 500 → not yet
-- best reel's plays: now 259, target 2000 → not yet
-- followers: now 65, target 100 → not yet
+- best reel's plays: now 2331, target 2000 → on target
+- followers: now 67, target 100 → not yet
 - strategy stop: 2/10 reels posted this stage; median plays at 72 h now –, must reach 300
 
 | Bet | Lever | Judged on | Baseline | Now | Target | Stop | Reels (judged/carried) | Verdict |
 |---|---|---|---|---|---|---|---|---|
-| B1 Hook in frame one | Frame 1: the anchor looks into the lens, already saying the viewer's stake; the hook in 6 big words or fewer on screen; nothing (Namaskar, title, logo) before it; a cut or punch-in by 1 s; cover = frame 1 | skip rate % | 60.7 | 54.8 | 45 | 58 | 1/1 (judge at 3, max 6) | **HOLD** 1/3 reels |
-| B2 Tight 20-30 s | 20-30 s total; title montage 1.5 s or less and only after the hook; payoff by 20 s; the last line echoes the hook so a replay feels natural; no dead air | watched % | 26.3 | 41.1 | 45 | 32 | 1/1 (judge at 3, max 6) | **HOLD** 1/3 reels |
-| B3 A line worth sending | Every script lands one line a viewer would forward to a specific person (a number to remember, a jab at the system, an 'I told you so'); never ask for shares | sends per 1k plays | 2.6 | 11.6 | 8 | 2 | 1/1 (judge at 4, max 6) | **HOLD** 1/4 reels |
-| W1 Glam Sarika | Sarika in the glam wardrobe (formats/samachar.md) on every Samachar reel | skip rate % | 66.9 | 54.8 | – | – | 1/1 (judge at 3, max 6) | **WATCH** tracked; judged at the monthly review |
+| B1 Hook in frame one | Frame 1: the anchor looks into the lens, already saying the viewer's stake; the hook in 6 big words or fewer on screen; nothing (Namaskar, title, logo) before it; a cut or punch-in by 1 s; cover = frame 1 | skip rate % | 60.7 | 54.6 | 45 | 58 | 1/1 (judge at 3, max 6) | **HOLD** 1/3 reels |
+| B2 Tight 20-30 s | 20-30 s total; title montage 1.5 s or less and only after the hook; payoff by 20 s; the last line echoes the hook so a replay feels natural; no dead air | watched % | 26.3 | 41.9 | 45 | 32 | 1/1 (judge at 3, max 6) | **HOLD** 1/3 reels |
+| B3 A line worth sending | Every script lands one line a viewer would forward to a specific person (a number to remember, a jab at the system, an 'I told you so'); never ask for shares | sends per 1k plays | 2.6 | – | 8 | 2 | 0/1 (judge at 4, max 6) | **WAITING** no reel with readings yet |
+| W1 Glam Sarika | Sarika in the glam wardrobe (formats/samachar.md) on every Samachar reel | skip rate % | 66.9 | 54.6 | – | – | 1/1 (judge at 3, max 6) | **WATCH** tracked; judged at the monthly review |
 <!-- /scoreboard -->
 
 ## This week's plan
@@ -74,13 +74,14 @@ _Written by the strategist every Sunday. The morning session executes it: each s
 
 **Week of Mon 28 Sep (written Sun 27 Sep)**
 - **Every reel carries all three open tests, as written:** hook in frame one (skip rate), tight 20–30 s (watched %), a line worth sending (sends per 1k).
-  - **Hook, sharpened (same lever, better execution):** make the on-screen hook the number the story turns on: the rupee or % hit, in 6 big words or fewer ("₹4 lakh crore saaf, ek din mein", "36% gira. Kyun?"). Four other creators took our Policybazaar/IRDAI story to 1.2M–6.5M plays this week, and every one opened on that number, spoken to camera from frame 1. We opened on the same story and got 259.
+  - **Hook, sharpened (same lever, better execution):** make the on-screen hook the number the story turns on: the rupee or % hit, in 6 big words or fewer ("₹4 lakh crore saaf, ek din mein", "36% gira. Kyun?"). Our best reel did exactly this (Policybazaar "−36%: KYUN?", 2,331 plays, 10× the others), and so did four other creators who took the same story to 1.2M–6.5M plays.
   - **Length:** 30 s cap, payoff by 20 s, last line echoes the hook. The tax-audit reel hit exactly 30 s.
-  - **Sendable line:** keep it. Policybazaar got 3 sends on 259 plays (11.6 per 1k, above the 8 target).
+  - **Sendable line:** keep it. Policybazaar's shares are unknown for now (the owner feed froze at 270 plays with 3 shares).
 - **Ride now:** a follow-up to the IRDAI commission-cap story from the viewer's stake ("Agent ka commission kata. Aapka premium sasta hoga?"): check the draft's status and dates first; no product advice. Then keep big stock movers with a clear cause (roughly 10%+ in a day) as the desk's first source.
 - **Volume and slot:** one reel a day, 7 days (the desk runs daily), posted 7–9 pm IST. Two of four reels so far went up in the morning. Trial Reel whenever the option shows.
 - **Log every reel before it posts:** `scoreboard.py add-reel` with bets, credits and desk score, and the script and contact sheet in the repo. The tax-audit reel skipped this, so it can't count toward the tests yet.
-- **Watching:** the tax-audit reel at 72 h; where the 46 new followers today came from; glam Sarika against the other formats (monthly review, 4 Oct).
+- **Every night, cross-check plays against the public count** (vidiq_ig_profile_reels, 5 credits): the owner feed froze on Policybazaar at 270 plays while the public count was 2,331.
+- **Watching:** the tax-audit reel at 72 h; glam Sarika against the other formats (monthly review, 4 Oct).
 
 ## Working rhythm
 | When | Who | What |
@@ -115,6 +116,7 @@ _Written by the strategist every Sunday. The morning session executes it: each s
 - 2026-09-27 (weekly review):
   - Book unchanged: all three bets HOLD on 1 judged reel each (need 3–4). No new bet: the weakest stage is still the stop (skip 54.8%, target 45%), which the hook bet already covers, and the book is full at 3.
   - Hook execution sharpened inside the same lever: lead with the story's number on screen (outlier evidence: 4 of 4 viral IRDAI reels did).
-  - Policybazaar reel marked "taking off" by the sends rule (11.6 per 1k vs 2× the book median of 4.4), on 3 sends: small sample; follow-up planned.
+  - Policybazaar reel is taking off by the plays rule: 2,331 plays (public count) vs a median of ~240 for the others. The first report said 259; vidIQ's owner feed had frozen for that reel. Corrected the same night after Akhilesh flagged it. It also hits the stage target of one reel above 2,000 plays.
+  - scoreboard.py: a public reading (no shares or saves) counts as unknown, not zero, for sends and saves per 1k.
   - Tax-audit reel (E4) recorded with no bets: made outside the logged flow; no script, contact sheet or credits in the repo. Re-tag once confirmed.
   - Posting plan: one reel a day, 7–9 pm IST.

@@ -113,8 +113,10 @@ def metric(name, reels, reads):
         tot = sum(w for w, _ in pts)
         return (round(1000 * sum(c for _, c in pts) / tot, 1) if tot else None), len(pts)
     field = {"sends_per_1k": "shares", "saves_per_1k": "saves", "likes_per_1k": "likes", "comments_per_1k": "comments"}[name]
+    # A public reading has no shares or saves: unknown, not zero, so it stays out of the pool.
+    pairs = [(r, s) for r, s in pairs if num(s[field]) is not None]
     tot = sum(v(s) for _, s in pairs)
-    return round(1000 * sum(num(s[field]) or 0 for _, s in pairs) / tot, 1), len(pairs)
+    return (round(1000 * sum(num(s[field]) for _, s in pairs) / tot, 1) if tot else None), len(pairs)
 
 
 def better(name, a, b):
@@ -316,6 +318,9 @@ def status(d):
             now = x["value"] if x["value"] is not None else b.get("baseline")
             v = lambda n: "?" if n is None else (f"{n:.0f}" if unit == "%" else f"{n:g}") + unit
             where = VERDICT_PLAIN.get(x["verdict"], f"{x['n']} of {b['min_reels']} reels in")
+            if x["value"] is None and x["carried"]:  # reels carry it, but none has a readable value yet
+                L.append(f"- {b['name']}: {name} unknown yet (was {v(b.get('baseline'))}), target {v(b['target'])} ({where})")
+                continue
             L.append(f"- {b['name']}: {name} {v(now)} now, target {v(b['target'])} ({where})")
     return "\n".join(L)
 

@@ -17,6 +17,7 @@ Your method, the rules of the book and the working rhythm are in docs/strategy.m
 2. **Record the numbers.**
    - Call vidiq_instagram_connected_accounts, then vidiq_instagram_owner_insights for platformAccountId 38813220511658947 (@doordhan).
    - Save the tool's JSON to work/ig.json. You may drop the thumbnail URLs. Then run `python3 pipeline/scoreboard.py ingest-ig work/ig.json`.
+   - **Cross-check the plays** with vidiq_ig_profile_reels for doordhan (public, 5 credits). The owner feed can freeze on a reel (27 Sep: Policybazaar showed 270 plays in owner insights and 2,331 in public). Wherever the public count is clearly higher, append a public reading to registry/snapshots.csv: plays, likes and comments from the public data; watch and skip carried from the owner feed; shares and saves left blank (unknown, not zero); a note in the caption field. Then judge on that.
    - For each reel it lists as not linked, find its row in registry/reels.csv by posting date, caption and topic, and run `python3 pipeline/scoreboard.py link <reel id> <shortcode>`.
    - A reel posted outside the flow gets a row: `add-reel --id X<n> --bets none`, then link it.
    - If owner insights are unavailable, fall back to vidiq_ig_profile_reels (public data, 5 credits), say so in the email, and don't judge bets on public data.
@@ -53,7 +54,7 @@ Your method, the rules of the book and the working rhythm are in docs/strategy.m
    - Follow: followers gained per reel.
 
    Name the weakest stage in one sentence with the numbers. That's where next week's new bet goes.
-8. **Gather evidence** (at most 25 credits this week):
+8. **Gather evidence** (at most 20 credits this week; the nightly cross-checks take up to 35):
    - **Instagram outliers:** vidiq_instagram_tiktok_outlier_search for Indian money reels that broke out this week (audienceQuery "Culture/Region: India; Global: false; Demographics: working professionals 25-38, personal finance, stock market, Hinglish;"). Note repeatable hooks and formats; call something a pattern only when you've seen it twice.
    - **Comments:**
      - YouTube: vidiq_video_comments.
