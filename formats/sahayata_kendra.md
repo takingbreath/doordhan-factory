@@ -119,4 +119,8 @@ The rotary phone rings, he picks up and gives the full-name intro. The caller's 
   - Cutaways: Wan 2.7 image-to-video with no audio, at 1.5 credits a second (half Seedance's price).
   - Captions: 2–3 words at 66 px. Wrap to two lines rather than shrinking.
   - The rupee sign exists only in Baloo 2 Devanagari; the sprite renderer falls back to it automatically.
+- **Performance (Akhilesh, 2026-09-27: "deadpan, not lifeless"):** E01 v1 prompted "completely flat expression, big unblinking eyes, no head movement", and the keyframes had wide-open eyes. The result was a frozen, startled, AI-looking face.
+  - Deadpan is dry and tired, not blank. Keyframes need heavy-lidded, relaxed eyes (no white above the iris), a bored and knowing look, and a faint suppressed smirk under the moustache. Front keyframe: Higgsfield 369af5a0-bb84-4918-baf4-56adcf7fd8b8.
+  - Talking-shot prompt: "Deadpan but alive and human: heavy-lidded, bored eyes, natural blinks every couple of seconds, a faint dry smirk under his moustache", plus one small acting note per beat, in order. Examples: a slow unimpressed head shake, one eyebrow lifting on the punch word, small nods while counting, eyebrows up on a question. Always add "small, subtle, natural movements only".
+  - headcheck runs near its 45 px/s limit on these, and lipcheck's mouth/head ratio drops, because the head now moves. Judge by eye: check_match must still be 1.00.
 
