@@ -6,7 +6,7 @@ and this builds those on purpose, in this order:
   halos -> colour that bleeds sideways and sits a little right of the picture -> a faint antenna ghost -> chunky
   grain made at SD size -> soft upscale to 1080x1920 -> highlight bloom -> 640 soft scanlines -> CRT vignette.
 Presets: broadcast (default: a clean Doordarshan-style off-air picture), vhs (a worn tape of it: teleshop,
-old recordings), clean (the Sept 2026 finish: fine grain and colour fringe only).
+old recordings), kendra (Sahayata Kendra: clearer, fine grain), clean (the Sept 2026 finish: fine grain and colour fringe only).
 Preview on any clip:  look.py IN.mp4 OUT.mp4 [--preset vhs]   (writes OUT and a side-by-side OUT_compare.png)"""
 import argparse, os, tempfile
 import numpy as np
@@ -19,6 +19,11 @@ PRESETS = {
                       sat=1.12, lift=0.05, mid=0.60, top=0.96, warm=0.02, bloom=0.18, scan=0.20, vignette=0.22),
     "vhs":       dict(sd=(320, 570), cblur=11, cshift=5, ghost=(9, 0.06), halo=0.9, grain=20, cgrain=8,
                       sat=0.98, lift=0.07, mid=0.57, top=0.93, warm=0.045, bloom=0.24, scan=0.24, vignette=0.42),
+    # Sahayata Kendra (Akhilesh 2026-09-27: "the grain is too huge, make it a little clearer"): same 90s colour,
+    # "and the colours brighter, it looks very dull"): sharper SD (about 540 across), fine grain, lighter bleed,
+    # ghost and scanlines; richer colour, near-black blacks and lifted mids instead of the milky off-air fade.
+    "kendra":    dict(sd=(540, 960), cblur=4, cshift=2, ghost=(4, 0.025), halo=0.4, grain=6, cgrain=2,
+                      sat=1.32, lift=0.015, mid=0.63, top=1.0, warm=0.025, bloom=0.12, scan=0.08, vignette=0.16),
     "clean": None,
 }
 OUT_W, OUT_H = 1080, 1920

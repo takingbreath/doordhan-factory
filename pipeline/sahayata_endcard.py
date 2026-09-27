@@ -2,7 +2,7 @@
 """The Doordhan Sahayata Kendra closing card, built once and reused on every episode.
 Sound: the call cuts (three short 400 Hz beeps, an Indian landline's disconnect), then the Kendra's hold music:
 Für Elise (Beethoven, public domain) on a thin, cheap 90s keyboard, down a phone line.
-Picture: a flicker of TV snow, then the card snaps in and creeps forward; the broadcast look is applied last.
+Picture: a flicker of TV snow, then the card snaps in and creeps forward; the kendra look (the format's clearer, brighter old TV) is applied last.
   sahayata_endcard.py [--out assets/clips/sahayata_endcard.mp4] [--seconds 4.8]"""
 import argparse, os, subprocess, tempfile, wave
 import numpy as np
@@ -119,7 +119,7 @@ def main():
                     "-map", "[v]", "-map", "[a]", "-t", str(a.seconds), "-c:v", "libx264", "-crf", "16",
                     "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k", raw], check=True)
     os.makedirs(os.path.dirname(a.out), exist_ok=True)
-    subprocess.run(["python3", os.path.join(ROOT, "pipeline", "look.py"), raw, a.out], check=True)
+    subprocess.run(["python3", os.path.join(ROOT, "pipeline", "look.py"), raw, a.out, "--preset", "kendra"], check=True)
     print("wrote", a.out)
 
 

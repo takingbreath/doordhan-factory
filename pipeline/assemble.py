@@ -7,7 +7,7 @@ edit.json:
              {"file": "work/<ep>/montage.mkv", "lufs": -17},
              {"file": "work/<ep>/C.mp4", "start": 0.1, "end": 13.0} ],
   "target_lufs": -14, "look": "broadcast", "tv_audio": true }
-"look": broadcast (default) | vhs | clean (the Sept 2026 finish) | none. "finish": false still means no look.
+"look": broadcast (default) | vhs | kendra (Sahayata Kendra: clearer, brighter) | clean (the Sept 2026 finish) | none. "finish": false still means no look.
 "tv_audio": mono, 90 Hz-10 kHz, like a TV speaker (default true; the loudness target is measured after it).
 Cut points must come from speech_map.py on each generated clip. Never cut before the last word.
 Each part with sound is levelled to its "lufs" (default -16, the line level) before joining: video models change

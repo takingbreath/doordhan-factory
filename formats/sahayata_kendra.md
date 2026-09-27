@@ -11,7 +11,7 @@ _Created 2026-09-27 from Akhilesh's brief. A starting point: experiment freely a
 ### VIDYASAGAR PANDEY, operator
 Original character; no resemblance to any real person. Reference sheet: Akhilesh's image (2026-09-27); a Seedream sheet ID is to be recorded here once generated.
 - **Who:** mid 30s, fifteen years on the phones. His name means "ocean of knowledge"; he believes it is accurate, and he is right. Nothing surprises him.
-- **Look:** tall and very thin, long neck, big dark unblinking eyes, a jet-black bowl cut with a dead-straight fringe just above the eyebrows (the full bowl cut is visible in every shot), a thick black moustache, a completely deadpan face. Mustard half-sleeve terrycot shirt buttoned to the top, a pen in the chest pocket, an ID card on a blue lanyard, a steel watch, dark brown trousers. He holds a cream corded telephone receiver, often wedged between ear and shoulder. **He never wears a headset** (ignore the one on the reference sheet).
+- **Look:** tall and very thin, long neck, big dark unblinking eyes, a jet-black bowl cut with a dead-straight fringe just above the eyebrows (the full bowl cut is visible in every shot), a thick black moustache, a completely deadpan face. Off-white half-sleeve shirt buttoned to the collar under a brown cable-knit sweater vest, a pen in the chest pocket, an ID card on a blue lanyard, a steel watch (E01 wardrobe; sheet Higgsfield 0e19cfb4-46bc-431c-9e8f-5015416124c7). He holds a cream corded telephone receiver, often wedged between ear and shoulder. **He never wears a headset.**
 - **Desk (Akhilesh 2026-09-27): only two things on it, Billu and the phone.** No register, stamp, tumbler, pen or papers. Room: ceiling fan, tubelight, calendar, grey almirah, peeling green wall with a blue enamel "DOORDHAN SAHAYATA KENDRA" board.
 - **Floor plan (fixed for every angle):** Pandey sits centre; Billu lies at the far screen-left end of the desk (Pandey's right); the cream rotary phone is at the screen-right end (Pandey's left hand); empty desk between them. Master keyframe: Higgsfield 455286ed-c486-4b6f-a523-53cdfd419284. Generate every other angle from the master and check it against this plan (Akhilesh caught a cold-open frame that moved the phone to the centre).
 - **Voice:** ElevenLabs voice "pandey" (Akhilesh's; add its ID to registry/assets.json). Hindi with a light Bihari/Bhojpuri flavour: the intonation and a few markers ("ka", "hum", "kahe", "hai na"), never a heavy dialect, never a caricature. Slow, flat and unhurried, with short sentences and long pauses. He never shouts, laughs or gets excited.
@@ -102,7 +102,7 @@ The rotary phone rings, he picks up and gives the full-name intro. The caller's 
   - phone-EQ treatment for callers
   - the stamp graphic
   - "pandey" voice ID in the registry
-- **Look:** `broadcast`.
+- **Look:** `kendra` (look.py preset; Akhilesh 2026-09-27: broadcast's grain was too heavy and the colour too dull for this format. kendra keeps the 90s TV feel with finer grain, a sharper picture and brighter colour).
 - **Closing card (reusable):** assets/clips/sahayata_endcard.mp4, rebuilt with `pipeline/sahayata_endcard.py`.
   - Sound: the call cuts (three disconnect beeps), then the Kendra's hold music (Für Elise on a cheap 90s keyboard, public domain).
   - Picture: "AAPKI CALL HAMARE LIYE MAHATVAPURN THI." in Roman Hinglish, with "(Your call was important to us.)" underneath.
