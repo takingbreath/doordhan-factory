@@ -51,10 +51,10 @@ def card(path):
         img.paste(lg, ((W - lg.width) // 2, 470), lg)
     # The line itself, in Roman Hinglish (Akhilesh: on-screen text is Hinglish, never Devanagari), big and chunky
     big = font("Baloo2-Latin-ExtraBold.ttf", 132)
-    for i, line in enumerate(["AAPKI CALL", "HAMARE LIYE", "MAHATVAPURN", "HAI."]):
+    for i, line in enumerate(["AAPKI CALL", "HAMARE LIYE", "MAHATVAPURN", "THI."]):
         centered(d, 730 + i * 150, line, big, (255, 250, 235), shadow=(0, 0, 0), off=8, stroke=3,
                  stroke_fill=(10, 20, 60))
-    centered(d, 1370, "(Your call is important to us.)", font("Baloo2-Latin-ExtraBold.ttf", 46),
+    centered(d, 1370, "(Your call was important to us.)", font("Baloo2-Latin-ExtraBold.ttf", 46),
              (232, 176, 28), off=3)
     # Footer: the in-world phone number and a thin rule
     d.rectangle([140, 1520, W - 140, 1526], fill=(232, 176, 28))

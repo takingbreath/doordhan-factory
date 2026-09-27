@@ -105,7 +105,7 @@ The rotary phone rings, he picks up and gives the full-name intro. The caller's 
 - **Look:** `broadcast`.
 - **Closing card (reusable):** assets/clips/sahayata_endcard.mp4, rebuilt with `pipeline/sahayata_endcard.py`.
   - Sound: the call cuts (three disconnect beeps), then the Kendra's hold music (Für Elise on a cheap 90s keyboard, public domain).
-  - Picture: "AAPKI CALL HAMARE LIYE MAHATVAPURN HAI." in Roman Hinglish, with "(Your call is important to us.)" underneath.
+  - Picture: "AAPKI CALL HAMARE LIYE MAHATVAPURN THI." in Roman Hinglish, with "(Your call was important to us.)" underneath.
 - **On-screen text (Akhilesh, 2026-09-27):**
   - Roman Hinglish, never Devanagari.
   - The caller's question goes on screen in **English**, big and bold in a funky font.
