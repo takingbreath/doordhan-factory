@@ -28,8 +28,11 @@ def dur(f):
 
 # ---------------------------------------------------------------- audio timeline (reel seconds)
 S = {}  # line starts
-S["C1"] = 3.45
-S["P1"] = 9.40
+S["C1"] = 3.55
+C1_END = S["C1"] + 5.05
+Q_OUT0, Q_OUT1 = C1_END - 0.05, C1_END + 0.35   # the question clears before he hangs up
+HANGUP1 = Q_OUT1 + 0.25                        # first cradle clack, on a clean frame
+S["P1"] = HANGUP1 + 0.75
 S["P2"] = S["P1"] + 5.80 + 0.30
 S["P3"] = S["P2"] + 9.60 + 0.35
 S["P4"] = S["P3"] + 10.20 + 0.35
@@ -234,54 +237,87 @@ def steps(pairs, c):
     return f
 
 
+# Talking clips: (file, the silence before the first word in its Wan track). v1 tracks had 0.12 s (and ran 8.8% fast:
+# the make_track concat bug); v2 tracks have 0.5 s so Wan's slow first second happens before he speaks.
+TALK = {k: (f"{V}/{f}", lead) for k, (f, lead) in {
+    "P1": ("T1b.mp4", 0.12), "P2": ("T2.mp4", 0.12), "P3": ("T3.mp4", 0.12), "P4": ("T4.mp4", 0.12),
+    "P5": ("T5.mp4", 0.12), "P6": ("T6.mp4", 0.12)}.items()}
+for k in TALK:  # prefer a v2 clip when it exists
+    n = k[1]
+    if os.path.exists(f"{V}/T{n}v2.mp4"):
+        TALK[k] = (f"{V}/T{n}v2.mp4", 0.5)
+
+
+V1_STRETCH = 48000 / 44100   # v1 clips were lip-synced to speech played this much too fast
+SPEED = {}                   # path -> playback speed used by shot()
+
+
+def TK(line, extra=0.0):
+    """(path, src_in) for a talking shot that starts at S[line] - LEAD (+extra) in the reel.
+    v1 clips: after their 0.12 s lead the speech ran 8.8% fast, so they play slowed by the same factor, which puts
+    the lips back on the real-speed voice (clip time c = 0.12 + (u - 0.12) / 1.0884 for reel offset u)."""
+    path, lead = TALK[line]
+    if lead == 0.12:
+        SPEED[path] = 1 / V1_STRETCH
+        return path, 0.12 - (0.12 - extra) / V1_STRETCH if extra else 0.12 - 0.12 / V1_STRETCH
+    return path, lead - LEAD + extra
+
+
 SHOTS = []
 
 
-def shot(t0, t1, path, src_in, zoom, speed=1.0):
-    SHOTS.append(dict(t0=t0, t1=t1, path=path, src_in=src_in, zoom=zoom, speed=speed))
+def shot(t0, t1, path, src_in, zoom, speed=None):
+    SHOTS.append(dict(t0=t0, t1=t1, path=path, src_in=src_in, zoom=zoom, speed=speed or SPEED.get(path, 1.0)))
 
 
 # 1. cold open: both turn to the ringing phone; slow creep
 shot(0.0, 2.74, f"{V}/t01_coldopen.mp4", 1.30, ramp(0, 2.74, 1.0, 1.07, (360, 760)))
 # 2. pick-up: crash in on the listening close-up, question builds
-shot(2.74, 8.65, f"{V}/K2.mp4", 0.0,
-     lambda t: (1.0 + 0.32 * (1 - ease((t - 2.74) / 0.22)) + 0.04 * ease((t - 3.0) / 5.6), 360, 560), speed=0.86)
+shot(2.74, Q_OUT1, f"{V}/K2.mp4", 0.0,
+     lambda t: (1.0 + 0.32 * (1 - ease((t - 2.74) / 0.22)) + 0.10 * ease((t - 3.0) / 5.2)
+                - 0.12 * ease((t - Q_OUT0) / (Q_OUT1 - Q_OUT0)), 360, 560), speed=0.80)
 # 3. overhead: receiver slammed down (jolt at the clack)
-shot(8.65, S["P1"] - LEAD, f"{V}/K3.mp4", 0.10, const(1.12, (360, 560)))
+shot(Q_OUT1, S["P1"] - LEAD, f"{V}/K3.mp4", 0.10, const(1.12, (360, 560)))
 # 4. P1 front: pull back on the sigh, punch in on "net worth kya hai"
 T1_0 = S["P1"] - LEAD
-shot(T1_0, S["P2"] - LEAD, f"{V}/T1.mp4", 0.0,
-     lambda t: (ramp(P("P1", 0.0), P("P1", 1.1), 1.38, 1.0, FACE_FRONT)(t)[0] if t < P("P1", 4.95)
+shot(T1_0, S["P2"] - LEAD, *TK("P1"),
+     lambda t: (ramp(P("P1", 0.0), P("P1", 1.1), 1.25, 1.0, FACE_FRONT)(t)[0] if t < P("P1", 4.95)
                 else 1.0 + 0.22 * ease((t - P("P1", 4.95)) / 0.12), *FACE_FRONT))
 # 5. P2 3/4 left: a new framing on every "Gino"; whip to Billu on "Loan hai?", whip back for "Ghatao"
 g = [P("P2", x) for x in (0.65, 1.85, 2.95, 5.5)]
 LOAN, GHATAO = P("P2", 6.30), P("P2", 8.10)
-shot(S["P2"] - LEAD, LOAN, f"{V}/T2.mp4", 0.0,
+shot(S["P2"] - LEAD, LOAN, *TK("P2"),
      steps([(0, 1.0), (g[0], 1.28), (g[1], 1.0), (g[2], 1.45), (g[3], 1.12)], FACE_LEFT))
 shot(LOAN, GHATAO, f"{V}/K4.mp4", 0.0, ramp(LOAN, GHATAO, 1.05, 1.18, (360, 700)))
-shot(GHATAO, S["P3"] - LEAD, f"{V}/T2.mp4", GHATAO - (S["P2"] - LEAD), const(1.22, FACE_LEFT))
+shot(GHATAO, S["P3"] - LEAD, *TK("P2", GHATAO - (S["P2"] - LEAD)), const(1.22, FACE_LEFT))
 # 6. P3 low angle: numbers fly; crash zoom on the eyes at "Nahi"; slam "90 lakh"
 NAHI, MOTA, LAKH = P("P3", 6.28), P("P3", 7.25), P("P3", 8.88)
-shot(S["P3"] - LEAD, S["P4"] - LEAD, f"{V}/T3.mp4", 0.0,
+shot(S["P3"] - LEAD, S["P4"] - LEAD, *TK("P3"),
      lambda t: ((1.0 + 0.1 * ease((t - S["P3"]) / 6.0)) if t < NAHI else
                 (1.0 + 0.9 * ease((t - NAHI) / 0.1)) if t < MOTA else
                 (1.25 if t < LAKH else 1.25 + 0.15 * ease((t - LAKH) / 0.15)), 375, 520 if t < MOTA else 560))
 # 7. P4 3/4 right: neighbour; slow push from "Bhai"
 BHAI, WOH = P("P4", 7.95), P("P4", 9.10)
-shot(S["P4"] - LEAD, S["P5"] - LEAD, f"{V}/T4.mp4", 0.0,
+shot(S["P4"] - LEAD, S["P5"] - LEAD, *TK("P4"),
      lambda t: (1.0 if t < BHAI else 1.0 + 0.22 * ease((t - BHAI) / (P("P4", 11.2) - BHAI)), *FACE_RIGHT))
 # 8. P5 front: comment / like
-shot(S["P5"] - LEAD, S["P6"] - LEAD, f"{V}/T5.mp4", 0.0,
+shot(S["P5"] - LEAD, S["P6"] - LEAD, *TK("P5"),
      steps([(0, 1.0), (P("P5", 3.8), 1.2), (P("P5", 5.85), 1.35)], FACE_FRONT))
 # 9. P6: Billu line, eyes to the cat
-shot(S["P6"] - LEAD, P6_END + 0.05, f"{V}/T6.mp4", 0.0, ramp(S["P6"], P6_END, 1.0, 1.12, FACE_RIGHT))
+BILLU_IN_TWO = (175, 860)   # Billu's centre in the v2 two-shot (720x1280)
+if TALK["P6"][1] == 0.5:  # v2: the two-shot with Billu in frame; creep in on Billu over the line
+    shot(S["P6"] - LEAD, P6_END + 0.05, *TK("P6"),
+         lambda t: (1.0 + 1.05 * ease((t - P("P6", 0.3)) / 3.9), 360 + (BILLU_IN_TWO[0] - 360) * ease((t - P("P6", 0.3)) / 3.9),
+                    640 + (BILLU_IN_TWO[1] - 640) * ease((t - P("P6", 0.3)) / 3.9)))
+else:
+    shot(S["P6"] - LEAD, P6_END + 0.05, *TK("P6"), ramp(S["P6"], P6_END, 1.0, 1.12, FACE_RIGHT))
 # 10. Billu turns away
 shot(P6_END + 0.05, BILLU_END + 0.15, f"{V}/K4.mp4", 1.05, const(1.05, (360, 700)))
 # 11. phone rings again; he hangs up without answering
 shot(BILLU_END + 0.15, CARD, f"{V}/K3.mp4", 0.10, const(1.12, (360, 560)))
 
 WHIPS = [LOAN, GHATAO, P6_END + 0.05]          # whip-pan transitions (direction alternates)
-SHAKES = [(8.95, 0.25, 14), (GHATAO + 0.12, 0.3, 16), (NAHI, 0.2, 10), (LAKH, 0.35, 22), (HANG, 0.25, 14),
+SHAKES = [(HANGUP1, 0.25, 14), (GHATAO + 0.12, 0.3, 16), (NAHI, 0.2, 10), (LAKH, 0.35, 22), (HANG, 0.25, 14),
           (P("P4", 9.1), 0.25, 8)]
 
 # ---------------------------------------------------------------- graphics / text events
@@ -294,7 +330,6 @@ for t0 in (0.05, 1.65):
 # the question, in English, builds word by word over the caller (from C1 phrase timings)
 Q = [(1.85, "HOW MUCH", 108, WHT, 250), (2.60, "MONEY", 150, WHT, 395), (3.30, "TO BE IN", 100, WHT, 560),
      (3.90, "INDIA'S", 132, WHT, 700), (4.30, "TOP 1%?", 210, YEL, 900)]
-Q_OUT0, Q_OUT1 = P("P1", 0.15), P("P1", 0.85)   # dissolve as he exhales
 for tq, txt, sz, col, y in Q:
     sp = fit(txt, "TitanOne.ttf", sz, 680, fill=col, stroke=9)
     t0 = S["C1"] + tq
@@ -412,6 +447,26 @@ caption(P("P5", 4.9), P("P5", 5.85), "AUR BAAKI GAREEB…")
 text_event(P("P5", 5.85), S["P6"] - LEAD, "BAS LIKE KARO", name="TitanOne.ttf", size=104, fill=RED, cy=1000,
            stroke=8)
 
+def arrow_sprite(col):
+    im = Image.new("RGBA", (150, 190), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
+    pts = [(45, 8), (105, 8), (105, 95), (142, 95), (75, 182), (8, 95), (45, 95)]
+    d.polygon([(x + 5, y + 5) for x, y in pts], fill=(0, 0, 0, 160)); d.polygon(pts, fill=col, outline=INK, width=6)
+    return im
+
+
+def arrows(t0, t1, col):
+    a = arrow_sprite(col)
+
+    def draw(fr, t):
+        bob = 18 * abs(np.sin((t - t0) * 9))
+        for x in (170, 550):
+            paste(fr, a, x, 1150 + bob, pop_scale(t - t0), 1)
+    EVENTS.append((t0, t1, draw))
+
+
+arrows(P("P5", 3.8), P("P5", 4.9), WHT)
+arrows(P("P5", 5.85), S["P6"] - LEAD, RED)
+
 # P6
 caption(P("P6", 0.0), P("P6", 1.5), "BILLU KA GHAR HOTA,")
 caption(P("P6", 1.55), P("P6", 4.15), "TOH WOH BHI TOP 1% MEIN HOTA,")
@@ -516,8 +571,8 @@ def mix(out_wav):
 
     ring = load(f"{VO}/ring2.wav"); put(ring, 0.0, 0.8)
     put(load(f"{VO}/click.wav"), 3.22, 0.9)
-    put(load(f"{VO}/tight/C1_b.wav"), S["C1"])
-    put(load(f"{VO}/cradle.wav"), 8.93, 1.0)
+    put(load(f"{VO}/C1_phone2.wav"), S["C1"])
+    put(load(f"{VO}/cradle.wav"), HANGUP1 - 0.02, 1.0)
     for ln in ("P1", "P2", "P3", "P4", "P5", "P6"):
         put(load(f"{VO}/v2/lev/{ln}.wav"), S[ln])
     # final: one ring burst, then the hang-up clack
@@ -528,7 +583,7 @@ def mix(out_wav):
     for tq, *_ in Q:
         put(fx["pop"], S["C1"] + tq, 0.5)
     put(fx["thud"], S["C1"] + 4.30, 0.55)                             # TOP 1%?
-    put(fx["whoosh"], Q_OUT0, 0.35)                                   # pull back on the sigh
+    put(fx["whoosh"], Q_OUT0, 0.35)                                   # zoom out as the question clears
     put(fx["pop"], P("P1", 4.97), 0.5)
     for name, ta, tg in ITEMS:
         put(fx["pop"], P("P2", ta), 0.35); put(fx["ding"], P("P2", tg), 0.25)

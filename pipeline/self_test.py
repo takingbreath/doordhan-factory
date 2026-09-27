@@ -48,6 +48,14 @@ def real_line():
 step("prep_line hits -16 LUFS on a real voice line", real_line)
 track = os.path.join(T, "track.mp3")
 step("make_track (padded, whole seconds)", lambda: tool("make_track.py", track, line, "--min", "4"))
+# A 44.1 kHz line (ElevenLabs connector output) after the 48 kHz lead: before 2026-09-27 the concat read it 8.8% fast,
+# so Wan lip-synced to sped-up speech and the mouth ran ahead of the voice in the edit.
+def track_441():
+    l441, t441 = os.path.join(T, "l441.wav"), os.path.join(T, "t441.mp3")
+    run([FFMPEG, "-y", "-v", "error", "-f", "lavfi", "-i", voice(3.0).replace("s=48000", "s=44100"), l441])
+    out = tool("make_track.py", t441, l441, "--lead", "0.6", "--hold", "0.1")
+    assert "speech ends at 3.60s" in out, out; return out.splitlines()[0]
+step("make_track keeps a 44.1 kHz line at its real speed", track_441)
 clip = os.path.join(T, "clip.mp4")
 step("fake talking clip", lambda: run([FFMPEG, "-y", "-v", "error", "-f", "lavfi", "-i",
      f"testsrc2=s={W}x{H}:r=24:d={duration(track)}", "-i", track, "-shortest", "-c:v", "libx264", "-c:a", "aac", clip]))

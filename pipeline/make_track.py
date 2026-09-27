@@ -22,7 +22,11 @@ with open(lst, "w") as f:
     for i, ln in enumerate(a.lines):
         if i:
             f.write(f"file '{gap}'\n")
-        f.write(f"file '{os.path.abspath(ln)}'\n")
+        # The concat demuxer assumes every file shares one format: a 44.1 kHz line after the 48 kHz lead was read
+        # at 48 kHz, i.e. 8.8% fast, and Wan then lip-synced to sped-up speech (E01, 2026-09-27). Resample first.
+        norm = os.path.join(tmp, f"line{i}.wav")
+        run([FFMPEG, "-y", "-v", "error", "-i", ln, "-ar", "48000", "-ac", "1", "-c:a", "pcm_s16le", norm])
+        f.write(f"file '{norm}'\n")
 joined = os.path.join(tmp, "joined.wav")
 run([FFMPEG, "-y", "-v", "error", "-f", "concat", "-safe", "0", "-i", lst, joined])
 speech_end = duration(joined)
