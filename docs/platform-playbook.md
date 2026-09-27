@@ -23,6 +23,7 @@ It stays visible to followers but isn't shown to anyone else. ([Recommendation G
 - **What drives distribution:** "viewed vs swiped away", viewing behaviour and satisfaction. Views count on every play since 31 Mar 2025. ([Help](https://support.google.com/youtube/answer/12942217))
 - **Disclose altered or synthetic content** on every upload. Since 27 May 2026 YouTube also labels undisclosed photorealistic AI itself; the label alone doesn't change reach. ([Help](https://support.google.com/youtube/answer/14328491), [blog](https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators/))
 - **Inauthentic content** (mass-produced, template-looking, including AI) is policed. Vary formats between episodes. ([YPP policy](https://support.google.com/youtube/answer/1311392))
+- **YPP rewrite (announced 10 Aug 2026, effective 1 Feb 2027):** new-applicant thresholds double (8,000 watch hours or 20M Shorts views in 90 days), and inauthentic-content enforcement (synthetic narration, templated formats) has run in waves since Jan 2026. For us: vary formats and keep each reel visibly made, not templated. ([AIR](https://air.io/en/monetization/youtube-monetization-policy-changes-2026-a-complete-dated-timeline)) Checked 2026-09-27.
 - **Monetisation: an AI persona giving finance information cannot be monetised**, even when disclosed (policy of Jul 2025, clarified Jul 2026). Treat YouTube as reach and audience, not ad revenue. ([TechCrunch](https://techcrunch.com/2026/07/20/youtube-clarifies-policies-around-ai-slop-and-upsetting-videos/))
 
 ## India
@@ -32,6 +33,7 @@ It stays visible to followers but isn't shown to anyone else. ([Recommendation G
   - Regulated firms can't pay or promote creators who do prohibited activities; this matters for any future sponsorship.
   - Enforcement is real (Avadhut Sathe, ₹546 cr, Dec 2025).
 - **IT Rules 2026 on synthetic content** (in force 20 Feb 2026): AI content must carry a "prominent, easily noticeable" label, and platforms collect the uploader's declaration and apply it. So always declare AI when posting. ([Khaitan](https://www.khaitanco.com/thought-leadership/MeitY-notifies-the-IT-Amendment-Rules-2026))
+  - **Draft (Apr 2026, consultation closed 7 May; final status unconfirmed as of 27 Sep):** labels on AI video must be "continuous and clearly visible throughout the duration", with an up-front audio disclosure; the duty sits on platforms, and users may not strip labels. A small on-screen "AI" mark burnt into our own frame would already comply. ([MediaNama](https://www.medianama.com/2026/04/223-meity-ai-label-rules-mandates-continuous-disclosure/))
 - **ASCI:** virtual influencers must disclose they're not human in promotional posts, and investment-advice influencers need SEBI registration. ([ASCI](https://www.ascionline.in/social/wp-content/uploads/2024/03/ASCI-Guidelines-Influencer-Advertising-In-Digital-Media-1.pdf))
 
 ## Checklist for every reel
