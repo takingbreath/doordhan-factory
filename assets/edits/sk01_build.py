@@ -34,7 +34,8 @@ Q_OUT0, Q_OUT1 = C1_END - 0.05, C1_END + 0.35   # the question clears before he 
 HANGUP1 = Q_OUT1 + 0.25                        # first cradle clack, on a clean frame
 S["P1"] = HANGUP1 + 0.75
 S["P2"] = S["P1"] + 5.80 + 0.30
-S["P3"] = S["P2"] + 9.60 + 0.35
+P2_END = 9.05                     # "Ghatao" ends here; the file then has a breath Wan lip-syncs as a half-open mouth
+S["P3"] = S["P2"] + P2_END + 0.35
 S["P4"] = S["P3"] + 10.20 + 0.35
 S["P5"] = S["P4"] + 11.20 + 0.35
 S["P6"] = S["P5"] + 6.45 + 0.50
@@ -577,7 +578,10 @@ def mix(out_wav):
     put(load(f"{VO}/C1_phone2.wav"), S["C1"])
     put(load(f"{VO}/cradle.wav"), HANGUP1 - 0.02, 1.0)
     for ln in ("P1", "P2", "P3", "P4", "P5", "P6"):
-        put(load(f"{VO}/v2/lev/{ln}.wav"), S[ln])
+        x = load(f"{VO}/v2/lev/{ln}.wav")
+        if ln == "P2":  # drop the breath after "Ghatao" (see P2_END)
+            x = x[: int((P2_END + 0.05) * SR)].copy(); x[-int(0.05 * SR):] *= np.linspace(1, 0, int(0.05 * SR))
+        put(x, S[ln])
     # final: one ring burst, then the hang-up clack
     burst = load(f"{VO}/burst.wav"); put(burst, BILLU_END - 0.55, 0.8); put(burst, BILLU_END - 0.05, 0.8)
     put(load(f"{VO}/cradle.wav"), HANG - 0.02, 1.0)
