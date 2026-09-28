@@ -1,0 +1,77 @@
+{
+ "id": "P6",
+ "line": "P6",
+ "part": 1,
+ "parts": 1,
+ "source_line": "work/sk01/voice/v2/lev/P6.wav",
+ "set": "kendra",
+ "framing": "two_shot",
+ "target_side": "left",
+ "start": {
+  "kind": "keyframe",
+  "value": "2c61e83a"
+ },
+ "chain": {
+  "used": false,
+  "why": "previous shot is pandey/kendra/front: a different character, set or framing starts from its keyframe"
+ },
+ "end_image_request": {
+  "model": "gpt_image_2_5",
+  "aspect_ratio": "9:16",
+  "medias": [
+   {
+    "role": "image",
+    "value": "2c61e83a"
+   }
+  ],
+  "prompt": "Exactly the same photograph: same person, face, hair, clothes, room, framing, lighting and analog look. The only change: his eyes on the ginger cat (to the left of the frame). The ginger cat is clearly visible in the frame. Mouth closed, eyes open. No new text.",
+  "check": "shot_spec.py endcheck <spec> <end image>  (identity, mouth closed, gaze left)"
+ },
+ "sheet": "work/sk01/img/pandey_sheet_v2.png",
+ "keyframe": "2c61e83a",
+ "source_span_s": [
+  0.0,
+  4.4
+ ],
+ "speech_s": 4.4,
+ "track": "work/cont/specs/P6_track.mp3",
+ "character": "pandey",
+ "tail_fix": null,
+ "attempt": 0,
+ "max_auto_retries": 1,
+ "edit_src_in_s": 0.38,
+ "params": {
+  "model": "wan2_7",
+  "resolution": "720p",
+  "aspect_ratio": "9:16",
+  "duration": 6,
+  "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+  "medias": [
+   {
+    "role": "start_image",
+    "value": "2c61e83a"
+   },
+   {
+    "role": "end_image",
+    "value": "<job id of the checked end image>"
+   },
+   {
+    "role": "audio_references",
+    "value": "<media_id of the uploaded track>"
+   }
+  ],
+  "prompt": "The person begins completely still and silent with the mouth closed, and starts speaking only when the voice begins. The man from the start image, a dry, tired government helpline clerk, speaks in Hindi. Deadpan but alive and human: heavy-lidded bored eyes, natural blinks, a faint dry smirk under his moustache. The jaw and lower lip move clearly with every syllable in exact sync with the provided audio, from the very first word. Small, subtle, natural movements only. Locked-off camera. Keep the exact analog look of the start image; no new text, no subtitles."
+ },
+ "qc": [
+  "python3 pipeline/lipsync_lag.py <clip> --json <clip>_lag.json",
+  "python3 pipeline/check_match.py <clip> work/cont/specs/P6_track.mp3",
+  "python3 pipeline/face_consistency.py work/sk01/img/pandey_sheet_v2.png <clip>"
+ ],
+ "end_image_check": {
+  "image": "work/cont/specs/P6_end.png",
+  "verdict": "PASS",
+  "identity": "0.75 vs sheet (>= 0.55)",
+  "mouth_closed": "inner-lip/width 0.004",
+  "gaze": "eyes left 0.59 vs right 0.00 (want left > 0.25 and clearly more)"
+ }
+}

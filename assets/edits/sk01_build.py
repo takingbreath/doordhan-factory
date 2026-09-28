@@ -674,6 +674,7 @@ def write_qc_manifest():
            "script": "registry/scripts/sk01.json",
            "characters": {"pandey": "work/sk01/img/pandey_sheet_v2.png"},
            "dialogue_stem": rel(os.path.join(SK, "tmp", "dialogue.wav")),
+           "prefinish": rel(os.path.join(SK, "edit_raw.mkv")),
            "length": {"min": 20, "max": 90, "expected": round(TOTAL, 2)},
            "loudness": {"target": edit.get("target_lufs", -14)},
            "repairs_file": rel(REPAIRS),

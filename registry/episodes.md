@@ -104,3 +104,11 @@ Add a row per episode, and a line whenever you change a default or a tool.
   - **New tools:** the sfx.py kit and the frame-composed edit (assets/edits/sk01_build.py). Wan with no audio makes cutaways at half Seedance's price.
 - **2026-09-28, QC gate (no credits):** `qc_gate.py` is now the hard last step, and the SendUserFile hook and put_upload.py refuse unstamped finals. On E5 it blocked the approved v4 on two real faults: the P4 lip-sync tail (−160 ms) and P6's hot "का" ending. It repaired both automatically in v5 (P4 src_in −0.08 s; an 80 ms fade on P6), which then passed. Lesson: judge identity on the talking clip, not the final; captions and crash zooms over the face read as a different person. docs/qc/2026-09-28-gate.md.
 - **2026-09-29, lab (10.5 credits, experiments budget):** why the reels read as AI. Every prompt in E5 and X1 says "locked-off", with a still head; 70–76% of E5 is one person talking to a locked-off camera. Free tests on E5 copies: an ambient bed (+3 dB floor), a voice room and band-limit (a short room tail), and a VHS pass (line jitter survives an Instagram-like re-encode, 1.06 px). The reshoot with physical business (P4a, Wan 7 s) did the business, but the lips stopped articulating (9× less mouth range, no confident SyncNet window). Lesson: keep talking shots still, and put the movement into non-speaking shots. docs/lab/2026-09-29-reads-as-ai.md.
+- **2026-09-29, overnight job: continuity, finish and shot mix (12.25 credits of the 25 approved: cat shot 7.75, action shot 4.5).**
+  - **Continuity:** the shot builder now chains consecutive same-framing shots from the previous clip's last clean frame (resetting if the face drifts), requires end images for in-frame looks and reaches, and refuses off-frame looks.
+  - **Cat shot:** its eyes held on the cat, but lip sync failed (the mouth moved half as much).
+  - **Action shot:** a small action before the first word passed lip sync.
+  - **Finish defaults:** VHS motion at 0.65, voice room without hiss, CC0 recorded ambience at −36 dB, lip sync gated on the pre-finish edit, 25 fps by frame blending.
+  - **House rules:** the eyeline rule, and no more than 55% of the runtime talking to camera.
+  - **Fixed:** put_upload's Cloudflare User-Agent and If-None-Match headers.
+  - docs/lab/2026-09-29-continuity-and-finish.md.

@@ -1,0 +1,92 @@
+{
+ "clip": "work/p2/action/action_then_still.mp4",
+ "label": "",
+ "start": 0.0,
+ "end": 3.02,
+ "face_frames": 1.0,
+ "corr": {
+  "offset_ms": -50,
+  "r": 0.45,
+  "windows": [
+   {
+    "t": 0.0,
+    "offset_ms": -63,
+    "r": 0.72,
+    "speech": 0.19,
+    "face": 1.0
+   },
+   {
+    "t": 0.48,
+    "offset_ms": 79,
+    "r": 0.37,
+    "speech": 0.32,
+    "face": 1.0
+   },
+   {
+    "t": 0.96,
+    "offset_ms": null,
+    "r": null,
+    "speech": 0.57,
+    "face": 1.0
+   },
+   {
+    "t": 1.44,
+    "offset_ms": 124,
+    "r": 0.32,
+    "speech": 0.62,
+    "face": 1.0
+   },
+   {
+    "t": 1.52,
+    "offset_ms": 122,
+    "r": 0.49,
+    "speech": 0.62,
+    "face": 1.0
+   }
+  ]
+ },
+ "syncnet": {
+  "offset_ms": -80.0,
+  "conf": 2.8,
+  "windows": [
+   {
+    "t": 0.0,
+    "offset_ms": -80,
+    "conf": 1.66,
+    "face": 1.0,
+    "speech": 0.19
+   },
+   {
+    "t": 0.48,
+    "offset_ms": -80,
+    "conf": 2.2,
+    "face": 1.0,
+    "speech": 0.32
+   },
+   {
+    "t": 0.96,
+    "offset_ms": -80,
+    "conf": 3.23,
+    "face": 1.0,
+    "speech": 0.57
+   },
+   {
+    "t": 1.32,
+    "offset_ms": -80,
+    "conf": 3.56,
+    "face": 1.0,
+    "speech": 0.62
+   }
+  ]
+ },
+ "primary": "syncnet",
+ "judged_windows": 2,
+ "drift_ms_per_s": 0.0,
+ "spread_ms": 0,
+ "failing_windows": [],
+ "verdict": "PASS",
+ "mouth_px": 71.0,
+ "median_conf": 3.4,
+ "pattern": "constant",
+ "median_offset_ms": -80
+}

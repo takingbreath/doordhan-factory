@@ -223,10 +223,39 @@ json.dump({{"slug": "_selftest", "final": {fin!r}, "script": {os.path.join(T, 'q
 step("qc_gate (hard gate, auto-repair once, stamp + hook)", qc_gate_check)
 
 
+def continuity_rules():
+    """shot_spec continuity and eyeline rules (no credits): an off-frame look is refused; a reach in a talking shot is
+    refused; an in-frame look asks for an end image and puts end_image in the Wan params; a talking prompt carries the
+    one-blink, one-eye-shift rule; a silent insert has no audio"""
+    line = os.path.join(T, "cont_line.wav")
+    run([FFMPEG, "-y", "-v", "error", "-f", "lavfi", "-i", voice(2.0), "-af", "afade=t=out:st=1.8:d=0.2", "-ac", "1", line])
+    out = os.path.join(T, "cont")
+    ss = lambda *a: subprocess.run([py, os.path.join(here, "shot_spec.py"), "build", *a, "--out", out], capture_output=True, text=True)
+    r = ss("--line", line, "--id", "A", "--keyframe", "k", "--look-at", "the cat", "--target-side", "left")
+    assert r.returncode and "is a cut" in (r.stderr + r.stdout), r.stderr[-300:]
+    r = ss("--line", line, "--id", "B", "--keyframe", "k", "--reach-for", "the phone", "--target-in-frame")
+    assert r.returncode and "no object handling" in (r.stderr + r.stdout), r.stderr[-300:]
+    r = ss("--line", line, "--id", "C", "--keyframe", "k", "--look-at", "the cat", "--target-side", "left", "--target-in-frame")
+    assert r.returncode == 0, r.stderr[-300:]
+    spec = json.load(open(os.path.join(out, "C.json")))
+    assert spec["end_image_request"] and any(m["role"] == "end_image" for m in spec["params"]["medias"]), spec
+    r = ss("--line", line, "--id", "D", "--keyframe", "k")
+    p = json.load(open(os.path.join(out, "D.json")))["params"]["prompt"]
+    assert "exactly one blink and one small eye shift" in p and "No objects are handled" in p, p
+    r = ss("--silent", "3", "--id", "E", "--keyframe", "k", "--reach-for", "the phone", "--target-in-frame", "--target-side", "right")
+    e = json.load(open(os.path.join(out, "E.json")))
+    assert r.returncode == 0 and not any(m["role"] == "audio_references" for m in e["params"]["medias"]) and e["end_image_request"], e
+    return "off-frame look and talking-shot reach refused; in-frame look gets an end image; eye rule in the prompt; silent insert"
+step("shot_spec continuity + eyeline rules", continuity_rules)
+
+
 def assemble():
     json.dump({"out": final, "parts": [{"file": carded, "start": 0, "end": 3.0}, {"file": mont},
                {"file": clip, "start": 0.0}], "target_lufs": -14}, open(edit, "w"))
-    out = tool("assemble.py", edit); I, _ = loudness(final); assert abs(I + 14) < 1.0, f"final loudness {I}"; return out.splitlines()[0]
+    out = tool("assemble.py", edit); I, _ = loudness(final); assert abs(I + 14) < 1.0, f"final loudness {I}"
+    assert os.path.exists(os.path.splitext(final)[0] + "_prefinish.mkv"), "no pre-finish edit for the lip-sync gate"
+    assert "vhs motion at 0.65" in out and "ambience 'office'" in out, out
+    return out.splitlines()[0] + "; vhs motion, voice room, ambience, pre-finish"
 step("assemble (finish, 1080x1920, -14 LUFS, joins sheet)", assemble)
 def assemble_one():
     e1, f1 = os.path.join(T, "edit1.json"), os.path.join(T, "final1.mp4")

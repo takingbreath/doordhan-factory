@@ -6,6 +6,12 @@ Copy this outline into formats/<show>.md. Build it the cheap way: characters, 2â
 1. **Premise:** what the show is, in one line, and why it's funny or useful.
 2. **When to use it:** which kinds of story fit.
 3. **Characters:** name, role, look, Seedream sheet ID, voice (registry key).
+3a. **Shot grammar** (house rules since 2026-09-29):
+   - one wide, mediums and one close per episode;
+   - no more than 55% of the runtime a face talking to camera; the rest cutaways, reactions and inserts without dialogue;
+   - talking shots straight to camera or eyes down, with one blink and one small eye shift and no object handling;
+   - no looks at off-frame objects: a cut, or the object in frame with an end image;
+   - consecutive shots of one framing chain from the previous clip's last clean frame (`shot_spec.py`).
 4. **Sets and keyframes:** IDs and what each shows.
 5. **Look and graphics:** the on-screen elements, and which ones you build locally.
 6. **Sound:** stings, room tone, voice treatments.

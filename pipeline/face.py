@@ -75,3 +75,18 @@ def embed(rgb, face):
     x = ((crop - 127.5) / 127.5).transpose(2, 0, 1)[None]
     v = _emb.run(None, {_emb.get_inputs()[0].name: x})[0][0]
     return v / np.linalg.norm(v)
+
+
+def gaze(face):
+    """where the eyes point, from the eyeLook blendshapes (0..1 each), in image terms: left/right as seen in the
+    frame, plus down/up. The subject's right eye looking out and left eye looking in both mean image-left."""
+    b = face["blend"]
+    g = lambda *k: float(np.mean([b.get(x, 0.0) for x in k]))
+    return {"left": g("eyeLookOutRight", "eyeLookInLeft"), "right": g("eyeLookInRight", "eyeLookOutLeft"),
+            "down": g("eyeLookDownLeft", "eyeLookDownRight"), "up": g("eyeLookUpLeft", "eyeLookUpRight")}
+
+
+def mouth_open(face):
+    """inner-lip gap / mouth width (0 closed; talking peaks ~0.2-0.3)"""
+    p = face["points"]
+    return float(np.linalg.norm(p[13] - p[14]) / (np.linalg.norm(p[61] - p[291]) + 1e-6))

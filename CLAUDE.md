@@ -57,7 +57,13 @@ If you think one of these is holding the channel back, say so at a gate.
 - **First frame:** showing the subject immediately (the real NSE logo in the anchor's inset box) makes the topic clear to someone scrolling.
 - **Cutting:** cut points taken from our own track timings were wrong, because generated clips shift timing. Measure on the clip itself (speech_map.py). A cut before the last word and a dead gap between two shots of one thought were the two edit mistakes Akhilesh caught.
 - **Music:** a sting under dialogue fought the voice. Shortening the sting from the front kept its ending intact.
-- **Finish, the old-TV look:** generated clips come out crisp and modern. Akhilesh wants every reel to look like it played on a CRT in the 80s–90s, not like HD. pipeline/look.py builds that on purpose at the end of assemble.py: SD softness, colour bleeding sideways, a faint antenna ghost, chunky grain, soft scanlines, bloom, milky blacks, 25 fps (Indian PAL). The sound is a TV speaker: mono, no deep bass. Presets: `broadcast` (default, off-air Doordarshan) and `vhs` (a worn tape; suits the teleshop). Making the edit smaller is not the look (it only blurs), and generating at a lower resolution saves nothing: Wan's cheapest tier is 720p.
+- **Finish, the old-TV look:** generated clips come out crisp and modern. Akhilesh wants every reel to look like it played on a CRT in the 80s–90s, not like HD. pipeline/look.py builds that on purpose at the end of assemble.py: SD softness, colour bleeding sideways, a faint antenna ghost, chunky grain, soft scanlines, bloom, milky blacks, 25 fps (Indian PAL). The sound is a TV speaker: mono, no deep bass. Presets: `broadcast` (default, off-air Doordarshan) and `vhs` (a worn tape; suits the teleshop).
+  Since 2026-09-29 assemble.py also runs these by default:
+  - tape motion (vhs_motion.py at 0.65: jitter, colour bleed, noise) under the look;
+  - a small room on the voice (voice_room.py, no hiss);
+  - recorded CC0 office ambience at −36 dB.
+
+  Lip sync is gated on the pre-finish edit. Shot grammar (house rules): no more than 55% face-to-camera; talking shots straight to camera or eyes down, with one blink and one small eye shift; no looks at off-frame objects; consecutive shots chain from the previous clean frame. Details are in playbooks/produce.md and docs/lab/. Making the edit smaller is not the look (it only blurs), and generating at a lower resolution saves nothing: Wan's cheapest tier is 720p.
 
 ## Quality bar
 Akhilesh should never be the one to find gibberish audio, lips that don't move, a word cut off, garbled text, a jarring cut or a wrong fact.

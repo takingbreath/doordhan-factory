@@ -14,6 +14,26 @@ _Created 2026-09-27 from Akhilesh's brief; rewritten after the debut, E5 "Top 1%
 - **Board:** the wall board reads DOORDHAN SAHAYATA KENDRA (not "Grahak hi Bhagwan hai").
 - **Desk:** only two things on it, Billu and the phone.
 - **Billu:** must contrast with the set (grey vanished into the green room). He is a real cat, not a plush AI cat.
+
+**Eyeline, performance and shot mix (Akhilesh, 2026-09-29)**
+- **No look at anything off-frame.** A look at Billu, the phone or anything else is either:
+  - a cut: he looks off-camera, then a cutaway of the object; or
+  - a look within one shot: the object is in the same frame, and the shot has an end image with his eyes (or hand) on it (`shot_spec.py build --look-at ... --target-in-frame`).
+
+  The builder refuses an off-frame look.
+- **Talking shots are straight to camera or eyes down.** No object handling while he talks: reaches, papers and the receiver go in a no-dialogue insert (`shot_spec.py build --silent SECONDS --reach-for ...`).
+
+  Every talking-shot prompt carries exactly one blink and one small eye shift, nothing more (the builder adds it).
+
+  Why: in the 2026-09-29 reshoots, business during a line cut the lips' movement to a ninth of normal. Even a held look at Billu cut it by more than half. SyncNet found no confident window in either, so neither passes the gate.
+- **Continuity between shots.** A shot that follows one of the same character, set and framing starts from the previous clip's last clean frame (`--chain-from`), checked by face_consistency, with a reset to the keyframe if it drifts.
+
+  A shot that changes his position gets both a start and an end image.
+- **Shot mix.**
+  - **Sizes:** vary them, with one wide (the room with Billu and the phone), mediums, and one close.
+  - **Talking share:** no more than **55%** of the runtime is a face talking to camera. E5 was 70% (76% before the card).
+  - **The rest:** cutaways, reactions and inserts generated without dialogue (Wan, no audio, 1.5 credits a second).
+
 - **Floor plan:** fixed across every angle (section 4); positions must never jump between shots.
 - **Pandey's clothes:** no headset. Change the clothes from his reference.
 
@@ -121,6 +141,9 @@ Original character; no resemblance to any real person.
 
 ## 5. Look, text and graphics
 - **Look:** `look.py` preset `kendra` (finer grain, sharper, brighter colour); in edit.json, `"look": "kendra"`.
+- **Finish defaults in assemble.py (2026-09-29):** these are on without asking.
+  - **VHS motion** (`vhs_motion.py`: line jitter, colour bleed, streak noise, rare dropouts) at 0.65 strength, applied before the `kendra` look, so the brighter colour stays. After a simulated Instagram re-encode the jitter measures about 0.5 px, and black level and saturation are unchanged.
+  - **Pre-finish check:** lip sync is gated on `<final>_prefinish.mkv`, the edit before the finish.
 - **Fonts** (assets/fonts, fetched from jsDelivr fontsource; GitHub raw is blocked here):
   - Titan One for slams;
   - Bungee for boards and labels;
@@ -149,6 +172,11 @@ Original character; no resemblance to any real person.
   `highpass=380, lowpass=3000, aresample=8000, acrusher=bits=10:mode=log, aresample=48000, equalizer f=1600 +7 dB, equalizer f=500 −4 dB, acompressor 6:1`,
   plus pink-noise line hiss band-limited to 400–3000 Hz, `loudnorm -17`.
 - **No music under the voice.** Hold music only on the closing card.
+- **Voice room (default, 2026-09-29):** `voice_room.py`: 120 Hz–7 kHz, light tape saturation, a small office room (RT60 0.35 s, 13 dB under), no hiss.
+  - In a frame-composed build like E5 (one mixed part), treat the dialogue bus with `voice_room.treat()` in the build, leave the caller's landline line alone, and set `"room": false` on the mix part.
+  - A plain edit.json gets it per part automatically.
+- **Ambience (default):** `"ambience": "office"`: recorded CC0 fan and distant road (assets/audio/ambience/SOURCES.md) at −36 dB relative to the programme, 9 dB lower than the realism test.
+  - It replaces the old synthetic `sfx_room` fan: a new build should drop `sfx_room` and let assemble lay the bed. A build that keeps its own bed sets `"ambience": null`.
 
 ## 7. Episode shape (the Question type, as E5 proved it)
 
@@ -190,10 +218,13 @@ Original character; no resemblance to any real person.
    - Upload with `media_upload` → `put_upload.py` (audio/mpeg) → `media_confirm`.
 4. **Keyframes.** gpt_image_2_5 at 9:16, referencing the master plus the sheets, with heavy-lidded expression wording. Check the floor plan, the eyes and the text on the board.
 5. **Talking shots.** Wan 2.7 at 720p, `start_image` plus `audio_references`, duration = the track length, `declined_preset_id` from the registry.
-   - Prompt template: "The man from the start image, a dry, tired government helpline clerk, speaks in Hindi, his jaw and lower lip moving clearly with every syllable in exact sync with the provided audio, from the very first word. Deadpan but alive and human: heavy-lidded bored eyes, natural blinks, a faint dry smirk under his moustache." Then **one acting note per beat, in order**. Then "Small, subtle, natural movements only; no hands, no big grin. Locked-off camera. Keep the exact analog look of the start image; no new text, no subtitles."
-   - Gestures work when you ask for them (E5: "raises his right hand into frame and points his index finger straight down, jabbing twice").
+   - Build the spec with `shot_spec.py build ... --set kendra --framing <setup> [--chain-from <previous spec>]`. It writes the prompt below, plus "Eyes straight to the camera, or down; exactly one blink and one small eye shift during the line, nothing more. No objects are handled."
+   - Prompt template: "The man from the start image, a dry, tired government helpline clerk, speaks in Hindi, his jaw and lower lip moving clearly with every syllable in exact sync with the provided audio, from the very first word. Deadpan but alive and human: heavy-lidded bored eyes, a faint dry smirk under his moustache." Then **one acting note per beat, in order**. Then "Small, subtle, natural movements only; no hands, no big grin. Locked-off camera. Keep the exact analog look of the start image; no new text, no subtitles."
+   - Gestures: E5's pointing on "comment / like" worked, but since 2026-09-29 hands and objects stay out of talking shots (see the eyeline rules in section 1). Put the gesture in a reaction shot, or keep it to one small point with no object in the hand.
    - Wan sometimes pushes in or leans in by itself; reduce the digital zoom on that line.
-6. **Cutaways.** Wan 2.7 image-to-video with **no audio**, at 1.5 credits a second (half Seedance's price), minimum 2 s.
+6. **Cutaways, reactions and inserts** (at least 45% of the runtime). Wan 2.7 image-to-video with **no audio**, at 1.5 credits a second (half Seedance's price), minimum 2 s.
+   - `shot_spec.py build --silent SECONDS --id <id> --keyframe <id> --character <name> --acting "..."`.
+   - A reach or a look at something in the frame gets `--reach-for` or `--look-at` with `--target-in-frame`: the spec asks for an end image (hand or eyes on the target). Make it, then run `shot_spec.py endcheck SPEC END.png` before the video.
    - For Billu: "natural, realistic cat movement, small and precise".
    - For a shot that continues a zoom, start from the exact zoomed crop of the previous clip's last frame (uploaded as an image). E5's Billu turn-away ran on seamlessly this way.
    - Seedance at 480p works too (the E5 cold open), but it costs 3 credits a second.

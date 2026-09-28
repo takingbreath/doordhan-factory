@@ -58,15 +58,26 @@ Akhilesh, 2026-09-25: "there is a line between looking hot and classy vs hot and
 - **Classy:** poise, a steady and level head, still shoulders, a direct gaze, expression carried by the eyes and eyebrows, the knowing half-smile at the end.
 - **Cheap (never):** head wobbling, bobbing or tilting, hair tossing, leaning into the camera, pouts, winks, lip bites, shoulder shimmies.
 - **Wan prompts:** Wan acts out every attitude word. "Glamorous", "playful", "confident", "tilt of the head" and "her hair moves" added a wobble (head travel 66–83 px/s against 37 for the accepted shot). Keep this sentence for every Sarika talking shot and add no attitude words:
-  "The news anchor from the start image reads the news in Hindi, her lips moving in exact sync with the provided audio. She is a poised professional newsreader: head steady and level, shoulders still, only a small natural nod on a stressed word, expression carried by her eyes, a faint knowing smile at the end. No head tilting, no bobbing, no hair movement. Locked-off studio camera."
+  "The news anchor from the start image reads the news in Hindi, her lips moving in exact sync with the provided audio. She is a poised professional newsreader: head steady and level, shoulders still, only a small natural nod on a stressed word, expression carried by her eyes, a faint knowing smile at the end. No head tilting, no bobbing, no hair movement. Exactly one blink and one small eye shift during the line, nothing more. Locked-off studio camera."
+  (The blink and eye-shift sentence was added 2026-09-29. Talking shots are straight to camera or eyes down, with no objects handled; a look at anything is a cut or an in-frame target with an end image, per playbooks/produce.md.)
 - **QC:** `headcheck.py` (it runs inside qc.py) must PASS (≤45 px/s). If it fails, reshoot with the sentence above rather than cut around it.
 
 ## Look and graphics
 - Flat powder-blue studio, DOORDHAN rupee-coin bug top-right, 90s CRT softness. Finish: look `broadcast` (the default in assemble.py).
+- **Finish defaults (2026-09-29):**
+  - VHS motion at 0.65 (jitter, colour bleed, streak noise) under the look;
+  - voice room on every part with sound: mark the montage/sting part `"room": false`;
+  - recorded office ambience at −36 dB relative to the programme. If the fan and distant road read wrong for a TV studio, set `"ambience": null` and say so at the final gate.
+- **Continuity:** X1's three Sarika shots each restarted from the same keyframe, so every cut reset her pose. Consecutive shots of one framing now chain from the previous clip's last clean frame (`shot_spec.py build --chain-from`).
 - Inset box story graphic: the subject's real logo on a light card (inset_card.py auto-detects the box, which sits around x=308–465, y=47–201 in 480x854).
 
 ## Sound
 - assets/audio/samachar_sting.mp3: the last ~2.5 seconds over the title card, right after the opening question. Never under dialogue.
+
+## Shot mix (2026-09-29)
+- **Sizes:** vary them, with one wide (the desk and studio), mediums, and one close.
+- **Talking share:** no more than 55% of the runtime is a face talking to camera. X1 was about 90%.
+- **The rest:** cutaways, reactions and inserts without dialogue: the correspondent's location B-roll, hands on papers, the monitor wall, a still of the subject.
 
 ## Shot pattern that worked (Episode 2, about 34s)
 1. Desk: "नमस्कार" and the viewer's-stake question, with the logo card in the inset box.

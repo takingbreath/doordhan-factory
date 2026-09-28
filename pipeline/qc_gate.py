@@ -3,7 +3,9 @@
 Checks, in order (each row ends pass, repaired or failed):
   1 script    the final's Scribe transcript against the frozen approved script (script_diff.py); the frozen file's
               sha256 is re-checked so an edited "approved" script fails too
-  2 lip-sync  lipsync_lag.py on every talking segment of the final, against the reel's own audio; a line fails if
+  2 lip-sync  lipsync_lag.py on every talking segment of the pre-finish edit (the manifest's "prefinish", or
+              assemble.py's <final>_prefinish.mkv: same timing, before the VHS pass and the look, which lower SyncNet's
+              confidence and faked a +480 ms reading in the realism test), against the reel's own audio; a line fails if
               any measured segment has a confident window outside -125..+45 ms, or if none of its segments could be
               measured (segments shorter than one 2 s window are covered by a longer segment of the same clip)
   3 face      face_consistency against each character's sheet, frames every 0.5 s through each talking segment
@@ -154,8 +156,19 @@ def check_script(M, final):
 
 
 # ---------------------------------------------------------------- 2 lip-sync
+def prefinish_of(M, final):
+    for cand in (M.get("prefinish"), stem(final) + "_prefinish.mkv"):
+        if cand and os.path.exists(P(cand)):
+            return cand
+    return None
+
+
 def check_lipsync(M, final, work):
     rows = []
+    src = prefinish_of(M, final)
+    if src is None:
+        src = final
+        print("[qc_gate] no pre-finish edit found: lip-sync measured on the finished reel", flush=True)
     for ln in M["lines"]:
         segs = [s for s in ln.get("segments", [])]
         if not segs:
@@ -165,7 +178,7 @@ def check_lipsync(M, final, work):
             if t1 - t0 < MIN_SEG:
                 unsure.append((t0, t1, "shorter than one 2 s window")); continue
             jf = os.path.join(work, f"lag_{ln['id']}_{k}.json")
-            r = sh([sys.executable, os.path.join(here, "lipsync_lag.py"), P(final), "--start", f"{t0:.3f}",
+            r = sh([sys.executable, os.path.join(here, "lipsync_lag.py"), P(src), "--start", f"{t0:.3f}",
                     "--end", f"{t1:.3f}", "--json", jf, "--label", f"{ln['id']}#{k}"])
             if r.returncode or not os.path.exists(jf):
                 fails.append((t0, t1, {"verdict": "ERROR", "repair": r.stderr[-200:]})); continue
@@ -201,7 +214,8 @@ def check_lipsync(M, final, work):
             offs = [o for o in offs if o is not None]
             note = f", {len(unsure)} short segment(s) covered by the same clip" if unsure else ""
             rows.append(row("lipsync", rid, True, f"offset {int(np.median(offs)) if offs else '?'} ms, drift "
-                            f"{measured[0][2].get('drift_ms_per_s')} ms/s over {len(measured)} segment(s){note}"))
+                            f"{measured[0][2].get('drift_ms_per_s')} ms/s over {len(measured)} segment(s){note}"
+                            + ("" if src != final else " (on the finished reel)")))
     return rows
 
 
