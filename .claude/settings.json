@@ -10,7 +10,9 @@
       "Grep",
       "WebFetch",
       "WebSearch",
-      "NotebookEdit"
+      "NotebookEdit",
+      "mcp__claude-in-chrome",
+      "mcp__Claude_Browser"
     ]
   },
   "enableAllProjectMcpServers": true
