@@ -3,6 +3,7 @@
 Builds synthetic audio/video and runs every tool. Prints PASS/FAIL per step."""
 import json, os, subprocess, sys, tempfile
 from PIL import Image, ImageDraw
+import numpy as np
 here = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, here)
 from common import FFMPEG, W, H, run, duration, loudness, speech_map
 
@@ -56,6 +57,41 @@ def track_441():
     out = tool("make_track.py", t441, l441, "--lead", "0.6", "--hold", "0.1")
     assert "speech ends at 3.60s" in out, out; return out.splitlines()[0]
 step("make_track keeps a 44.1 kHz line at its real speed", track_441)
+# verify_line: a clean line passes; a spoken tag, a missing number and a tail sound after the last word each fail
+def verify_line_checks():
+    import json as _j
+    v = os.path.join(T, "v.wav"); vt = os.path.join(T, "vt.wav")
+    run([FFMPEG, "-y", "-v", "error", "-f", "lavfi", "-i", voice(2.0), "-af", "afade=t=out:st=1.9:d=0.1", v])
+    run([FFMPEG, "-y", "-v", "error", "-i", v, "-f", "lavfi", "-t", "0.4", "-i", "anullsrc=r=48000:cl=mono",
+         "-f", "lavfi", "-i", voice(0.15), "-filter_complex", "[2]volume=0.3[b];[0][1][b]concat=n=3:v=0:a=1", vt])
+    sc = "[flat, brisk] नब्बे लाख का net worth"
+    def res(audio, heard):
+        r = subprocess.run([py, os.path.join(here, "verify_line.py"), audio, "--script", sc, "--transcript", heard,
+                            "--json", os.path.join(T, "vl.json")], capture_output=True, text=True)
+        return _j.load(open(os.path.join(T, "vl.json")))["checks"]
+    ok = res(v, "90 लाख का net worth")
+    assert ok["must_say"]["ok"] and ok["tags_not_spoken"]["ok"] and ok["tail"]["ok"], ok
+    assert not res(v, "ब्रिस्क 90 लाख का net worth")["tags_not_spoken"]["ok"], "spoken tag not caught"
+    assert not res(v, "80 लाख का net worth")["must_say"]["ok"], "wrong number not caught"
+    assert not res(vt, "90 लाख का net worth")["tail"]["ok"], "tail sound not caught"
+    return "clean line passes; spoken tag, wrong number and tail sound fail"
+step("verify_line", verify_line_checks)
+# script_freeze + script_diff: a frozen script can't be silently overwritten; a dropped line and a changed number fail
+def script_gate():
+    d = os.path.join(T, "scripts"); lines = os.path.join(T, "lines.json")
+    open(lines, "w").write('{"P1": "[flat] घर है? गिनो। Loan है? घटाओ।", "P2": "मोटा-मोटा नब्बे लाख।"}')
+    tool("script_freeze.py", "t", "--lines", lines, "--approved-by", "test", "--out-dir", d)
+    open(lines, "w").write('{"P1": "घर है? गिनो।", "P2": "मोटा-मोटा अस्सी लाख।"}')
+    r = subprocess.run([py, os.path.join(here, "script_freeze.py"), "t", "--lines", lines, "--approved-by", "x",
+                        "--out-dir", d], capture_output=True, text=True)
+    assert r.returncode != 0, "a frozen script was overwritten without --reapprove"
+    js = os.path.join(d, "t.json")
+    assert "PASS" in tool("script_diff.py", js, "--transcript", "घर है, गिनो। Loan है, घटाओ। मोटा-मोटा 90 लाख।")
+    for bad in ("घर है, गिनो। मोटा-मोटा 90 लाख।", "घर है, गिनो। Loan है, घटाओ। मोटा-मोटा 80 लाख।"):
+        r = subprocess.run([py, os.path.join(here, "script_diff.py"), js, "--transcript", bad], capture_output=True, text=True)
+        assert "FAIL" in r.stdout, r.stdout
+    return "frozen script guarded; dropped line and changed number fail"
+step("script_freeze + script_diff", script_gate)
 clip = os.path.join(T, "clip.mp4")
 step("fake talking clip", lambda: run([FFMPEG, "-y", "-v", "error", "-f", "lavfi", "-i",
      f"testsrc2=s={W}x{H}:r=24:d={duration(track)}", "-i", track, "-shortest", "-c:v", "libx264", "-c:a", "aac", clip]))
@@ -84,6 +120,38 @@ step("inset card", lambda: tool("inset_card.py", "card", logo, card, "--label", 
 carded = os.path.join(T, "carded.mp4")
 step("inset overlay (explicit position)", lambda: tool("inset_card.py", "overlay", clip, card, carded, "--at", "300", "40"))
 edit = os.path.join(T, "edit.json"); final = os.path.join(T, "final.mp4")
+def lag_repair_shift():
+    """assemble.py audio_shift_ms moves a part's audio by the requested amount (the lipsync_lag repair path)"""
+    src = os.path.join(T, "shift_src.mp4"); out = os.path.join(T, "shift_out.mp4")
+    run([FFMPEG, "-y", "-v", "error", "-f", "lavfi", "-i", f"testsrc2=s={W}x{H}:r=25:d=3", "-f", "lavfi", "-i",
+         "aevalsrc='0.5*sin(2*PI*300*t)*between(t,1,1.2)':s=48000:d=3", "-shortest", "-c:v", "libx264", "-c:a", "aac", src])
+    spec = os.path.join(T, "shift.json")
+    json.dump({"out": out, "parts": [{"file": src, "audio_shift_ms": -200}], "look": "none", "tv_audio": False,
+               "target_lufs": -14}, open(spec, "w"))
+    tool("assemble.py", spec)
+    db = __import__("common").envelope(out, win=0.02)
+    onset = float(np.argmax(db > db.max() - 10) * 0.02)
+    assert abs(onset - 0.8) < 0.06, f"burst at {onset:.2f}s, expected 0.80s after a -200 ms shift"
+    return f"burst moved from 1.00 s to {onset:.2f} s"
+step("assemble audio_shift_ms (lip-sync repair)", lag_repair_shift)
+
+
+def lipsync_model_check():
+    """lipsync_lag on a real 3 s talking clip (E5 Pandey): in sync passes; audio delayed 300 ms fails with a shift fix.
+    Needs the QC models (pipeline/fetch_models.sh); skipped, not failed, on a machine without them."""
+    models = os.path.join(os.path.dirname(here), "assets", "models", "face_landmarker.task")
+    if not os.path.exists(models):
+        return "SKIPPED: run pipeline/fetch_models.sh to enable"
+    fx = os.path.join(here, "fixtures", "pandey_talk_3s.mp4"); bad = os.path.join(T, "late.mp4")
+    run([FFMPEG, "-y", "-v", "error", "-i", fx, "-c:v", "copy", "-af", "adelay=300:all=1", "-c:a", "aac", bad])
+    good = tool("lipsync_lag.py", fx)
+    assert good.split(": ", 1)[1].startswith("PASS"), good
+    late = tool("lipsync_lag.py", bad)
+    assert "FAIL" in late and "audio_shift_ms" in late, late
+    return "in sync passes; 300 ms late audio fails with a shift repair"
+step("lipsync_lag (SyncNet / landmarks)", lipsync_model_check)
+
+
 def assemble():
     json.dump({"out": final, "parts": [{"file": carded, "start": 0, "end": 3.0}, {"file": mont},
                {"file": clip, "start": 0.0}], "target_lufs": -14}, open(edit, "w"))

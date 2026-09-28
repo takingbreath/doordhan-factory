@@ -262,3 +262,5 @@ Original character; no resemblance to any real person.
 - **The receiver:** held away from his ear when the caller says something absurd.
 - **Billu:** answering the phone in an empty office (a cold-open variant).
 - **Length:** a shorter 35–45 s cut for Shorts, if long reels underperform.
+
+- **Talking shots are capped at about 6 s of speech** (2026-09-28 QC): split longer lines at a pause and cut between the parts as an angle change. E5's 11 s neighbour line drifted to -160 ms by its end. `shot_spec.py build` applies the cap, lead-in, still start and headroom; `shot_spec.py judge` decides accept / shift / retry once / ask.

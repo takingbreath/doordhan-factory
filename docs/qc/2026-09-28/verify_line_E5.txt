@@ -1,0 +1,113 @@
+=== E5 lines as approved (cap 0 = Kendra has no cap; also shown against the 30 s default) ===
+E5 C1: PASS
+  ok  must_say: {"numbers": ["1", "1 percent"], "terms": ["India", "top"]}
+  ok  tags_not_spoken: {}
+  ok  last_word: {"script": "है", "heard": "है"}
+  warn end_cut: {"end_drop_db": 10.1, "warn": "ends without a fade: check the last word by ear; re-export without the tight trim or add a 30 ms fade"}
+  ok  tail: {"speech_end": 5.08, "file_end": 5.1}
+  ok  lead: {"lead_s": 0.0, "range": [0.0, 0.35]}
+  ok  duration: {"line_s": 5.08, "lines_so_far": 1, "reel_estimate_s": 7.6, "cap_s": 30.0}
+
+E5 P1: PASS
+  ok  must_say: {"numbers": ["1 percent"], "terms": ["top", "net worth"]}
+  ok  tags_not_spoken: {"tags": ["brisk", "flat", "sighs"]}
+  ok  last_word: {"script": "है", "heard": "है"}
+  ok  end_cut: {"end_drop_db": 22.0}
+  ok  tail: {"speech_end": 6.16, "file_end": 6.16}
+  ok  lead: {"lead_s": 0.12, "range": [0.0, 0.35]}
+  ok  duration: {"line_s": 6.04, "lines_so_far": 2, "reel_estimate_s": 14.0, "cap_s": 30.0}
+
+E5 P2: FAIL
+  ok  must_say: {"terms": ["Gold", "Shares", "mutual funds", "FD", "Loan"]}
+  ok  tags_not_spoken: {"tags": ["brisk", "flat", "pause", "slowly"]}
+  ok  last_word: {"script": "घटाओ", "heard": "घटाओ"}
+  BAD end_cut: {"end_drop_db": 4.8, "fix": "hard cut at the end (the last word may be clipped): re-export or regenerate the line untrimmed"}
+  BAD tail: {"speech_end": 9.02, "file_end": 9.6, "tail_sound": {"at": 9.34, "len": 0.26, "cut_off_by_file_end": true, "peak_db_below_speech": 4.8}, "fix": "trim the line at 9.02 s (after the last word)"}
+  ok  lead: {"lead_s": 0.04, "range": [0.0, 0.35]}
+  ok  duration: {"line_s": 8.98, "lines_so_far": 3, "reel_estimate_s": 23.3, "cap_s": 30.0}
+
+E5 P3: FAIL
+  ok  must_say: {"numbers": ["1 percent", "2 crore", "5 crore", "100 crore", "90 lakh"], "terms": ["top"]}
+  ok  tags_not_spoken: {"tags": ["brisk", "flat", "slowly"]}
+  ok  last_word: {"script": "लाख", "heard": "लाख"}
+  warn end_cut: {"end_drop_db": 10.7, "warn": "ends without a fade: check the last word by ear; re-export without the tight trim or add a 30 ms fade"}
+  ok  tail: {"speech_end": 10.24, "file_end": 10.24}
+  ok  lead: {"lead_s": 0.0, "range": [0.0, 0.35]}
+  BAD duration: {"line_s": 10.24, "lines_so_far": 4, "reel_estimate_s": 33.9, "cap_s": 30.0}
+
+E5 P4: FAIL
+  ok  must_say: {"numbers": ["1 crore", "1 percent"], "terms": ["Loan", "mutual fund", "FD", "top"]}
+  ok  tags_not_spoken: {"tags": ["brisk", "flat", "slowly"]}
+  ok  last_word: {"script": "है", "heard": "है"}
+  warn end_cut: {"end_drop_db": 9.4, "warn": "ends without a fade: check the last word by ear; re-export without the tight trim or add a 30 ms fade"}
+  ok  tail: {"speech_end": 11.2, "file_end": 11.2}
+  ok  lead: {"lead_s": 0.12, "range": [0.0, 0.35]}
+  BAD duration: {"line_s": 11.08, "lines_so_far": 5, "reel_estimate_s": 45.3, "cap_s": 30.0}
+
+E5 P5: FAIL
+  ok  must_say: {"numbers": ["90 lakh"], "terms": ["net worth", "Comment", "like"]}
+  ok  tags_not_spoken: {"tags": ["brisk", "flat", "slowly"]}
+  ok  last_word: {"script": "करो", "heard": "करो"}
+  ok  end_cut: {"end_drop_db": 57.7}
+  ok  tail: {"speech_end": 6.46, "file_end": 6.8}
+  ok  lead: {"lead_s": 0.04, "range": [0.0, 0.35]}
+  BAD duration: {"line_s": 6.42, "lines_so_far": 6, "reel_estimate_s": 52.1, "cap_s": 30.0}
+
+E5 P6: FAIL
+  ok  must_say: {"numbers": ["1 percent"], "terms": ["top"]}
+  ok  tags_not_spoken: {"tags": ["brisk", "flat"]}
+  ok  last_word: {"script": "का", "heard": "का"}
+  BAD end_cut: {"end_drop_db": 4.3, "fix": "hard cut at the end (the last word may be clipped): re-export or regenerate the line untrimmed"}
+  ok  tail: {"speech_end": 4.4, "file_end": 4.4}
+  ok  lead: {"lead_s": 0.02, "range": [0.0, 0.35]}
+  BAD duration: {"line_s": 4.38, "lines_so_far": 7, "reel_estimate_s": 56.8, "cap_s": 30.0}
+
+=== negative tests ===
+P2 trimmed at the last word (as in v4): PASS
+  ok  must_say: {"terms": ["Gold", "Shares", "mutual funds", "FD", "Loan"]}
+  ok  tags_not_spoken: {"tags": ["brisk", "flat", "pause", "slowly"]}
+  ok  last_word: {"script": "घटाओ", "heard": "घटाओ"}
+  ok  end_cut: {"end_drop_db": 31.1}
+  ok  tail: {"speech_end": 9.02, "file_end": 9.1}
+  ok  lead: {"lead_s": 0.04, "range": [0.0, 0.35]}
+
+P3 with the [slowly] tag spoken aloud: FAIL
+  ok  must_say: {"numbers": ["1 percent", "2 crore", "5 crore", "100 crore", "90 lakh"], "terms": ["top"]}
+  BAD tags_not_spoken: {"tags": ["brisk", "flat", "slowly"], "spoken": ["slowly"]}
+  ok  last_word: {"script": "लाख", "heard": "लाख"}
+  warn end_cut: {"end_drop_db": 10.7, "warn": "ends without a fade: check the last word by ear; re-export without the tight trim or add a 30 ms fade"}
+  ok  tail: {"speech_end": 10.24, "file_end": 10.24}
+  ok  lead: {"lead_s": 0.0, "range": [0.0, 0.35]}
+
+P3 with the 90 lakh dropped: FAIL
+  BAD must_say: {"numbers": ["1 percent", "2 crore", "5 crore", "100 crore", "90 lakh"], "missing_numbers": ["90 lakh"], "terms": ["top"]}
+  ok  tags_not_spoken: {"tags": ["brisk", "flat", "slowly"]}
+  BAD last_word: {"script": "लाख", "heard": "मोटा"}
+  warn end_cut: {"end_drop_db": 10.7, "warn": "ends without a fade: check the last word by ear; re-export without the tight trim or add a 30 ms fade"}
+  ok  tail: {"speech_end": 10.24, "file_end": 10.24}
+  ok  lead: {"lead_s": 0.0, "range": [0.0, 0.35]}
+
+P3 cut off mid "lakh": FAIL
+  BAD must_say: {"numbers": ["1 percent", "2 crore", "5 crore", "100 crore", "90 lakh"], "missing_numbers": ["90 lakh"], "terms": ["top"]}
+  ok  tags_not_spoken: {"tags": ["brisk", "flat", "slowly"]}
+  BAD last_word: {"script": "लाख", "heard": "90"}
+  BAD end_cut: {"end_drop_db": -1.4, "fix": "hard cut at the end (the last word may be clipped): re-export or regenerate the line untrimmed"}
+  ok  tail: {"speech_end": 9.44, "file_end": 9.45}
+  ok  lead: {"lead_s": 0.0, "range": [0.0, 0.35]}
+
+Wan track T2 (0.5 s lead) with track lead range: PASS
+  ok  must_say: {"terms": ["Gold", "Shares", "mutual funds", "FD", "Loan"]}
+  ok  tags_not_spoken: {"tags": ["brisk", "flat", "pause", "slowly"]}
+  ok  last_word: {"script": "घटाओ", "heard": "घटाओ"}
+  ok  end_cut: {"end_drop_db": 166.2}
+  ok  tail: {"speech_end": 10.1, "file_end": 11.04}
+  ok  lead: {"lead_s": 0.54, "range": [0.4, 0.6]}
+
+raw P2 line against the track lead range: FAIL
+  ok  must_say: {"terms": ["Gold", "Shares", "mutual funds", "FD", "Loan"]}
+  ok  tags_not_spoken: {"tags": ["brisk", "flat", "pause", "slowly"]}
+  ok  last_word: {"script": "घटाओ", "heard": "घटाओ"}
+  BAD end_cut: {"end_drop_db": 4.8, "fix": "hard cut at the end (the last word may be clipped): re-export or regenerate the line untrimmed"}
+  BAD tail: {"speech_end": 9.02, "file_end": 9.6, "tail_sound": {"at": 9.34, "len": 0.26, "cut_off_by_file_end": true, "peak_db_below_speech": 4.8}, "fix": "trim the line at 9.02 s (after the last word)"}
+  BAD lead: {"lead_s": 0.04, "range": [0.4, 0.6]}
+

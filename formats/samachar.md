@@ -88,3 +88,5 @@ The flat "कतई नहीं" from Gupta; Sarika's knowing half-smile; "pict
 
 ## Typical cost
 About 45 to 55 credits: roughly 25 seconds of Wan, 1 to 3 keyframes, and voices.
+
+- **Talking shots: about 6 s of speech at most** (2026-09-28 QC over E3-E6 clips): Wan drifts about -8 ms/s, so split longer lines at a pause. Use `shot_spec.py` to build the specs and `shot_spec.py judge` after each clip.

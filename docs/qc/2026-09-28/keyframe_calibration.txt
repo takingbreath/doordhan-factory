@@ -1,0 +1,47 @@
+--- clips (first frame) vs SyncNet median confidence over speech
+E3_321cf7ce.mp4          {'face_h': np.float64(0.182), 'mouth_px': 71.0, 'yaw': -1.5, 'pitch': 2.0, 'roll': 6.6, 'jaw': 0.0, 'eyewide': 0.0, 'blink': 0.2} (3.6, 'PASS', 'constant')
+E3_80592a5f.mp4          {'face_h': np.float64(0.238), 'mouth_px': 109.5, 'yaw': -6.5, 'pitch': 16.0, 'roll': 7.2, 'jaw': 0.0, 'eyewide': 0.02, 'blink': 0.05} (3.4, 'PASS', 'constant')
+E3_9ac98fe1.mp4          {'face_h': np.float64(0.181), 'mouth_px': 71.6, 'yaw': -2.3, 'pitch': 2.1, 'roll': 6.3, 'jaw': 0.0, 'eyewide': 0.0, 'blink': 0.21} (5.12, 'PASS', 'constant')
+E3_eade8a81.mp4          {'face_h': np.float64(0.238), 'mouth_px': 111.0, 'yaw': -6.5, 'pitch': 16.3, 'roll': 7.2, 'jaw': 0.0, 'eyewide': 0.01, 'blink': 0.05} (3.79, 'PASS', 'constant')
+E4_14e52421.mp4          {'face_h': np.float64(0.2), 'mouth_px': 78.2, 'yaw': -0.7, 'pitch': 3.6, 'roll': 2.8, 'jaw': 0.0, 'eyewide': 0.0, 'blink': 0.13} (1.75, 'FAIL', 'weak lips')
+E4_18d98d67.mp4          {'face_h': np.float64(0.311), 'mouth_px': 121.0, 'yaw': -3.3, 'pitch': 10.2, 'roll': 2.9, 'jaw': 0.0, 'eyewide': 0.01, 'blink': 0.07} (3.93, 'PASS', 'constant')
+E4_7c93c0c4.mp4          {'face_h': np.float64(0.312), 'mouth_px': 120.1, 'yaw': -3.3, 'pitch': 10.5, 'roll': 2.8, 'jaw': 0.01, 'eyewide': 0.01, 'blink': 0.07} (3.17, 'PASS', 'constant')
+E4_8ce6e0cc.mp4          {'face_h': np.float64(0.327), 'mouth_px': 130.2, 'yaw': -10.8, 'pitch': 10.8, 'roll': 1.8, 'jaw': 0.0, 'eyewide': 0.01, 'blink': 0.05} (1.33, 'PASS', 'constant')
+E4_8d4c933f.mp4          {'face_h': np.float64(0.311), 'mouth_px': 119.5, 'yaw': -3.3, 'pitch': 10.7, 'roll': 2.9, 'jaw': 0.0, 'eyewide': 0.01, 'blink': 0.06} (2.63, 'FAIL', 'constant')
+E4_a79b7f33.mp4          {'face_h': np.float64(0.202), 'mouth_px': 77.5, 'yaw': -0.9, 'pitch': 3.3, 'roll': 2.8, 'jaw': 0.0, 'eyewide': 0.0, 'blink': 0.15} (2.95, 'PASS', 'constant')
+E4_ae5a05c2.mp4          {'face_h': np.float64(0.326), 'mouth_px': 130.3, 'yaw': -10.9, 'pitch': 10.6, 'roll': 1.8, 'jaw': 0.0, 'eyewide': 0.02, 'blink': 0.04} (2.21, 'PASS', 'constant')
+E4_b3c619d4.mp4          {'face_h': np.float64(0.326), 'mouth_px': 130.1, 'yaw': -10.9, 'pitch': 10.8, 'roll': 1.7, 'jaw': 0.0, 'eyewide': 0.02, 'blink': 0.04} (1.29, 'FAIL', 'weak lips')
+E4_ec449ee9.mp4          {'face_h': np.float64(0.312), 'mouth_px': 120.4, 'yaw': -3.5, 'pitch': 10.4, 'roll': 2.9, 'jaw': 0.0, 'eyewide': 0.01, 'blink': 0.06} (2.82, 'PASS', 'constant')
+E6today_496e854f.mp4     {'face_h': np.float64(0.224), 'mouth_px': 88.2, 'yaw': -1.3, 'pitch': 5.5, 'roll': 4.9, 'jaw': 0.0, 'eyewide': 0.0, 'blink': 0.17} (4.27, 'PASS', 'constant')
+E6today_64af44cf.mp4     {'face_h': np.float64(0.274), 'mouth_px': 108.5, 'yaw': 0.3, 'pitch': 14.2, 'roll': 0.7, 'jaw': 0.0, 'eyewide': 0.01, 'blink': 0.06} (4.87, 'PASS', 'constant')
+E6today_a488b60a.mp4     {'face_h': np.float64(0.275), 'mouth_px': 108.5, 'yaw': 0.5, 'pitch': 14.0, 'roll': 0.8, 'jaw': 0.0, 'eyewide': 0.01, 'blink': 0.06} (2.21, 'FAIL', 'constant')
+E6today_cfd7804e.mp4     {'face_h': np.float64(0.273), 'mouth_px': 107.7, 'yaw': 0.2, 'pitch': 14.3, 'roll': 0.7, 'jaw': 0.0, 'eyewide': 0.01, 'blink': 0.06} (2.88, 'PASS', 'constant')
+E6today_e944b021.mp4     {'face_h': np.float64(0.224), 'mouth_px': 90.0, 'yaw': -1.0, 'pitch': 5.2, 'roll': 5.0, 'jaw': 0.0, 'eyewide': 0.0, 'blink': 0.19} (5.52, 'PASS', 'constant')
+T1.mp4                   {'face_h': np.float64(0.205), 'mouth_px': 75.1, 'yaw': 1.7, 'pitch': 12.7, 'roll': 0.2, 'jaw': 0.07, 'eyewide': 0.06, 'blink': 0.0} (2.54, 'PASS', 'constant')
+T1b.mp4                  {'face_h': np.float64(0.199), 'mouth_px': 80.8, 'yaw': 0.8, 'pitch': 12.9, 'roll': -1.9, 'jaw': 0.01, 'eyewide': 0.0, 'blink': 0.13} (3.37, 'PASS', 'constant')
+T1v2.mp4                 {'face_h': np.float64(0.199), 'mouth_px': 79.9, 'yaw': 0.8, 'pitch': 12.5, 'roll': -1.8, 'jaw': 0.02, 'eyewide': 0.0, 'blink': 0.12} (2.79, 'PASS', 'constant')
+T2.mp4                   {'face_h': np.float64(0.218), 'mouth_px': 75.9, 'yaw': 4.5, 'pitch': 13.2, 'roll': 0.2, 'jaw': 0.07, 'eyewide': 0.07, 'blink': 0.0} (2.83, 'PASS', 'constant')
+T2v2.mp4                 {'face_h': np.float64(0.215), 'mouth_px': 79.8, 'yaw': 4.2, 'pitch': 12.8, 'roll': -0.2, 'jaw': 0.03, 'eyewide': 0.0, 'blink': 0.09} (3.39, 'PASS', 'constant')
+T3.mp4                   {'face_h': np.float64(0.168), 'mouth_px': 61.8, 'yaw': 0.1, 'pitch': -0.3, 'roll': 0.9, 'jaw': 0.02, 'eyewide': 0.06, 'blink': 0.01} (4.21, 'PASS', 'constant')
+T3v2.mp4                 {'face_h': np.float64(0.165), 'mouth_px': 70.4, 'yaw': -0.1, 'pitch': -2.2, 'roll': -2.5, 'jaw': 0.0, 'eyewide': 0.0, 'blink': 0.16} (3.58, 'PASS', 'constant')
+T4.mp4                   {'face_h': np.float64(0.225), 'mouth_px': 75.0, 'yaw': -29.1, 'pitch': 8.4, 'roll': -2.6, 'jaw': 0.0, 'eyewide': 0.12, 'blink': 0.01} (2.54, 'PASS', 'constant')
+T4v2.mp4                 {'face_h': np.float64(0.221), 'mouth_px': 89.7, 'yaw': -17.0, 'pitch': 7.8, 'roll': 4.5, 'jaw': 0.0, 'eyewide': 0.01, 'blink': 0.08} (3.12, 'FAIL', 'constant')
+T5.mp4                   {'face_h': np.float64(0.205), 'mouth_px': 73.7, 'yaw': 2.0, 'pitch': 12.7, 'roll': 0.0, 'jaw': 0.07, 'eyewide': 0.08, 'blink': 0.0} (3.67, 'PASS', 'constant')
+T5v2.mp4                 {'face_h': np.float64(0.199), 'mouth_px': 79.6, 'yaw': 1.0, 'pitch': 12.9, 'roll': -1.4, 'jaw': 0.02, 'eyewide': 0.0, 'blink': 0.15} (4.52, 'PASS', 'constant')
+T6.mp4                   {'face_h': np.float64(0.225), 'mouth_px': 73.9, 'yaw': -28.8, 'pitch': 9.9, 'roll': -2.8, 'jaw': 0.0, 'eyewide': 0.12, 'blink': 0.01} (3.83, 'PASS', 'constant')
+T6v2.mp4                 {'face_h': np.float64(0.16), 'mouth_px': 63.9, 'yaw': -7.4, 'pitch': 28.0, 'roll': -14.8, 'jaw': 0.01, 'eyewide': 0.0, 'blink': 0.12} (2.52, 'FAIL', 'constant')
+--- E5 keyframes
+r2_front.png             {'face_h': np.float64(0.208), 'mouth_px': 76.7, 'yaw': 1.1, 'pitch': 12.3, 'roll': 0.2, 'jaw': 0.05, 'eyewide': 0.04, 'blink': 0.01}
+r1_k2.png                {'face_h': np.float64(0.219), 'mouth_px': 74.7, 'yaw': 4.5, 'pitch': 13.3, 'roll': 0.2, 'jaw': 0.07, 'eyewide': 0.09, 'blink': 0.0}
+r1_k3.png                {'face_h': np.float64(0.227), 'mouth_px': 77.8, 'yaw': -27.7, 'pitch': 8.5, 'roll': -2.3, 'jaw': 0.0, 'eyewide': 0.13, 'blink': 0.01}
+r1_k4.png                {'face_h': np.float64(0.184), 'mouth_px': 71.1, 'yaw': 1.6, 'pitch': -3.3, 'roll': 1.3, 'jaw': 0.02, 'eyewide': 0.05, 'blink': 0.02}
+ex_a.png                 {'face_h': np.float64(0.201), 'mouth_px': 80.5, 'yaw': 1.2, 'pitch': 13.6, 'roll': -1.6, 'jaw': 0.02, 'eyewide': 0.0, 'blink': 0.14}
+ex_b.png                 {'face_h': np.float64(0.21), 'mouth_px': 76.6, 'yaw': -0.7, 'pitch': 7.0, 'roll': -1.5, 'jaw': 0.05, 'eyewide': 0.01, 'blink': 0.04}
+hl_left.png              {'face_h': np.float64(0.215), 'mouth_px': 78.9, 'yaw': 4.7, 'pitch': 13.3, 'roll': -0.0, 'jaw': 0.04, 'eyewide': 0.0, 'blink': 0.11}
+hl_low.png               {'face_h': np.float64(0.165), 'mouth_px': 70.5, 'yaw': 0.3, 'pitch': -2.1, 'roll': -2.5, 'jaw': 0.01, 'eyewide': 0.0, 'blink': 0.19}
+hl_right.png             {'face_h': np.float64(0.223), 'mouth_px': 93.7, 'yaw': -17.4, 'pitch': 8.3, 'roll': 4.1, 'jaw': 0.0, 'eyewide': 0.01, 'blink': 0.09}
+hl_two.png               {'face_h': np.float64(0.162), 'mouth_px': 66.1, 'yaw': -6.9, 'pitch': 29.0, 'roll': -14.6, 'jaw': 0.01, 'eyewide': 0.0, 'blink': 0.14}
+master_d.png             {'face_h': np.float64(0.131), 'mouth_px': 43.8, 'yaw': 1.5, 'pitch': 11.7, 'roll': -0.2, 'jaw': 0.1, 'eyewide': 0.03, 'blink': 0.01}
+r5_open_a.png            {'face_h': np.float64(0.162), 'mouth_px': 67.5, 'yaw': 8.2, 'pitch': 31.7, 'roll': 5.0, 'jaw': 0.02, 'eyewide': 0.0, 'blink': 0.14}
+pandey_sheet_v2.png      {'face_h': np.float64(0.148), 'mouth_px': 40.2, 'yaw': 6.0, 'pitch': 10.7, 'roll': -2.0, 'jaw': 0.27, 'eyewide': 0.23, 'blink': 0.0}
+pandey_sheet_v1.png      {'face_h': np.float64(0.172), 'mouth_px': 46.3, 'yaw': 5.6, 'pitch': 11.0, 'roll': -1.6, 'jaw': 0.11, 'eyewide': 0.04, 'blink': 0.01}

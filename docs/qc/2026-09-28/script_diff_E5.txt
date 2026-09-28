@@ -1,0 +1,17 @@
+--- final_v3_scribe
+sk01.json vs transcript: PASS  (frozen sha256 4bae253b8552)
+--- final_v1_scribe
+sk01.json vs transcript: PASS  (frozen sha256 4bae253b8552)
+--- tamper_drop
+sk01.json vs transcript: FAIL  (frozen sha256 4bae253b8552)
+  CHANGED  P4   coverage 0.89  missing: Loan पूरा खतम
+--- tamper_number
+sk01.json vs transcript: FAIL  (frozen sha256 4bae253b8552)
+  NUMBER   P3   coverage 0.94  missing: नब्बे  numbers not heard: ['नब्बे']
+--- tamper_adlib
+sk01.json vs transcript: FAIL  (frozen sha256 4bae253b8552)
+  EXTRA    heard but not in the script: अरे सुनो भाई बात ध्यान से सुनना
+--- tamper_lineswap
+sk01.json vs transcript: FAIL  (frozen sha256 4bae253b8552)
+  DROPPED  P2   coverage 0.11  missing: घर है गिनो ज़मीन है गिनो Gold है गिनो Shares mutual funds FD है गिनो है
+  EXTRA    heard but not in the script: सब कुछ जोड़ो और

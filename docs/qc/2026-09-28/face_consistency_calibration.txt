@@ -1,0 +1,8 @@
+similarity matrix
+SAME person: n=45 min 0.66 (E4 18d98d67 / E3 eade8a81)  max 0.93 (sheet v2 / sheet v1 (headset))
+DIFFERENT people: n=75 min 0.10 (E6 cfd7804e / E4 14e52421)  max 0.34 (kf front heavy / E3 eade8a81)
+lowest same-person pairs: [(0.66, 'E4 18d98d67', 'E3 eade8a81'), (0.66, 'sheet v1 (headset)', 'kf low'), (0.67, 'kf low', 'clip T4v2 9s'), (0.67, 'kf low', 'clip T2v2 5s'), (0.68, 'sheet v2', 'kf low')]
+highest different-people pairs: [(0.3, 'sheet v1 (headset)', 'E3 eade8a81'), (0.3, 'clip T4v2 9s', 'E3 eade8a81'), (0.31, 'kf front heavy', 'E4 18d98d67'), (0.32, 'clip T6v2 3s', 'E4 18d98d67'), (0.34, 'kf front heavy', 'E3 eade8a81')]
+T6v2.mp4: PASS  vs pandey_sheet_v2.png  min 0.709  mean 0.734
+T2v2.mp4: PASS  vs pandey_sheet_v2.png  min 0.684  mean 0.759
+E6today_cfd7804e.mp4: FAIL  vs pandey_sheet_v2.png  min 0.17  mean 0.195

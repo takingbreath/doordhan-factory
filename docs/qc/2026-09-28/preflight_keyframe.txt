@@ -1,0 +1,65 @@
+E5 v1 front (frozen, wide-eyed): FAIL
+  ok   face_size: face 21% of frame height
+  ok   mouth_size: mouth 77 px wide
+  ok   yaw: +1 deg
+  ok   pitch: +12 deg
+  ok   roll: +0 deg
+  ok   mouth_closed: jawOpen 0.05 (a still start needs a closed mouth)
+  FAIL heavy_lids: lid closure 0.01 (>= 0.06 for pandey: wide-eyed reads lifeless)
+E5 approved front (heavy-lidded): PASS
+  ok   face_size: face 20% of frame height
+  ok   mouth_size: mouth 80 px wide
+  ok   yaw: +1 deg
+  ok   pitch: +14 deg
+  ok   roll: -2 deg
+  ok   mouth_closed: jawOpen 0.02 (a still start needs a closed mouth)
+  ok   heavy_lids: lid closure 0.14 (>= 0.06 for pandey: wide-eyed reads lifeless)
+E5 v2 3/4 right: PASS
+  ok   face_size: face 22% of frame height
+  ok   mouth_size: mouth 94 px wide
+  ok   yaw: -17 deg
+  ok   pitch: +8 deg
+  ok   roll: +4 deg
+  ok   mouth_closed: jawOpen 0.00 (a still start needs a closed mouth)
+  ok   heavy_lids: lid closure 0.09 (>= 0.06 for pandey: wide-eyed reads lifeless)
+E5 Billu two-shot (T6v2 start): FAIL
+  ok   face_size: face 16% of frame height
+  ok   mouth_size: mouth 66 px wide
+  ok   yaw: -7 deg
+  FAIL pitch: +29 deg
+  WARN roll: -15 deg
+  ok   mouth_closed: jawOpen 0.01 (a still start needs a closed mouth)
+  ok   heavy_lids: lid closure 0.14 (>= 0.06 for pandey: wide-eyed reads lifeless)
+E5 low angle: PASS
+  ok   face_size: face 17% of frame height
+  ok   mouth_size: mouth 71 px wide
+  ok   yaw: +0 deg
+  ok   pitch: -2 deg
+  ok   roll: -3 deg
+  ok   mouth_closed: jawOpen 0.01 (a still start needs a closed mouth)
+  ok   heavy_lids: lid closure 0.19 (>= 0.06 for pandey: wide-eyed reads lifeless)
+E5 master wide (never a talking shot): FAIL
+  WARN face_size: face 13% of frame height
+  FAIL mouth_size: mouth 44 px wide
+  ok   yaw: +2 deg
+  ok   pitch: +12 deg
+  ok   roll: -0 deg
+  ok   mouth_closed: jawOpen 0.10 (a still start needs a closed mouth)
+  FAIL heavy_lids: lid closure 0.01 (>= 0.06 for pandey: wide-eyed reads lifeless)
+  ok   text: read 'Roan Nites DOORDHAN -SAHAYATA KENDRA.' vs expected 'DOORDHAN SAHAYATA KENDRA' (match 0.83)
+E5 old master (board: GRAHAK HI BHAGWAN HAI): FAIL
+  FAIL text: read 'aa Hh BHAGWAN HAI _' vs expected 'DOORDHAN SAHAYATA KENDRA' (match 0.28)
+E4 Gupta waist-up (weak lips): PASS
+  ok   face_size: face 20% of frame height
+  ok   mouth_size: mouth 78 px wide
+  ok   yaw: -1 deg
+  ok   pitch: +4 deg
+  ok   roll: +3 deg
+  ok   mouth_closed: jawOpen 0.00 (a still start needs a closed mouth)
+E6 Sarika close-up: PASS
+  ok   face_size: face 27% of frame height
+  ok   mouth_size: mouth 108 px wide
+  ok   yaw: +0 deg
+  ok   pitch: +14 deg
+  ok   roll: +1 deg
+  ok   mouth_closed: jawOpen 0.00 (a still start needs a closed mouth)

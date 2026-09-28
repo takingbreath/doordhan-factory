@@ -1,0 +1,6 @@
+P6 attempt 0: ACCEPT  
+P6 attempt 0: ACCEPT_WITH_SHIFT  audio_shift_ms: -140  why: constant offset: set "audio_shift_ms": -140 on this part in edit.json (pulls the audio earlier by 140 ms; lands near -40 ms). In a custom edit (build.py) move the clip's source start (src_in) by -0.140 s instead.
+P6 attempt 1: RETRY_SPLIT  why: drift within the line  do: shot_spec.py build --line /home/user/doordhan-factory/work/sk01/voice/v2/lev/P6.wav --id P6 with a lower cap (split this part at its pause) and regenerate both halves
+(second failure on the same spec, after the automatic retry:)
+P6 attempt 1: ASK  why: failed again after the automatic retry  summary: P6: FAIL, pattern drift, drift -91.8 ms/s, failing windows at [2.0, 3.0, 3.8] s. Options: accept as is, regenerate from a tighter/straighter keyframe, or split the line.
+P6 attempt 1: RETRY  why: FAIL (weak lips)  do: regenerate with the updated params in this spec (stronger articulation wording)

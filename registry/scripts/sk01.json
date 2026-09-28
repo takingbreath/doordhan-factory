@@ -1,0 +1,52 @@
+{
+ "slug": "sk01",
+ "approved_by": "Akhilesh (script as voiced, 2026-09-27; frozen retroactively)",
+ "frozen_at": "2026-09-28 21:33 IST",
+ "note": "E5 Sahayata Kendra debut",
+ "lines": [
+  {
+   "id": "C1",
+   "speaker": "caller",
+   "text": "पांडे जी, एक बात बताइए… India में कितना पैसा हो तो आदमी top 1% में आ जाता है?",
+   "spoken": "पांडे जी, एक बात बताइए… India में कितना पैसा हो तो आदमी top 1% में आ जाता है?"
+  },
+  {
+   "id": "P1",
+   "speaker": "pandey",
+   "text": "[sighs] [flat, brisk] सबके top 1% में जाना है, का। लेकिन आप net worth की बात कर रहे हैं ना? तो net worth क्या है?",
+   "spoken": "सबके top 1% में जाना है, का। लेकिन आप net worth की बात कर रहे हैं ना? तो net worth क्या है?"
+  },
+  {
+   "id": "P2",
+   "speaker": "pandey",
+   "text": "[flat, brisk] घर है? गिनो। ज़मीन है? गिनो। Gold है? गिनो। Shares, mutual funds, FD है? गिनो। Loan है? [pause][slowly] घटाओ।",
+   "spoken": "घर है? गिनो। ज़मीन है? गिनो। Gold है? गिनो। Shares, mutual funds, FD है? गिनो। Loan है? घटाओ।"
+  },
+  {
+   "id": "P3",
+   "speaker": "pandey",
+   "text": "[flat, brisk] अब तुम कहोगे… top 1% है… दो करोड़? पाँच करोड़? सौ करोड़? [slowly] नहीं। मोटा-मोटा… नब्बे लाख।",
+   "spoken": "अब तुम कहोगे… top 1% है… दो करोड़? पाँच करोड़? सौ करोड़? नहीं। मोटा-मोटा… नब्बे लाख।"
+  },
+  {
+   "id": "P4",
+   "speaker": "pandey",
+   "text": "[flat, brisk] अब इसका मतलब समझो… तुम्हारे पड़ोसी का एक करोड़ का घर है। Loan पूरा खतम। थोड़ा mutual fund, FD भी है। [slowly] भाई… वो top 1% में है।",
+   "spoken": "अब इसका मतलब समझो… तुम्हारे पड़ोसी का एक करोड़ का घर है। Loan पूरा खतम। थोड़ा mutual fund, FD भी है। भाई… वो top 1% में है।"
+  },
+  {
+   "id": "P5",
+   "speaker": "pandey",
+   "text": "[flat, brisk] अब बताओ, किस-किस के पास नब्बे लाख का net worth है? Comment करो। [slowly] और बाकी गरीब… बस like करो।",
+   "spoken": "अब बताओ, किस-किस के पास नब्बे लाख का net worth है? Comment करो। और बाकी गरीब… बस like करो।"
+  },
+  {
+   "id": "P6",
+   "speaker": "pandey",
+   "text": "[flat, brisk] बिल्लू का घर होता, तो वो भी top 1% में होता, का?",
+   "spoken": "बिल्लू का घर होता, तो वो भी top 1% में होता, का?"
+  }
+ ],
+ "sha256": "4bae253b85522c904660c40c3ff96c03ca5c1df7baf662409ba7a38cad2cf3b8",
+ "history": []
+}

@@ -1,0 +1,5328 @@
+[
+ {
+  "clip": "/home/user/doordhan-factory/work/sk01/vid/T1.mp4",
+  "label": "E5 v1 T1 (own audio)",
+  "start": 0.0,
+  "end": 6.04,
+  "face_frames": 1.0,
+  "corr": {
+   "offset_ms": 27,
+   "r": 0.29,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": 20,
+     "r": 0.54,
+     "speech": 0.9,
+     "face": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": 24,
+     "r": 0.28,
+     "speech": 0.86,
+     "face": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 0.86,
+     "face": 1.0
+    },
+    {
+     "t": 3.0,
+     "offset_ms": 386,
+     "r": 0.42,
+     "speech": 0.98,
+     "face": 1.0
+    },
+    {
+     "t": 4.0,
+     "offset_ms": 332,
+     "r": 0.58,
+     "speech": 0.74,
+     "face": 1.0
+    }
+   ]
+  },
+  "syncnet": {
+   "offset_ms": 0.0,
+   "conf": 2.41,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": 0,
+     "conf": 3.06,
+     "face": 1.0,
+     "speech": 0.9
+    },
+    {
+     "t": 1.0,
+     "offset_ms": 0,
+     "conf": 3.12,
+     "face": 1.0,
+     "speech": 0.86
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -40,
+     "conf": 2.54,
+     "face": 1.0,
+     "speech": 0.86
+    },
+    {
+     "t": 3.0,
+     "offset_ms": -40,
+     "conf": 2.13,
+     "face": 1.0,
+     "speech": 0.98
+    },
+    {
+     "t": 3.8,
+     "offset_ms": -40,
+     "conf": 2.14,
+     "face": 1.0,
+     "speech": 0.84
+    }
+   ]
+  },
+  "primary": "syncnet",
+  "judged_windows": 5,
+  "drift_ms_per_s": -12.7,
+  "spread_ms": 40,
+  "failing_windows": [],
+  "verdict": "PASS",
+  "mouth_px": 80.6,
+  "median_conf": 2.54,
+  "pattern": "constant",
+  "median_offset_ms": -40
+ },
+ {
+  "clip": "/home/user/doordhan-factory/work/sk01/vid/T2.mp4",
+  "label": "E5 v1 T2 (own audio)",
+  "start": 0.0,
+  "end": 10.03,
+  "face_frames": 1.0,
+  "corr": {
+   "offset_ms": -57,
+   "r": 0.48,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": 220,
+     "r": 0.37,
+     "speech": 0.9,
+     "face": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": 203,
+     "r": 0.67,
+     "speech": 0.96,
+     "face": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -47,
+     "r": 0.37,
+     "speech": 0.98,
+     "face": 1.0
+    },
+    {
+     "t": 3.0,
+     "offset_ms": -330,
+     "r": 0.31,
+     "speech": 0.98,
+     "face": 1.0
+    },
+    {
+     "t": 4.0,
+     "offset_ms": -327,
+     "r": 0.28,
+     "speech": 0.94,
+     "face": 1.0
+    },
+    {
+     "t": 5.0,
+     "offset_ms": -120,
+     "r": 0.69,
+     "speech": 0.78,
+     "face": 1.0
+    },
+    {
+     "t": 6.0,
+     "offset_ms": 201,
+     "r": 0.79,
+     "speech": 0.54,
+     "face": 1.0
+    },
+    {
+     "t": 7.0,
+     "offset_ms": -110,
+     "r": 0.63,
+     "speech": 0.6,
+     "face": 1.0
+    },
+    {
+     "t": 8.0,
+     "offset_ms": -110,
+     "r": 0.88,
+     "speech": 0.4,
+     "face": 1.0
+    }
+   ]
+  },
+  "syncnet": {
+   "offset_ms": -80.0,
+   "conf": 3.17,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": -40,
+     "conf": 1.78,
+     "face": 1.0,
+     "speech": 0.9
+    },
+    {
+     "t": 1.0,
+     "offset_ms": -40,
+     "conf": 3.99,
+     "face": 1.0,
+     "speech": 0.96
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -40,
+     "conf": 4.85,
+     "face": 1.0,
+     "speech": 0.98
+    },
+    {
+     "t": 3.0,
+     "offset_ms": -40,
+     "conf": 5.53,
+     "face": 1.0,
+     "speech": 0.98
+    },
+    {
+     "t": 4.0,
+     "offset_ms": -80,
+     "conf": 4.53,
+     "face": 1.0,
+     "speech": 0.94
+    },
+    {
+     "t": 5.0,
+     "offset_ms": -80,
+     "conf": 2.35,
+     "face": 1.0,
+     "speech": 0.78
+    },
+    {
+     "t": 6.0,
+     "offset_ms": -80,
+     "conf": 2.83,
+     "face": 1.0,
+     "speech": 0.54
+    },
+    {
+     "t": 7.0,
+     "offset_ms": -80,
+     "conf": 1.38,
+     "face": 1.0,
+     "speech": 0.6
+    },
+    {
+     "t": 7.8,
+     "offset_ms": -80,
+     "conf": 0.92,
+     "face": 1.0,
+     "speech": 0.5
+    }
+   ]
+  },
+  "primary": "syncnet",
+  "judged_windows": 7,
+  "drift_ms_per_s": -8.6,
+  "spread_ms": 40,
+  "failing_windows": [],
+  "verdict": "PASS",
+  "mouth_px": 80.1,
+  "median_conf": 2.83,
+  "pattern": "constant",
+  "median_offset_ms": -40
+ },
+ {
+  "clip": "/home/user/doordhan-factory/work/sk01/vid/T3.mp4",
+  "label": "E5 v1 T3 (own audio)",
+  "start": 0.0,
+  "end": 10.03,
+  "face_frames": 1.0,
+  "corr": {
+   "offset_ms": -4,
+   "r": 0.5,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": -17,
+     "r": 0.79,
+     "speech": 0.76,
+     "face": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": -18,
+     "r": 0.75,
+     "speech": 0.78,
+     "face": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": 19,
+     "r": 0.63,
+     "speech": 0.78,
+     "face": 1.0
+    },
+    {
+     "t": 3.0,
+     "offset_ms": -2,
+     "r": 0.71,
+     "speech": 0.72,
+     "face": 1.0
+    },
+    {
+     "t": 4.0,
+     "offset_ms": -15,
+     "r": 0.52,
+     "speech": 0.66,
+     "face": 1.0
+    },
+    {
+     "t": 5.0,
+     "offset_ms": 87,
+     "r": 0.62,
+     "speech": 0.48,
+     "face": 1.0
+    },
+    {
+     "t": 6.0,
+     "offset_ms": 137,
+     "r": 0.54,
+     "speech": 0.52,
+     "face": 1.0
+    },
+    {
+     "t": 7.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 0.66,
+     "face": 1.0
+    },
+    {
+     "t": 8.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 0.6,
+     "face": 1.0
+    }
+   ]
+  },
+  "syncnet": {
+   "offset_ms": -40.0,
+   "conf": 4.41,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": -40,
+     "conf": 4.78,
+     "face": 1.0,
+     "speech": 0.76
+    },
+    {
+     "t": 1.0,
+     "offset_ms": 0,
+     "conf": 5.13,
+     "face": 1.0,
+     "speech": 0.78
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -40,
+     "conf": 3.91,
+     "face": 1.0,
+     "speech": 0.78
+    },
+    {
+     "t": 3.0,
+     "offset_ms": -40,
+     "conf": 4.19,
+     "face": 1.0,
+     "speech": 0.72
+    },
+    {
+     "t": 4.0,
+     "offset_ms": -40,
+     "conf": 3.57,
+     "face": 1.0,
+     "speech": 0.66
+    },
+    {
+     "t": 5.0,
+     "offset_ms": -40,
+     "conf": 4.21,
+     "face": 1.0,
+     "speech": 0.48
+    },
+    {
+     "t": 6.0,
+     "offset_ms": -40,
+     "conf": 5.37,
+     "face": 1.0,
+     "speech": 0.52
+    },
+    {
+     "t": 7.0,
+     "offset_ms": -80,
+     "conf": 4.32,
+     "face": 1.0,
+     "speech": 0.66
+    },
+    {
+     "t": 7.8,
+     "offset_ms": -40,
+     "conf": 4.08,
+     "face": 1.0,
+     "speech": 0.6
+    }
+   ]
+  },
+  "primary": "syncnet",
+  "judged_windows": 9,
+  "drift_ms_per_s": -4.1,
+  "spread_ms": 80,
+  "failing_windows": [],
+  "verdict": "PASS",
+  "mouth_px": 59.9,
+  "median_conf": 4.21,
+  "pattern": "constant",
+  "median_offset_ms": -40
+ },
+ {
+  "clip": "/home/user/doordhan-factory/work/sk01/vid/T4.mp4",
+  "label": "E5 v1 T4 (own audio)",
+  "start": 0.0,
+  "end": 11.03,
+  "face_frames": 1.0,
+  "corr": {
+   "offset_ms": -73,
+   "r": 0.45,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": -391,
+     "r": 0.49,
+     "speech": 0.76,
+     "face": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": -49,
+     "r": 0.31,
+     "speech": 0.84,
+     "face": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": 15,
+     "r": 0.39,
+     "speech": 0.9,
+     "face": 1.0
+    },
+    {
+     "t": 3.0,
+     "offset_ms": 9,
+     "r": 0.6,
+     "speech": 0.78,
+     "face": 1.0
+    },
+    {
+     "t": 4.0,
+     "offset_ms": -84,
+     "r": 0.57,
+     "speech": 0.76,
+     "face": 1.0
+    },
+    {
+     "t": 5.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 0.82,
+     "face": 1.0
+    },
+    {
+     "t": 6.0,
+     "offset_ms": 14,
+     "r": 0.32,
+     "speech": 0.86,
+     "face": 1.0
+    },
+    {
+     "t": 7.0,
+     "offset_ms": -43,
+     "r": 0.66,
+     "speech": 0.78,
+     "face": 1.0
+    },
+    {
+     "t": 8.0,
+     "offset_ms": -79,
+     "r": 0.61,
+     "speech": 0.78,
+     "face": 1.0
+    },
+    {
+     "t": 9.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 0.66,
+     "face": 1.0
+    }
+   ]
+  },
+  "syncnet": {
+   "offset_ms": -80.0,
+   "conf": 2.35,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": -40,
+     "conf": 3.38,
+     "face": 1.0,
+     "speech": 0.76
+    },
+    {
+     "t": 1.0,
+     "offset_ms": -40,
+     "conf": 3.86,
+     "face": 1.0,
+     "speech": 0.84
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -40,
+     "conf": 2.72,
+     "face": 1.0,
+     "speech": 0.9
+    },
+    {
+     "t": 3.0,
+     "offset_ms": -80,
+     "conf": 3.22,
+     "face": 1.0,
+     "speech": 0.78
+    },
+    {
+     "t": 4.0,
+     "offset_ms": -80,
+     "conf": 3.08,
+     "face": 1.0,
+     "speech": 0.76
+    },
+    {
+     "t": 5.0,
+     "offset_ms": -80,
+     "conf": 2.3,
+     "face": 1.0,
+     "speech": 0.82
+    },
+    {
+     "t": 6.0,
+     "offset_ms": -80,
+     "conf": 2.02,
+     "face": 1.0,
+     "speech": 0.86
+    },
+    {
+     "t": 7.0,
+     "offset_ms": -80,
+     "conf": 2.35,
+     "face": 1.0,
+     "speech": 0.78
+    },
+    {
+     "t": 8.0,
+     "offset_ms": -80,
+     "conf": 1.88,
+     "face": 1.0,
+     "speech": 0.78
+    },
+    {
+     "t": 8.8,
+     "offset_ms": -600,
+     "conf": 0.0,
+     "face": 1.0,
+     "speech": 0.74
+    }
+   ]
+  },
+  "primary": "syncnet",
+  "judged_windows": 9,
+  "drift_ms_per_s": -6.0,
+  "spread_ms": 40,
+  "failing_windows": [],
+  "verdict": "PASS",
+  "mouth_px": 88.0,
+  "median_conf": 2.54,
+  "pattern": "constant",
+  "median_offset_ms": -80
+ },
+ {
+  "clip": "/home/user/doordhan-factory/work/sk01/vid/T5.mp4",
+  "label": "E5 v1 T5 (own audio)",
+  "start": 0.0,
+  "end": 7.04,
+  "face_frames": 1.0,
+  "corr": {
+   "offset_ms": -63,
+   "r": 0.46,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 0.92,
+     "face": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 0.94,
+     "face": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 0.74,
+     "face": 1.0
+    },
+    {
+     "t": 3.0,
+     "offset_ms": -337,
+     "r": 0.61,
+     "speech": 0.7,
+     "face": 1.0
+    },
+    {
+     "t": 4.0,
+     "offset_ms": -101,
+     "r": 0.49,
+     "speech": 0.84,
+     "face": 1.0
+    },
+    {
+     "t": 5.0,
+     "offset_ms": -215,
+     "r": 0.78,
+     "speech": 0.48,
+     "face": 1.0
+    }
+   ]
+  },
+  "syncnet": {
+   "offset_ms": -120.0,
+   "conf": 3.2,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": -80,
+     "conf": 3.85,
+     "face": 1.0,
+     "speech": 0.92
+    },
+    {
+     "t": 1.0,
+     "offset_ms": -80,
+     "conf": 4.15,
+     "face": 1.0,
+     "speech": 0.94
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -80,
+     "conf": 2.91,
+     "face": 1.0,
+     "speech": 0.74
+    },
+    {
+     "t": 3.0,
+     "offset_ms": -120,
+     "conf": 3.49,
+     "face": 1.0,
+     "speech": 0.7
+    },
+    {
+     "t": 4.0,
+     "offset_ms": -120,
+     "conf": 4.09,
+     "face": 1.0,
+     "speech": 0.84
+    },
+    {
+     "t": 4.8,
+     "offset_ms": -120,
+     "conf": 2.39,
+     "face": 1.0,
+     "speech": 0.48
+    }
+   ]
+  },
+  "primary": "syncnet",
+  "judged_windows": 6,
+  "drift_ms_per_s": -10.6,
+  "spread_ms": 40,
+  "failing_windows": [],
+  "verdict": "PASS",
+  "mouth_px": 78.8,
+  "median_conf": 3.67,
+  "pattern": "constant",
+  "median_offset_ms": -100
+ },
+ {
+  "clip": "/home/user/doordhan-factory/work/sk01/vid/T6.mp4",
+  "label": "E5 v1 T6 (own audio)",
+  "start": 0.0,
+  "end": 5.04,
+  "face_frames": 1.0,
+  "corr": {
+   "offset_ms": -10,
+   "r": 0.49,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": 1,
+     "r": 0.51,
+     "speech": 0.9,
+     "face": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": -29,
+     "r": 0.32,
+     "speech": 0.96,
+     "face": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": 212,
+     "r": 0.33,
+     "speech": 0.98,
+     "face": 1.0
+    },
+    {
+     "t": 3.0,
+     "offset_ms": 333,
+     "r": 0.64,
+     "speech": 0.58,
+     "face": 1.0
+    }
+   ]
+  },
+  "syncnet": {
+   "offset_ms": -40.0,
+   "conf": 4.01,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": 0,
+     "conf": 3.23,
+     "face": 1.0,
+     "speech": 0.9
+    },
+    {
+     "t": 1.0,
+     "offset_ms": -40,
+     "conf": 4.59,
+     "face": 1.0,
+     "speech": 0.96
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -40,
+     "conf": 4.13,
+     "face": 1.0,
+     "speech": 0.98
+    },
+    {
+     "t": 2.8,
+     "offset_ms": -40,
+     "conf": 3.54,
+     "face": 1.0,
+     "speech": 0.68
+    }
+   ]
+  },
+  "primary": "syncnet",
+  "judged_windows": 4,
+  "drift_ms_per_s": -13.1,
+  "spread_ms": 40,
+  "failing_windows": [],
+  "verdict": "PASS",
+  "mouth_px": 73.6,
+  "median_conf": 3.83,
+  "pattern": "constant",
+  "median_offset_ms": -40
+ },
+ {
+  "clip": "/home/user/doordhan-factory/work/sk01/vid/T1b.mp4",
+  "label": "E5 T1b expression test (own audio)",
+  "start": 0.0,
+  "end": 6.04,
+  "face_frames": 1.0,
+  "corr": {
+   "offset_ms": 2,
+   "r": 0.14,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": -3,
+     "r": 0.64,
+     "speech": 0.9,
+     "face": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": 2,
+     "r": 0.14,
+     "speech": 0.86,
+     "face": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 0.86,
+     "face": 1.0
+    },
+    {
+     "t": 3.0,
+     "offset_ms": 371,
+     "r": 0.38,
+     "speech": 0.98,
+     "face": 1.0
+    },
+    {
+     "t": 4.0,
+     "offset_ms": 1,
+     "r": 0.16,
+     "speech": 0.74,
+     "face": 1.0
+    }
+   ]
+  },
+  "syncnet": {
+   "offset_ms": -40.0,
+   "conf": 3.04,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": 0,
+     "conf": 3.37,
+     "face": 1.0,
+     "speech": 0.9
+    },
+    {
+     "t": 1.0,
+     "offset_ms": -40,
+     "conf": 3.83,
+     "face": 1.0,
+     "speech": 0.86
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -40,
+     "conf": 3.49,
+     "face": 1.0,
+     "speech": 0.86
+    },
+    {
+     "t": 3.0,
+     "offset_ms": -40,
+     "conf": 3.2,
+     "face": 1.0,
+     "speech": 0.98
+    },
+    {
+     "t": 3.8,
+     "offset_ms": -40,
+     "conf": 1.96,
+     "face": 1.0,
+     "speech": 0.84
+    }
+   ]
+  },
+  "primary": "syncnet",
+  "judged_windows": 5,
+  "drift_ms_per_s": -8.5,
+  "spread_ms": 40,
+  "failing_windows": [],
+  "verdict": "PASS",
+  "mouth_px": 90.0,
+  "median_conf": 3.37,
+  "pattern": "constant",
+  "median_offset_ms": -40
+ },
+ {
+  "clip": "/home/user/doordhan-factory/work/sk01/vid/T1v2.mp4",
+  "label": "E5 v2 T1 (own audio)",
+  "start": 0.0,
+  "end": 7.04,
+  "face_frames": 1.0,
+  "corr": {
+   "offset_ms": -17,
+   "r": 0.4,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": -33,
+     "r": 0.49,
+     "speech": 0.7,
+     "face": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": 362,
+     "r": 0.45,
+     "speech": 0.94,
+     "face": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -10,
+     "r": 0.7,
+     "speech": 0.82,
+     "face": 1.0
+    },
+    {
+     "t": 3.0,
+     "offset_ms": -228,
+     "r": 0.21,
+     "speech": 0.88,
+     "face": 1.0
+    },
+    {
+     "t": 4.0,
+     "offset_ms": -235,
+     "r": 0.41,
+     "speech": 0.96,
+     "face": 1.0
+    },
+    {
+     "t": 5.0,
+     "offset_ms": 5,
+     "r": 0.43,
+     "speech": 0.66,
+     "face": 1.0
+    }
+   ]
+  },
+  "syncnet": {
+   "offset_ms": -40.0,
+   "conf": 2.78,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": -40,
+     "conf": 2.62,
+     "face": 1.0,
+     "speech": 0.7
+    },
+    {
+     "t": 1.0,
+     "offset_ms": -40,
+     "conf": 3.74,
+     "face": 1.0,
+     "speech": 0.94
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -40,
+     "conf": 4.07,
+     "face": 1.0,
+     "speech": 0.82
+    },
+    {
+     "t": 3.0,
+     "offset_ms": -80,
+     "conf": 2.97,
+     "face": 1.0,
+     "speech": 0.88
+    },
+    {
+     "t": 4.0,
+     "offset_ms": -80,
+     "conf": 2.47,
+     "face": 1.0,
+     "speech": 0.96
+    },
+    {
+     "t": 4.8,
+     "offset_ms": -80,
+     "conf": 2.41,
+     "face": 1.0,
+     "speech": 0.76
+    }
+   ]
+  },
+  "primary": "syncnet",
+  "judged_windows": 6,
+  "drift_ms_per_s": -10.6,
+  "spread_ms": 40,
+  "failing_windows": [],
+  "verdict": "PASS",
+  "mouth_px": 87.0,
+  "median_conf": 2.79,
+  "pattern": "constant",
+  "median_offset_ms": -60
+ },
+ {
+  "clip": "/home/user/doordhan-factory/work/sk01/vid/T2v2.mp4",
+  "label": "E5 v2 T2 (own audio)",
+  "start": 0.0,
+  "end": 11.03,
+  "face_frames": 1.0,
+  "corr": {
+   "offset_ms": -54,
+   "r": 0.44,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": -107,
+     "r": 0.65,
+     "speech": 0.68,
+     "face": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": 338,
+     "r": 0.61,
+     "speech": 0.94,
+     "face": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": 339,
+     "r": 0.48,
+     "speech": 0.96,
+     "face": 1.0
+    },
+    {
+     "t": 3.0,
+     "offset_ms": -207,
+     "r": 0.38,
+     "speech": 0.96,
+     "face": 1.0
+    },
+    {
+     "t": 4.0,
+     "offset_ms": -26,
+     "r": 0.33,
+     "speech": 0.98,
+     "face": 1.0
+    },
+    {
+     "t": 5.0,
+     "offset_ms": -272,
+     "r": 0.45,
+     "speech": 0.9,
+     "face": 1.0
+    },
+    {
+     "t": 6.0,
+     "offset_ms": -236,
+     "r": 0.66,
+     "speech": 0.74,
+     "face": 1.0
+    },
+    {
+     "t": 7.0,
+     "offset_ms": -19,
+     "r": 0.57,
+     "speech": 0.5,
+     "face": 1.0
+    },
+    {
+     "t": 8.0,
+     "offset_ms": -279,
+     "r": 0.59,
+     "speech": 0.6,
+     "face": 1.0
+    },
+    {
+     "t": 9.0,
+     "offset_ms": -113,
+     "r": 0.64,
+     "speech": 0.48,
+     "face": 1.0
+    }
+   ]
+  },
+  "syncnet": {
+   "offset_ms": -40.0,
+   "conf": 3.66,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": -40,
+     "conf": 2.56,
+     "face": 1.0,
+     "speech": 0.68
+    },
+    {
+     "t": 1.0,
+     "offset_ms": -40,
+     "conf": 3.28,
+     "face": 1.0,
+     "speech": 0.94
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -40,
+     "conf": 3.51,
+     "face": 1.0,
+     "speech": 0.96
+    },
+    {
+     "t": 3.0,
+     "offset_ms": 0,
+     "conf": 4.71,
+     "face": 1.0,
+     "speech": 0.96
+    },
+    {
+     "t": 4.0,
+     "offset_ms": 0,
+     "conf": 5.02,
+     "face": 1.0,
+     "speech": 0.98
+    },
+    {
+     "t": 5.0,
+     "offset_ms": -40,
+     "conf": 3.89,
+     "face": 1.0,
+     "speech": 0.9
+    },
+    {
+     "t": 6.0,
+     "offset_ms": -80,
+     "conf": 3.03,
+     "face": 1.0,
+     "speech": 0.74
+    },
+    {
+     "t": 7.0,
+     "offset_ms": -40,
+     "conf": 2.49,
+     "face": 1.0,
+     "speech": 0.5
+    },
+    {
+     "t": 8.0,
+     "offset_ms": -40,
+     "conf": 2.88,
+     "face": 1.0,
+     "speech": 0.6
+    },
+    {
+     "t": 8.8,
+     "offset_ms": 0,
+     "conf": 4.21,
+     "face": 1.0,
+     "speech": 0.58
+    }
+   ]
+  },
+  "primary": "syncnet",
+  "judged_windows": 10,
+  "drift_ms_per_s": 0.4,
+  "spread_ms": 80,
+  "failing_windows": [],
+  "verdict": "PASS",
+  "mouth_px": 87.7,
+  "median_conf": 3.39,
+  "pattern": "constant",
+  "median_offset_ms": -40
+ },
+ {
+  "clip": "/home/user/doordhan-factory/work/sk01/vid/T3v2.mp4",
+  "label": "E5 v2 T3 (own audio)",
+  "start": 0.0,
+  "end": 11.03,
+  "face_frames": 1.0,
+  "corr": {
+   "offset_ms": -62,
+   "r": 0.5,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": -102,
+     "r": 0.42,
+     "speech": 0.56,
+     "face": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": -57,
+     "r": 0.81,
+     "speech": 0.78,
+     "face": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -57,
+     "r": 0.71,
+     "speech": 0.88,
+     "face": 1.0
+    },
+    {
+     "t": 3.0,
+     "offset_ms": -60,
+     "r": 0.82,
+     "speech": 0.72,
+     "face": 1.0
+    },
+    {
+     "t": 4.0,
+     "offset_ms": -42,
+     "r": 0.84,
+     "speech": 0.7,
+     "face": 1.0
+    },
+    {
+     "t": 5.0,
+     "offset_ms": -62,
+     "r": 0.77,
+     "speech": 0.62,
+     "face": 1.0
+    },
+    {
+     "t": 6.0,
+     "offset_ms": 14,
+     "r": 0.67,
+     "speech": 0.42,
+     "face": 1.0
+    },
+    {
+     "t": 7.0,
+     "offset_ms": -23,
+     "r": 0.56,
+     "speech": 0.5,
+     "face": 1.0
+    },
+    {
+     "t": 8.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 0.64,
+     "face": 1.0
+    },
+    {
+     "t": 9.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 0.62,
+     "face": 1.0
+    }
+   ]
+  },
+  "syncnet": {
+   "offset_ms": -80.0,
+   "conf": 3.81,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": -80,
+     "conf": 5.57,
+     "face": 1.0,
+     "speech": 0.56
+    },
+    {
+     "t": 1.0,
+     "offset_ms": -40,
+     "conf": 4.78,
+     "face": 1.0,
+     "speech": 0.78
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -40,
+     "conf": 3.36,
+     "face": 1.0,
+     "speech": 0.88
+    },
+    {
+     "t": 3.0,
+     "offset_ms": -80,
+     "conf": 5.07,
+     "face": 1.0,
+     "speech": 0.72
+    },
+    {
+     "t": 4.0,
+     "offset_ms": -80,
+     "conf": 3.97,
+     "face": 1.0,
+     "speech": 0.7
+    },
+    {
+     "t": 5.0,
+     "offset_ms": -80,
+     "conf": 2.35,
+     "face": 1.0,
+     "speech": 0.62
+    },
+    {
+     "t": 6.0,
+     "offset_ms": -80,
+     "conf": 3.44,
+     "face": 1.0,
+     "speech": 0.42
+    },
+    {
+     "t": 7.0,
+     "offset_ms": -120,
+     "conf": 3.73,
+     "face": 1.0,
+     "speech": 0.5
+    },
+    {
+     "t": 8.0,
+     "offset_ms": -80,
+     "conf": 2.87,
+     "face": 1.0,
+     "speech": 0.64
+    },
+    {
+     "t": 8.8,
+     "offset_ms": -80,
+     "conf": 2.32,
+     "face": 1.0,
+     "speech": 0.62
+    }
+   ]
+  },
+  "primary": "syncnet",
+  "judged_windows": 10,
+  "drift_ms_per_s": -4.2,
+  "spread_ms": 80,
+  "failing_windows": [],
+  "verdict": "PASS",
+  "mouth_px": 72.7,
+  "median_conf": 3.58,
+  "pattern": "constant",
+  "median_offset_ms": -80
+ },
+ {
+  "clip": "/home/user/doordhan-factory/work/sk01/vid/T4v2.mp4",
+  "label": "E5 v2 T4 (own audio)",
+  "start": 0.0,
+  "end": 12.03,
+  "face_frames": 1.0,
+  "corr": {
+   "offset_ms": -97,
+   "r": 0.35,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": -359,
+     "r": 0.46,
+     "speech": 0.6,
+     "face": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 0.82,
+     "face": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 0.9,
+     "face": 1.0
+    },
+    {
+     "t": 3.0,
+     "offset_ms": -79,
+     "r": 0.68,
+     "speech": 0.78,
+     "face": 1.0
+    },
+    {
+     "t": 4.0,
+     "offset_ms": -51,
+     "r": 0.54,
+     "speech": 0.78,
+     "face": 1.0
+    },
+    {
+     "t": 5.0,
+     "offset_ms": -92,
+     "r": 0.5,
+     "speech": 0.88,
+     "face": 1.0
+    },
+    {
+     "t": 6.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 0.8,
+     "face": 1.0
+    },
+    {
+     "t": 7.0,
+     "offset_ms": -14,
+     "r": 0.07,
+     "speech": 0.84,
+     "face": 1.0
+    },
+    {
+     "t": 8.0,
+     "offset_ms": -7,
+     "r": 0.62,
+     "speech": 0.8,
+     "face": 1.0
+    },
+    {
+     "t": 9.0,
+     "offset_ms": -87,
+     "r": 0.54,
+     "speech": 0.78,
+     "face": 1.0
+    },
+    {
+     "t": 10.0,
+     "offset_ms": -122,
+     "r": 0.7,
+     "speech": 0.78,
+     "face": 1.0
+    }
+   ]
+  },
+  "syncnet": {
+   "offset_ms": -80.0,
+   "conf": 3.4,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": -80,
+     "conf": 4.08,
+     "face": 1.0,
+     "speech": 0.6
+    },
+    {
+     "t": 1.0,
+     "offset_ms": -80,
+     "conf": 5.26,
+     "face": 1.0,
+     "speech": 0.82
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -80,
+     "conf": 5.33,
+     "face": 1.0,
+     "speech": 0.9
+    },
+    {
+     "t": 3.0,
+     "offset_ms": -80,
+     "conf": 4.43,
+     "face": 1.0,
+     "speech": 0.78
+    },
+    {
+     "t": 4.0,
+     "offset_ms": -120,
+     "conf": 3.12,
+     "face": 1.0,
+     "speech": 0.78
+    },
+    {
+     "t": 5.0,
+     "offset_ms": -80,
+     "conf": 2.6,
+     "face": 1.0,
+     "speech": 0.88
+    },
+    {
+     "t": 6.0,
+     "offset_ms": -120,
+     "conf": 2.9,
+     "face": 1.0,
+     "speech": 0.8
+    },
+    {
+     "t": 7.0,
+     "offset_ms": -120,
+     "conf": 2.65,
+     "face": 1.0,
+     "speech": 0.84
+    },
+    {
+     "t": 8.0,
+     "offset_ms": -120,
+     "conf": 3.41,
+     "face": 1.0,
+     "speech": 0.8
+    },
+    {
+     "t": 9.0,
+     "offset_ms": -120,
+     "conf": 2.42,
+     "face": 1.0,
+     "speech": 0.78
+    },
+    {
+     "t": 9.8,
+     "offset_ms": -160,
+     "conf": 2.47,
+     "face": 1.0,
+     "speech": 0.88
+    }
+   ]
+  },
+  "primary": "syncnet",
+  "judged_windows": 11,
+  "drift_ms_per_s": -6.9,
+  "spread_ms": 80,
+  "failing_windows": [
+   9.8
+  ],
+  "verdict": "FAIL",
+  "mouth_px": 88.2,
+  "median_conf": 3.12,
+  "pattern": "constant",
+  "median_offset_ms": -120
+ },
+ {
+  "clip": "/home/user/doordhan-factory/work/sk01/vid/T5v2.mp4",
+  "label": "E5 v2 T5 (own audio)",
+  "start": 0.0,
+  "end": 8.03,
+  "face_frames": 1.0,
+  "corr": {
+   "offset_ms": -279,
+   "r": 0.49,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": -311,
+     "r": 0.57,
+     "speech": 0.74,
+     "face": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": 59,
+     "r": 0.33,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": 136,
+     "r": 0.49,
+     "speech": 0.86,
+     "face": 1.0
+    },
+    {
+     "t": 3.0,
+     "offset_ms": -287,
+     "r": 0.46,
+     "speech": 0.7,
+     "face": 1.0
+    },
+    {
+     "t": 4.0,
+     "offset_ms": -268,
+     "r": 0.46,
+     "speech": 0.72,
+     "face": 1.0
+    },
+    {
+     "t": 5.0,
+     "offset_ms": -2,
+     "r": 0.56,
+     "speech": 0.82,
+     "face": 1.0
+    },
+    {
+     "t": 6.0,
+     "offset_ms": -78,
+     "r": 0.82,
+     "speech": 0.44,
+     "face": 1.0
+    }
+   ]
+  },
+  "syncnet": {
+   "offset_ms": 0.0,
+   "conf": 4.18,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": 0,
+     "conf": 5.17,
+     "face": 1.0,
+     "speech": 0.74
+    },
+    {
+     "t": 1.0,
+     "offset_ms": 0,
+     "conf": 5.03,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": 0,
+     "conf": 4.36,
+     "face": 1.0,
+     "speech": 0.86
+    },
+    {
+     "t": 3.0,
+     "offset_ms": 0,
+     "conf": 4.77,
+     "face": 1.0,
+     "speech": 0.7
+    },
+    {
+     "t": 4.0,
+     "offset_ms": 0,
+     "conf": 4.52,
+     "face": 1.0,
+     "speech": 0.72
+    },
+    {
+     "t": 5.0,
+     "offset_ms": 0,
+     "conf": 3.1,
+     "face": 1.0,
+     "speech": 0.82
+    },
+    {
+     "t": 5.8,
+     "offset_ms": 0,
+     "conf": 2.06,
+     "face": 1.0,
+     "speech": 0.52
+    }
+   ]
+  },
+  "primary": "syncnet",
+  "judged_windows": 7,
+  "drift_ms_per_s": 0.0,
+  "spread_ms": 0,
+  "failing_windows": [],
+  "verdict": "PASS",
+  "mouth_px": 85.7,
+  "median_conf": 4.52,
+  "pattern": "constant",
+  "median_offset_ms": 0
+ },
+ {
+  "clip": "/home/user/doordhan-factory/work/sk01/vid/T6v2.mp4",
+  "label": "E5 v2 T6 (own audio)",
+  "start": 0.0,
+  "end": 5.04,
+  "face_frames": 1.0,
+  "corr": {
+   "offset_ms": -66,
+   "r": 0.31,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": -62,
+     "r": 0.66,
+     "speech": 0.74,
+     "face": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": -82,
+     "r": 0.47,
+     "speech": 0.98,
+     "face": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": 174,
+     "r": 0.3,
+     "speech": 0.98,
+     "face": 1.0
+    },
+    {
+     "t": 3.0,
+     "offset_ms": 363,
+     "r": 0.12,
+     "speech": 0.94,
+     "face": 1.0
+    }
+   ]
+  },
+  "syncnet": {
+   "offset_ms": -120.0,
+   "conf": 2.36,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": -120,
+     "conf": 1.48,
+     "face": 1.0,
+     "speech": 0.74
+    },
+    {
+     "t": 1.0,
+     "offset_ms": -120,
+     "conf": 1.92,
+     "face": 1.0,
+     "speech": 0.98
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -120,
+     "conf": 3.13,
+     "face": 1.0,
+     "speech": 0.98
+    },
+    {
+     "t": 2.8,
+     "offset_ms": -160,
+     "conf": 3.17,
+     "face": 1.0,
+     "speech": 0.98
+    }
+   ]
+  },
+  "primary": "syncnet",
+  "judged_windows": 3,
+  "drift_ms_per_s": -21.3,
+  "spread_ms": 40,
+  "failing_windows": [
+   2.8
+  ],
+  "verdict": "FAIL",
+  "mouth_px": 62.6,
+  "median_conf": 2.52,
+  "pattern": "constant",
+  "median_offset_ms": -120
+ },
+ {
+  "clip": "/home/user/doordhan-factory/outputs/sk01/sk01_top1pct_v1.mp4",
+  "label": "E5 final v1 P1 segment",
+  "start": 9.28,
+  "end": 15.38,
+  "face_frames": 0.88,
+  "corr": {
+   "offset_ms": null,
+   "r": null,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": -90,
+     "r": 0.54,
+     "speech": 1.0,
+     "face": 0.62
+    },
+    {
+     "t": 1.0,
+     "offset_ms": 308,
+     "r": 0.29,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": 402,
+     "r": 0.3,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 3.0,
+     "offset_ms": 412,
+     "r": 0.38,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 4.0,
+     "offset_ms": -10,
+     "r": 0.42,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 4.12,
+     "offset_ms": -19,
+     "r": 0.51,
+     "speech": 0.98,
+     "face": 1.0
+    }
+   ]
+  },
+  "syncnet": {
+   "offset_ms": -360.0,
+   "conf": 0.79,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": -120,
+     "conf": 2.41,
+     "face": 0.62,
+     "speech": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": -240,
+     "conf": 1.48,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -320,
+     "conf": 1.6,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 3.0,
+     "offset_ms": -80,
+     "conf": 0.86,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 3.88,
+     "offset_ms": -480,
+     "conf": 2.91,
+     "face": 1.0,
+     "speech": 1.0
+    }
+   ]
+  },
+  "primary": "syncnet",
+  "judged_windows": 2,
+  "drift_ms_per_s": -85.1,
+  "spread_ms": 160,
+  "failing_windows": [
+   2.0,
+   3.88
+  ],
+  "verdict": "FAIL",
+  "mouth_px": 81.2,
+  "median_conf": 1.6,
+  "pattern": "drift",
+  "repair": "offset drifts within the line: an audio shift can't fix it. Check the track speed (make_track), then split the line into shots of about 6 s or less and regenerate."
+ },
+ {
+  "clip": "/home/user/doordhan-factory/outputs/sk01/sk01_top1pct_v1.mp4",
+  "label": "E5 final v1 P2 segment",
+  "start": 15.38,
+  "end": 25.33,
+  "face_frames": 0.8,
+  "corr": {
+   "offset_ms": null,
+   "r": null,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": 165,
+     "r": 0.4,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": 128,
+     "r": 0.48,
+     "speech": 1.0,
+     "face": 0.98
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -268,
+     "r": 0.35,
+     "speech": 1.0,
+     "face": 0.98
+    },
+    {
+     "t": 3.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 4.0,
+     "offset_ms": -135,
+     "r": 0.42,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 5.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 1.0,
+     "face": 0.68
+    },
+    {
+     "t": 6.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 1.0,
+     "face": 0.18
+    },
+    {
+     "t": 7.0,
+     "offset_ms": -40,
+     "r": -0.2,
+     "speech": 1.0,
+     "face": 0.34
+    },
+    {
+     "t": 7.96,
+     "offset_ms": null,
+     "r": null,
+     "speech": 0.98,
+     "face": 0.82
+    }
+   ]
+  },
+  "syncnet": {
+   "offset_ms": -400.0,
+   "conf": 1.17,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": -160,
+     "conf": 1.67,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": -200,
+     "conf": 2.34,
+     "face": 0.98,
+     "speech": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -320,
+     "conf": 1.14,
+     "face": 0.98,
+     "speech": 1.0
+    },
+    {
+     "t": 3.0,
+     "offset_ms": -400,
+     "conf": 3.24,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 4.0,
+     "offset_ms": -400,
+     "conf": 3.23,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 5.0,
+     "offset_ms": -560,
+     "conf": 1.63,
+     "face": 0.68,
+     "speech": 1.0
+    },
+    {
+     "t": 6.0,
+     "offset_ms": 200,
+     "conf": 2.49,
+     "face": 0.18,
+     "speech": 1.0
+    },
+    {
+     "t": 7.0,
+     "offset_ms": -440,
+     "conf": 3.51,
+     "face": 0.34,
+     "speech": 1.0
+    },
+    {
+     "t": 7.72,
+     "offset_ms": -560,
+     "conf": 2.29,
+     "face": 0.7,
+     "speech": 1.0
+    }
+   ]
+  },
+  "primary": "syncnet",
+  "judged_windows": 4,
+  "drift_ms_per_s": -68.0,
+  "spread_ms": 240,
+  "failing_windows": [
+   0.0,
+   1.0,
+   3.0,
+   4.0
+  ],
+  "verdict": "FAIL",
+  "mouth_px": 98.0,
+  "median_conf": 2.34,
+  "pattern": "drift",
+  "repair": "offset drifts within the line: an audio shift can't fix it. Check the track speed (make_track), then split the line into shots of about 6 s or less and regenerate."
+ },
+ {
+  "clip": "/home/user/doordhan-factory/outputs/sk01/sk01_top1pct_v1.mp4",
+  "label": "E5 final v1 P3 segment",
+  "start": 25.33,
+  "end": 35.88,
+  "face_frames": 0.92,
+  "corr": {
+   "offset_ms": -118,
+   "r": 0.45,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": -98,
+     "r": 0.64,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": -130,
+     "r": 0.73,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -274,
+     "r": 0.6,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 3.0,
+     "offset_ms": -112,
+     "r": 0.52,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 4.0,
+     "offset_ms": 407,
+     "r": 0.35,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 5.0,
+     "offset_ms": -321,
+     "r": 0.61,
+     "speech": 1.0,
+     "face": 0.72
+    },
+    {
+     "t": 6.0,
+     "offset_ms": -30,
+     "r": 0.32,
+     "speech": 1.0,
+     "face": 0.58
+    },
+    {
+     "t": 7.0,
+     "offset_ms": -185,
+     "r": 0.59,
+     "speech": 1.0,
+     "face": 0.86
+    },
+    {
+     "t": 8.0,
+     "offset_ms": -242,
+     "r": 0.58,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 8.56,
+     "offset_ms": -249,
+     "r": 0.74,
+     "speech": 0.98,
+     "face": 1.0
+    }
+   ]
+  },
+  "syncnet": {
+   "offset_ms": -160.0,
+   "conf": 0.69,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": -80,
+     "conf": 3.5,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": -160,
+     "conf": 4.45,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -240,
+     "conf": 2.66,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 3.0,
+     "offset_ms": -360,
+     "conf": 1.08,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 4.0,
+     "offset_ms": 200,
+     "conf": 0.25,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 5.0,
+     "offset_ms": 560,
+     "conf": 1.0,
+     "face": 0.72,
+     "speech": 1.0
+    },
+    {
+     "t": 6.0,
+     "offset_ms": 600,
+     "conf": 0.0,
+     "face": 0.58,
+     "speech": 1.0
+    },
+    {
+     "t": 7.0,
+     "offset_ms": -600,
+     "conf": 0.0,
+     "face": 0.86,
+     "speech": 1.0
+    },
+    {
+     "t": 8.0,
+     "offset_ms": -480,
+     "conf": 0.59,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 8.32,
+     "offset_ms": 120,
+     "conf": 1.15,
+     "face": 1.0,
+     "speech": 1.0
+    }
+   ]
+  },
+  "primary": "syncnet",
+  "judged_windows": 3,
+  "drift_ms_per_s": -80.0,
+  "spread_ms": 160,
+  "failing_windows": [
+   1.0,
+   2.0
+  ],
+  "verdict": "FAIL",
+  "mouth_px": 69.9,
+  "median_conf": 1.04,
+  "pattern": "drift",
+  "repair": "offset drifts within the line: an audio shift can't fix it. Check the track speed (make_track), then split the line into shots of about 6 s or less and regenerate."
+ },
+ {
+  "clip": "/home/user/doordhan-factory/outputs/sk01/sk01_top1pct_v1.mp4",
+  "label": "E5 final v1 P4 segment",
+  "start": 35.88,
+  "end": 47.43,
+  "face_frames": 1.0,
+  "corr": {
+   "offset_ms": null,
+   "r": null,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": -245,
+     "r": 0.47,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 3.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 4.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 5.0,
+     "offset_ms": 312,
+     "r": 0.21,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 6.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 7.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 8.0,
+     "offset_ms": 309,
+     "r": 0.48,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 9.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 9.56,
+     "offset_ms": -58,
+     "r": 0.57,
+     "speech": 0.98,
+     "face": 1.0
+    }
+   ]
+  },
+  "syncnet": {
+   "offset_ms": -600.0,
+   "conf": 0.0,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": 280,
+     "conf": 1.54,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": -200,
+     "conf": 3.05,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -360,
+     "conf": 2.3,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 3.0,
+     "offset_ms": -480,
+     "conf": 2.17,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 4.0,
+     "offset_ms": 600,
+     "conf": 0.0,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 5.0,
+     "offset_ms": -600,
+     "conf": 0.0,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 6.0,
+     "offset_ms": -600,
+     "conf": 0.0,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 7.0,
+     "offset_ms": -520,
+     "conf": 0.83,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 8.0,
+     "offset_ms": -480,
+     "conf": 0.87,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 9.0,
+     "offset_ms": 320,
+     "conf": 0.58,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 9.32,
+     "offset_ms": -560,
+     "conf": 0.7,
+     "face": 1.0,
+     "speech": 1.0
+    }
+   ]
+  },
+  "primary": "syncnet",
+  "judged_windows": 4,
+  "drift_ms_per_s": -244.0,
+  "spread_ms": 760,
+  "failing_windows": [
+   0.0,
+   1.0,
+   2.0,
+   3.0
+  ],
+  "verdict": "FAIL",
+  "mouth_px": 88.6,
+  "median_conf": 0.83,
+  "pattern": "drift",
+  "repair": "offset drifts within the line: an audio shift can't fix it. Check the track speed (make_track), then split the line into shots of about 6 s or less and regenerate."
+ },
+ {
+  "clip": "/home/user/doordhan-factory/outputs/sk01/sk01_top1pct_v1.mp4",
+  "label": "E5 final v1 P5 segment",
+  "start": 47.43,
+  "end": 54.38,
+  "face_frames": 1.0,
+  "corr": {
+   "offset_ms": null,
+   "r": null,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": 377,
+     "r": 0.65,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": -164,
+     "r": 0.31,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 3.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 4.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 4.96,
+     "offset_ms": null,
+     "r": null,
+     "speech": 0.98,
+     "face": 1.0
+    }
+   ]
+  },
+  "syncnet": {
+   "offset_ms": -480.0,
+   "conf": 1.08,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": -200,
+     "conf": 2.34,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": -280,
+     "conf": 2.29,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -320,
+     "conf": 2.17,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 3.0,
+     "offset_ms": -480,
+     "conf": 1.68,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 4.0,
+     "offset_ms": -560,
+     "conf": 2.71,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 4.72,
+     "offset_ms": -600,
+     "conf": 0.0,
+     "face": 1.0,
+     "speech": 1.0
+    }
+   ]
+  },
+  "primary": "syncnet",
+  "judged_windows": 5,
+  "drift_ms_per_s": -92.0,
+  "spread_ms": 360,
+  "failing_windows": [
+   0.0,
+   1.0,
+   2.0,
+   3.0,
+   4.0
+  ],
+  "verdict": "FAIL",
+  "mouth_px": 81.5,
+  "median_conf": 2.23,
+  "pattern": "drift",
+  "repair": "offset drifts within the line: an audio shift can't fix it. Check the track speed (make_track), then split the line into shots of about 6 s or less and regenerate."
+ },
+ {
+  "clip": "/home/user/doordhan-factory/outputs/sk01/sk01_top1pct_v1.mp4",
+  "label": "E5 final v1 P6 segment",
+  "start": 54.38,
+  "end": 58.95,
+  "face_frames": 0.98,
+  "corr": {
+   "offset_ms": 56,
+   "r": 0.3,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": 98,
+     "r": 0.49,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": 32,
+     "r": 0.22,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -240,
+     "r": 0.29,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 2.6,
+     "offset_ms": 45,
+     "r": 0.23,
+     "speech": 0.98,
+     "face": 0.96
+    }
+   ]
+  },
+  "syncnet": {
+   "offset_ms": -280.0,
+   "conf": 0.93,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": -40,
+     "conf": 2.3,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": -200,
+     "conf": 2.84,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -280,
+     "conf": 2.55,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 2.36,
+     "offset_ms": -280,
+     "conf": 3.51,
+     "face": 1.0,
+     "speech": 1.0
+    }
+   ]
+  },
+  "primary": "syncnet",
+  "judged_windows": 4,
+  "drift_ms_per_s": -103.0,
+  "spread_ms": 240,
+  "failing_windows": [
+   1.0,
+   2.0,
+   2.36
+  ],
+  "verdict": "FAIL",
+  "mouth_px": 74.5,
+  "median_conf": 2.69,
+  "pattern": "drift",
+  "repair": "offset drifts within the line: an audio shift can't fix it. Check the track speed (make_track), then split the line into shots of about 6 s or less and regenerate."
+ },
+ {
+  "clip": "/home/user/doordhan-factory/outputs/sk01/sk01_top1pct_v4.mp4",
+  "label": "E5 final v4 P1 segment",
+  "start": 9.83,
+  "end": 15.93,
+  "face_frames": 1.0,
+  "corr": {
+   "offset_ms": -34,
+   "r": 0.15,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": -57,
+     "r": 0.07,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": -27,
+     "r": 0.2,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -62,
+     "r": 0.37,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 3.0,
+     "offset_ms": -254,
+     "r": 0.45,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 4.0,
+     "offset_ms": 310,
+     "r": 0.26,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 4.12,
+     "offset_ms": 291,
+     "r": 0.27,
+     "speech": 0.98,
+     "face": 1.0
+    }
+   ]
+  },
+  "syncnet": {
+   "offset_ms": -80.0,
+   "conf": 2.89,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": -40,
+     "conf": 2.82,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": -80,
+     "conf": 3.38,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -80,
+     "conf": 3.4,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 3.0,
+     "offset_ms": -80,
+     "conf": 3.41,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 3.88,
+     "offset_ms": -80,
+     "conf": 2.26,
+     "face": 1.0,
+     "speech": 1.0
+    }
+   ]
+  },
+  "primary": "syncnet",
+  "judged_windows": 5,
+  "drift_ms_per_s": -8.3,
+  "spread_ms": 40,
+  "failing_windows": [],
+  "verdict": "PASS",
+  "mouth_px": 89.2,
+  "median_conf": 3.38,
+  "pattern": "constant",
+  "median_offset_ms": -80
+ },
+ {
+  "clip": "/home/user/doordhan-factory/outputs/sk01/sk01_top1pct_v4.mp4",
+  "label": "E5 final v4 P2 segment",
+  "start": 15.93,
+  "end": 25.33,
+  "face_frames": 0.77,
+  "corr": {
+   "offset_ms": -19,
+   "r": 0.36,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": 368,
+     "r": 0.4,
+     "speech": 1.0,
+     "face": 0.98
+    },
+    {
+     "t": 1.0,
+     "offset_ms": 369,
+     "r": 0.59,
+     "speech": 1.0,
+     "face": 0.98
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -82,
+     "r": 0.51,
+     "speech": 1.0,
+     "face": 0.96
+    },
+    {
+     "t": 3.0,
+     "offset_ms": -219,
+     "r": 0.29,
+     "speech": 1.0,
+     "face": 0.98
+    },
+    {
+     "t": 4.0,
+     "offset_ms": 259,
+     "r": 0.53,
+     "speech": 1.0,
+     "face": 0.98
+    },
+    {
+     "t": 5.0,
+     "offset_ms": -44,
+     "r": 0.56,
+     "speech": 1.0,
+     "face": 0.66
+    },
+    {
+     "t": 6.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 1.0,
+     "face": 0.18
+    },
+    {
+     "t": 7.0,
+     "offset_ms": -5,
+     "r": 0.4,
+     "speech": 1.0,
+     "face": 0.32
+    },
+    {
+     "t": 7.4,
+     "offset_ms": -146,
+     "r": 0.81,
+     "speech": 1.0,
+     "face": 0.52
+    }
+   ]
+  },
+  "syncnet": {
+   "offset_ms": 0.0,
+   "conf": 1.85,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": 600,
+     "conf": 0.0,
+     "face": 0.98,
+     "speech": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": 0,
+     "conf": 0.93,
+     "face": 0.98,
+     "speech": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": 40,
+     "conf": 1.86,
+     "face": 0.96,
+     "speech": 1.0
+    },
+    {
+     "t": 3.0,
+     "offset_ms": 0,
+     "conf": 4.4,
+     "face": 0.98,
+     "speech": 1.0
+    },
+    {
+     "t": 4.0,
+     "offset_ms": 0,
+     "conf": 3.36,
+     "face": 0.98,
+     "speech": 1.0
+    },
+    {
+     "t": 5.0,
+     "offset_ms": 320,
+     "conf": 1.97,
+     "face": 0.66,
+     "speech": 1.0
+    },
+    {
+     "t": 6.0,
+     "offset_ms": 200,
+     "conf": 4.06,
+     "face": 0.18,
+     "speech": 1.0
+    },
+    {
+     "t": 7.0,
+     "offset_ms": -600,
+     "conf": 0.0,
+     "face": 0.32,
+     "speech": 1.0
+    },
+    {
+     "t": 7.16,
+     "offset_ms": -600,
+     "conf": 0.0,
+     "face": 0.4,
+     "speech": 1.0
+    }
+   ]
+  },
+  "primary": "syncnet",
+  "judged_windows": 3,
+  "drift_ms_per_s": -20.0,
+  "spread_ms": 40,
+  "failing_windows": [],
+  "verdict": "PASS",
+  "mouth_px": 107.7,
+  "median_conf": 1.86,
+  "pattern": "constant",
+  "median_offset_ms": 0
+ },
+ {
+  "clip": "/home/user/doordhan-factory/outputs/sk01/sk01_top1pct_v4.mp4",
+  "label": "E5 final v4 P3 segment",
+  "start": 25.33,
+  "end": 35.88,
+  "face_frames": 0.97,
+  "corr": {
+   "offset_ms": -50,
+   "r": 0.48,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": -56,
+     "r": 0.52,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": -46,
+     "r": 0.77,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -32,
+     "r": 0.7,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 3.0,
+     "offset_ms": -19,
+     "r": 0.71,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 4.0,
+     "offset_ms": -11,
+     "r": 0.65,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 5.0,
+     "offset_ms": -111,
+     "r": 0.67,
+     "speech": 1.0,
+     "face": 0.96
+    },
+    {
+     "t": 6.0,
+     "offset_ms": -79,
+     "r": 0.67,
+     "speech": 1.0,
+     "face": 0.82
+    },
+    {
+     "t": 7.0,
+     "offset_ms": -53,
+     "r": 0.4,
+     "speech": 1.0,
+     "face": 0.86
+    },
+    {
+     "t": 8.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 8.56,
+     "offset_ms": null,
+     "r": null,
+     "speech": 0.98,
+     "face": 1.0
+    }
+   ]
+  },
+  "syncnet": {
+   "offset_ms": -40.0,
+   "conf": 2.32,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": -40,
+     "conf": 6.22,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": -40,
+     "conf": 5.03,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -40,
+     "conf": 2.36,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 3.0,
+     "offset_ms": -40,
+     "conf": 0.99,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 4.0,
+     "offset_ms": 160,
+     "conf": 1.04,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 5.0,
+     "offset_ms": 480,
+     "conf": 1.08,
+     "face": 0.96,
+     "speech": 1.0
+    },
+    {
+     "t": 6.0,
+     "offset_ms": 480,
+     "conf": 1.14,
+     "face": 0.82,
+     "speech": 1.0
+    },
+    {
+     "t": 7.0,
+     "offset_ms": -80,
+     "conf": 2.43,
+     "face": 0.86,
+     "speech": 1.0
+    },
+    {
+     "t": 8.0,
+     "offset_ms": -120,
+     "conf": 2.2,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 8.32,
+     "offset_ms": -80,
+     "conf": 1.77,
+     "face": 1.0,
+     "speech": 1.0
+    }
+   ]
+  },
+  "primary": "syncnet",
+  "judged_windows": 6,
+  "drift_ms_per_s": -7.7,
+  "spread_ms": 80,
+  "failing_windows": [],
+  "verdict": "PASS",
+  "mouth_px": 73.2,
+  "median_conf": 1.99,
+  "pattern": "constant",
+  "median_offset_ms": -60
+ },
+ {
+  "clip": "/home/user/doordhan-factory/outputs/sk01/sk01_top1pct_v4.mp4",
+  "label": "E5 final v4 P4 segment",
+  "start": 35.88,
+  "end": 47.43,
+  "face_frames": 1.0,
+  "corr": {
+   "offset_ms": -113,
+   "r": 0.32,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": -115,
+     "r": 0.4,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -84,
+     "r": 0.14,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 3.0,
+     "offset_ms": -95,
+     "r": 0.53,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 4.0,
+     "offset_ms": -86,
+     "r": 0.71,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 5.0,
+     "offset_ms": -104,
+     "r": 0.48,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 6.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 7.0,
+     "offset_ms": -92,
+     "r": 0.24,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 8.0,
+     "offset_ms": -110,
+     "r": 0.51,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 9.0,
+     "offset_ms": 248,
+     "r": 0.55,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 9.56,
+     "offset_ms": -136,
+     "r": 0.68,
+     "speech": 0.98,
+     "face": 1.0
+    }
+   ]
+  },
+  "syncnet": {
+   "offset_ms": -120.0,
+   "conf": 2.73,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": -80,
+     "conf": 2.73,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": -120,
+     "conf": 3.71,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -80,
+     "conf": 4.54,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 3.0,
+     "offset_ms": -80,
+     "conf": 3.43,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 4.0,
+     "offset_ms": -120,
+     "conf": 2.64,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 5.0,
+     "offset_ms": -120,
+     "conf": 2.84,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 6.0,
+     "offset_ms": -120,
+     "conf": 3.68,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 7.0,
+     "offset_ms": -120,
+     "conf": 2.2,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 8.0,
+     "offset_ms": -200,
+     "conf": 1.42,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 9.0,
+     "offset_ms": -160,
+     "conf": 1.85,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 9.32,
+     "offset_ms": -160,
+     "conf": 2.1,
+     "face": 1.0,
+     "speech": 1.0
+    }
+   ]
+  },
+  "primary": "syncnet",
+  "judged_windows": 10,
+  "drift_ms_per_s": -7.7,
+  "spread_ms": 80,
+  "failing_windows": [
+   9.0,
+   9.32
+  ],
+  "verdict": "FAIL",
+  "mouth_px": 87.5,
+  "median_conf": 2.73,
+  "pattern": "constant",
+  "median_offset_ms": -120
+ },
+ {
+  "clip": "/home/user/doordhan-factory/outputs/sk01/sk01_top1pct_v4.mp4",
+  "label": "E5 final v4 P5 segment",
+  "start": 47.43,
+  "end": 54.38,
+  "face_frames": 1.0,
+  "corr": {
+   "offset_ms": -345,
+   "r": 0.35,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": -366,
+     "r": 0.31,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": 51,
+     "r": 0.4,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -214,
+     "r": 0.5,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 3.0,
+     "offset_ms": -322,
+     "r": 0.57,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 4.0,
+     "offset_ms": 4,
+     "r": 0.64,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 4.96,
+     "offset_ms": -24,
+     "r": 0.67,
+     "speech": 0.98,
+     "face": 1.0
+    }
+   ]
+  },
+  "syncnet": {
+   "offset_ms": 0.0,
+   "conf": 4.16,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": 0,
+     "conf": 5.9,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": 0,
+     "conf": 5.07,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": 0,
+     "conf": 3.45,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 3.0,
+     "offset_ms": 0,
+     "conf": 3.88,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 4.0,
+     "offset_ms": 0,
+     "conf": 4.03,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 4.72,
+     "offset_ms": -40,
+     "conf": 2.73,
+     "face": 1.0,
+     "speech": 1.0
+    }
+   ]
+  },
+  "primary": "syncnet",
+  "judged_windows": 6,
+  "drift_ms_per_s": -5.6,
+  "spread_ms": 40,
+  "failing_windows": [],
+  "verdict": "PASS",
+  "mouth_px": 91.1,
+  "median_conf": 3.96,
+  "pattern": "constant",
+  "median_offset_ms": 0
+ },
+ {
+  "clip": "/home/user/doordhan-factory/outputs/sk01/sk01_top1pct_v4.mp4",
+  "label": "E5 final v4 P6 segment",
+  "start": 54.38,
+  "end": 58.9,
+  "face_frames": 0.65,
+  "corr": {
+   "offset_ms": 133,
+   "r": 0.34,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": 324,
+     "r": 0.46,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": -120,
+     "r": 0.33,
+     "speech": 1.0,
+     "face": 0.96
+    },
+    {
+     "t": 2.0,
+     "offset_ms": 145,
+     "r": 0.6,
+     "speech": 1.0,
+     "face": 0.46
+    },
+    {
+     "t": 2.52,
+     "offset_ms": null,
+     "r": null,
+     "speech": 1.0,
+     "face": 0.2
+    }
+   ]
+  },
+  "syncnet": {
+   "offset_ms": -120.0,
+   "conf": 1.54,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": 600,
+     "conf": 0.0,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": -120,
+     "conf": 2.54,
+     "face": 0.96,
+     "speech": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -120,
+     "conf": 3.47,
+     "face": 0.46,
+     "speech": 1.0
+    },
+    {
+     "t": 2.28,
+     "offset_ms": -120,
+     "conf": 5.6,
+     "face": 0.32,
+     "speech": 1.0
+    }
+   ]
+  },
+  "primary": "syncnet",
+  "judged_windows": 1,
+  "drift_ms_per_s": 0.0,
+  "spread_ms": 0,
+  "failing_windows": [],
+  "verdict": "PASS",
+  "mouth_px": 72.9,
+  "median_conf": 3.0,
+  "pattern": "constant",
+  "median_offset_ms": -120
+ },
+ {
+  "clip": "/home/user/doordhan-factory/work/lag/clips/E3_321cf7ce.mp4",
+  "label": "E3 E3_321cf7ce (own audio)",
+  "start": 0.0,
+  "end": 7.04,
+  "face_frames": 1.0,
+  "corr": {
+   "offset_ms": -166,
+   "r": 0.6,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": -191,
+     "r": 0.35,
+     "speech": 0.92,
+     "face": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": -212,
+     "r": 0.37,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -218,
+     "r": 0.49,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 3.0,
+     "offset_ms": -21,
+     "r": 0.34,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 4.0,
+     "offset_ms": -22,
+     "r": 0.71,
+     "speech": 0.92,
+     "face": 1.0
+    },
+    {
+     "t": 5.0,
+     "offset_ms": -20,
+     "r": 0.93,
+     "speech": 0.42,
+     "face": 1.0
+    }
+   ]
+  },
+  "syncnet": {
+   "offset_ms": -40.0,
+   "conf": 3.22,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": -40,
+     "conf": 2.76,
+     "face": 1.0,
+     "speech": 0.92
+    },
+    {
+     "t": 1.0,
+     "offset_ms": -40,
+     "conf": 4.34,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -40,
+     "conf": 3.26,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 3.0,
+     "offset_ms": -40,
+     "conf": 3.95,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 4.0,
+     "offset_ms": -40,
+     "conf": 4.01,
+     "face": 1.0,
+     "speech": 0.92
+    },
+    {
+     "t": 4.8,
+     "offset_ms": -40,
+     "conf": 2.3,
+     "face": 1.0,
+     "speech": 0.52
+    }
+   ]
+  },
+  "primary": "syncnet",
+  "judged_windows": 6,
+  "drift_ms_per_s": 0.0,
+  "spread_ms": 0,
+  "failing_windows": [],
+  "verdict": "PASS",
+  "mouth_px": 76.5,
+  "median_conf": 3.6,
+  "pattern": "constant",
+  "median_offset_ms": -40
+ },
+ {
+  "clip": "/home/user/doordhan-factory/work/lag/clips/E3_80592a5f.mp4",
+  "label": "E3 E3_80592a5f (own audio)",
+  "start": 0.0,
+  "end": 5.04,
+  "face_frames": 1.0,
+  "corr": {
+   "offset_ms": null,
+   "r": null,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 0.94,
+     "face": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 3.0,
+     "offset_ms": -380,
+     "r": 0.87,
+     "speech": 0.52,
+     "face": 1.0
+    }
+   ]
+  },
+  "syncnet": {
+   "offset_ms": -80.0,
+   "conf": 3.65,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": -80,
+     "conf": 4.92,
+     "face": 1.0,
+     "speech": 0.94
+    },
+    {
+     "t": 1.0,
+     "offset_ms": -80,
+     "conf": 3.57,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -120,
+     "conf": 3.1,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 2.8,
+     "offset_ms": -120,
+     "conf": 3.22,
+     "face": 1.0,
+     "speech": 0.62
+    }
+   ]
+  },
+  "primary": "syncnet",
+  "judged_windows": 4,
+  "drift_ms_per_s": -17.2,
+  "spread_ms": 40,
+  "failing_windows": [],
+  "verdict": "PASS",
+  "mouth_px": 103.4,
+  "median_conf": 3.4,
+  "pattern": "constant",
+  "median_offset_ms": -100
+ },
+ {
+  "clip": "/home/user/doordhan-factory/work/lag/clips/E3_9ac98fe1.mp4",
+  "label": "E3 E3_9ac98fe1 (own audio)",
+  "start": 0.0,
+  "end": 12.03,
+  "face_frames": 1.0,
+  "corr": {
+   "offset_ms": null,
+   "r": null,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": 126,
+     "r": 0.61,
+     "speech": 0.94,
+     "face": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 3.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 4.0,
+     "offset_ms": -236,
+     "r": 0.28,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 5.0,
+     "offset_ms": 308,
+     "r": 0.1,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 6.0,
+     "offset_ms": -273,
+     "r": 0.2,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 7.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 8.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 9.0,
+     "offset_ms": 116,
+     "r": 0.4,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 10.0,
+     "offset_ms": -116,
+     "r": 0.7,
+     "speech": 0.8,
+     "face": 1.0
+    }
+   ]
+  },
+  "syncnet": {
+   "offset_ms": -80.0,
+   "conf": 4.9,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": -40,
+     "conf": 4.13,
+     "face": 1.0,
+     "speech": 0.94
+    },
+    {
+     "t": 1.0,
+     "offset_ms": -40,
+     "conf": 5.22,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -80,
+     "conf": 6.48,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 3.0,
+     "offset_ms": -80,
+     "conf": 6.56,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 4.0,
+     "offset_ms": -80,
+     "conf": 5.74,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 5.0,
+     "offset_ms": -80,
+     "conf": 4.79,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 6.0,
+     "offset_ms": -80,
+     "conf": 4.32,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 7.0,
+     "offset_ms": -80,
+     "conf": 5.12,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 8.0,
+     "offset_ms": -80,
+     "conf": 4.71,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 9.0,
+     "offset_ms": -80,
+     "conf": 5.41,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 9.8,
+     "offset_ms": -80,
+     "conf": 4.4,
+     "face": 1.0,
+     "speech": 0.9
+    }
+   ]
+  },
+  "primary": "syncnet",
+  "judged_windows": 11,
+  "drift_ms_per_s": -3.3,
+  "spread_ms": 40,
+  "failing_windows": [],
+  "verdict": "PASS",
+  "mouth_px": 75.5,
+  "median_conf": 5.12,
+  "pattern": "constant",
+  "median_offset_ms": -80
+ },
+ {
+  "clip": "/home/user/doordhan-factory/work/lag/clips/E3_eade8a81.mp4",
+  "label": "E3 E3_eade8a81 (own audio)",
+  "start": 0.0,
+  "end": 9.03,
+  "face_frames": 1.0,
+  "corr": {
+   "offset_ms": -23,
+   "r": 0.44,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": 71,
+     "r": 0.43,
+     "speech": 0.94,
+     "face": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": -31,
+     "r": 0.34,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -410,
+     "r": 0.46,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 3.0,
+     "offset_ms": -46,
+     "r": 0.38,
+     "speech": 0.98,
+     "face": 1.0
+    },
+    {
+     "t": 4.0,
+     "offset_ms": -44,
+     "r": 0.42,
+     "speech": 0.98,
+     "face": 1.0
+    },
+    {
+     "t": 5.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 6.0,
+     "offset_ms": 418,
+     "r": 0.57,
+     "speech": 1.0,
+     "face": 1.0
+    },
+    {
+     "t": 7.0,
+     "offset_ms": -242,
+     "r": 0.81,
+     "speech": 0.58,
+     "face": 1.0
+    }
+   ]
+  },
+  "syncnet": {
+   "offset_ms": -80.0,
+   "conf": 3.66,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": -80,
+     "conf": 3.95,
+     "face": 1.0,
+     "speech": 0.94
+    },
+    {
+     "t": 1.0,
+     "offset_ms": -80,
+     "conf": 4.4,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -80,
+     "conf": 3.49,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 3.0,
+     "offset_ms": -120,
+     "conf": 2.51,
+     "face": 1.0,
+     "speech": 0.98
+    },
+    {
+     "t": 4.0,
+     "offset_ms": -120,
+     "conf": 4.08,
+     "face": 1.0,
+     "speech": 0.98
+    },
+    {
+     "t": 5.0,
+     "offset_ms": -120,
+     "conf": 4.95,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 6.0,
+     "offset_ms": -120,
+     "conf": 3.62,
+     "face": 1.0,
+     "speech": 1.0
+    },
+    {
+     "t": 6.8,
+     "offset_ms": -120,
+     "conf": 3.3,
+     "face": 1.0,
+     "speech": 0.68
+    }
+   ]
+  },
+  "primary": "syncnet",
+  "judged_windows": 8,
+  "drift_ms_per_s": -7.3,
+  "spread_ms": 40,
+  "failing_windows": [],
+  "verdict": "PASS",
+  "mouth_px": 100.3,
+  "median_conf": 3.79,
+  "pattern": "constant",
+  "median_offset_ms": -120
+ },
+ {
+  "clip": "/home/user/doordhan-factory/work/lag/clips/E4_14e52421.mp4",
+  "label": "E4 E4_14e52421 (own audio)",
+  "start": 0.0,
+  "end": 6.04,
+  "face_frames": 1.0,
+  "corr": {
+   "offset_ms": 135,
+   "r": 0.46,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": 156,
+     "r": 0.53,
+     "speech": 0.86,
+     "face": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 0.78,
+     "face": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": 113,
+     "r": 0.11,
+     "speech": 0.84,
+     "face": 1.0
+    },
+    {
+     "t": 3.0,
+     "offset_ms": -71,
+     "r": 0.39,
+     "speech": 0.82,
+     "face": 1.0
+    },
+    {
+     "t": 4.0,
+     "offset_ms": -389,
+     "r": 0.73,
+     "speech": 0.44,
+     "face": 1.0
+    }
+   ]
+  },
+  "syncnet": {
+   "offset_ms": -280.0,
+   "conf": 1.09,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": 160,
+     "conf": 1.32,
+     "face": 1.0,
+     "speech": 0.86
+    },
+    {
+     "t": 1.0,
+     "offset_ms": -240,
+     "conf": 1.47,
+     "face": 1.0,
+     "speech": 0.78
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -240,
+     "conf": 1.75,
+     "face": 1.0,
+     "speech": 0.84
+    },
+    {
+     "t": 3.0,
+     "offset_ms": -400,
+     "conf": 2.22,
+     "face": 1.0,
+     "speech": 0.82
+    },
+    {
+     "t": 3.8,
+     "offset_ms": -400,
+     "conf": 2.54,
+     "face": 1.0,
+     "speech": 0.54
+    }
+   ]
+  },
+  "primary": "syncnet",
+  "judged_windows": 3,
+  "drift_ms_per_s": -91.8,
+  "spread_ms": 160,
+  "failing_windows": [
+   2.0,
+   3.0,
+   3.8
+  ],
+  "verdict": "FAIL",
+  "mouth_px": 79.7,
+  "median_conf": 1.75,
+  "pattern": "weak lips",
+  "repair": "the lips barely track the audio (mouth 79.7 px wide, SyncNet confidence 1.75): an offset or drift reading here is unreliable. Regenerate from a tighter keyframe (face larger in frame, mouth unobstructed) rather than shifting audio."
+ },
+ {
+  "clip": "/home/user/doordhan-factory/work/lag/clips/E4_18d98d67.mp4",
+  "label": "E4 E4_18d98d67 (own audio)",
+  "start": 0.0,
+  "end": 6.04,
+  "face_frames": 1.0,
+  "corr": {
+   "offset_ms": -65,
+   "r": 0.31,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": -210,
+     "r": 0.58,
+     "speech": 0.72,
+     "face": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 0.92,
+     "face": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -414,
+     "r": 0.45,
+     "speech": 0.72,
+     "face": 1.0
+    },
+    {
+     "t": 3.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 0.8,
+     "face": 1.0
+    },
+    {
+     "t": 4.0,
+     "offset_ms": 191,
+     "r": 0.81,
+     "speech": 0.62,
+     "face": 1.0
+    }
+   ]
+  },
+  "syncnet": {
+   "offset_ms": -80.0,
+   "conf": 3.94,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": -80,
+     "conf": 2.96,
+     "face": 1.0,
+     "speech": 0.72
+    },
+    {
+     "t": 1.0,
+     "offset_ms": -80,
+     "conf": 4.65,
+     "face": 1.0,
+     "speech": 0.92
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -80,
+     "conf": 4.49,
+     "face": 1.0,
+     "speech": 0.72
+    },
+    {
+     "t": 3.0,
+     "offset_ms": -80,
+     "conf": 3.42,
+     "face": 1.0,
+     "speech": 0.8
+    },
+    {
+     "t": 3.8,
+     "offset_ms": -80,
+     "conf": 3.93,
+     "face": 1.0,
+     "speech": 0.68
+    }
+   ]
+  },
+  "primary": "syncnet",
+  "judged_windows": 5,
+  "drift_ms_per_s": -0.0,
+  "spread_ms": 0,
+  "failing_windows": [],
+  "verdict": "PASS",
+  "mouth_px": 127.5,
+  "median_conf": 3.93,
+  "pattern": "constant",
+  "median_offset_ms": -80
+ },
+ {
+  "clip": "/home/user/doordhan-factory/work/lag/clips/E4_7c93c0c4.mp4",
+  "label": "E4 E4_7c93c0c4 (own audio)",
+  "start": 0.0,
+  "end": 7.04,
+  "face_frames": 1.0,
+  "corr": {
+   "offset_ms": -10,
+   "r": 0.31,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": -173,
+     "r": 0.59,
+     "speech": 0.74,
+     "face": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": -371,
+     "r": 0.32,
+     "speech": 0.9,
+     "face": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -339,
+     "r": 0.53,
+     "speech": 0.72,
+     "face": 1.0
+    },
+    {
+     "t": 3.0,
+     "offset_ms": -395,
+     "r": 0.27,
+     "speech": 0.8,
+     "face": 1.0
+    },
+    {
+     "t": 4.0,
+     "offset_ms": 15,
+     "r": 0.32,
+     "speech": 0.94,
+     "face": 1.0
+    },
+    {
+     "t": 5.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 0.62,
+     "face": 1.0
+    }
+   ]
+  },
+  "syncnet": {
+   "offset_ms": -40.0,
+   "conf": 3.08,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": 0,
+     "conf": 2.72,
+     "face": 1.0,
+     "speech": 0.74
+    },
+    {
+     "t": 1.0,
+     "offset_ms": 0,
+     "conf": 3.45,
+     "face": 1.0,
+     "speech": 0.9
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -40,
+     "conf": 3.95,
+     "face": 1.0,
+     "speech": 0.72
+    },
+    {
+     "t": 3.0,
+     "offset_ms": -40,
+     "conf": 3.4,
+     "face": 1.0,
+     "speech": 0.8
+    },
+    {
+     "t": 4.0,
+     "offset_ms": -40,
+     "conf": 2.68,
+     "face": 1.0,
+     "speech": 0.94
+    },
+    {
+     "t": 4.8,
+     "offset_ms": -40,
+     "conf": 2.94,
+     "face": 1.0,
+     "speech": 0.72
+    }
+   ]
+  },
+  "primary": "syncnet",
+  "judged_windows": 6,
+  "drift_ms_per_s": -9.5,
+  "spread_ms": 40,
+  "failing_windows": [],
+  "verdict": "PASS",
+  "mouth_px": 119.5,
+  "median_conf": 3.17,
+  "pattern": "constant",
+  "median_offset_ms": -40
+ },
+ {
+  "clip": "/home/user/doordhan-factory/work/lag/clips/E4_8ce6e0cc.mp4",
+  "label": "E4 E4_8ce6e0cc (own audio)",
+  "start": 0.0,
+  "end": 5.04,
+  "face_frames": 1.0,
+  "corr": {
+   "offset_ms": 39,
+   "r": 0.36,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": 49,
+     "r": 0.16,
+     "speech": 0.7,
+     "face": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": 345,
+     "r": 0.09,
+     "speech": 0.8,
+     "face": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": 33,
+     "r": 0.2,
+     "speech": 0.78,
+     "face": 1.0
+    },
+    {
+     "t": 3.0,
+     "offset_ms": -128,
+     "r": 0.69,
+     "speech": 0.4,
+     "face": 1.0
+    }
+   ]
+  },
+  "syncnet": {
+   "offset_ms": -40.0,
+   "conf": 0.97,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": 520,
+     "conf": 1.09,
+     "face": 1.0,
+     "speech": 0.7
+    },
+    {
+     "t": 1.0,
+     "offset_ms": -320,
+     "conf": 1.24,
+     "face": 1.0,
+     "speech": 0.8
+    },
+    {
+     "t": 2.0,
+     "offset_ms": 520,
+     "conf": 1.42,
+     "face": 1.0,
+     "speech": 0.78
+    },
+    {
+     "t": 2.8,
+     "offset_ms": -40,
+     "conf": 2.72,
+     "face": 1.0,
+     "speech": 0.44
+    }
+   ]
+  },
+  "primary": "syncnet",
+  "judged_windows": 1,
+  "drift_ms_per_s": 0.0,
+  "spread_ms": 0,
+  "failing_windows": [],
+  "verdict": "PASS",
+  "mouth_px": 133.2,
+  "median_conf": 1.33,
+  "pattern": "constant",
+  "median_offset_ms": -40
+ },
+ {
+  "clip": "/home/user/doordhan-factory/work/lag/clips/E4_8d4c933f.mp4",
+  "label": "E4 E4_8d4c933f (own audio)",
+  "start": 0.0,
+  "end": 6.04,
+  "face_frames": 1.0,
+  "corr": {
+   "offset_ms": -156,
+   "r": 0.49,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": -137,
+     "r": 0.7,
+     "speech": 0.74,
+     "face": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": 353,
+     "r": 0.28,
+     "speech": 0.9,
+     "face": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 0.8,
+     "face": 1.0
+    },
+    {
+     "t": 3.0,
+     "offset_ms": -364,
+     "r": 0.37,
+     "speech": 0.8,
+     "face": 1.0
+    },
+    {
+     "t": 4.0,
+     "offset_ms": 261,
+     "r": 0.68,
+     "speech": 0.5,
+     "face": 1.0
+    }
+   ]
+  },
+  "syncnet": {
+   "offset_ms": -120.0,
+   "conf": 2.68,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": -120,
+     "conf": 3.23,
+     "face": 1.0,
+     "speech": 0.74
+    },
+    {
+     "t": 1.0,
+     "offset_ms": -120,
+     "conf": 1.53,
+     "face": 1.0,
+     "speech": 0.9
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -200,
+     "conf": 1.61,
+     "face": 1.0,
+     "speech": 0.8
+    },
+    {
+     "t": 3.0,
+     "offset_ms": -160,
+     "conf": 2.63,
+     "face": 1.0,
+     "speech": 0.8
+    },
+    {
+     "t": 3.8,
+     "offset_ms": -120,
+     "conf": 3.5,
+     "face": 1.0,
+     "speech": 0.6
+    }
+   ]
+  },
+  "primary": "syncnet",
+  "judged_windows": 5,
+  "drift_ms_per_s": -4.9,
+  "spread_ms": 80,
+  "failing_windows": [
+   2.0,
+   3.0
+  ],
+  "verdict": "FAIL",
+  "mouth_px": 125.7,
+  "median_conf": 2.63,
+  "pattern": "constant",
+  "median_offset_ms": -120
+ },
+ {
+  "clip": "/home/user/doordhan-factory/work/lag/clips/E4_a79b7f33.mp4",
+  "label": "E4 E4_a79b7f33 (own audio)",
+  "start": 0.0,
+  "end": 9.03,
+  "face_frames": 1.0,
+  "corr": {
+   "offset_ms": null,
+   "r": null,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": 112,
+     "r": 0.28,
+     "speech": 0.88,
+     "face": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": -43,
+     "r": 0.31,
+     "speech": 0.82,
+     "face": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -248,
+     "r": 0.36,
+     "speech": 0.76,
+     "face": 1.0
+    },
+    {
+     "t": 3.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 0.72,
+     "face": 1.0
+    },
+    {
+     "t": 4.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 0.76,
+     "face": 1.0
+    },
+    {
+     "t": 5.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 0.84,
+     "face": 1.0
+    },
+    {
+     "t": 6.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 0.84,
+     "face": 1.0
+    },
+    {
+     "t": 7.0,
+     "offset_ms": -108,
+     "r": 0.58,
+     "speech": 0.7,
+     "face": 1.0
+    }
+   ]
+  },
+  "syncnet": {
+   "offset_ms": -40.0,
+   "conf": 2.63,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": -40,
+     "conf": 2.46,
+     "face": 1.0,
+     "speech": 0.88
+    },
+    {
+     "t": 1.0,
+     "offset_ms": 0,
+     "conf": 4.37,
+     "face": 1.0,
+     "speech": 0.82
+    },
+    {
+     "t": 2.0,
+     "offset_ms": 0,
+     "conf": 4.72,
+     "face": 1.0,
+     "speech": 0.76
+    },
+    {
+     "t": 3.0,
+     "offset_ms": 0,
+     "conf": 3.65,
+     "face": 1.0,
+     "speech": 0.72
+    },
+    {
+     "t": 4.0,
+     "offset_ms": -40,
+     "conf": 3.17,
+     "face": 1.0,
+     "speech": 0.76
+    },
+    {
+     "t": 5.0,
+     "offset_ms": -80,
+     "conf": 2.73,
+     "face": 1.0,
+     "speech": 0.84
+    },
+    {
+     "t": 6.0,
+     "offset_ms": -80,
+     "conf": 2.4,
+     "face": 1.0,
+     "speech": 0.84
+    },
+    {
+     "t": 6.8,
+     "offset_ms": -120,
+     "conf": 2.55,
+     "face": 1.0,
+     "speech": 0.78
+    }
+   ]
+  },
+  "primary": "syncnet",
+  "judged_windows": 8,
+  "drift_ms_per_s": -14.9,
+  "spread_ms": 120,
+  "failing_windows": [],
+  "verdict": "PASS",
+  "mouth_px": 83.5,
+  "median_conf": 2.95,
+  "pattern": "constant",
+  "median_offset_ms": -40
+ },
+ {
+  "clip": "/home/user/doordhan-factory/work/lag/clips/E4_ae5a05c2.mp4",
+  "label": "E4 E4_ae5a05c2 (own audio)",
+  "start": 0.0,
+  "end": 5.04,
+  "face_frames": 1.0,
+  "corr": {
+   "offset_ms": -69,
+   "r": 0.12,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": 274,
+     "r": 0.17,
+     "speech": 0.9,
+     "face": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": -406,
+     "r": 0.2,
+     "speech": 0.88,
+     "face": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 0.78,
+     "face": 1.0
+    },
+    {
+     "t": 3.0,
+     "offset_ms": -74,
+     "r": 0.27,
+     "speech": 0.72,
+     "face": 1.0
+    }
+   ]
+  },
+  "syncnet": {
+   "offset_ms": -80.0,
+   "conf": 1.87,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": -80,
+     "conf": 1.13,
+     "face": 1.0,
+     "speech": 0.9
+    },
+    {
+     "t": 1.0,
+     "offset_ms": -80,
+     "conf": 3.75,
+     "face": 1.0,
+     "speech": 0.88
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -80,
+     "conf": 2.62,
+     "face": 1.0,
+     "speech": 0.78
+    },
+    {
+     "t": 2.8,
+     "offset_ms": -120,
+     "conf": 1.79,
+     "face": 1.0,
+     "speech": 0.8
+    }
+   ]
+  },
+  "primary": "syncnet",
+  "judged_windows": 3,
+  "drift_ms_per_s": -21.3,
+  "spread_ms": 40,
+  "failing_windows": [],
+  "verdict": "PASS",
+  "mouth_px": 130.3,
+  "median_conf": 2.21,
+  "pattern": "constant",
+  "median_offset_ms": -80
+ },
+ {
+  "clip": "/home/user/doordhan-factory/work/lag/clips/E4_b3c619d4.mp4",
+  "label": "E4 E4_b3c619d4 (own audio)",
+  "start": 0.0,
+  "end": 5.04,
+  "face_frames": 1.0,
+  "corr": {
+   "offset_ms": null,
+   "r": null,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 0.94,
+     "face": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": 23,
+     "r": 0.16,
+     "speech": 0.8,
+     "face": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": 417,
+     "r": 0.04,
+     "speech": 0.76,
+     "face": 1.0
+    },
+    {
+     "t": 3.0,
+     "offset_ms": -388,
+     "r": 0.62,
+     "speech": 0.78,
+     "face": 1.0
+    }
+   ]
+  },
+  "syncnet": {
+   "offset_ms": -600.0,
+   "conf": 0.0,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": -560,
+     "conf": 1.29,
+     "face": 1.0,
+     "speech": 0.94
+    },
+    {
+     "t": 1.0,
+     "offset_ms": -400,
+     "conf": 1.29,
+     "face": 1.0,
+     "speech": 0.8
+    },
+    {
+     "t": 2.0,
+     "offset_ms": 160,
+     "conf": 1.52,
+     "face": 1.0,
+     "speech": 0.76
+    },
+    {
+     "t": 2.8,
+     "offset_ms": -440,
+     "conf": 1.14,
+     "face": 1.0,
+     "speech": 0.88
+    }
+   ]
+  },
+  "primary": "syncnet",
+  "judged_windows": 1,
+  "drift_ms_per_s": 0.0,
+  "spread_ms": 0,
+  "failing_windows": [
+   2.0
+  ],
+  "verdict": "FAIL",
+  "mouth_px": 133.6,
+  "median_conf": 1.29,
+  "pattern": "weak lips",
+  "repair": "the lips barely track the audio (mouth 133.6 px wide, SyncNet confidence 1.29): an offset or drift reading here is unreliable. Regenerate from a tighter keyframe (face larger in frame, mouth unobstructed) rather than shifting audio."
+ },
+ {
+  "clip": "/home/user/doordhan-factory/work/lag/clips/E4_ec449ee9.mp4",
+  "label": "E4 E4_ec449ee9 (own audio)",
+  "start": 0.0,
+  "end": 5.04,
+  "face_frames": 1.0,
+  "corr": {
+   "offset_ms": 309,
+   "r": 0.17,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": 350,
+     "r": 0.55,
+     "speech": 0.5,
+     "face": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 0.72,
+     "face": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": 263,
+     "r": 0.43,
+     "speech": 0.82,
+     "face": 1.0
+    },
+    {
+     "t": 3.0,
+     "offset_ms": 121,
+     "r": 0.3,
+     "speech": 0.58,
+     "face": 1.0
+    }
+   ]
+  },
+  "syncnet": {
+   "offset_ms": -120.0,
+   "conf": 2.81,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": -80,
+     "conf": 3.18,
+     "face": 1.0,
+     "speech": 0.5
+    },
+    {
+     "t": 1.0,
+     "offset_ms": -120,
+     "conf": 2.73,
+     "face": 1.0,
+     "speech": 0.72
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -120,
+     "conf": 2.22,
+     "face": 1.0,
+     "speech": 0.82
+    },
+    {
+     "t": 2.8,
+     "offset_ms": -120,
+     "conf": 2.91,
+     "face": 1.0,
+     "speech": 0.68
+    }
+   ]
+  },
+  "primary": "syncnet",
+  "judged_windows": 4,
+  "drift_ms_per_s": -13.1,
+  "spread_ms": 40,
+  "failing_windows": [],
+  "verdict": "PASS",
+  "mouth_px": 131.8,
+  "median_conf": 2.82,
+  "pattern": "constant",
+  "median_offset_ms": -120
+ },
+ {
+  "clip": "/home/user/doordhan-factory/work/lag/clips/E6today_496e854f.mp4",
+  "label": "E6today E6today_496e854f (own audio)",
+  "start": 0.0,
+  "end": 8.03,
+  "face_frames": 1.0,
+  "corr": {
+   "offset_ms": -375,
+   "r": 0.31,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": 5,
+     "r": 0.45,
+     "speech": 0.56,
+     "face": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": 98,
+     "r": 0.54,
+     "speech": 0.82,
+     "face": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -336,
+     "r": 0.57,
+     "speech": 0.74,
+     "face": 1.0
+    },
+    {
+     "t": 3.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 0.64,
+     "face": 1.0
+    },
+    {
+     "t": 4.0,
+     "offset_ms": -389,
+     "r": 0.49,
+     "speech": 0.78,
+     "face": 1.0
+    },
+    {
+     "t": 5.0,
+     "offset_ms": -419,
+     "r": 0.64,
+     "speech": 0.66,
+     "face": 1.0
+    },
+    {
+     "t": 6.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 0.28,
+     "face": 1.0
+    }
+   ]
+  },
+  "syncnet": {
+   "offset_ms": -40.0,
+   "conf": 3.48,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": -40,
+     "conf": 3.4,
+     "face": 1.0,
+     "speech": 0.56
+    },
+    {
+     "t": 1.0,
+     "offset_ms": -40,
+     "conf": 3.35,
+     "face": 1.0,
+     "speech": 0.82
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -40,
+     "conf": 5.29,
+     "face": 1.0,
+     "speech": 0.74
+    },
+    {
+     "t": 3.0,
+     "offset_ms": -40,
+     "conf": 5.34,
+     "face": 1.0,
+     "speech": 0.64
+    },
+    {
+     "t": 4.0,
+     "offset_ms": -80,
+     "conf": 5.03,
+     "face": 1.0,
+     "speech": 0.78
+    },
+    {
+     "t": 5.0,
+     "offset_ms": -80,
+     "conf": 3.5,
+     "face": 1.0,
+     "speech": 0.66
+    },
+    {
+     "t": 5.8,
+     "offset_ms": -40,
+     "conf": 1.75,
+     "face": 1.0,
+     "speech": 0.28
+    }
+   ]
+  },
+  "primary": "syncnet",
+  "judged_windows": 6,
+  "drift_ms_per_s": -9.1,
+  "spread_ms": 40,
+  "failing_windows": [],
+  "verdict": "PASS",
+  "mouth_px": 93.1,
+  "median_conf": 4.27,
+  "pattern": "constant",
+  "median_offset_ms": -40
+ },
+ {
+  "clip": "/home/user/doordhan-factory/work/lag/clips/E6today_64af44cf.mp4",
+  "label": "E6today E6today_64af44cf (own audio)",
+  "start": 0.0,
+  "end": 6.04,
+  "face_frames": 1.0,
+  "corr": {
+   "offset_ms": 23,
+   "r": 0.6,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": 13,
+     "r": 0.47,
+     "speech": 0.68,
+     "face": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": 362,
+     "r": 0.59,
+     "speech": 0.92,
+     "face": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -304,
+     "r": 0.28,
+     "speech": 0.9,
+     "face": 1.0
+    },
+    {
+     "t": 3.0,
+     "offset_ms": -236,
+     "r": 0.66,
+     "speech": 0.56,
+     "face": 1.0
+    },
+    {
+     "t": 4.0,
+     "offset_ms": 142,
+     "r": 0.83,
+     "speech": 0.16,
+     "face": 1.0
+    }
+   ]
+  },
+  "syncnet": {
+   "offset_ms": 0.0,
+   "conf": 4.03,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": -40,
+     "conf": 5.28,
+     "face": 1.0,
+     "speech": 0.68
+    },
+    {
+     "t": 1.0,
+     "offset_ms": 0,
+     "conf": 4.81,
+     "face": 1.0,
+     "speech": 0.92
+    },
+    {
+     "t": 2.0,
+     "offset_ms": 0,
+     "conf": 4.92,
+     "face": 1.0,
+     "speech": 0.9
+    },
+    {
+     "t": 3.0,
+     "offset_ms": 0,
+     "conf": 3.72,
+     "face": 1.0,
+     "speech": 0.56
+    },
+    {
+     "t": 3.8,
+     "offset_ms": 0,
+     "conf": 2.24,
+     "face": 1.0,
+     "speech": 0.26
+    }
+   ]
+  },
+  "primary": "syncnet",
+  "judged_windows": 4,
+  "drift_ms_per_s": 12.0,
+  "spread_ms": 40,
+  "failing_windows": [],
+  "verdict": "PASS",
+  "mouth_px": 115.2,
+  "median_conf": 4.87,
+  "pattern": "constant",
+  "median_offset_ms": 0
+ },
+ {
+  "clip": "/home/user/doordhan-factory/work/lag/clips/E6today_a488b60a.mp4",
+  "label": "E6today E6today_a488b60a (own audio)",
+  "start": 0.0,
+  "end": 4.04,
+  "face_frames": 1.0,
+  "corr": {
+   "offset_ms": -123,
+   "r": 0.4,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": -136,
+     "r": 0.38,
+     "speech": 0.7,
+     "face": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": 307,
+     "r": 0.74,
+     "speech": 0.8,
+     "face": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": 204,
+     "r": 0.59,
+     "speech": 0.46,
+     "face": 1.0
+    }
+   ]
+  },
+  "syncnet": {
+   "offset_ms": -160.0,
+   "conf": 2.0,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": -160,
+     "conf": 2.87,
+     "face": 1.0,
+     "speech": 0.7
+    },
+    {
+     "t": 1.0,
+     "offset_ms": -200,
+     "conf": 2.21,
+     "face": 1.0,
+     "speech": 0.8
+    },
+    {
+     "t": 1.8,
+     "offset_ms": 80,
+     "conf": 1.25,
+     "face": 1.0,
+     "speech": 0.52
+    }
+   ]
+  },
+  "primary": "syncnet",
+  "judged_windows": 2,
+  "drift_ms_per_s": -40.0,
+  "spread_ms": 40,
+  "failing_windows": [
+   0.0,
+   1.0
+  ],
+  "verdict": "FAIL",
+  "mouth_px": 117.7,
+  "median_conf": 2.21,
+  "pattern": "constant",
+  "median_offset_ms": -180,
+  "audio_shift_ms": -140,
+  "repair": "constant offset: set \"audio_shift_ms\": -140 on this part in edit.json (pulls the audio earlier by 140 ms; lands near -40 ms). In a custom edit (build.py) move the clip's source start (src_in) by -0.140 s instead."
+ },
+ {
+  "clip": "/home/user/doordhan-factory/work/lag/clips/E6today_cfd7804e.mp4",
+  "label": "E6today E6today_cfd7804e (own audio)",
+  "start": 0.0,
+  "end": 8.03,
+  "face_frames": 1.0,
+  "corr": {
+   "offset_ms": -1,
+   "r": 0.48,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": -8,
+     "r": 0.44,
+     "speech": 0.56,
+     "face": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 0.74,
+     "face": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 0.64,
+     "face": 1.0
+    },
+    {
+     "t": 3.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 0.7,
+     "face": 1.0
+    },
+    {
+     "t": 4.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 0.86,
+     "face": 1.0
+    },
+    {
+     "t": 5.0,
+     "offset_ms": -2,
+     "r": 0.69,
+     "speech": 0.64,
+     "face": 1.0
+    },
+    {
+     "t": 6.0,
+     "offset_ms": 7,
+     "r": 0.97,
+     "speech": 0.24,
+     "face": 1.0
+    }
+   ]
+  },
+  "syncnet": {
+   "offset_ms": -40.0,
+   "conf": 3.04,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": 0,
+     "conf": 4.1,
+     "face": 1.0,
+     "speech": 0.56
+    },
+    {
+     "t": 1.0,
+     "offset_ms": 0,
+     "conf": 3.8,
+     "face": 1.0,
+     "speech": 0.74
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -40,
+     "conf": 3.28,
+     "face": 1.0,
+     "speech": 0.64
+    },
+    {
+     "t": 3.0,
+     "offset_ms": -40,
+     "conf": 2.38,
+     "face": 1.0,
+     "speech": 0.7
+    },
+    {
+     "t": 4.0,
+     "offset_ms": -40,
+     "conf": 2.47,
+     "face": 1.0,
+     "speech": 0.86
+    },
+    {
+     "t": 5.0,
+     "offset_ms": -40,
+     "conf": 2.15,
+     "face": 1.0,
+     "speech": 0.64
+    },
+    {
+     "t": 5.8,
+     "offset_ms": -40,
+     "conf": 2.16,
+     "face": 1.0,
+     "speech": 0.32
+    }
+   ]
+  },
+  "primary": "syncnet",
+  "judged_windows": 6,
+  "drift_ms_per_s": -9.1,
+  "spread_ms": 40,
+  "failing_windows": [],
+  "verdict": "PASS",
+  "mouth_px": 120.6,
+  "median_conf": 2.88,
+  "pattern": "constant",
+  "median_offset_ms": -40
+ },
+ {
+  "clip": "/home/user/doordhan-factory/work/lag/clips/E6today_e944b021.mp4",
+  "label": "E6today E6today_e944b021 (own audio)",
+  "start": 0.0,
+  "end": 6.04,
+  "face_frames": 1.0,
+  "corr": {
+   "offset_ms": 297,
+   "r": 0.6,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 0.74,
+     "face": 1.0
+    },
+    {
+     "t": 1.0,
+     "offset_ms": 316,
+     "r": 0.45,
+     "speech": 0.96,
+     "face": 1.0
+    },
+    {
+     "t": 2.0,
+     "offset_ms": 337,
+     "r": 0.48,
+     "speech": 0.78,
+     "face": 1.0
+    },
+    {
+     "t": 3.0,
+     "offset_ms": 221,
+     "r": 0.56,
+     "speech": 0.5,
+     "face": 1.0
+    },
+    {
+     "t": 4.0,
+     "offset_ms": null,
+     "r": null,
+     "speech": 0.2,
+     "face": 1.0
+    }
+   ]
+  },
+  "syncnet": {
+   "offset_ms": -40.0,
+   "conf": 4.24,
+   "windows": [
+    {
+     "t": 0.0,
+     "offset_ms": -40,
+     "conf": 6.05,
+     "face": 1.0,
+     "speech": 0.74
+    },
+    {
+     "t": 1.0,
+     "offset_ms": -40,
+     "conf": 6.47,
+     "face": 1.0,
+     "speech": 0.96
+    },
+    {
+     "t": 2.0,
+     "offset_ms": -40,
+     "conf": 4.98,
+     "face": 1.0,
+     "speech": 0.78
+    },
+    {
+     "t": 3.0,
+     "offset_ms": -40,
+     "conf": 2.55,
+     "face": 1.0,
+     "speech": 0.5
+    },
+    {
+     "t": 3.8,
+     "offset_ms": 560,
+     "conf": 2.05,
+     "face": 1.0,
+     "speech": 0.3
+    }
+   ]
+  },
+  "primary": "syncnet",
+  "judged_windows": 4,
+  "drift_ms_per_s": 0.0,
+  "spread_ms": 0,
+  "failing_windows": [],
+  "verdict": "PASS",
+  "mouth_px": 92.3,
+  "median_conf": 5.52,
+  "pattern": "constant",
+  "median_offset_ms": -40
+ }
+]

@@ -3,7 +3,7 @@
 Usage: assemble.py work/<ep>/edit.json
 edit.json:
 { "out": "outputs/<ep>/final.mp4",
-  "parts": [ {"file": "work/<ep>/A.mp4", "start": 0, "end": 4.06},
+  "parts": [ {"file": "work/<ep>/A.mp4", "start": 0, "end": 4.06, "audio_shift_ms": 160},
              {"file": "work/<ep>/montage.mkv", "lufs": -17},
              {"file": "work/<ep>/C.mp4", "start": 0.1, "end": 13.0} ],
   "target_lufs": -14, "look": "broadcast", "tv_audio": true }
@@ -28,6 +28,12 @@ for i, p in enumerate(spec["parts"]):
     out = os.path.join(tmp, f"p{i:02d}.mkv")
     vf = f"scale={W}:{H}:flags=lanczos,fps={FPS},format=yuv420p,setsar=1"
     af = f"aresample=48000,aformat=channel_layouts=stereo,afade=t=in:d=0.03,afade=t=out:st={max(0, L-0.05):.3f}:d=0.05"
+    # lip-sync repair (lipsync_lag.py "constant" pattern): + delays this part's audio, - pulls it earlier; length kept
+    shift = float(p.get("audio_shift_ms", 0)) / 1000
+    if shift > 0:
+        af = f"adelay={int(shift * 1000)}:all=1," + af
+    elif shift < 0:
+        af = f"atrim=start={-shift:.3f},asetpts=PTS-STARTPTS,apad," + af
     cmd = [FFMPEG, "-y", "-v", "error", "-ss", f"{start:.3f}", "-i", f]
     if has_audio:
         cmd += ["-t", f"{L:.3f}", "-vf", vf, "-af", af]
