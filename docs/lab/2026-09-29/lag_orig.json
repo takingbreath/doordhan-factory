@@ -1,0 +1,113 @@
+{
+ "clip": "../sk01/vid/T4v2.mp4",
+ "label": "T4v2 original, same words (0-6.3 s)",
+ "start": 0.0,
+ "end": 6.3,
+ "face_frames": 1.0,
+ "corr": {
+  "offset_ms": -121,
+  "r": 0.37,
+  "windows": [
+   {
+    "t": 0.0,
+    "offset_ms": -359,
+    "r": 0.46,
+    "speech": 0.6,
+    "face": 1.0
+   },
+   {
+    "t": 1.0,
+    "offset_ms": null,
+    "r": null,
+    "speech": 0.82,
+    "face": 1.0
+   },
+   {
+    "t": 2.0,
+    "offset_ms": null,
+    "r": null,
+    "speech": 0.9,
+    "face": 1.0
+   },
+   {
+    "t": 3.0,
+    "offset_ms": -79,
+    "r": 0.68,
+    "speech": 0.78,
+    "face": 1.0
+   },
+   {
+    "t": 4.0,
+    "offset_ms": -51,
+    "r": 0.54,
+    "speech": 0.78,
+    "face": 1.0
+   },
+   {
+    "t": 4.32,
+    "offset_ms": -95,
+    "r": 0.6,
+    "speech": 0.66,
+    "face": 1.0
+   }
+  ]
+ },
+ "syncnet": {
+  "offset_ms": -80.0,
+  "conf": 4.05,
+  "windows": [
+   {
+    "t": 0.0,
+    "offset_ms": -80,
+    "conf": 4.08,
+    "face": 1.0,
+    "speech": 0.6
+   },
+   {
+    "t": 1.0,
+    "offset_ms": -80,
+    "conf": 5.26,
+    "face": 1.0,
+    "speech": 0.82
+   },
+   {
+    "t": 2.0,
+    "offset_ms": -80,
+    "conf": 5.33,
+    "face": 1.0,
+    "speech": 0.9
+   },
+   {
+    "t": 3.0,
+    "offset_ms": -80,
+    "conf": 4.43,
+    "face": 1.0,
+    "speech": 0.78
+   },
+   {
+    "t": 4.0,
+    "offset_ms": -120,
+    "conf": 1.91,
+    "face": 1.0,
+    "speech": 0.78
+   },
+   {
+    "t": 4.08,
+    "offset_ms": -120,
+    "conf": 1.91,
+    "face": 1.0,
+    "speech": 0.76
+   }
+  ]
+ },
+ "primary": "syncnet",
+ "judged_windows": 6,
+ "drift_ms_per_s": -10.0,
+ "spread_ms": 40,
+ "failing_windows": [],
+ "verdict": "PASS",
+ "mouth_px": 87.2,
+ "median_conf": 4.25,
+ "pattern": "constant",
+ "median_offset_ms": -80
+}
