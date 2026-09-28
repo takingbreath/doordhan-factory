@@ -43,6 +43,7 @@ If you think one of these is holding the channel back, say so at a gate.
 - **Character sheets:** seedream_v5_pro, 2k, 1:1, about 2.5 credits. Beat Nano Banana for character consistency. Recipe in formats/_TEMPLATE.md.
 - **Keyframes:** gpt_image_2_5, 9:16, 0.25 credits, with the style reference and character sheets (for Sarika's low-cut wardrobe use seedream_v4_5, 1 credit; GPT Image blocks it). It gives the best 90s broadcast look and usually renders short Hindi and English text correctly. Still look at every keyframe.
 - **Talking shots:** wan2_7 at 720p, 1.5 credits a second (1080p is 2.5), driven by our own audio track. It keeps the exact audio, so the voice stays the voice we chose. It animated lips well in close-ups and barely at all in a waist-up shot. It returns 718x1282 at 30 fps and raises the level (+3 dB on the test shot); the pipeline edits at 720x1280 and re-levels each part, so neither needs handling by hand.
+  Wan barely moves the lips in a clip's first second, so give tracks a 0.5 s lead (`make_track.py --lead 0.5`) and start the shot 0.38 s into the clip. Trim each line at its last word: a trailing breath reads as a half-open mouth. check_match compares a clip with its own track, so it can't catch a track at the wrong speed (E5's tracks ran 8.8% fast until make_track was fixed). Look at the mouth at a known word against the edit's audio.
 - **Billing:** video is billed per whole second of requested duration. A 0.4 s hold that spills past a second costs 1.5 credits of silence; make_track.py says when a shorter hold fits.
 - **Scenes without dialogue:** seedance_2_5 at 480p, 3 credits a second. Good motion and camera work. Used for dialogue, it re-voiced the lines: pauses moved, lines stretched, and one Hindi line came out as gibberish. If you try it for dialogue anyway, check_match.py will tell you whether the audio survived.
 - Seedance flagged split-screen start images as NSFW (refunded). Some prompts trigger a Higgsfield preset suggestion; pass declined_preset_id from the registry.
@@ -64,7 +65,7 @@ The checks are proxies. Look at the contact sheet and the full-size frames yours
 When you present a final, say in plain language what you checked and anything you're unsure about.
 
 ## Map
-- formats/: show templates (one file each) and the template for new ones.
+- formats/: show templates (one file each) and the template for new ones. Before any episode in a format, read that format's file in full: formats/sahayata_kendra.md opens with Akhilesh's rulings for the helpline show.
 - docs/script-bible.md: writing notes and the two episodes that worked.
 - playbooks/: the paths that have worked for the news desk, script, production and posting kit. Improve them freely.
 - docs/strategy.md: how we trade for growth: the bets (each with a target and a stop), the campaign, this week's plan and the working rhythm. Numbers live in registry/reels.csv, snapshots.csv, account.csv and bets.json; `pipeline/scoreboard.py` gives the verdicts.

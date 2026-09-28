@@ -1,127 +1,264 @@
-# Template: Doordhan Sahayata Kendra (customer-care helpline)
+# Format: Doordhan Sahayata Kendra (the helpline)
 
-_Created 2026-09-27 from Akhilesh's brief. A starting point: experiment freely and record what changes here._
+_Created 2026-09-27 from Akhilesh's brief; rewritten after the debut, E5 "Top 1% net worth kitna?" (approved v4, 67 s). Read all of this before any Kendra episode. Section 1 holds Akhilesh's rulings: follow them unless he changes them. Everything after it is what worked, and you're free to improve it (then update this file)._
 
-**Premise:** a 1980s–90s government-style helpline on the Doordhan channel. Vidyasagar Pandey, the last desk at the end of every transfer chain, answers one money question per call with one fact and one flat verdict, then stamps it. Same analog broadcast look as the news bulletin (soft CRT video, grain, muted colour, DOORDHAN bug). Where the Samachar anchor is composed and formal, he is blunt, quirky and unfiltered.
+## 1. Akhilesh's rulings (2026-09-27)
+**Script and length**
+- **No 30 s cap for this format.** Don't over-optimise for seconds; the format is meant to run a little long. E5 ran 67 s.
+- **He may write the script.** When he does, voice it as written. Flag a fact or compliance problem once, then it's his call. E5 kept "₹1 crore ka ghar" and "comment karo / like karo".
+- **Pace:** Pandey speaks a little fast by default, and slows only for emphasis.
+- **Research first, script second:** for a question episode, bring him the researched answer (sources and numbers) before any script.
 
-**When to use it:** evergreen "everyone wonders, nobody googles" questions, sacred cows ("SIP se ameer ban jaayenge na?"), and debunks of viral reel claims. News stays with Samachar.
+**Look and set**
+- **The look is `kendra`:** clearer and brighter than Samachar's `broadcast`. The broadcast grain was "too huge" and the colour "very dull".
+- **Board:** the wall board reads DOORDHAN SAHAYATA KENDRA (not "Grahak hi Bhagwan hai").
+- **Desk:** only two things on it, Billu and the phone.
+- **Billu:** must contrast with the set (grey vanished into the green room). He is a real cat, not a plush AI cat.
+- **Floor plan:** fixed across every angle (section 4); positions must never jump between shots.
+- **Pandey's clothes:** no headset. Change the clothes from his reference.
 
-## Characters
+**Performance**
+- **Deadpan, not lifeless.** Tired, heavy-lidded and dry, with small reactions. Never the wide-eyed frozen stare of E5 v1.
+- **Comment and like:** on "comment" or "like" he points down, because that's where the comment and like buttons are.
+- **Billu's lines:** when Pandey talks about Billu, Billu is in the frame, then the camera zooms in on him.
 
-### VIDYASAGAR PANDEY, operator
-Original character; no resemblance to any real person. Reference sheet: Akhilesh's image (2026-09-27); a Seedream sheet ID is to be recorded here once generated.
-- **Who:** mid 30s, fifteen years on the phones. His name means "ocean of knowledge"; he believes it is accurate, and he is right. Nothing surprises him.
-- **Look:** tall and very thin, long neck, big dark unblinking eyes, a jet-black bowl cut with a dead-straight fringe just above the eyebrows (the full bowl cut is visible in every shot), a thick black moustache, a completely deadpan face. Off-white half-sleeve shirt buttoned to the collar under a brown cable-knit sweater vest, a pen in the chest pocket, an ID card on a blue lanyard, a steel watch (E01 wardrobe; sheet Higgsfield 0e19cfb4-46bc-431c-9e8f-5015416124c7). He holds a cream corded telephone receiver, often wedged between ear and shoulder. **He never wears a headset.**
-- **Desk (Akhilesh 2026-09-27): only two things on it, Billu and the phone.** No register, stamp, tumbler, pen or papers. Room: ceiling fan, tubelight, calendar, grey almirah, peeling green wall with a blue enamel "DOORDHAN SAHAYATA KENDRA" board.
-- **Floor plan (fixed for every angle):** Pandey sits centre; Billu lies at the far screen-left end of the desk (Pandey's right); the cream rotary phone is at the screen-right end (Pandey's left hand); empty desk between them. Master keyframe: Higgsfield 455286ed-c486-4b6f-a523-53cdfd419284. Generate every other angle from the master and check it against this plan (Akhilesh caught a cold-open frame that moved the phone to the centre).
-- **Voice:** ElevenLabs voice "pandey" (Akhilesh's; add its ID to registry/assets.json). Hindi with a light Bihari/Bhojpuri flavour: the intonation and a few markers ("ka", "hum", "kahe", "hai na"), never a heavy dialect, never a caricature. Slow, flat and unhurried, with short sentences and long pauses. He never shouts, laughs or gets excited.
-- **Mannerisms:**
-  - He stares into camera and blinks about once an episode.
-  - A long sigh comes before every answer.
-    - "Ek minute hold kariye" mid-sentence, then the hold music, then he carries on as if nothing happened.
-  - When the caller says something absurd, he holds the receiver away from his ear and looks at it.
-  - He says the verdict to camera with the receiver away from his ear.
-  - The last beat is the verdict stamp: SATYAAPIT or GALAT (a graphic slammed on screen in the edit, since the desk holds only the phone and Billu).
-  - He hangs up mid-caller after the sign-off.
-  - Full-name intro every call ("Doordhan Sahayata Kendra, Vidyasagar Pandey bol rahe hain"); callers shorten it or get it wrong, and he corrects them flatly.
+**Camera and edit**
+- **Moving camera:** pans, multiple angles, POVs, punch-ins and pull-outs. "The edit has to be a banger."
+- **Cold open:** Billu is visible in the first 2–3 s, big in frame, and both of them look at the ringing phone. Billu turns his whole head, not a side-eye.
+- **Two rings,** not four.
+- **Hang-up after the call:** Pandey puts the phone down after the caller, and before he speaks.
+- **Question text:** the text clears first, then he hangs up on a clean frame.
+- **Cuts:** never cut while he looks about to speak; cut right after the last word.
+
+**On-screen text**
+- **Language:** Roman Hinglish, never Devanagari.
+- **The caller's question:** in English, big, bold and funky. It builds while the caller asks and clears before the hang-up.
+
+**Sound**
+- **Caller:** must sound like they're on a phone (the landline treatment in section 6).
+- **Disconnect tone:** it lives in the closing card, not after the call.
+
+**Closing card:** built once and reused: "AAPKI CALL HAMARE LIYE MAHATVAPURN **THI**." (not HAI), with "(Your call was important to us.)" underneath.
+
+**Caption:** E5 went out without "Not investment advice". It's an evergreen wealth fact, not a product, and that was Akhilesh's call. Hard rule 3 in CLAUDE.md still applies by default, so ask him at the final gate every time.
+
+## 2. Premise and when to use it
+A 1980s–90s government-style helpline. Vidyasagar Pandey, the last desk at the end of every transfer chain, answers one money question per call with one fact and one flat verdict. He is kind to callers and brutal to the system.
+- **Use it for:** evergreen "everyone wonders, nobody googles" questions, sacred cows ("SIP se ameer ban jaayenge na?"), and debunks of viral reel claims.
+- **Not for:** news, which stays with Samachar.
+
+## 3. Characters (IDs in registry/assets.json)
+### Vidyasagar Pandey, operator
+Original character; no resemblance to any real person.
+- **Who:** mid 30s, fifteen years on the phones. His name means "ocean of knowledge"; he believes it, and he is right. Nothing surprises him.
+- **Look:**
+  - Tall and very thin, with a long neck.
+  - Jet-black bowl cut with a dead-straight fringe, fully visible in every shot. Thick black moustache.
+  - Wardrobe (E5, sheet `0e19cfb4-46bc-431c-9e8f-5015416124c7`): an off-white half-sleeve shirt buttoned to the collar, a brown cable-knit sweater vest, a pen in the pocket, a blue ID lanyard and a steel watch.
+  - **Wardrobe changes every episode** (CLAUDE.md); log it in registry `wardrobe_log`.
+- **Expression (the part that matters):**
+  - Heavy-lidded, tired eyes, with the upper lids covering the top of the iris.
+  - A bored, knowing look and a faint dry smirk under the moustache.
+  - Expression reference: `369af5a0-bb84-4918-baf4-56adcf7fd8b8`.
+  - Never wide-eyed, never a blank stare.
+- **Voice:**
+  - ElevenLabs "Pandey" (`RkuMBi6AZByWfSR5Ul5E`, Akhilesh's clone), eleven_v3.
+  - Hindi with a light Bihari/Bhojpuri flavour ("ka", "hum", "kahe"), never a caricature.
+  - He never shouts, laughs or gets excited.
 - **Behaviour:**
-  - He is kind to callers and brutal to the system.
-  - He is the enemy of sellers, "free" offers, insurance-plus-investment policies, EMIs dressed as discounts, finfluencer tips and comfortable defaults.
-  - He gives one clear verdict per episode, backed by one fact. He never hedges and never gives both sides.
-  - Verdicts are about behaviour, products and myths, never buy/sell calls, never promised returns.
-- **Not:** a clown, angry, a shouting TV expert, or a teacher. He delivers verdicts rather than lectures. He doesn't do jokes; things are funny around him.
+  - One clear verdict backed by one fact, never both sides.
+  - Verdicts are about behaviour, products and myths, never buy/sell calls or promised returns.
+  - He isn't a clown, angry or a lecturer. Things are funny around him.
 
-### BILLU, the office cat
-A real Indian street cat (desi billi): an orange ginger tabby, a bit heavy in the belly, with a short coarse slightly dusty coat, a notch in the left ear, a healed scar on the nose and bored half-closed eyes. Akhilesh (2026-09-27): grey vanished into the green room, so Billu must contrast with the set; and a plush, symmetrical studio cat "looks very AI", so Billu is a real cat with real flaws, and in video he moves like one (ears swivel, head turns, slow blinks). Sheet: Higgsfield 077c7b16-5911-4a12-838c-1adde9fc0ea9 (prompted as candid film photos, which read far less AI than a studio sheet). Nobody's cat; it arrived one day and stayed. It is the second deadpan in the room, with opinions shown only in stares.
-- **What it does:**
-  - A slow, unimpressed stare at the phone when a question is stupid, or at the camera when a reel claim is absurd.
-  - It ignores, looks away from, or yawns at Vidyasagar when he glances over for approval (use this lightly).
-  - Occasionally it does something itself: it answers the ringing phone in an empty office, hangs up with a paw on the cradle, or sits on the register right before the stamp.
-- **Rules:**
-  - At most one Billu beat per episode, usually in the background.
-  - No meowing on cue, no cute tricks.
-  - No warmth between them (no petting, no talking to it): two colleagues who tolerate each other.
-- **Production:** stills with a slow zoom, or short non-talking clips. **Never in the same generated shot as Vidyasagar's lip-synced lines** (video models drift on animals). Same cat every time; it needs its own reference sheet.
+### Billu, the office cat
+- **Look:** a real Indian street cat (desi billi): a ginger tabby, a bit heavy in the belly, with a coarse, slightly dusty coat, a notch in the left ear, a scarred nose and bored half-closed eyes.
+- **Sheet:** `077c7b16-5911-4a12-838c-1adde9fc0ea9`. It was prompted as candid point-and-shoot film photos, which read far less like AI than a studio sheet. The earlier grey and plush-ginger versions are retired.
+- **What he does:** the second deadpan in the room.
+  - Slow, unimpressed stares, ear twitches, slow blinks.
+  - Turns his head away from Pandey.
+  - No warmth between them, no meowing on cue, no tricks.
+- **Lip-synced shots:** Billu can share one with Pandey if the prompt keeps him still ("only a slow blink and an ear twitch, it does not move its body"). E5's two-shot held him perfectly. Keep his beats short.
+- **Pose continuity:** in E5 he sat upright in the opening and at the end, but lay loaf-style in the "Loan hai?" cutaway. Pick one pose per episode.
 
 ### Callers
-Never on camera, and heard through a landline (phone EQ). A new caller each episode: the office guy, the aunty, the college kid, the uncle who already knows everything. The caller is every viewer, sincere and never made fun of. They're cheap voices with no lip-sync, made on ElevenLabs.
+- **On screen:** never. They're heard through a landline.
+- **Casting:** a new ElevenLabs voice each episode. E5 used "Bobby – Energetic natural voiceover" (`YgpoWAqBbWpygO1YiIEI`).
+- **Tone:** the caller is every viewer, sincere and never mocked.
 
-## Shared opening (0–3 s)
-The rotary phone rings, he picks up and gives the full-name intro. The caller's first line is the hook and must land inside 3 s; the intro can overlap it or be cut to its last words.
+## 4. Set, floor plan and keyframes
+- **Room:**
+  - Peeling pale-green wall with the blue enamel board "DOORDHAN SAHAYATA KENDRA".
+  - Ceiling fan and tubelight, a wall calendar, a grey steel almirah.
+- **Floor plan, the same in every angle:**
+  - Pandey sits in the centre.
+  - Billu sits at the screen-left end of the desk (Pandey's right).
+  - The cream rotary phone sits at the screen-right end (Pandey's left hand).
+  - Nothing else is on the desk.
+- **Keyframes:** make every new angle from the master and check it against the floor plan before using it. Akhilesh caught a cold-open frame that moved the phone to the centre.
+- **E5 keyframes** (reuse them, restyling only the wardrobe):
 
-## Episode type 1: the Question (about 25 s)
-- **0–3 s:** ring, intro, the question (the hook).
-- **3–6 s:** the sigh. Optional: the caller adds the common wrong belief, or Billu stares at the phone.
-- **6–20 s:** the answer, in short flat sentences: one fact, the verdict. Optional hold beat; optional glance at Billu that gets nothing.
-- **20–25 s:** the verdict to camera, receiver away from his ear. The stamp. Sign-off, then he hangs up mid-caller.
+| Use | ID |
+|---|---|
+| Master (wide, both, phone right) | `455286ed-c486-4b6f-a523-53cdfd419284` |
+| Cold open, straight shot: Billu big at left, phone right, both looking at the phone (end frame) | `c3692eee-4512-4e0d-812c-01daeed5a9b1` |
+| Same framing, both looking into the lens (start frame) | `e2c77184-4572-4cb5-999f-7fb51be9dba1` |
+| Front talking (heavy-lidded) | `369af5a0-bb84-4918-baf4-56adcf7fd8b8` |
+| Three-quarter left talking | `93b0322a-84dc-472e-b7b6-d0c3d8b4a250` |
+| Low-angle talking (ceiling fan) | `eb2af48d-69d3-4376-8607-da8e1a60e0b1` |
+| Three-quarter right talking | `d72e1859-acd0-403b-8486-303600617d40` |
+| Two-shot: Billu sitting at lower left, Pandey eyeing him | `2c61e83a-0bf6-42cb-a5ba-b3ec6509b4d7` |
+| Listening close-up, receiver at ear | `2aca9c6e-74b9-4bf0-b3ee-f072acf5320f` |
+| Overhead of the phone with his hand | `25ffdb7f-42cf-4978-9028-2cc2a1c36f28` |
+| Billu close-up (loaf) | `ee6148ed-e42a-4de2-a81e-b1f3dfde6662` |
+| Style reference | `2557c287-bf5c-4905-933e-9b75f04c4a79` |
 
-## Episode type 2: the Reel (about 28 s)
-- **0–3 s:** ring, intro. "Pandey ji, ek reel dekhi, @<creator> keh rahe hain ki <claim>. Sahi hai ka?"
-- **3–7 s:** a plain on-screen card: the handle, the exact quote, the date. No footage, no screenshot, no face, no recreation. He reads the claim back flatly.
-- **7–20 s:** one verifiable fact takes it apart. Billu stares at camera if it's absurd.
-- **20–25 s:** the verdict and the stamp. GALAT, or sometimes SATYAAPIT when the creator was right; that's what keeps the GALATs credible.
-- **25–28 s:** he invites the creator to call the Kendra and explain; their handle appears on screen; he hangs up.
-- **Rules:**
-  - Debunk the claim, not the person. Name them once on the card and once in the caller's line. Never call anyone a fraud or a scammer.
-  - Quote them exactly, with the date, checked against the original.
-  - Only claims with a clear factual error, from creators with real reach.
-  - Never use their video, audio, thumbnail or face, and never repost or remix their reel.
-  - The verdict is about the claim's facts, never a buy/sell call.
-  - An airtight fact box with source links before scripting.
-  - Tag the creator in the caption, and as a collaborator invite where possible. The caption ends with an invitation to reply. Write to earn a response, not to humiliate.
+- **Reusable E5 clips** (no dialogue; registry `clips.kendra_reusable_e5`):
+  - cold-open head turn;
+  - listening close-up;
+  - overhead hang-up;
+  - Billu turning away, lying and sitting versions.
+- **Outfit check:** they all show the E5 outfit, so reuse them only if the new outfit can't be seen, or regenerate from the same prompt with the new wardrobe.
 
-## Rules for both types
-- One idea, one fact, one verdict; never a both-sides ending.
-- The joke lands on the system, the seller, the myth or the reel, never on the caller.
-- No buy/sell calls on securities and no promised returns. The caption carries "Not investment advice".
-- Deadpan throughout.
-- 30 s hard cap, 20–28 s target.
+## 5. Look, text and graphics
+- **Look:** `look.py` preset `kendra` (finer grain, sharper, brighter colour); in edit.json, `"look": "kendra"`.
+- **Fonts** (assets/fonts, fetched from jsDelivr fontsource; GitHub raw is blocked here):
+  - Titan One for slams;
+  - Bungee for boards and labels;
+  - Baloo 2 Latin ExtraBold for captions.
+- **Rupee sign:** only Baloo 2 Devanagari has it. The edit's sprite renderer falls back automatically.
+- **Check mark:** no font has one, so it's drawn as a shape.
+- **The question:** in English, 4–5 lines that pop in word by word over the caller, with the key number in giant yellow ("TOP 1%?"). It zooms out and clears as the call ends, before the hang-up.
+- **Captions:** 2–3 words each, 66 px, near the bottom (y≈1015 of 1280). Wrap to two lines rather than shrinking.
+- **Slams:** use them for punch words ("GINO." green, "GHATAO!" red, "NAHI." red, "₹90 LAKH" yellow).
+- **Graphics that worked in E5:**
+  - a tally board that counts items;
+  - numbers flying in bigger each time, then struck out in red;
+  - a ✓ checklist;
+  - bouncing down-arrows on "comment" and "like";
+  - the DOORDHAN bug at top right.
+- **Closing card:** `assets/clips/sahayata_endcard.mp4` (4.8 s), built by `pipeline/sahayata_endcard.py`: TV snow, the card, three disconnect beeps and Für Elise hold music. The edit re-renders it raw so the look applies once.
 
-## Signature elements
-- The full-name intro, and callers getting it wrong.
-- The sigh.
-- The cold-tea sip.
-- Hold music: one cheap 90s keyboard loop, the same every episode.
-- The stamp in the final frame (the shareable frame).
-- Hanging up mid-caller.
-- Closing card: "Aapki call hamare liye mahatvapurn hai." over the hold music.
+## 6. Sound
+- **SFX kit:** `pipeline/sfx.py` writes `assets/audio/sfx_*.wav`:
+  - whoosh (whips and pull-backs); pop (each word or item);
+  - ding (each number or "gino"); thud (slams); record scratch ("Nahi");
+  - riser (before the verdict); stamp;
+  - `room`, an office-fan hum under everything.
+- **Phone sounds:** two rings (`work/.../ring2.wav` pattern: two bursts per ring), a pick-up click, and the cradle clack synced to a frame jolt.
+- **Caller landline chain** (ffmpeg): trim the silences, then
+  `highpass=380, lowpass=3000, aresample=8000, acrusher=bits=10:mode=log, aresample=48000, equalizer f=1600 +7 dB, equalizer f=500 −4 dB, acompressor 6:1`,
+  plus pink-noise line hiss band-limited to 400–3000 Hz, `loudnorm -17`.
+- **No music under the voice.** Hold music only on the closing card.
 
-## Production notes
-- **Voice pacing (E01, 2026-09-27; Akhilesh: "generally he speaks a little fast, slower only to emphasise"):**
-  - Default tag: `[flat, brisk]` or `[flat, matter-of-fact, normal pace]`. Add `[slowly]` only before the punch words.
-  - Never tag a whole line "slow". On eleven_v3 that, plus `[pause]`/`[long pause]`, left 1–1.8 s gaps mid-line and stretched the episode from about 65 s to 82 s.
-  - The brisk takes kept pauses only at the punches.
-- **ElevenLabs connector:** at most 3 generations run at once on this plan. Launch at most 3 takes per batch; the rest fail with "Too many concurrent requests".
-- **Caller voice for E01:** "Bobby – Energetic natural voiceover" (YgpoWAqBbWpygO1YiIEI) with phone EQ (highpass 300 Hz, lowpass 3.4 kHz, light compression). Pandey: cloned "Pandey" (RkuMBi6AZByWfSR5Ul5E).
-- **Keyframes:** a chest-up desk keyframe for talking shots (Wan 2.7 at 720p, driven by our own audio). Cutaways: phone, tea, register and stamp, Billu. Stamp and on-screen cards are built locally.
-- **Needed before episode 1:**
-  - Vidyasagar's Seedream character sheet (no headset)
-  - Billu's sheet
-  - the set keyframe
-  - hold-music loop
-  - phone-EQ treatment for callers
-  - the stamp graphic
-  - "pandey" voice ID in the registry
-- **Look:** `kendra` (look.py preset; Akhilesh 2026-09-27: broadcast's grain was too heavy and the colour too dull for this format. kendra keeps the 90s TV feel with finer grain, a sharper picture and brighter colour).
-- **Closing card (reusable):** assets/clips/sahayata_endcard.mp4, rebuilt with `pipeline/sahayata_endcard.py`.
-  - Sound: the call cuts (three disconnect beeps), then the Kendra's hold music (Für Elise on a cheap 90s keyboard, public domain).
-  - Picture: "AAPKI CALL HAMARE LIYE MAHATVAPURN THI." in Roman Hinglish, with "(Your call was important to us.)" underneath.
-- **On-screen text (Akhilesh, 2026-09-27):**
-  - Roman Hinglish, never Devanagari.
-  - The caller's question goes on screen in **English**, big and bold in a funky font.
-  - Fonts are in assets/fonts (Bungee, Rubik Mono One, Titan One, Baloo 2), downloaded from jsDelivr's fontsource; GitHub's raw files were blocked from the cloud machine.
-- **Camera (Akhilesh, 2026-09-27):** the format is for creative edits, not a locked-off 1990s camera.
-  - Pans, multiple angles and POVs are welcome.
-  - Push-ins and zooms that follow the action: punch in on the pick-up; pull out as he exhales the sigh.
-  - The analog look stays. Lip-synced shots still hold the camera still in the model; the moves happen in the edit or in non-talking shots.
-- **The edit (E01, 2026-09-27):** assets/edits/sk01_build.py composes every frame in Python: zoom and crash-zoom crops on the talking shots, whip pans, shakes, kinetic text, captions, a tally board and checklists. It mixes the voice lines, the sfx.py kit and the fan room tone with numpy, then hands one raw file to assemble.py (`"look": "kendra"`).
-  - Talking shots: one Wan clip per line. The angle changes inside a line are crops of that clip, so lip-sync never breaks across a cut.
-  - Cutaways: Wan 2.7 image-to-video with no audio, at 1.5 credits a second (half Seedance's price).
-  - Captions: 2–3 words at 66 px. Wrap to two lines rather than shrinking.
-  - The rupee sign exists only in Baloo 2 Devanagari; the sprite renderer falls back to it automatically.
-- **Performance (Akhilesh, 2026-09-27: "deadpan, not lifeless"):** E01 v1 prompted "completely flat expression, big unblinking eyes, no head movement", and the keyframes had wide-open eyes. The result was a frozen, startled, AI-looking face.
-  - Deadpan is dry and tired, not blank. Keyframes need heavy-lidded, relaxed eyes (no white above the iris), a bored and knowing look, and a faint suppressed smirk under the moustache. Front keyframe: Higgsfield 369af5a0-bb84-4918-baf4-56adcf7fd8b8.
-  - Talking-shot prompt: "Deadpan but alive and human: heavy-lidded, bored eyes, natural blinks every couple of seconds, a faint dry smirk under his moustache", plus one small acting note per beat, in order. Examples: a slow unimpressed head shake, one eyebrow lifting on the punch word, small nods while counting, eyebrows up on a question. Always add "small, subtle, natural movements only".
-  - headcheck runs near its 45 px/s limit on these, and lipcheck's mouth/head ratio drops, because the head now moves. Judge by eye: check_match must still be 1.00.
-- **Line ends (E01 v4):** a breath after the last word of a voice line makes Wan hold the mouth half open, as if he's about to speak. A cut there looked like we'd cut him off (Akhilesh caught it after "Ghatao"). Trim each line's audio at its last word, and cut about 0.25 s after it.
+## 7. Episode shape (the Question type, as E5 proved it)
 
+| Beat | What happens |
+|---|---|
+| 0–2.7 s | Cold open: straight shot, Billu big at left, the phone ringing ("TRRRING!" on screen). Billu turns his head, then Pandey looks down at the phone. Slow creep in. |
+| 2.7 s | Crash zoom into the listening close-up on the pick-up click. |
+| ~3.5–8.6 s | The caller asks. The English question builds word by word, pops on each word, thud on the key number. |
+| ~8.6–9.2 s | The question zooms out and clears. |
+| ~9.2 s | Overhead hang-up with a clack and a jolt. |
+| ~9.9 s | His answer, one line per talking shot. The camera pulls back on his sigh; new framings (crops) on each counted item. |
+| mid-answer | A whip pan to Billu for one beat (E5: "Loan hai?"), then a whip back to a slam. |
+| verdict | A crash zoom on the eyes for the turn ("Nahi"), then the number slam, a riser and a slow push. |
+| comment / like | He points down; arrows on screen. |
+| Billu line | Two-shot, zooming slowly into Billu, running straight into his blink and turn-away (one continuous angle). |
+| end | One ring. He hangs up without answering (overhead clack). |
+| last 4.8 s | Closing card. |
+
+**The Reel-debunk type (untested):**
+- **Caller line:** "Pandey ji, ek reel dekhi, @creator keh rahe hain ki <claim>. Sahi hai ka?"
+- **Claim card:** a plain on-screen card with the handle, the exact quote and the date. No footage, screenshot or face.
+- **The takedown:** one verifiable fact, then GALAT (or SATYAAPIT when they were right) as a graphic stamp.
+- **The creator:** debunk the claim, never the person; invite them to call the Kendra, and tag them in the caption.
+
+## 8. Production recipe (follow in order)
+1. **Voice.**
+   - ElevenLabs connector `creative_generate_speech`, eleven_v3, Devanagari text with English words kept in Latin.
+   - Tags: `[flat, brisk]` by default, and `[slowly]` only right before a punch word.
+   - Never tag a whole line slow. That, plus `[pause]`, left 1–1.8 s gaps and stretched E5 from 65 s to 82 s.
+   - At most 3 generations at once, or you get "Too many concurrent requests".
+   - Check every take with a Scribe transcript: `creative_create_asset_upload` → `put_upload.py` → `creative_finalize_asset_upload` (flow_id) → `creative_transcribe_audio` (eleven_scribe_v1). The transcript is plain text, with no word timings.
+   - Level every line to -16 LUFS.
+   - **Trim each line at its last word.** A trailing breath makes Wan hold the mouth half open, which reads as "about to say something".
+2. **Draft cut.** Join the ring, click, caller, clack and lines into one voice cut, and send it to Akhilesh before any video.
+3. **Tracks.**
+   - `make_track.py OUT line.wav --lead 0.5 --hold 0.1`, one per talking line.
+   - **The lead is 0.5 s, not 0.12.** Wan barely moves the lips in a clip's first second.
+   - make_track now resamples to 48 kHz first. Before 2026-09-27, 44.1 kHz ElevenLabs lines came out 8.8% fast and every mouth drifted ahead of the voice.
+   - Upload with `media_upload` → `put_upload.py` (audio/mpeg) → `media_confirm`.
+4. **Keyframes.** gpt_image_2_5 at 9:16, referencing the master plus the sheets, with heavy-lidded expression wording. Check the floor plan, the eyes and the text on the board.
+5. **Talking shots.** Wan 2.7 at 720p, `start_image` plus `audio_references`, duration = the track length, `declined_preset_id` from the registry.
+   - Prompt template: "The man from the start image, a dry, tired government helpline clerk, speaks in Hindi, his jaw and lower lip moving clearly with every syllable in exact sync with the provided audio, from the very first word. Deadpan but alive and human: heavy-lidded bored eyes, natural blinks, a faint dry smirk under his moustache." Then **one acting note per beat, in order**. Then "Small, subtle, natural movements only; no hands, no big grin. Locked-off camera. Keep the exact analog look of the start image; no new text, no subtitles."
+   - Gestures work when you ask for them (E5: "raises his right hand into frame and points his index finger straight down, jabbing twice").
+   - Wan sometimes pushes in or leans in by itself; reduce the digital zoom on that line.
+6. **Cutaways.** Wan 2.7 image-to-video with **no audio**, at 1.5 credits a second (half Seedance's price), minimum 2 s.
+   - For Billu: "natural, realistic cat movement, small and precise".
+   - For a shot that continues a zoom, start from the exact zoomed crop of the previous clip's last frame (uploaded as an image). E5's Billu turn-away ran on seamlessly this way.
+   - Seedance at 480p works too (the E5 cold open), but it costs 3 credits a second.
+7. **QC on every clip.**
+   - `check_match.py` must be 1.00. But it compares the clip to its own track, so it **can't** catch a wrong-speed track.
+   - Also look at the mouth frames at a known word against the edit's audio (a 10 fps mouth crop sheet next to the audio level).
+   - Look at the face frames for expression.
+   - headcheck and lipcheck run near their limits because his head moves now. Judge by eye.
+8. **Edit.**
+   - Copy `assets/edits/sk01_build.py` to `work/<slug>/build.py` and change:
+     - the timeline `S[...]` and each line's last-word time (`P2_END`-style trims);
+     - `TALK` (clip files and leads);
+     - the face centres (measure each keyframe on a grid; zooms go wrong without this);
+     - the texts, graphics and events.
+   - Each talking line is one Wan clip. Angle changes inside a line are crops of that clip, so lip sync never breaks at a cut.
+   - Cut about 0.25 s after the last word.
+   - Then `assemble.py` with edit.json (`"look": "kendra"`, `lufs -16` part, target -14). It takes about 40 s to render.
+9. **Deliver.**
+   - Re-encode at crf 25 to stay under 30 MB (SendUserFile's limit).
+   - Run a Scribe transcript of the final's audio.
+   - Upload to Higgsfield (video/mp4).
+   - Send the file, the link and the plain-language QC notes; email them in the routines/email-style.md final layout; push a notification.
+
+## 9. Pitfalls we hit (don't repeat them)
+- **Sped-up tracks.** The mouths ran ahead of the voice; it's fixed in make_track, with a self-test.
+- **Wan's slow first second.** The mouth barely moved on "Ghar hai? Gino."; the fix is the 0.5 s lead.
+- **A breath after the last word.** It read as a half-open mouth and a bad cut; trim the line.
+- **"Flat, unblinking, no head movement" on wide-eyed keyframes.** It came out lifeless and AI-looking.
+- **Text over the action.** Clear it before the action.
+- **Grey cat on a green set.** It was invisible.
+- **Plush studio cat sheet.** It looked AI.
+- **Clutter.** Too many props on the desk.
+- **Moving props.** Props that move between angles break the floor plan.
+- **The model's zoom plus our zoom.** Stacked, they cut the head off.
+- **An old digital zoom centre after new keyframes.** Re-measure the face centres every time.
+- **Missing glyphs:** ₹ and ✓ are missing in most fonts.
+- **Files over 30 MB.** They don't reach his phone through SendUserFile.
+
+## 10. Cost
+- **E5: about 215 credits**, including one-time setup and about 50 wasted on the track bug:
+  - sheets and keyframes ≈ 20;
+  - cold-open test on Seedance 12;
+  - talking shots v1 73.5 (spoilt by the bug);
+  - the final six talking shots ≈ 72;
+  - cutaways ≈ 30.
+  - ElevenLabs: about 3–4k credits per episode on voices plus about 350 per Scribe check.
+- **Next episode, expected about 100–120:**
+  - talking shots ≈ 70 (about 50 s at 1.5);
+  - 2–3 new cutaways ≈ 15;
+  - new-outfit keyframes ≈ 3.
+  - Reuse the E5 non-dialogue clips where the outfit isn't visible.
+  - This is above the 60-per-episode default, so give a breakdown and ask before generating.
+
+## 11. Post kit notes
+- **Caption:** line 1 is the question with its keywords; lines 2–3 are the answer in Roman Hinglish with the source (E5: World Inequality Lab 2022-23, top 1% ≈ ₹81.6 lakh per adult, "mota-mota ₹90 lakh"). Then "Characters are AI-generated." and 5 hashtags.
+- **"Not investment advice":** ask Akhilesh (section 1).
+- **Cover:** the frame where the full English question is on screen over the listening close-up (E5: 8.2 s). Backup: the number slam.
+- **Poll:** it echoes the question, with a Billu option ("Billu se poochho").
+- **Rename audio:** "Doordhan Sahayata Kendra – <topic>".
+- **YouTube category:** Entertainment.
+- **Slot:** 8–8:30 pm IST, a day apart from the previous reel. If a news reel is due the same day, the news goes in the morning, or the Kendra moves a day.
+
+## 12. Ideas not yet tried
+- **Callers:** callers who get his name wrong ("Vidyasagar ji… Pandey ji… Sagar ji?") and a flat correction.
+- **Hold gag:** "Ek minute hold kariye" mid-answer, with the hold-music gag.
+- **The receiver:** held away from his ear when the caller says something absurd.
+- **Billu:** answering the phone in an empty office (a cold-open variant).
+- **Length:** a shorter 35–45 s cut for Shorts, if long reels underperform.
