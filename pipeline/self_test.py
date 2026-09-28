@@ -152,6 +152,77 @@ def lipsync_model_check():
 step("lipsync_lag (SyncNet / landmarks)", lipsync_model_check)
 
 
+def qc_gate_check():
+    """qc_gate.py end to end on a synthetic final (no models, no credits): a line placed with a hard-cut end and a
+    late cut is repaired automatically (repairs file, rebuild, re-check); the stamp only covers the passing file;
+    the SendUserFile hook and put_upload refuse an unstamped or changed final."""
+    root = os.path.dirname(here)
+    ep = os.path.join(root, "outputs", "_selftest_qc"); os.makedirs(ep, exist_ok=True)
+    try:
+        src = os.path.join(T, "qc_line.wav")     # 2 s of "speech" that ends naturally, then 0.3 s of silence
+        run([FFMPEG, "-y", "-v", "error", "-f", "lavfi", "-i", voice(2.0), "-af", "afade=t=out:st=1.9:d=0.1,apad=pad_dur=0.3",
+             "-ac", "1", src])
+        lines = os.path.join(T, "qc_lines.json")
+        json.dump([{"id": "L1", "speaker": "anchor", "text": "[calm] yeh ek test line hai"}], open(lines, "w"))
+        tool("script_freeze.py", "qctest", "--lines", lines, "--approved-by", "self-test", "--out-dir", T)
+        rep, man, fin = os.path.join(T, "qc_repairs.json"), os.path.join(T, "qc_manifest.json"), os.path.join(ep, "qctest.mp4")
+        build = os.path.join(T, "qc_build.py")
+        open(build, "w").write(f"""
+import json, os, subprocess, numpy as np, wave
+R = json.load(open({rep!r})).get("L1", {{}}) if os.path.exists({rep!r}) else {{}}
+raw = subprocess.run(["ffmpeg", "-v", "error", "-i", {src!r}, "-f", "s16le", "-ac", "1", "-ar", "48000", "-"], capture_output=True).stdout
+x = np.frombuffer(raw, np.int16).astype(np.float32) / 32768
+end = R.get("voice_end_s", 1.3)                     # the fault: the line is cut mid-speech at 1.3 s (a loud peak)
+x = x[: int(end * 48000)].copy()
+if "voice_end_s" in R:
+    x[-2400:] *= np.linspace(1, 0, 2400)
+S = 1.0; cut = 0.3 + R.get("cut_in_delay_s", 0.0)   # the fault: the cut lands 0.7 s before the first word
+bus = np.zeros(4 * 48000, np.float32); bus[int(S * 48000): int(S * 48000) + len(x)] = x
+for path in ({os.path.join(T, 'qc_dialogue.wav')!r}, {os.path.join(T, 'qc_mix.wav')!r}):
+    w = wave.open(path, "wb"); w.setnchannels(1); w.setsampwidth(2); w.setframerate(48000)
+    w.writeframes((bus * 32767).astype(np.int16).tobytes()); w.close()
+subprocess.run(["ffmpeg", "-y", "-v", "error", "-f", "lavfi", "-i", "testsrc2=s=720x1280:r=25:d=4", "-i", {os.path.join(T, 'qc_mix.wav')!r},
+                "-shortest", "-c:v", "libx264", "-c:a", "pcm_s16le", {os.path.join(T, 'qc_raw.mkv')!r}], check=True)
+json.dump({{"out": {fin!r}, "parts": [{{"file": {os.path.join(T, 'qc_raw.mkv')!r}}}], "look": "none", "tv_audio": False, "target_lufs": -14}},
+          open({os.path.join(T, 'qc_edit.json')!r}, "w"))
+json.dump({{"slug": "_selftest", "final": {fin!r}, "script": {os.path.join(T, 'qctest.json')!r},
+           "dialogue_stem": {os.path.join(T, 'qc_dialogue.wav')!r}, "length": {{"min": 1, "max": 10, "expected": 4.0}},
+           "loudness": {{"target": -14}}, "repairs_file": {rep!r},
+           "rebuild": "{py} {build} && {py} {os.path.join(here, 'assemble.py')} {os.path.join(T, 'qc_edit.json')}",
+           "lines": [{{"id": "L1", "speaker": "anchor", "start": S, "end": round(S + len(x) / 48000, 3),
+                      "source": {src!r}, "cut_in": round(cut, 3)}}]}}, open({man!r}, "w"))
+""")
+        run([py, build]); tool("assemble.py", os.path.join(T, "qc_edit.json"))
+        txt = os.path.join(T, "qc_heard.txt"); open(txt, "w").write("yeh ek test line hai")
+        tool("qc_gate.py", "bind-transcript", fin, txt)
+        env = dict(os.environ, QC_NO_TRANSCRIBE="1")
+        gate = lambda: subprocess.run([py, os.path.join(here, "qc_gate.py"), man], capture_output=True, text=True, env=env)
+        r1 = gate(); st = json.load(open(os.path.splitext(fin)[0] + ".qc.json"))
+        R = json.load(open(rep))["L1"]
+        assert "voice_end_s" in R and abs(R["cut_in_delay_s"] - 0.58) < 0.05, f"repairs written: {R}\n{r1.stdout[-800:]}"
+        # the repair changed the sound, so the transcript bound to the old cut no longer counts: blocked until re-bound
+        bad = [f"{x['check']}:{x['status']}" for x in st["rows"] if x["status"] == "failed"]
+        assert r1.returncode == 1 and bad == ["script:failed"], f"after the repair round: {bad}\n{r1.stdout[-1200:]}"
+        hook = lambda: subprocess.run([py, os.path.join(here, "hooks", "require_qc_stamp.py")], capture_output=True, text=True,
+                                      input=json.dumps({"tool_name": "SendUserFile", "tool_input": {"files": [fin]}}))
+        assert hook().returncode == 2, "hook let a blocked final through"
+        tool("qc_gate.py", "bind-transcript", fin, txt)
+        r2 = gate(); st = json.load(open(os.path.splitext(fin)[0] + ".qc.json"))
+        mix = next(x for x in st["rows"] if x["check"] == "mix")
+        assert r2.returncode == 0 and st["verdict"] == "PASS" and mix["status"] == "repaired", r2.stdout[-1200:]
+        assert hook().returncode == 0, "hook blocked a stamped final: " + hook().stderr
+        assert os.path.exists(os.path.splitext(fin)[0] + "_qc.png"), "no summary image"
+        open(fin, "ab").write(b"\0")                   # any change after the gate voids the stamp
+        assert hook().returncode == 2, "hook accepted a final changed after the gate"
+        up = subprocess.run([py, os.path.join(here, "put_upload.py"), fin, "http://127.0.0.1:9/x", "video/mp4"],
+                            capture_output=True, text=True)
+        assert up.returncode and "QC gate" in up.stderr, "put_upload sent an unstamped final"
+        return "hard-cut end + late cut repaired, rebuilt, re-checked; stamp, hook and put_upload enforce it"
+    finally:
+        import shutil; shutil.rmtree(ep, ignore_errors=True); shutil.rmtree(os.path.join(root, "work", "_selftest"), ignore_errors=True)
+step("qc_gate (hard gate, auto-repair once, stamp + hook)", qc_gate_check)
+
+
 def assemble():
     json.dump({"out": final, "parts": [{"file": carded, "start": 0, "end": 3.0}, {"file": mont},
                {"file": clip, "start": 0.0}], "target_lufs": -14}, open(edit, "w"))

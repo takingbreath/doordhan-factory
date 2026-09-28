@@ -7,7 +7,8 @@ Thresholds calibrated 2026-09-28 on our own episodes (work/lag/face_calibration.
   different characters (75 pairs)                                             0.10 - 0.34
   -> PASS >= 0.55, WARN 0.45-0.55 (look at it), FAIL < 0.45.
   No mid-clip identity drift exists in our material yet, so the FAIL side is calibrated on other characters.
-Usage: face_consistency.py REF.png TARGET(.png|.mp4) [TARGET ...] [--every 1.0] [--json OUT]"""
+Usage: face_consistency.py REF.png TARGET(.png|.mp4) [TARGET ...] [--every 1.0] [--start S --end E] [--json OUT]
+  --start/--end: only that time range of a video (one talking segment of a finished reel; qc_gate.py uses it)."""
 import argparse, json, os, sys
 import numpy as np
 
@@ -23,12 +24,13 @@ def ref_embeddings(path):
     return [embed(rgb, f) for f in analyse(rgb)]
 
 
-def target_embeddings(path, every):
+def target_embeddings(path, every, start=0.0, end=None):
     if os.path.splitext(path)[1].lower() in (".png", ".jpg", ".jpeg", ".webp"):
         rgb = load_rgb(path); f = analyse(rgb)
         return [(0.0, embed(rgb, f[0]))] if f else []
     out = []
-    for t in np.arange(0.2, duration(path) - 0.1, every):
+    end = min(end if end is not None else 1e9, duration(path) - 0.1)
+    for t in np.arange(start + 0.2, end, every):
         rgb = load_rgb(path, t=float(t)); f = analyse(rgb)
         if f:
             out.append((float(t), embed(rgb, f[0])))
@@ -43,13 +45,14 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("ref"); ap.add_argument("targets", nargs="+")
     ap.add_argument("--every", type=float, default=1.0); ap.add_argument("--json")
+    ap.add_argument("--start", type=float, default=0.0); ap.add_argument("--end", type=float)
     a = ap.parse_args()
     refs = ref_embeddings(a.ref)
     if not refs:
         sys.exit(f"no face found in the reference {a.ref}")
     results = []
     for tg in a.targets:
-        embs = target_embeddings(tg, a.every)
+        embs = target_embeddings(tg, a.every, a.start, a.end)
         if not embs:
             results.append({"target": tg, "verdict": "UNSURE", "detail": "no face found"}); continue
         sims = [(t, round(score(refs, e), 3)) for t, e in embs]

@@ -102,4 +102,4 @@ Add a row per episode, and a line whenever you change a default or a tool.
   - **Caption:** no "Not investment advice" on this one (Akhilesh's call; it's an evergreen wealth fact, not a product). "Characters are AI-generated" stays.
   - **Bets:** carries B3 only; too long for B2, and the hook text lands at 5 s.
   - **New tools:** the sfx.py kit and the frame-composed edit (assets/edits/sk01_build.py). Wan with no audio makes cutaways at half Seedance's price.
-
+- **2026-09-28, QC gate (no credits):** `qc_gate.py` is now the hard last step, and the SendUserFile hook and put_upload.py refuse unstamped finals. On E5 it blocked the approved v4 on two real faults: the P4 lip-sync tail (−160 ms) and P6's hot "का" ending. It repaired both automatically in v5 (P4 src_in −0.08 s; an 80 ms fade on P6), which then passed. Lesson: judge identity on the talking clip, not the final; captions and crash zooms over the face read as a different person. docs/qc/2026-09-28-gate.md.

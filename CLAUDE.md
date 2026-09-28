@@ -63,6 +63,7 @@ If you think one of these is holding the channel back, say so at a gate.
 Akhilesh should never be the one to find gibberish audio, lips that don't move, a word cut off, garbled text, a jarring cut or a wrong fact.
 The tools in pipeline/ help: qc.py runs them all on a talking shot (format, speech_map, check_match, lipcheck, a transcript against the script via ElevenLabs Scribe, loudness, contact sheet) and writes the notes. Use them, or better ones.
 The lip-sync, voice and script gates (lipsync_lag, verify_line, script_freeze/script_diff, preflight_keyframe, face_consistency, shot_spec) are wired into playbooks/produce.md; on a fresh machine run pipeline/fetch_models.sh first.
+**The QC gate is the last step before any final is presented** (playbooks/produce.md step 12): `pipeline/qc_gate.py` runs every check, repairs the known faults once, and stamps the file. Only a stamped final can be sent (a SendUserFile hook and put_upload.py refuse anything else); a blocked one comes to Akhilesh as the failing check, the clip and the fix, never as the final.
 The checks are proxies. Look at the contact sheet and the full-size frames yourself; nobody has listened to the audio unless a transcript came back matching the script.
 When you present a final, say in plain language what you checked and anything you're unsure about.
 

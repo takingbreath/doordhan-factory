@@ -47,6 +47,20 @@ CARD_LEN = 4.8
 TOTAL = CARD + CARD_LEN
 LEAD = 0.12                       # Wan tracks start 0.12 s before the line
 
+# qc_gate.py repairs (pipeline/qc_gate.py writes them; this build applies them), per line:
+#   src_shift_s      move the talking clip's source start (a constant lip-sync offset)
+#   cut_in_delay_s   cut to the talking shot later (+) or earlier (-) than LEAD before the line (a wrong lead)
+#   voice_end_s      end the voice line here, with a fade_s fade (default 50 ms): a hard-cut or truncated line end
+import json  # noqa: E402
+EDIT_JSON = os.environ.get("EDIT_JSON", f"{SK}/edit.json")
+REPAIRS = os.environ.get("QC_REPAIRS", f"{SK}/qc_repairs.json")
+REP = json.load(open(REPAIRS)) if os.path.exists(REPAIRS) else {}
+
+
+def CUT(line):
+    """reel time the talking shot for this line cuts in"""
+    return S[line] - LEAD + REP.get(line, {}).get("cut_in_delay_s", 0.0)
+
 
 def P(line, t):
     """reel time of a moment t seconds into a voice line"""
@@ -253,15 +267,17 @@ V1_STRETCH = 48000 / 44100   # v1 clips were lip-synced to speech played this mu
 SPEED = {}                   # path -> playback speed used by shot()
 
 
-def TK(line, extra=0.0):
-    """(path, src_in) for a talking shot that starts at S[line] - LEAD (+extra) in the reel.
+def TK(line, t0):
+    """(path, src_in) for a talking shot of this line that starts at reel time t0, in sync with the voice at S[line].
     v1 clips: after their 0.12 s lead the speech ran 8.8% fast, so they play slowed by the same factor, which puts
     the lips back on the real-speed voice (clip time c = 0.12 + (u - 0.12) / 1.0884 for reel offset u)."""
     path, lead = TALK[line]
+    extra = t0 - (S[line] - LEAD)
+    shift = REP.get(line, {}).get("src_shift_s", 0.0)
     if lead == 0.12:
         SPEED[path] = 1 / V1_STRETCH
-        return path, 0.12 - (0.12 - extra) / V1_STRETCH if extra else 0.12 - 0.12 / V1_STRETCH
-    return path, lead - LEAD + extra
+        return path, 0.12 - (0.12 - extra) / V1_STRETCH + shift
+    return path, lead - LEAD + extra + shift
 
 
 SHOTS = []
@@ -278,40 +294,40 @@ shot(2.74, Q_OUT1, f"{V}/K2.mp4", 0.0,
      lambda t: (1.0 + 0.32 * (1 - ease((t - 2.74) / 0.22)) + 0.10 * ease((t - 3.0) / 5.2)
                 - 0.12 * ease((t - Q_OUT0) / (Q_OUT1 - Q_OUT0)), 360, 560), speed=0.80)
 # 3. overhead: receiver slammed down (jolt at the clack)
-shot(Q_OUT1, S["P1"] - LEAD, f"{V}/K3.mp4", 0.10, const(1.12, (360, 560)))
+shot(Q_OUT1, CUT("P1"), f"{V}/K3.mp4", 0.10, const(1.12, (360, 560)))
 # 4. P1 front: pull back on the sigh, punch in on "net worth kya hai"
-T1_0 = S["P1"] - LEAD
-shot(T1_0, S["P2"] - LEAD, *TK("P1"),
+T1_0 = CUT("P1")
+shot(T1_0, CUT("P2"), *TK("P1", T1_0),
      lambda t: (ramp(P("P1", 0.0), P("P1", 1.1), 1.25, 1.0, FACE_FRONT)(t)[0] if t < P("P1", 4.95)
                 else 1.0 + 0.22 * ease((t - P("P1", 4.95)) / 0.12), *FACE_FRONT))
 # 5. P2 3/4 left: a new framing on every "Gino"; whip to Billu on "Loan hai?", whip back for "Ghatao"
 g = [P("P2", x) for x in (0.65, 1.85, 2.95, 5.5)]
 LOAN, GHATAO = P("P2", 6.30), P("P2", 8.10)
-shot(S["P2"] - LEAD, LOAN, *TK("P2"),
+shot(CUT("P2"), LOAN, *TK("P2", CUT("P2")),
      steps([(0, 1.0), (g[0], 1.28), (g[1], 1.0), (g[2], 1.45), (g[3], 1.12)], FACE_LEFT))
 shot(LOAN, GHATAO, f"{V}/K4.mp4", 0.0, ramp(LOAN, GHATAO, 1.05, 1.18, (360, 700)))
-shot(GHATAO, S["P3"] - LEAD, *TK("P2", GHATAO - (S["P2"] - LEAD)), const(1.22, FACE_LEFT))
+shot(GHATAO, CUT("P3"), *TK("P2", GHATAO), const(1.22, FACE_LEFT))
 # 6. P3 low angle: numbers fly; crash zoom on the eyes at "Nahi"; slam "90 lakh"
 NAHI, MOTA, LAKH = P("P3", 6.28), P("P3", 7.25), P("P3", 8.88)
-shot(S["P3"] - LEAD, S["P4"] - LEAD, *TK("P3"),
+shot(CUT("P3"), CUT("P4"), *TK("P3", CUT("P3")),
      lambda t: ((1.0 + 0.1 * ease((t - S["P3"]) / 6.0)) if t < NAHI else
                 (1.0 + 0.6 * ease((t - NAHI) / 0.1)) if t < MOTA else
                 (1.0 if t < LAKH else 1.0 + 0.1 * ease((t - LAKH) / 0.15)), *FACE_LOW))
 # 7. P4 3/4 right: neighbour; slow push from "Bhai"
 BHAI, WOH = P("P4", 7.95), P("P4", 9.10)
-shot(S["P4"] - LEAD, S["P5"] - LEAD, *TK("P4"),
+shot(CUT("P4"), CUT("P5"), *TK("P4", CUT("P4")),
      lambda t: (1.0 if t < BHAI else 1.0 + 0.1 * ease((t - BHAI) / (P("P4", 11.2) - BHAI)), *FACE_RIGHT))
 # 8. P5 front: comment / like
-shot(S["P5"] - LEAD, S["P6"] - LEAD, *TK("P5"),
+shot(CUT("P5"), CUT("P6"), *TK("P5", CUT("P5")),
      steps([(0, 1.0), (P("P5", 3.8), 1.2), (P("P5", 5.85), 1.35)], FACE_FRONT))
 # 9. P6: Billu line, eyes to the cat
 BILLU_IN_TWO = (175, 860)   # Billu's centre in the v2 two-shot (720x1280)
 if TALK["P6"][1] == 0.5:  # v2: the two-shot with Billu in frame; creep in on Billu over the line
-    shot(S["P6"] - LEAD, P6_END + 0.05, *TK("P6"),
+    shot(CUT("P6"), P6_END + 0.05, *TK("P6", CUT("P6")),
          lambda t: (1.0 + 1.05 * ease((t - P("P6", 0.3)) / 3.9), 360 + (BILLU_IN_TWO[0] - 360) * ease((t - P("P6", 0.3)) / 3.9),
                     640 + (BILLU_IN_TWO[1] - 640) * ease((t - P("P6", 0.3)) / 3.9)))
 else:
-    shot(S["P6"] - LEAD, P6_END + 0.05, *TK("P6"), ramp(S["P6"], P6_END, 1.0, 1.12, FACE_RIGHT))
+    shot(CUT("P6"), P6_END + 0.05, *TK("P6", CUT("P6")), ramp(S["P6"], P6_END, 1.0, 1.12, FACE_RIGHT))
 # 10. Billu turns away
 if os.path.exists(f"{V}/K5.mp4") and TALK["P6"][1] == 0.5:  # continues the zoom-in on the sitting Billu
     shot(P6_END + 0.05, BILLU_END + 0.15, f"{V}/K5.mp4", 0.6, const(1.0))
@@ -570,18 +586,25 @@ def mix(out_wav):
     n = int(TOTAL * SR) + SR
     bus = np.zeros(n, np.float32)
 
+    dbus = np.zeros(n, np.float32)   # the dialogue as placed in the mix (qc_gate's line checks)
+
     def put(x, t, g=1.0):
         i = int(t * SR); j = min(n, i + len(x)); bus[i:j] += g * x[: j - i]
 
+    def put_d(x, t):
+        i = int(t * SR); j = min(n, i + len(x)); dbus[i:j] += x[: j - i]
+
     ring = load(f"{VO}/ring2.wav"); put(ring, 0.0, 0.8)
     put(load(f"{VO}/click.wav"), 3.22, 0.9)
-    put(load(f"{VO}/C1_phone2.wav"), S["C1"])
+    c1 = load(f"{VO}/C1_phone2.wav"); put(c1, S["C1"]); put_d(c1, S["C1"]); PLACED["C1"] = (S["C1"], S["C1"] + len(c1) / SR)
     put(load(f"{VO}/cradle.wav"), HANGUP1 - 0.02, 1.0)
     for ln in ("P1", "P2", "P3", "P4", "P5", "P6"):
         x = load(f"{VO}/v2/lev/{ln}.wav")
-        if ln == "P2":  # drop the breath after "Ghatao" (see P2_END)
-            x = x[: int((P2_END + 0.05) * SR)].copy(); x[-int(0.05 * SR):] *= np.linspace(1, 0, int(0.05 * SR))
-        put(x, S[ln])
+        end = REP.get(ln, {}).get("voice_end_s", P2_END + 0.05 if ln == "P2" else None)  # P2: drop the breath after "Ghatao"
+        if end is not None:
+            fd = int(REP.get(ln, {}).get("fade_s", 0.05) * SR)
+            x = x[: int(end * SR)].copy(); x[-fd:] *= np.linspace(1, 0, fd)
+        put(x, S[ln]); put_d(x, S[ln]); PLACED[ln] = (S[ln], S[ln] + len(x) / SR)
     # final: one ring burst, then the hang-up clack
     burst = load(f"{VO}/burst.wav"); put(burst, BILLU_END - 0.55, 0.8); put(burst, BILLU_END - 0.05, 0.8)
     put(load(f"{VO}/cradle.wav"), HANG - 0.02, 1.0)
@@ -618,11 +641,47 @@ def mix(out_wav):
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", ew, "-af", "highpass=f=300,lowpass=f=3400", "-ar", str(SR),
                     ewq], check=True)
     put(load(ewq), CARD, 0.9)
-    bus = bus[: int(TOTAL * SR)]
-    bus /= max(1.0, np.abs(bus).max() / 0.95)
-    pcm = (bus * 32767).astype(np.int16)
-    with wave.open(out_wav, "wb") as w:
-        w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR); w.writeframes(pcm.tobytes())
+    bus = bus[: int(TOTAL * SR)]; dbus = dbus[: int(TOTAL * SR)]
+    m = max(1.0, np.abs(bus).max() / 0.95)
+    for path, b in ((out_wav, bus), (os.path.join(tmp, "dialogue.wav"), dbus)):
+        pcm = (np.clip(b / m, -1, 1) * 32767).astype(np.int16)
+        with wave.open(path, "wb") as w:
+            w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR); w.writeframes(pcm.tobytes())
+
+
+PLACED = {}   # line -> (reel start, reel end) of the voice as placed in the mix
+
+
+def write_qc_manifest():
+    """work/sk01/qc_manifest.json for pipeline/qc_gate.py: where each line and its talking shots sit in the final"""
+    talk_paths = {TALK[k][0]: k for k in TALK}
+    segs, spans = {}, {}
+    for sh in SHOTS:
+        if sh["path"] in talk_paths:
+            segs.setdefault(talk_paths[sh["path"]], []).append([round(sh["t0"], 3), round(sh["t1"], 3)])
+            spans.setdefault(talk_paths[sh["path"]], []).append(
+                [round(sh["src_in"], 3), round(sh["src_in"] + (sh["t1"] - sh["t0"]) * sh["speed"], 3)])
+    rel = lambda p: os.path.relpath(p, ROOT)
+    edit = json.load(open(EDIT_JSON))
+    lines = [{"id": "C1", "speaker": "caller", "start": round(PLACED["C1"][0], 3), "end": round(PLACED["C1"][1], 3),
+              "source": rel(f"{VO}/C1_phone2.wav")}]
+    for ln in ("P1", "P2", "P3", "P4", "P5", "P6"):
+        lines.append({"id": ln, "speaker": "pandey", "start": round(PLACED[ln][0], 3), "end": round(PLACED[ln][1], 3),
+                      "source": rel(f"{VO}/v2/lev/{ln}.wav"), "cut_in": round(CUT(ln), 3), "segments": segs.get(ln, []),
+                      "clip": rel(TALK[ln][0]), "clip_spans": spans.get(ln, [])})
+    env = f"EDIT_JSON={rel(EDIT_JSON)} QC_REPAIRS={rel(REPAIRS)}"
+    man = {"slug": "sk01", "format": "sahayata_kendra", "final": rel(edit["out"]),
+           "script": "registry/scripts/sk01.json",
+           "characters": {"pandey": "work/sk01/img/pandey_sheet_v2.png"},
+           "dialogue_stem": rel(os.path.join(SK, "tmp", "dialogue.wav")),
+           "length": {"min": 20, "max": 90, "expected": round(TOTAL, 2)},
+           "loudness": {"target": edit.get("target_lufs", -14)},
+           "repairs_file": rel(REPAIRS),
+           "rebuild": f"{env} python3 work/sk01/build.py && python3 pipeline/assemble.py {rel(EDIT_JSON)}",
+           "lines": lines}
+    path = os.path.join(os.path.dirname(EDIT_JSON), "qc_manifest.json")
+    json.dump(man, open(path, "w"), indent=1, ensure_ascii=False)
+    return path
 
 
 if __name__ == "__main__":
@@ -631,6 +690,7 @@ if __name__ == "__main__":
     print(f"timeline: P1 {S['P1']:.2f}  P2 {S['P2']:.2f}  P3 {S['P3']:.2f}  P4 {S['P4']:.2f}  P5 {S['P5']:.2f}  "
           f"P6 {S['P6']:.2f}  card {CARD:.2f}  total {TOTAL:.2f}")
     mix(wav); print("mixed", wav)
+    print("qc manifest", write_qc_manifest())
     render(vid); print("rendered", vid)
     out = os.path.join(SK, "edit_raw.mkv")
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", vid, "-i", wav, "-map", "0:v", "-map", "1:a", "-c:v", "copy",

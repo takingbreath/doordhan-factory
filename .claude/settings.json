@@ -15,5 +15,20 @@
       "mcp__Claude_Browser"
     ]
   },
-  "enableAllProjectMcpServers": true
+  "enableAllProjectMcpServers": true,
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "SendUserFile",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$CLAUDE_PROJECT_DIR/pipeline/hooks/require_qc_stamp.py\"",
+            "timeout": 60,
+            "statusMessage": "Checking the QC stamp"
+          }
+        ]
+      }
+    ]
+  }
 }

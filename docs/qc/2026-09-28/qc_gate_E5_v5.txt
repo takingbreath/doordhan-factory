@@ -1,0 +1,29 @@
+QC GATE  sk01_top1pct_v5.mp4  ->  PASS
+2026-09-28 23:18 IST  sha256 a35f5f3e9c6b  67.2 s  (gate runs: 3)
+
+1 script    all    PASS     7/7 lines match the frozen script 4bae253b (approved by Akhilesh (script as voiced, 2026-09-27; frozen retroactively))
+2 lip-sync  P1     PASS     offset -80 ms, drift -8.3 ms/s over 1 segment(s)
+            P2     PASS     offset 0 ms, drift -16.9 ms/s over 1 segment(s), 1 short segment(s) covered by the same clip
+            P3     PASS     offset -60 ms, drift -7.7 ms/s over 1 segment(s)
+            P4     REPAIRED offset -40 ms, drift -8.6 ms/s over 1 segment(s)
+            P5     PASS     offset 0 ms, drift -9.4 ms/s over 1 segment(s)
+            P6     PASS     offset -120 ms, drift 0.0 ms/s over 1 segment(s)
+3 face      P1     PASS     pandey: worst 0.72 at 11.5 s, mean 0.79 (12 frames of the clip T1v2.mp4; same >= 0.55)
+            P2     PASS     pandey: worst 0.66 at 20.1 s, mean 0.75 (15 frames of the clip T2v2.mp4; same >= 0.55)
+            P3     PASS     pandey: worst 0.61 at 27.0 s, mean 0.67 (21 frames of the clip T3v2.mp4; same >= 0.55)
+            P4     PASS     pandey: worst 0.62 at 36.1 s, mean 0.71 (23 frames of the clip T4v2.mp4; same >= 0.55)
+            P5     PASS     pandey: worst 0.72 at 52.1 s, mean 0.79 (14 frames of the clip T5v2.mp4; same >= 0.55)
+            P6     PASS     pandey: worst 0.69 at 56.6 s, mean 0.74 (9 frames of the clip T6v2.mp4; same >= 0.55)
+4 mix       C1     PASS     end 10 dB down, no tail
+            P1     PASS     end 34 dB down, no tail, lead 0.24 s
+            P2     PASS     end 31 dB down, no tail, lead 0.16 s
+            P3     PASS     end 11 dB down, no tail, lead 0.12 s
+            P4     PASS     end 10 dB down, no tail, lead 0.24 s
+            P5     PASS     end 59 dB down, no tail, lead 0.16 s
+            P6     REPAIRED end 12 dB down, no tail, lead 0.14 s
+5 loudness  final  PASS     -14.0 LUFS (target -14), true peak -1.5 dBTP (max -1.0)
+6 length    final  PASS     67.2 s (bounds 20-90 s), 1080x1920, 25 fps
+
+REPAIRED AUTOMATICALLY (rebuilt and re-checked):
+  lipsync P4: P4: clip src_in -0.080 s (lip-sync offset)  (was: constant: median -120 ms, drift -7.7 ms/s, failing windows at 45 s (segment 35.9-47.4 s); now: offset -40 ms, drift -8.6 ms/s over 1 segment(s))
+  mix P6: P6: line ends at 4.40 s with a 80 ms fade  (was: hard-cut end (only 4 dB down at 58.90 s); now: end 12 dB down, no tail, lead 0.14 s)

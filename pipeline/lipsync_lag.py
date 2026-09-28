@@ -312,11 +312,14 @@ def main():
             med = float(np.median(offs))
             res["pattern"] = "constant"
             res["median_offset_ms"] = round(med)
-            if not (a.lo <= med <= a.hi):
-                # shifting the audio by S ms moves the offset by -S: aim for the middle of the pass window
-                sh = int(round(med - REPAIR_TARGET_MS))
+            # a shift fixes it when every judged window fits inside the pass window at once (a constant offset, or
+            # Wan's mild -8 ms/s drift over a long line: E5 v4 P4 ran -80..-160 ms). Shifting the audio by S ms moves
+            # every offset by -S: centre the judged range on the middle of the window.
+            if bad and spread <= (a.hi - a.lo) - 20:
+                mid = (float(offs.max()) + float(offs.min())) / 2
+                sh = int(round(mid - REPAIR_TARGET_MS))
                 res["audio_shift_ms"] = sh
-                res["repair"] = (f'constant offset: set "audio_shift_ms": {sh} on this part in edit.json '
+                res["repair"] = (f'offset {offs.min():.0f}..{offs.max():.0f} ms: set "audio_shift_ms": {sh} on this part in edit.json '
                                  f'({"pulls the audio earlier" if sh < 0 else "delays the audio"} by {abs(sh)} ms; '
                                  f'lands near {REPAIR_TARGET_MS} ms). In a custom edit (build.py) move the clip\'s '
                                  f'source start (src_in) by {sh / 1000:+.3f} s instead.')
@@ -338,7 +341,7 @@ def main():
 args_min_conf_syncnet = 1.5   # SyncNet confidence (median - min distance) below this is "no opinion"
 WEAK_MOUTH_PX = 40           # mouth corner-to-corner width at native res; below this readings are unreliable
 WEAK_CONF = 2.0
-REPAIR_TARGET_MS = -40         # a repaired part should land mid-window (Wan's own clips sit at -40 to -80)               # median SyncNet confidence over speech windows below this = lips barely track
+REPAIR_TARGET_MS = -40        # a repaired part is centred here: the middle of the -125..+45 pass window
 
 if __name__ == "__main__":
     main()
