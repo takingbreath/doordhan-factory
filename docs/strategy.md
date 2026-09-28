@@ -50,16 +50,16 @@ Stage 1 targets are live in the block below. Stages 2 and 3 are the plan after t
 
 ## The book and where we stand
 <!-- scoreboard -->
-_Updated 2026-09-28 03:07 IST by `scoreboard.py write`._
+_Updated 2026-09-28 21:32 IST by `scoreboard.py write`._
 
 **Stage 1: Stop the scroll** (2026-09-26 to 2026-10-11): prove people stop for our reels and stay to the end
 
 - skip rate %: now 54.6, target 45 → not yet
-- watched %: now 42.5, target 45 → not yet
+- watched %: now 43.2, target 45 → not yet
 - median plays at 72 h: now –, target 500 → not yet
-- best reel's plays: now 2331, target 2000 → on target
+- best reel's plays: now 2381, target 2000 → on target
 - followers: now 67, target 100 → not yet
-- strategy stop: 2/10 reels posted this stage; median plays at 72 h now –, must reach 300
+- strategy stop: 4/10 reels posted this stage; median plays at 72 h now –, must reach 300
 
 | Bet | Lever | Judged on | Baseline | Now | Target | Stop | Reels (judged/carried) | Verdict |
 |---|---|---|---|---|---|---|---|---|
@@ -120,3 +120,6 @@ _Written by the strategist every Sunday. The morning session executes it: each s
   - scoreboard.py: a public reading (no shares or saves) counts as unknown, not zero, for sends and saves per 1k.
   - Tax-audit reel (E4) recorded with no bets: made outside the logged flow; no script, contact sheet or credits in the repo. Re-tag once confirmed.
   - Posting plan: one reel a day, 7–9 pm IST.
+- 2026-09-28 (nightly):
+  - vidIQ owner insights down ("Meta token is inactive"); recorded public counts only (plays, likes, comments), watch and skip carried from the last owner reading. No bet judged on it. Akhilesh to reconnect Instagram in vidIQ.
+  - E5 (Sahayata Kendra debut) linked to Dd1Y8EaSkJ7. A UPI reel ("96% UPI ABHI BHI FREE", 25 s) was posted outside the flow: logged as X1 with no bets.
