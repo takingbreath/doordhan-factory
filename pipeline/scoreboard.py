@@ -87,6 +87,11 @@ def readings(d, platform="instagram"):
         ss = sorted(by_code.get(r[code_key], []), key=lambda s: num(s["hours"]) or 0) if r[code_key] else []
         if ss:
             mature = next((s for s in ss if (num(s["hours"]) or 0) >= MATURE_H), None)
+            if mature:
+                # The owner feed can freeze on a reel; a public reading taken in the same hour wins if it counts more plays.
+                h0 = num(mature["hours"]) or 0
+                same = [s for s in ss if h0 <= (num(s["hours"]) or 0) < h0 + 1]
+                mature = max(same, key=lambda s: num(s["views"]) or 0)
             out[r["id"]] = (ss[-1], mature)
     return out
 

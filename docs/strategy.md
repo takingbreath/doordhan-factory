@@ -50,23 +50,23 @@ Stage 1 targets are live in the block below. Stages 2 and 3 are the plan after t
 
 ## The book and where we stand
 <!-- scoreboard -->
-_Updated 2026-09-28 21:49 IST by `scoreboard.py write`._
+_Updated 2026-09-29 21:33 IST by `scoreboard.py write`._
 
 **Stage 1: Stop the scroll** (2026-09-26 to 2026-10-11): prove people stop for our reels and stay to the end
 
-- skip rate %: now 56, target 45 → not yet
-- watched %: now 40.5, target 45 → not yet
-- median plays at 72 h: now –, target 500 → not yet
-- best reel's plays: now 2381, target 2000 → on target
+- skip rate %: now 57, target 45 → not yet
+- watched %: now 38.7, target 45 → not yet
+- median plays at 72 h: now 2388, target 500 → on target
+- best reel's plays: now 2388, target 2000 → on target
 - followers: now 70, target 100 → not yet
-- strategy stop: 4/10 reels posted this stage; median plays at 72 h now –, must reach 300
+- strategy stop: 4/10 reels posted this stage; median plays at 72 h now 2388, must reach 300
 
 | Bet | Lever | Judged on | Baseline | Now | Target | Stop | Reels (judged/carried) | Verdict |
 |---|---|---|---|---|---|---|---|---|
-| B1 Hook in frame one | Frame 1: the anchor looks into the lens, already saying the viewer's stake; the hook in 6 big words or fewer on screen; nothing (Namaskar, title, logo) before it; a cut or punch-in by 1 s; cover = frame 1 | skip rate % | 60.7 | 56.2 | 45 | 58 | 1/1 (judge at 3, max 6) | **HOLD** 1/3 reels |
-| B2 Tight 20-30 s | 20-30 s total; title montage 1.5 s or less and only after the hook; payoff by 20 s; the last line echoes the hook so a replay feels natural; no dead air | watched % | 26.3 | 40.4 | 45 | 32 | 1/1 (judge at 3, max 6) | **HOLD** 1/3 reels |
+| B1 Hook in frame one | Frame 1: the anchor looks into the lens, already saying the viewer's stake; the hook in 6 big words or fewer on screen; nothing (Namaskar, title, logo) before it; a cut or punch-in by 1 s; cover = frame 1 | skip rate % | 60.7 | 55.6 | 45 | 58 | 1/1 (judge at 3, max 6) | **HOLD** 1/3 reels |
+| B2 Tight 20-30 s | 20-30 s total; title montage 1.5 s or less and only after the hook; payoff by 20 s; the last line echoes the hook so a replay feels natural; no dead air | watched % | 26.3 | 39.9 | 45 | 32 | 1/1 (judge at 3, max 6) | **HOLD** 1/3 reels |
 | B3 A line worth sending | Every script lands one line a viewer would forward to a specific person (a number to remember, a jab at the system, an 'I told you so'); never ask for shares | sends per 1k plays | 2.6 | 0 | 8 | 2 | 1/2 (judge at 4, max 6) | **HOLD** 1/4 reels |
-| W1 Glam Sarika | Sarika in the glam wardrobe (formats/samachar.md) on every Samachar reel | skip rate % | 66.9 | 56.2 | – | – | 1/1 (judge at 3, max 6) | **WATCH** tracked; judged at the monthly review |
+| W1 Glam Sarika | Sarika in the glam wardrobe (formats/samachar.md) on every Samachar reel | skip rate % | 66.9 | 55.6 | – | – | 1/1 (judge at 3, max 6) | **WATCH** tracked; judged at the monthly review |
 <!-- /scoreboard -->
 
 ## This week's plan
@@ -124,3 +124,7 @@ _Written by the strategist every Sunday. The morning session executes it: each s
   - vidIQ owner insights failed at 21:31 ("Meta token is inactive") although the account list said the token was active. Akhilesh reconnected Instagram in vidIQ; owner insights back at 21:49 (70 followers). The interim public readings were replaced by owner readings, except Policybazaar: the owner feed still shows 316 plays against 2,381 public, so its public reading stays the latest.
   - E5 (Sahayata Kendra debut, posted 19:58) linked to Dd1Y8EaSkJ7. A UPI reel ("96% UPI ABHI BHI FREE", 25 s, posted 12:44) went up outside the flow: logged as X1 with no bets.
   - No stop or target hit; all bets HOLD.
+- 2026-09-29 (nightly):
+  - No stop or target hit; all bets HOLD (B1 and B2 on 1 judged reel, B3 on 1 of 4). No reel posted on 29 Sep. Followers 70 (flat on the day).
+  - Policybazaar's owner feed still frozen (323 plays vs 2,388 public); public reading logged. scoreboard.py now takes the higher of same-hour readings as a reel's 72 h plays, so a frozen owner feed no longer understates it. The stage's "median plays at 72 h" rests on that one reel until the tax-audit reel matures tomorrow.
+  - Sahayata Kendra debut (67 s) worsened as it reached non-followers: skip 44% → 68%, watched 26% → 17.5% at 214 plays. Evidence for the length rule; judge the format at the weekly review.
