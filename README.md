@@ -40,7 +40,7 @@ flowchart LR
 3. **Script:** Hinglish, 20–30 seconds. Every number is re-checked against a source.
 4. **Gate 2:** Akhilesh or Naveen approves or edits. No money is spent before this.
 5. **Production**, in the same cloud session:
-   - **Voices:** ElevenLabs voices, run through Higgsfield.
+   - **Voices:** ElevenLabs voices, over the ElevenLabs API. A character with no ElevenLabs voice yet is voiced through Higgsfield.
    - **Keyframes (the still images each shot starts from):** Higgsfield's image models, GPT Image 2.5 and Seedream 4.5.
    - **Talking shots:** Wan 2.7, which animates the keyframe from our own voice track, so the voice stays exact.
    - **Graphics:** built locally.
@@ -116,8 +116,8 @@ Not in the repo on purpose: `outputs/` (finished videos, delivered as links), `w
 | Service | Used for |
 |---|---|
 | Claude Code (Opus 5.5) | Everything: research, writing, production, QC and strategy. It runs locally in the Claude app and as two cloud routines on claude.ai. |
-| Higgsfield (MCP connector) | Image, video and voice generation. Credits are the production budget. |
-| ElevenLabs (MCP connector plus an optional API key) | Designing voices and transcribing lines for QC. |
+| Higgsfield (MCP connector) | Image and video generation, and voices for characters with no ElevenLabs voice. Credits are the production budget. |
+| ElevenLabs (API key; the MCP connector is the fallback) | Character voices, and transcribing lines for QC. |
 | vidIQ (MCP connector) | Trending and breakout videos, keyword research, and @doordhan's Instagram insights. |
 | Gmail (MCP connector) | The morning story email, final-video links and the weekly strategy review. |
 | GitHub | This repo. Routines clone it, and every episode is committed back. |
@@ -136,4 +136,4 @@ python3 pipeline/self_test.py   # must end with ALL PASS
 python3 pipeline/scoreboard.py  # where the channel stands
 ```
 
-**To produce a reel yourself**, open this folder in Claude Code with the Higgsfield and ElevenLabs connectors signed in. `CLAUDE.md` and the playbooks walk it through the rest. Production spends Higgsfield credits, so agree it with Akhilesh first.
+**To produce a reel yourself**, open this folder in Claude Code with the Higgsfield connector signed in and the ElevenLabs key in `.env` ([SETUP.md](SETUP.md)). `CLAUDE.md` and the playbooks walk it through the rest. Production spends Higgsfield credits, so agree it with Akhilesh first.

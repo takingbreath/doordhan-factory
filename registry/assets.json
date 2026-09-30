@@ -71,27 +71,38 @@
     "kendra_billu_closeup": "ee6148ed-e42a-4de2-a81e-b1f3dfde6662"
   },
   "voices": {
+    "_note": "ElevenLabs over the API is the default (2026-09-30): a voice with an elevenlabs_voice_id is generated with pipeline/tts_elevenlabs.py --voice <name>. A voice without one stays on Higgsfield. higgsfield_fallback keeps a character's old Higgsfield voice element usable (pipeline/higgsfield.py audio --voice <name>).",
     "sarika": {
-      "provider": "higgsfield",
-      "model": "text2speech_v2",
-      "variant": "elevenlabs",
-      "voice_type": "element",
-      "voice_id": "6603e914-681e-4966-9bbb-cfb1daebf1d5",
+      "provider": "elevenlabs",
+      "model": "eleven_v3",
+      "elevenlabs_voice_id": "MRGxiRnmGHSLXBmEZU3D",
+      "name": "Sarika-Doordhan-Anchor (clone)",
       "tempo": 1.15,
-      "elevenlabs_voice_id": null,
-      "higgsfield_name": "Sarika-News-Anchor-Female",
-      "status": "verified in list_voices 2026-09-25; used for the setup test shot"
+      "status": "default from 2026-09-30 (Akhilesh: use the ElevenLabs voice wherever we have one, over the API). A test line over the API came back with the right words (Scribe). Not yet compared by ear with the Higgsfield voice.",
+      "higgsfield_fallback": {
+        "model": "text2speech_v2",
+        "variant": "elevenlabs",
+        "voice_type": "element",
+        "voice_id": "6603e914-681e-4966-9bbb-cfb1daebf1d5",
+        "higgsfield_name": "Sarika-News-Anchor-Female",
+        "status": "verified in list_voices 2026-09-25; used for the setup test shot; the default until 2026-09-30"
+      }
     },
     "gupta": {
-      "provider": "higgsfield",
-      "model": "text2speech_v2",
-      "variant": "elevenlabs",
-      "voice_type": "element",
-      "voice_id": "70f487de-93d3-4c8c-bac9-65d384893c78",
+      "provider": "elevenlabs",
+      "model": "eleven_v3",
+      "elevenlabs_voice_id": "L3UhnmtPdxu2Gu1nisJd",
+      "name": "Gupta-Doordhan-Reporter (clone)",
       "tempo": 1.15,
-      "elevenlabs_voice_id": null,
-      "higgsfield_name": "gupta-news-reporter",
-      "status": "verified in list_voices 2026-09-25"
+      "status": "default from 2026-09-30 (Akhilesh: use the ElevenLabs voice wherever we have one, over the API). A test line over the API came back with the right words (Scribe). Not yet compared by ear with the Higgsfield voice.",
+      "higgsfield_fallback": {
+        "model": "text2speech_v2",
+        "variant": "elevenlabs",
+        "voice_type": "element",
+        "voice_id": "70f487de-93d3-4c8c-bac9-65d384893c78",
+        "higgsfield_name": "gupta-news-reporter",
+        "status": "verified in list_voices 2026-09-25; the default until 2026-09-30"
+      }
     },
     "sachdev": {
       "provider": null,

@@ -128,9 +128,12 @@ def voice_from_registry(name):
     v = registry().get("voices", {}).get(name)
     if not v:
         sys.exit(f"no voice '{name}' in registry/assets.json")
-    if v.get("provider") != "higgsfield" or not v.get("voice_id"):
-        sys.exit(f"registry voice '{name}' is not a Higgsfield voice element (provider={v.get('provider')})")
-    return v
+    # ElevenLabs is the default provider since 2026-09-30; a voice that moved there keeps its Higgsfield element
+    # under higgsfield_fallback, so this client can still voice it.
+    hf = v if v.get("provider") == "higgsfield" else v.get("higgsfield_fallback") or {}
+    if not hf.get("voice_id"):
+        sys.exit(f"registry voice '{name}' has no Higgsfield voice element (provider={v.get('provider')})")
+    return hf
 
 
 def poll(status_path, ok=("completed", "succeeded", "done"),

@@ -203,11 +203,13 @@ Original character; no resemblance to any real person.
 
 ## 8. Production recipe (follow in order)
 1. **Voice.**
-   - ElevenLabs connector `creative_generate_speech`, eleven_v3, Devanagari text with English words kept in Latin.
+   - ElevenLabs over the API (Akhilesh, 2026-09-30; it replaces the connector): `python3 pipeline/tts_elevenlabs.py --voice pandey --text-file LINE.txt --out raw.mp3`, eleven_v3, Devanagari text with English words kept in Latin. The caller's voice goes by `--voice-id`. The key lives in the git-ignored `.env`; `tts_elevenlabs.py --check` confirms it and shows the quota.
+   - A session with no key (a cloud machine that hasn't been given one) uses the connector's `creative_generate_speech` instead, with the same model and text.
    - Tags: `[flat, brisk]` by default, and `[slowly]` only right before a punch word.
    - Never tag a whole line slow. That, plus `[pause]`, left 1–1.8 s gaps and stretched E5 from 65 s to 82 s.
    - At most 3 generations at once, or you get "Too many concurrent requests".
-   - Check every take with a Scribe transcript: `creative_create_asset_upload` → `put_upload.py` → `creative_finalize_asset_upload` (flow_id) → `creative_transcribe_audio` (eleven_scribe_v1). The transcript is plain text, with no word timings.
+   - Check every take with a Scribe transcript: `python3 pipeline/transcribe.py raw.mp3 --expect-file LINE.txt` (scribe_v2). It gives the similarity to the script and each word's time, so the last word's end is known for the trim.
+   - Without a key, the connector route still works, but its transcript is plain text with no word timings: `creative_create_asset_upload` → `put_upload.py` → `creative_finalize_asset_upload` (flow_id) → `creative_transcribe_audio` (eleven_scribe_v1).
    - Level every line to -16 LUFS.
    - **Trim each line at its last word.** A trailing breath makes Wan hold the mouth half open, which reads as "about to say something".
 2. **Draft cut.** Join the ring, click, caller, clack and lines into one voice cut, and send it to Akhilesh before any video.

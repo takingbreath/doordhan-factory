@@ -4,8 +4,8 @@
 **When to use it:** fresh news (listings, SEBI or RBI moves, markets, tax, prices) where the viewer has a stake and a clear question. Episode 2: NSE listing.
 
 ## Characters
-- **SARIKA**, anchor. 26, poised, with a knowing wit; since 2026-09-25 a glamorous, sexy 1990s newsreader (Akhilesh's call) who wears a **new outfit and hairstyle every episode**, sari or not (see "Sarika's wardrobe" below). Her face always comes from sheet 85391de0-1855-486d-9e6b-0e7c841fc038. Voice: registry "sarika" (Higgsfield voice element, tempo 1.15; verified 2026-09-25).
-- **GUPTA**, field correspondent. About 40, bald, moustache, metal spectacles, sand-beige Nehru half-jacket over a pale blue shirt, press card, a dark mic with a DOORDHAN flag. Sheet b51d1f5e-bad5-4f00-af03-f55ff28ed8a0. Voice: registry "gupta". He changes clothes each episode too: a different shirt and half-jacket colour (plain or bold patterns, never small checks), keeping his spectacles, moustache, press card and DOORDHAN mic.
+- **SARIKA**, anchor. 26, poised, with a knowing wit; since 2026-09-25 a glamorous, sexy 1990s newsreader (Akhilesh's call) who wears a **new outfit and hairstyle every episode**, sari or not (see "Sarika's wardrobe" below). Her face always comes from sheet 85391de0-1855-486d-9e6b-0e7c841fc038. Voice: registry "sarika" (her ElevenLabs clone over the API since 2026-09-30, tempo 1.15; the Higgsfield voice element is the fallback).
+- **GUPTA**, field correspondent. About 40, bald, moustache, metal spectacles, sand-beige Nehru half-jacket over a pale blue shirt, press card, a dark mic with a DOORDHAN flag. Sheet b51d1f5e-bad5-4f00-af03-f55ff28ed8a0. Voice: registry "gupta" (his ElevenLabs clone over the API since 2026-09-30, tempo 1.15; the Higgsfield voice element is the fallback). He changes clothes each episode too: a different shirt and half-jacket colour (plain or bold patterns, never small checks), keeping his spectacles, moustache, press card and DOORDHAN mic.
 
 ## Sets and keyframes
 - Anchor close-ups: one per outfit (see the wardrobe bank below). All use the same powder-blue set, framing and logo.
