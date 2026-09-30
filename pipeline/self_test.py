@@ -300,6 +300,26 @@ def scoreboard():
         pass
     return "target, stop, time stop and hold verdicts; ingest, link, write"
 step("scoreboard verdicts", scoreboard)
+def voice_reference_rules():
+    """voice_reference's line, pause and rhythm rules on made-up Scribe words (no network): a 0.3 s gap is a marked
+    pause, a 0.7 s gap and a change of speaker each start a line, words stay as given"""
+    import voice_reference as vr
+    w = lambda t, s, e, sp: {"text": t, "type": "word", "start": s, "end": e, "speaker_id": sp}
+    ws = [w("Haan", 0.0, 0.3, "speaker_0"), w("bhai.", 0.4, 0.7, "speaker_0"), w("Dekho", 1.0, 1.3, "speaker_0"),
+          w("ye", 2.0, 2.2, "speaker_0"), w("kya", 2.25, 2.5, "speaker_1"), w("hai?", 2.6, 3.0, "speaker_1")]
+    got = vr.full_lines(ws)
+    assert got == ["speaker_0: Haan bhai. (0.3 s) Dekho (0.7 s)", "speaker_0: ye", "speaker_1: kya hai?"], got
+    sp = {"text": " ", "type": "spacing"}
+    got = vr.text_lines({"words": [t for x in ws for t in (x, sp)]})
+    assert got == ["Haan bhai.", "Dekho ye kya hai?"], got
+    md = vr.rhythm([("clip one.mp3", {"words": ws}, ["speaker_0"])])
+    assert md.splitlines()[0] == "Rhythm measured from: clip one.mp3 (only speaker_0).", md
+    for want in ("Words per second: 2.67 (4 words over 2 s", "Average words per sentence: 2.0",
+                 "Pauses per 10 words: 5.0 (2 pauses)", "Average pause length: 0.50 s", "2 sentences"):
+        assert want in md, (want, md)
+    assert vr.slug("3 साल, 6 Charts!") == "3-6-charts" and vr.slug("साल") == "clip"
+    return "pause marks, line breaks, sentences per line, rhythm numbers, ASCII file names"
+step("voice_reference line, pause and rhythm rules", voice_reference_rules)
 for r in results:
     print(f"{r[0]}  {r[1]}  {r[2][:160]}")
 print("\nALL PASS" if all(r[0] == "PASS" for r in results) else "\nSOME STEPS FAILED")

@@ -2,7 +2,7 @@
 
 Requirements: ffmpeg and ffprobe on PATH, Python 3.9+, numpy, pillow (`pip3 install -r requirements.txt`). Run tools from the repo root, e.g. `python3 pipeline/prep_line.py ...`.
 Check the toolchain (no credits, no network): `python3 pipeline/self_test.py` → must end with ALL PASS.
-ElevenLabs tools read ELEVENLABS_API_KEY from the environment or from the repo's git-ignored `.env`, and never print it. `python3 pipeline/tts_elevenlabs.py --check` confirms the key, the quota and that the default model is still offered.
+Voices and transcripts go over the ElevenLabs API by default (2026-09-30). The ElevenLabs tools read ELEVENLABS_API_KEY from the environment or from the repo's git-ignored `.env`, and never print it. `python3 pipeline/tts_elevenlabs.py --check` confirms the key, the quota and that the default model is still offered.
 
 Frames: the edit runs at 720x1280, 25 fps (Wan 720p delivers 718x1282); the 80s–90s CRT softness is added on purpose by look.py at the end. Mouth boxes and inset-box coordinates are always given in the 480x854 analysis frame, so numbers in formats/ and registry/ stay valid.
 
@@ -18,6 +18,7 @@ Frames: the edit runs at 720x1280, 25 fps (Wan 720p delivers 718x1282); the 80s�
 | lipcheck.py | Mouth motion speaking vs silent, and mouth vs head while speaking. `--face-crop` saves a frame to find the mouth box. |
 | headcheck.py | Head travel in px/s: a steady newsreader passes (≤45), a wobbling or tilting head fails. Tracks Sarika's bindi; phase correlation for others. `--mouth` takes the lipcheck box. |
 | transcribe.py | ElevenLabs Scribe (scribe_v2): what was actually said, similarity to the script, and the last word's end time. Catches gibberish. |
+| voice_reference.py | Real speech as a writing reference: Scribe on every clip in work/voices/audio/`<name>`/, one transcript per clip in docs/voices/`<name>`/reference/, Scribe's words kept as returned. Text-only (one sentence per line) or `--full` (speaker labels, pauses marked like `(0.4 s)`, a new line at 0.6 s or a change of speaker). `--rhythm` writes rhythm.md from chosen full-mode clips and speakers: words per second, sentence lengths, pauses. |
 | contact_sheet.py | Frames at an fps or at given times, tiled into one image. |
 | inset_card.py | `card`: logo card for the anchor's inset box. `overlay`: put it on a clip (auto-detects the box). |
 | montage.py | Title card + the last N seconds of the sting (ending kept intact). |
