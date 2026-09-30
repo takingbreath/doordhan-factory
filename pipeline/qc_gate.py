@@ -466,10 +466,14 @@ def summary_text(doc):
 
 def summary_png(doc, path):
     from PIL import Image, ImageDraw, ImageFont
-    mono = "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf"
-    bold = "/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf"
-    f, fb, fh = ImageFont.truetype(mono, 22), ImageFont.truetype(bold, 22), ImageFont.truetype(bold, 34)
-    fs = ImageFont.truetype(mono, 18)
+    def font(heavy, size):                       # DejaVu on Linux (the cloud routines), Menlo on a Mac
+        dejavu = f"/usr/share/fonts/truetype/dejavu/DejaVuSansMono{'-Bold' if heavy else ''}.ttf"
+        if os.path.exists(dejavu):
+            return ImageFont.truetype(dejavu, size)
+        if os.path.exists("/System/Library/Fonts/Menlo.ttc"):
+            return ImageFont.truetype("/System/Library/Fonts/Menlo.ttc", size, index=1 if heavy else 0)
+        return ImageFont.load_default(size)
+    f, fb, fh, fs = font(False, 22), font(True, 22), font(True, 34), font(False, 18)
     col = {"pass": (70, 200, 110), "repaired": (240, 180, 40), "failed": (235, 70, 60), "waived": (170, 140, 240)}
     W = 1080; wrap = 56
 
@@ -514,7 +518,7 @@ def summary_png(doc, path):
         y = max(y + 30, yy) + 6
     if notes:
         y += 14; d.line((40, y - 8, W - 40, y - 8), fill=(50, 54, 66))
-        fn = ImageFont.truetype(mono, 17)
+        fn = font(False, 17)
         for kind, t in notes:
             d.text((40, y), t, font=fn, fill=col[kind]); y += 24
     im.save(path)

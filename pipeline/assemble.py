@@ -103,7 +103,9 @@ run([FFMPEG, "-y", "-v", "error", "-i", joined, "-i", audio, "-map", "0:v", "-ma
 strength = float(spec.get("vhs_motion", vhs_motion.DEFAULT_STRENGTH))
 if strength > 0 and spec.get("finish", True):
     moved = os.path.join(tmp, "joined_vhs.mkv")
-    vhs_motion.run(joined, moved, strength)
+    # As its own process, not vhs_motion.run(): its worker pool re-imports the main script on macOS (spawn), and this
+    # script has no __main__ guard, so every worker re-ran the whole assembly and the pool never finished.
+    run([sys.executable, vhs_motion.__file__, joined, moved, "--strength", str(strength)])
     joined = moved
     print(f"vhs motion at {strength:.2f}")
 gain = spec.get("target_lufs", -14) - I
