@@ -1,8 +1,8 @@
 # Voice Card — Vidyasagar Pandey
 
-**Status:** reviewed by Akhilesh (30 Sep 2026): "hum", never "main", and Purvanchali-flavoured Hindi the way Ravi Kishan speaks it. Fields marked "(measured)" are filled by the voice-reference tool; leave those to it.
+**Status:** reviewed by Akhilesh (30 Sep 2026): "hum", never "main", and Purvanchali-flavoured Hindi the way Ravi Kishan speaks it. Sections 4 to 6 updated 1 Oct 2026 from `dialect-notes.md`. Fields marked "(measured)" are filled by the voice-reference tool; leave those to it.
 
-**Your calls, marked ⚑:** "bhaiya" for the caller, the UP slang, past tense without "ne", "tanik", "dhela", and the budgets.
+**Your calls, marked ⚑:** "tumre", "ee" and "oo" in every line, "bhaiya" for the caller, the UP slang, "dhela", the gender rule in section 6, and the budgets.
 
 The format file (section 3) says who he is. This card says how he sounds.
 
@@ -42,25 +42,24 @@ He speaks Hindi, not Bhojpuri. The Purvanchali flavour sits in a few grammar hab
 
 **Grammar, every line** (how he speaks, not tics, so no budget):
 - I: always "hum", never "main". With it come "humko" (not mujhe), "humara" (not mera), and plural verbs: "hum jaante hain", never "hum jaanta hoon".
-- You: "tum", with "tumre" and "tumra" (not tumhare, tumhara) and "tumko".
-- This and that: "ee" (not yeh) and "oo" (not woh).
-- ⚑ Past tense with "hum" drops "ne": "hum bole the", not "humne kaha tha".
+- ⚑ You: "tum", with "tumre" and "tumra" (not tumhare, tumhara) and "tumko".
+- ⚑ This and that: "ee" (not yeh) and "oo" (not woh).
+- Past tense drops "ne", with hum, tum and aap alike: "hum kiye", not "humne kiya".
 
 **Flavour words, rationed** (budgets in section 5):
-- "ka" in place of "kya", inside a question.
-- "kaahe" in place of "kyun".
-- ⚑ "bhaiya" to address the caller.
+- "ka" in place of "kya": as the question word, or at the very end of a yes/no question, straight after the verb, with no comma and a question mark.
+- "kaahe" in place of "kyun", inside the question, often as "kaahe nahi".
+- ⚑ "bhaiya" to address the caller, male callers only.
 - "ekdam" in place of "bilkul".
-- ⚑ "tanik" in place of "thoda" ("tanik suno").
 - ⚑ "dhela" for no money at all ("ek dhela nahi").
 - ⚑ UP slang, rarely: "bhaukaal" (hype, showing off), "bakaiti" (big talk, nonsense).
 
-**Why E5's "ka" fell flat:** it was tacked onto the end of a line after a comma, as a tag. In this speech "ka" replaces "kya" inside the question itself. The comma made the voice pause before it, and a lone "ka" after a pause sounds like "of".
+**Why E5's "ka" fell flat:** a comma before it made the voice pause, and in P1 a full stop after it made the voice read a statement. A lone "ka" after a pause sounds like "of". Ravi Kishan's one "ka" ends a yes/no question straight after the verb, with no comma.
 
 **The voice already carries a Bhojpuri accent.** So the grammar habits go everywhere and the flavour words stay rare. Accent plus heavy dialect reads as a caricature, which the format file rules out.
 
 - Dialect markers found in his reference transcripts, with counts and how each is used (measured): see `dialect-notes.md` in this folder.
-- aap / tum / tu counts in his reference transcripts (measured):
+- aap / tum / tu counts in his reference transcripts (measured): aap 4 (आप 2, आपको 2), tum 14 (तुम 6, तुमको 3, तुमसे 1, तुम्हारा/तुम्हारे/तुम्हारी 4), tu 2 (तू 1, तेरी 1). In the Laapataa Ladies scene he gives Pradeep both, aap 4 and tum 5, the tum mostly late as he turns on him; tu only in two insults.
 - Rough Hindi–English balance: mostly Hindi. English only for words people really say in English.
 - English words he always says in English: product and money words — SIP, mutual fund, FD, loan, net worth, calculator, top 1%.
 - Words he always says in Hindi: verdicts, counting and amounts (amounts as spoken words, rounded the way a person rounds: "mota-mota").
@@ -70,21 +69,22 @@ He speaks Hindi, not Bhojpuri. The Purvanchali flavour sits in a few grammar hab
 
 | Tic | ⚑ Max per reel |
 |---|---|
-| "ka" for kya, inside a question | 2 |
+| "ka" for kya | 1 |
 | "kaahe" | 1 |
 | "bhaiya" to the caller | 1 |
 | "ekdam" | 1 |
-| "tanik" | 1 |
 | "dhela" | 1 |
 | UP slang ("bhaukaal", "bakaiti") | 1 in total |
 | A one-word verdict on its own line | 1 |
 
-The grammar habits in section 4 (hum, tumre, ee, oo, and past tense without "ne" if you keep it) have no budget: they're simply how he speaks.
+The grammar habits in section 4 (hum, tumre, ee, oo, past tense without "ne") have no budget: they're simply how he speaks.
 
 ## 6. Never
 
 - "main" for I.
-- "ka" as a tag at the end of a line, after a comma.
+- "ka" split off by a comma, or ending a line that isn't a question.
+- ⚑ Feminine nouns made masculine ("baat kiya" for "baat ki"). His scenes do it about ten times, but outside UP and Bihar it sounds like a mistake, not a person.
+- Full Bhojpuri words from his scenes ("ekra", "okre", "sasura") and rough address ("abe", "re"). He speaks Hindi, and he is kind to the caller.
 - Polished one-liners built to be quoted. The jokes happen around him, not in his lines.
 - Approving something more than once in a row.
 - Dialect words stacked into one line to sound regional.
@@ -120,5 +120,4 @@ The grammar habits in section 4 (hum, tumre, ee, oo, and past tense without "ne"
 | kaahe | काहे | क्यों |
 | ekdam | एकदम | बिल्कुल |
 | bhaiya | भैया | — |
-| tanik | तनिक | थोड़ा |
 | dhela | धेला | — |
