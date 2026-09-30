@@ -46,7 +46,7 @@ Your task names two files.
 - <every listed path that didn't exist or was empty, or "None">
 ```
 
-After it, keep whatever of your thinking you want: checks, evidence, reasoning.
+After it, the evidence behind each finding or decision: the quoted line or fact, what you checked it against, and the result.
 
 ## 4. Reply
 

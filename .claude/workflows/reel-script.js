@@ -15,8 +15,8 @@ export const meta = {
 
 // The spec is prompts/script-writer.md. Each stage is its own agent (.claude/agents/reel-*.md) with fresh context.
 // An agent's task is two lists of labelled paths and nothing else: the inputs its stage's "Inputs" line names, and
-// where to write. Every stage writes a handoff (its "Output" list) and a working file for its own thinking; later
-// stages get handoffs only, never a working file (spec, "Think long, hand off short"). What a stage is not given is
+// where to write. Every stage writes a handoff (its "Output" list) and a working file (a record of evidence for the human); later
+// stages get handoffs only, never a working file (spec, "Handoff and working file"). What a stage is not given is
 // as much a part of the design as what it is: the writer never sees the research, and the critics never see the
 // research, the beats or the writer's notes.
 
@@ -141,7 +141,7 @@ const s1 = await run('reel-1-research', 'Stage 1 · research read', PH.s1,
   [['Handoff', P.s1], ['Working file', P.s1Work]])
 const take = verdict(s1, ['TAKE_POSSIBLE', 'NO_TAKE'])
 if (take === 'NO_TAKE') {
-  log(`Stage 1 says NO_TAKE. Stopped. The reasoning is in ${P.s1}.`)
+  log(`Stage 1 says NO_TAKE. Stopped. Its reasons are in ${P.s1}.`)
   return { slug: brief.slug, stopped: 'NO_TAKE', stage1: P.s1, agents: 1 }
 }
 if (take !== 'TAKE_POSSIBLE') throw new Error(`Stage 1 returned no verdict line. Its output, if any, is at ${P.s1}.`)

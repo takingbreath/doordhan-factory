@@ -50,7 +50,7 @@ Your task names three files: the two handoffs your section asks for, and your no
 - <every listed path that didn't exist or was empty, or "None">
 ```
 
-Then the notes your section asks for (word count, estimated duration, longest line, each departure from the guidance), and any thinking you want to keep.
+Then the notes your section asks for: word count, estimated duration, longest line, and each departure from the guidance.
 
 ## 4. Reply
 

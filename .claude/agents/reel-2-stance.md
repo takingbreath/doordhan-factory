@@ -35,7 +35,7 @@ Your inputs are exactly your section's **Inputs** line. The spec sections it nam
 
 Your task names three files.
 
-**The handoff** is your section's Output list, Chain line included. Only what the next stage will act on (the spec's "Think long, hand off short"): nothing you checked and cleared, nothing explained twice, and no list of the files you read.
+**The handoff** is your section's Output list, Chain line included. Only what the next stage will act on (the spec's "Handoff and working file"): nothing you checked and cleared, nothing explained twice, and no list of the files you read.
 
 **The stance file** holds the Stance sentence and nothing else: no heading, no quotation marks. Later stages read the locked stance from this file.
 
@@ -49,7 +49,7 @@ Your task names three files.
 - <every listed path that didn't exist or was empty, or "None">
 ```
 
-After it, keep whatever of your thinking you want: checks, evidence, reasoning.
+After it, the evidence behind each finding or decision: the quoted line or fact, what you checked it against, and the result.
 
 ## 4. Reply
 

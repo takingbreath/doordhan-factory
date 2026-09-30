@@ -237,9 +237,9 @@ It must also land the conclusion the stance promises, so the viewer could repeat
 
 ## 7. The loop
 
-### Think long, hand off short
+### Handoff and working file
 
-Every stage may think at whatever length it needs. If it writes that thinking down, it goes in the stage's own **working file**: checks, evidence, lines it cleared, reasoning.
+Every stage also writes a **working file**, a record for the human: the files it read, any that were missing, and the evidence behind each finding or decision (the quoted line or fact, what it was checked against, the result).
 
 What the next stage reads is a separate **handoff file**: only what that stage will act on. Nothing cleared, nothing repeated, nothing explained twice. The "Output" list in each stage below is its handoff.
 
@@ -262,7 +262,7 @@ Stages 1, 4b and 5 end their handoff with one final line in the form `VERDICT: <
 - the strongest counterargument to that case
 - if an upstream stance was supplied: whether the research supports it, and the strongest facts for it
 - anything this topic brushes against in §2
-- verdict: `TAKE_POSSIBLE` or `NO_TAKE`, with one line of reasoning
+- verdict: `TAKE_POSSIBLE` or `NO_TAKE`, with one line saying why
 
 No dialogue. One line per fact.
 
@@ -314,7 +314,7 @@ Rough is fine. Fragments, restarts, trailing off. Short and long lines mixed. Th
 **Save three separate files:**
 - the script alone, with nothing else in the file
 - a copy of the script with each character name replaced by Speaker A, Speaker B, and so on, in order of first appearance
-- a working file (your notes): word count, estimated duration (§5), longest line in words, one line for each place you departed from the guidance, and any thinking you want to keep
+- a working file: word count, estimated duration (§5), longest line in words, and one line for each place you departed from the guidance
 
 Critics never see the working file.
 
@@ -364,7 +364,7 @@ The handoff holds only what fails: for each line, the line, what's wrong in one 
 
 **Inputs:** the script, the locked stance, Stage 1 output, `CLAUDE.md`, the script bible, this week's plan, format file, §2, §3.
 
-In the handoff: every fail in full, every pass in one line. Your reasoning goes in your working file.
+In the handoff: every fail in full, every pass in one line. The evidence for each goes in your working file.
 
 **Output:**
 - **Stance drift:** read the script cold. Does the viewer walk away believing the locked stance, at full strength? If the script's real position is weaker, quote exactly where it softened.

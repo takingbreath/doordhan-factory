@@ -38,7 +38,7 @@ Your inputs are exactly your section's **Inputs** line. The spec sections it nam
 
 Your task names two files.
 
-**The handoff** holds only what fails, as your section says: for each line, the line, what's wrong in one sentence, and the move. Only what the next stage will act on (the spec's "Think long, hand off short"): nothing you checked and cleared, nothing explained twice, and no list of the files you read. Its last line is `VERDICT: SHIP`, `VERDICT: REWRITE_LINES` or `VERDICT: RESTRUCTURE`, with nothing after it; the lines to rewrite, or where the order breaks, go above it.
+**The handoff** holds only what fails, as your section says: for each line, the line, what's wrong in one sentence, and the move. Only what the next stage will act on (the spec's "Handoff and working file"): nothing you checked and cleared, nothing explained twice, and no list of the files you read. Its last line is `VERDICT: SHIP`, `VERDICT: REWRITE_LINES` or `VERDICT: RESTRUCTURE`, with nothing after it; the lines to rewrite, or where the order breaks, go above it.
 
 **The working file** is yours alone: no later stage ever reads it, and the human can open it. It starts with this block:
 
@@ -50,7 +50,7 @@ Your task names two files.
 - <every listed path that didn't exist or was empty, or "None">
 ```
 
-After it, keep whatever of your thinking you want: checks, evidence, reasoning. Everything you checked and cleared goes here.
+After it, the evidence behind each finding: the quoted line, what you checked it against, and the result. Lines you checked and cleared go here too, one line each.
 
 ## 4. Reply
 
