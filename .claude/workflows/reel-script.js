@@ -1,6 +1,6 @@
 export const meta = {
   name: 'reel-script',
-  description: 'Run the reel script loop from prompts/script-writer.md end to end, from a topic to the hand-off: research, the blueprint, the fact check (one revision at most), the writer, lint, critics and recall test, at most two rewrites, the performance pass and the hand-off. One named subagent per stage, each given only file paths.',
+  description: 'Run the reel script loop from prompts/script-writer.md end to end, from a topic to the hand-off: research, the blueprint, the fact check (one revision at most), the writer, lint, critics and recall test, one rewrite, then a reporting round, the performance pass and the hand-off. One named subagent per stage, each given only file paths.',
   whenToUse: 'When a reel needs a script for a topic. Takes a brief: slug, topic, format, cast, an optional stance, and an optional phase. "full", the default and what a brief without a phase runs, goes from the topic to the hand-off without stopping; "blueprint" stops after the fact check, so the human can read the blueprint first. The brief has no research path: Stage 1 researches the topic on the web. A workflow script cannot write files, so save the brief as work/<slug>/loop/brief.md before launching: Stage 1 reads the topic and any stance from that file. The run stops early on Stage 1\'s NO_TAKE (its reasons are in s1-research.md) or on a second FIX from the fact check (the result\'s "why" lists the items; the full check is in s2b-factcheck-2.md). After every run, before reporting anything else, the calling session reads the "## Missing" block at the top of every working file in work/<slug>/loop/ and reports each one that is not "None": the stage, and what was missing. The working files are s1-working, s2-working and s2b-working; after a revision, s2-working-2 and s2b-working-2; then r*-notes (writer and rewrites), r*-4a-working, r*-4b-working, r*-4d-working, r*-5-working, s7-working and s8-working. The lint and the recall runs (r*-4c-*) write no working file. A cast member with no voice folder at all gets one line, marked expected.',
   phases: [
     { title: 'Stage 1 · Research', detail: 'the web, the viewer\'s question, the crowd, the math in code; TAKE_POSSIBLE or NO_TAKE' },
@@ -9,23 +9,24 @@ export const meta = {
     { title: 'Stage 3 · Writer', detail: 'both openings, from the blueprint that passed the fact check' },
     { title: 'Stage 4 · Lint', detail: 'pipeline/script_lint.py on both versions' },
     { title: 'Stages 4–5 · Critics', detail: 'swap test, speech critique, recall test and check, stance and facts' },
-    { title: 'Stage 6 · Rewrite', detail: 'at most twice' },
+    { title: 'Stage 6 · Rewrite', detail: 'once' },
     { title: 'Stage 7 · Performance pass', detail: 'delivery tags and the lines file' },
     { title: 'Stage 8 · Hand-off', detail: 'the script message for the human' },
   ],
 }
 
-// The spec is prompts/script-writer.md (v3.3). Each stage is its own agent (.claude/agents/reel-*.md) with fresh
+// The spec is prompts/script-writer.md (v3.4). Each stage is its own agent (.claude/agents/reel-*.md) with fresh
 // context. An agent's task is two lists of labelled paths and nothing else: the inputs its stage's "Inputs" line
 // names, and where to write. Every model stage but the recall test writes a handoff (its "Output" list) and a working
 // file (a record of evidence for the human); later stages get handoffs only, never a working file (spec, "Handoff
 // and working file"). What a stage is not given is as much a part of the design as what it is: the fact check never
-// sees Stage 1's Python, so it recomputes rather than copies; the writer never sees the research; 4a, 4b and 4c never
-// see the research, the blueprint, the writer's notes or the lint; a recall reader sees one version of the script and
-// nothing else; the rewrite gets the lint's fails, never its report.
+// sees Stage 1's Python, so it recomputes rather than copies; the writer and the rewrite never see the research, the
+// script bible or the general reference speech; 4a, 4b and 4c never see the research, the blueprint, the writer's
+// notes or the lint; a recall reader sees one version of the script and nothing else; the rewrite gets the lint's
+// fails, never its report.
 
 const MAX_BLUEPRINTS = 2 // the blueprint and one revision; a second FIX stops the run
-const MAX_REWRITES = 2 // spec, "Loop control": more rounds make scripts worse
+const MAX_REWRITES = 1 // spec, "Loop control": one rewrite, then a reporting round; more rounds make scripts worse
 const RECALL_RUNS = 3 // spec, "4c — Recall test": three runs on each version
 
 // ---------------------------------------------------------------- the brief
@@ -91,7 +92,7 @@ const P = {
   s2bWork: n => nth(n, 's2b-working', 'md'),
   s2bMath: n => nth(n, 's2b-math', 'py'),
   stance: `${dir}/stance.md`,
-  // r0 is the writer's draft; r1 and r2 are the rewrites. Every round keeps its own files.
+  // r0 is the writer's draft; r1 is the rewrite. Every round keeps its own files.
   script: r => `${dir}/r${r}-script.md`, // the main opening
   alt: r => `${dir}/r${r}-script-alt.md`, // the other opening, every later line the same
   anon: r => `${dir}/r${r}-script-anon.md`,
@@ -123,6 +124,9 @@ const PLAN = ["House rules: this week's plan", 'docs/strategy.md']
 const HOUSE = [CLAUDE_MD, BIBLE, LEARNINGS, PLAN] // "all house rules"
 const FORMAT_FILE = `formats/${brief.format}.md`
 const FORMAT = [['Format file', FORMAT_FILE]]
+// The writer and the rewrite read only the format's contract, premise and characters (spec, Stages 3 and 6); their
+// agents find those sections by heading.
+const FORMAT_LEAN = [['Format file: the contract, premise and characters sections only', FORMAT_FILE]]
 const HOOK_MENU = [['Hook menu', 'docs/hook-menu.md']] // Stage 2 only; no stage reads docs/hooks.md (spec §0)
 // A character's voice files live in docs/voices/<name>/: voice-card.md, reference/ (transcripts and rhythm.md) and,
 // where one exists, dialect-notes.md, which counts as part of the reference transcripts (spec §0).
@@ -131,7 +135,7 @@ const REFS = brief.cast.flatMap(n => [
   [`Reference transcripts and rhythm.md (${n}), folder`, `docs/voices/${n}/reference/`],
   [`Dialect notes (${n}), part of the reference transcripts`, `docs/voices/${n}/dialect-notes.md`],
 ])
-const GENERAL = [['General reference speech, folder', 'docs/voices/general/reference/']] // the writer's only
+// No stage reads the general reference speech, docs/voices/general/reference/ (spec §0): it is kept for the human.
 const ALL_CARDS = [['All voice cards, folder', 'docs/voices/']] // no cast names: 4a must not be told who is speaking
 const VERSIONS = r => [['Script, main version', P.script(r)], ['Script, alternate version (the other opening)', P.alt(r)]]
 const SCRIPT_FILES = r => [ // what the writer and the rewrite save
@@ -233,10 +237,11 @@ if (brief.phase === 'blueprint') {
 }
 
 // ================================================================ Stage 3 onward, from the checked blueprint
-// Stage 3 inputs: Stage 2 output (the blueprint that passed the fact check), the script bible, format file, voice
-// cards, reference transcripts and rhythm.md, general reference speech.
+// Stage 3 inputs: Stage 2 output (the blueprint that passed the fact check), the format's contract, premise and
+// characters, the cast's voice cards, their reference transcripts, rhythm.md and dialect notes. Not the research, the
+// script bible or the general reference speech.
 const s3 = await run('reel-3-writer', 'Stage 3 · writer', PH.s3,
-  [['Stage 2 handoff (the blueprint that passed the fact check)', BP], BIBLE, ...FORMAT, ...CARDS, ...REFS, ...GENERAL],
+  [['Stage 2 handoff (the blueprint that passed the fact check)', BP], ...FORMAT_LEAN, ...CARDS, ...REFS],
   SCRIPT_FILES(0))
 if (/MISSING_BLUEPRINT/.test(s3)) {
   log(`Stage 3 found no blueprint at ${BP}. Stopped.`)
@@ -327,16 +332,17 @@ for (;;) {
   log(`Round ${r}: lint ${c.lint}, Stage 4b ${c.speech}, Stage 4d ${c.recall}, Stage 5 ${c.facts}.`)
   if (ships(c)) break
   if (rewrites === MAX_REWRITES) {
-    log(`Two rewrites done. Round ${r} only reports; its open issues go to the hand-off.`)
+    log(`The rewrite is done. Round ${r} only reports; its open issues go to the hand-off.`)
     break
   }
   rewrites += 1
-  // Stage 6 inputs: every version of the script, the lint's fails file (never its report), the 4b, 4d and Stage 5
-  // handoffs, Stage 2 output (the blueprint), the script bible, format file, the cast's voice cards and reference
-  // transcripts.
-  await run('reel-6-rewrite', `Stage 6 · rewrite ${rewrites}`, PH.s6,
-    [...VERSIONS(r), ['Lint fails file', P.lintFails(r)], ['Stage 4b handoff', P.critique(r)], ['Stage 4d handoff', P.check(r)],
-      ['Stage 5 handoff', P.facts(r)], ['Stage 2 handoff (the blueprint)', BP], BIBLE, ...FORMAT, ...CARDS, ...REFS],
+  // Stage 6 inputs: Stage 2 output (the blueprint), every version of the last script, the lint's fails file (never
+  // its report), the 4b, 4d and Stage 5 handoffs, the format's contract, premise and characters, the cast's voice
+  // cards, their reference transcripts, rhythm.md and dialect notes. It rewrites the reel whole, from the blueprint.
+  await run('reel-6-rewrite', 'Stage 6 · rewrite', PH.s6,
+    [['Stage 2 handoff (the blueprint)', BP], ...VERSIONS(r), ['Lint fails file', P.lintFails(r)],
+      ['Stage 4b handoff', P.critique(r)], ['Stage 4d handoff', P.check(r)], ['Stage 5 handoff', P.facts(r)],
+      ...FORMAT_LEAN, ...CARDS, ...REFS],
     SCRIPT_FILES(r + 1))
   r += 1
 }

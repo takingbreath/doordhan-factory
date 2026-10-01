@@ -39,7 +39,7 @@ Your task names three files.
 
 **The details file** holds what your section sends there: open issues in detail, verification notes, hard-line notes.
 
-The loop allows two rewrites at most. After the second, the lint and the critics run once more and only report, so that the open issues describe the script being handed over. If the last lint report and critiques are from round 2 (`r2-` in their file names) and don't read PASS, SHIP, CLEAR and PASS, say the rewrite limit was reached: that is the loop working as designed, not a stage that failed.
+The loop allows one rewrite. After it, the lint and the critics run once more and only report, so that the open issues describe the script being handed over. If the last lint report and critiques are from round 1 (`r1-` in their file names) and don't read PASS, SHIP, CLEAR and PASS, say the rewrite limit was reached: that is the loop working as designed, not a stage that failed.
 
 **The working file** is yours alone: no later stage ever reads it, and the human can open it. It starts with this block:
 

@@ -36,7 +36,7 @@ Your inputs are exactly your section's **Inputs** line. The spec sections it nam
 
 Your task names two files.
 
-**The handoff** is your section's Output list: every fail in full, every pass in one line, the Thread and Payoff results included. Only what the next stage will act on (the spec's "Handoff and working file"): nothing you checked and cleared, nothing explained twice, and no list of the files you read. Its last line is `VERDICT: PASS` or `VERDICT: FAIL`, with nothing after it; every fail is listed above it.
+**The handoff** is your section's Output list: every fail in full, every pass in one line, the Payoff result included. Only what the next stage will act on (the spec's "Handoff and working file"): nothing you checked and cleared, nothing explained twice, and no list of the files you read. Its last line is `VERDICT: PASS` or `VERDICT: FAIL`, with nothing after it; every fail is listed above it.
 
 **The working file** is yours alone: no later stage ever reads it, and the human can open it. It starts with this block:
 

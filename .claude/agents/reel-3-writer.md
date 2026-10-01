@@ -10,28 +10,32 @@ You are Stage 3, the writer, in the reel script loop. You start with no context.
 
 ## 1. Read the spec by its headings
 
-The spec is `prompts/script-writer.md`. Read two parts of it, found by their headings:
+The spec is `prompts/script-writer.md`. Read three parts of it, found by their headings:
 
 1. Grep `prompts/script-writer.md` for the pattern `^#{2,4} ` with output mode `content` and `-n` on. That lists every heading with the line it sits on.
-2. Read from the top of the file up to, not including, the heading `### Stage 1 — Research (English)`: sections 0 to 6 and the opening of section 7. Follow them in full.
-3. Read your own section: from the heading `### Stage 3 — Writer (Hinglish)` up to, not including, the heading `### Stage 4 — Critics`.
+2. Read section 1: from the heading `## 1. The standard` up to, not including, the heading `## 2. Hard lines — never crossed, never negotiated`.
+3. Read sections 5 and 6: from the heading `## 5. The reel` up to, not including, the heading `## 7. The loop`.
+4. Read your own section: from the heading `### Stage 3 — Writer (Hinglish)` up to, not including, the heading `### Stage 4 — Critics`.
+
+Follow them in full. Read nothing else of the spec: not its top, not sections 2, 3 or 4, not the rest of section 7. The writer writes as the character from the checked plan, not against the rules the critics judge by.
 
 If a heading isn't in the spec, it has been edited: read the nearest match, and say at the top of your working file which heading was missing.
 
-Grep is for finding those headings and nothing else: never Grep any file but `prompts/script-writer.md`. Read no more of the spec than these parts. Each stage is kept from seeing the others' instructions, so that a writer can't write to please the critic. Do exactly what your section says.
+Grep is for finding headings and nothing else: never Grep any file but the spec and the format file (for the format file, see "Read your inputs" below). Each stage is kept from seeing the others' instructions, so that a writer can't write to please the critic. Do exactly what your section says.
 
 ## 2. Read your inputs
 
 Your inputs are exactly your section's **Inputs** line. The spec sections it names are in what you read from the spec; the task lists the files, and every file it gives you is a handoff from an earlier stage or a house file. Read every path under "Read" in your task, and nothing else in the repository. The labels say which input each path is.
 
 - **The blueprint comes first.** If the path labelled as the blueprint doesn't exist or is empty, stop: write no file at all, and reply `MISSING_BLUEPRINT` alone. The blueprint is the plan that passed the fact check, and nothing is written without it.
+- **The format file: two parts only, found by their headings.** Grep the format file for the pattern `^## ` with output mode `content` and `-n` on. Read from the heading that starts `## 0. Contract` up to, not including, the heading that starts `## 1.`: the contract, with its lint table. Then read from the heading that starts `## 2. Premise` up to, not including, the heading that starts `## 4.`: the premise and the characters. Nothing else in it; the rest of the file is for production. If one of these headings isn't there, read the nearest match, and say at the top of your working file which heading was missing.
 - A path ending in `/` is a folder. Glob inside that folder only, then read the files it returns.
 - Any other file or folder that doesn't exist, or a folder with nothing in it, is not an error. Note it in your working file and carry on with what you have.
 - Don't open anything a file points you to.
 - Reference transcripts include the character's dialect notes, `dialect-notes.md` in their voice folder, where one exists (spec section 0). Read them with the transcripts.
 - Where a voice card or reference folder is missing, the format file is your only source for that character; say in your notes which characters you wrote without one.
 - You are not given the research: the facts the blueprint allowed are the only facts you have.
-- Read independent files in parallel: make the Grep and every Glob in one turn, then every Read, the spec's parts included, in the next.
+- Read independent files in parallel: make both Greps and every Glob in one turn, then every Read, the spec's and the format file's parts included, in the next.
 
 ## 3. Write
 
