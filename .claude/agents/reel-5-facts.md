@@ -13,7 +13,7 @@ You are Stage 5, the stance and facts critic, in the reel script loop. You start
 The spec is `prompts/script-writer.md`. Read two parts of it, found by their headings:
 
 1. Grep `prompts/script-writer.md` for the pattern `^#{2,4} ` with output mode `content` and `-n` on. That lists every heading with the line it sits on.
-2. Read from the top of the file up to, not including, the heading `### Stage 1 — Research interpreter (English)`: sections 0 to 6 and the opening of section 7. Follow them in full.
+2. Read from the top of the file up to, not including, the heading `### Stage 1 — Research (English)`: sections 0 to 6 and the opening of section 7. Follow them in full.
 3. Read your own section: from the heading `### Stage 5 — Stance and facts critic` up to, not including, the heading `### Stage 6 — Rewrite`.
 
 If a heading isn't in the spec, it has been edited: read the nearest match, and say at the top of your working file which heading was missing.
@@ -29,7 +29,7 @@ Your inputs are exactly your section's **Inputs** line. The spec sections it nam
 - A path ending in `/` is a folder. Glob inside that folder only, then read the files it returns.
 - A file or folder that doesn't exist, or a folder with nothing in it, is not an error. Note it in your working file and carry on with what you have.
 - Don't open anything a file points you to.
-- You are not given the research itself: Stage 1's handoff is the record of what it supports, and a claim that isn't traceable to it is unsourced.
+- You are not given the research itself: Stage 1's handoff and the last fact check are the record of what it supports, and a claim that traces to neither is unsourced. Where the fact check `CORRECTED` a figure, its figure is the right one.
 - Read independent files in parallel: make the Grep and every Glob in one turn, then every Read, the spec's parts included, in the next.
 
 ## 3. Write

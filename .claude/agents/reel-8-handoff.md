@@ -13,7 +13,7 @@ You are Stage 8, the hand-off, in the reel script loop. You start with no contex
 The spec is `prompts/script-writer.md`. Read two parts of it, found by their headings:
 
 1. Grep `prompts/script-writer.md` for the pattern `^#{2,4} ` with output mode `content` and `-n` on. That lists every heading with the line it sits on.
-2. Read from the top of the file up to, not including, the heading `### Stage 1 — Research interpreter (English)`: sections 0 to 6 and the opening of section 7. Follow them in full.
+2. Read from the top of the file up to, not including, the heading `### Stage 1 — Research (English)`: sections 0 to 6 and the opening of section 7. Follow them in full.
 3. Read your own section: from the heading `### Stage 8 — Hand-off to human` to the end of the file.
 
 If a heading isn't in the spec, it has been edited: read the nearest match, and say at the top of your working file which heading was missing.
@@ -28,7 +28,7 @@ Your inputs are exactly your section's **Inputs** line. The spec sections it nam
 - A path ending in `/` is a folder. Glob inside that folder only, then read the files it returns.
 - A file or folder that doesn't exist, or a folder with nothing in it, is not an error. Note it in your working file and carry on with what you have.
 - Don't open anything a file points you to.
-- Source links come from Stage 1's handoff; if a claim in the script has no link there, say so in the fact box instead of looking for one.
+- Source links come from Stage 1's handoff and the last fact check; where the fact check `CORRECTED` a figure, use its figure and its link. If a claim in the script has no link in either, say so in the fact box instead of looking for one.
 - Read independent files in parallel: make the Grep and every Glob in one turn, then every Read, the spec's parts included, in the next.
 
 ## 3. Write

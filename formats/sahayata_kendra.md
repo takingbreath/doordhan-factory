@@ -14,7 +14,7 @@ Set by Akhilesh, 2026-10-01. The script loop (prompts/script-writer.md) and the 
   - Pandey's line is on screen, big, from the first frame. The caller's question text builds after it.
 - **Cast:** Pandey, the caller, and Billu in every episode. Billu is silent: one beat at most, usually the button.
 - **Hook types:** the two openings above, matched to types in `docs/hooks.md`.
-- **Numbers:** at most 4 in the reel, never 3 in one line. A return in a worked example is said out loud as an assumption ("12% maan ke").
+- **Numbers:** aim for 4 or fewer in the reel, and never 3 in one line. A number the viewer brings from their own life (their salary, their spending) doesn't count. The blueprint may go over when the viewer's own sum needs it, and says why; the recall test then shows whether viewers kept up. A return in a worked example is said out loud as an assumption ("12% maan ke").
 - **Button:** Billu's beat or Pandey's reaction. The last spoken line may echo the opening line.
 - **This week's bets:** B1 (hook in frame one) and B3 (a line worth sending) apply. B2 (tight 20–30 s) does not apply to this format.
 
@@ -47,7 +47,7 @@ Set by Akhilesh, 2026-10-01. The script loop (prompts/script-writer.md) and the 
 - **Length: 40–60 s, 70 s at most** (Akhilesh, 2026-10-01). Use the time the story needs; don't over-optimise for seconds. E5 ran 67 s.
 - **He may write the script.** When he does, voice it as written. Flag a fact or compliance problem once, then it's his call. E5 kept "₹1 crore ka ghar" and "comment karo / like karo".
 - **Pace:** Pandey speaks a little fast by default, and slows only for emphasis.
-- **Research first, script second:** for a question episode, bring him the researched answer (sources and numbers) before any script.
+- **End to end** (Akhilesh, 2026-10-01, replacing "research first, script second"): the loop researches, plans and writes from the topic alone, and he judges the finished script.
 - **Billu is in every episode's cast** (Akhilesh, 2026-10-01), so the script can use him.
 
 **Look and set**
