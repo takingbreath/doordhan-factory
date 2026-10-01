@@ -8,7 +8,7 @@ real options, and a Hinglish draft he can punch up in two minutes. Clarity beats
 2. Three hook options (A/B/C) and two ending options (X/Y), in English.
 3. The full Hinglish script for your recommended combination, with speaker tags and delivery tags, e.g.
    **ANCHOR** [crisp]: ...
-4. Word count and estimated duration (about 2.9 spoken words per second after the 1.15 tempo). Target 20–30 seconds in total, never over 30: about 50–75 spoken words plus the 2.5 s montage.
+4. Word count and estimated duration (about 2.9 spoken words per second after the 1.15 tempo). Target 20–30 seconds in total, never over 30: about 50–75 spoken words plus the 2.5 s montage. Sahayata Kendra: 40–60 s, 70 s at most.
 5. Fact box: every number or claim, with its source link.
 6. Anything that needs his decision (length over cap, compliance edge).
 7. Wardrobe: one line per on-screen character with this episode's outfit (new every episode; see the format file), e.g. "Sarika: bottle-green georgette, sweetheart blouse, low bun".
@@ -31,7 +31,7 @@ real options, and a Hinglish draft he can punch up in two minutes. Clarity beats
 - One real joke line per reel minimum. Jokes land on the system, the seller or the herd.
 - Characters in shot speak; long explanations go to the correspondent or a voice-over.
 - Numbers: at most two per reel, and round them the way a person would say them.
-- Compliance: no buy/sell calls, no promised returns (a hard rule in CLAUDE.md). Also avoid "guaranteed" and "risk-free", and don't pair price data under 30 days old with a named stock in a directional way (SEBI, from 1 Jul 2026). No "share/comment/tag" asks: Meta demotes them. Details in docs/platform-playbook.md.
+- Compliance: never tell viewers to buy or sell a specific stock (hard rule 3 in CLAUDE.md). A return in a worked example is said out loud as an assumption: 12% a year for equity mutual funds ("12% maan ke"). Akhilesh handles the rest of compliance at the script gate. No "share/comment/tag" asks: Meta demotes them. Details in docs/platform-playbook.md.
 
 ## What didn't land with Akhilesh (learn from it; don't fear trying new things)
 - Clever-but-unclear hooks (a GMP countdown "300... 200... 150... 60" read as noise).

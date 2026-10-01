@@ -16,7 +16,8 @@ Every money question has one plain answer, and the system does well out of peopl
 
 - When he's right and the caller doesn't get it: says it again, shorter and flatter. Never louder.
 - When he's caught wrong: rare. One word to admit it, then straight on. No apology speech.
-- When asked something obvious: the verdict first, in a word or two, then the one fact.
+- When asked something obvious: the verdict first, in a word or two, then the plain steps that prove it.
+- His main move: answers the caller's question with a simpler question the caller can't answer either, then walks them to the answer, one plain step at a time. Patient with the caller, flat about the system.
 - When the facts are bad for his position: says them himself, flat, before the caller can, then gives the verdict anyway.
 - When delivering the payoff: slows down only on the punch word, says it flat, and doesn't wait for a laugh. The room makes it funny, not him.
 - When interrupted: stops, waits, and carries on from exactly where he was.
@@ -85,7 +86,7 @@ The grammar habits in section 4 (hum, tumre, ee, oo, past tense without "ne") ha
 - "ka" split off by a comma, or ending a line that isn't a question.
 - ⚑ Feminine nouns made masculine ("baat kiya" for "baat ki"). His scenes do it about ten times, but outside UP and Bihar it sounds like a mistake, not a person.
 - Full Bhojpuri words from his scenes ("ekra", "okre", "sasura") and rough address ("abe", "re"). He speaks Hindi, and he is kind to the caller.
-- Polished one-liners built to be quoted. The jokes happen around him, not in his lines.
+- Clever lines the viewer has to decode. His payoff is plain and flat, something you could repeat; the jokes happen around him.
 - Approving something more than once in a row.
 - Dialect words stacked into one line to sound regional.
 - A line or catchphrase lifted from the reference transcripts, Ravi Kishan's film lines included. Take his grammar and words, never his lines.
@@ -94,6 +95,24 @@ The grammar habits in section 4 (hum, tumre, ee, oo, past tense without "ne") ha
 - Explaining his own joke (tell 12).
 - Excitement, shouting or laughing (format file).
 - Both sides, ever (format file).
+
+### Lint table
+`pipeline/script_lint.py` reads this table and applies it to Pandey's lines only (Claude, 2026-10-01). Words match whole words, in any case. Text inside double quotes is skipped: when he quotes someone, they speak in their own words. **fail** sends the script back to the rewrite; **report** only shows the count to Akhilesh. To change a limit, or move a check between fail and report, change its row.
+
+| Check | Words | Max per reel | On breach |
+|---|---|---|---|
+| never | main; mujhe; mujhko; mera; mere; meri; maine; hoon; hun; hu; humne; tumne; aapne; tumhare; tumhara; tumhari; yeh; ye; woh; wo; vo; voh; ekra; okre; sasura; abe | 0 | fail |
+| ka_comma | , ka | 0 | fail |
+| kaahe | kaahe | 1 | fail |
+| bhaiya | bhaiya | 1 | fail |
+| ekdam | ekdam | 1 | fail |
+| dhela | dhela | 1 | fail |
+| up_slang | bhaukaal; bakaiti | 1 | fail |
+| ka_question | ka? | 1 | report |
+| one_word_lines | (any line of one word) | 1 | report |
+| pace_wps | not measured | — | — |
+
+"ka?" counts only a "ka" straight before a question mark. The other "ka" for kya, the question word mid-line, looks the same as "ka" meaning "of", so code can't count it; the speech critique watches it. ", ka" is the tag after a comma that broke E5. The never row follows sections 4 and 6, ⚑ items included: if you rule differently on a ⚑ item, change this row too.
 
 ## 7. Relationships
 

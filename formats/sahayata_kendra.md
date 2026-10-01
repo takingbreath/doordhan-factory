@@ -2,12 +2,53 @@
 
 _Created 2026-09-27 from Akhilesh's brief; rewritten after the debut, E5 "Top 1% net worth kitna?" (approved v4, 67 s). Read all of this before any Kendra episode. Section 1 holds Akhilesh's rulings: follow them unless he changes them. Everything after it is what worked, and you're free to improve it (then update this file)._
 
+## 0. Contract (the script writer reads this first)
+Set by Akhilesh, 2026-10-01. The script loop (prompts/script-writer.md) and the lint (pipeline/script_lint.py) read their limits from here.
+
+- **Length:** 40–60 s; 70 s at most.
+- **Fixed parts, not in the script:** the ring, about 1 s; the closing card, 4.8 s.
+- **Opening, two variants (try both):**
+  - **Question headline:** Pandey's first line states the reel's question, flat, in 8 words at most.
+  - **Verdict:** Pandey's first line is his flat verdict, in 8 words at most.
+  - Then one ring, then the caller's question. It adds the caller's own stake (their amount, their situation) and never repeats Pandey's line. The caller is heard by about 4 s (Akhilesh, 2026-10-01: 8 words take about 3 s at Pandey's pace, then the ring).
+  - Pandey's line is on screen, big, from the first frame. The caller's question text builds after it.
+- **Cast:** Pandey, the caller, and Billu in every episode. Billu is silent: one beat at most, usually the button.
+- **Hook types:** the two openings above, matched to types in `docs/hooks.md`.
+- **Numbers:** at most 4 in the reel, never 3 in one line. A return in a worked example is said out loud as an assumption ("12% maan ke").
+- **Button:** Billu's beat or Pandey's reaction. The last spoken line may echo the opening line.
+- **This week's bets:** B1 (hook in frame one) and B3 (a line worth sending) apply. B2 (tight 20–30 s) does not apply to this format.
+
+### Lint table
+`pipeline/script_lint.py` reads this table (Claude, 2026-10-01). **fail** sends the script back to the rewrite. **report** only measures: the result goes to Akhilesh at the script gate and never sends a script back. To make a check stricter or looser, change its row; no code changes. Times are estimates from the pace rows, which is why length only reports until Pandey's rendered pace is in his voice card.
+
+| Check | Limit | On breach | What it checks |
+|---|---|---|---|
+| cast | PANDEY; CALLER; BILLU | fail | Every line's speaker is one of these. |
+| silent | BILLU | fail | These never speak. Each of their lines is one action in square brackets, 5 words at most, and nothing else. |
+| silent_beats_max | 1 | fail | Silent beats in the reel, at most. |
+| opening_order | PANDEY; CALLER | fail | The first spoken lines, in this order. |
+| versions_match | PANDEY's 2nd line | fail | Every version is word for word the same from this line to the end. |
+| banned_phrases | comment karo; share karo; tag karo; like karo; subscribe karo; follow karo | fail | No spoken line contains these. |
+| length_max_s | 70 | report | Estimated length, at most. Make it fail once Pandey's rendered pace is measured. |
+| length_aim_s | 40–60 | report | Estimated length, the aim. |
+| opening_words | 8 | report | Words in the first spoken line, at most. |
+| second_speaker_by_s | 4 | report | When the caller starts, at most: Pandey's first line, then the ring. |
+| numbers_reel | 4 | report | Numbers in the reel, at most. |
+| numbers_line | 2 | report | Numbers in one line, at most. |
+| return_assumption | maan ke; maan lo; maante hain; assume | report | Every percentage has one of these in its line or the line before. |
+| silent_beats_min | 1 | report | Silent beats in the reel, at least. |
+| pace_wps | 2.9 | — | Words per second for any speaker whose voice card has no rendered pace (the script bible's estimate). |
+| ring_s | 1 | — | The ring. |
+| card_s | 4.8 | — | The closing card. |
+| beat_s | 1 | — | Each silent beat. |
+
 ## 1. Akhilesh's rulings (2026-09-27)
 **Script and length**
-- **No 30 s cap for this format.** Don't over-optimise for seconds; the format is meant to run a little long. E5 ran 67 s.
+- **Length: 40–60 s, 70 s at most** (Akhilesh, 2026-10-01). Use the time the story needs; don't over-optimise for seconds. E5 ran 67 s.
 - **He may write the script.** When he does, voice it as written. Flag a fact or compliance problem once, then it's his call. E5 kept "₹1 crore ka ghar" and "comment karo / like karo".
 - **Pace:** Pandey speaks a little fast by default, and slows only for emphasis.
 - **Research first, script second:** for a question episode, bring him the researched answer (sources and numbers) before any script.
+- **Billu is in every episode's cast** (Akhilesh, 2026-10-01), so the script can use him.
 
 **Look and set**
 - **The look is `kendra`:** clearer and brighter than Samachar's `broadcast`. The broadcast grain was "too huge" and the colour "very dull".
@@ -44,8 +85,8 @@ _Created 2026-09-27 from Akhilesh's brief; rewritten after the debut, E5 "Top 1%
 
 **Camera and edit**
 - **Moving camera:** pans, multiple angles, POVs, punch-ins and pull-outs. "The edit has to be a banger."
-- **Cold open:** Billu is visible in the first 2–3 s, big in frame, and both of them look at the ringing phone. Billu turns his whole head, not a side-eye.
-- **Two rings,** not four.
+- **Cold open:** Pandey's opening line comes first, with Billu big in frame (section 0). Then one ring: both of them look at the phone, and Billu turns his whole head, not a side-eye. The caller is heard by about 4 s (Akhilesh, 2026-10-01): Pandey's line, then the ring, and nothing else may hold back the hook.
+- **One ring** (Akhilesh, 2026-10-01; before that, two rings).
 - **Hang-up after the call:** Pandey puts the phone down after the caller, and before he speaks.
 - **Question text:** the text clears first, then he hangs up on a clean frame.
 - **Cuts:** never cut while he looks about to speak; cut right after the last word.
@@ -63,7 +104,7 @@ _Created 2026-09-27 from Akhilesh's brief; rewritten after the debut, E5 "Top 1%
 **Caption:** E5 went out without "Not investment advice". It's an evergreen wealth fact, not a product, and that was Akhilesh's call. Hard rule 3 in CLAUDE.md still applies by default, so ask him at the final gate every time.
 
 ## 2. Premise and when to use it
-A 1980s–90s government-style helpline. Vidyasagar Pandey, the last desk at the end of every transfer chain, answers one money question per call with one fact and one flat verdict. He is kind to callers and brutal to the system.
+A 1980s–90s government-style helpline. Vidyasagar Pandey, the last desk at the end of every transfer chain, answers one money question per call: a few plain steps the caller can follow, then one flat verdict. He is kind to callers and brutal to the system.
 - **Use it for:** evergreen "everyone wonders, nobody googles" questions, sacred cows ("SIP se ameer ban jaayenge na?"), and debunks of viral reel claims.
 - **Not for:** news, which stays with Samachar.
 
@@ -86,8 +127,8 @@ Original character; no resemblance to any real person.
   - Hindi with a light Bihari/Bhojpuri flavour ("ka", "hum", "kahe"), never a caricature.
   - He never shouts, laughs or gets excited.
 - **Behaviour:**
-  - One clear verdict backed by one fact, never both sides.
-  - Verdicts are about behaviour, products and myths, never buy/sell calls or promised returns.
+  - One clear verdict, reached in a few plain steps the caller can follow, never both sides.
+  - Verdicts are about behaviour, products and myths, never a call to buy or sell a specific stock.
   - He isn't a clown, angry or a lecturer. Things are funny around him.
 
 ### Billu, the office cat
@@ -104,6 +145,7 @@ Original character; no resemblance to any real person.
 - **On screen:** never. They're heard through a landline.
 - **Casting:** a new ElevenLabs voice each episode. E5 used "Bobby – Energetic natural voiceover" (`YgpoWAqBbWpygO1YiIEI`).
 - **Tone:** the caller is every viewer, sincere and never mocked.
+- **Their line:** they ring once and are gone, so their one line carries their stake. The moves that fit it are in `docs/hook-menu.md` (read by the blueprint stage).
 
 ## 4. Set, floor plan and keyframes
 - **Room:**
@@ -180,17 +222,20 @@ Original character; no resemblance to any real person.
 
 ## 7. Episode shape (the Question type, as E5 proved it)
 
+Timings updated 2026-10-01: Pandey's opening line first, then one ring, with the caller heard by about 4 s. E5 opened on the rings and the caller.
+
 | Beat | What happens |
 |---|---|
-| 0–2.7 s | Cold open: straight shot, Billu big at left, the phone ringing ("TRRRING!" on screen). Billu turns his head, then Pandey looks down at the phone. Slow creep in. |
-| 2.7 s | Crash zoom into the listening close-up on the pick-up click. |
-| ~3.5–8.6 s | The caller asks. The English question builds word by word, pops on each word, thud on the key number. |
-| ~8.6–9.2 s | The question zooms out and clears. |
-| ~9.2 s | Overhead hang-up with a clack and a jolt. |
-| ~9.9 s | His answer, one line per talking shot. The camera pulls back on his sigh; new framings (crops) on each counted item. |
+| 0–3 s | Cold open: Pandey says his opening line to camera, Billu big at left. The line is on screen, big, from the first frame. |
+| ~3 s | One ring ("TRRRING!" on screen). Billu turns his head, Pandey looks down at the phone. |
+| ~4 s | Crash zoom into the listening close-up on the pick-up click. |
+| ~4–9 s | The caller asks. The English question builds word by word, pops on each word, thud on the key number. |
+| ~9–9.6 s | The question zooms out and clears. |
+| ~9.6 s | Overhead hang-up with a clack and a jolt. |
+| ~10.3 s | His answer, one line per talking shot. The camera pulls back on his sigh; new framings (crops) on each counted item. |
 | mid-answer | A whip pan to Billu for one beat (E5: "Loan hai?"), then a whip back to a slam. |
 | verdict | A crash zoom on the eyes for the turn ("Nahi"), then the number slam, a riser and a slow push. |
-| comment / like | He points down; arrows on screen. |
+| comment / like | E5 only: Akhilesh wrote that line. A loop script doesn't ask for comments or likes (script bible), and the lint fails it. |
 | Billu line | Two-shot, zooming slowly into Billu, running straight into his blink and turn-away (one continuous angle). |
 | end | One ring. He hangs up without answering (overhead clack). |
 | last 4.8 s | Closing card. |

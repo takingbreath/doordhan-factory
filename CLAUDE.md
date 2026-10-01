@@ -13,7 +13,7 @@ He approves three things; his teammate Naveen may approve two of them (below). E
 ## Hard rules (the only non-negotiables; change them only with Akhilesh's agreement)
 1. **Three approval gates:** the story pick (Akhilesh), the script and the final video (Akhilesh or Naveen; agreed by Akhilesh 2026-09-26, to revisit if needed). No episode credits are spent before the script is approved. Spending beyond the budgets still needs Akhilesh.
 2. **Money:** up to 60 Higgsfield credits per episode, plus up to 15 credits a week on experiments (new models, looks, voices, formats), without asking. Above either, ask with a breakdown. Log what you spend.
-3. **Compliance:** no buy/sell calls and no promised returns (SEBI finfluencer rules). Strengths, weaknesses and "keep it on your watchlist" are fine. Every caption says "Not investment advice". Posts carry Instagram's AI label; the profile carries the AI-generated profile label.
+3. **Compliance:** never tell viewers to buy or sell a specific stock. That is the only content limit (Akhilesh, 2026-10-01). A return used in a worked example is said out loud as an assumption ("12% maan ke"). Everything else on compliance is Akhilesh's call at the script gate. Every caption says "Not investment advice". Posts carry Instagram's AI label; the profile carries the AI-generated profile label.
 4. **Real people:** no real person's likeness, and no cloned voice of a real person without their consent. A real company's official logo is fine when the reel is about that company; never have an image model draw it.
 5. **Secrets:** never print, log or commit API keys.
 6. **Publishing:** Akhilesh posts. You never publish anything publicly.
@@ -30,7 +30,7 @@ Everything below is accumulated experience, not law.
 If you think one of these is holding the channel back, say so at a gate.
 - **Audience:** late 20s to 30s, finance-aware. Use everyday jargon (IPO, GMP, listing gain, SIP) without explaining it. Don't treat viewers as dumb; do cut genuinely unfamiliar mechanics.
 - **Interesting beats important.** Clickbait-style headlines are a good signal of what is interesting.
-- **One idea per reel, 20 to 30 seconds** (Akhilesh, 2026-09-25): never over 30. That is about 50 to 75 spoken words at the 1.15 tempo, plus the 2.5 s title montage. If a script runs over, cut it before sending, don't just flag it.
+- **One idea per reel, 20 to 30 seconds** (Akhilesh, 2026-09-25): never over 30. That is about 50 to 75 spoken words at the 1.15 tempo, plus the 2.5 s title montage. If a script runs over, cut it before sending, don't just flag it. Sahayata Kendra is the exception: 40–60 s, 70 s at most (Akhilesh, 2026-10-01; formats/sahayata_kendra.md).
 - **Structure that has worked:** 0–2s the strongest statement; 2–5s why the viewer should care; 5–20s the evidence; 20–28s a payoff that answers the hook.
 - **Hooks that landed** were plain statements of the viewer's own stake ("Was investing in the NSE IPO a mistake?"). Clever-but-unclear hooks didn't.
 - **News reels** open like a news reading, not a sales pitch.
