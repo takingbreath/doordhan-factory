@@ -15,6 +15,7 @@ Set by Akhilesh, 2026-10-01. The script loop (prompts/script-writer.md) and the 
 - **Cast:** Pandey, the caller, and Billu in every episode. Billu is silent: one beat at most, usually the button.
 - **Hook types:** the two openings above, matched to types in `docs/hooks.md`.
 - **Numbers:** aim for 4 or fewer in the reel, and never 3 in one line. A number the viewer brings from their own life (their salary, their spending) doesn't count. The blueprint may go over when the viewer's own sum needs it, and says why; the recall test then shows whether viewers kept up. A return in a worked example is said out loud as an assumption ("12% maan ke").
+- **How numbers are said** (Akhilesh, 2026-10-01): Hindi words for 1 to 20 and for the round tens, sau, hazaar, lakh and crore (bees, tees, chaalees, pachaas, saath, sattar, assi, nabbe). Every other number in English: "ninety six", "fifty three", not chhiyanve or tirpan. A mixed amount keeps its Hindi unit: "fifty three arab dollar", "do lakh".
 - **Button:** Billu's beat or Pandey's reaction. The last spoken line may echo the opening line.
 - **This week's bets:** B1 (hook in frame one) and B3 (a line worth sending) apply. B2 (tight 20–30 s) does not apply to this format.
 
