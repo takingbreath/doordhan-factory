@@ -13,13 +13,13 @@ You are Stage 4a, the swap test, in the reel script loop. You start with no cont
 The spec is `prompts/script-writer.md`. Read three parts of it, found by their headings:
 
 1. Grep `prompts/script-writer.md` for the pattern `^#{2,4} ` with output mode `content` and `-n` on. That lists every heading with the line it sits on.
-2. Read from the top of the file up to, not including, the heading `### Stage 1`: sections 0 to 6 and the opening of section 7. Follow them in full.
-3. Read the Stage 4 preamble: from the heading `### Stage 4 — Speech critic` up to, not including, `#### 4a`.
-4. Read your own section: from the heading `#### 4a — Swap test` up to, not including, the heading `#### 4b`.
+2. Read from the top of the file up to, not including, the heading `### Stage 1 — Research interpreter (English)`: sections 0 to 6 and the opening of section 7. Follow them in full.
+3. Read the Stage 4 preamble: from the heading `### Stage 4 — Critics` up to, not including, the heading `#### Lint`.
+4. Read your own section: from the heading `#### 4a — Swap test` up to, not including, the heading `#### 4b — Speech critique`.
 
 If a heading isn't in the spec, it has been edited: read the nearest match, and say at the top of your working file which heading was missing.
 
-Grep is for finding those headings and nothing else: never Grep any file but `prompts/script-writer.md`. Read no more of the spec than these parts. That leaves out 4b, which is another agent's job. Do exactly what your section says.
+Grep is for finding those headings and nothing else: never Grep any file but `prompts/script-writer.md`. Read no more of the spec than these parts. That leaves out the lint and the other critics, which are other agents' jobs. Do exactly what your section says.
 
 ## 2. Read your inputs
 

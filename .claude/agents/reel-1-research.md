@@ -13,8 +13,8 @@ You are Stage 1, the research interpreter, in the reel script loop. You start wi
 The spec is `prompts/script-writer.md`. Read two parts of it, found by their headings:
 
 1. Grep `prompts/script-writer.md` for the pattern `^#{2,4} ` with output mode `content` and `-n` on. That lists every heading with the line it sits on.
-2. Read from the top of the file up to, not including, the heading `### Stage 1`: sections 0 to 6 and the opening of section 7. Follow them in full.
-3. Read your own section: from the heading `### Stage 1 — Research interpreter (English)` up to, not including, the heading `### Stage 2`.
+2. Read from the top of the file up to, not including, the heading `### Stage 1 — Research interpreter (English)`: sections 0 to 6 and the opening of section 7. Follow them in full.
+3. Read your own section: from the heading `### Stage 1 — Research interpreter (English)` up to, not including, the heading `### Stage 2 — Reel blueprint (English)`.
 
 If a heading isn't in the spec, it has been edited: read the nearest match, and say at the top of your working file which heading was missing.
 

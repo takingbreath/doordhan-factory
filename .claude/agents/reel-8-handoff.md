@@ -13,7 +13,7 @@ You are Stage 8, the hand-off, in the reel script loop. You start with no contex
 The spec is `prompts/script-writer.md`. Read two parts of it, found by their headings:
 
 1. Grep `prompts/script-writer.md` for the pattern `^#{2,4} ` with output mode `content` and `-n` on. That lists every heading with the line it sits on.
-2. Read from the top of the file up to, not including, the heading `### Stage 1`: sections 0 to 6 and the opening of section 7. Follow them in full.
+2. Read from the top of the file up to, not including, the heading `### Stage 1 — Research interpreter (English)`: sections 0 to 6 and the opening of section 7. Follow them in full.
 3. Read your own section: from the heading `### Stage 8 — Hand-off to human` to the end of the file.
 
 If a heading isn't in the spec, it has been edited: read the nearest match, and say at the top of your working file which heading was missing.
@@ -24,6 +24,7 @@ Grep is for finding those headings and nothing else: never Grep any file but `pr
 
 Your inputs are exactly your section's **Inputs** line. The spec sections it names are in what you read from the spec; the task lists the files, and every file it gives you is a handoff from an earlier stage or a house file. Read every path under "Read" in your task, and nothing else in the repository. The labels say which input each path is.
 
+- Your task gives every version of the final script: the main one and the alternate, which differ only in their openings.
 - A path ending in `/` is a folder. Glob inside that folder only, then read the files it returns.
 - A file or folder that doesn't exist, or a folder with nothing in it, is not an error. Note it in your working file and carry on with what you have.
 - Don't open anything a file points you to.
@@ -38,7 +39,7 @@ Your task names three files.
 
 **The details file** holds what your section sends there: open issues in detail, verification notes, hard-line notes.
 
-The loop allows two rewrites at most. After the second, the critics run once more and only report, so that the open issues describe the script being handed over. If the last critiques are from round 2 (`r2-` in their file names) and don't read SHIP and PASS, say the rewrite limit was reached: that is the loop working as designed, not a stage that failed.
+The loop allows two rewrites at most. After the second, the lint and the critics run once more and only report, so that the open issues describe the script being handed over. If the last lint report and critiques are from round 2 (`r2-` in their file names) and don't read PASS, SHIP, CLEAR and PASS, say the rewrite limit was reached: that is the loop working as designed, not a stage that failed.
 
 **The working file** is yours alone: no later stage ever reads it, and the human can open it. It starts with this block:
 
