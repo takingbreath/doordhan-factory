@@ -320,6 +320,68 @@ def voice_reference_rules():
     assert vr.slug("3 साल, 6 Charts!") == "3-6-charts" and vr.slug("साल") == "clip"
     return "pause marks, line breaks, sentences per line, rhythm numbers, ASCII file names"
 step("voice_reference line, pause and rhythm rules", voice_reference_rules)
+# script_lint: fixtures are copies of looptest3's r1-script.md, each changed only where its case needs it; they run
+# against the live format file and voice cards, in a temp copy so the lint files land there
+import shutil
+LINT_DIR = os.path.join(T, "script_lint")
+shutil.copytree(os.path.join(here, "fixtures", "script_lint"), LINT_DIR)
+LINT_FORMAT = os.path.join(os.path.dirname(here), "formats", "sahayata_kendra.md")
+def lint(*names, fmt=LINT_FORMAT):
+    paths = [os.path.join(LINT_DIR, n) for n in names]
+    r = subprocess.run([py, os.path.join(here, "script_lint.py"), fmt, *paths], capture_output=True, text=True)
+    stem = os.path.splitext(paths[0])[0]
+    read = lambda p: open(p, encoding="utf-8").read() if os.path.exists(p) else ""
+    fails_md, report_md = read(stem + "-lint-fails.md"), read(stem + "-lint-report.md")
+    rows = [[c.strip() for c in l.strip().strip("|").split("|")] for l in fails_md.splitlines()
+            if l.startswith("| ") and not l.startswith("| Check ")]
+    return r.returncode, r.stdout + r.stderr, fails_md, report_md, rows
+def lint_case(names, code, fail_checks):
+    def run_case():
+        rc, out, fails_md, report_md, rows = lint(*names)
+        assert rc == code, (rc, out)
+        assert [row[0] for row in rows] == fail_checks, rows
+        assert fails_md.rstrip().splitlines()[-1] == ("VERDICT: FAIL" if fail_checks else "VERDICT: PASS"), fails_md
+        return f"exit {rc}, fails: {', '.join(fail_checks) or 'none'}"
+    return run_case
+def lint_r1():
+    rc, out, fails_md, report_md, rows = lint("r1-script.md")
+    assert rc == 1 and [r[0] for r in rows] == ["opening_order"] and rows[0][2] == "1", rows
+    for want in ("| Words | 75 |", "| Estimated length | 31.7 s |", "| Words in the first spoken line | 20 |",
+                 "| Numbers in the reel | 6 |", "| Most numbers in one line | 3 |", "| Silent beats | 0 |"):
+        assert want in report_md, (want, report_md)
+    return "FAIL on opening_order only; 75 words, 31.7 s, 20 in line 1, 6 numbers, 3 in one line, 0 beats"
+step("script_lint a: r1 as written", lint_r1)
+for name, files, code, checks in [
+        ("b: Pandey first, Billu's beat last", ["b-fixed-opening.md"], 0, []),
+        ("c: 'Main' in Pandey's line", ["c-main.md"], 1, ["never"]),
+        ("d: 'Main' inside quotes", ["d-main-quoted.md"], 0, []),
+        ("e: ', ka?'", ["e-ka-comma.md"], 1, ["ka_comma"]),
+        ("f: kaahe twice", ["f-kaahe-twice.md"], 1, ["kaahe"]),
+        ("g: 'Comment karo.'", ["g-comment-karo.md"], 1, ["banned_phrases"]),
+        ("h: two silent beats", ["h-two-beats.md"], 1, ["silent_beats_max"]),
+        ("i: Billu speaks", ["i-billu-speaks.md"], 1, ["silent"]),
+        ("j: a NARRATOR line", ["j-narrator.md"], 1, ["cast"]),
+        ("k: alternate differs only in Pandey's first line", ["b-fixed-opening.md", "k-alt-first-line.md"], 0, [])]:
+    step(f"script_lint {name}", lint_case(files, code, checks))
+def lint_versions_differ():
+    rc, out, fails_md, report_md, rows = lint("b-fixed-opening.md", "k-alt-later-line.md")
+    assert rc == 1 and [r[0] for r in rows] == ["versions_match"], rows
+    assert rows[0][1] == "k-alt-later-line.md" and rows[0][2] == "13" and "bees hazaar" in rows[0][3], rows
+    return "FAIL on versions_match, naming line 13"
+step("script_lint k: alternate with a later line changed", lint_versions_differ)
+def lint_table_error():
+    bad = os.path.join(LINT_DIR, "format-misspelled-row.md")
+    text = open(LINT_FORMAT, encoding="utf-8").read()
+    assert text.count("| numbers_reel |") == 1
+    open(bad, "w", encoding="utf-8").write(text.replace("| numbers_reel |", "| numbers_rell |"))
+    lint("b-fixed-opening.md")  # leaves a passing verdict on disk, which the error run must overwrite
+    rc, out, fails_md, report_md, rows = lint("b-fixed-opening.md", fmt=bad)
+    assert rc == 2, (rc, out)
+    assert "numbers_rell" in out and "numbers_reel" in out, out
+    for where in (out, fails_md, report_md):
+        assert "PASS" not in where, where
+    return "exit 2, the bad row and the missing one named, no verdict anywhere"
+step("script_lint l: a misspelled format row", lint_table_error)
 for r in results:
     print(f"{r[0]}  {r[1]}  {r[2][:160]}")
 print("\nALL PASS" if all(r[0] == "PASS" for r in results) else "\nSOME STEPS FAILED")
