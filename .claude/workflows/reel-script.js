@@ -1,7 +1,7 @@
 export const meta = {
   name: 'reel-script',
   description: 'Run the reel script loop from prompts/script-writer.md end to end, from a topic to the hand-off: research, the blueprint, the fact check (one revision at most), the writer, lint, critics and recall test, one rewrite, then a reporting round, the performance pass and the hand-off. One named subagent per stage, each given only file paths.',
-  whenToUse: 'When a reel needs a script for a topic. Takes a brief: slug, topic, format, cast, an optional stance, and an optional phase. "full", the default and what a brief without a phase runs, goes from the topic to the hand-off without stopping; "blueprint" stops after the fact check, so the human can read the blueprint first. The brief has no research path: Stage 1 researches the topic on the web. A workflow script cannot write files, so save the brief as work/<slug>/loop/brief.md before launching: Stage 1 reads the topic and any stance from that file. The run stops early on Stage 1\'s NO_TAKE (its reasons are in s1-research.md) or on a second FIX from the fact check (the result\'s "why" lists the items; the full check is in s2b-factcheck-2.md). After every run, before reporting anything else, the calling session reads the "## Missing" block at the top of every working file in work/<slug>/loop/ and reports each one that is not "None": the stage, and what was missing. The working files are s1-working, s2-working and s2b-working; after a revision, s2-working-2 and s2b-working-2; then r*-notes (writer and rewrites), r*-4a-working, r*-4b-working, r*-4d-working, r*-5-working, s7-working and s8-working. The lint and the recall runs (r*-4c-*) write no working file. A cast member with no voice folder at all gets one line, marked expected.',
+  whenToUse: 'When a reel needs a script for a topic. Takes a brief: slug, topic, format, cast, an optional stance, and an optional phase, one of three. "full", the default and what a brief without a phase runs, goes from the topic to the hand-off without stopping; "blueprint" stops after the fact check, so the human can read the blueprint first; "script" is for a run that stopped after the plan (a second FIX, or phase blueprint): it starts at Stage 3 from the latest blueprint and fact check on disk (s2-blueprint-2.md if it exists, else s2-blueprint.md, and the same for the fact check), never reads the fact check\'s verdict, and runs to the hand-off exactly as "full" does from Stage 3; with no blueprint it stops with MISSING_BLUEPRINT. The brief has no research path: Stage 1 researches the topic on the web. A workflow script cannot write files, so save the brief as work/<slug>/loop/brief.md before launching: Stage 1 reads the topic and any stance from that file. The run stops early on Stage 1\'s NO_TAKE (its reasons are in s1-research.md) or on a second FIX from the fact check (the result\'s "why" lists the items; the full check is in s2b-factcheck-2.md). After every run, before reporting anything else, the calling session reads the "## Missing" block at the top of every working file in work/<slug>/loop/ and reports each one that is not "None": the stage, and what was missing. The working files are s1-working, s2-working and s2b-working; after a revision, s2-working-2 and s2b-working-2; then r*-notes (writer and rewrites), r*-4a-working, r*-4b-working, r*-4d-working, r*-5-working, s7-working and s8-working. The lint and the recall runs (r*-4c-*) write no working file. A cast member with no voice folder at all gets one line, marked expected.',
   phases: [
     { title: 'Stage 1 · Research', detail: 'the web, the viewer\'s question, the crowd, the math in code; TAKE_POSSIBLE or NO_TAKE' },
     { title: 'Stage 2 · Reel blueprint', detail: 'locks the stance; revised once if the fact check says FIX' },
@@ -15,7 +15,7 @@ export const meta = {
   ],
 }
 
-// The spec is prompts/script-writer.md (v3.4). Each stage is its own agent (.claude/agents/reel-*.md) with fresh
+// The spec is prompts/script-writer.md (v3.5). Each stage is its own agent (.claude/agents/reel-*.md) with fresh
 // context. An agent's task is two lists of labelled paths and nothing else: the inputs its stage's "Inputs" line
 // names, and where to write. Every model stage but the recall test writes a handoff (its "Output" list) and a working
 // file (a record of evidence for the human); later stages get handoffs only, never a working file (spec, "Handoff
@@ -53,7 +53,7 @@ function fromText(text) {
 function readBrief(input) {
   const b = typeof input === 'string' ? fromText(input) : input
   if (!b || typeof b !== 'object' || Array.isArray(b)) {
-    throw new Error('reel-script needs a brief: slug, topic, format, cast, an optional stance and an optional phase (full or blueprint).')
+    throw new Error('reel-script needs a brief: slug, topic, format, cast, an optional stance and an optional phase (full, blueprint or script).')
   }
   const text = v => (typeof v === 'string' ? v.trim() : '')
   if (['research', 'research_file', 'researchFile', 'research_path', 'researchPath'].some(k => b[k] !== undefined)) {
@@ -71,7 +71,7 @@ function readBrief(input) {
   if (!topic) problems.push('topic (one line)')
   if (!name.test(format)) problems.push('format (the file name under formats/, without .md)')
   if (!cast.length || !cast.every(n => name.test(n))) problems.push('cast (one or more names, each a folder under docs/voices/)')
-  if (phase !== 'full' && phase !== 'blueprint') problems.push('phase (full or blueprint; leave it out for full)')
+  if (!['full', 'blueprint', 'script'].includes(phase)) problems.push('phase (full, blueprint or script; leave it out for full)')
   if (problems.length) throw new Error('The brief is missing or has an unusable ' + problems.join('; ') + '.')
   return { slug, format, cast, phase }
 }
@@ -175,57 +175,81 @@ const PH = {
 
 log(`Run folder: ${dir}. Phase: ${brief.phase}. Brief expected at ${P.brief}.`)
 
-// ================================================================ Stage 1: research
-// Stage 1 inputs: the brief (the topic, and a stance if one was supplied), CLAUDE.md, format file. It researches on
-// the web and computes every number in its own Python file.
-const s1 = await run('reel-1-research', 'Stage 1 · research', PH.s1,
-  [['Brief', P.brief], CLAUDE_MD, ...FORMAT],
-  [['Handoff', P.s1], ['Working file', P.s1Work], ['Python file (every number it computes)', P.s1Math]])
-const take = verdict(s1, ['TAKE_POSSIBLE', 'NO_TAKE'])
-if (take === 'NO_TAKE') {
-  log(`Stage 1 says NO_TAKE. Stopped. Its reasons are in ${P.s1}.`)
-  return { slug: brief.slug, phase: brief.phase, stopped: 'NO_TAKE', stage1: P.s1, agents }
+// A workflow script can't read files, so phase script asks one small agent which plan files are in the run folder;
+// the script, not the agent, picks the ones to use.
+async function planOnDisk() {
+  const listed = await spawn(
+    `Call the Glob tool once, with the pattern "${dir}/s2*.md", and return the name of every file it lists, without the folder. Do nothing else: open no file and judge nothing.`,
+    { agentType: 'Explore', label: 'Stage 3 · plan on disk', phase: PH.s3, effort: 'low',
+      schema: { type: 'object', properties: { files: { type: 'array', items: { type: 'string' } } }, required: ['files'] } })
+  if (!listed || !Array.isArray(listed.files)) throw new Error(`Could not list ${dir}/ to find the blueprint; the run stops here.`)
+  return listed.files.map(f => String(f).split('/').pop())
 }
-if (take !== 'TAKE_POSSIBLE') throw new Error(`Stage 1 returned no verdict line. Its output, if any, is at ${P.s1}.`)
 
-// ================================================================ Stages 2 and 2b: the blueprint and its fact check
-// A FIX sends the blueprint back once (spec, Stage 2 "On a revision"); a second FIX stops the run, because a plan
-// whose facts fail twice needs the human, not a third pass.
-let n = 1
-for (;;) {
-  // Stage 2 inputs: Stage 1 output, all house rules, format file, the hook menu, the cast's voice cards; on a
-  // revision, also its last blueprint and the fact check.
-  const revision = n > 1
-    ? [['Your last blueprint', P.blueprint(n - 1)], ['Stage 2b fact check', P.factCheck(n - 1)]]
-    : []
-  await run('reel-2-blueprint', revision.length ? 'Stage 2 · blueprint revision' : 'Stage 2 · reel blueprint', PH.s2,
-    [['Stage 1 handoff', P.s1], ...HOUSE, ...FORMAT, ...HOOK_MENU, ...CARDS, ...revision],
-    [['Blueprint (handoff)', P.blueprint(n)], ['Stance file', P.stance], ['Working file', P.s2Work(n)]])
-
-  // Stage 2b inputs: the blueprint, Stage 1 output, CLAUDE.md. Never Stage 1's Python: it recomputes from the
-  // blueprint's own assumptions.
-  const reply = await run('reel-2b-factcheck', n > 1 ? 'Stage 2b · fact check 2' : 'Stage 2b · fact check', PH.s2b,
-    [['Blueprint', P.blueprint(n)], ['Stage 1 handoff', P.s1], CLAUDE_MD],
-    [['Handoff', P.factCheck(n)], ['Working file', P.s2bWork(n)], ['Python file (its recomputation)', P.s2bMath(n)]])
-  const checked = verdict(reply, ['PASS', 'FIX'])
-  if (!checked) throw new Error(`Stage 2b returned no verdict line. Its output, if any, is at ${P.factCheck(n)}.`)
-  if (checked === 'PASS') break
-  // On FIX, 2b replies with the items to fix above its verdict line.
-  const why = reply.replace(/\s*VERDICT:\s*FIX\s*$/, '').trim() || `(no items in the reply; see ${P.factCheck(n)})`
-  if (n === MAX_BLUEPRINTS) {
-    log(`The fact check said FIX on the revised blueprint too. Stopped before any dialogue: the human decides. What still fails:\n${why}`)
-    return {
-      slug: brief.slug, phase: brief.phase, stopped: 'FIX', why, blueprint: P.blueprint(n), factCheck: P.factCheck(n),
-      stance: P.stance, stage1: P.s1, agents,
-    }
+let n = 1 // the blueprint in use: 1, or 2 after a revision
+let checkN = 1 // the fact check in use, numbered the same way
+if (brief.phase === 'script') {
+  // spec, "Running end to end": a run that stopped after the plan carries on from Stage 3, from the blueprint and fact
+  // check already on disk, the latest of each. The fact check's verdict line is not read: the human chose to go on.
+  // With no blueprint, Stage 3 replies MISSING_BLUEPRINT and the run stops there, as in phase full.
+  const files = await planOnDisk()
+  const latest = path => (files.includes(path(2).split('/').pop()) ? 2 : 1)
+  n = latest(P.blueprint)
+  checkN = latest(P.factCheck)
+  log(`Phase script: Stage 3 onward from ${P.blueprint(n)} and ${P.factCheck(checkN)} (on disk: ${files.join(', ') || 'no s2 files'}).`)
+} else {
+  // ================================================================ Stage 1: research
+  // Stage 1 inputs: the brief (the topic, and a stance if one was supplied), CLAUDE.md, format file. It researches on
+  // the web and computes every number in its own Python file.
+  const s1 = await run('reel-1-research', 'Stage 1 · research', PH.s1,
+    [['Brief', P.brief], CLAUDE_MD, ...FORMAT],
+    [['Handoff', P.s1], ['Working file', P.s1Work], ['Python file (every number it computes)', P.s1Math]])
+  const take = verdict(s1, ['TAKE_POSSIBLE', 'NO_TAKE'])
+  if (take === 'NO_TAKE') {
+    log(`Stage 1 says NO_TAKE. Stopped. Its reasons are in ${P.s1}.`)
+    return { slug: brief.slug, phase: brief.phase, stopped: 'NO_TAKE', stage1: P.s1, agents }
   }
-  log(`The fact check said FIX on ${P.blueprint(n)}; Stage 2 revises it once. Items:\n${why}`)
-  n += 1
+  if (take !== 'TAKE_POSSIBLE') throw new Error(`Stage 1 returned no verdict line. Its output, if any, is at ${P.s1}.`)
+
+  // ================================================================ Stages 2 and 2b: the blueprint and its fact check
+  // A FIX sends the blueprint back once (spec, Stage 2 "On a revision"); a second FIX stops the run, because a plan
+  // whose facts fail twice needs the human, not a third pass.
+  for (;;) {
+    // Stage 2 inputs: Stage 1 output, all house rules, format file, the hook menu, the cast's voice cards; on a
+    // revision, also its last blueprint and the fact check.
+    const revision = n > 1
+      ? [['Your last blueprint', P.blueprint(n - 1)], ['Stage 2b fact check', P.factCheck(n - 1)]]
+      : []
+    await run('reel-2-blueprint', revision.length ? 'Stage 2 · blueprint revision' : 'Stage 2 · reel blueprint', PH.s2,
+      [['Stage 1 handoff', P.s1], ...HOUSE, ...FORMAT, ...HOOK_MENU, ...CARDS, ...revision],
+      [['Blueprint (handoff)', P.blueprint(n)], ['Stance file', P.stance], ['Working file', P.s2Work(n)]])
+
+    // Stage 2b inputs: the blueprint, Stage 1 output, CLAUDE.md. Never Stage 1's Python: it recomputes from the
+    // blueprint's own assumptions.
+    const reply = await run('reel-2b-factcheck', n > 1 ? 'Stage 2b · fact check 2' : 'Stage 2b · fact check', PH.s2b,
+      [['Blueprint', P.blueprint(n)], ['Stage 1 handoff', P.s1], CLAUDE_MD],
+      [['Handoff', P.factCheck(n)], ['Working file', P.s2bWork(n)], ['Python file (its recomputation)', P.s2bMath(n)]])
+    const checked = verdict(reply, ['PASS', 'FIX'])
+    if (!checked) throw new Error(`Stage 2b returned no verdict line. Its output, if any, is at ${P.factCheck(n)}.`)
+    if (checked === 'PASS') break
+    // On FIX, 2b replies with the items to fix above its verdict line.
+    const why = reply.replace(/\s*VERDICT:\s*FIX\s*$/, '').trim() || `(no items in the reply; see ${P.factCheck(n)})`
+    if (n === MAX_BLUEPRINTS) {
+      log(`The fact check said FIX on the revised blueprint too. Stopped before any dialogue: the human decides. What still fails:\n${why}`)
+      return {
+        slug: brief.slug, phase: brief.phase, stopped: 'FIX', why, blueprint: P.blueprint(n), factCheck: P.factCheck(n),
+        stance: P.stance, stage1: P.s1, agents,
+      }
+    }
+    log(`The fact check said FIX on ${P.blueprint(n)}; Stage 2 revises it once. Items:\n${why}`)
+    n += 1
+  }
+  checkN = n
 }
 
 // Every later stage that reads the blueprint or the fact check reads the last one.
 const BP = P.blueprint(n)
-const FC = P.factCheck(n)
+const FC = P.factCheck(checkN)
 
 // spec, "Running end to end": a run can be told to stop after the fact check, so the human reads the blueprint first.
 if (brief.phase === 'blueprint') {

@@ -1,4 +1,4 @@
-# Reel Script Writer — v3.4
+# Reel Script Writer — v3.5
 
 You write short-form Instagram reel scripts through a maker-checker loop.
 
@@ -288,7 +288,7 @@ A model shown a measurement treats it as an order. So the rewrite gets only the 
 
 ### Running end to end
 
-The loop runs from the topic to the hand-off without stopping. Stage 1 researches, Stage 2 plans, Stage 2b checks every fact and number the plan uses, and the script is written from the checked plan. The human judges the finished result. A run can be told to stop after the fact check, so the human can read the blueprint first, but it doesn't stop by default.
+The loop runs from the topic to the hand-off without stopping. Stage 1 researches, Stage 2 plans, Stage 2b checks every fact and number the plan uses, and the script is written from the checked plan. The human judges the finished result. A run can be told to stop after the fact check, so the human can read the blueprint first, but it doesn't stop by default. A run can also start at Stage 3 from a blueprint and fact check already on disk (for Doordhan: phase `script`), so a run that stopped after the plan carries on without redoing the research.
 
 ---
 
@@ -369,7 +369,7 @@ Check the plan's facts before any dialogue exists. You are not judging the story
 **Output:**
 - each fact or number: `CONFIRMED`, `CORRECTED` (with the right figure and its source) or `NOT FOUND`
 - any fact that contradicts the question, belief, stance, chain or payoff, with its source
-- verdict: `PASS` when everything is confirmed, or `FIX` with every item to fix listed
+- verdict: `FIX` when a fact or number the script will say is wrong, unsourced or missing, or when a fact contradicts the question, belief, stance, chain or payoff. Otherwise `PASS`, with every correction listed above it: a misquoted source, a wrong date or page in the evidence trail, anything the viewer will never hear. Later stages take the corrected wording from this handoff (Stage 8's fact box included). A second `FIX` stops the run, so `FIX` means a line of the reel would be wrong (looptest6: the run stopped over a paraphrase in the evidence list that no character says).
 
 A rounding difference the blueprint already marks "about" is confirmed, not corrected.
 

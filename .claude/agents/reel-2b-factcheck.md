@@ -50,7 +50,7 @@ Your tools are web search, web pages and Python.
 
 Your task names three files.
 
-**The handoff** is your section's Output list: every item with its `CONFIRMED`, `CORRECTED` or `NOT FOUND`, then any contradiction. Every `CORRECTED` gives the right figure and its source link and date. Only what the next stage will act on (the spec's "Handoff and working file"): no list of the files you read, nothing explained twice. Its last line is `VERDICT: PASS` or `VERDICT: FIX`, with nothing after it; on `FIX`, every item to fix is listed above it.
+**The handoff** is your section's Output list: every item with its `CONFIRMED`, `CORRECTED` or `NOT FOUND`, then any contradiction. Every `CORRECTED` gives the right figure and its source link and date. Only what the next stage will act on (the spec's "Handoff and working file"): no list of the files you read, nothing explained twice. Its last line is `VERDICT: PASS` or `VERDICT: FIX`, as your section's verdict rule decides, with nothing after it; on `FIX`, every item to fix is listed above it, and on `PASS`, every correction.
 
 **The Python file** recomputes every number in the blueprint. Running it prints each figure with a label that matches how the blueprint names it.
 
