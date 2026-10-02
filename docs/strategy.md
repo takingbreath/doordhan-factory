@@ -50,21 +50,21 @@ Stage 1 targets are live in the block below. Stages 2 and 3 are the plan after t
 
 ## The book and where we stand
 <!-- scoreboard -->
-_Updated 2026-10-01 21:32 IST by `scoreboard.py write`._
+_Updated 2026-10-02 21:32 IST by `scoreboard.py write`._
 
 **Stage 1: Stop the scroll** (2026-09-26 to 2026-10-11): prove people stop for our reels and stay to the end
 
 - skip rate %: now 56.7, target 45 → not yet
-- watched %: now 38.3, target 45 → not yet
+- watched %: now 38.6, target 45 → not yet
 - median plays at 72 h: now 187, target 500 → not yet
 - best reel's plays: now 2394, target 2000 → on target
-- followers: now 72, target 100 → not yet
+- followers: now 73, target 100 → not yet
 - strategy stop: 4/10 reels posted this stage; median plays at 72 h now 187, must reach 300
 
 | Bet | Lever | Judged on | Baseline | Now | Target | Stop | Reels (judged/carried) | Verdict |
 |---|---|---|---|---|---|---|---|---|
 | B1 Hook in frame one | Frame 1: the anchor looks into the lens, already saying the viewer's stake; the hook in 6 big words or fewer on screen; nothing (Namaskar, title, logo) before it; a cut or punch-in by 1 s; cover = frame 1 | skip rate % | 60.7 | 55.2 | 45 | 58 | 1/1 (judge at 3, max 6) | **HOLD** 1/3 reels |
-| B2 Tight 20-30 s | 20-30 s total; title montage 1.5 s or less and only after the hook; payoff by 20 s; the last line echoes the hook so a replay feels natural; no dead air | watched % | 26.3 | 39.7 | 45 | 32 | 1/1 (judge at 3, max 6) | **HOLD** 1/3 reels |
+| B2 Tight 20-30 s | 20-30 s total; title montage 1.5 s or less and only after the hook; payoff by 20 s; the last line echoes the hook so a replay feels natural; no dead air | watched % | 26.3 | 39.9 | 45 | 32 | 1/1 (judge at 3, max 6) | **HOLD** 1/3 reels |
 | B3 A line worth sending | Every script lands one line a viewer would forward to a specific person (a number to remember, a jab at the system, an 'I told you so'); never ask for shares | sends per 1k plays | 2.6 | 0 | 8 | 2 | 1/2 (judge at 4, max 6) | **HOLD** 1/4 reels |
 | W1 Glam Sarika | Sarika in the glam wardrobe (formats/samachar.md) on every Samachar reel | skip rate % | 66.9 | 55.2 | – | – | 1/1 (judge at 3, max 6) | **WATCH** tracked; judged at the monthly review |
 <!-- /scoreboard -->
@@ -134,3 +134,4 @@ _Written by the strategist every Sunday. The morning session executes it: each s
 - 2026-10-01 (nightly):
   - No stop or target hit; all bets HOLD (B1 and B2 on 1 judged reel, B3 on 1 of 4). Followers 72 (+1). No reel posted on 29 Sep, 30 Sep or 1 Oct: three days off the one-a-day plan, so the bets haven't moved.
   - E5 and X1 matured at 72 h (226 and 106 plays). Stage median plays at 72 h fell to 187 (E3 2,388, E4 148, E5 226, X1 106), below the strategy stop's 300 line; the stop is judged after 10 reels this stage (4 so far). Policybazaar owner feed still frozen (329 vs 2,394 public); public reading logged.
+- 2026-10-02 (nightly): Quiet. No stop or target hit; all bets HOLD. Followers 73 (+1). No reel posted on 29 Sep–2 Oct (four days off the one-a-day plan). Policybazaar owner feed still frozen (329 vs 2,394 public); public reading logged.
