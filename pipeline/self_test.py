@@ -142,6 +142,10 @@ def lipsync_model_check():
     models = os.path.join(os.path.dirname(here), "assets", "models", "face_landmarker.task")
     if not os.path.exists(models):
         return "SKIPPED: run pipeline/fetch_models.sh to enable"
+    try:   # the models can be on disk while this Python lacks the packages (macOS keeps them in a Python 3.11 venv)
+        import mediapipe  # noqa: F401
+    except Exception:
+        return "SKIPPED: this Python has no mediapipe; run the self-test with ~/.venvs/doordhan-qc/bin/python (fetch_models.sh)"
     fx = os.path.join(here, "fixtures", "pandey_talk_3s.mp4"); bad = os.path.join(T, "late.mp4")
     run([FFMPEG, "-y", "-v", "error", "-i", fx, "-c:v", "copy", "-af", "adelay=300:all=1", "-c:a", "aac", bad])
     good = tool("lipsync_lag.py", fx)
