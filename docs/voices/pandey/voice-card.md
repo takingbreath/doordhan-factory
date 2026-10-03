@@ -34,7 +34,7 @@ Every money question has one plain answer, and the system does well out of peopl
 - Measured from Ravi Kishan's lines (speaker_0, confirmed by Akhilesh 2026-10-01) in both scenes: 561 words, 90 sentences, 3.9 minutes of speech. Details and transcripts in reference/rhythm.md.
 - Speeds up when: going through what the caller already knows, or counting items off (E5's "gino" list).
 - Slows down when: right before a punch word, and nowhere else (format file, section 8).
-- Rendered pace: not measured yet.
+- Rendered pace: about 2.5 words a second (2.46–2.52 over 475 words, 26 lines), eleven_v3 with `[flat, brisk]`, tempo 1.0, after prep_line's pause tightening (work/cheat1/audio, 3 Oct 2026). The lint's 2.9 under-estimates him: 180 words came to 79–80 s of voice cut, not 69 s.
 - His reference is Ravi Kishan's two film scenes. Take sentence shape from them. Don't take pace or pauses: that's a slow film performance, and Pandey is brisk.
 
 ## 4. Register
@@ -110,7 +110,7 @@ The grammar habits in section 4 (hum, tumre, ee, oo, past tense without "ne") ha
 | up_slang | bhaukaal; bakaiti | 1 | fail |
 | ka_question | ka? | 1 | report |
 | one_word_lines | (any line of one word) | 1 | report |
-| pace_wps | not measured | — | — |
+| pace_wps | 2.5 | — | — |
 
 "ka?" counts only a "ka" straight before a question mark. The other "ka" for kya, the question word mid-line, looks the same as "ka" meaning "of", so code can't count it; the speech critique watches it. ", ka" is the tag after a comma that broke E5. The never row follows sections 4 and 6, ⚑ items included: if you rule differently on a ⚑ item, change this row too.
 

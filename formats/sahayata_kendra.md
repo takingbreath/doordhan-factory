@@ -3,14 +3,14 @@
 _Created 2026-09-27 from Akhilesh's brief; rewritten after the debut, E5 "Top 1% net worth kitna?" (approved v4, 67 s). Read all of this before any Kendra episode. Section 1 holds Akhilesh's rulings: follow them unless he changes them. Everything after it is what worked, and you're free to improve it (then update this file)._
 
 ## 0. Contract (the script writer reads this first)
-Set by Akhilesh, 2026-10-01. The script loop (prompts/script-writer.md) and the lint (pipeline/script_lint.py) read their limits from here.
+Set by Akhilesh, 2026-10-01. The script loop (docs/script-playbook.md) and the lint (pipeline/script_lint.py) read their limits from here.
 
-- **Length:** 40–60 s; 70 s at most.
+- **Length:** 40–60 s; 70 s at most. At Pandey's measured pace that is about 90–130 spoken words, and never more than 155.
 - **Fixed parts, not in the script:** the ring, about 1 s; the closing card, 4.8 s.
 - **Opening, two variants (try both):**
   - **Question headline:** Pandey's first line states the reel's question, flat, in 8 words at most.
   - **Verdict:** Pandey's first line is his flat verdict, in 8 words at most.
-  - Then one ring, then the caller's question. It adds the caller's own stake (their amount, their situation) and never repeats Pandey's line. The caller is heard by about 4 s (Akhilesh, 2026-10-01: 8 words take about 3 s at Pandey's pace, then the ring).
+  - Then one ring, then the caller's question, asked the way a viewer would ask it, and never repeating Pandey's line. No invented situation (a fee, a trip, a business) unless the topic is the caller's own money (Akhilesh, 2026-10-03: a curiosity question gets a curious caller). The caller is heard by about 4 s (Akhilesh, 2026-10-01: 8 words take about 3 s at Pandey's pace, then the ring).
   - Pandey's line is on screen, big, from the first frame. The caller's question text builds after it.
 - **Cast:** Pandey, the caller, and Billu in every episode. Billu is silent: one beat at most, usually the button.
 - **Hook types:** the two openings above, matched to types in `docs/hooks.md`.
@@ -20,12 +20,12 @@ Set by Akhilesh, 2026-10-01. The script loop (prompts/script-writer.md) and the 
 - **This week's bets:** B1 (hook in frame one) and B3 (a line worth sending) apply. B2 (tight 20–30 s) does not apply to this format.
 
 ### Lint table
-`pipeline/script_lint.py` reads this table (Claude, 2026-10-01). **fail** sends the script back to the rewrite. **report** only measures: the result goes to Akhilesh at the script gate and never sends a script back. To make a check stricter or looser, change its row; no code changes. Times are estimates from the pace rows, which is why length only reports until Pandey's rendered pace is in his voice card.
+`pipeline/script_lint.py` reads this table (Claude, 2026-10-01). Since loop v0.3 (3 Oct 2026) every row only reports: the judge and Akhilesh read the report, and nothing sends a script back. The fail/report column is kept for the lint's own verdict line.
 
 | Check | Limit | On breach | What it checks |
 |---|---|---|---|
 | cast | PANDEY; CALLER; BILLU | fail | Every line's speaker is one of these. |
-| silent | BILLU | fail | These never speak. Each of their lines is one action in square brackets, 5 words at most, and nothing else. |
+| silent | BILLU | report | These never speak. Each of their lines is one action in square brackets. (Was fail with a 5-word cap; the cap went with loop v0.3, where the lint only reports.) |
 | silent_beats_max | 1 | fail | Silent beats in the reel, at most. |
 | opening_order | PANDEY; CALLER | fail | The first spoken lines, in this order. |
 | versions_match | PANDEY's 2nd line | fail | Every version is word for word the same from this line to the end. |
@@ -38,7 +38,7 @@ Set by Akhilesh, 2026-10-01. The script loop (prompts/script-writer.md) and the 
 | numbers_line | 2 | report | Numbers in one line, at most. |
 | return_assumption | maan ke; maan lo; maante hain; assume | report | Every percentage has one of these in its line or the line before. |
 | silent_beats_min | 1 | report | Silent beats in the reel, at least. |
-| pace_wps | 2.9 | — | Words per second for any speaker whose voice card has no rendered pace (the script bible's estimate). |
+| pace_wps | 2.5 | — | Words per second for any speaker whose voice card has no rendered pace. Measured from Pandey's rendered cuts, 3 Oct 2026 (the bible's 2.9 was a guess): 60 s of reel is about 130 spoken words, 70 s about 155. |
 | ring_s | 1 | — | The ring. |
 | card_s | 4.8 | — | The closing card. |
 | beat_s | 1 | — | Each silent beat. |
