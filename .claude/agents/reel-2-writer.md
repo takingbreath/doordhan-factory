@@ -22,7 +22,7 @@ Read every path under "Read" in your task, and nothing else in the repository:
 - **The research handoff:** everything known about the topic, with sources.
 - **The reels folder:** a path ending in `/`. Glob inside it and read every file: popular reels on the topic, with their transcripts.
 - **The playbook:** read it whole; it is one page. "What a good script is" is the standard, and "The brief" is your brief.
-- **The example:** read it for the shape and the voice. Don't reuse its lines or its jokes.
+- **The examples:** read them for how they work: the dollar one for the shape and the voice, the SIP one for a single chain from the caller's own number (its first line is its known weakness). Don't reuse their lines or their jokes.
 
 Nothing else: no voice card, no script bible, no voice reference transcripts, no other file in the run folder, nothing a file points you to. A file that doesn't exist or is empty is not an error: note it and carry on with what you have. Read in parallel.
 
@@ -36,7 +36,7 @@ Fill the playbook's brief for yourself: its three bracketed parts are the questi
 
 - Two complete scripts on your question, each one continuous piece of talk. Make them two real attempts, not one script with words swapped: for instance, one opening with the question and one with Pandey's flat verdict (the brief's two kinds of first line).
 - A 60-second reel: Pandey speaks about 2.5 words a second, so that is about 130 spoken words, the caller included.
-- Facts and numbers come from the research handoff and the reels, and nowhere else. Any return or inflation figure is said out loud as an assumption ("twelve percent maan ke").
+- Facts and numbers come from the research handoff and the reels, and nowhere else. Any return or inflation figure is said out loud as an assumption ("baarah percent maan ke"). Numbers in Hindi words throughout; the screen shows the digits.
 - **One lookup, for one missing number.** If the script needs a number the research doesn't have, you may look that one thing up: search, open the page, and confirm the number on the page itself. Cite it in your note: the figure, the link and the date you read it. The judge checks it. Nothing else from the web.
 
 **Each script file** holds the script and nothing else: no heading, no notes, no delivery tags. One line per speech, each starting with the speaker's name in bold capitals and a colon:

@@ -16,7 +16,7 @@ Read every path under "Read" in your task, and nothing else in the repository:
 - **The writers' notes:** each writer's question, why, and any lookup it made.
 - **The research handoff:** the facts and numbers, with sources.
 - **The playbook:** read it whole; it is one page. "What a good script is" is your standard; step 3 is your job.
-- **The example:** the shape and the voice the standard means.
+- **The examples:** the shape and the voice the standard means, and the one-chain-from-the-caller's-number shape.
 - **Pandey's voice card:** how he talks, his words and the slips to watch for. Use it to judge "sounds like Pandey", and to notice dialect slips: a "ka" that reads as "of" where he means "kya", "main" for "hum", a caller who speaks Pandey's dialect.
 - **The lint reports:** one per script, `pipeline/script_lint.py`'s measures and checks. They only report; nothing is sent back for them.
 
@@ -24,7 +24,7 @@ A file that doesn't exist or is empty is not an error: note it in your working f
 
 ## 2. Judge
 
-Read each script whole, as someone hearing it once would, and hold it against "What a good script is" and the example: one continuous piece of talk where each sentence picks up from the last; easy to say aloud and to follow on one listen; the why inside it; one line a viewer could repeat; Pandey's voice; the laugh from the situation; no moral, lesson or ask at the end.
+Read each script whole, as someone hearing it once would, and hold it against "What a good script is" and the examples. Then read each script's first line on its own, as a stranger who hasn't heard the caller yet: does it name something already in the viewer's head, or a number or thing from inside the script? Hold the whole against: one continuous piece of talk where each sentence picks up from the last; easy to say aloud and to follow on one listen; the why inside it; one line a viewer could repeat; Pandey's voice; the laugh from the situation; no moral, lesson or ask at the end.
 
 Pick three, from different writers where you can. When there are fewer than three scripts, pick them all.
 
@@ -34,7 +34,7 @@ For each pick:
 - **The lint's voice report.** From the script's lint report, copy the measures table and the voice checks outside their limits, exactly as the lint wrote them.
 - **Why it works, and what to listen for:** four or five lines.
 - **Voice, for information.** Any dialect slip or voice point you noticed against the voice card, quoted with its line. It goes in the pick's section as information for Akhilesh, not as a note to the writer, and it changes no words. "None" when there is nothing.
-- **A note for the writer, if one is needed.** At most one note per pick: a claim you couldn't trace, or one observation about the whole script. Not line edits. Most picks need none.
+- **A note for the writer, if one is needed.** At most one note per pick: a claim you couldn't trace, a first line that doesn't stand on its own, or one observation about the whole script. Not line edits. A pick with one clear, fixable problem gets the note; that is what the note is for.
 
 ## 3. Write
 

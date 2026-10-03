@@ -107,7 +107,8 @@ const numOf = stem => Number(/^w\d+-(\d)/.exec(stem)[1])
 
 const CLAUDE_MD = ['House rules: CLAUDE.md', 'CLAUDE.md']
 const PLAYBOOK = ['Playbook (read it whole)', 'docs/script-playbook.md']
-const EXAMPLE = ['Example (for the shape and the voice; don\'t reuse its lines)', 'docs/examples/sahayata-kendra-dollar-rate.md']
+const EXAMPLE = ['Example, the dollar reel (the shape and the voice; don\'t reuse its lines)', 'docs/examples/sahayata-kendra-dollar-rate.md']
+const EXAMPLE2 = ['Example, the SIP reel (one chain from the caller\'s own number; its first line is the known weakness; don\'t reuse its lines)', 'docs/examples/sahayata-kendra-sip-retire.md']
 const FORMAT_FILE = `formats/${brief.format}.md`
 const CARDS = brief.cast.map(n => [`Voice card (${n})`, `docs/voices/${n}/voice-card.md`])
 
@@ -160,7 +161,7 @@ await run('reel-1-research', 'Research', PH.research,
 const writerIds = Array.from({ length: brief.writers }, (_, i) => i + 1)
 await pipeline(writerIds,
   w => run('reel-2-writer', `Writer ${w}`, PH.writers,
-    [['Research handoff', P.s1], ['Reels folder', P.reels], PLAYBOOK, EXAMPLE],
+    [['Research handoff', P.s1], ['Reels folder', P.reels], PLAYBOOK, EXAMPLE, EXAMPLE2],
     [['Your note (working file; the judge reads it)', P.note(w)], ['Script 1', P.script(stemOf(w, 1))],
       ['Script 2', P.script(stemOf(w, 2))]]),
   (_, w) => parallel([1, 2].map(m => () => lint(stemOf(w, m)))))
@@ -172,7 +173,7 @@ const want = Math.min(PICKS, scripts.length)
 const judged = await run('reel-4-judge', 'Judge', PH.judge,
   [...scripts.map(s => [`Script ${s} (writer ${writerOf(s)})`, P.script(s)]),
     ...writerIds.map(w => [`Writer ${w}'s note`, P.note(w)]),
-    ['Research handoff', P.s1], PLAYBOOK, EXAMPLE, ['Pandey\'s voice card', 'docs/voices/pandey/voice-card.md'],
+    ['Research handoff', P.s1], PLAYBOOK, EXAMPLE, EXAMPLE2, ['Pandey\'s voice card', 'docs/voices/pandey/voice-card.md'],
     ...scripts.map(s => [`Lint report for ${s}`, P.lintReport(s)])],
   [['Picks file', P.picks], ['Working file', P.s4Work],
     ['Note to a pick\'s writer, one file per pick with a note (<script> is the pick\'s file name without .md)', P.judgeNote('<script>')]],

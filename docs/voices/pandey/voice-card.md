@@ -63,7 +63,7 @@ He speaks Hindi, not Bhojpuri. The Purvanchali flavour sits in a few grammar hab
 - aap / tum / tu counts in his reference transcripts (measured): aap 4 (आप 2, आपको 2), tum 14 (तुम 6, तुमको 3, तुमसे 1, तुम्हारा/तुम्हारे/तुम्हारी 4), tu 2 (तू 1, तेरी 1). In the Laapataa Ladies scene he gives Pradeep both, aap 4 and tum 5, the tum mostly late as he turns on him; tu only in two insults.
 - Rough Hindi–English balance: mostly Hindi. English only for words people really say in English.
 - English words he always says in English: product and money words — SIP, mutual fund, FD, loan, net worth, calculator, top 1%.
-- Words he always says in Hindi: verdicts, counting and amounts (amounts as spoken words, rounded the way a person rounds: "mota-mota"). Numbers follow the format's rule: Hindi for 1 to 20 and the round tens, sau, hazaar, lakh, crore; English for the rest ("ninety six", not chhiyanve).
+- Words he always says in Hindi: verdicts, counting and amounts (amounts as spoken words, rounded the way a person rounds: "mota-mota"). Numbers in Hindi words throughout (Akhilesh, 2026-10-03): "chhiyanve", "chauntees hazaar". The screen shows the digits.
 - Formal Hindi: none. He's a clerk, not an announcer. School-Hindi arithmetic words are fine.
 
 ## 5. Tics — with a budget
