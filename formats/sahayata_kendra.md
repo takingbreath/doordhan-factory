@@ -2,7 +2,7 @@
 
 _Created 2026-09-27 from Akhilesh's brief; rewritten after the debut, E5 "Top 1% net worth kitna?" (approved v4, 67 s). Read all of this before any Kendra episode. Section 1 holds Akhilesh's rulings: follow them unless he changes them. Everything after it is what worked, and you're free to improve it (then update this file)._
 
-## 0. Contract (the script writer reads this first)
+## 0. Contract (research and the lint read this)
 Set by Akhilesh, 2026-10-01. The script loop (docs/script-playbook.md) and the lint (pipeline/script_lint.py) read their limits from here.
 
 - **Length:** 40–60 s; 70 s at most. At Pandey's measured pace that is about 90–130 spoken words, and never more than 155.
@@ -14,7 +14,7 @@ Set by Akhilesh, 2026-10-01. The script loop (docs/script-playbook.md) and the l
   - Pandey's line is on screen, big, from the first frame. The caller's question text builds after it.
 - **Cast:** Pandey, the caller, and Billu in every episode. Billu is silent: one beat at most, usually the button.
 - **Hook types:** the two openings above, matched to types in `docs/hooks.md`.
-- **Numbers:** aim for 4 or fewer in the reel, and never 3 in one line. A number the viewer brings from their own life (their salary, their spending) doesn't count. The blueprint may go over when the viewer's own sum needs it, and says why; the recall test then shows whether viewers kept up. A return in a worked example is said out loud as an assumption ("12% maan ke").
+- **Numbers:** aim for 4 or fewer in the reel, and never 3 in one line. A number the viewer brings from their own life (their salary, their spending) doesn't count. A writer may go over when the viewer's own sum needs it, and says why; the cold readers' retells then show whether viewers kept up. A return in a worked example is said out loud as an assumption ("12% maan ke").
 - **How numbers are said** (Akhilesh, 2026-10-01): Hindi words for 1 to 20 and for the round tens, sau, hazaar, lakh and crore (bees, tees, chaalees, pachaas, saath, sattar, assi, nabbe). Every other number in English: "ninety six", "fifty three", not chhiyanve or tirpan. A mixed amount keeps its Hindi unit: "fifty three arab dollar", "do lakh".
 - **Button:** Billu's beat or Pandey's reaction. The last spoken line may echo the opening line.
 - **This week's bets:** B1 (hook in frame one) and B3 (a line worth sending) apply. B2 (tight 20–30 s) does not apply to this format.
@@ -146,7 +146,7 @@ Original character; no resemblance to any real person.
 - **On screen:** never. They're heard through a landline.
 - **Casting:** a new ElevenLabs voice each episode. E5 used "Bobby – Energetic natural voiceover" (`YgpoWAqBbWpygO1YiIEI`).
 - **Tone:** the caller is every viewer, sincere and never mocked.
-- **Their line:** they ring once and are gone, so their one line carries their stake. The moves that fit it are in `docs/hook-menu.md` (read by the blueprint stage).
+- **Their line:** they ring once and are gone, so their one line carries their stake. The moves that fit it are in `docs/hook-menu.md` (no agent in loop v0.3 reads it).
 
 ## 4. Set, floor plan and keyframes
 - **Room:**
@@ -236,7 +236,7 @@ Timings updated 2026-10-01: Pandey's opening line first, then one ring, with the
 | ~10.3 s | His answer, one line per talking shot. The camera pulls back on his sigh; new framings (crops) on each counted item. |
 | mid-answer | A whip pan to Billu for one beat (E5: "Loan hai?"), then a whip back to a slam. |
 | verdict | A crash zoom on the eyes for the turn ("Nahi"), then the number slam, a riser and a slow push. |
-| comment / like | E5 only: Akhilesh wrote that line. A loop script doesn't ask for comments or likes (script bible), and the lint fails it. |
+| comment / like | E5 only: Akhilesh wrote that line. A loop script doesn't ask for comments or likes (script bible), and the lint reports it. |
 | Billu line | Two-shot, zooming slowly into Billu, running straight into his blink and turn-away (one continuous angle). |
 | end | One ring. He hangs up without answering (overhead clack). |
 | last 4.8 s | Closing card. |

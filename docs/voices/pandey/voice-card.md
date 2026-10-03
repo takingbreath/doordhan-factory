@@ -97,7 +97,7 @@ The grammar habits in section 4 (hum, tumre, ee, oo, past tense without "ne") ha
 - Both sides, ever (format file).
 
 ### Lint table
-`pipeline/script_lint.py` reads this table and applies it to Pandey's lines only (Claude, 2026-10-01). Words match whole words, in any case. Text inside double quotes is skipped: when he quotes someone, they speak in their own words. **fail** sends the script back to the rewrite; **report** only shows the count to Akhilesh. To change a limit, or move a check between fail and report, change its row.
+`pipeline/script_lint.py` reads this table and applies it to Pandey's lines only (Claude, 2026-10-01). Words match whole words, in any case. Text inside double quotes is skipped: when he quotes someone, they speak in their own words. Since loop v0.3 (3 Oct 2026) no row sends a script back: every row goes into the report the judge and Akhilesh read, and **fail** or **report** sets only the lint's own verdict line. To change a limit, or move a check between fail and report, change its row.
 
 | Check | Words | Max per reel | On breach |
 |---|---|---|---|
@@ -112,7 +112,7 @@ The grammar habits in section 4 (hum, tumre, ee, oo, past tense without "ne") ha
 | one_word_lines | (any line of one word) | 1 | report |
 | pace_wps | 2.5 | — | — |
 
-"ka?" counts only a "ka" straight before a question mark. The other "ka" for kya, the question word mid-line, looks the same as "ka" meaning "of", so code can't count it; the speech critique watches it. ", ka" is the tag after a comma that broke E5. The never row follows sections 4 and 6, ⚑ items included: if you rule differently on a ⚑ item, change this row too.
+"ka?" counts only a "ka" straight before a question mark. The other "ka" for kya, the question word mid-line, looks the same as "ka" meaning "of", so code can't count it, and since loop v0.3 no step does (the speech critique that watched it is gone). ", ka" is the tag after a comma that broke E5. The never row follows sections 4 and 6, ⚑ items included: if you rule differently on a ⚑ item, change this row too.
 
 ## 7. Relationships
 

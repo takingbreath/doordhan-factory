@@ -1,5 +1,7 @@
 # Script loop inventory
 
+> Historical: this describes the v3.x script loop, before loop v0.3 (3 Oct 2026). The current loop is `docs/script-playbook.md`.
+
 Taken 2026-09-30 from `~/doordhan-factory`, branch `main` at commit `925ca15` (29 Sep), in sync with GitHub. This file is the only thing written, apart from the sync itself.
 
 The local copy was 29 commits behind GitHub, so it was fast-forwarded from `5fbe5dd` to `925ca15` before this inventory. An earlier version of this report was taken before the sync and missed everything from 27 to 29 Sep, including Pandey and the Sahayata Kendra format.

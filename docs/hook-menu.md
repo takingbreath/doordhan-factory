@@ -1,11 +1,11 @@
 # Hook menu
 
-What the script loop reads when it picks an opening (Claude, 2026-10-01). Every example is the opening of a Hindi or Hinglish money reel that did well, grouped by the move it makes. There are no view counts here, on purpose: pick the move that fits this story, not the example that did best.
+The moves an opening can make (Claude, 2026-10-01). Every example is the opening of a Hindi or Hinglish money reel that did well, grouped by the move it makes. There are no view counts here, on purpose: pick the move that fits this story, not the example that did best.
 
 - **A hook is one reason a reel works, never the only one.** These reels also had their topic, their timing, their creator's following and everything after the first line. No example here is a formula.
 - **Take the move, never the words.** These are creators talking to camera. Pandey and the caller are not creators: the voice card and the format file decide how a move sounds in their mouths.
 - **The format's contract decides which moves an opening may use.** For Sahayata Kendra: Pandey's first line is a verdict or a question headline, then one ring, then the caller's first line, which adds their own stake.
-- **Only Stage 2 (the blueprint) reads this menu.** It names the move and the intent; the writer never sees these examples. The evidence behind them (`docs/hooks.md`: multiples, links and the analysis) is for Akhilesh, and no stage reads it.
+- **No agent in loop v0.3 reads this menu** (`docs/script-playbook.md`, 3 Oct 2026). In the v3.x loop the blueprint stage read it and named the move and the intent, and the writer never saw these examples. Whether v0.3's writers should get it is open with Akhilesh. The evidence behind them (`docs/hooks.md`: multiples, links and the analysis) is for Akhilesh, and no agent reads it. The § numbers below are the archived v3.5 spec's (`prompts/archive/script-writer-v3.5.md`).
 
 ## Sahayata Kendra: Pandey's first line
 
