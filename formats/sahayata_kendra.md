@@ -319,6 +319,9 @@ Timings updated 2026-10-01: Pandey's opening line first, then one ring, with the
   - the final six talking shots ≈ 72;
   - cutaways ≈ 30.
   - ElevenLabs: about 3–4k credits per episode on voices plus about 350 per Scribe check.
+- **E6: 94.5** (approved budget 100): 8 talking shots 61.5 (41 s of Wan), 5 no-dialogue shots 30 (listening close-up 7 s,
+  Billu reaction 5 s, bowl 4 s, ring look 2 s, calendar 2 s), 12 images 3. No retakes; E5's overhead hang-up reused, cropped.
+  Keyframes, clips and the build are in the registry (`kendra_e6_*`, `kendra_reusable_e6`) and work/sk02/build.py.
 - **Next episode, expected about 100–120:**
   - talking shots ≈ 70 (about 50 s at 1.5);
   - 2–3 new cutaways ≈ 15;

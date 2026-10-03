@@ -68,7 +68,17 @@
     "kendra_two_shot_billu": "2c61e83a-0bf6-42cb-a5ba-b3ec6509b4d7",
     "kendra_listen_ecu": "2aca9c6e-74b9-4bf0-b3ee-f072acf5320f",
     "kendra_overhead_phone": "25ffdb7f-42cf-4978-9028-2cc2a1c36f28",
-    "kendra_billu_closeup": "ee6148ed-e42a-4de2-a81e-b1f3dfde6662"
+    "kendra_billu_closeup": "ee6148ed-e42a-4de2-a81e-b1f3dfde6662",
+    "kendra_e6_front_talk_safari": "0fe097d9-b1f2-4f8f-b8fd-b20780aec61e",
+    "kendra_e6_cold_open_to_lens_safari": "688d885d-8015-4a3e-ad87-a7a206d290e1",
+    "kendra_e6_cold_open_look_at_phone_safari": "17cca1d1-62b9-4709-a7bf-2bc37e8d335f",
+    "kendra_e6_listen_ecu_safari": "c20c542d-1f43-46f4-80de-05f81c50d941",
+    "kendra_e6_left_talk_safari": "7ea71850-c4eb-48a7-9773-fe7adabe3cf9",
+    "kendra_e6_low_talk_safari": "a4061be6-9984-4e5f-a38e-33f757675cb2",
+    "kendra_e6_right_talk_safari": "30d7449d-00e6-4fc1-b18f-a7ee3e3181cc",
+    "kendra_wall_calendar_insert": "55ad6759-230a-4514-bb91-93d59c81f767",
+    "kendra_billu_big_steel_bowl": "d4a25f75-225c-46c5-be54-fe3b42b3336a",
+    "kendra_e6_billu_closeup_safari_behind": "3e49968f-ab26-410e-b3f1-a0174a1b85f0"
   },
   "voices": {
     "_note": "ElevenLabs over the API is the default (2026-09-30): a voice with an elevenlabs_voice_id is generated with pipeline/tts_elevenlabs.py --voice <name>. A voice without one stays on Higgsfield. higgsfield_fallback keeps a character's old Higgsfield voice element usable (pipeline/higgsfield.py audio --voice <name>).",
@@ -240,6 +250,12 @@
       "overhead_hangup": "2d108df9-e447-4418-b2eb-ff9c1743c18d",
       "billu_loaf_turn_away": "e60d71fb-8e48-4ea4-a28b-3e3d756c2c80",
       "billu_sitting_turn_away": "a986b63b-ca96-4c1e-82b4-08cf7a53f8ec"
+    },
+    "kendra_reusable_e6": {
+      "_note": "Wan jobs from E6 (2026-10-03) worth reusing. The calendar and the bowl show no outfit; the Billu close-up has the E6 safari shirt behind him.",
+      "calendar_pages_fly": "e2fec2ed-b5a2-4066-b443-4394e59c9223",
+      "billu_bowl_dip_and_stare": "606eea14-ba5b-4059-8906-df1d51357869",
+      "billu_closeup_blink_turn_away_e6_shirt": "5d99b58a-e1d3-4da6-90f0-a2af85c9e158"
     }
   },
   "keyframes_notes": {
@@ -254,6 +270,12 @@
   "wardrobe_log": {
     "_note": "One row per character per episode, added when the final is approved. Nobody wears the same outfit twice on air.",
     "rows": [
+      {
+        "episode": "6",
+        "date": "2026-10-03",
+        "character": "pandey",
+        "outfit": "powder-blue short-sleeved safari suit (epaulettes, flap chest pockets), small ID card clipped to the pocket, blue pen; no sweater vest, no lanyard"
+      },
       {
         "episode": "3",
         "date": "2026-09-26",

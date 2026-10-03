@@ -2,7 +2,7 @@
 """Is the mouth in time with the voice? Measures the audio-video offset of a talking shot, overall and in rolling
 windows (so drift within a line shows), from two opinions:
   1. SyncNet (Chung & Zisserman 2016, pretrained syncnet_v2): a model that has learned what in-sync mouths look like.
-     Primary when it's installed (torch + /home/user/syncnet_python + data/syncnet_v2.model; see pipeline/README.md).
+     Primary when it's installed (torch + ~/syncnet_python + data/syncnet_v2.model; see pipeline/README.md).
   2. Correlation: mouth openness per frame from MediaPipe Face Landmarker (inner-lip gap / mouth width, 478-point
      mesh) cross-correlated with the speech envelope (common.envelope) over +-500 ms. Always runs; the fallback.
 
@@ -27,7 +27,7 @@ from common import FFMPEG, FFPROBE, envelope  # noqa: E402
 
 ROOT = os.path.dirname(here)
 MODEL = os.path.join(ROOT, "assets", "models", "face_landmarker.task")
-SYNCNET_DIR = os.environ.get("SYNCNET_DIR", "/home/user/syncnet_python")
+SYNCNET_DIR = os.environ.get("SYNCNET_DIR", os.path.expanduser("~/syncnet_python"))
 FPS = 25.0            # analysis rate for the correlation method (SyncNet needs 25 fps)
 MAXLAG = 0.5          # seconds searched each way
 MIN_CONF = 0.30       # a window's correlation peak below this is "no opinion", not a failure
