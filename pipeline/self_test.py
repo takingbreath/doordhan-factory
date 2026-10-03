@@ -346,10 +346,10 @@ def lint_case(names, code, fail_checks):
 def lint_r1():
     rc, out, fails_md, report_md, rows = lint("r1-script.md")
     assert rc == 1 and [r[0] for r in rows] == ["opening_order"] and rows[0][2] == "1", rows
-    for want in ("| Words | 75 |", "| Estimated length | 31.7 s |", "| Words in the first spoken line | 20 |",
+    for want in ("| Words | 75 |", "| Estimated length | 35.8 s |", "| Words in the first spoken line | 20 |",
                  "| Numbers in the reel | 6 |", "| Most numbers in one line | 3 |", "| Silent beats | 0 |"):
         assert want in report_md, (want, report_md)
-    return "FAIL on opening_order only; 75 words, 31.7 s, 20 in line 1, 6 numbers, 3 in one line, 0 beats"
+    return "FAIL on opening_order only; 75 words, 35.8 s at 2.5 w/s, 20 in line 1, 6 numbers, 3 in one line, 0 beats"
 step("script_lint a: r1 as written", lint_r1)
 for name, files, code, checks in [
         ("b: Pandey first, Billu's beat last", ["b-fixed-opening.md"], 0, []),
@@ -359,10 +359,16 @@ for name, files, code, checks in [
         ("f: kaahe twice", ["f-kaahe-twice.md"], 1, ["kaahe"]),
         ("g: 'Comment karo.'", ["g-comment-karo.md"], 1, ["banned_phrases"]),
         ("h: two silent beats", ["h-two-beats.md"], 1, ["silent_beats_max"]),
-        ("i: Billu speaks", ["i-billu-speaks.md"], 1, ["silent"]),
         ("j: a NARRATOR line", ["j-narrator.md"], 1, ["cast"]),
         ("k: alternate differs only in Pandey's first line", ["b-fixed-opening.md", "k-alt-first-line.md"], 0, [])]:
     step(f"script_lint {name}", lint_case(files, code, checks))
+def lint_billu_speaks():
+    """since loop v0.3 the silent row only reports: Billu speaking is in the report, never a fail"""
+    rc, out, fails_md, report_md, rows = lint("i-billu-speaks.md")
+    assert rc == 0 and rows == [], (rc, rows)
+    assert "| silent | i-billu-speaks.md | 15 | **BILLU**: Meow |" in report_md, report_md
+    return "exit 0, no fails; reported on line 15"
+step("script_lint i: Billu speaks (reported)", lint_billu_speaks)
 def lint_versions_differ():
     rc, out, fails_md, report_md, rows = lint("b-fixed-opening.md", "k-alt-later-line.md")
     assert rc == 1 and [r[0] for r in rows] == ["versions_match"], rows
@@ -382,6 +388,35 @@ def lint_table_error():
         assert "PASS" not in where, where
     return "exit 2, the bad row and the missing one named, no verdict anywhere"
 step("script_lint l: a misspelled format row", lint_table_error)
+def voice_cut_matching():
+    """voice_cut's take check (no network): a script word and Scribe's other-script spelling of it count as the same
+    word, a dropped word is found and named, and the voice step's Bash guard lets voice_cut through and nothing else"""
+    import voice_cut as vc
+    script = "[flat, brisk] Dollar का rate कोई तय नहीं करता। RBI भी इसी market में एक खिलाड़ी है।"
+    assert vc.similarity(script, "डॉलर का रेट कोई तय नहीं करता. RBI भी इसी मार्केट में एक खिलाड़ी है") > 0.95
+    dropped = "Dollar का rate कोई तय नहीं करता। RBI भी इसी market में खिलाड़ी है।"
+    assert vc.similarity(script, dropped) < 1.0
+    assert ("एक", "(nothing)") in vc.differences(script, dropped), vc.differences(script, dropped)
+    hook = os.path.join(here, "hooks", "voice_only.py")
+    def allowed(cmd):
+        r = subprocess.run([py, hook], input=json.dumps({"tool_input": {"command": cmd}}), capture_output=True, text=True)
+        return r.returncode == 0
+    assert allowed("python3 pipeline/voice_cut.py work/s/loop/audio/w1-1/lines.json work/s/loop/audio/w1-1 --retake P2")
+    for cmd in ("python3 pipeline/voice_cut.py work/s/a.json work/s; rm -rf work", "python3 pipeline/tts_elevenlabs.py --check",
+                "python3 pipeline/voice_cut.py work/../x.json work/s", "ls"):
+        assert not allowed(cmd), cmd
+    return "cross-script word match, dropped word named, Bash guard"
+step("voice_cut take check and Bash guard", voice_cut_matching)
+def reel_script_stubs():
+    """the script loop's workflow (.claude/workflows/reel-script.js) end to end with fake agents: every read exists
+    when it is read, and the run folder holds the expected files (pipeline/stub_reel_script.mjs)"""
+    node = shutil.which("node")
+    if not node:
+        return "skipped: no node on this machine"
+    r = subprocess.run([node, os.path.join(here, "stub_reel_script.mjs"), "--quiet"], capture_output=True, text=True)
+    assert r.returncode == 0, r.stdout + r.stderr
+    return f"{r.stdout.count('PASS ')} stub runs pass"
+step("reel-script workflow stub runs", reel_script_stubs)
 for r in results:
     print(f"{r[0]}  {r[1]}  {r[2][:160]}")
 print("\nALL PASS" if all(r[0] == "PASS" for r in results) else "\nSOME STEPS FAILED")

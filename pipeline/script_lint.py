@@ -296,8 +296,8 @@ def check_version(v, rules, cards):
             add("cast", l, f"{l['speaker']} is not in the cast ({', '.join(cast)}).")
     for l in v.beats:
         m = SILENT_ACTION.match(l["text"])
-        if not m or not 1 <= len(words(m.group(1))) <= 5:
-            add("silent", l, f"{l['speaker']} never speaks: the line must be one action in square brackets, 5 words at most.")
+        if not m or not words(m.group(1)):  # no word cap since loop v0.3 (format file, silent row)
+            add("silent", l, f"{l['speaker']} never speaks: the line must be one action in square brackets.")
     mx = rules["silent_beats_max"]["value"]
     if len(v.beats) > mx:
         add("silent_beats_max", v.beats[mx], f"{len(v.beats)} silent beats in the reel, at most {mx}.")

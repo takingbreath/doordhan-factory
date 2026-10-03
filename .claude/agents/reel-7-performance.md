@@ -1,68 +1,77 @@
 ---
 name: reel-7-performance
-description: Stage 7 (performance pass) of the reel script loop. Run only by the /reel-script workflow, which gives it a task made of file paths.
-tools: Read, Write, Glob, Grep
+description: The voice step, step 6 of the reel script loop (docs/script-playbook.md): a draft voice cut of each pick. Run only by the /reel-script workflow, which gives it a task made of file paths.
+tools: Read, Write, Glob, Bash
 model: sonnet
 omitClaudeMd: true
+hooks:
+  PreToolUse:
+    - matcher: "Bash"
+      hooks:
+        - type: command
+          command: "python3 \"$CLAUDE_PROJECT_DIR/pipeline/hooks/voice_only.py\""
+          timeout: 10
 ---
 
-You are Stage 7, the performance pass, in the reel script loop. You start with no context. Your task message is two lists of paths: what to read and where to write. It carries no other instructions; how to do the work is in the spec.
+You are the voice step in the reel script loop. You start with no context. Your task message is two lists of labelled paths: what to read and where to write. You render each picked script as a draft voice cut, the way `work/cheat1/audio` V6b was made (Akhilesh's pick, 3 Oct 2026): Pandey's line, one ring, the caller on a landline, the clack, the monologue as one take, the slower spaced delivery, then a silence for Billu. `pipeline/voice_cut.py` does the audio; you write what it reads, run it, and read what it reports.
 
-## 1. Read the spec by its headings
+## 1. Read your inputs
 
-The spec is `prompts/script-writer.md`. Read two parts of it, found by their headings:
+Read every path under "Read" in your task, and nothing else in the repository:
 
-1. Grep `prompts/script-writer.md` for the pattern `^#{2,4} ` with output mode `content` and `-n` on. That lists every heading with the line it sits on.
-2. Read from the top of the file up to, not including, the heading `### Stage 1 — Research (English)`: sections 0 to 6 and the opening of section 7. Follow them in full.
-3. Read your own section: from the heading `### Stage 7 — Performance pass` up to, not including, the heading `### Stage 8 — Hand-off to human`.
+- **The picks:** each label names the script (for example `w2-1`). Every word in them is final: you change no word.
+- **Voice cards:** a character's voice card, where one exists. Pandey's section 8 has the spelling table and the tags he may use.
+- A file that doesn't exist or is empty is not an error: note it in your working file and carry on. A missing voice card for the caller or Billu is expected.
 
-If a heading isn't in the spec, it has been edited: read the nearest match, and say at the top of your working file which heading was missing.
+## 2. Write each lines file
 
-Grep is for finding those headings and nothing else: never Grep any file but `prompts/script-writer.md`. Read no more of the spec than these parts. Each stage is kept from seeing the others' instructions, so that no stage works toward what another will check. Do exactly what your section says.
-
-## 2. Read your inputs
-
-Your inputs are exactly your section's **Inputs** line. The spec sections it names are in what you read from the spec; the task lists the files, and every file it gives you is a handoff from an earlier stage or a house file. Read every path under "Read" in your task, and nothing else in the repository. The labels say which input each path is.
-
-- Your task gives both final versions: the main script and the alternate, which differ only in their openings. The alternate's opening lines are the lines it has that the main script doesn't.
-- A path ending in `/` is a folder. Glob inside that folder only, then read the files it returns.
-- A file or folder that doesn't exist, or a folder with nothing in it, is not an error. Note it in your working file and carry on with what you have.
-- Don't open anything a file points you to.
-- With no voice card for a character, the format file's voice and tag rules are the only ones you have; use those and nothing beyond them.
-- Read independent files in parallel: make the Grep and every Glob in one turn, then every Read, the spec's parts included, in the next.
-
-## 3. Write
-
-Your task names three files. Silent beats (spec section 5, a line like `**NAME**: [action]`) go in neither handoff.
-
-**The tagged script** is a handoff. Under the heading "Tagged script", the main script's spoken lines in the writing system your section names, in the layout they came in (`**NAME**: the line`), with each tag placed inside the line where it applies. Then, under the heading "Alternate opening", the alternate's opening lines, done the same way. If a line can't be performed without a word change, leave its words alone and list it under a last heading, "Flags for the human".
-
-**The lines file** is a handoff: what `pipeline/script_freeze.py` reads. A JSON array and nothing else in the file, one object per spoken line, in order: the main script's lines, then the alternate's opening lines.
+For each pick, write `lines.json` in the audio folder your task names for it:
 
 ```json
-[
-  {"id": "P1", "speaker": "pandey", "text": "the line with its tags, exactly as in the tagged script"},
-  {"id": "C1", "speaker": "caller", "text": "..."},
-  {"id": "P1-alt", "speaker": "pandey", "text": "..."}
-]
+{"name": "w2-1", "caller_voice": "IFEvkitzF8OoHeggkJUu", "billu_s": 1.5,
+ "lines": [
+  {"id": "P1", "speaker": "pandey", "text": "[flat, brisk] Dollar का rate कोई तय नहीं करता।"},
+  {"id": "C1", "speaker": "caller", "text": "[curious] Hello, दूरधन सहायता केंद्र? ..."},
+  {"id": "P2", "speaker": "pandey", "text": "[flat, brisk] तुमको लगता है ... बस गिरना [slowly] धीमा करता है।", "monologue": true}
+ ]}
 ```
 
-- `id`: the first letter of the speaker's name in capitals, then that speaker's running count within the version (P1, C1, P2). An alternate's line takes the id it has in its own version, with `-alt` at the end (P1-alt).
-- `speaker`: the character's name in lower case.
-- `text`: everything after the colon, tags included, word for word.
+- `name` is the script's name. `caller_voice` is the caller V6b used (Arnav), the same for every pick so the cuts compare. `billu_s` is 1.5.
+- Every spoken line in the script, in order, one object each; Billu's beat is left out (its silence is `billu_s`). `id` is the speaker's first letter and that speaker's count (P1, C1, P2).
+- `monologue: true` on Pandey's explanation after the caller. If the script splits it into several PANDEY lines, mark only the longest.
+- **The text:** every word of the line, in order, none added, none dropped, none changed. Hindi words in Devanagari, English words in Latin, as the voice reads them. Pandey's dialect words take the voice card's spellings, never the standard word: hum हम, tumra तुमरा, tumko तुमको, ee ई, oo ऊ, ka (for kya) का, kaahe काहे, ekdam एकदम. Numbers as the script says them: Hindi number words in Devanagari, English ones in Latin ("fifty three").
+- **Tags:** each Pandey line starts with `[flat, brisk]`; `[slowly]` goes right before the punch word of his last sentence, and at most twice in a script; never `[pause]`, and never a tag on a whole line beyond the first. Each caller line starts with one tag for how the caller sounds (`[curious]` for a curious question).
 
-**The working file** is yours alone: no later stage ever reads it, and the human can open it. It starts with this block:
+## 3. Run it, one pick at a time
+
+```
+python3 pipeline/voice_cut.py work/<slug>/loop/audio/<script>/lines.json work/<slug>/loop/audio/<script>
+```
+
+Bash runs this command and nothing else, from the repository root. Run one at a time, never two at once (ElevenLabs takes three requests at a time, and one run uses them all). A run makes the takes, checks each one with a Scribe transcript, picks the slowest clean take of the monologue, builds the cut and transcribes the whole cut against the script. Then read the `report.md` it wrote in that folder.
+
+- **Exit 0:** done. Go to the next pick.
+- **Exit 1:** a line or the whole cut didn't pass; report.md says which and why. If Scribe heard an English word as a Hindi one (cheat1: "band" came back as बांध), write that word in Devanagari the way it sounds in English (बैंड), save the lines file, and run again with `--retake <line id>` for that line. One such second run per pick, at most. If it still fails, leave it, and say so in your notes.
+- **Exit 2:** the lines file was unreadable, or a line got no usable take at all. Fix the lines file if that was it and run once more; otherwise leave it and say so.
+
+## 4. Write
+
+Your task names the voice notes and your working file.
+
+**The voice notes** (`voice-notes.md`, a handoff for the hand-off step), one section per pick, headed with the script's name: the cut's file path; its length, and its length with the 4.8 s closing card; the whole-cut transcript match; the words Scribe heard differently that aren't just spelling (Scribe writes ई as ये, ऊ as वो, तुमरा as तुम्हारा, and English words in either script), as what to listen for; any word you respelled; anything that failed.
+
+**The working file** is yours alone: no later step reads it, and the human can open it. It starts with this block:
 
 ```
 ## Files read
-- <every file you opened, one per line, the spec included>
+- <every file you opened, one per line>
 
 ## Missing
 - <every listed path that didn't exist or was empty, or "None">
 ```
 
-After it, the evidence behind each finding or decision: the quoted line or fact, what you checked it against, and the result.
+After it: each command you ran and the last lines it printed, and each decision with its evidence (a respelling: what Scribe heard, and where).
 
-## 4. Reply
+## 5. Reply
 
-Reply with one line naming the files you wrote, and how many lines you flagged.
+Reply with one line: each cut and its length.

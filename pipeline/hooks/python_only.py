@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-"""PreToolUse hook on Bash for the script loop's research stages (frontmatter of .claude/agents/reel-1-research.md
-and reel-2b-factcheck.md): Bash runs the stage's own Python file and nothing else.
+"""PreToolUse hook on Bash for the script loop's research stages (frontmatter of
+.claude/agents/reel-1-research.md): Bash runs the stage's own Python file and nothing else.
 Allowed: `python3 work/<...>.py`, one command, no shell operators. Reads the hook's JSON on stdin; exit 2 blocks the
 command and tells the agent why. Unreadable input is blocked too: this guard fails closed."""
 import json, re, sys
