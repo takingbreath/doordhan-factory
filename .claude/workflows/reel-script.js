@@ -172,7 +172,7 @@ const want = Math.min(PICKS, scripts.length)
 const judged = await run('reel-4-judge', 'Judge', PH.judge,
   [...scripts.map(s => [`Script ${s} (writer ${writerOf(s)})`, P.script(s)]),
     ...writerIds.map(w => [`Writer ${w}'s note`, P.note(w)]),
-    ['Research handoff', P.s1], PLAYBOOK, EXAMPLE,
+    ['Research handoff', P.s1], PLAYBOOK, EXAMPLE, ['Pandey\'s voice card', 'docs/voices/pandey/voice-card.md'],
     ...scripts.map(s => [`Lint report for ${s}`, P.lintReport(s)])],
   [['Picks file', P.picks], ['Working file', P.s4Work],
     ['Note to a pick\'s writer, one file per pick with a note (<script> is the pick\'s file name without .md)', P.judgeNote('<script>')]],
