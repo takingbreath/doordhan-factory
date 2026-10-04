@@ -150,3 +150,4 @@ _Written by the strategist every Sunday. The morning session executes it: each s
   - No pivot. The strategy stays: current-affairs Samachar reels (Sarika, Gupta) to bring viewers in, evergreen Sahayata Kendra episodes for value. Give it more time and post consistently for the next few weeks. Plan B (A/B/C) shelved; extending Stage 1 and the strategy stop put to him with numbers.
   - Reels made outside the loop (X1, X2) are Naveen's.
   - No burned-in AI mark ("let's not overdo").
+  - Account Status (Akhilesh's screenshots, 4 Oct): Recommendation eligibility, Features, Content removals and Under-18 availability all green. One monetisation flag, "Established presence" (account too new and too small for monetisation tools); it doesn't affect reach. Plumbing ruled out for the slow reach. The "AI-generated profile" toggle (Edit profile) didn't show in his app; look again in a week.
