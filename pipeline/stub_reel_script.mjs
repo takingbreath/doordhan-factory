@@ -38,7 +38,10 @@ async function runScenario(name, opts) {
   const slug = opts.brief.slug
   const dir = `work/${slug}/loop`
   files.set(`${dir}/brief.md`, `topic: ${opts.brief.topic}`)
+  let sourceRead = null // the source the research task listed, if any
+  const writerSaw = {} // writer label -> did reels/00-source.md exist in its reels folder when it wrote
   const exists = p => {
+    if (/^https?:\/\//.test(p)) return true // a link (a source video) can't be checked offline
     if (p.startsWith('work/')) return p.endsWith('/') ? [...files.keys()].some(k => k.startsWith(p)) : files.has(p)
     return fs.existsSync(path.join(ROOT, p))
   }
@@ -55,9 +58,14 @@ async function runScenario(name, opts) {
     const R = label => (t.reads.find(x => x.label.startsWith(label)) || {}).path
     switch (o.agentType) {
       case 'reel-1-research':
+      {
         put(W('Handoff')); put(W('Working file'), '## Missing\n- None'); put(W('Python file'))
-        for (let i = 1; i <= 6; i++) put(`${W('Reels folder')}0${i}-reel.md`)
-        return 'wrote s1-research.md, s1-working.md, s1-math.py, reels/ (6 reels); vidIQ 40 credits'
+        const srcIn = t.reads.find(x => x.label.startsWith('Source video to adapt'))
+        if (srcIn) { sourceRead = srcIn.path; put(`${W('Reels folder')}00-source.md`, 'SOURCE: the video the brief asks to adapt') }
+        const n = srcIn ? 4 : 6 // with a source: three to five other reels
+        for (let i = 1; i <= n; i++) put(`${W('Reels folder')}0${i}-reel.md`)
+        return `wrote s1-research.md, s1-working.md, s1-math.py, reels/ (${srcIn ? 'the source and ' : ''}${n} reels); vidIQ 40 credits`
+      }
       case 'reel-2-writer':
         if (R("The judge's note")) {
           const pick = /\((w\d+-\d), the pick/.exec(t.reads.find(x => x.label.startsWith('Your script') && x.label.includes('the pick')).label)[1]
@@ -66,6 +74,7 @@ async function runScenario(name, opts) {
           put(W('Your note'), files.get(W('Your note')) + '\n## Reply to the judge')
           return `${answer}\nbecause`
         }
+        writerSaw[o.label] = files.has(`${R('Reels folder')}00-source.md`)
         put(W('Your note'), '## Missing\n- None'); put(W('Script 1')); put(W('Script 2'))
         return 'wrote the note and two scripts'
       case 'reel-lint': {
@@ -104,11 +113,11 @@ async function runScenario(name, opts) {
   }))
   let result, error = null
   try {
-    result = await workflowBody(agent, parallel, pipeline, m => logs.push(m), () => {}, opts.brief,
+    result = await workflowBody(agent, parallel, pipeline, m => logs.push(m), () => {}, opts.args || opts.brief,
       { total: null, spent: () => 0, remaining: () => Infinity }, () => { throw new Error('no nested workflows') })
   } catch (e) { error = e.message }
   const list = [...files.keys()].filter(k => k.startsWith(dir + '/')).map(k => k.slice(dir.length + 1)).sort()
-  return { name, result, error, missing, logs, calls, list }
+  return { name, result, error, missing, logs, calls, list, sourceRead, writerSaw }
 }
 
 const SC = [
@@ -136,6 +145,13 @@ const SC = [
     brief: { slug: 'stub-dies', topic: 'x', format: 'sahayata_kendra', cast: 'pandey, caller, billu' },
     picks: ['w1-1', 'w2-1', 'w3-1'], dies: 'Reader 2 · w2-1',
     expectError: /Reader 2 · w2-1 did not finish/ },
+  { name: 'extra e. a brief with a source line: research saves reels/00-source.md, every writer reads it',
+    brief: { slug: 'stub-source', topic: 'How much SIP is enough to retire?' },
+    args: 'slug: stub-source\ntopic: How much SIP is enough to retire?\nformat: sahayata_kendra\ncast: pandey, caller, billu\n' +
+      'source: https://www.youtube.com/watch?v=STUB0000001',
+    picks: ['w1-1', 'w2-1', 'w3-1'],
+    expect: { scripts: 6, picks: ['w1-1', 'w2-1', 'w3-1'], retells: 9, cuts: 3,
+      source: 'https://www.youtube.com/watch?v=STUB0000001', writers: ['Writer 1', 'Writer 2', 'Writer 3'] } },
   { name: 'extra d. a brief with a phase is refused',
     brief: { slug: 'stub-phase', topic: 'x', format: 'sahayata_kendra', cast: 'pandey', phase: 'blueprint' },
     picks: [], expectError: /has none/ },
@@ -162,6 +178,12 @@ for (const sc of SC) {
       if (!r.list.includes(`${f}-lint-report.md`)) problems.push(`no lint report for ${f}`)
       for (let k = 1; k <= 3; k++) if (!r.list.includes(`r-${f}-${k}.md`)) problems.push(`no retell ${k} for ${f}`)
     }
+    if (e.source) {
+      if (r.sourceRead !== e.source) problems.push(`research was given source ${r.sourceRead}, expected ${e.source}`)
+      if (!r.list.includes('reels/00-source.md')) problems.push('no reels/00-source.md')
+      for (const w of e.writers) if (!r.writerSaw[w]) problems.push(`${w} ran without reels/00-source.md in its reels folder`)
+      if (!r.logs.some(l => l.includes('Source to adapt: ' + e.source))) problems.push('the run log does not name the source')
+    } else if (r.sourceRead || r.list.includes('reels/00-source.md')) problems.push('a source appeared in a run whose brief has none')
     for (const f of ['s1-research.md', 's1-working.md', 's1-math.py', 's4-picks.md', 's4-working.md', 'audio/voice-notes.md', 's7-working.md', 's8-handoff.md', 's8-working.md']) {
       if (!r.list.includes(f)) problems.push(`no ${f}`)
     }

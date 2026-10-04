@@ -3,7 +3,7 @@ export const meta = {
   description: 'Run the reel script loop of docs/script-playbook.md (v0.3) from a topic to the hand-off: research with reels, independent writers with two scripts each, the lint as a report, one judge who picks three, one note back to a pick\'s writer, three cold readers per pick, a voice cut of each pick, and the hand-off. One named subagent per step, each given only file paths.',
   whenToUse: 'When a Sahayata Kendra reel needs a script for a topic. Takes a brief: slug, topic, format, cast, an optional stance, and an optional number of writers (1 to 5, default 3). There is no phase: every run goes from the topic to the hand-off. A workflow script cannot write files, so save the brief as work/<slug>/loop/brief.md before launching: research reads the topic and any stance from that file. A failed agent stops the run with its name. After every run, before reporting anything else, the calling session reads the "## Missing" block at the top of each working file in work/<slug>/loop/ (s1-working.md, every w*-note.md, s4-working.md, s7-working.md and s8-working.md) and reports each one that is not "None": the step, and what was missing. A cast member with no voice folder at all (the caller, Billu) gets one line, marked expected. Then it gives Akhilesh s8-handoff.md and the cuts in work/<slug>/loop/audio/.',
   phases: [
-    { title: 'Research', detail: 'facts with sources, numbers in code, how people ask it, five to eight reels with transcripts (vidIQ, 40 credits at most)' },
+    { title: 'Research', detail: 'facts with sources, numbers in code, how people ask it, five to eight reels with transcripts (vidIQ, 40 credits at most); with a source video, its transcript first' },
     { title: 'Writers', detail: 'independent writers; each picks the question and writes two scripts' },
     { title: 'Lint', detail: 'pipeline/script_lint.py on every script: a report for the judge, never a gate' },
     { title: 'Judge', detail: 'three picks, every claim traced, at most one note per pick' },
@@ -32,7 +32,7 @@ function fromText(text) {
     if (j && typeof j === 'object' && !Array.isArray(j)) return j
   } catch (e) { /* not JSON: read it as "key: value" pairs */ }
   // "phase" and "research" are still recognised, so that an old brief is refused by name.
-  const key = /\b(slug|topic|format|cast|stance|writers|phase|research(?:[ _-]?file)?(?:[ _-]?path)?)\s*[:=]\s*/gi
+  const key = /\b(slug|topic|format|cast|stance|writers|source|phase|research(?:[ _-]?file)?(?:[ _-]?path)?)\s*[:=]\s*/gi
   const hits = []
   let m
   while ((m = key.exec(t)) !== null) hits.push({ name: m[1].toLowerCase(), start: m.index, end: key.lastIndex })
@@ -62,6 +62,7 @@ function readBrief(input) {
   const format = text(b.format).replace(/^formats\//, '').replace(/\.md$/, '')
   const cast = (Array.isArray(b.cast) ? b.cast : text(b.cast).split(/[,\n]|\band\b/))
     .map(n => String(n).trim().toLowerCase()).filter(Boolean)
+  const source = text(b.source) // optional: a YouTube link, or a path to a transcript, of a video to adapt
   const writersRaw = b.writers === undefined || b.writers === null || String(b.writers).trim() === '' ? '3' : String(b.writers).trim()
   const writers = /^\d+$/.test(writersRaw) ? Number(writersRaw) : NaN
   const name = /^[a-z0-9][a-z0-9_-]*$/i
@@ -71,8 +72,9 @@ function readBrief(input) {
   if (!name.test(format)) problems.push('format (the file name under formats/, without .md)')
   if (!cast.length || !cast.every(n => name.test(n))) problems.push('cast (one or more names)')
   if (!(writers >= 1 && writers <= 5)) problems.push('writers (a whole number from 1 to 5; leave it out for 3)')
+  if (source && /[\n\r]/.test(source)) problems.push('source (one link or one path)')
   if (problems.length) throw new Error('The brief is missing or has an unusable ' + problems.join('; ') + '.')
-  return { slug, format, cast, writers }
+  return { slug, format, cast, writers, source }
 }
 
 const brief = readBrief(args)
@@ -149,11 +151,12 @@ async function lint(stem) {
   return reply
 }
 
-log(`Run folder: ${dir}. Writers: ${brief.writers}. Brief expected at ${P.brief}.`)
+log(`Run folder: ${dir}. Writers: ${brief.writers}.${brief.source ? ' Source to adapt: ' + brief.source + '.' : ''} Brief expected at ${P.brief}.`)
 
 // ================================================================ 1. research
 await run('reel-1-research', 'Research', PH.research,
-  [['Brief', P.brief], CLAUDE_MD, ['Format file', FORMAT_FILE], PLAYBOOK],
+  [['Brief', P.brief], ...(brief.source ? [['Source video to adapt (a link, or a transcript file); its transcript goes to reels/00-source.md', brief.source]] : []),
+    CLAUDE_MD, ['Format file', FORMAT_FILE], PLAYBOOK],
   [['Handoff', P.s1], ['Working file', P.s1Work], ['Python file (every number it computes)', P.s1Math],
     ['Reels folder (one file per reel)', P.reels]])
 

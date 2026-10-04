@@ -28,6 +28,8 @@ The examples: `docs/examples/sahayata-kendra-dollar-rate.md` (the shape and the 
 6. **Voice.** The three picks, rendered the way V6b was: Devanagari from the voice card's spelling table, the monologue as one take, the slower spaced delivery, a Scribe transcript of each cut against its script.
 7. **Hand-off.** Three scripts in full, three cuts, each writer's question and reasons, the claims trace, the retells, the lint reports, compliance notes. Akhilesh picks one, or none. A rejection is a new brief with a sentence from him.
 
+**A source video.** The brief may name a video to adapt (`source: <YouTube link or transcript path>`). Research saves its transcript as `reels/00-source.md`, checks its claims first, and collects fewer other reels. Each writer's first script follows the source's order, examples and point, as Pandey, in a minute; the second may depart. Everything else runs the same.
+
 Paths back, and no others: the judge's one note to a pick's own writer; a writer's one lookup for a missing number. No rewrite loop. No line-by-line critic. The lint reports; it stops nothing.
 
 ## The brief (what a writer gets)
