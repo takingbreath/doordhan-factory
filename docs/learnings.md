@@ -5,9 +5,19 @@ Keep "This week" to 5–8 bullets, each with its evidence. Move older weeks down
 
 ## Ride now
 _(stories or formats taking off right now that deserve a follow-up; each dated)_
+- 2026-10-04: **The market slump, told as one rupee number.** The week's breakout pattern on Indian money Reels, seen 5 times: @cnbcawaaz "₹23 लाख करोड़ डूबे, अब आगे क्या?" (1.1M, 36× their median), @anuvindkanwal "₹1 crore two years ago" (1.1M), @financewithanky worst stocks on ₹1 crore (1M), @learning_markets_with_manish "CRASH" (1.3M), @cynicsaint "28 straight days of falls since 7.8% GDP" (2.2M, 607×). Same shape as our Policybazaar reel: the wipe-out number is the first thing on screen. Follow-up for the desk: a Samachar reel on September's market loss from the viewer's stake ("Sitambar mein ₹23 lakh crore saaf. Aapke SIP ka kya?"), 20–25 s; check the figure at the desk, index level only, no buy/sell call. Second pattern, seen twice: "rules that changed on 1 October" for salaried viewers (@thehimanichaudhary 1.8M, @casumitmehtaa EPF 1.4M).
 - 2026-09-27: **Policybazaar -36% on the IRDAI commission cap (E3)**: 2,331 plays and 55 likes (public count; vidIQ's owner feed was stuck at 270), about 10× every other reel (229–252). It opened on the number: "POLICYBAZAAR −36%: KYUN?" plus −36% in the inset box. The same story went to 1.2M–6.5M plays for four bigger creators, all opening on the rupee or % hit. Why it worked: a big number, a regulator villain, and viewers who own insurance. Follow-up for the desk: "Agent ka commission kata. Aapka premium sasta hoga?", from the viewer's stake; confirm the draft's status first.
 
-## This week (week to 27 Sep: 4 reels, 2,877 plays, 12 → 65 followers)
+## This week (week to 4 Oct: 5 reels, 666 plays on them, 65 → 87 followers)
+- **Viewers give us about 12 seconds, whatever the length.** Average watch time on every matured reel sits at 10–16 s: E2 9.9, X1 11.2, E5 11.6, E4 11.8, E3 12.6, E1 15.3 (E7 14.1 so far). So a 25–32 s reel shows as 39–45% watched and a 66–67 s one as 17–21% (E5 17.3%, E7 21.4%). Land the payoff, and the line worth sending, inside the first 12 s, whatever the format.
+- **Keep: the hook strip from frame one is cutting swipe-aways on Sahayata Kendra.** E5 (hook at 5 s) ended at 67% skip; E6 and E7 (hook strip from frame one) are at 31% and 37%. Early readings, mostly followers (E5 was at 44% on its first 120 plays), so confirm at 72 h. Pooled, the hook bet is at 52.5% on 3 reels, down from 60.7%.
+- **Stop: weeks with no short reel.** Three of this week's five reels were 66–67 s Sahayata episodes, which the tight-length test excludes, so it got no new reel in 9 days (1 judged). Make at least four short Samachar reels a week.
+- **Stop: gaps in posting.** No reel from 29 Sep to 2 Oct; followers crept 70 → 73. The day E6 posted, +14. Volume is the cheapest lever we have.
+- **Sends are thin and saves are zero.** 3 sends on 666 plays this week (4.5 per 1k) and 0 saves on every reel. E7's 8-item checklist was meant to be saved and has 0 saves on 204 plays so far.
+- **Stop: reels outside the log.** 3 of 9 reels (E4, X1, X2) can't be judged. X2 (4 Oct, RBI repo rate and home-loan EMIs) is also on a rested topic.
+- **Slot:** E6 and E7 went up at 16:59 and 17:16, before the 7–9 pm slot; X2 at 20:11.
+
+## Last week (week to 27 Sep: 4 reels, 2,877 plays, 12 → 65 followers)
 - **Keep: lead with the number.** Policybazaar opened on "−36%" (headline strip and inset) and got 2,331 plays, 10× the others. Four other creators took the same story to 1.2M–6.5M, every one opening on the rupee or % hit. NSE GMP crash (our E2 topic) did 2M for @abhishekkarofficial; our NSE reel opened on Sarika looking down, no number, 252 plays.
 - **Keep: tight works.** Policybazaar (32 s, all three tests on) watched 42% vs 26–30% for E1–E2; tax audit (30 s) is at 67% on 60 plays.
 - **Keep: skip rate is moving, slowly.** 51–64% before the tests → 54.6% on Policybazaar (first ~270 plays) and 54.2% on tax audit (60 plays). Still well above the 45% target.
@@ -16,7 +26,7 @@ _(stories or formats taking off right now that deserve a follow-up; each dated)_
 - **Stop: posting in the morning.** E2 and E3 went up at 09:28 and 08:47; the plan says 7–9 pm. Tax audit went up at 20:55.
 - **Stop: reels outside the log.** The tax-audit reel has no row, script or credits in the repo, so it can't be judged. Every reel gets `add-reel` before it posts.
 
-## Last week (first read, 2026-09-25: 2 reels, ~190 plays each, 12 followers; directional only)
+## Earlier (first read, 2026-09-25: 2 reels, ~190 plays each, 12 followers; directional only)
 - **The first 3 seconds are the problem.** 54–67% of viewers swiped away within 3 seconds, and average watch was 9–14 s. Fix the opening before anything else:
   - the stake line and a big on-screen hook text in frame 1
   - eye contact from frame 1 (the NSE reel opened on Sarika looking down)

@@ -1,6 +1,6 @@
 # Platform playbook: how Reels and Shorts distribute, and the rules we stay inside
 
-Maintained by the strategist routine: it checks for changes every Sunday and updates this file, with a source for every line. Researched 2026-09-25; items marked "unconfirmed" had no official source.
+Maintained by the strategist routine: it checks for changes every Sunday and updates this file, with a source for every line. Researched 2026-09-25; checked 2026-10-04 (no change to Reels ranking, Shorts policy, SEBI's finfluencer rules or India's AI labels; the April draft on continuous AI labels is still unconfirmed as final: [Outlook Money](https://www.outlookmoney.com/news/tighter-norms-meity-proposes-continuous-label-visibility-on-full-duration-of-ai-generated-content)). Items marked "unconfirmed" had no official source.
 
 ## Instagram: what gets reach
 - **The three signals Instagram names:** watch time, likes per reach and **sends per reach**. Sends (DM shares) matter most for reaching non-followers; likes matter more with followers. (Mosseri, Jan 2025: [SMT](https://www.socialmediatoday.com/news/instagram-shares-algorithm-insights-2025/738034/))
