@@ -139,6 +139,7 @@ Original character; no resemblance to any real person.
   - Slow, unimpressed stares, ear twitches, slow blinks.
   - Turns his head away from Pandey.
   - No warmth between them, no meowing on cue, no tricks.
+- **Beats that worked in E7** (Akhilesh asked for Billu doing something other than looking at the phone): walking along the desk during Pandey's hook (in the lip-synced cold open, start image mid-stride, end image standing; lip sync passed first take), a huge yawn at the caller's sales pitch, ears pricking up on a turn ("Ab asli khel"), and a prop button (he paws an empty REGISTRY file open and sleeps on it while the phone rings). A prop the script needs can appear in an insert and in Billu's last shot; the desk stays clear in every wide.
 - **Lip-synced shots:** Billu can share one with Pandey if the prompt keeps him still ("only a slow blink and an ear twitch, it does not move its body"). E5's two-shot held him perfectly. Keep his beats short.
 - **Pose continuity:** in E5 he sat upright in the opening and at the end, but lay loaf-style in the "Loan hai?" cutaway. Pick one pose per episode.
 
@@ -256,6 +257,8 @@ Timings updated 2026-10-01: Pandey's opening line first, then one ring, with the
    - At most 3 generations at once, or you get "Too many concurrent requests".
    - Check every take with a Scribe transcript: `python3 pipeline/transcribe.py raw.mp3 --expect-file LINE.txt` (scribe_v2). It gives the similarity to the script and each word's time, so the last word's end is known for the trim.
    - Without a key, the connector route still works, but its transcript is plain text with no word timings: `creative_create_asset_upload` → `put_upload.py` → `creative_finalize_asset_upload` (flow_id) → `creative_transcribe_audio` (eleven_scribe_v1).
+   - Letters said as letters: respell for eleven_v3, e.g. "OC, U.P. RERA" (E7; "OC UP RERA" came out as "उसी अपि रेरा").
+   - After a pronunciation fix, choose the take by Scribe's per-word confidence on the fixed words (E7: the take Akhilesh heard as "बिली" scored 97.6% on "बिजली", clean takes 99.99%), not by voice_cut's slowest-take rule.
    - Level every line to -16 LUFS.
    - **Trim each line at its last word.** A trailing breath makes Wan hold the mouth half open, which reads as "about to say something".
 2. **Draft cut.** Join the ring, click, caller, clack and lines into one voice cut, and send it to Akhilesh before any video.
@@ -282,7 +285,7 @@ Timings updated 2026-10-01: Pandey's opening line first, then one ring, with the
    - Look at the face frames for expression.
    - headcheck and lipcheck run near their limits because his head moves now. Judge by eye.
 8. **Edit.**
-   - Copy `assets/edits/sk01_build.py` to `work/<slug>/build.py` and change:
+   - Copy `assets/edits/sk03_build.py` (E7, the current template) to `work/<slug>/build.py` and `assets/edits/sk03_gfx.py` to `work/<slug>/gfx.py`, and change:
      - the timeline `S[...]` and each line's last-word time (`P2_END`-style trims);
      - `TALK` (clip files and leads);
      - the face centres (measure each keyframe on a grid; zooms go wrong without this);
@@ -309,7 +312,9 @@ Timings updated 2026-10-01: Pandey's opening line first, then one ring, with the
 - **The model's zoom plus our zoom.** Stacked, they cut the head off.
 - **An old digital zoom centre after new keyframes.** Re-measure the face centres every time.
 - **Missing glyphs:** ₹ and ✓ are missing in most fonts.
-- **Files over 30 MB.** They don't reach his phone through SendUserFile.
+- **Files over 30 MB.** They don't reach his phone through SendUserFile. Make `<final>_phone.mp4` (crf 28) before the QC gate so the stamp covers it.
+- **A segment boundary on a word's onset.** Scribe's word times can be 100 ms late (E7 "Dues"); where two words sit within 0.1 s, cut at the silence the waveform shows.
+- **No lead on the cold open.** A reel that starts on the hook's first sound fails the gate's lead check; start the hook voice 0.12 s in.
 
 ## 10. Cost
 - **E5: about 215 credits**, including one-time setup and about 50 wasted on the track bug:
@@ -321,8 +326,9 @@ Timings updated 2026-10-01: Pandey's opening line first, then one ring, with the
   - ElevenLabs: about 3–4k credits per episode on voices plus about 350 per Scribe check.
 - **E6: 94.5** (approved budget 100): 8 talking shots 61.5 (41 s of Wan), 5 no-dialogue shots 30 (listening close-up 7 s,
   Billu reaction 5 s, bowl 4 s, ring look 2 s, calendar 2 s), 12 images 3. No retakes; E5's overhead hang-up reused, cropped.
-  Keyframes, clips and the build are in the registry (`kendra_e6_*`, `kendra_reusable_e6`) and work/sk02/build.py.
-- **Next episode, expected about 100–120:**
+  Keyframes, clips and the build are in the registry (`kendra_e6_*`, `kendra_reusable_e6`) and assets/edits/sk02_build.py.
+- **E7: 89.25** (approved 105): 7 talking shots 54 (36 s of Wan), 6 no-dialogue shots 31.5 (listening 7 s, Billu's file button 5 s, yawn 3 s, ring 2 s, ears 2 s, overhead hang-up 2 s), 15 images 3.75. No retakes. Graphics (checklist cards, diagram, board) built locally for free and cover about 12 s of the monologue, so talking share was 44%. Build and graphics: assets/edits/sk03_build.py and sk03_gfx.py (the templates); registry `kendra_e7_*`, `kendra_reusable_e7`.
+- **Next episode, expected about 90–110:**
   - talking shots ≈ 70 (about 50 s at 1.5);
   - 2–3 new cutaways ≈ 15;
   - new-outfit keyframes ≈ 3.

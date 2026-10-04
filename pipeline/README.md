@@ -11,7 +11,8 @@ Frames: the edit runs at 720x1280, 25 fps (Wan 720p delivers 718x1282); the 80sâ
 | tts_elevenlabs.py | Generate a line with an ElevenLabs voice (`--voice sarika` from the registry, or `--voice-id`). `--check`, `--list`. Default model eleven_v3 (GA; Hindi; delivery tags). |
 | prep_line.py | Clean a raw line: trim, tighten pauses, -16 LUFS (measured after tempo and limiter), tempo (1.15 anchors), `--phone` for callers. |
 | make_track.py | Pad prepared lines into a whole-second track for one shot (upload this to Higgsfield). Says when a shorter hold saves a paid second. |
-| put_upload.py | PUT a file to the presigned URL returned by Higgsfield media_upload (then call media_confirm). |
+| put_upload.py | PUT a file to the presigned URL returned by Higgsfield media_upload (then call media_confirm). Retries the upload host's transient 5xx answers. |
+| produce_check.py | Is this machine ready to produce? Tools on PATH, Python packages, the QC environment and models, the tracked assets the edit and the gate read, and the ElevenLabs key (never printed). `/produce-video` runs it first. |
 | qc.py | Every check on one talking shot, written to a notes file: format, speech_map, check_match, lipcheck, transcript vs script, loudness, contact sheet. |
 | speech_map.py | Speech start/end/pauses of any file. Use on generated clips to choose cut points. |
 | check_match.py | Did the generated clip keep our audio? Envelope correlation â‰¥0.90 = PASS (Wan). Low = re-voiced or re-timed. Reports a constant offset if there is one. |

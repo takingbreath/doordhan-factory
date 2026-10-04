@@ -60,7 +60,7 @@ EYES_TALK = ("Eyes straight to the camera, or down; exactly one blink and one sm
              "more. No objects are handled.")
 EYES_LOOK = "His eyes stay on {t}, which is in the frame; exactly one blink, nothing more. No objects are handled."
 TAIL = "Small, subtle, natural movements only. Locked-off camera. Keep the exact analog look of the start image; no new text, no subtitles."
-SHEETS = {"pandey": "work/sk01/img/pandey_sheet_v2.png"}      # identity reference per character (repo-relative)
+SHEETS = {"pandey": "assets/characters/pandey_sheet_v2.jpg"}   # identity reference per character (repo-relative, tracked)
 END_IMAGE_MODEL = {"sarika": "seedream_v4_5"}                 # GPT Image blocks her wardrobe; everyone else gpt_image_2_5
 ROOT = os.path.dirname(here)
 

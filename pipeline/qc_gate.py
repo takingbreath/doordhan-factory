@@ -31,7 +31,7 @@ Usage:
                                                   route; with ELEVENLABS_API_KEY the gate transcribes by itself)
   qc_gate.py waive FINAL CHECK --by "Akhilesh: <his words>"   accept one failed row (e.g. lipsync:P6) for this
                                                   exact file; only on Akhilesh's or Naveen's say-so
-MANIFEST (written by the episode's build; work/sk01/build.py is the example):
+MANIFEST (written by the episode's build; assets/edits/sk03_build.py is the example):
   {"slug", "format", "final", "script": "registry/scripts/<slug>.json", "characters": {"pandey": "<sheet.png>"},
    "dialogue_stem": "<wav aligned with the final>", "length": {"min", "max", "expected"}, "loudness": {"target"},
    "repairs_file": "work/<slug>/qc_repairs.json", "rebuild": "<shell command that rebuilds the final>",

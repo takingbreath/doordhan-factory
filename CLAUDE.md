@@ -78,8 +78,9 @@ When you present a final, say in plain language what you checked and anything yo
 - formats/: show templates (one file each) and the template for new ones. Before any episode in a format, read that format's file in full: formats/sahayata_kendra.md opens with Akhilesh's rulings for the helpline show.
 - docs/script-bible.md: writing notes and the two episodes that worked.
 - playbooks/: the paths that have worked for the news desk, script, production and posting kit. Improve them freely.
+- Commands anyone on the team can run: `/reel-script` (.claude/workflows/reel-script.js: a link, a pasted script or a topic to three scripts and their voice cuts) and `/produce-video` (.claude/skills/produce-video/: an approved script to a QC-stamped final, then the registry log and posting kit). Keep the skill, its prompts.md and gotchas.md, and the templates in assets/edits/ up to date when production changes.
 - docs/strategy.md: how we trade for growth: the bets (each with a target and a stop), the campaign, this week's plan and the working rhythm. Numbers live in registry/reels.csv, snapshots.csv, account.csv and bets.json; `pipeline/scoreboard.py` gives the verdicts.
 - registry/assets.json: every Higgsfield and voice ID. registry/episodes.md: the episode log and lessons.
-- pipeline/: tools (see pipeline/README.md); `python3 pipeline/self_test.py` must end ALL PASS. assets/: stings, logos, cards, reusable clips.
+- pipeline/: tools (see pipeline/README.md); `python3 pipeline/self_test.py` must end ALL PASS. assets/: stings, logos, cards, reusable clips, character sheets (assets/characters, also the QC identity reference) and look references (assets/references), and the edit templates (assets/edits/sk03_build.py, sk03_gfx.py).
 - routines/: the two cloud routines' instructions: the morning session (every day, 7:30 IST: news desk, then script and production) and the strategist (nightly 21:30 IST; weekly review on Sundays). Each routine reads its file from the repo at the start of every run. SETUP.md: how the system is wired (repo, connectors, keys, routines).
 - work/ and outputs/: scratch and finals (git-ignored).

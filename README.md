@@ -57,6 +57,10 @@ flowchart LR
 
 Akhilesh does all of this from the Claude app on his phone. Both routines run in the cloud, so the laptop doesn't need to be on.
 
+**Running it yourself (Akhilesh or Naveen), in a Claude Code session in this repo:**
+- `/reel-script <a YouTube or Instagram link, a pasted script, or a topic>`: the script loop (research, independent writers, a judge, cold readers, a draft voice cut of each pick) up to a hand-off with three scripts to choose from. It is the workflow in `.claude/workflows/reel-script.js` with its agents in `.claude/agents/`.
+- `/produce-video <the approved script and any edits>`: from the approved script to a QC-stamped final: voice fixes, wardrobe and set, Billu, graphics, keyframes, talking and silent shots, the edit, the old-TV finish, the QC gate, then the registry log and posting kit after approval. It is the skill in `.claude/skills/produce-video/` (with the prompts that worked and the traps we hit); its edit and graphics templates are in `assets/edits/`. Run `python3 pipeline/produce_check.py` once on a new machine first (SETUP.md, "Adding a teammate").
+
 ## How we decide what works
 
 We run growth like a trading desk ([docs/strategy.md](docs/strategy.md)):

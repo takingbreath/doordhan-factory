@@ -721,7 +721,7 @@ def write_qc_manifest():
     env = f"EDIT_JSON={rel(EDIT_JSON)} QC_REPAIRS={rel(REPAIRS)}"
     man = {"slug": "sk02", "format": "sahayata_kendra", "final": edit["out"],
            "script": "registry/scripts/sk02.json",
-           "characters": {"pandey": "work/sk01/img/pandey_sheet_v2.png"},
+           "characters": {"pandey": "assets/characters/pandey_sheet_v2.jpg"},
            "dialogue_stem": rel(os.path.join(SK, "tmp", "dialogue.wav")),
            "prefinish": rel(os.path.join(SK, "edit_raw.mkv")),
            "length": {"min": 40, "max": 70, "expected": round(TOTAL, 2)},

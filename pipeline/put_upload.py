@@ -16,6 +16,19 @@ ctype = sys.argv[3] if len(sys.argv) > 3 else "audio/mpeg"
 headers = {"Content-Type": ctype, "User-Agent": "doordhan-factory/1.0 (put_upload.py)"}
 if "if-none-match" in urllib.parse.unquote(url).lower():
     headers["If-None-Match"] = "*"
-req = urllib.request.Request(url, data=open(f, "rb").read(), headers=headers, method="PUT")
-with urllib.request.urlopen(req, timeout=120) as r:
-    print(f"{f} -> HTTP {r.status}")
+# Cloudflare in front of the upload host sometimes answers 520-524 for a moment (E7, 2026-10-04): retry those a few
+# times. A 412 means the object already exists (If-None-Match), i.e. an earlier attempt landed: treat it as done.
+import time, urllib.error  # noqa: E402
+data = open(f, "rb").read()
+for attempt in range(1, 5):
+    try:
+        req = urllib.request.Request(url, data=data, headers=headers, method="PUT")
+        with urllib.request.urlopen(req, timeout=120) as r:
+            print(f"{f} -> HTTP {r.status}")
+        break
+    except urllib.error.HTTPError as e:
+        if e.code == 412 and attempt > 1:
+            print(f"{f} -> HTTP 412 (already uploaded by an earlier attempt)"); break
+        if e.code >= 500 and attempt < 4:
+            print(f"{f}: HTTP {e.code}, retrying ({attempt}/3)", file=sys.stderr); time.sleep(3 * attempt); continue
+        raise
