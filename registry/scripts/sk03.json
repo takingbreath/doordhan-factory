@@ -1,0 +1,28 @@
+{
+ "slug": "sk03",
+ "approved_by": "Akhilesh",
+ "frozen_at": "2026-10-04 16:03 IST",
+ "note": "w1-1 from the property-checklist-noida-20261004 loop, approved 2026-10-04 with his edits: OC/UP RERA said as letters, बिजली said clearly, 'वही' -> 'वैसा ही', 'List हम बना के रखे हैं, comment में check लिखो' -> 'पूरी list के लिए comment में full list लिखो'. Voice text respells OC, U.P. RERA.",
+ "lines": [
+  {
+   "id": "P1",
+   "speaker": "pandey",
+   "text": "[flat, brisk] Noida में flat लेने से पहले का देखें?",
+   "spoken": "Noida में flat लेने से पहले का देखें?"
+  },
+  {
+   "id": "C1",
+   "speaker": "caller",
+   "text": "[curious] Hello, दूरधन सहायता केंद्र? पांडेय जी, Noida में एक flat पसंद आया है। Pool है, clubhouse है, सब है। Booking से पहले क्या देखूँ?",
+   "spoken": "Hello, दूरधन सहायता केंद्र? पांडेय जी, Noida में एक flat पसंद आया है। Pool है, clubhouse है, सब है। Booking से पहले क्या देखूँ?"
+  },
+  {
+   "id": "P2",
+   "speaker": "pandey",
+   "text": "[flat, brisk] Pool छोड़ो। पूछो कि society भर गई तब का होगा। एक lift पे कितने flat? बिजली गई, तो lift चलेगी? Borewell सूखा तो पानी का backup है? Maintenance में का आता है, का नहीं, लिखवा के लो। अब असली खेल। ज़मीन Noida Authority की है, builder के पास lease पे। Builder Authority के dues नहीं भरता, तो तुमरा flat registry में अटक जाता है। चाबी मिल जाती है, काग़ज़ नहीं। Dues Noida Authority की site पे दिखते हैं, OC, U.P. RERA पे। पूरी list के लिए comment में 'full list' लिखो। और एक बार पंद्रह साल पुरानी society घूम आओ। तुमरा flat पंद्रह साल बाद [slowly] वैसा ही दिखेगा।",
+   "spoken": "Pool छोड़ो। पूछो कि society भर गई तब का होगा। एक lift पे कितने flat? बिजली गई, तो lift चलेगी? Borewell सूखा तो पानी का backup है? Maintenance में का आता है, का नहीं, लिखवा के लो। अब असली खेल। ज़मीन Noida Authority की है, builder के पास lease पे। Builder Authority के dues नहीं भरता, तो तुमरा flat registry में अटक जाता है। चाबी मिल जाती है, काग़ज़ नहीं। Dues Noida Authority की site पे दिखते हैं, OC, U.P. RERA पे। पूरी list के लिए comment में 'full list' लिखो। और एक बार पंद्रह साल पुरानी society घूम आओ। तुमरा flat पंद्रह साल बाद वैसा ही दिखेगा।"
+  }
+ ],
+ "sha256": "03d8a8bb79c53bd42f3d32a827080a5555341649ba9cbef4c25bff0ad7bbb5b6",
+ "history": []
+}

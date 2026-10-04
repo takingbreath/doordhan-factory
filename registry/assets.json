@@ -78,7 +78,20 @@
     "kendra_e6_right_talk_safari": "30d7449d-00e6-4fc1-b18f-a7ee3e3181cc",
     "kendra_wall_calendar_insert": "55ad6759-230a-4514-bb91-93d59c81f767",
     "kendra_billu_big_steel_bowl": "d4a25f75-225c-46c5-be54-fe3b42b3336a",
-    "kendra_e6_billu_closeup_safari_behind": "3e49968f-ab26-410e-b3f1-a0174a1b85f0"
+    "kendra_e6_billu_closeup_safari_behind": "3e49968f-ab26-410e-b3f1-a0174a1b85f0",
+    "kendra_e7_front_talk_maroon": "7a128572-e3eb-48d1-bf56-8f71748544e9",
+    "kendra_e7_cold_open_billu_walking_in_crop": "b901ebac-0264-4dbe-bc38-a845d95cef47",
+    "kendra_e7_cold_open_billu_standing_crop": "85a1a70a-55f4-4bda-afbd-ffb706cb1727",
+    "kendra_e7_ring_both_look_at_phone": "e91a8b40-aac4-40ba-ba9a-cdcf6b2667f6",
+    "kendra_e7_listen_ecu_maroon": "195522ec-b163-4189-9b88-eaa94648629d",
+    "kendra_e7_right_talk_maroon": "daaa8a81-21dd-4214-9741-6fe7ff6d978b",
+    "kendra_e7_left_talk_maroon": "41c03fd6-817e-41e1-9f4a-a0d989ac4c41",
+    "kendra_e7_low_talk_damp_ceiling": "ee2edcf5-693f-4584-b5ae-c8a804a8f3fc",
+    "kendra_e7_billu_closeup_maroon_behind": "9a4ef6db-2f33-4901-8350-43bacd5f1007",
+    "kendra_e7_overhead_hangup_maroon_cuff": "71559b3c-48cc-4423-a075-7bed69652210",
+    "kendra_insert_key_on_empty_registry_file": "6a32220b-9cfc-4d48-a3a2-c025611665ce",
+    "kendra_billu_by_closed_registry_file": "1b0c8013-9998-4752-a3ea-f4b8dbe991fa",
+    "kendra_billu_asleep_on_open_registry_file": "a3c2b336-a220-4355-a511-2088db7e0760"
   },
   "voices": {
     "_note": "ElevenLabs over the API is the default (2026-09-30): a voice with an elevenlabs_voice_id is generated with pipeline/tts_elevenlabs.py --voice <name>. A voice without one stays on Higgsfield. higgsfield_fallback keeps a character's old Higgsfield voice element usable (pipeline/higgsfield.py audio --voice <name>).",
@@ -256,6 +269,14 @@
       "calendar_pages_fly": "e2fec2ed-b5a2-4066-b443-4394e59c9223",
       "billu_bowl_dip_and_stare": "606eea14-ba5b-4059-8906-df1d51357869",
       "billu_closeup_blink_turn_away_e6_shirt": "5d99b58a-e1d3-4da6-90f0-a2af85c9e158"
+    },
+    "kendra_reusable_e7": {
+      "_note": "Wan jobs from E7 (2026-10-04) worth reusing. Billu's clips show the E7 maroon shirt behind him, out of focus; the overhead shows a maroon cuff.",
+      "billu_yawn_maroon_behind": "577a1816-5854-4f2b-bd0e-a3333daf1446",
+      "billu_ears_prick_up_maroon_behind": "46500633-8020-40a8-bff8-40baf9b0317c",
+      "billu_paws_registry_file_open_sleeps": "5b887202-2b32-432f-8fff-eb3306d75650",
+      "overhead_hangup_maroon_cuff": "d56e5fa0-1d85-4867-b191-b1987afa0dcf",
+      "cold_open_billu_walks_in_talking_e7": "6e33fa83-290b-465e-92da-82d4a8dfab4e"
     }
   },
   "keyframes_notes": {
@@ -265,11 +286,18 @@
       "green_sweetheart": "2274317d-c793-4fa5-8005-393969961364",
       "peach_squareneck": "9a5a400f-cfbf-4035-bcad-573ad0c67dff",
       "why": "too covered (Akhilesh)"
-    }
+    },
+    "kendra_e7": "E7 (2026-10-04) set dressing, episode-specific: the wall behind Pandey carries a faded 'SAPNON KA GHAR / POSSESSION 2011' builder poster (fictional), a crack through it and a damp stain; the low angle shows the damp, flaking ceiling. The two cold-open frames are local crops (648x1152 from the GPT frames 428e2276 / 1092160a) uploaded as media, so the face is 15-16% of the frame height. Pandey wears the E7 outfit in all of them; reuse only where it can't be seen or with a wardrobe restyle."
   },
   "wardrobe_log": {
     "_note": "One row per character per episode, added when the final is approved. Nobody wears the same outfit twice on air.",
     "rows": [
+      {
+        "episode": "7",
+        "date": "2026-10-04",
+        "character": "pandey",
+        "outfit": "wine-maroon long-sleeved polyester shirt with a huge pointed 70s collar, fat cream-and-chocolate-brown diagonal-striped tie with a loose knot, black elastic sleeve garters on both upper arms, gold-capped pen in the pocket, steel wristwatch; no vest, no lanyard"
+      },
       {
         "episode": "6",
         "date": "2026-10-03",
