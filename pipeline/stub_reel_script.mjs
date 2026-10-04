@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 // Stub runs of .claude/workflows/reel-script.js (loop v0.3) with fake agents: no model, no network, no files written.
+// Four call shapes: free text (a link, a pasted transcript, a topic with "stance:"), which goes through a fake intake
+// that writes the brief, and the old brief with a slug (object, or key: value text), which skips the intake.
 // Each fake agent checks that every path under "Read" in its task exists (a file an earlier agent wrote, or a house
 // file in the repository) and "writes" its "Write" paths into an in-memory run folder. A scenario passes when the run
 // ends, every read was there (voice cards for cast members with no voice folder are expected missing), and the run
@@ -35,9 +37,10 @@ async function runScenario(name, opts) {
   const missing = [] // reads that were not there
   const logs = []
   const calls = []
-  const slug = opts.brief.slug
+  const slug = opts.brief.slug // for free text: the slug the fake intake will choose
   const dir = `work/${slug}/loop`
-  files.set(`${dir}/brief.md`, `topic: ${opts.brief.topic}`)
+  if (!opts.freeText) files.set(`${dir}/brief.md`, `topic: ${opts.brief.topic}`)
+  let intakeText = null // the raw text the intake was given, if it ran
   let sourceRead = null // the source the research task listed, if any
   const writerSaw = {} // writer label -> did reels/00-source.md exist in its reels folder when it wrote
   const exists = p => {
@@ -57,6 +60,28 @@ async function runScenario(name, opts) {
     const W = label => (t.writes.find(x => x.label.startsWith(label)) || {}).path
     const R = label => (t.reads.find(x => x.label.startsWith(label)) || {}).path
     switch (o.agentType) {
+      case 'reel-0-intake': {
+        // the same decisions as .claude/agents/reel-0-intake.md, by rule: a link, a long pasted text, or a topic line
+        const m = /=== TEXT START ===\n([\s\S]*)\n=== TEXT END ===/.exec(prompt)
+        intakeText = m ? m[1] : null
+        const text = intakeText || ''
+        const kv = {}
+        const plain = text.replace(/\b(stance|writers|cast|format)\s*:\s*(.*?)(?=\s+\b(?:stance|writers|cast|format)\s*:|$)/gim,
+          (_, k, v) => { kv[k.toLowerCase()] = v.trim(); return '' }).trim()
+        const link = (/(https?:\/\/(?:www\.)?(?:youtube\.com\/(?:watch\?v=|shorts\/)|youtu\.be\/|instagram\.com\/(?:reels?|p)\/)\S+)/.exec(plain) || [])[1]
+        const words = plain.split(/\s+/).filter(Boolean)
+        const pasted = !link && words.length >= 60
+        const rest = link ? plain.replace(link, '').trim() : plain
+        const topic = link ? (rest || 'Stub video title') : pasted ? 'Stub question the transcript answers' : rest
+        const kebab = topic.toLowerCase().replace(/[^a-z0-9 ]+/g, ' ').split(/\s+/).filter(Boolean).slice(0, 5).join('-')
+        let sl = `${kebab}-20261004`, k = 2
+        while ([...files.keys()].some(f => f.startsWith(`work/${sl}/`))) sl = `${kebab}-20261004-${k++}`
+        const source = link || (pasted ? `work/${sl}/source.md` : '')
+        if (pasted) put(`work/${sl}/source.md`, `# Source pasted into /reel-script\n\n${text}`)
+        put(`work/${sl}/loop/brief.md`, `# Brief: ${sl}\n- **Topic:** ${topic}\n- **Stance:** ${kv.stance || 'none'}`)
+        return { slug: sl, topic, format: kv.format || 'sahayata_kendra', cast: ['pandey', 'caller', 'billu'],
+          stance: kv.stance || '', writers: kv.writers ? Number(kv.writers) : 3, source, note: '' }
+      }
       case 'reel-1-research':
       {
         put(W('Handoff')); put(W('Working file'), '## Missing\n- None'); put(W('Python file'))
@@ -117,7 +142,9 @@ async function runScenario(name, opts) {
       { total: null, spent: () => 0, remaining: () => Infinity }, () => { throw new Error('no nested workflows') })
   } catch (e) { error = e.message }
   const list = [...files.keys()].filter(k => k.startsWith(dir + '/')).map(k => k.slice(dir.length + 1)).sort()
-  return { name, result, error, missing, logs, calls, list, sourceRead, writerSaw }
+  const briefText = files.get(`${dir}/brief.md`) || ''
+  return { name, result, error, missing, logs, calls, list, sourceRead, writerSaw, intakeText, briefText,
+    allFiles: [...files.keys()] }
 }
 
 const SC = [
@@ -152,6 +179,25 @@ const SC = [
     picks: ['w1-1', 'w2-1', 'w3-1'],
     expect: { scripts: 6, picks: ['w1-1', 'w2-1', 'w3-1'], retells: 9, cuts: 3,
       source: 'https://www.youtube.com/watch?v=STUB0000001', writers: ['Writer 1', 'Writer 2', 'Writer 3'] } },
+  { name: 'free a. a YouTube link: the intake writes the brief, research saves reels/00-source.md, every writer reads it',
+    freeText: true, brief: { slug: 'stub-video-title-20261004', topic: 'Stub video title' },
+    args: 'https://www.youtube.com/watch?v=STUB0000002',
+    picks: ['w1-1', 'w2-1', 'w3-1'],
+    expect: { scripts: 6, picks: ['w1-1', 'w2-1', 'w3-1'], retells: 9, cuts: 3, intake: true, topic: 'Stub video title',
+      source: 'https://www.youtube.com/watch?v=STUB0000002', writers: ['Writer 1', 'Writer 2', 'Writer 3'] } },
+  { name: 'free b. a pasted transcript: saved as work/<slug>/source.md, which research turns into reels/00-source.md',
+    freeText: true, brief: { slug: 'stub-question-the-transcript-answers-20261004', topic: 'Stub question the transcript answers' },
+    args: "Dekho bhai, sab log bolte hain SIP karo, crorepati ban jaoge. Par sawaal yeh hai ki kitna? Maan lo tumhara kharcha aaj pachaas hazaar mahina hai. Tees saal baad mehangai ke saath wahi kharcha teen lakh ke aas paas hoga. Retirement ke baad bhi tees saal chalana hai, toh tumko lagbhag das crore chahiye. Baarah percent maan ke, aaj se SIP shuru karo toh mahina chauntees hazaar ke kareeb lagega. Paanch saal ruk gaye toh saath hazaar. Isi liye jaldi shuru karna zaroori hai, aur apna number apne kharche se nikalo, kisi aur ke crore se nahi.",
+    picks: ['w1-1', 'w2-1', 'w3-1'],
+    expect: { scripts: 6, picks: ['w1-1', 'w2-1', 'w3-1'], retells: 9, cuts: 3, intake: true,
+      topic: 'Stub question the transcript answers', source: 'work/stub-question-the-transcript-answers-20261004/source.md',
+      sourceFile: true, writers: ['Writer 1', 'Writer 2', 'Writer 3'] } },
+  { name: 'free c. a topic with "stance:" and "writers: 2": the intake, no source, the stance in the brief',
+    freeText: true, brief: { slug: 'how-much-sip-is-enough-20261004', topic: 'How much SIP is enough to retire?' },
+    args: "How much SIP is enough to retire? stance: start from the caller's own monthly spending writers: 2",
+    picks: ['w1-1', 'w2-2', 'w1-2'],
+    expect: { scripts: 4, picks: ['w1-1', 'w2-2', 'w1-2'], retells: 9, cuts: 3, intake: true,
+      topic: 'How much SIP is enough to retire?', stance: "start from the caller's own monthly spending" } },
   { name: 'extra d. a brief with a phase is refused',
     brief: { slug: 'stub-phase', topic: 'x', format: 'sahayata_kendra', cast: 'pandey', phase: 'blueprint' },
     picks: [], expectError: /has none/ },
@@ -178,11 +224,20 @@ for (const sc of SC) {
       if (!r.list.includes(`${f}-lint-report.md`)) problems.push(`no lint report for ${f}`)
       for (let k = 1; k <= 3; k++) if (!r.list.includes(`r-${f}-${k}.md`)) problems.push(`no retell ${k} for ${f}`)
     }
+    const first = r.logs[0] || ''   // the first log line names the slug, the topic and the source
+    if (!first.includes(`Slug: ${sc.brief.slug} `) || !first.includes(`Source: ${e.source || 'none'} `)) problems.push(`first log line lacks the slug or the source: ${first}`)
+    if (e.topic && !first.includes(`Topic: ${e.topic} `)) problems.push(`first log line lacks the topic: ${first}`)
+    if (e.intake) {
+      if (r.intakeText !== sc.args.trim()) problems.push(`the intake was not given the text as typed (got ${JSON.stringify(r.intakeText)})`)
+      if (!r.list.includes('brief.md')) problems.push('the intake wrote no brief.md')
+      if (!r.result || r.result.slug !== sc.brief.slug || r.result.topic !== e.topic || !r.result.intake) problems.push(`result slug/topic/intake: ${r.result && [r.result.slug, r.result.topic, r.result.intake]}`)
+      if (e.stance && !r.briefText.includes(e.stance)) problems.push('the stance is not in the brief')
+    } else if (r.intakeText !== null || (r.result && r.result.intake)) problems.push('the intake ran for a brief that already had a slug')
     if (e.source) {
       if (r.sourceRead !== e.source) problems.push(`research was given source ${r.sourceRead}, expected ${e.source}`)
+      if (e.sourceFile && !r.allFiles.includes(e.source)) problems.push(`no ${e.source}`)
       if (!r.list.includes('reels/00-source.md')) problems.push('no reels/00-source.md')
       for (const w of e.writers) if (!r.writerSaw[w]) problems.push(`${w} ran without reels/00-source.md in its reels folder`)
-      if (!r.logs.some(l => l.includes('Source to adapt: ' + e.source))) problems.push('the run log does not name the source')
     } else if (r.sourceRead || r.list.includes('reels/00-source.md')) problems.push('a source appeared in a run whose brief has none')
     for (const f of ['s1-research.md', 's1-working.md', 's1-math.py', 's4-picks.md', 's4-working.md', 'audio/voice-notes.md', 's7-working.md', 's8-handoff.md', 's8-working.md']) {
       if (!r.list.includes(f)) problems.push(`no ${f}`)

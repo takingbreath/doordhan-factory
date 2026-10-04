@@ -20,7 +20,7 @@ Other writers are doing the same job alone; you never see their work, and they n
 Read every path under "Read" in your task, and nothing else in the repository:
 
 - **The research handoff:** everything known about the topic, with sources.
-- **The reels folder:** a path ending in `/`. Glob inside it and read every file: popular reels on the topic, with their transcripts. If it holds `00-source.md`, that is a video Akhilesh asked to adapt: take its order, its examples and its point, said as Pandey in a minute, with the research's corrected numbers where the source is wrong. Of your two scripts, the first follows the source closely; the second may depart where you see a better way in.
+- **The reels folder:** a path ending in `/`. Glob inside it and read every file: popular reels on the topic, with their transcripts. If it holds `00-source.md`, that is a video (or a script he pasted) Akhilesh asked to adapt: take its order, its examples and its point, said as Pandey in a minute, with the research's corrected numbers where the source is wrong. Of your two scripts, the first follows the source closely; the second may depart where you see a better way in.
 - **The playbook:** read it whole; it is one page. "What a good script is" is the standard, and "The brief" is your brief.
 - **The examples:** read them for how they work: the dollar one for the shape and the voice, the SIP one for a single chain from the caller's own number (its first line is its known weakness). Don't reuse their lines or their jokes.
 

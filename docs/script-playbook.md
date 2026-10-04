@@ -2,6 +2,22 @@
 
 How a Sahayata Kendra script gets written. One page. The agents in the loop read this file and nothing longer. The 8,700-word spec it replaces is in `prompts/archive/` for reference; it produced worse scripts.
 
+## How to run
+
+Type anything after `/reel-script`, one of three ways:
+
+```
+/reel-script https://www.youtube.com/watch?v=...
+/reel-script <paste a script or transcript, about 60 words or more>
+/reel-script How much SIP is enough to retire? stance: start from the caller's own spending
+```
+
+1. **A link** (YouTube or Instagram): a video to adapt. The topic is its title.
+2. **A pasted script or transcript:** saved as `work/<slug>/source.md` and adapted the same way. The topic is the question it answers.
+3. **A topic line**, optionally with `stance: …`, `writers: N`, `cast: …` or `format: …`.
+
+Defaults: format `sahayata_kendra`; cast pandey, caller, billu; 3 writers; no stance. An intake agent writes the brief to `work/<slug>/loop/brief.md`; the slug is up to five words of the topic plus the date. The session that ran it reports the slug, topic and source, any missing inputs, the vidIQ credits and the stage times, then shows `s8-handoff.md` and where the cuts are.
+
 ## What a good script is
 
 Someone curious asks a money question; Pandey explains it to a beginner, out loud, in one go, so the person on the phone gets it. That's the whole job. A good one:
@@ -28,7 +44,7 @@ The examples: `docs/examples/sahayata-kendra-dollar-rate.md` (the shape and the 
 6. **Voice.** The three picks, rendered the way V6b was: Devanagari from the voice card's spelling table, the monologue as one take, the slower spaced delivery, a Scribe transcript of each cut against its script.
 7. **Hand-off.** Three scripts in full, three cuts, each writer's question and reasons, the claims trace, the retells, the lint reports, compliance notes. Akhilesh picks one, or none. A rejection is a new brief with a sentence from him.
 
-**A source video.** The brief may name a video to adapt (`source: <YouTube link or transcript path>`). Research saves its transcript as `reels/00-source.md`, checks its claims first, and collects fewer other reels. Each writer's first script follows the source's order, examples and point, as Pandey, in a minute; the second may depart. Everything else runs the same.
+**A source video.** The brief may name a video to adapt (`source:` a YouTube or Instagram link, or `work/<slug>/source.md` for a pasted script). Research saves its transcript as `reels/00-source.md`, checks its claims first, and collects fewer other reels. Each writer's first script follows the source's order, examples and point, as Pandey, in a minute; the second may depart. Everything else runs the same.
 
 Paths back, and no others: the judge's one note to a pick's own writer; a writer's one lookup for a missing number. No rewrite loop. No line-by-line critic. The lint reports; it stops nothing.
 

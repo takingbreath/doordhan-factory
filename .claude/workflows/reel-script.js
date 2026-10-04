@@ -1,8 +1,9 @@
 export const meta = {
   name: 'reel-script',
-  description: 'Run the reel script loop of docs/script-playbook.md (v0.3) from a topic to the hand-off: research with reels, independent writers with two scripts each, the lint as a report, one judge who picks three, one note back to a pick\'s writer, three cold readers per pick, a voice cut of each pick, and the hand-off. One named subagent per step, each given only file paths.',
-  whenToUse: 'When a Sahayata Kendra reel needs a script for a topic. Takes a brief: slug, topic, format, cast, an optional stance, and an optional number of writers (1 to 5, default 3). There is no phase: every run goes from the topic to the hand-off. A workflow script cannot write files, so save the brief as work/<slug>/loop/brief.md before launching: research reads the topic and any stance from that file. A failed agent stops the run with its name. After every run, before reporting anything else, the calling session reads the "## Missing" block at the top of each working file in work/<slug>/loop/ (s1-working.md, every w*-note.md, s4-working.md, s7-working.md and s8-working.md) and reports each one that is not "None": the step, and what was missing. A cast member with no voice folder at all (the caller, Billu) gets one line, marked expected. Then it gives Akhilesh s8-handoff.md and the cuts in work/<slug>/loop/audio/.',
+  description: 'Run the reel script loop of docs/script-playbook.md from free text to the hand-off: an intake that turns a link, a pasted script or a topic into a brief; research with reels, and the source video to adapt if there is one; independent writers with two scripts each; the lint as a report; one judge who picks three; one note back to a pick\'s writer; three cold readers per pick; a voice cut of each pick; and the hand-off. One named subagent per step, each given only file paths.',
+  whenToUse: 'When a Sahayata Kendra reel needs a script. Type anything after /reel-script, one of three ways. (1) A link to adapt, YouTube or Instagram: /reel-script https://www.youtube.com/watch?v=... (2) A pasted script or transcript, about 60 words or more: /reel-script <paste it>. (3) A topic, with optional "stance: ...", "writers: N", "cast: ..." or "format: ...": /reel-script How much SIP is enough to retire? stance: start from the caller\'s own spending. Defaults: format sahayata_kendra; cast pandey, caller, billu; 3 writers; no stance. Pass the text exactly as typed as the args. The intake agent writes work/<slug>/loop/brief.md (and work/<slug>/source.md for a pasted transcript); the slug is up to five words of the topic plus the date. A brief that already has a slug (key: value text or JSON) skips the intake and runs as before, from the brief file saved at work/<slug>/loop/brief.md. The calling session\'s only jobs: run it; then report the slug, topic and source (the log\'s first line); every "## Missing" block that is not "None" (s1-working.md, every w*-note.md, s4-working.md, s7-working.md and s8-working.md; a cast member with no voice folder at all, the caller or Billu, gets one line, marked expected); the vidIQ credits used (the tally in s1-working.md); and each stage\'s time from the files\' times; then show s8-handoff.md in full and the paths of the cuts in work/<slug>/loop/audio/. A failed agent stops the run with its name: report that and stop.',
   phases: [
+    { title: 'Intake', detail: 'free text to a brief: a link to adapt, a pasted script, or a topic (skipped when the args are already a brief)' },
     { title: 'Research', detail: 'facts with sources, numbers in code, how people ask it, five to eight reels with transcripts (vidIQ, 40 credits at most); with a source video, its transcript first' },
     { title: 'Writers', detail: 'independent writers; each picks the question and writes two scripts' },
     { title: 'Lint', detail: 'pipeline/script_lint.py on every script: a report for the judge, never a gate' },
@@ -62,7 +63,7 @@ function readBrief(input) {
   const format = text(b.format).replace(/^formats\//, '').replace(/\.md$/, '')
   const cast = (Array.isArray(b.cast) ? b.cast : text(b.cast).split(/[,\n]|\band\b/))
     .map(n => String(n).trim().toLowerCase()).filter(Boolean)
-  const source = text(b.source) // optional: a YouTube link, or a path to a transcript, of a video to adapt
+  const source = text(b.source) // optional: a YouTube or Instagram link, or a transcript file, of a video to adapt
   const writersRaw = b.writers === undefined || b.writers === null || String(b.writers).trim() === '' ? '3' : String(b.writers).trim()
   const writers = /^\d+$/.test(writersRaw) ? Number(writersRaw) : NaN
   const name = /^[a-z0-9][a-z0-9_-]*$/i
@@ -74,10 +75,87 @@ function readBrief(input) {
   if (!(writers >= 1 && writers <= 5)) problems.push('writers (a whole number from 1 to 5; leave it out for 3)')
   if (source && /[\n\r]/.test(source)) problems.push('source (one link or one path)')
   if (problems.length) throw new Error('The brief is missing or has an unusable ' + problems.join('; ') + '.')
-  return { slug, format, cast, writers, source }
+  return { slug, topic, format, cast, writers, source }
 }
 
-const brief = readBrief(args)
+// Are the args already a brief (an object, JSON, or "key: value" text, with a slug)? If not, they are free text for the
+// intake: a link, a pasted script or transcript, or a topic line (which may carry "stance:" and the like, but no slug).
+function givenBrief(input) {
+  if (input && typeof input === 'object' && !Array.isArray(input)) return typeof input.slug === 'string' && input.slug.trim() ? input : null
+  if (typeof input !== 'string') return null
+  const b = fromText(input)
+  return b && typeof b.slug === 'string' && b.slug.trim() ? b : null
+}
+function freeTextOf(input) {
+  if (typeof input === 'string') return input.trim()
+  if (input && typeof input === 'object' && typeof input.text === 'string') return input.text.trim()
+  return ''
+}
+
+// ---------------------------------------------------------------- agents
+const rows = (title, list) => `${title}:\n` + list.map(([label, path]) => `- ${label}: ${path}`).join('\n')
+const task = (reads, writes) => `${rows('Read', reads)}\n\n${rows('Write', writes)}`
+
+let agents = 0 // every agent started, for the result
+const failures = [] // agents that did not finish: any one stops the run, with its name
+function spawn(prompt, opts) {
+  agents += 1
+  return agent(prompt, opts)
+}
+async function run(agentType, label, phaseTitle, reads, writes, extra) {
+  const reply = await spawn(task(reads, writes), { agentType, label, phase: phaseTitle, ...(extra || {}) })
+  if (reply === null || reply === undefined) {
+    failures.push(label)
+    throw new Error(`${label} did not finish; the run stops here.`)
+  }
+  return reply
+}
+function stopIfFailed() {
+  if (failures.length) throw new Error(`${failures.join(', ')} did not finish; the run stops here.`)
+}
+
+// ================================================================ 0. intake (only for free text)
+// The workflow can't write files or read the clock; the intake agent does both: it decides the source, topic, any
+// stance and the slug (with today's date), writes the brief file (and a pasted transcript), and replies with the brief.
+const INTAKE_SCHEMA = {
+  type: 'object',
+  properties: {
+    slug: { type: 'string', description: 'up to five words of the topic in kebab case, then -yyyymmdd; -2, -3 ... if work/<slug>/ exists' },
+    topic: { type: 'string', description: 'one line' },
+    format: { type: 'string', description: 'the file name under formats/, without .md (default sahayata_kendra)' },
+    cast: { type: 'array', items: { type: 'string' }, description: 'default ["pandey", "caller", "billu"]' },
+    stance: { type: 'string', description: 'only if the text names one ("stance: ..."), word for word; otherwise ""' },
+    writers: { type: 'integer', description: '1 to 5; 3 unless the text says "writers: N"' },
+    source: { type: 'string', description: 'the YouTube or Instagram link, or work/<slug>/source.md for a pasted transcript; "" for none' },
+    note: { type: 'string', description: 'anything the user should know (e.g. the title could not be fetched); "" for nothing' },
+  },
+  required: ['slug', 'topic', 'format', 'cast', 'stance', 'writers', 'source', 'note'],
+}
+const intakeTask = (text, today) => [
+  'The text typed after /reel-script, exactly as typed, between the two marker lines:',
+  '=== TEXT START ===', text, '=== TEXT END ===', '',
+  today ? `Today: ${today}` : 'Today: take the date from your environment.', '',
+  'Write:',
+  '- Brief: work/<slug>/loop/brief.md',
+  '- Pasted transcript (only when the text is one): work/<slug>/source.md',
+].join('\n')
+
+let brief, intakeNote = ''
+const given = givenBrief(args)
+if (given) {
+  brief = { ...readBrief(given), intake: false }
+} else {
+  const text = freeTextOf(args)
+  if (!text) throw new Error('reel-script needs something to work from: a YouTube or Instagram link, a pasted script or transcript, or a topic line.')
+  const today = args && typeof args === 'object' && args.date ? String(args.date) : ''
+  const reply = await spawn(intakeTask(text, today), { agentType: 'reel-0-intake', label: 'Intake', phase: 'Intake', schema: INTAKE_SCHEMA })
+  if (reply === null || reply === undefined) {
+    failures.push('Intake')
+    throw new Error('Intake did not finish; the run stops here.')
+  }
+  brief = { ...readBrief(reply), intake: true }
+  intakeNote = typeof reply.note === 'string' ? reply.note.trim() : ''
+}
 
 // ---------------------------------------------------------------- paths
 const dir = `work/${brief.slug}/loop`
@@ -114,27 +192,6 @@ const EXAMPLE2 = ['Example, the SIP reel (one chain from the caller\'s own numbe
 const FORMAT_FILE = `formats/${brief.format}.md`
 const CARDS = brief.cast.map(n => [`Voice card (${n})`, `docs/voices/${n}/voice-card.md`])
 
-const rows = (title, list) => `${title}:\n` + list.map(([label, path]) => `- ${label}: ${path}`).join('\n')
-const task = (reads, writes) => `${rows('Read', reads)}\n\n${rows('Write', writes)}`
-
-let agents = 0 // every agent started, for the result
-const failures = [] // agents that did not finish: any one stops the run, with its name
-function spawn(prompt, opts) {
-  agents += 1
-  return agent(prompt, opts)
-}
-async function run(agentType, label, phaseTitle, reads, writes, extra) {
-  const reply = await spawn(task(reads, writes), { agentType, label, phase: phaseTitle, ...(extra || {}) })
-  if (reply === null || reply === undefined) {
-    failures.push(label)
-    throw new Error(`${label} did not finish; the run stops here.`)
-  }
-  return reply
-}
-function stopIfFailed() {
-  if (failures.length) throw new Error(`${failures.join(', ')} did not finish; the run stops here.`)
-}
-
 const PH = {
   research: 'Research', writers: 'Writers', lint: 'Lint', judge: 'Judge', notes: 'Notes', readers: 'Readers',
   voice: 'Voice', handoff: 'Hand-off',
@@ -151,11 +208,13 @@ async function lint(stem) {
   return reply
 }
 
-log(`Run folder: ${dir}. Writers: ${brief.writers}.${brief.source ? ' Source to adapt: ' + brief.source + '.' : ''} Brief expected at ${P.brief}.`)
+log(`Slug: ${brief.slug} · Topic: ${brief.topic} · Source: ${brief.source || 'none'} · Writers: ${brief.writers} · ` +
+  `Brief: ${P.brief}${brief.intake ? ' (written by the intake)' : ''}`)
+if (intakeNote) log(`Intake note: ${intakeNote}`)
 
 // ================================================================ 1. research
 await run('reel-1-research', 'Research', PH.research,
-  [['Brief', P.brief], ...(brief.source ? [['Source video to adapt (a link, or a transcript file); its transcript goes to reels/00-source.md', brief.source]] : []),
+  [['Brief', P.brief], ...(brief.source ? [['Source video to adapt (a YouTube or Instagram link, or a transcript file); its transcript goes to reels/00-source.md', brief.source]] : []),
     CLAUDE_MD, ['Format file', FORMAT_FILE], PLAYBOOK],
   [['Handoff', P.s1], ['Working file', P.s1Work], ['Python file (every number it computes)', P.s1Math],
     ['Reels folder (one file per reel)', P.reels]])
@@ -287,6 +346,9 @@ await run('reel-8-handoff', 'Hand-off', PH.handoff,
 if (lintNotes.length) log(`Lint errors (reported, not stopping): ${lintNotes.join('; ')}.`)
 return {
   slug: brief.slug,
+  topic: brief.topic,
+  source: brief.source,
+  intake: brief.intake,
   writers: brief.writers,
   scripts,
   picks: finals.map(f => ({ pick: f.pick, note: f.note, answer: f.answer, final: f.final, cut: P.cut(f.final) })),
