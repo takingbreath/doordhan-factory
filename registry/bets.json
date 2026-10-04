@@ -3,7 +3,7 @@
   "campaign": {
     "name": "Stage 1: Stop the scroll",
     "started": "2026-09-26",
-    "ends": "2026-10-11",
+    "ends": "2026-10-25",
     "goal": "prove people stop for our reels and stay to the end",
     "targets": [
       {"metric": "skip_rate", "target": 45},
@@ -13,7 +13,7 @@
       {"metric": "followers", "target": 100}
     ],
     "stop": {
-      "after_reels": 10,
+      "after_reels": 20,
       "metric": "views",
       "level": 300,
       "means": "The current strategy isn't stopping the scroll. Check Account Status and the AI-profile label first (a restricted account looks exactly like this), then the Sunday review brings 2-3 alternative strategies, each with its own target and stop, for Akhilesh to pick. No more tweaking the same approach."

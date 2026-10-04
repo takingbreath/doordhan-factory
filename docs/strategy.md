@@ -42,24 +42,24 @@ Those get an account restricted or quietly demoted, and that is the one loss we 
 
 ## The campaign
 Stage 1 targets are live in the block below. Stages 2 and 3 are the plan after that, and the monthly review resets all of them. Every number is an opening proposal that Akhilesh can change.
-- **Stage 1: Stop the scroll (26 Sep to 11 Oct).** Skip rate at or below 45%, watched at or above 45%, median plays at 72 h of 500 or more, one reel above 2,000 plays, 100 followers.
-  - Strategy stop: after 10 reels, median plays still under 300.
-- **Stage 2: Make it travel (12 Oct to 1 Nov).** Sends per 1,000 plays of 10 or more, one reel above 10,000 plays, 500 followers.
+- **Stage 1: Stop the scroll (26 Sep to 25 Oct; extended from 11 Oct by Akhilesh, 4 Oct).** Skip rate at or below 45%, watched at or above 45%, median plays at 72 h of 500 or more, one reel above 2,000 plays, 100 followers.
+  - Strategy stop: after 20 reels (was 10), median plays still under 300.
+- **Stage 2: Make it travel (26 Oct to 15 Nov).** Sends per 1,000 plays of 10 or more, one reel above 10,000 plays, 500 followers.
   - Likely levers: series and follow-ups on winners, formats built to be forwarded, Trial Reels.
 - **Stage 3: Build the habit (Nov to Dec).** 2,000 followers by 31 Dec, viewers coming back for a recurring series, and YouTube Shorts live.
 
 ## The book and where we stand
 <!-- scoreboard -->
-_Updated 2026-10-04 21:35 IST by `scoreboard.py write`._
+_Updated 2026-10-04 22:57 IST by `scoreboard.py write`._
 
-**Stage 1: Stop the scroll** (2026-09-26 to 2026-10-11): prove people stop for our reels and stay to the end
+**Stage 1: Stop the scroll** (2026-09-26 to 2026-10-25): prove people stop for our reels and stay to the end
 
 - skip rate %: now 54.4, target 45 → not yet
 - watched %: now 37.1, target 45 → not yet
 - median plays at 72 h: now 187, target 500 → not yet
 - best reel's plays: now 2402, target 2000 → on target
 - followers: now 87, target 100 → not yet
-- strategy stop: 7/10 reels posted this stage; median plays at 72 h now 187, must reach 300
+- strategy stop: 7/20 reels posted this stage; median plays at 72 h now 187, must reach 300
 
 | Bet | Lever | Judged on | Baseline | Now | Target | Stop | Reels (judged/carried) | Verdict |
 |---|---|---|---|---|---|---|---|---|
@@ -79,7 +79,7 @@ _Written by the strategist every Sunday. The morning session executes it: each s
 - **Tight 20–30 s (watched %, 39.5% on 1 reel, target 45%):** our viewers give about 12 s on every reel, so the payoff lands by 12 s, the reel ends by 25 s, and the last line echoes the hook.
 - **A line worth sending (sends per 1k, 3.8 on 3 reels, target 8):** the sendable line goes inside the first 12 s, not at the end; never ask for shares.
 - **Ride now:** the market slump as one rupee number ("Sitambar mein ₹23 lakh crore saaf. Aapke SIP ka kya?"), Samachar, 20–25 s, index level only, figure checked at the desk. Then "1 October se kya badla" for salaried viewers. Big movers with a clear cause stay the desk's first source.
-- **Posting:** one reel a day, 7 days, 7–9 pm IST (E6 and E7 went up at 17:00). Reels 8, 9 and 10 of the stage decide the strategy stop on or before 11 Oct, so none of them may be skipped. Trial Reel whenever the option shows.
+- **Posting:** one reel a day, 7 days, 7–9 pm IST (E6 and E7 went up at 17:00). Stage 1 now runs to 25 Oct and the strategy stop is judged after 20 reels, so consistency is the test: no day skipped. Trial Reel whenever the option shows.
 - **Every reel through the log:** `scoreboard.py add-reel` with bets, credits and the desk score before it posts. Three of nine reels can't be judged. Reels made outside the loop are Naveen's (X1, X2, likely E4): log them with their tests and credits too.
 - **Watching:** E6 and E7 at 72 h (does the low skip survive non-followers?); E7's saves (the checklist); followers to 100 by 11 Oct.
 
@@ -151,3 +151,4 @@ _Written by the strategist every Sunday. The morning session executes it: each s
   - Reels made outside the loop (X1, X2) are Naveen's.
   - No burned-in AI mark ("let's not overdo").
   - Account Status (Akhilesh's screenshots, 4 Oct): Recommendation eligibility, Features, Content removals and Under-18 availability all green. One monetisation flag, "Established presence" (account too new and too small for monetisation tools); it doesn't affect reach. Plumbing ruled out for the slow reach. The "AI-generated profile" label is ON (Akhilesh turned it on at 22:35, 4 Oct, in Edit profile).
+  - Stage 1 extended to 25 Oct and its strategy stop moved to 20 reels (Akhilesh: yes). Targets unchanged. Stage 2 shifts to 26 Oct–15 Nov.
