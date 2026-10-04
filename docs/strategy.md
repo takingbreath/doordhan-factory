@@ -73,13 +73,14 @@ _Updated 2026-10-04 21:35 IST by `scoreboard.py write`._
 _Written by the strategist every Sunday. The morning session executes it: each story option says which bets it carries, and each script says how it carries them._
 
 **Week of Mon 5 Oct (written Sun 4 Oct)**
-- **Mix: at least 4 of 7 reels are short Samachar reels (20–30 s) carrying all three tests;** Sahayata Kendra at most 2 this week. The tight-length test got no new reel in 9 days because the week went to 66–67 s episodes.
+- **The strategy (Akhilesh, 4 Oct): current affairs bring viewers in, Sahayata Kendra gives them value.** Sarika and Gupta's Samachar reels ride the news cycle for reach; Sahayata Kendra episodes are evergreen topics that still mean something in a few months, never news. Still an experiment; no pivot, and consistency for the next few weeks is the lever.
+- **Mix: at least 4 of 7 reels are short Samachar reels (20–30 s) on current affairs, carrying all three tests;** Sahayata Kendra (evergreen) at most 2 this week. The tight-length test got no new reel in 9 days because the week went to 66–67 s episodes.
 - **Hook in frame one (skip rate, 52.5% on 3 reels, target 45%):** the on-screen hook is the rupee or % number the story turns on, 6 big words or fewer, spoken to camera from frame 1, as Policybazaar did. Sahayata keeps its hook strip from frame one (E6 and E7 are at 31–37% early).
 - **Tight 20–30 s (watched %, 39.5% on 1 reel, target 45%):** our viewers give about 12 s on every reel, so the payoff lands by 12 s, the reel ends by 25 s, and the last line echoes the hook.
 - **A line worth sending (sends per 1k, 3.8 on 3 reels, target 8):** the sendable line goes inside the first 12 s, not at the end; never ask for shares.
 - **Ride now:** the market slump as one rupee number ("Sitambar mein ₹23 lakh crore saaf. Aapke SIP ka kya?"), Samachar, 20–25 s, index level only, figure checked at the desk. Then "1 October se kya badla" for salaried viewers. Big movers with a clear cause stay the desk's first source.
 - **Posting:** one reel a day, 7 days, 7–9 pm IST (E6 and E7 went up at 17:00). Reels 8, 9 and 10 of the stage decide the strategy stop on or before 11 Oct, so none of them may be skipped. Trial Reel whenever the option shows.
-- **Every reel through the log:** `scoreboard.py add-reel` with bets, credits and the desk score before it posts. Three of nine reels can't be judged.
+- **Every reel through the log:** `scoreboard.py add-reel` with bets, credits and the desk score before it posts. Three of nine reels can't be judged. Reels made outside the loop are Naveen's (X1, X2, likely E4): log them with their tests and credits too.
 - **Watching:** E6 and E7 at 72 h (does the low skip survive non-followers?); E7's saves (the checklist); followers to 100 by 11 Oct.
 
 ## Working rhythm
@@ -144,3 +145,8 @@ _Written by the strategist every Sunday. The morning session executes it: each s
   - Desk calibration not possible: only E3 carries a desk score. Every reel now records one at add-reel.
   - Glam Sarika: still not comparable (1 logged Samachar reel in the watch, Sahayata reels not matured). Carried to the next review.
   - vidIQ credits this week: about 45 (35 nightly cross-checks, 10 outlier scans).
+- 2026-10-04 (Akhilesh's replies to the weekly review):
+  - AI label: he marks every reel as AI-generated at upload. The AI-generated profile label and Account Status not yet confirmed.
+  - No pivot. The strategy stays: current-affairs Samachar reels (Sarika, Gupta) to bring viewers in, evergreen Sahayata Kendra episodes for value. Give it more time and post consistently for the next few weeks. Plan B (A/B/C) shelved; extending Stage 1 and the strategy stop put to him with numbers.
+  - Reels made outside the loop (X1, X2) are Naveen's.
+  - No burned-in AI mark ("let's not overdo").
