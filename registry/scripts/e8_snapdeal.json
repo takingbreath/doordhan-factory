@@ -1,0 +1,58 @@
+{
+ "slug": "e8_snapdeal",
+ "approved_by": "Akhilesh",
+ "frozen_at": "2026-10-05 21:27 IST",
+ "note": "Akhilesh's own script (5 Oct), with his edits: no EBITDA in the voice ('294 crore ka kaam, jismein 50 crore ka loss'; '204 crore ka kaam... 41 crore ka profit'); 'aur kya ye business theek chal raha hai' removed; follow sign-off added with 'stories'; all 8 suggested trims; normal speed approved (~39 s)",
+ "lines": [
+  {
+   "id": "S1",
+   "speaker": "sarika",
+   "text": "Shark Tank वाले Kunal Bahl की Snapdeal याद है? इसकी parent company list हुई है। पर Snapdeal का business है क्या?",
+   "spoken": "Shark Tank वाले Kunal Bahl की Snapdeal याद है? इसकी parent company list हुई है। पर Snapdeal का business है क्या?"
+  },
+  {
+   "id": "G1",
+   "speaker": "gupta",
+   "text": "इसमें दो business हैं।",
+   "spoken": "इसमें दो business हैं।"
+  },
+  {
+   "id": "G2",
+   "speaker": "gupta",
+   "text": "पहला, Snapdeal ख़ुद... सस्ता सामान, metros के बाहर के customers के लिए।",
+   "spoken": "पहला, Snapdeal ख़ुद... सस्ता सामान, metros के बाहर के customers के लिए।"
+  },
+  {
+   "id": "G3",
+   "speaker": "gupta",
+   "text": "पिछले साल दो सौ चौरानवे करोड़ का काम... जिसमें पचास करोड़ का loss।",
+   "spoken": "पिछले साल दो सौ चौरानवे करोड़ का काम... जिसमें पचास करोड़ का loss।"
+  },
+  {
+   "id": "G4",
+   "speaker": "gupta",
+   "text": "दूसरा, यूनिकॉमर्स। ये consumers को कुछ बेचता ही नहीं... brands को software देता है: inventory, orders, shipping, returns संभालने का।",
+   "spoken": "दूसरा, यूनिकॉमर्स। ये consumers को कुछ बेचता ही नहीं... brands को software देता है: inventory, orders, shipping, returns संभालने का।"
+  },
+  {
+   "id": "G5",
+   "speaker": "gupta",
+   "text": "दो सौ चार करोड़ का काम, बावन percent growth... और इकतालीस करोड़ का profit।",
+   "spoken": "दो सौ चार करोड़ का काम, बावन percent growth... और इकतालीस करोड़ का profit।"
+  },
+  {
+   "id": "S2",
+   "speaker": "sarika",
+   "text": "तो Snapdeal वही है। बस अब उसके पीछे एक software business भी है... जो ज़्यादा interesting है।",
+   "spoken": "तो Snapdeal वही है। बस अब उसके पीछे एक software business भी है... जो ज़्यादा interesting है।"
+  },
+  {
+   "id": "S3",
+   "speaker": "sarika",
+   "text": "ऐसी stories के लिए, follow कीजिए दूरधन।",
+   "spoken": "ऐसी stories के लिए, follow कीजिए दूरधन।"
+  }
+ ],
+ "sha256": "c78fe5f5e34aeadb6c3b5dd350a838c01a815c42b207e1462220f049811df726",
+ "history": []
+}

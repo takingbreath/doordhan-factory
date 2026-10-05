@@ -91,7 +91,11 @@
     "kendra_e7_overhead_hangup_maroon_cuff": "71559b3c-48cc-4423-a075-7bed69652210",
     "kendra_insert_key_on_empty_registry_file": "6a32220b-9cfc-4d48-a3a2-c025611665ce",
     "kendra_billu_by_closed_registry_file": "1b0c8013-9998-4752-a3ea-f4b8dbe991fa",
-    "kendra_billu_asleep_on_open_registry_file": "a3c2b336-a220-4355-a511-2088db7e0760"
+    "kendra_billu_asleep_on_open_registry_file": "a3c2b336-a220-4355-a511-2088db7e0760",
+    "sarika_closeup_e8_fuchsia_sari": "20df1add-8b2f-42b6-803f-ea19a4a0eaf1",
+    "gupta_parcel_godown_e8": "0a50d969-f76e-4bb8-b3ab-3f39ea5e73f9",
+    "insert_doorstep_delivery": "fda14a72-c4f7-4d9b-8e56-a7b5f6f0280c",
+    "insert_warehouse_crt_clerk": "00ef659e-8c4e-4d04-b117-77dcc9a443f1"
   },
   "voices": {
     "_note": "ElevenLabs over the API is the default (2026-09-30): a voice with an elevenlabs_voice_id is generated with pipeline/tts_elevenlabs.py --voice <name>. A voice without one stays on Higgsfield. higgsfield_fallback keeps a character's old Higgsfield voice element usable (pipeline/higgsfield.py audio --voice <name>).",
@@ -292,6 +296,18 @@
   "wardrobe_log": {
     "_note": "One row per character per episode, added when the final is approved. Nobody wears the same outfit twice on air.",
     "rows": [
+      {
+        "episode": "8",
+        "date": "2026-10-05",
+        "character": "sarika",
+        "outfit": "fuchsia georgette sari with a thin gold border, low sweetheart-neckline fuchsia blouse, small gold jhumkas, thin gold chain; big 90s curls pinned to one side"
+      },
+      {
+        "episode": "8",
+        "date": "2026-10-05",
+        "character": "gupta",
+        "outfit": "bottle-green Nehru half-jacket over a plain mustard-yellow shirt"
+      },
       {
         "episode": "7",
         "date": "2026-10-04",

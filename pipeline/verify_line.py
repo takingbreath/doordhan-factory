@@ -27,6 +27,16 @@ NUM_WORDS = {  # Hindi number words (both nasal spellings) and English, -> value
     "एक": 1, "दो": 2, "तीन": 3, "चार": 4, "पाँच": 5, "पांच": 5, "छह": 6, "छः": 6, "सात": 7, "आठ": 8, "नौ": 9,
     "दस": 10, "बीस": 20, "तीस": 30, "चालीस": 40, "पचास": 50, "साठ": 60, "सत्तर": 70, "अस्सी": 80, "नब्बे": 90,
     "सौ": 100, "one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "ten": 10, "hundred": 100}
+# 11-99 (E8, 2026-10-05: "दो सौ चौरानवे" = 294 failed the script check because only round tens were known)
+NUM_WORDS.update(dict(zip(
+    "ग्यारह बारह तेरह चौदह पंद्रह सोलह सत्रह अठारह उन्नीस इक्कीस बाईस तेईस चौबीस पच्चीस छब्बीस सत्ताईस अट्ठाईस उनतीस "
+    "इकतीस बत्तीस तैंतीस चौंतीस पैंतीस छत्तीस सैंतीस अड़तीस उनतालीस इकतालीस बयालीस तैंतालीस चवालीस पैंतालीस छियालीस "
+    "सैंतालीस अड़तालीस उनचास इक्यावन बावन तिरेपन चौवन पचपन छप्पन सत्तावन अट्ठावन उनसठ इकसठ बासठ तिरसठ चौंसठ पैंसठ "
+    "छियासठ सड़सठ अड़सठ उनहत्तर इकहत्तर बहत्तर तिहत्तर चौहत्तर पचहत्तर छिहत्तर सतहत्तर अठहत्तर उन्यासी इक्यासी बयासी "
+    "तिरासी चौरासी पचासी छियासी सत्तासी अट्ठासी नवासी इक्यानवे बानवे तिरानवे चौरानवे पचानवे छियानवे सत्तानवे अट्ठानवे "
+    "निन्यानवे".split(),
+    [n for n in range(11, 100) if n % 10])))
+NUM_WORDS.update({"पन्द्रह": 15, "पचास": 50})
 UNITS = {"लाख": "lakh", "lakh": "lakh", "lakhs": "lakh", "करोड़": "crore", "करोड": "crore", "crore": "crore",
          "crores": "crore", "हज़ार": "thousand", "हजार": "thousand", "thousand": "thousand", "%": "percent",
          "प्रतिशत": "percent", "percent": "percent", "पर्सेंट": "percent", "परसेंट": "percent"}
@@ -91,9 +101,25 @@ def tokens(text):
     return [x for x in re.split(r"[\s,।.?!…:;\"'“”‘’()\-–—/]+", t) if x]
 
 
+def compose(toks):
+    """number-word runs as one digit token: ['दो', 'सौ', 'चौरानवे'] -> ['294']; other tokens unchanged"""
+    out, i = [], 0
+    while i < len(toks):
+        v = NUM_WORDS.get(toks[i].lower())
+        if v is not None and v < 100 and i + 1 < len(toks) and toks[i + 1].lower() in ("सौ", "hundred"):
+            n = v * 100; i += 2
+            w = NUM_WORDS.get(toks[i].lower()) if i < len(toks) else None
+            if w is not None and w < 100:
+                n += w; i += 1
+            out.append(str(n))
+        else:
+            out.append(toks[i]); i += 1
+    return out
+
+
 def numbers(text):
     """canonical number phrases: '90 lakh', '2 crore', '1 percent', bare numbers as '100'"""
-    toks = tokens(text); out = []
+    toks = compose(tokens(text)); out = []
     for i, tk in enumerate(toks):
         v = None
         if re.fullmatch(r"\d+(\.\d+)?", tk):

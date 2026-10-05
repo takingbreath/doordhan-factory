@@ -13,13 +13,13 @@ Usage: script_diff.py registry/scripts/SLUG.json --transcript-file FINAL.txt [--
 import argparse, difflib, json, os, sys
 
 here = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, here)
-from verify_line import tokens, skeleton, numbers, NUM_WORDS, UNITS  # noqa: E402
+from verify_line import tokens, compose, skeleton, numbers, NUM_WORDS, UNITS  # noqa: E402
 
 
 def norm_tokens(text):
     """[(normalised token, original)] with number words -> digits, units -> latin, words -> skeleton"""
     out = []
-    for t in tokens(text):
+    for t in compose(tokens(text)):
         tl = t.lower()
         if tl == "₹":
             continue
