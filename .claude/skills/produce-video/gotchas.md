@@ -39,3 +39,10 @@
 - **Lip offsets near −125 ms pass, but only just.** Centre them with `qc_repairs.json` `src_shift_s`.
 - **A phone copy made after the gate isn't covered** by the stamp; make it before. Re-encoding the final voids the stamp.
 - **Identity checks on the final fail under captions and crash zooms.** The gate checks the talking clip, not the final.
+- **Lines under ~2 s of speech can't be measured, and Wan mouths through the silence** (DTB3, 2026-10-06). A 0.7 s line in
+  a 3 s clip got 1.9 s of mouth movement, opening before the word and flapping after it; a 1.3 s line ran 0.3 s early
+  and kept moving. Both read as broken lip sync to Akhilesh. Merge a short line with the neighbouring line of the same
+  speaker and framing, or play it as voice-over on a card. Never waive "could not be measured" on sight of moving lips:
+  plot mouth opening against the voice frame by frame first (mouth onset/offset within ~0.3 s of the voice).
+- **Part audio shorter than its picture slid every later line early** (fixed in assemble.py 2026-10-06: each part's
+  audio is now padded to its picture). If late lines drift but each part measures fine alone, check this first.
