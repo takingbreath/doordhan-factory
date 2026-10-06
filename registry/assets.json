@@ -95,7 +95,9 @@
     "sarika_closeup_e8_fuchsia_sari": "20df1add-8b2f-42b6-803f-ea19a4a0eaf1",
     "gupta_parcel_godown_e8": "0a50d969-f76e-4bb8-b3ab-3f39ea5e73f9",
     "insert_doorstep_delivery": "fda14a72-c4f7-4d9b-8e56-a7b5f6f0280c",
-    "insert_warehouse_crt_clerk": "00ef659e-8c4e-4d04-b117-77dcc9a443f1"
+    "insert_warehouse_crt_clerk": "00ef659e-8c4e-4d04-b117-77dcc9a443f1",
+    "sarika_closeup_e9_ruby_wrap": "0b66415d-f88c-4fc9-98f3-e734f44c9299",
+    "gupta_market_e9": "183eb879-85e5-432b-99db-f7c51e788cbb"
   },
   "voices": {
     "_note": "ElevenLabs over the API is the default (2026-09-30): a voice with an elevenlabs_voice_id is generated with pipeline/tts_elevenlabs.py --voice <name>. A voice without one stays on Higgsfield. higgsfield_fallback keeps a character's old Higgsfield voice element usable (pipeline/higgsfield.py audio --voice <name>).",
@@ -291,11 +293,24 @@
       "peach_squareneck": "9a5a400f-cfbf-4035-bcad-573ad0c67dff",
       "why": "too covered (Akhilesh)"
     },
-    "kendra_e7": "E7 (2026-10-04) set dressing, episode-specific: the wall behind Pandey carries a faded 'SAPNON KA GHAR / POSSESSION 2011' builder poster (fictional), a crack through it and a damp stain; the low angle shows the damp, flaking ceiling. The two cold-open frames are local crops (648x1152 from the GPT frames 428e2276 / 1092160a) uploaded as media, so the face is 15-16% of the frame height. Pandey wears the E7 outfit in all of them; reuse only where it can't be seen or with a wardrobe restyle."
+    "kendra_e7": "E7 (2026-10-04) set dressing, episode-specific: the wall behind Pandey carries a faded 'SAPNON KA GHAR / POSSESSION 2011' builder poster (fictional), a crack through it and a damp stain; the low angle shows the damp, flaking ceiling. The two cold-open frames are local crops (648x1152 from the GPT frames 428e2276 / 1092160a) uploaded as media, so the face is 15-16% of the frame height. Pandey wears the E7 outfit in all of them; reuse only where it can't be seen or with a wardrobe restyle.",
+    "e9": "E9 (DTB3 HUL): sarika_closeup_e9_ruby_wrap is the Seedream job 84514361 frame, cropped locally to 0.85 from the top (mouth box 480: 147,437,108,79); wider framing than E8, 80s blue studio, no bindi (it flickered). gupta_market_e9 is Higgsfield job 183eb879."
   },
   "wardrobe_log": {
     "_note": "One row per character per episode, added when the final is approved. Nobody wears the same outfit twice on air.",
     "rows": [
+      {
+        "episode": "9",
+        "date": "2026-10-06",
+        "character": "sarika",
+        "outfit": "ruby-red silk satin wrap blouse with a deep V and puffed shoulders, thin gold chain, gold hoop earrings; loose 80s blow-dried waves, no bindi; plain blue 80s studio backdrop"
+      },
+      {
+        "episode": "9",
+        "date": "2026-10-06",
+        "character": "gupta",
+        "outfit": "dark teal Nehru half-jacket over a plain white kurta-shirt, studio ID card; outdoor market with tin canisters behind"
+      },
       {
         "episode": "8",
         "date": "2026-10-05",

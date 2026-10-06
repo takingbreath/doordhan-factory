@@ -69,6 +69,8 @@ Akhilesh, 2026-09-25: "there is a line between looking hot and classy vs hot and
   - voice room on every part with sound: mark the montage/sting part `"room": false`;
   - recorded office ambience at −36 dB relative to the programme. If the fan and distant road read wrong for a TV studio, set `"ambience": null` and say so at the final gate.
 - **Continuity:** X1's three Sarika shots each restarted from the same keyframe, so every cut reset her pose. Consecutive shots of one framing now chain from the previous clip's last clean frame (`shot_spec.py build --chain-from`).
+- **Never over Sarika's neckline** (Akhilesh, 2026-10-06): on her shots, every graphic (badges, lists, next-episode, follow) goes in one top-left box beside the bug, x 22–440, y 30–245 at 720x1280 (work/cd03-hul/gfx.py `top_boxes`, `stock_badge`). Big lower-third cards belong on full-screen graphics and other characters' shots.
+- **Graphics are English, few words** (Akhilesh, DTB3): "UNILEVER BOUGHT / Minimalist / ₹3,000 CR", not Hinglish sentences. A share move reads as the ticker with ▼ and a falling line ("HUL ▼ 27%"). Use the company's real product photos where Akhilesh supplies them.
 - Inset box story graphic: the subject's real logo on a light card (inset_card.py auto-detects the box, which sits around x=308–465, y=47–201 in 480x854).
 
 ## Sound
@@ -99,5 +101,6 @@ The flat "कतई नहीं" from Gupta; Sarika's knowing half-smile; "pict
 
 ## Typical cost
 About 45 to 55 credits: roughly 25 seconds of Wan, 1 to 3 keyframes, and voices.
+Down to Business 3 (HUL, 57 s, six review cuts) cost 181.75: a new Sarika look took three keyframe rounds, and lip-sync reshoots took the rest. Lock the look on one keyframe and keep every line at least 2 s before the first Wan job.
 
 - **Talking shots: about 6 s of speech at most** (2026-09-28 QC over E3-E6 clips): Wan drifts about -8 ms/s, so split longer lines at a pause. Use `shot_spec.py` to build the specs and `shot_spec.py judge` after each clip.
