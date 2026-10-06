@@ -106,7 +106,16 @@ def compose(toks):
     out, i = [], 0
     while i < len(toks):
         v = NUM_WORDS.get(toks[i].lower())
-        if v is not None and v < 100 and i + 1 < len(toks) and toks[i + 1].lower() in ("सौ", "hundred"):
+        # "तीन हज़ार" = 3000 (DTB Ep 3, 2026-10-06: "तीन हज़ार करोड़" against Scribe's "₹3000 करोड़")
+        if v is not None and v < 100 and i + 1 < len(toks) and toks[i + 1].lower() in ("हज़ार", "हजार", "thousand"):
+            n = v * 1000; i += 2
+            if i + 1 < len(toks) and NUM_WORDS.get(toks[i].lower(), 100) < 10 and toks[i + 1].lower() in ("सौ", "hundred"):
+                n += NUM_WORDS[toks[i].lower()] * 100; i += 2
+            w = NUM_WORDS.get(toks[i].lower()) if i < len(toks) else None
+            if w is not None and w < 100:
+                n += w; i += 1
+            out.append(str(n))
+        elif v is not None and v < 100 and i + 1 < len(toks) and toks[i + 1].lower() in ("सौ", "hundred"):
             n = v * 100; i += 2
             w = NUM_WORDS.get(toks[i].lower()) if i < len(toks) else None
             if w is not None and w < 100:

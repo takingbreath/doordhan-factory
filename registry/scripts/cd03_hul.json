@@ -1,0 +1,58 @@
+{
+ "slug": "cd03_hul",
+ "approved_by": "Akhilesh",
+ "frozen_at": "2026-10-06 16:42 IST",
+ "note": "Down to Business Ep 3 (HUL). Akhilesh's own script, locked 2026-10-06 ('The script is good'; 'Itne bade brands'; HUL kept in Gupta's lines); voice v3 approved ('voice ok. faster copy').",
+ "lines": [
+  {
+   "id": "S1",
+   "speaker": "sarika",
+   "text": "हिंदुस्तान Unilever. Lux, Surf, Dove वाली company. इतने बड़े brands... फिर भी share एक साल में सत्ताईस percent नीचे। आख़िर क्यों?",
+   "spoken": "हिंदुस्तान Unilever. Lux, Surf, Dove वाली company. इतने बड़े brands... फिर भी share एक साल में सत्ताईस percent नीचे। आख़िर क्यों?"
+  },
+  {
+   "id": "G1",
+   "speaker": "gupta",
+   "text": "Sarika, H.U.L. को giant बनाया था तीन चीज़ों ने। अब एक-एक करके समझो क्या बदला है।",
+   "spoken": "Sarika, H.U.L. को giant बनाया था तीन चीज़ों ने। अब एक-एक करके समझो क्या बदला है।"
+  },
+  {
+   "id": "G2",
+   "speaker": "gupta",
+   "text": "पहला: trust. पहले choices कम थी। Lux या Surf जैसा बड़ा नाम दिखा, तो भरोसा हो जाता था। अब customer नाम के साथ ingredients और reviews भी देखता है।",
+   "spoken": "पहला: trust. पहले choices कम थी। Lux या Surf जैसा बड़ा नाम दिखा, तो भरोसा हो जाता था। अब customer नाम के साथ ingredients और reviews भी देखता है।"
+  },
+  {
+   "id": "G3",
+   "speaker": "gupta",
+   "text": "दूसरा: distribution. पहले छोटे brand के लिए हर दुकान तक पहुँचना मुश्किल था। अब Blinkit, Zepto पर वो H.U.L. के product के बगल में दिख जाता है।",
+   "spoken": "दूसरा: distribution. पहले छोटे brand के लिए हर दुकान तक पहुँचना मुश्किल था। अब Blinkit, Zepto पर वो H.U.L. के product के बगल में दिख जाता है।"
+  },
+  {
+   "id": "G4",
+   "speaker": "gupta",
+   "text": "और तीसरा: advertising. पहले बड़ी audience तक पहुँचने के लिए महँगे TV ads चाहिए थे। अब छोटा brand भी Instagram और YouTube पर अपनी audience बना सकता है।",
+   "spoken": "और तीसरा: advertising. पहले बड़ी audience तक पहुँचने के लिए महँगे TV ads चाहिए थे। अब छोटा brand भी Instagram और YouTube पर अपनी audience बना सकता है।"
+  },
+  {
+   "id": "G5",
+   "speaker": "gupta",
+   "text": "और इसी बदलाव का एक signal देखो... H.U.L. ने सिर्फ़ पाँच साल पुराने Minimalist को ख़रीदने के लिए लगभग तीन हज़ार करोड़ की deal की।",
+   "spoken": "और इसी बदलाव का एक signal देखो... H.U.L. ने सिर्फ़ पाँच साल पुराने Minimalist को ख़रीदने के लिए लगभग तीन हज़ार करोड़ की deal की।"
+  },
+  {
+   "id": "S2",
+   "speaker": "sarika",
+   "text": "तो H.U.L. ख़त्म नहीं हो रहा। लेकिन जिन तीन advantages ने उसे giant बनाया था, अब छोटे brands उन्हीं को challenge कर रहे हैं।",
+   "spoken": "तो H.U.L. ख़त्म नहीं हो रहा। लेकिन जिन तीन advantages ने उसे giant बनाया था, अब छोटे brands उन्हीं को challenge कर रहे हैं।"
+  },
+  {
+   "id": "S3",
+   "speaker": "sarika",
+   "text": "अगला Down to Business episode: DMart. Quick commerce उसके business को कितना challenge कर रहा है? Follow कर लेना।",
+   "spoken": "अगला Down to Business episode: DMart. Quick commerce उसके business को कितना challenge कर रहा है? Follow कर लेना।"
+  }
+ ],
+ "sha256": "90102f9c3c9fbf31ceb30952812674c8ec7c3641820e0f592469578b9dec06f7",
+ "history": []
+}
