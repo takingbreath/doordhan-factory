@@ -48,7 +48,10 @@ for i, p in enumerate(spec["parts"]):
     if shift > 0:
         af = f"adelay={int(shift * 1000)}:all=1," + af
     elif shift < 0:
-        af = f"atrim=start={-shift:.3f},asetpts=PTS-STARTPTS,apad," + af
+        af = f"atrim=start={-shift:.3f},asetpts=PTS-STARTPTS," + af
+    # pad every part's audio to its picture length: a part whose audio ran 20-70 ms short made the concat slide
+    # every later line earlier (DTB3, 2026-10-06: 0.3 s ahead of the lips by 48 s)
+    af = af.replace("afade=t=in", "apad,afade=t=in", 1)
     cmd = [FFMPEG, "-y", "-v", "error", "-ss", f"{start:.3f}", "-i", f]
     if has_audio:
         cmd += ["-t", f"{L:.3f}", "-vf", vf, "-af", af]
