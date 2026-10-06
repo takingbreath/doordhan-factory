@@ -39,6 +39,7 @@ If you think one of these is holding the channel back, say so at a gate.
 - **Topics to rest for now:** EMIs, loans, iPhone.
 - **Wardrobe changes every episode.** No character wears the same outfit twice on air. Sarika is a glamorous, sexy 90s newsreader. Visible cleavage at the level of her black deep-V sari is the hook for this audience: vary the outfit (sari or not), neckline shape and hairstyle, never go beyond that level, and never overdo it, because overdone reads as AI. Make wardrobe keyframes with Seedream 4.5, since GPT Image blocks this level. Rules and outfit bank are in formats/samachar.md; worn outfits go in registry `wardrobe_log`.
 - **Hot and classy, never hot and cheap.** The outfit carries the glamour; the performance stays a poised newsreader's: a steady head, stillness, a direct gaze, the knowing half-smile. No head wobble or tilts, no hair play, no pouts or winks. Wan acts out every attitude word, so talking-shot prompts use the steady-newsreader sentence in formats/samachar.md, and `headcheck.py` must pass.
+- **Never cover Sarika's neckline** (Akhilesh, 2026-10-06). No card, strip or badge over her chest on any of her shots; graphics on her shots go in the top-left box beside the DOORDHAN bug (DTB3 gfx.py `top_boxes`). Lower thirds are for other characters and full-screen graphics.
 
 ## What production has taught us (defaults, with the reason)
 - **Character sheets:** seedream_v5_pro, 2k, 1:1, about 2.5 credits. Beat Nano Banana for character consistency. Recipe in formats/_TEMPLATE.md.

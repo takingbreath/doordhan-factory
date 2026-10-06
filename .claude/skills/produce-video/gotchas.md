@@ -46,3 +46,5 @@
   plot mouth opening against the voice frame by frame first (mouth onset/offset within ~0.3 s of the voice).
 - **Part audio shorter than its picture slid every later line early** (fixed in assemble.py 2026-10-06: each part's
   audio is now padded to its picture). If late lines drift but each part measures fine alone, check this first.
+- **A lower-third over Sarika covers her neckline** (DTB3, 2026-10-06: the −27% card, the 1-2-3 strip and the sign-off
+  strips; Akhilesh: "not allowed"). On her shots, every graphic goes in the top-left box beside the bug.
