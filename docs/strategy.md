@@ -50,23 +50,23 @@ Stage 1 targets are live in the block below. Stages 2 and 3 are the plan after t
 
 ## The book and where we stand
 <!-- scoreboard -->
-_Updated 2026-10-06 21:32 IST by `scoreboard.py write`._
+_Updated 2026-10-07 21:32 IST by `scoreboard.py write`._
 
 **Stage 1: Stop the scroll** (2026-09-26 to 2026-10-25): prove people stop for our reels and stay to the end
 
-- skip rate %: now 54.9, target 45 → not yet
-- watched %: now 31.5, target 45 → not yet
+- skip rate %: now 56, target 45 → not yet
+- watched %: now 29.8, target 45 → not yet
 - median plays at 72 h: now 148, target 500 → not yet
-- best reel's plays: now 2409, target 2000 → on target
-- followers: now 202, target 100 → on target
-- strategy stop: 8/20 reels posted this stage; median plays at 72 h now 148, must reach 300
+- best reel's plays: now 2412, target 2000 → on target
+- followers: now 210, target 100 → on target
+- strategy stop: 9/20 reels posted this stage; median plays at 72 h now 148, must reach 300
 
 | Bet | Lever | Judged on | Baseline | Now | Target | Stop | Reels (judged/carried) | Verdict |
 |---|---|---|---|---|---|---|---|---|
-| B1 Hook in frame one | Frame 1: the anchor looks into the lens, already saying the viewer's stake; the hook in 6 big words or fewer on screen; nothing (Namaskar, title, logo) before it; a cut or punch-in by 1 s; cover = frame 1 | skip rate % | 60.7 | 52.7 | 45 | 58 | 3/3 (judge at 3, max 6) | **HOLD** 3 reels, between stop and target |
-| B2 Tight 20-30 s | 20-30 s total; title montage 1.5 s or less and only after the hook; payoff by 20 s; the last line echoes the hook so a replay feels natural; no dead air | watched % | 26.3 | 39 | 45 | 32 | 1/1 (judge at 3, max 6) | **HOLD** 1/3 reels |
-| B3 A line worth sending | Every script lands one line a viewer would forward to a specific person (a number to remember, a jab at the system, an 'I told you so'); never ask for shares | sends per 1k plays | 2.6 | 3.4 | 8 | 2 | 3/4 (judge at 4, max 6) | **HOLD** 3/4 reels |
-| W1 Glam Sarika | Sarika in the glam wardrobe (formats/samachar.md) on every Samachar reel | skip rate % | 66.9 | 54.5 | – | – | 2/2 (judge at 3, max 6) | **WATCH** tracked; judged at the monthly review |
+| B1 Hook in frame one | Frame 1: the anchor looks into the lens, already saying the viewer's stake; the hook in 6 big words or fewer on screen; nothing (Namaskar, title, logo) before it; a cut or punch-in by 1 s; cover = frame 1 | skip rate % | 60.7 | 52.6 | 45 | 58 | 3/3 (judge at 3, max 6) | **HOLD** 3 reels, between stop and target |
+| B2 Tight 20-30 s | 20-30 s total; title montage 1.5 s or less and only after the hook; payoff by 20 s; the last line echoes the hook so a replay feels natural; no dead air | watched % | 26.3 | 38.7 | 45 | 32 | 1/1 (judge at 3, max 6) | **HOLD** 1/3 reels |
+| B3 A line worth sending | Every script lands one line a viewer would forward to a specific person (a number to remember, a jab at the system, an 'I told you so'); never ask for shares | sends per 1k plays | 2.6 | 3.2 | 8 | 2 | 3/4 (judge at 4, max 6) | **HOLD** 3/4 reels |
+| W1 Glam Sarika | Sarika in the glam wardrobe (formats/samachar.md) on every Samachar reel | skip rate % | 66.9 | 55.8 | – | – | 3/3 (judge at 3, max 6) | **WATCH** tracked; judged at the monthly review |
 <!-- /scoreboard -->
 
 ## This week's plan
@@ -154,3 +154,4 @@ _Written by the strategist every Sunday. The morning session executes it: each s
   - Stage 1 extended to 25 Oct and its strategy stop moved to 20 reels (Akhilesh: yes). Targets unchanged. Stage 2 shifts to 26 Oct–15 Nov.
 - 2026-10-05 (nightly): Quiet. No stop or target hit; all bets HOLD (hook in frame one 52.7% on 3 reels; tight 20–30 s on 1; a line worth sending 3.7 per 1k on 3 of 4). Followers 88 (+1). No reel posted on 5 Oct, the first day of the 7-a-week plan. Nothing taking off (E7 218 plays at 28 h; E6's 12.5 sends per 1k is one send on 80 plays). X2 (RBI repo, 27 s) fell from 42% to 64% skip as it reached non-followers. Policybazaar owner feed still frozen (338 vs 2,403 public); public reading logged.
 - 2026-10-06 (nightly): Snapdeal listing (E8, posted 5 Oct 22:23) is taking off: 2,242 plays at 23 h by the public count (owner feed frozen at 773; public reading logged, as with Policybazaar), against roughly 80–280 for every other reel at a day old. Followers 88 → 202 (+114), past the Stage 1 target of 100. Ride-now line added to docs/learnings.md: famous company in today's news, named or pictured in frame one, explained in one number. E8 linked to DeHrHCByq9V; it carries only the glam-Sarika watch (Akhilesh's script, opens on the photo), so it moves no bet. E6 matured at 72 h on 94 plays; the stage median at 72 h is 148 (8 of 20 reels). No stop or target hit; all bets HOLD. Policybazaar owner feed still frozen (344 vs 2,409 public).
+- 2026-10-07 (nightly): No stop or target hit; all bets HOLD (hook in frame one 52.6% on 3 reels; tight 20–30 s 38.7% on 1; a line worth sending 3.2 per 1k on 3 of 4). Followers 210 (+8). HUL (E9, Down to Business 3, posted 6 Oct 21:58) linked to DeKLxlcyRYX: 531 plays at 24 h, about 3× the ~175 median of earlier reels at a day old but under the taking-off line, with 64% skip and 16% watched on 57 s; it carries only the glam-Sarika watch. Snapdeal (E8) at 2,378 public plays (owner feed frozen at 832). E7 and X2 matured at 72 h (258 and 132); stage median at 72 h still 148 (9 of 20 reels). Policybazaar owner feed still frozen (347 vs 2,412 public). No reel posted on 7 Oct.
