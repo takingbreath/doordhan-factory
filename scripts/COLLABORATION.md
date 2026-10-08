@@ -30,5 +30,6 @@ Working experiment: immediate substantive opening, no title/greeting pause, cont
 
 ## Feedback log
 
+- 8 October, Nana v2 feedback: omit spoken source attribution when it adds no narrative value; retain attribution in visuals, credits or caption. Accuracy and qualification must survive this move. Akhilesh prefers the hook “Nana Patekar had ₹1.5 crore set aside for a car. Then he watched the news.” Build from this hook. Single narrator proposed for this story, not yet approved as a channel-wide default.
 - 8 October: Akhilesh requests English/Roman Hinglish first; hook-first discussion; consideration of suitable story structures; optimize watch duration and shares. No hook, story structure or revised script approved yet.
 - Working proposal for Nana: decision story (plan → disruption → choice → consequence → reframe), rather than a full hero's journey. Test a curiosity/contrast hook; no artificial withholding until the ending.
