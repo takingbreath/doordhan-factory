@@ -29,7 +29,7 @@ LABEL = {  # text, background
 DIRECTION = {"rising": ("Rising", "#2F6B3A"), "steady": ("Steady", MUTED), "fading": ("Fading", "#A8361C"),
              "new": ("New today", MUTED)}
 SERIF = "Georgia,serif"
-SANS = "Roboto,Helvetica,Arial,sans-serif"
+SANS = "Arial,sans-serif"
 DIVIDER = f'<tr><td style="padding:0 24px"><div style="height:1px;background:{RULE};line-height:1px;font-size:0">&nbsp;</div></td></tr>'
 
 
@@ -49,9 +49,8 @@ def heading(text):
 
 
 def bullets(items):
-    rows = "".join(f'<tr><td valign="top" style="padding:0 10px 9px 0;color:{ACCENT};font:700 15px/1.55 {SANS}">&#8226;</td>'
-                   f'<td style="padding:0 0 9px;font:400 15px/1.55 {SANS};color:{INK}">{e(i)}</td></tr>' for i in items)
-    return f'<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">{rows}</table>'
+    li = "".join(f'<li style="margin:0 0 9px">{e(i)}</li>' for i in items)
+    return f'<ul style="margin:0;padding:0 0 0 20px;font:400 15px/1.55 {SANS};color:{INK}">{li}</ul>'
 
 
 def score_strip(sc):
@@ -59,7 +58,7 @@ def score_strip(sc):
              ("Gap", sc["gap"], 2), ("Clarity", sc["clarity"], 1)]
     tds = "".join(
         f'<td align="center" width="20%" style="padding:8px 2px;{"border-right:1px solid " + RULE if n != "Clarity" else ""}">'
-        f'<div style="font:700 16px/1.2 {SANS};color:{INK};font-variant-numeric:tabular-nums">{v}<span style="color:{MUTED};font-weight:400">/{m}</span></div>'
+        f'<div style="font:700 16px/1.2 {SANS};color:{INK}">{v}<span style="color:{MUTED};font-weight:400">/{m}</span></div>'
         f'<div style="font:400 11px/1.3 {SANS};color:{MUTED};margin-top:2px">{n}</div></td>' for n, v, m in cells)
     return (f'<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" '
             f'style="border:1px solid {RULE};border-radius:10px;border-collapse:separate;margin-top:14px">'
@@ -72,9 +71,9 @@ def others_table(rows):
         out.append(
             f'<tr><td style="padding:10px 0;border-top:1px solid {RULE}">'
             f'<a href="{e(r["url"])}" style="font:600 14px/1.45 {SANS};color:{INK};text-decoration:underline;'
-            f'text-decoration-color:{RULE};text-underline-offset:3px">{e(r["who"])}</a>'
+            f'text-decoration-color:{RULE}">{e(r["who"])}</a>'
             f'<div style="font:400 14px/1.5 {SANS};color:{INK};margin-top:2px">{e(r["what"])}</div>'
-            f'<div style="font:400 13px/1.5 {SANS};color:{MUTED};margin-top:2px;font-variant-numeric:tabular-nums">'
+            f'<div style="font:400 13px/1.5 {SANS};color:{MUTED};margin-top:2px">'
             f'<strong style="color:{INK}">{e(r["views"])}</strong> views &middot; {e(r["multiple"])} &middot; {e(r["date"])}</div>'
             f'</td></tr>')
     return f'<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">{"".join(out)}</table>'
@@ -87,7 +86,7 @@ def facts_list(facts):
             f'<div style="padding:10px 0;border-top:1px solid {RULE}">'
             f'<div style="font:400 14px/1.55 {SANS};color:{INK}">{e(f["text"])}</div>'
             f'<a href="{e(f["url"])}" style="display:inline-block;margin-top:4px;font:600 13px/1.4 {SANS};color:{ACCENT};'
-            f'text-decoration:underline;text-underline-offset:3px">{e(f["source"])}</a></div>')
+            f'text-decoration:underline">{e(f["source"])}</a></div>')
     return "".join(out)
 
 
@@ -103,7 +102,7 @@ def story_html(s):
     <td valign="top">
       <div style="font:400 12px/1.4 {SANS};color:{MUTED}">{e(s["lane"])}</div>
       <h2 style="margin:4px 0 10px;font:700 22px/1.25 {SERIF};color:{INK};letter-spacing:-.01em">{e(s["title"])}</h2>
-      <div>{pill(s["label"])} <span style="font:700 14px/1.3 {SANS};color:{INK};margin-left:8px;font-variant-numeric:tabular-nums">{sc["total"]}/10</span></div>
+      <div>{pill(s["label"])} <span style="font:700 14px/1.3 {SANS};color:{INK};margin-left:8px">{sc["total"]}/10</span></div>
       <div style="font:400 13px/1.5 {SANS};color:{MUTED};margin-top:8px">{e(s["window"])}</div>
     </td></tr></table>
   {score_strip(sc)}
@@ -194,19 +193,14 @@ def email_html(d, rows, standing):
 
 
 def compact(doc):
-    """Email-size pass: every repeated inline style becomes a class in one <style> block (Gmail honours class
-    selectors in <head>), then whitespace between tags goes. Keeps the HTML small enough to paste into send_message."""
+    """Email pass. Gmail (sending through its API) strips <head>, <style>, class attributes and the CSS `background`
+    shorthand (checked 2026-10-08), so every style stays inline, colours use background-color plus a bgcolor attribute,
+    and only the whitespace between tags goes."""
     import re
     doc = re.sub(r"\n\s*", "", doc)
-    styles = {}
-    def swap(m):
-        st = m.group(1)
-        if st not in styles:
-            styles[st] = f"d{len(styles)}"
-        return f'class="{styles[st]}"'
-    doc = re.sub(r'style="([^"]*)"', swap, doc)
-    css = "".join(f".{c}{{{st}}}" for st, c in styles.items())
-    return doc.replace("</head>", f"<style>{css}</style></head>", 1)
+    doc = re.sub(r"background:(#[0-9A-Fa-f]{6})", r"background-color:\1", doc)
+    return re.sub(r'<(td|table)([^>]*?)style="([^"]*?)background-color:(#[0-9A-Fa-f]{6})',
+                  r'<\1\2bgcolor="\4" style="\3background-color:\4', doc)
 
 
 def md(d, rows, standing):

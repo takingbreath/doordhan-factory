@@ -62,7 +62,7 @@ No hooks, no "line worth sending", no script: Akhilesh writes those. Everything 
     - Write the day's research JSON in `research/desk/<date>.json` (the shape of `research/desk/2026-10-08.json`).
     - `python3 pipeline/story_tracker.py add ...` for each new story sent, and `score --id ... --score N` for each story graded today.
     - `python3 pipeline/desk_report.py research/desk/<date>.json` writes `research/desk/<date>.md`, `LATEST.md` and `TRACKER.md`, plus the HTML email in `work/desk/`.
-    - Send the email as HTML (routines/email-style.md).
+    - Send the email as HTML through a Gmail draft, checked before sending (routines/email-style.md).
     - Commit `research/desk/` and `registry/story_tracker.json` and push them to main, so Akhilesh's local agent can read the research with `git pull`.
 13. End with: "Reply with a story number, e.g. 1."
 

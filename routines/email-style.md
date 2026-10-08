@@ -38,7 +38,12 @@ Akhilesh, 2026-10-08:
 How it's made:
 1. Write the day's research as JSON in `research/desk/<date>.json` (copy the shape of `research/desk/2026-10-08.json`).
 2. `python3 pipeline/desk_report.py research/desk/<date>.json` writes the Markdown (`research/desk/<date>.md`, `LATEST.md`, `TRACKER.md`) and the email body (`work/desk/<date>.html`).
-3. Send that HTML as `htmlBody` with Gmail's send_message, and put a short plain-text `body` alongside it (the pick, the three titles with scores, the session link) for clients that don't show HTML.
+3. Send it through a draft, so the styling is checked before it goes out:
+   - `create_draft` with the HTML (from `<table` to the last `</table>`; Gmail drops `<head>` anyway) as `htmlBody`, plus a short plain-text `body` (the pick, the three titles with scores, the session link);
+   - `get_draft` and confirm the `htmlBody` still carries its `style="..."` attributes and background colours;
+   - then `send_message` with that `draftId`.
+
+   Gmail's API strips `<style>` blocks, `class` attributes and the CSS `background:` shorthand (8 Oct: the first HTML desk email arrived as bare text). So every style stays inline, colours use `background-color` plus a `bgcolor` attribute, and lists are plain `<ul>` to keep the size under about 45 KB.
 
 Subject: `Doordhan desk — Thu 08 Oct — 3 stories, pick 1?`
 
@@ -60,7 +65,7 @@ The layout, top to bottom:
 Design rules (impeccable and emil-design-eng skills):
 - Light, warm newsprint, one vermilion accent. Heat labels are colour-coded: HOT vermilion, RISING amber, FLAT slate, COLD blue.
 - Serif headlines, system sans body, tabular numerals.
-- Inline styles only, with a table layout, 620 px max width. Read it at 390 px before sending.
+- Inline styles only (Gmail strips everything else), with a table layout, 620 px max width. Read it at 390 px before sending.
 - No animation: email clients don't run it, and the email is read once a day.
 - Change the design in `desk_report.py`, never by hand in one day's email.
 
