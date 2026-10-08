@@ -1,0 +1,141 @@
+{
+ "date": "2026-10-08",
+ "date_label": "Thu 08 Oct 2026",
+ "session_link": "https://claude.ai/code/session_01VPTP6fS43w58hzxZrr2iFx",
+ "pick": {"id": "1", "reason": "Jio is a famous brand in today's news, the shape of both our breakouts (Policybazaar, Snapdeal), and every viewer is already a customer. It stays in the news for three more weeks (price band, opening, listing), so it can carry a follow-up.", "runner_up": "2, if you want the bigger audience: the Ramayana money story has the hottest attention of the week, but it peaks in the next day or two and comes back at release."},
+ "correction": "This morning's email said Jio is valued at ₹12 lakh crore or more (Business Standard, 4 Oct). Two days later Bloomberg reported about ₹11 lakh crore ($114 bn), below the $130-170 bn once floated. The facts below use the newer figure.",
+ "stories": [
+  {
+   "id": "1", "tracker_id": "jio-ipo", "lane": "Hot lane",
+   "title": "Jio's IPO: India's biggest ever, priced well below the hype",
+   "label": "HOT", "score": {"total": 8, "momentum": 3, "stake": 2, "share": 1, "gap": 1, "clarity": 1},
+   "window": "Live until listing (before 30 Oct). Next news beats: the price band, the opening (week of 19 Oct), listing day.",
+   "happening": [
+    "Reliance's digital arm, Jio Platforms, plans to list on the stock market before 30 October. The issue may open in the week of 19 October.",
+    "On 6 October Bloomberg reported that Jio will seek about ₹11 lakh crore ($114 billion). At one stage it had been valued at $130-170 billion, and a report two days earlier still said $143-146 billion. The reports link the lower price to the market sell-off that has hit IPO pricing, including NSE's downsized listing.",
+    "It is up to 27 crore new shares (about 2.93% of the company), worth about $3.4 billion (₹32,000-32,500 crore) at that valuation. All of it is new money, mostly to repay debt.",
+    "It is still India's biggest IPO. The record is Hyundai Motor India's ₹27,870 crore (Oct 2024); LIC raised ₹21,000 crore (2022).",
+    "At $114 billion Jio would be India's third most valuable listed company, after Reliance and Bharti Airtel.",
+    "The business: 50.6 crore mobile customers (39% of the market). FY26 profit after tax ₹30,053 crore (+15%), revenue ₹1,46,885 crore (+14.5%).",
+    "Reliance shareholders get a reserved quota, per the draft prospectus. The record date isn't announced."
+   ],
+   "curiosity_gaps": [
+    "Everyone pays Jio every month, and almost nobody knows what the company earns from them. The ₹30,000 crore profit is the reveal: a company you top up every month makes that much.",
+    "Why did India's biggest IPO get cheaper before it even listed? Talk of $170 billion became $114 billion. Business Today's short on the cut is its best-performing Jio video (31.6× the channel's usual).",
+    "It's a brand everyone knows, in today's news. That's the shape of both our breakouts (Policybazaar, Snapdeal)."
+   ],
+   "measured": [
+    "Trend meter: HOT. 23 news articles today, 70 this week. YouTube this week: 570K views, best 5,061 views/hr.",
+    "vidIQ \"jio ipo\": about 55,900 searches a month (+37% on its 30-day baseline), 52,800 in India. Competition 58 of 100.",
+    "vidIQ topic momentum: 26,400 views/hr on 30 Sep, 61,300 views/hr on 6 Oct."
+   ],
+   "others": [
+    {"who": "Anant Ladha (YouTube Short)", "views": "78.8K", "multiple": "4,380/hr", "date": "7 Oct", "what": "\"Jio IPO 🔥\": general hype explainer", "url": "https://www.youtube.com/shorts/Tn30mNGSdOs"},
+    {"who": "Business Today (YouTube)", "views": "34.7K", "multiple": "31.6× channel usual", "date": "6 Oct", "what": "\"Valuation cut to ₹11 lakh crore ahead of mega listing\": the valuation-cut angle", "url": "https://www.youtube.com/watch?v=kL2LbvGkKfw"},
+    {"who": "IPO Review by Groww (YouTube Short)", "views": "23.0K", "multiple": "6.8× channel usual", "date": "6 Oct", "what": "Issue size, debt repayment, unofficial price band", "url": "https://www.youtube.com/shorts/ixDhnWC0PRk"},
+    {"who": "Zee Business (YouTube Short)", "views": "22.4K", "multiple": "3.8× channel usual", "date": "7 Oct", "what": "Telecom stocks and Jio IPO (trading angle)", "url": "https://www.youtube.com/shorts/d8C3wve2DbI"},
+    {"who": "CNBC Awaaz (YouTube)", "views": "17.9K", "multiple": "3.2× channel usual", "date": "7 Oct", "what": "\"Jio IPO at ₹11 lakh crore valuation?\" (Motilal Oswal note)", "url": "https://www.youtube.com/watch?v=SFrrHIL7LCM"},
+    {"who": "@abhirathore_1 (Instagram)", "views": "1.5M", "multiple": "63× median", "date": "this month", "what": "Adjacent: \"Mukesh Ambani is no longer India's richest\", top-10 families countdown", "url": "https://www.instagram.com/reel/DeCNhsDpbyk/"}
+   ],
+   "others_takeaway": "Most Jio videos are about dates, shareholder quota and GMP. None of the outlier searches found a Jio IPO reel breaking out on Instagram yet, and nobody explains the business itself (what it earns from your recharge).",
+   "facts": [
+    {"text": "Seeks about ₹11 lakh crore ($114 bn), once valued at $130-170 bn; opens week of 19 Oct, lists before 30 Oct; ~$3.4 bn (₹32,000-32,500 cr); third most valuable listed company.", "source": "Business Today, 6 Oct", "url": "https://www.businesstoday.in/markets/ipo-corner/story/jio-platforms-ipo-ril-led-telco-targets-rs-11-lakh-crore-valuation-october-listing-likely-559808-2026-10-06"},
+    {"text": "Same, via Bloomberg; lower pricing linked to the market sell-off and NSE's downsized listing.", "source": "Outlook Business, 6 Oct", "url": "https://www.outlookbusiness.com/corporate/jio-ipo-news-updates-usd-114-bn-valuation-below-expectations-issue-open-date-listing"},
+    {"text": "Earlier report: $143-146 bn; up to 27 crore fresh shares (~2.9%); 506 million mobile customers; FY26 profit ₹30,053 cr (+15%), revenue ₹1,46,885 cr (+14.5%).", "source": "Business Standard (PTI), 4 Oct", "url": "https://www.business-standard.com/amp/markets/ipo/jio-ipo-likely-by-oct-end-at-enterprise-valuation-of-above-12-trillion-126100400146_1.html"},
+    {"text": "Previous record: Hyundai Motor India ₹27,870 cr (Oct 2024); LIC ₹21,000 cr (2022).", "source": "TechTimes, 6 Oct", "url": "https://www.techtimes.com/articles/328641/20261006/jio-platforms-ipo-opens-oct-21-indias-biggest-ever-public-offering-bets-5g-moat.htm"}
+   ],
+   "watch_out": [
+    "No call on whether to apply, no GMP, no listing-gain prediction.",
+    "Every date and number is from sources, not the prospectus yet. Issue size varies by report (₹32,000-37,700 crore).",
+    "Akash and Isha Ambani lead the roadshows: no likeness or words. The Jio logo is fine."
+   ]
+  },
+  {
+   "id": "2", "tracker_id": "prime-focus-ramayana", "lane": "Hot lane",
+   "title": "Ramayana's trailer is everywhere, and the taxman just searched the producer's listed company",
+   "label": "HOT", "score": {"total": 8, "momentum": 3, "stake": 0, "share": 2, "gap": 2, "clarity": 1},
+   "window": "Peaks today and tomorrow. Returns at release (around Diwali, early November).",
+   "happening": [
+    "On Wednesday 7 October the Income Tax Department searched Prime Focus Ltd's Mumbai offices, reportedly over overseas fund transfers. The shares fell about 8%. The searches were still going on, and neither the department nor the company has made a detailed statement.",
+    "Prime Focus Studios, headed by Namit Malhotra, makes Ramayana (Ranbir Kapoor, Yash, Sai Pallavi; directed by Nitesh Tiwari). It releases around Diwali.",
+    "The English trailer is the most-watched video in India this week: 3.05 million views, 125,000 views an hour (our trend meter, this morning).",
+    "Prime Focus is the parent of DNEG, the visual-effects house behind six Best Visual Effects Oscars since 2014, including Dune and Dune: Part Two.",
+    "Nobody agrees on the budget. Reels and tabloids quote ₹835 crore, ₹1,600 crore and ₹4,000 crore. None of these is confirmed by the makers."
+   ],
+   "curiosity_gaps": [
+    "Who is paying for India's most expensive film? Most viewers don't know the producer is a company listed on the stock market. The day the trailer went viral, the taxman walked in.",
+    "The budget is a mystery people already argue about. The two biggest reels this fortnight are about it (8.3M and 9.4M views).",
+    "An Indian listed company made the Oscar-winning effects of Dune. Hardly anyone knows that."
+   ],
+   "measured": [
+    "Trend meter: HOT. Every Prime Focus article this week landed today. YouTube this week: 3.05M views, best 125,275 views/hr (the trailer).",
+    "vidIQ India: \"ramayana trailer\" about 1.9M searches a month (1.57M in India); \"ramayana update\" +79%; \"ranbir kapoor\" +97%; \"prime focus\" +43%.",
+    "vidIQ \"prime focus share\": under 750 searches. The money side is untold."
+   ],
+   "others": [
+    {"who": "@bollywood_newso3 (Instagram)", "views": "9.4M", "multiple": "11.8× median", "date": "last fortnight", "what": "1987 Ramayan vs the new film: cast and budget, split-screen infographic", "url": "https://www.instagram.com/reel/Dd1abw3Sd9X/"},
+    {"who": "@btownwatch (Instagram)", "views": "8.3M", "multiple": "414× median", "date": "last fortnight", "what": "Static meme: Ranbir vs MrBeast net worth, captioned \"now we know how the budget is ₹1,600 crore\"", "url": "https://www.instagram.com/reel/Ddw-7seDH68/"},
+    {"who": "@dev_moviesranger (Instagram)", "views": "1.7M", "multiple": "95× median", "date": "last fortnight", "what": "Commentary: the rival Ramayan film flopped", "url": "https://www.instagram.com/reel/Dd6WSh5z5e6/"},
+    {"who": "@drealchapters (Instagram)", "views": "1.2M", "multiple": "4.7× median", "date": "last fortnight", "what": "Adjacent: is the T-Series boss richer than SRK and Salman? (producer money)", "url": "https://www.instagram.com/reel/Dd80wW6Bk7E/"},
+    {"who": "@think.bits (TikTok)", "views": "931K", "multiple": "11.8× median", "date": "last fortnight", "what": "Adjacent: the story behind Amitabh Bachchan's tax case (celebrity plus tax, explained)", "url": "https://www.tiktok.com/@think.bits/video/7687248045745917206"}
+   ],
+   "others_takeaway": "Ramayana money content is the hottest thing on Indian Instagram right now (budget, cast, rival film). Nobody that vidIQ found has done the listed company or the tax search yet.",
+   "facts": [
+    {"text": "I-T searches at Prime Focus's Mumbai offices on 7 Oct, linked to overseas fund transfers; shares fell about 8%; no detailed statement from either side; Ramayana releases around Diwali.", "source": "BusinessToday, 7 Oct", "url": "https://www.businesstoday.in/india/story/ramayana-producer-namit-malhotras-prime-focus-offices-raided-by-income-tax-department-in-mumbai-560215-2026-10-07"},
+    {"text": "Same, with the 8% fall.", "source": "IBTimes India, 7 Oct", "url": "https://www.ibtimes.co.in/ramayana-producer-namit-malhotras-prime-focus-faces-income-tax-raid-mumbai-shares-fall-8-907132"},
+    {"text": "Context: Prime Focus is DNEG's parent; six Best Visual Effects Oscars since 2014 (Ex Machina, Blade Runner 2049, First Man, Tenet, Dune, Dune: Part Two).", "source": "Wikipedia, Namit Malhotra", "url": "https://en.wikipedia.org/wiki/Namit_Malhotra"}
+   ],
+   "watch_out": [
+    "A search is not a finding. Nothing should imply wrongdoing, and the joke has to land on the timing, not on the man.",
+    "Namit Malhotra is a real person: no likeness or AI face. The Wikimedia photo's licence isn't checked yet. No trailer footage or film stills (copyright).",
+    "No budget figure is confirmed. If one is used, it goes on screen as \"reported\".",
+    "Stake is low: few viewers own Prime Focus. This one travels on curiosity, not the wallet."
+   ]
+  },
+  {
+   "id": "3", "tracker_id": "intl-etf-premium", "lane": "Deep lane (via Reuters)",
+   "title": "NSE warns: your Nasdaq ETF can cost far more than what's inside it",
+   "label": "COLD", "score": {"total": 6, "momentum": 0, "stake": 2, "share": 2, "gap": 2, "clarity": 0},
+   "window": "Evergreen for weeks; tracked until 22 Oct.",
+   "happening": [
+    "On 7 October NSE told investors to be careful with some international ETFs. They trade at substantial premiums to their NAV (the value of what they hold). BSE warned the same on 25 September.",
+    "Why: Indian mutual funds have an industry-wide $7 billion limit on overseas investment and a separate $1 billion limit for overseas ETFs. Both are full, so no new units can be created, and demand pushes the price above what the units hold.",
+    "The premium averaged 15-20% over the past year and jumped from early September. Motilal Oswal NASDAQ Q50 ETF traded at a 235% premium on 18 Sep (context, older than a week).",
+    "The risk: the premium can collapse, for example if the limits are raised or the ETF price-band rules change from 1 April 2027. The Nasdaq can rise while the ETF falls."
+   ],
+   "curiosity_gaps": [
+    "How do you lose money on the Nasdaq when the Nasdaq goes up? Buyers think they own Apple and Nvidia. Above NAV, they partly paid for a place in a queue.",
+    "Why can't Indian funds just buy more US shares? Because a $7 billion cap is full. Most viewers have never heard of it.",
+    "The herd angle: everyone piled into US tech and paid extra for the privilege."
+   ],
+   "measured": [
+    "Trend meter: COLD. No Google trending, almost no news by that phrase; YouTube this week mostly unrelated ETF videos.",
+    "vidIQ outlier search: no Instagram or TikTok reel on this topic broke out."
+   ],
+   "others": [
+    {"who": "@newsyouth (Instagram)", "views": "921K", "multiple": "385× median", "date": "last fortnight", "what": "Adjacent herd story: \"35 lakh investors exit the Indian stock market\"", "url": "https://www.instagram.com/reel/Dd3Bh5JBaj7/"},
+    {"who": "@imrahatofficial (Instagram)", "views": "1.2M", "multiple": "500× median", "date": "last month", "what": "Adjacent: why Indian markets lag global ones (foreign investors)", "url": "https://www.instagram.com/reel/Dcyb52As2Uu/"}
+   ],
+   "others_takeaway": "Nobody has made a hit on the ETF premium itself. That's a wide gap, and demand is unproven.",
+   "facts": [
+    {"text": "NSE advises caution on international ETFs at substantial premiums to NAV; overseas limits fully used; risk of sharp falls if limits rise or price-band rules change from 1 Apr 2027.", "source": "Business Standard, 7 Oct", "url": "https://www.business-standard.com/amp/markets/news/sebi-brings-risk-o-meter-for-debt-securities-eases-norms-for-debt-raising-126100701525_1.html"},
+    {"text": "Context only (14 days old): $7 bn and $1 bn limits; 15-20% average premium; Q50 ETF at 235% on 18 Sep.", "source": "Business Standard, 24 Sep", "url": "https://www.business-standard.com/amp/finance/personal-finance/international-etf-premium-nav-india-overseas-investment-limit-tax-costs-126092401360_1.html"},
+    {"text": "Context: BSE's matching warning, \"exercise extreme caution\".", "source": "The Tribune (ANI), 25 Sep", "url": "https://www.tribuneindia.com/news/bse/bse-warns-investors-against-buying-international-etfs-at-inflated-prices"}
+   ],
+   "watch_out": [
+    "No premium figure from this week was on a page I could open. A current NAV-vs-price number can be pulled from NSE or AMFI if you pick it.",
+    "No advice to sell your ETF or to buy something else. The reel can only explain the premium and point to NSE's own advice to check the NAV.",
+    "Credit \"via Reuters\" in the caption."
+   ]
+  }
+ ],
+ "wire": [
+  {"text": "RBI raised the repo rate 25 bps to 5.50% on 7 Oct, the first hike in about 44 months; PNB and Indian Bank raised lending rates. Loans and EMIs are resting; an FD angle is possible later."},
+  {"text": "Rupee closed at 96.78 on 7 Oct, near its record low, despite the hike; the RBI Governor said it may be undervalued."},
+  {"text": "EPF wage ceiling raised from ₹15,000 to ₹25,000 (from 17 Sep): the minimum PF contribution goes from ₹1,800 to ₹3,000 a month, so take-home can fall. Now on the tracker (FLAT)."},
+  {"text": "Trent (Zudio) rose up to 13% on 6 Oct on a 23% Q2 revenue rise; Titan fell about 4% on 7 Oct on slower jewellery growth."},
+  {"text": "Instagram outlier: \"35 lakh investors exit the Indian stock market\", 921K views (385× the creator's median). ET, 7 Oct: September demat additions fell to 2.89 million."},
+  {"text": "SEBI vs Jane Street: SEBI shared trade logs and asked for a response (7 Oct)."},
+  {"text": "Snapdeal (E8) follow-up: no clear move yet; Goldman sold 0.59% of AceVector (Moneycontrol, 7 Oct). On the tracker as made."}
+ ]
+}

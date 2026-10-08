@@ -1,21 +1,20 @@
 # How Doordhan emails look
 
-Every email the routines send (the morning desk, the final video, the weekly strategy review) is plain text, laid out to be read on a phone. No HTML.
+The morning desk email is HTML (Akhilesh, 2026-10-08: the plain-text desk email was unreadable), rendered by `pipeline/desk_report.py` from the day's research JSON. The other emails (the final video, the weekly strategy review) are still plain text, laid out to be read on a phone, by the rules below.
 
 Akhilesh (2026-09-26): **keep all the content** (the ratings, how each story was evaluated, everything that was seen and checked). The earlier emails had the right content; they just weren't readable. So nothing gets cut; the layout does the work.
 
-## Rules
+## Rules for the plain-text emails (final video, weekly review)
 1. **Keep every piece of content.**
-   - For the desk: the score and its breakdown, all the trend evidence, why it's interesting, the format, all three hooks, the line worth sending, the tests the reel carries, every fact with its source, any watch-outs, and anything else "on the wire".
 2. **Action first.** Line 1 says what to do, with the link. The recommendation and its reasons come next.
 3. **Dividers between stories.** Use a divider line (`━━━━━━━━━━━━━━━━━━━━`) with a blank line on each side.
 4. **Story titles in CAPS,** numbered. Plain text has no bold, so capitals do its job.
 5. **Sections inside a story:**
-   - a short label line ending in a colon ("Score:", "What we saw:", "Hooks:");
+   - a short label line ending in a colon ("Score:", "What we saw:");
    - the content underneath;
    - a blank line between sections.
 6. **One item per line.**
-   - Each hook, fact, piece of evidence and question gets its own line.
+   - Each fact, piece of evidence and question gets its own line.
    - Lists use "•".
    - Never run A) B) C) together on one line.
 7. **Links on their own line, under the thing they support.**
@@ -25,85 +24,45 @@ Akhilesh (2026-09-26): **keep all the content** (the ratings, how each story was
 8. **Plain words for internal labels.** Write "Tests this reel carries: hook in frame one, tight 20–30 s, a line worth sending", not "Carries: B1 B2 B3". No file paths.
    - `python3 pipeline/scoreboard.py status` gives the "where we stand" lines in plain English, numbers included.
 9. **No Markdown.** Asterisks, hashes and backticks show up as literal characters.
-10. **Hinglish hooks and lines exactly as they would be spoken,** in quotes.
+10. **Hinglish lines exactly as they would be spoken,** in quotes (the final-video email quoting the script). The desk email is English only.
 
-## The morning desk email
+## The morning desk email (HTML, since 2026-10-08)
 
-Subject: `Doordhan desk — Sat 26 Sep — 3 stories, pick 1A?`
+Akhilesh, 2026-10-08:
+- **Research only. No hooks, no "line worth sending", no script, no Hinglish lines.** He writes the script himself.
+- **English only.** No Hinglish or Hindi anywhere in the email.
+- For each story: what exactly is going on, what other creators are making on it and which of their reels perform best, and **the curiosity gap**: why a viewer would want to know. Example (Snapdeal, E8): a Shark Tank judge's company, a brand everyone used once and then stopped hearing about, is suddenly listing. Nobody knew what it does now.
+- Keep the scores, the trend evidence, the sources and the watch-outs.
+- Stories carry over: the tracker board shows every story still in the news cycle, whether it's rising or fading.
 
-```
-Pick today's story here: <session link>
+How it's made:
+1. Write the day's research as JSON in `research/desk/<date>.json` (copy the shape of `research/desk/2026-10-08.json`).
+2. `python3 pipeline/desk_report.py research/desk/<date>.json` writes the Markdown (`research/desk/<date>.md`, `LATEST.md`, `TRACKER.md`) and the email body (`work/desk/<date>.html`).
+3. Send that HTML as `htmlBody` with Gmail's send_message, and put a short plain-text `body` alongside it (the pick, the three titles with scores, the session link) for clients that don't show HTML.
 
-MY PICK: 1A
-It's the hottest of the three and hits every investor's money. The hook is a plain statement of their stake, and nobody has made a Hinglish Short on it yet. Runner-up: 2, if you want a stock-mover. It's Saturday, so it can go up tonight (7–9 pm) or Monday.
+Subject: `Doordhan desk — Thu 08 Oct — 3 stories, pick 1?`
 
-━━━━━━━━━━━━━━━━━━━━
+The layout, top to bottom:
+- **The pick:** which story and why, the runner-up, and the button back to the session.
+- **A correction box**, only when an earlier email got something wrong.
+- **Each story:**
+  - its number, lane, title, heat label and score;
+  - the five-part score strip;
+  - What's happening;
+  - The curiosity gap;
+  - How hot it is;
+  - What others are making (creator, what they did, views, how far above their usual, linked);
+  - Facts and sources (every fact links its source);
+  - Watch out.
+- **Stories we're tracking:** the tracker board, each with its heat label and direction.
+- **Also on the wire**, then **Where we stand** (`scoreboard.py status`), then the button again.
 
-1. TATA SONS VS TATA TRUSTS: THE OWNER SAYS NO, THE BOARD SAYS YES, AND THE LISTING IS HEADED FOR COURT
-RISING · 8/10 · post by Mon 28 Sep
-
-Score: 8/10
-Momentum 2/3 · Stake 2/2 · Shareability 2/2 · Gap 2/2 · Clarity 0/1
-
-What we saw:
-• News: 45 of the week's 100 articles landed today (rising)
-• YouTube this week: 12 videos, 408K views
-• vidIQ "tata sons listing": search volume 53, competition 46
-• Outliers: all long-form news (NEWS9, Mint, ANI); no Hinglish Shorts on it
-
-Why it's interesting:
-A 158-year-old family business having a public fight. TCS, Titan and Tata Motors are in nearly every Nifty fund and SIP, so it's the viewer's fight too.
-
-Format:
-Samachar (news reading). Sarika's close-up, with the Tata Sons name on a card in the inset box.
-
-Hooks:
-A) "Aapke SIP mein Tata hai? Toh Tata ke ghar ka jhagda aapka bhi hai."
-B) "66% ka maalik bola nahi, board bola haan: Tata Sons ka IPO ab court tay karega?"
-C) "Tata Sons listing: owner vs board, beech mein aapka paisa."
-
-Line worth sending:
-"Board aur maalik lad rahe hain; bill shareholder bharega."
-
-Tests this reel carries:
-Hook in frame one · Tight 20–30 s · A line worth sending
-
-Fact box:
-• Tata Trusts own 66% of Tata Sons. The board reappointed Chandrasekaran and agreed to proceed with a listing despite the Trusts' opposition. The Trusts are weighing the NCLT or the Bombay High Court.
-  BusinessToday, 25 Sep:
-  <link>
-
-• Salve vs Singhvi: the "majority amongst two" row over the articles, and the casting vote.
-  Reuters explainer via TBS, 25 Sep:
-  <link>
-
-• Context only (8 days old, not for a hook): listed Tata firms lost $4 bn in market value on 18 Sep.
-  Business Recorder:
-  <link>
-
-━━━━━━━━━━━━━━━━━━━━
-
-2. ... (same sections)
-
-━━━━━━━━━━━━━━━━━━━━
-
-3. DEEP LANE: ... (same sections; "What we saw" names the outlet, e.g. "via The Ken, 24 Sep")
-
-━━━━━━━━━━━━━━━━━━━━
-
-ALSO ON THE WIRE (if anything)
-• ...
-
-━━━━━━━━━━━━━━━━━━━━
-
-WHERE WE STAND
-<scoreboard.py status, as is>
-
-To pick, reply in the session with a number and a hook letter, e.g. 1A:
-<session link>
-```
-
-Add a "Watch out:" section to a story whenever there's a compliance edge, a rested topic, or a missing voice, with the full reasoning.
+Design rules (impeccable and emil-design-eng skills):
+- Light, warm newsprint, one vermilion accent. Heat labels are colour-coded: HOT vermilion, RISING amber, FLAT slate, COLD blue.
+- Serif headlines, system sans body, tabular numerals.
+- Inline styles only, with a table layout, 620 px max width. Read it at 390 px before sending.
+- No animation: email clients don't run it, and the email is read once a day.
+- Change the design in `desk_report.py`, never by hand in one day's email.
 
 ## The weekly strategy email
 

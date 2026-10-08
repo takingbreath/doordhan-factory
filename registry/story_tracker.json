@@ -1,0 +1,138 @@
+{
+ "stories": [
+  {
+   "id": "jio-ipo",
+   "title": "Jio Platforms IPO",
+   "query": "Jio IPO|जियो आईपीओ",
+   "first_seen": "2026-10-08",
+   "window_until": "2026-10-31",
+   "status": "active",
+   "notes": [
+    "First sent 8 Oct. Valuation reportedly cut to ~₹11 lakh crore ($114 bn) from $130-170 bn; opens week of 19 Oct, lists before 30 Oct."
+   ],
+   "readings": [
+    {
+     "date": "2026-10-08",
+     "label": "HOT",
+     "news_1d": 23,
+     "news_7d": 70,
+     "momentum_pct": 33,
+     "yt_week_videos": 14,
+     "yt_week_views": 570310,
+     "yt_best_vph": 5061,
+     "yt_top": "Jio Platforms Ltd. | Key Things You Need to Know | CA Rachana Ranade (121,460 views in 24h)",
+     "google_trending": [],
+     "desk_score": 8.0
+    }
+   ],
+   "lane": "hot"
+  },
+  {
+   "id": "prime-focus-ramayana",
+   "title": "Ramayana producer's Prime Focus searched by Income Tax",
+   "query": "Prime Focus Ramayana|रामायण इनकम टैक्स",
+   "first_seen": "2026-10-08",
+   "window_until": "2026-11-10",
+   "status": "active",
+   "notes": [
+    "First sent 8 Oct. I-T searches 7 Oct, shares about -8%. Film releases 5 Nov: the story can return at release."
+   ],
+   "readings": [
+    {
+     "date": "2026-10-08",
+     "label": "HOT",
+     "news_1d": 2,
+     "news_7d": 2,
+     "momentum_pct": 100,
+     "yt_week_videos": 6,
+     "yt_week_views": 3051382,
+     "yt_best_vph": 125275,
+     "yt_top": "Ramayana: Rise of a Legend – Official Trailer English (In Theatres Nov (3,006,604 views in 24h)",
+     "google_trending": [],
+     "desk_score": 8.0
+    }
+   ],
+   "lane": "hot"
+  },
+  {
+   "id": "intl-etf-premium",
+   "title": "International ETFs trading far above NAV (NSE warning)",
+   "query": "international ETF premium|नैस्डैक ईटीएफ",
+   "first_seen": "2026-10-08",
+   "window_until": "2026-10-22",
+   "status": "active",
+   "notes": [
+    "First sent 8 Oct (deep lane). NSE caution 7 Oct; BSE 25 Sep."
+   ],
+   "readings": [
+    {
+     "date": "2026-10-08",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 16,
+     "yt_week_views": 90152,
+     "yt_best_vph": 367,
+     "yt_top": "SOL Global DRAM Semiconductor Plus ETF Final (26,406 views in 72h)",
+     "google_trending": [],
+     "desk_score": 6.0
+    }
+   ],
+   "lane": "deep"
+  },
+  {
+   "id": "epf-wage-ceiling",
+   "title": "EPF wage ceiling raised to ₹25,000",
+   "query": "EPF wage ceiling|पीएफ सैलरी लिमिट",
+   "first_seen": "2026-10-08",
+   "window_until": null,
+   "status": "active",
+   "notes": [
+    "On the wire 8 Oct. Min PF goes ₹1,800 to ₹3,000 a month; take-home can fall."
+   ],
+   "readings": [
+    {
+     "date": "2026-10-08",
+     "label": "FLAT",
+     "news_1d": 4,
+     "news_7d": 14,
+     "momentum_pct": 29,
+     "yt_week_videos": 16,
+     "yt_week_views": 217480,
+     "yt_best_vph": 2073,
+     "yt_top": "EPFOର ବଡ଼ ଘୋଷଣା | Special Report On EPFO Rule | EPFO Rule Changes PF,  (49,743 views in 24h)",
+     "google_trending": []
+    }
+   ],
+   "lane": "hot"
+  },
+  {
+   "id": "snapdeal-acevector",
+   "title": "Snapdeal (AceVector) after listing",
+   "query": "Snapdeal share|स्नैपडील शेयर",
+   "first_seen": "2026-10-08",
+   "window_until": null,
+   "status": "made",
+   "notes": [
+    "E8 made 5 Oct (our breakout). Watch for a move with a clear cause."
+   ],
+   "readings": [
+    {
+     "date": "2026-10-08",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 1,
+     "momentum_pct": 0,
+     "yt_week_videos": 9,
+     "yt_week_views": 94550,
+     "yt_best_vph": 743,
+     "yt_top": "Jio IPO, Snapdeal Parent Falls, PhysicsWallah, Reliance Ends 7-Eleven  (35,642 views in 48h)",
+     "google_trending": []
+    }
+   ],
+   "made_episode": "E8",
+   "lane": "hot"
+  }
+ ]
+}
