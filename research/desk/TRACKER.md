@@ -12,6 +12,7 @@ Label history reads oldest to newest: H hot, R rising, F flat, C cold.
 | Ramayana producer's Prime Focus searched by Income Tax (`prime-focus-ramayana`) | active | HOT | new | 1 | H | 2/2 | 3,051,382 | 125,275 | 8 | 2026-11-10 |
 | International ETFs trading far above NAV (NSE warning) (`intl-etf-premium`) | active | COLD | new | 1 | C | 0/0 | 90,152 | 367 | 6 | 2026-10-22 |
 | EPF wage ceiling raised to ₹25,000 (`epf-wage-ceiling`) | active | FLAT | new | 1 | F | 4/14 | 217,480 | 2,073 | - | - |
+| Nana Patekar dies; the Rs 1.5 crore car he gave up for farmers (`nana-patekar`) | active | - | new | 1 |  | -/- | 0 | 0 | 7 | 2026-10-11 |
 | Snapdeal (AceVector) after listing (`snapdeal-acevector`) | made (E8) | COLD | new | 1 | C | 0/1 | 94,550 | 743 | - | - |
 
 ## Latest notes
@@ -19,4 +20,5 @@ Label history reads oldest to newest: H hot, R rising, F flat, C cold.
 - **Ramayana producer's Prime Focus searched by Income Tax:** First sent 8 Oct. I-T searches 7 Oct, shares about -8%. Film releases 5 Nov: the story can return at release.
 - **International ETFs trading far above NAV (NSE warning):** First sent 8 Oct (deep lane). NSE caution 7 Oct; BSE 25 Sep.
 - **EPF wage ceiling raised to ₹25,000:** On the wire 8 Oct. Min PF goes ₹1,800 to ₹3,000 a month; take-home can fall.
+- **Nana Patekar dies; the Rs 1.5 crore car he gave up for farmers:** Died in Goa 8 Oct, 75. Money angle: Rs 1.5 cr car money to farmer families (2015), Naam Foundation. Respectful only; no likeness beyond a licensed photo.
 - **Snapdeal (AceVector) after listing:** E8 made 5 Oct (our breakout). Watch for a move with a clear cause.
