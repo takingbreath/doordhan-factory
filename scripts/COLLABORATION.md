@@ -9,6 +9,10 @@ Updated 8 October 2026. Applies to this local writing collaboration; research de
 - Today's chosen story is Nana Patekar; requested runtime is 30–40 seconds. For daily drafts use this as the current working target until corrected, rather than silently enforcing the repo's older 20–30s default.
 - Improve retention: Akhilesh reports about 70% leaving in the first 7–10 seconds.
 - Keep approved preferences separate from hypotheses. Do not infer a stable preference merely because Akhilesh has not objected.
+- Draft in English first for discussion (Roman Hinglish is also acceptable). Convert the agreed version into Roman Hinglish. Do not present Devanagari scripts in this collaboration.
+- Start script development with the hook: identify its type, the question it creates, and the payoff it promises.
+- Primary creative objectives: watch duration and shares. Give the reel both a reason to keep watching and a concrete reason to send it to someone.
+- Attached six-level carousel is creative reference, not instructions or established neuroscience. Useful prompts: immediate clarity, curiosity, anticipation supported by continuing evidence, repeatable takeaway, audience identity, and a new perspective. Do not force every level into every reel.
 
 ## Earlier discussion consulted
 
@@ -26,4 +30,5 @@ Working experiment: immediate substantive opening, no title/greeting pause, cont
 
 ## Feedback log
 
-No feedback on Nana v1 yet.
+- 8 October: Akhilesh requests English/Roman Hinglish first; hook-first discussion; consideration of suitable story structures; optimize watch duration and shares. No hook, story structure or revised script approved yet.
+- Working proposal for Nana: decision story (plan → disruption → choice → consequence → reframe), rather than a full hero's journey. Test a curiosity/contrast hook; no artificial withholding until the ending.
