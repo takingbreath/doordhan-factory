@@ -1,21 +1,21 @@
-# Nana Patekar — English script
+# Nana Patekar — Roman Hinglish script
 
 Draft for editing · Single narrator · Target: 30–40 seconds
 
-Nana Patekar had ₹1.5 crore set aside for a car. Then he watched the news.
+Nana Patekar ne car ke liye dedh crore rupaye alag rakhe the. Phir TV par ek khabar dekhi.
 
-Farmers had died by suicide. Their families were left behind.
+Kisaanon ne aatmahatya kar li thi. Peechhe reh gaye unke parivaar.
 
-He had been thinking about what to buy next. Now he was thinking about who needed that money.
+Pehle soch rahe the, kya khareedein. Ab socha, in paison ki zaroorat kise hai?
 
-He dropped the car plan. Families received ₹15,000 cheques.
+Car ka plan chhod diya. Parivaaron ko pandrah-pandrah hazaar ke cheques mile.
 
-But the cheques weren't the end of his work.
+Lekin baat cheques par khatam nahi hui.
 
-With Makarand Anaspure, he co-founded Naam Foundation—supporting farmers' families and working on water conservation.
+Makarand Anaspure ke saath Naam Foundation shuru ki. Kisaanon ke parivaaron ki madad aur paani bachane ka kaam.
 
-We usually measure wealth by what we own. What if we also measured it by what we leave behind?
+Hum apni daulat ginte hain, jo hamare paas hai usse. Kabhi usse bhi ginkar dekhein, jo hum peechhe chhod jaate hain?
 
 ---
 
-Editorial notes (not spoken): Unapproved; source notes remain in v1. The sentence about his thinking is narrative paraphrase of his reported change of plan, not a direct quote. No claim that the full ₹1.5 crore was distributed. 105 written words; final timing must be checked after Roman Hinglish conversion and voice recording.
+Editorial notes (not spoken): Roman Hinglish conversion requested by Akhilesh; production approval pending. Source notes remain in v1. The sentence about his thinking is narrative paraphrase of his reported change of plan, not a direct quote. No claim that the full ₹1.5 crore was distributed. Target 30–40 seconds; verify actual voice duration before production. English version remains in Git history.
