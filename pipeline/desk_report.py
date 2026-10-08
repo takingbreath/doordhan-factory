@@ -14,7 +14,7 @@ and `scoreboard.py status`, then writes:
 Research only: what is happening, what reels others are making, the curiosity gap, scores and sources.
 No hooks, no lines, no scripts: Akhilesh writes the script (2026-10-08). English only.
 """
-import argparse, html, json, os, shutil, subprocess, sys
+import argparse, glob, html, json, os, shutil, subprocess, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -230,6 +230,13 @@ def md(d, rows, standing):
     L += [f"| {r['title']} (`{r['id']}`) | {r['label']} | {r['direction']} | {r['days']} | {r['status']} |"
           for r in rows if r["status"] != "retired"]
     L += ["", "## Also on the wire"] + [f"- {w['text']}" for w in d.get("wire", [])]
+    extra = sorted(glob.glob(os.path.join(ROOT, "research", "desk", f"{d['date']}-*.md")))
+    if extra:  # deep dives asked for later in the day: research/desk/<date>-<topic>.md
+        L += ["", "## More research today"]
+        for x in extra:
+            with open(x) as f:
+                title = f.readline().lstrip("# ").strip()
+            L.append(f"- [{title}]({os.path.basename(x)})")
     L += ["", "## Where we stand", ""] + [l if l.startswith("-") else l + "  " for l in standing]
     return "\n".join(L) + "\n"
 

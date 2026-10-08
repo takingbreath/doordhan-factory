@@ -153,6 +153,7 @@ Full board: research/desk/TRACKER.md
 | Ramayana producer's Prime Focus searched by Income Tax (`prime-focus-ramayana`) | HOT | new | 1 | active |
 | International ETFs trading far above NAV (NSE warning) (`intl-etf-premium`) | COLD | new | 1 | active |
 | EPF wage ceiling raised to ₹25,000 (`epf-wage-ceiling`) | FLAT | new | 1 | active |
+| Nana Patekar dies; the Rs 1.5 crore car he gave up for farmers (`nana-patekar`) | - | new | 1 | active |
 | Snapdeal (AceVector) after listing (`snapdeal-acevector`) | COLD | new | 1 | made |
 
 ## Also on the wire
@@ -163,6 +164,9 @@ Full board: research/desk/TRACKER.md
 - Instagram outlier: "35 lakh investors exit the Indian stock market", 921K views (385× the creator's median). ET, 7 Oct: September demat additions fell to 2.89 million.
 - SEBI vs Jane Street: SEBI shared trade logs and asked for a response (7 Oct).
 - Snapdeal (E8) follow-up: no clear move yet; Goldman sold 0.59% of AceVector (Moneycontrol, 7 Oct). On the tracker as made.
+
+## More research today
+- [Nana Patekar's money story — deep dive, Thu 08 Oct 2026](2026-10-08-nana-patekar-money.md)
 
 ## Where we stand
 
