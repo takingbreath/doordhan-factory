@@ -30,9 +30,8 @@ SHOTS = [
     (14.70, 18.30, "talk", dict(src=f"{VID}/T3b.mp4", off=14.80 - 0.5, name="T3")),               # PASS -40 ms
     (18.30, 19.75, "band", dict(src=f"{CLIPS}/nana_lallantop.mp4", ss=144.0, box=(40, 140, 1040, 830), kb=1.05, name="widow")),
     (19.75, 21.30, "band", dict(src=f"{CLIPS}/nana_lallantop.mp4", ss=158.0, box=(40, 140, 1040, 830), kb=1.05, name="cheque")),
-    (21.30, 22.85, "band", dict(src=f"{CLIPS}/nana_lallantop.mp4", ss=152.0, box=(40, 140, 1040, 830), kb=1.05, name="bigcheque")),
-    (22.85, 24.30, "talk", dict(src=f"{VID}/chai.mp4", off=22.85 - 1.10, name="chai")),           # silent B-roll, VO over
-    (24.30, 25.35, "band", dict(src=f"{CLIPS}/naam_storydotcom.mp4", ss=120.5, box=(0, 300, 608, 480), kb=1.08, name="farmers")),
+    (21.30, 22.50, "band", dict(src=f"{CLIPS}/nana_lallantop.mp4", ss=152.0, box=(40, 140, 1040, 830), kb=1.05, name="bigcheque")),
+    (22.80, 25.35, "band", dict(src=f"{CLIPS}/naam_storydotcom.mp4", ss=120.5, box=(0, 300, 608, 480), kb=1.08, name="farmers")),
     (25.35, 26.95, "band", dict(src=f"{CLIPS}/naam_storydotcom.mp4", ss=72.5, box=(0, 230, 608, 560), kb=1.06, name="stage")),
     (26.95, 28.55, "full", dict(src=f"{CLIPS}/naam_storydotcom.mp4", ss=112.5, box=(0, 140, 608, 940), kb=1.06, name="logo")),
     (28.55, 30.55, "band", dict(src=f"{CLIPS}/naam_storydotcom.mp4", ss=85.0, box=(0, 395, 608, 340), kb=1.06, name="lake_people")),
@@ -58,7 +57,7 @@ CAPS = [(0.26, 1.30, "*2015* mein"), (1.34, 2.36, "Nana Patekar ki"), (2.38, 3.7
         (12.92, 13.56, "uska parivar"), (13.58, 14.86, "mushkil mein tha"), (14.90, 15.94, "Nana ne car ka plan"),
         (15.98, 16.72, "*chhod diya*"), (16.74, 17.40, "aur woh paise"), (17.42, 18.56, "kisanon ke parivaron ki"),
         (18.60, 19.74, "madad mein laga diye"), (19.76, 20.72, "kai parivaron ko"), (20.74, 22.00, "*15-15 hazaar* ke"),
-        (22.00, 22.86, "cheques mile"), (22.88, 23.76, "lekin madad"), (23.80, 24.54, "sirf cheques tak"),
+        (22.00, 22.60, "cheques mile"), (22.88, 23.76, "lekin madad"), (23.80, 24.54, "sirf cheques tak"),
         (24.56, 25.36, "*nahin ruki*"), (25.40, 26.90, "Makarand Anaspure ke saath"), (26.94, 28.08, "unhone *NAAM Foundation*"),
         (28.14, 28.66, "shuru ki"), (28.68, 30.00, "jo kisanon ke parivaron"), (30.02, 30.52, "ki madad"),
         (30.54, 31.56, "aur *paani* bachane ka"), (31.58, 32.68, "kaam karti hai"), (32.70, 33.56, "hum apni *wealth*"),
@@ -68,8 +67,27 @@ CAPS = [(0.26, 1.30, "*2015* mein"), (1.34, 2.36, "Nana Patekar ki"), (2.38, 3.7
 LABELS = [(-V0, 2.35, "Ab Tak Chhappan 2  (2015)", "film"),
           (6.04, 7.90, "₹1.5 CRORE", "slam"),
           (7.90, 10.62, "RECREATION  ·  2015", "tag"),
-          (20.74, 22.85, "₹15,000 per family", "slam"),
+          (20.74, 22.50, "₹15,000 per family", "slam"),
           (END_V, END_V + ATC_OPEN - ATC_CLOSE, "Ab Tak Chhappan 2  (2015)", "film")]
+
+# ---- the silent chai beat (Akhilesh, 2026-10-09: "while she's sipping tea, her voice is there"): the voice pauses
+# GAP s at GAP_AT (inside the pause after "cheques mile") and she sips in silence. Everything after moves by GAP.
+GAP_AT, GAP = 22.65, 1.20
+
+
+def S(v):
+    return v + GAP if v >= GAP_AT else v
+
+
+for _i, (_a, _b, _k, _d) in enumerate(SHOTS):
+    if _k == "talk" and _a >= GAP_AT:
+        _d["off"] += GAP                                   # same source frames under the shifted voice
+    SHOTS[_i] = (S(_a), S(_b), _k, _d)
+SHOTS.insert([x[0] for x in SHOTS].index(S(22.80)),
+             (22.50, 22.80 + GAP, "talk", dict(src=f"{VID}/chai.mp4", off=22.50 - 1.10, name="chai")))  # silent: no voice
+CAPS = [(S(a), S(b), t) for a, b, t in CAPS]
+LABELS = [(S(a), S(b), t, k) for a, b, t, k in LABELS]
+END_V = S(END_V)
 
 CREDITS = {"nana_lallantop.mp4": "Footage: Naam Foundation via The Lallantop",
            "naam_storydotcom.mp4": "Footage: Story Dot Com / Naam Foundation"}
@@ -290,6 +308,7 @@ def voice_prep():
     ramp = 1 + (lift - 1) * (0.5 - 0.5 * np.cos(np.linspace(0, np.pi, r)))
     g[a - r:a] = ramp; g[a:b] = lift; g[b:b + r] = ramp[::-1]
     y = np.clip(x * g, -32768, 32767).astype(np.int16)
+    k = int(GAP_AT * sr); y = np.concatenate([y[:k], np.zeros(int(GAP * sr), np.int16), y[k:]])    # the silent beat
     o = wave.open(out, "wb"); o.setnchannels(1); o.setsampwidth(2); o.setframerate(sr); o.writeframes(y.tobytes()); o.close()
     return out
 
@@ -312,7 +331,7 @@ def mix(total, out_wav, music_free=True):
           f"[4:a]aresample=48000,atrim=0:{10.62 - 7.90:.2f},volume=0.10,afade=t=in:d=0.2,afade=t=out:st={10.62 - 7.90 - 0.25:.2f}:d=0.25,adelay={ms(7.90)}|{ms(7.90)}[fan];"
           f"[5:a]aresample=48000,volume=0.18,adelay={ms(5.80)}|{ms(5.80)}[w1];"
           f"[6:a]aresample=48000,volume=0.22,adelay={ms(6.02)}|{ms(6.02)}[t1];"
-          f"[7:a]aresample=48000,volume=0.14,adelay={ms(22.72)}|{ms(22.72)}[w2];"
+          f"[7:a]aresample=48000,volume=0.14,adelay={ms(S(22.80) - 0.12)}|{ms(S(22.80) - 0.12)}[w2];"
           f"[8:a]aresample=48000,volume=0.2,adelay={ms(20.72)}|{ms(20.72)}[t2];"
           f"[vo][fo][fc][room][fan][w1][t1][w2][t2]amix=inputs=9:normalize=0:duration=longest,atrim=0:{total:.3f},"
           f"pan=mono|c0=0.5*c0+0.5*c1[a]")
@@ -331,6 +350,8 @@ def write_manifest(total, final):
          ("L3", 14.80, 22.65, 14.70, [[14.70, 18.30]]), ("L4", 22.85, 25.10, None, []),
          ("L5", 25.30, 32.45, None, []), ("L6", 32.70, 39.25, 32.58, [[32.58, 35.90], [35.90, END_V]])]
     L[0] = ("L1", 0.05, 10.20, None, [[2.35, 5.95]])
+    L[5] = ("L6", 32.70, 39.25, 32.58, [[32.58, 35.90], [35.90, 39.20]])
+    L = [(i, S(a), S(b), None if c is None else S(c), [[S(x), S(y)] for x, y in g]) for i, a, b, c, g in L]
     lines = []
     for lid, a, b, cut, segs in L:
         ln = {"id": lid, "speaker": "rashmi", "start": round(a + V0, 3), "end": round(b + V0, 3),

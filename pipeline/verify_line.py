@@ -106,6 +106,10 @@ def compose(toks):
     out, i = [], 0
     while i < len(toks):
         v = NUM_WORDS.get(toks[i].lower())
+        # digits before हज़ार too: Scribe writes "पंद्रह-पंद्रह हज़ार" one run and "15-15 हजार" the next (nana01, 2026-10-09)
+        if toks[i].isdigit() and int(toks[i]) < 1000 and i + 1 < len(toks) and toks[i + 1].lower() in ("हज़ार", "हजार", "thousand"):
+            out.append(str(int(toks[i]) * 1000)); i += 2
+            continue
         # "तीन हज़ार" = 3000 (DTB Ep 3, 2026-10-06: "तीन हज़ार करोड़" against Scribe's "₹3000 करोड़")
         if v is not None and v < 100 and i + 1 < len(toks) and toks[i + 1].lower() in ("हज़ार", "हजार", "thousand"):
             n = v * 1000; i += 2
