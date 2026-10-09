@@ -173,6 +173,7 @@ runs under the footer or off the frame, and no text is smaller than about 32 px 
   strategist routine reads GitHub every night, and an unpushed episode gets logged as an unknown reel.
 
 ## Other formats
+The creator format (Rashmi at home, modern look): formats/creator.md section 1 first, then `assets/edits/nana01_build.py` (it writes its own QC manifest; set `fps` 30) and `pipeline/level_keyframe.py` for tilted heads.
 The templates are for Sahayata Kendra. Samachar (Sarika, Gupta) and Teleshop follow their format files: Sarika's
 wardrobe keyframes use seedream_v4_5 (GPT Image blocks her necklines), talking shots use the steady-newsreader
 sentence and must pass `headcheck.py`, and the edit is usually an assemble.py edit.json with a hand-written

@@ -14,6 +14,7 @@ Frames: the edit runs at 720x1280, 25 fps (Wan 720p delivers 718x1282); the 80s�
 | put_upload.py | PUT a file to the presigned URL returned by Higgsfield media_upload (then call media_confirm). Retries the upload host's transient 5xx answers. |
 | produce_check.py | Is this machine ready to produce? Tools on PATH, Python packages, the QC environment and models, the tracked assets the edit and the gate read, and the ElevenLabs key (never printed). `/produce-video` runs it first. |
 | qc.py | Every check on one talking shot, written to a notes file: format, speech_map, check_match, lipcheck, transcript vs script, loudness, contact sheet. |
+| level_keyframe.py | Rotate a keyframe so a tilted head is level (preflight fails at 16° roll); reads as a handheld phone and enlarges the face. |
 | prosody.py | How flat a voice take is: pitch range, how alike the sentence tunes are, end-of-sentence fall, pace and pause variation. Compare takes against real speech before picking one (docs/voices/directing-tts.md). |
 | speech_map.py | Speech start/end/pauses of any file. Use on generated clips to choose cut points. |
 | check_match.py | Did the generated clip keep our audio? Envelope correlation ≥0.90 = PASS (Wan). Low = re-voiced or re-timed. Reports a constant offset if there is one. |

@@ -207,7 +207,7 @@
    "first_seen": "2026-10-08",
    "lane": "hot",
    "window_until": "2026-10-11",
-   "status": "active",
+   "status": "made",
    "notes": [
     "Died in Goa 8 Oct, 75. Money angle: Rs 1.5 cr car money to farmer families (2015), Naam Foundation. Respectful only; no likeness beyond a licensed photo."
    ],
@@ -228,7 +228,8 @@
      "yt_top": "",
      "google_trending": []
     }
-   ]
+   ],
+   "made_episode": "E10"
   },
   {
    "id": "market-crash-oct8",

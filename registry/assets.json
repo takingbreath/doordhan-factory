@@ -38,6 +38,13 @@
         "ginger_plush_v2": "78b1ae06-8e9a-419d-9e67-513118462269"
       },
       "note": "real ginger street cat: notched left ear, scarred nose; contrasts with the green set"
+    },
+    "rashmi": {
+      "role": "Instagram creator (formats/creator.md)",
+      "identity_ref": "e9a78b8d-1f8b-4c82-876b-e212b7f896f8",
+      "master_keyframe_e10": "20f3c2d0-b756-4d43-95b4-50851c10b26b",
+      "voice": "rashmiji",
+      "note": "no phone in frame (the phone is the camera); modern clothes; face check against the episode's master keyframe"
     }
   },
   "keyframes": {
@@ -97,7 +104,16 @@
     "insert_doorstep_delivery": "fda14a72-c4f7-4d9b-8e56-a7b5f6f0280c",
     "insert_warehouse_crt_clerk": "00ef659e-8c4e-4d04-b117-77dcc9a443f1",
     "sarika_closeup_e9_ruby_wrap": "0b66415d-f88c-4fc9-98f3-e734f44c9299",
-    "gupta_market_e9": "183eb879-85e5-432b-99db-f7c51e788cbb"
+    "gupta_market_e9": "183eb879-85e5-432b-99db-f7c51e788cbb",
+    "creator_e10_sofa_selfie": "20f3c2d0-b756-4d43-95b4-50851c10b26b",
+    "creator_e10_sofa_selfie_levelled": "0c58ccf8-f503-4657-b15f-447ae91c9c02",
+    "creator_e10_kitchen_counter": "254def93-c19b-43e1-90cc-fcc5bbfd5dbb",
+    "creator_e10_kitchen_counter_levelled": "d0a3125a-acca-417a-bdba-6fbdce30f7e8",
+    "creator_e10_selfie_close": "adb963fe-4e68-488d-ad48-75dd0d5d54e9",
+    "creator_e10_window_seat_no_phone": "6d26e800-690e-42f6-b56f-a46f0aac1841",
+    "creator_e10_window_seat_levelled": "d1ae821d-5c3a-4287-80f1-65dae83ee431",
+    "recreation_2015_tv_room_from_behind": "e0144b44-9a0d-40bf-b6c9-3a5515bb3b16",
+    "insert_car_detail_unbranded": "7c8ab66f-689b-4360-9a8c-e9d71926a379"
   },
   "voices": {
     "_note": "ElevenLabs over the API is the default (2026-09-30): a voice with an elevenlabs_voice_id is generated with pipeline/tts_elevenlabs.py --voice <name>. A voice without one stays on Higgsfield. higgsfield_fallback keeps a character's old Higgsfield voice element usable (pipeline/higgsfield.py audio --voice <name>).",
@@ -291,6 +307,14 @@
       "billu_paws_registry_file_open_sleeps": "5b887202-2b32-432f-8fff-eb3306d75650",
       "overhead_hangup_maroon_cuff": "d56e5fa0-1d85-4867-b191-b1987afa0dcf",
       "cold_open_billu_walks_in_talking_e7": "6e33fa83-290b-465e-92da-82d4a8dfab4e"
+    },
+    "creator_e10_tv_recreation_2015": {
+      "video_job": "c4c9b67d-8802-420c-b6b4-25b50af3007e",
+      "note": "older man from behind leans toward a blue-screen TV (key any bulletin onto it); Mumbai 1BHK, 2015"
+    },
+    "creator_e10_chai_sip": {
+      "video_job": "6e091922-0fe9-42cb-a845-1a159a9ace19",
+      "note": "Rashmi sips chai at the kitchen counter and raises her eyebrows over the mug; silent B-roll (use in a voice pause)"
     }
   },
   "keyframes_notes": {
@@ -302,11 +326,18 @@
       "why": "too covered (Akhilesh)"
     },
     "kendra_e7": "E7 (2026-10-04) set dressing, episode-specific: the wall behind Pandey carries a faded 'SAPNON KA GHAR / POSSESSION 2011' builder poster (fictional), a crack through it and a damp stain; the low angle shows the damp, flaking ceiling. The two cold-open frames are local crops (648x1152 from the GPT frames 428e2276 / 1092160a) uploaded as media, so the face is 15-16% of the frame height. Pandey wears the E7 outfit in all of them; reuse only where it can't be seen or with a wardrobe restyle.",
-    "e9": "E9 (DTB3 HUL): sarika_closeup_e9_ruby_wrap is the Seedream job 84514361 frame, cropped locally to 0.85 from the top (mouth box 480: 147,437,108,79); wider framing than E8, 80s blue studio, no bindi (it flickered). gupta_market_e9 is Higgsfield job 183eb879."
+    "e9": "E9 (DTB3 HUL): sarika_closeup_e9_ruby_wrap is the Seedream job 84514361 frame, cropped locally to 0.85 from the top (mouth box 480: 147,437,108,79); wider framing than E8, 80s blue studio, no bindi (it flickered). gupta_market_e9 is Higgsfield job 183eb879.",
+    "creator_e10": "creator_e10_*: Rashmi's four setups (seedream_v4_5); the 'levelled' uploads were rotated with pipeline/level_keyframe.py to pass the head-roll check. recreation_2015_tv_room: blue screen for keying a bulletin; the man is only ever seen from behind. insert_car_detail_unbranded: the first car came out as a recognisable Range Rover; avoid implying a model."
   },
   "wardrobe_log": {
     "_note": "One row per character per episode, added when the final is approved. Nobody wears the same outfit twice on air.",
     "rows": [
+      {
+        "episode": "10",
+        "date": "2026-10-09",
+        "character": "rashmi",
+        "outfit": "chunky cream knit open cardigan over a black scoop-neck camisole, thin gold chain, small gold hoops; loose shoulder-length waves; warm home (sofa, kitchen, window seat)"
+      },
       {
         "episode": "9",
         "date": "2026-10-06",
