@@ -27,6 +27,15 @@
    "note": "Lallantop, 4:21: Nana telling how he started Naam (optional 2 s of him speaking)",
    "file": "clips/nana01/nana_lallantop.mp4",
    "duration_s": 180.01
+  },
+  {
+   "name": "nana_lallantop_archive",
+   "url": "https://www.youtube.com/watch?v=Oy_7wLzZdf0",
+   "start": "2:15",
+   "end": "4:21",
+   "note": "The Naam archive footage at the end of the Lallantop video (cheque handover, dry fields, widows), past the 3:00 cap of the first download",
+   "file": "clips/nana01/nana_lallantop_archive.mp4",
+   "duration_s": 125.3
   }
  ],
  "failed": []
