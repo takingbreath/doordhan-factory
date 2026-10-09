@@ -1,0 +1,33 @@
+{
+ "done": [
+  {
+   "name": "atc2_short",
+   "url": "https://youtube.com/shorts/Dvf6MmRWOec",
+   "note": "Ab Tak Chhappan 2 short Akhilesh picked: the opening and closing (loop) shot",
+   "file": "clips/nana01/atc2_short.mp4",
+   "duration_s": 20.28
+  },
+  {
+   "name": "naam_short_kalmegh",
+   "url": "https://www.youtube.com/shorts/4vBx6HbSGxA",
+   "note": "Nana and Makarand on Naam sites",
+   "file": "clips/nana01/naam_short_kalmegh.mp4",
+   "duration_s": 66.3
+  },
+  {
+   "name": "nana_lallantop",
+   "url": "https://www.youtube.com/watch?v=Oy_7wLzZdf0",
+   "note": "Lallantop, 4:21: Nana telling how he started Naam (optional 2 s of him speaking)",
+   "file": "clips/nana01/nana_lallantop.mp4",
+   "duration_s": 180.01
+  }
+ ],
+ "failed": [
+  {
+   "name": "naam_storydotcom",
+   "url": "https://www.youtube.com/watch?v=TP6o9LdyN44",
+   "note": "Story Dot Com, 2:50: Naam Foundation's water work and widows; we pick the water-rushing shots",
+   "error": "Command '['/opt/homebrew/opt/python@3.14/bin/python3.14', '-m', 'yt_dlp', '-f', 'bv*[height<=1080]+ba/b[height<=1080]/b', '--merge-output-format', 'mp4', '--no-playlist', '-o', '/var/folders/jg/67z1z1vx5cdgkzf1v86vtgnc0000gn/T/tmpftiruobe/src.%(ext)s', 'https://www.youtube.com/watch?v=TP6o9LdyN44']' returned non-zero exit status 1."
+  }
+ ]
+}
