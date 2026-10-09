@@ -8,7 +8,8 @@
    "window_until": "2026-10-31",
    "status": "active",
    "notes": [
-    "First sent 8 Oct. Valuation reportedly cut to ~₹11 lakh crore ($114 bn) from $130-170 bn; opens week of 19 Oct, lists before 30 Oct."
+    "First sent 8 Oct. Valuation reportedly cut to ~₹11 lakh crore ($114 bn) from $130-170 bn; opens week of 19 Oct, lists before 30 Oct.",
+    "2026-10-09: Reported band ₹1,150-1,220 (unconfirmed); RHP after 12 Oct"
    ],
    "readings": [
     {
@@ -23,6 +24,19 @@
      "yt_top": "Jio Platforms Ltd. | Key Things You Need to Know | CA Rachana Ranade (121,460 views in 24h)",
      "google_trending": [],
      "desk_score": 8.0
+    },
+    {
+     "date": "2026-10-09",
+     "label": "RISING",
+     "news_1d": 45,
+     "news_7d": 80,
+     "momentum_pct": 56,
+     "yt_week_videos": 9,
+     "yt_week_views": 433313,
+     "yt_best_vph": 2979,
+     "yt_top": "Jio Platforms Ltd. | Key Things You Need to Know | CA Rachana Ranade (143,000 views in 48h)",
+     "google_trending": [],
+     "desk_score": 7.0
     }
    ],
    "lane": "hot"
@@ -50,6 +64,18 @@
      "yt_top": "Ramayana: Rise of a Legend – Official Trailer English (In Theatres Nov (3,006,604 views in 24h)",
      "google_trending": [],
      "desk_score": 8.0
+    },
+    {
+     "date": "2026-10-09",
+     "label": "HOT",
+     "news_1d": 0,
+     "news_7d": 2,
+     "momentum_pct": 0,
+     "yt_week_videos": 11,
+     "yt_week_views": 4304133,
+     "yt_best_vph": 70599,
+     "yt_top": "Ramayana: Rise of a Legend – Official Trailer English (In Theatres Nov (3,388,759 views in 48h)",
+     "google_trending": []
     }
    ],
    "lane": "hot"
@@ -77,6 +103,18 @@
      "yt_top": "SOL Global DRAM Semiconductor Plus ETF Final (26,406 views in 72h)",
      "google_trending": [],
      "desk_score": 6.0
+    },
+    {
+     "date": "2026-10-09",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 16,
+     "yt_week_views": 107773,
+     "yt_best_vph": 447,
+     "yt_top": "RAOUL PAL: ''XRP WILL BE REPRICED TO $100'' (HE TOLD US HOW!!!) (10,736 views in 24h)",
+     "google_trending": []
     }
    ],
    "lane": "deep"
@@ -103,6 +141,18 @@
      "yt_best_vph": 2073,
      "yt_top": "EPFOର ବଡ଼ ଘୋଷଣା | Special Report On EPFO Rule | EPFO Rule Changes PF,  (49,743 views in 24h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-09",
+     "label": "FLAT",
+     "news_1d": 1,
+     "news_7d": 13,
+     "momentum_pct": 8,
+     "yt_week_videos": 16,
+     "yt_week_views": 312488,
+     "yt_best_vph": 2603,
+     "yt_top": "EPFOର ବଡ଼ ଘୋଷଣା | Special Report On EPFO Rule | EPFO Rule Changes PF,  (62,473 views in 24h)",
+     "google_trending": []
     }
    ],
    "lane": "hot"
@@ -113,7 +163,7 @@
    "query": "Snapdeal share|स्नैपडील शेयर",
    "first_seen": "2026-10-08",
    "window_until": null,
-   "status": "made",
+   "status": "retired",
    "notes": [
     "E8 made 5 Oct (our breakout). Watch for a move with a clear cause."
    ],
@@ -129,10 +179,26 @@
      "yt_best_vph": 743,
      "yt_top": "Jio IPO, Snapdeal Parent Falls, PhysicsWallah, Reliance Ends 7-Eleven  (35,642 views in 48h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-09",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 1,
+     "momentum_pct": 0,
+     "yt_week_videos": 12,
+     "yt_week_views": 100780,
+     "yt_best_vph": 770,
+     "yt_top": "Jio IPO, Snapdeal Parent Falls, PhysicsWallah, Reliance Ends 7-Eleven  (36,969 views in 48h)",
+     "google_trending": []
     }
    ],
    "made_episode": "E8",
-   "lane": "hot"
+   "lane": "hot",
+   "retired": {
+    "date": "2026-10-09",
+    "reason": "COLD on 2 checks running"
+   }
   },
   {
    "id": "nana-patekar",
@@ -149,6 +215,72 @@
     {
      "date": "2026-10-08",
      "desk_score": 7.0
+    },
+    {
+     "date": "2026-10-09",
+     "label": "RISING (saturated: everyone has it; needs a sharper angle)",
+     "news_1d": 100,
+     "news_7d": 100,
+     "momentum_pct": 100,
+     "yt_week_videos": 0,
+     "yt_week_views": 0,
+     "yt_best_vph": 0,
+     "yt_top": "",
+     "google_trending": []
+    }
+   ]
+  },
+  {
+   "id": "market-crash-oct8",
+   "title": "Sensex -1,045 on 8 Oct: ₹10.23 lakh crore wiped off",
+   "query": "Sensex crash|सेंसेक्स गिरावट",
+   "first_seen": "2026-10-09",
+   "lane": "hot",
+   "window_until": "2026-10-12",
+   "status": "active",
+   "notes": [
+    "First sent 9 Oct. Sensex 32-month low, Nifty 52-week low, Brent $104, FII selling 9 sessions."
+   ],
+   "readings": [
+    {
+     "date": "2026-10-09",
+     "desk_score": 9.0
+    }
+   ]
+  },
+  {
+   "id": "tcs-q2-profit-share",
+   "title": "TCS: profit +15%, share -35% in 2026",
+   "query": "TCS share|टीसीएस शेयर",
+   "first_seen": "2026-10-09",
+   "lane": "hot",
+   "window_until": "2026-10-14",
+   "status": "active",
+   "notes": [
+    "First sent 9 Oct. Q2 profit ₹13,884 cr; +4,258 staff; AI $3.1 bn."
+   ],
+   "readings": [
+    {
+     "date": "2026-10-09",
+     "desk_score": 8.0
+    }
+   ]
+  },
+  {
+   "id": "pharma-freebies-sc",
+   "title": "SC orders panel on pharma freebies to doctors",
+   "query": "pharma freebies doctors|डॉक्टर फार्मा गिफ्ट",
+   "first_seen": "2026-10-09",
+   "lane": "deep",
+   "window_until": "2026-10-23",
+   "status": "active",
+   "notes": [
+    "First sent 9 Oct (deep lane). Order 8 Oct; panel reports in ~2 months; hearing 29 Jan 2027."
+   ],
+   "readings": [
+    {
+     "date": "2026-10-09",
+     "desk_score": 6.0
     }
    ]
   }

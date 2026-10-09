@@ -1,0 +1,140 @@
+{
+ "date": "2026-10-09",
+ "date_label": "Fri 09 Oct 2026",
+ "session_link": "https://claude.ai/code/session_01DyEajv32bkAbirMJYnrgLa",
+ "pick": {"id": "1", "reason": "The market slump is this week's \"Ride now\" (strategy) and it peaked yesterday: ₹10.23 lakh crore gone in one session, the Sensex at a 32-month low, the Nifty at a 52-week low. Every viewer with a SIP felt it, and the wipe-out number is the shape that broke out for five bigger creators. It is a today-only story: check Friday's close before posting tonight.", "runner_up": "2, if you want the famous-brand shape of our two breakouts: TCS made 15% more profit and its share is down 35% this year. It holds for a few days, not just today."},
+ "stories": [
+  {
+   "id": "1", "tracker_id": "market-crash-oct8", "lane": "Hot lane",
+   "title": "₹10 lakh crore gone in a day: the Sensex at a 32-month low",
+   "label": "HOT", "score": {"total": 9, "momentum": 3, "stake": 2, "share": 2, "gap": 1, "clarity": 1},
+   "window": "Today (Fri 9 Oct). If Friday's session bounces or falls further, the number changes: check the close before posting tonight.",
+   "happening": [
+    "On Thursday 8 October the Sensex fell 1,045 points (1.44%) to 71,593 and the Nifty 50 fell 371 points (1.64%) to 22,232. The Sensex closed at its lowest level in 32 months; the Nifty touched a 52-week low (22,180) during the day.",
+    "The market value of NSE-listed companies fell by ₹10.23 lakh crore in one session, to ₹456.69 lakh crore.",
+    "Small companies fell harder: the Nifty Midcap 100 and Smallcap 100 lost 2.53% and 2.34%. 3,280 shares fell and 951 rose.",
+    "Why, per the market reports: Brent crude jumped 4.2% to $104.43 a barrel (attacks on Gulf shipping and the Strait of Hormuz); the RBI raised the repo rate on 7 Oct, its first hike in nearly four years, and markets fear more; and foreign investors sold for a ninth straight session (₹6,121 crore on Wednesday alone), while Indian funds bought ₹4,597 crore.",
+    "Biggest Nifty losers: Adani Enterprises −5.4%, JSW Steel −4.5%, ITC −4.0%. Petrol and diesel prices haven't been raised yet: the state oil companies are absorbing the crude jump for now."
+   ],
+   "curiosity_gaps": [
+    "Your SIP statement this month: ₹10 lakh crore left the market in a single day. Where did it go, and who was selling? (Foreigners sold for nine sessions running; Indian funds, which means SIP money, kept buying.)",
+    "Oil at $104 hits the market before it hits the petrol pump. Pump prices haven't moved yet; why the market moved first is the question nobody answers in 20 seconds.",
+    "The herd angle: India is falling while other markets aren't (the top reel this fortnight asks exactly this, 1.2M views)."
+   ],
+   "measured": [
+    "Trend meter: HOT. \"Sensex crash\": 6 news items today against 5 for the rest of the week; YouTube this week 704K views. \"Stock market crash\" RISING: 46 of 76 articles this week landed today.",
+    "vidIQ \"stock market crash today\" (India): about 16,900 searches a month, +85% on its 30-day baseline. Competition 56 of 100.",
+    "YouTube Shorts on yesterday's fall are thin: the top one has 1.3K views (Being Shivoo, \"10 lakh crore wiped off\")."
+   ],
+   "others": [
+    {"who": "@caharsh_insta (Instagram)", "views": "1.2M", "multiple": "39.9× median", "date": "last fortnight", "what": "\"Why only the Indian stock market is falling\": FII selling and tax changes, talking head, headline strip \"BLOODBATH AT DALAL STREET\"", "url": "https://www.instagram.com/reel/Dd-7EFDx_Il/"},
+    {"who": "@newsyouth (Instagram)", "views": "921K", "multiple": "385× median", "date": "last fortnight", "what": "\"35 lakh investors exit the Indian stock market\": the herd leaving, one big number on screen", "url": "https://www.instagram.com/reel/Dd3Bh5JBaj7/"},
+    {"who": "@learning_markets_with_manish (Instagram)", "views": "1.3M", "multiple": "7.1× median", "date": "last fortnight", "what": "\"CRASH\": opinion piece blaming the government's growth data", "url": "https://www.instagram.com/reel/Dd05rLzht2c/"},
+    {"who": "@ankitbajad4u (Instagram)", "views": "1.5M", "multiple": "15.9× median", "date": "last fortnight", "what": "Nifty chart split-screen, political commentary on the slump", "url": "https://www.instagram.com/reel/Dd5TFsFhv2g/"},
+    {"who": "Being Shivoo (YouTube Short)", "views": "1.3K", "multiple": "2× channel usual", "date": "8 Oct", "what": "\"10 lakh crore wiped off\": the only Short on yesterday's number", "url": "https://www.youtube.com/shorts/j6iyfbq_Fjk"}
+   ],
+   "others_takeaway": "The slump itself has been made many times, mostly as political opinion. Nobody has yet told yesterday's one-day number as plain news from the SIP holder's side, and no Hinglish Short on it has broken out.",
+   "facts": [
+    {"text": "Sensex 71,593.24 (−1,045.46, −1.44%); Nifty 22,231.80 (−371.25, −1.64%); Nifty 52-week low 22,179.90; NSE market cap −₹10.23 lakh crore to ₹456.69 lakh crore; Brent +4.2% to $104.43; FIIs sold ₹6,121.37 cr and DIIs bought ₹4,596.57 cr on 7 Oct; top losers Adani Ent −5.36%, JSW Steel −4.46%, ITC −4.03%.", "source": "Upstox market wrap, 8 Oct", "url": "https://upstox.com/news/market-news/stocks/market-wrap-oct-8-sensex-crashes-1-045-pts-nifty-50-dip-1-6-as-crude-oil-prices-hit-over-104-bbl-adani-enterprises-top-loser/article-201532/"},
+    {"text": "Sensex at its lowest level in 32 months; 3,280 declines vs 951 advances; FPIs selling for nine straight sessions; RBI's 25 bp hike to 5.5%, first in nearly four years.", "source": "HDFC Sky market close report, 8 Oct", "url": "https://hdfcsky.com/news/market-close-report-today-october-8-2026-sensex-nifty-melt-down-as-rbi-oil-weigh"},
+    {"text": "Midcap 100 −2.53%, Smallcap 100 −2.34%; India VIX up about 10%.", "source": "Business Standard live blog, 8 Oct", "url": "https://www.business-standard.com/markets/news/stock-market-live-october-8-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-rbi-repo-rate-hike-ipo-today-126100800108_1.html"},
+    {"text": "Retail petrol and diesel unchanged on 8 Oct (Mumbai petrol ₹111.21); state oil companies holding prices.", "source": "BusinessToday, 8 Oct", "url": "https://www.businesstoday.in/amp/india/story/petrol-diesel-prices-today-october-8-check-latest-rates-in-delhi-mumbai-chennai-kolkata-more-560273-2026-10-08"}
+   ],
+   "watch_out": [
+    "Index level only: no stock tips, no \"buy the dip\", no Nifty targets or price charts (SEBI price-data rule in docs/platform-playbook.md).",
+    "₹10.23 lakh crore is NSE market cap, not money \"lost\" by people; reports call it investor wealth. Say \"market value\" or \"wiped off\", not \"you lost\".",
+    "Friday's session can change the picture. Re-check the close before posting.",
+    "Tests it can carry: hook in frame one (the rupee number), tight 20–30 s (one number fits 20–25 s), a line worth sending (who sold, who bought)."
+   ]
+  },
+  {
+   "id": "2", "tracker_id": "tcs-q2-profit-share", "lane": "Hot lane",
+   "title": "TCS: profit up 15%, share down 35% this year",
+   "label": "RISING", "score": {"total": 8, "momentum": 2, "stake": 1, "share": 2, "gap": 2, "clarity": 1},
+   "window": "Fri 9 to about Tue 13 Oct (results reaction today; dividend record date 14 Oct; Infosys and Wipro results follow next week).",
+   "happening": [
+    "TCS reported its July–September results on Thursday 8 October. Profit was ₹13,884 crore, up 15% on a year ago; revenue ₹73,188 crore, up 11.2%. Profit was about 1% below what analysts expected.",
+    "The share is down 35% in 2026 so far (BusinessToday, 7 Oct). It closed at ₹2,075 on Thursday before the results.",
+    "AI is now more than 10% of TCS's business: $3.1 billion a year, up from $2.6 billion a quarter earlier. New deals signed: $9.6 billion.",
+    "Jobs: TCS added 4,258 people in the quarter (third quarter of growth running) and about 10,000 freshers joined. Headcount is 598,056, still below the 613,069 of mid-2025, before last year's cuts. Attrition fell to 13.3%.",
+    "Dividend of ₹12 a share; record date 14 October."
+   ],
+   "curiosity_gaps": [
+    "The company made 15% more profit, and its share has lost a third of its value this year. Why does the market punish a company that's growing? (The fear that AI shrinks the IT services business, which TCS is answering with its own AI number.)",
+    "Six lakh people work at TCS, and almost every viewer knows one. Is TCS hiring or cutting? The numbers say hiring again, but still fewer people than a year and a half ago.",
+    "Your mutual fund almost certainly owns TCS. A 35% fall in one of India's biggest companies is in your SIP whether you picked it or not."
+   ],
+   "measured": [
+    "Trend meter: \"TCS results\" HOT (7 of 11 articles this week landed today); \"TCS share\" RISING (31 articles today).",
+    "vidIQ \"tcs share\": about 41,200 searches a month in India; competition 41 of 100 (low for this volume).",
+    "Instagram/TikTok outlier search: no TCS results reel broke out. The only TCS outlier is a fresher-hiring reel (913K)."
+   ],
+   "others": [
+    {"who": "The Engineer's Trade (YouTube)", "views": "62.4K", "multiple": "8.7× channel usual", "date": "8 Oct", "what": "TCS Q2 results and dividend, results-dump format", "url": "https://www.youtube.com/watch?v=I51W5IAAGYc"},
+    {"who": "CNBC Awaaz (YouTube)", "views": "16.8K", "multiple": "3.5× channel usual", "date": "7 Oct", "what": "What to expect from TCS's results (preview)", "url": "https://www.youtube.com/watch?v=h6PZE-cNDZI"},
+    {"who": "Zee Business (YouTube Short)", "views": "7.8K", "multiple": "–", "date": "8 Oct", "what": "Profit and revenue figures read out, 28 s", "url": "https://www.youtube.com/shorts/ABmSU9DUusI"},
+    {"who": "@om_2000_om_2000 (Instagram)", "views": "913K", "multiple": "64.8× median", "date": "last fortnight", "what": "Adjacent: \"TCS NQT 2026 registration is open\" (fresher hiring); TCS-as-employer interest is huge", "url": "https://www.instagram.com/reel/Dd8bLeita0l/"},
+    {"who": "@daljit_bitchybhaiya (Instagram)", "views": "3.8M", "multiple": "838× median", "date": "last fortnight", "what": "Adjacent: \"₹2 lakh a month isn't making it\", the salaried professional's money anxiety", "url": "https://www.instagram.com/reel/DdrEOYUPXSi/"}
+   ],
+   "others_takeaway": "Everyone posted the results numbers; nobody explains why profit up and share down at the same time, or what it says about IT jobs.",
+   "facts": [
+    {"text": "Profit ₹13,884 cr (+15% YoY from ₹12,075 cr); revenue ₹73,188 cr (+11.2%); TCV $9.6 bn; annualised AI revenue $3.1 bn from $2.6 bn, over 10% of revenue; ₹12 dividend, record date 14 Oct.", "source": "Kotak Neo, 8 Oct", "url": "https://www.kotakneo.com/news/stocks/tcs-q2-fy27-results-profit-rises-15-percent-13884-crore-12-dividend/"},
+    {"text": "Headcount 598,056; 4,258 net additions, third straight quarter; attrition 13.3% from 13.6%; share closed ₹2,075.25 (−0.4%) on Thursday.", "source": "BusinessToday, 8 Oct", "url": "https://www.businesstoday.in/markets/stocks/story/tcs-adds-4258-employees-in-q2-marks-third-quarter-of-headcount-addition-560460-2026-10-08"},
+    {"text": "\"The stock is down 35 per cent in 2026 so far.\"", "source": "BusinessToday via IndiaIPO, 7 Oct", "url": "https://www.indiaipo.in/news/detail/tcs-q2-results-dividend-on-october-8-will-earnings-lift-stock-after-35-fall-in-2026-businesstoday"},
+    {"text": "About 10,000 freshers onboarded in the quarter; headcount was 613,069 in Q1 FY26 before the FY26 restructuring.", "source": "Business Standard, 8 Oct", "url": "https://www.business-standard.com/amp/companies/news/tcs-onboards-10-000-freshers-in-q2-fy27-plans-to-hire-on-demand-126100801677_1.html"},
+    {"text": "Profit about 1% below expectations.", "source": "Zee Business, 8 Oct", "url": "https://www.zeebiz.com/market-news/news-tcs-q2-results-fy27-profit-jumps-4-qoq-to-rs-13884-crore-revenue-up-13-403609"}
+   ],
+   "watch_out": [
+    "No call on the share: not \"cheap now\", no target. Explain the gap between profit and price only.",
+    "The \"AI fear\" explanation is the market's general reading; the sources above don't attribute the 35% fall to one cause. Say it as the fear, not as fact.",
+    "The 35% is year-to-date as of 7 Oct; today's move after results isn't in yet. The TCS logo is fine (the reel is about TCS); no executive's likeness.",
+    "Tests it can carry: hook in frame one (+15% against −35%), tight 20–30 s, a line worth sending (to anyone in IT)."
+   ]
+  },
+  {
+   "id": "3", "tracker_id": "pharma-freebies-sc", "lane": "Deep lane (via Moneylife, Bar & Bench)",
+   "title": "Supreme Court orders a panel on drug companies' gifts to doctors",
+   "label": "COLD", "score": {"total": 6, "momentum": 0, "stake": 1, "share": 2, "gap": 2, "clarity": 1},
+   "window": "About two weeks; the panel reports within two months and the court hears it again on 29 Jan 2027.",
+   "happening": [
+    "On Thursday 8 October the Supreme Court (Justices Vikram Nath and Sandeep Mehta) told the Centre to set up a committee on pharma companies giving freebies to doctors in return for prescribing their drugs.",
+    "The Centre said it will form a three-member panel to decide whether the law needs to regulate drug companies' marketing; it should report in about two months. Until then the voluntary marketing code (UCPMP, 2024) applies.",
+    "The gap the petition pointed at: doctors who accept such gifts can be punished under medical-council rules, but no law penalises the companies that give them.",
+    "The petitioners (the federation of medical sales representatives) earlier cited a tax department allegation that the maker of Dolo-650 gave ₹1,000 crore of freebies to doctors (an allegation from 2022, context only).",
+    "Next hearing: 29 January 2027."
+   ],
+   "curiosity_gaps": [
+    "Who really chooses the brand on your prescription? The court says the question needs a law; right now only the doctor can be punished, not the company.",
+    "Everyone took Dolo-650 in Covid. The ₹1,000 crore freebie allegation against its maker is the image people remember.",
+    "The petition came from the sales reps themselves, the people who hand the gifts over."
+   ],
+   "measured": [
+    "Trend meter: COLD. 1 news item; YouTube this week mostly unrelated.",
+    "vidIQ \"pharma companies doctors gifts\": under 750 searches a month. Demand is unproven.",
+    "Adjacent outrage at the health system travels: @marketswithkratik's private-hospital C-section reel, 1.6M (48× median)."
+   ],
+   "others": [
+    {"who": "@marketswithkratik (Instagram)", "views": "1.6M", "multiple": "48.4× median", "date": "last two months", "what": "Adjacent: \"Open scam by Indian private hospitals\" (unnecessary C-sections, data overlays)", "url": "https://www.instagram.com/reel/DdZPDMDxHwF/"},
+    {"who": "@think.bits (TikTok)", "views": "931K", "multiple": "11.8× median", "date": "last fortnight", "what": "Adjacent: a famous name's tax case, explained from documents", "url": "https://www.tiktok.com/@think.bits/video/7687248045745917206"}
+   ],
+   "others_takeaway": "Nobody that vidIQ found has made the court order. The health-system-scam shape travels; this one is fresh and from a court, not an opinion.",
+   "facts": [
+    {"text": "Bench of Justices Vikram Nath and Sandeep Mehta; three-member panel on whether statutory regulation is needed; report expected in two months; UCPMP 2024 applies meanwhile; Dolo-650 ₹1,000 crore freebies allegation (petitioner, Aug 2022); next hearing 29 Jan 2027.", "source": "The Tribune, 8 Oct", "url": "https://www.tribuneindia.com/news/india/sc-directs-centre-to-form-committee-to-examine-pharma-companies-freebies-to-doctors/"},
+    {"text": "Order on Thursday; petition by the Federation of Medical & Sales Representatives Association of India; committee's recommendations go to the Centre.", "source": "Bar & Bench, 8 Oct", "url": "https://www.barandbench.com/news/litigation/form-panel-to-examine-issue-of-pharmas-giving-doctors-freebies-to-prescribe-their-drugs-supreme-court-to-centre"}
+   ],
+   "watch_out": [
+    "Doctors are not the villain: the joke, if any, lands on the system (only one side can be punished). No suggestion that a viewer's own doctor is bought.",
+    "The ₹1,000 crore figure is an untested allegation from 2022 (older than a week: context, never the headline). If used, say \"alleged\" on screen and in voice; never draw the pack with an image model.",
+    "Stake is \"some day\", not this week. Tests: hook in frame one only if a number leads; a line worth sending is strong (outrage at the system)."
+   ]
+  }
+ ],
+ "wire": [
+  {"text": "Jio IPO (tracked): reports now put the price band at ₹1,150–1,220 a share (unconfirmed); RHP expected after 12 Oct, open 21–23 Oct, listing about 28 Oct (Outlook Money). The next real turn is the RHP."},
+  {"text": "Mamaearth (Honasa, a Shark Tank judge's company) rose up to 10–11% on 6 Oct on a Q2 update (sales growth in the early 30s %); the stock is up 66% in 2026 (Zee Business). The famous-founder shape, but three days old."},
+  {"text": "Paytm, MobiKwik and Pine Labs fell 4–5% on 8 Oct on reports that proposed merchant fees may be delayed beyond the 15 Oct rollout (HDFC Sky)."},
+  {"text": "HD Fire Protect IPO opens 13–15 Oct, ₹258–271, about ₹712 crore (IPO Watch). Small; GMP chatter only."},
+  {"text": "Nana Patekar (tracked, Akhilesh's draft v4 in scripts/drafts): no new money angle this morning."},
+  {"text": "Prime Focus / Ramayana (tracked): the trailer is still the hottest video (3.4M in 48 h), but no new news on the tax search."}
+ ]
+}
