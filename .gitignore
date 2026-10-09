@@ -5,3 +5,7 @@ __pycache__/
 *.pyc
 .DS_Store
 assets/models/
+
+# downloaded clips (they live on the clips branch)
+clips/
+.clips-worktree/
