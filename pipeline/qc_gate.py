@@ -34,6 +34,7 @@ Usage:
 MANIFEST (written by the episode's build; assets/edits/sk03_build.py is the example):
   {"slug", "format", "final", "script": "registry/scripts/<slug>.json", "characters": {"pandey": "<sheet.png>"},
    "dialogue_stem": "<wav aligned with the final>", "length": {"min", "max", "expected"}, "loudness": {"target"},
+   "fps": optional, default 25 (the old-TV formats; the creator format uses 30),
    "repairs_file": "work/<slug>/qc_repairs.json", "rebuild": "<shell command that rebuilds the final>",
    "edit_json": "<optional: assemble.py spec; lines with a 'part' index get audio_shift_ms there>",
    "lines": [{"id", "speaker", "start", "end" (voice as placed, reel s), "source" (the line's wav),
@@ -356,8 +357,9 @@ def check_length(M, final):
         problems.append(f"{D:.2f} s but the build planned {L['expected']:.2f} s (a truncated render or mux?)")
     if tuple(size) != SIZE:
         problems.append(f"{size[0]}x{size[1]}, want {SIZE[0]}x{SIZE[1]}")
-    if abs(fps - FPS) > 0.01:
-        problems.append(f"{fps:.2f} fps, want {FPS}")
+    want_fps = M.get("fps", FPS)          # a format may set its own (the creator format is a 30 fps phone look)
+    if abs(fps - want_fps) > 0.01:
+        problems.append(f"{fps:.2f} fps, want {want_fps}")
     if ad is None:
         problems.append("no audio stream")
     elif abs(ad - vd) > 0.15:
