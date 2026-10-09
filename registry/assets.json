@@ -166,11 +166,11 @@
     },
     "rashmiji": {
       "provider": "elevenlabs",
-      "model": "eleven_v3",
+      "model": "eleven_v4",
       "elevenlabs_voice_id": "YCXB95tV66xLV7vILY7U",
       "name": "Rashmiji (Akhilesh's voice, made in ElevenLabs 2026-10-09)",
       "tags": "[casual, warm, telling a story to her followers] opener; [softer] for grief lines; [thoughtful] for the close",
-      "status": "used on nana01 (2026-10-09): take A, 40.8 s, transcript matched the script word for word"
+      "status": "nana01 (2026-10-09): v3 take A heard as flat; directed v4 take v4_2 picked (docs/voices/directing-tts.md)"
     }
   },
   "audio": {
