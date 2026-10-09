@@ -50,16 +50,16 @@ Stage 1 targets are live in the block below. Stages 2 and 3 are the plan after t
 
 ## The book and where we stand
 <!-- scoreboard -->
-_Updated 2026-10-08 21:32 IST by `scoreboard.py write`._
+_Updated 2026-10-09 21:32 IST by `scoreboard.py write`._
 
 **Stage 1: Stop the scroll** (2026-09-26 to 2026-10-25): prove people stop for our reels and stay to the end
 
 - skip rate %: now 55.9, target 45 → not yet
 - watched %: now 29.6, target 45 → not yet
-- median plays at 72 h: now 148, target 500 → not yet
+- median plays at 72 h: now 187, target 500 → not yet
 - best reel's plays: now 2413, target 2000 → on target
 - followers: now 209, target 100 → on target
-- strategy stop: 9/20 reels posted this stage; median plays at 72 h now 148, must reach 300
+- strategy stop: 9/20 reels posted this stage; median plays at 72 h now 187, must reach 300
 
 | Bet | Lever | Judged on | Baseline | Now | Target | Stop | Reels (judged/carried) | Verdict |
 |---|---|---|---|---|---|---|---|---|
@@ -157,3 +157,4 @@ _Written by the strategist every Sunday. The morning session executes it: each s
 - 2026-10-07 (nightly): No stop or target hit; all bets HOLD (hook in frame one 52.6% on 3 reels; tight 20–30 s 38.7% on 1; a line worth sending 3.2 per 1k on 3 of 4). Followers 210 (+8). HUL (E9, Down to Business 3, posted 6 Oct 21:58) linked to DeKLxlcyRYX: 531 plays at 24 h, about 3× the ~175 median of earlier reels at a day old but under the taking-off line, with 64% skip and 16% watched on 57 s; it carries only the glam-Sarika watch. Snapdeal (E8) at 2,378 public plays (owner feed frozen at 832). E7 and X2 matured at 72 h (258 and 132); stage median at 72 h still 148 (9 of 20 reels). Policybazaar owner feed still frozen (347 vs 2,412 public). No reel posted on 7 Oct.
 - 2026-10-08 (nightly): Quiet. No stop or target hit; all bets HOLD (hook in frame one 52.4% on 3 reels; tight 20–30 s 38.6% on 1; a line worth sending 3.2 per 1k on 3 of 4). Followers 209 (−1). No reel posted on 7 or 8 Oct (two days off the 7-a-week plan; 9 of 20 stage reels with 17 days left). Snapdeal (E8) at 2,387 public plays at 71 h (owner feed frozen at 840; public reading logged); HUL (E9) 546 at 48 h, flattening, not taking off. Policybazaar owner feed still frozen (348 vs 2,413 public).
 - 2026-10-08 (Akhilesh): the morning desk email is now HTML research only (facts, what others are making, the curiosity gap, the tracker board; no hooks or scripts; English). Keep this exact format every day; review whether it's working around Wed 14 Oct.
+- 2026-10-09 (nightly): vidIQ owner insights unavailable at 21:31 ("Meta token is inactive"; the account list says active, as on 28 Sep). Akhilesh to reconnect Instagram in vidIQ. Public counts only (ig_profile_reels): no new reel since E9, and every older reel within 0–7 plays of last night, so public readings logged only for E8 (2,395) and E9 (553 at 72 h); no bets judged on public data. No stop or target hit; all bets HOLD (hook in frame one 52.4% on 3 reels; tight 20–30 s 38.6% on 1; a line worth sending 3.2 per 1k on 3 of 4). Stage median plays at 72 h 187 with E8 matured (10 readings, 9 of 20 stage reels). No reel posted 7, 8 or 9 Oct: three days off the 7-a-week plan, with 11 stage reels needed in 16 days. Followers not read (owner feed down).
