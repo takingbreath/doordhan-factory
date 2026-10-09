@@ -163,6 +163,14 @@
       "elevenlabs_voice_id": "YgpoWAqBbWpygO1YiIEI",
       "name": "Bobby - Energetic natural voiceover",
       "treatment": "landline: 380-3000 Hz, 8 kHz crush, +7 dB at 1.6 kHz, line hiss (see work/sk01 build notes in assets/edits/sk01_build.py)"
+    },
+    "rashmiji": {
+      "provider": "elevenlabs",
+      "model": "eleven_v3",
+      "elevenlabs_voice_id": "YCXB95tV66xLV7vILY7U",
+      "name": "Rashmiji (Akhilesh's voice, made in ElevenLabs 2026-10-09)",
+      "tags": "[casual, warm, telling a story to her followers] opener; [softer] for grief lines; [thoughtful] for the close",
+      "status": "used on nana01 (2026-10-09): take A, 40.8 s, transcript matched the script word for word"
     }
   },
   "audio": {
