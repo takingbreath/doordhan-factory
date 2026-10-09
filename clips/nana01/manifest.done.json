@@ -8,6 +8,13 @@
    "duration_s": 20.28
   },
   {
+   "name": "naam_storydotcom",
+   "url": "https://www.youtube.com/watch?v=TP6o9LdyN44",
+   "note": "Story Dot Com, 2:50: Naam Foundation's water work and widows; we pick the water-rushing shots",
+   "file": "clips/nana01/naam_storydotcom.mp4",
+   "duration_s": 169.36
+  },
+  {
    "name": "naam_short_kalmegh",
    "url": "https://www.youtube.com/shorts/4vBx6HbSGxA",
    "note": "Nana and Makarand on Naam sites",
@@ -22,12 +29,5 @@
    "duration_s": 180.01
   }
  ],
- "failed": [
-  {
-   "name": "naam_storydotcom",
-   "url": "https://www.youtube.com/watch?v=TP6o9LdyN44",
-   "note": "Story Dot Com, 2:50: Naam Foundation's water work and widows; we pick the water-rushing shots",
-   "error": "Command '['/opt/homebrew/opt/python@3.14/bin/python3.14', '-m', 'yt_dlp', '-f', 'bv*[height<=1080]+ba/b[height<=1080]/b', '--merge-output-format', 'mp4', '--no-playlist', '-o', '/var/folders/jg/67z1z1vx5cdgkzf1v86vtgnc0000gn/T/tmpftiruobe/src.%(ext)s', 'https://www.youtube.com/watch?v=TP6o9LdyN44']' returned non-zero exit status 1."
-  }
- ]
+ "failed": []
 }
