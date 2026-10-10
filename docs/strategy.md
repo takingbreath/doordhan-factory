@@ -50,16 +50,16 @@ Stage 1 targets are live in the block below. Stages 2 and 3 are the plan after t
 
 ## The book and where we stand
 <!-- scoreboard -->
-_Updated 2026-10-09 21:32 IST by `scoreboard.py write`._
+_Updated 2026-10-10 21:32 IST by `scoreboard.py write`._
 
 **Stage 1: Stop the scroll** (2026-09-26 to 2026-10-25): prove people stop for our reels and stay to the end
 
 - skip rate %: now 55.9, target 45 → not yet
-- watched %: now 29.6, target 45 → not yet
-- median plays at 72 h: now 187, target 500 → not yet
-- best reel's plays: now 2413, target 2000 → on target
-- followers: now 209, target 100 → on target
-- strategy stop: 9/20 reels posted this stage; median plays at 72 h now 187, must reach 300
+- watched %: now 29.5, target 45 → not yet
+- median plays at 72 h: now 226, target 500 → not yet
+- best reel's plays: now 2420, target 2000 → on target
+- followers: now 213, target 100 → on target
+- strategy stop: 10/20 reels posted this stage; median plays at 72 h now 226, must reach 300
 
 | Bet | Lever | Judged on | Baseline | Now | Target | Stop | Reels (judged/carried) | Verdict |
 |---|---|---|---|---|---|---|---|---|
@@ -158,3 +158,4 @@ _Written by the strategist every Sunday. The morning session executes it: each s
 - 2026-10-08 (nightly): Quiet. No stop or target hit; all bets HOLD (hook in frame one 52.4% on 3 reels; tight 20–30 s 38.6% on 1; a line worth sending 3.2 per 1k on 3 of 4). Followers 209 (−1). No reel posted on 7 or 8 Oct (two days off the 7-a-week plan; 9 of 20 stage reels with 17 days left). Snapdeal (E8) at 2,387 public plays at 71 h (owner feed frozen at 840; public reading logged); HUL (E9) 546 at 48 h, flattening, not taking off. Policybazaar owner feed still frozen (348 vs 2,413 public).
 - 2026-10-08 (Akhilesh): the morning desk email is now HTML research only (facts, what others are making, the curiosity gap, the tracker board; no hooks or scripts; English). Keep this exact format every day; review whether it's working around Wed 14 Oct.
 - 2026-10-09 (nightly): vidIQ owner insights unavailable at 21:31 ("Meta token is inactive"; the account list says active, as on 28 Sep). Akhilesh to reconnect Instagram in vidIQ. Public counts only (ig_profile_reels): no new reel since E9, and every older reel within 0–7 plays of last night, so public readings logged only for E8 (2,395) and E9 (553 at 72 h); no bets judged on public data. No stop or target hit; all bets HOLD (hook in frame one 52.4% on 3 reels; tight 20–30 s 38.6% on 1; a line worth sending 3.2 per 1k on 3 of 4). Stage median plays at 72 h 187 with E8 matured (10 readings, 9 of 20 stage reels). No reel posted 7, 8 or 9 Oct: three days off the 7-a-week plan, with 11 stage reels needed in 16 days. Followers not read (owner feed down).
+- 2026-10-10 (nightly): Nana Patekar (E10, creator format, posted 9 Oct about 22:00) is taking off: 1,768 public plays at about 23 h, about 8× the ~214 median of our reels at a day old. Linked to DeSScR6ycpo; it carries no bet. Ride-now line added to docs/learnings.md: a famous Indian's money decision, told in the creator format, under 30 s. vidIQ owner insights unavailable for a second night ("Meta token is inactive"); public counts only, logged for E10, E9 (582) and E8 (2,420); no bets judged on public data. Followers 213 (public profile; +4 since 8 Oct). No stop or target hit; all bets HOLD (hook in frame one 52.4% on 3 reels; tight 20–30 s 38.6% on 1; a line worth sending 3.2 per 1k on 3 of 4). Stage median plays at 72 h 226 (10 of 20 reels). Instagram lists E10 at 84 s against the 42.1 s final: to confirm.
