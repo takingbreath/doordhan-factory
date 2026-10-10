@@ -1,146 +1,145 @@
-# Doordhan desk research — Fri 09 Oct 2026
+# Doordhan desk research — Sat 10 Oct 2026
 
-Session: https://claude.ai/code/session_01DyEajv32bkAbirMJYnrgLa
+Session: https://claude.ai/code/session_01GiLDV4CbdYp6TMkFCLSgac
 
-**Pick: story 1.** The market slump is this week's "Ride now" (strategy) and it peaked yesterday: ₹10.23 lakh crore gone in one session, the Sensex at a 32-month low, the Nifty at a 52-week low. Every viewer with a SIP felt it, and the wipe-out number is the shape that broke out for five bigger creators. It is a today-only story: check Friday's close before posting tonight.
+**Pick: story 1.** Jio is the shape of both our breakouts (Snapdeal, Policybazaar): a company every viewer knows, in today's news, explained in one number. Bloomberg's price band (₹1,065–1,119, about ₹30,213 crore, India's biggest IPO ever) is the new turn since we first sent it, and YouTube searches for "jio ipo" are up 66% on their 30-day baseline and climbing daily. It also runs to listing on 28 Oct, so it can carry follow-ups (the RHP on Monday, opening day 21 Oct, listing day).
 
-Runner-up: 2, if you want the famous-brand shape of our two breakouts: TCS made 15% more profit and its share is down 35% this year. It holds for a few days, not just today.
+Runner-up: 2, the hottest story today: the 0.4% UPI merchant fee due on Thursday may be pushed to 1 January. A decision is expected within days, so it has to go out before it lands or the same evening it does.
 
-## 1. ₹10 lakh crore gone in a day: the Sensex at a 32-month low
+> **Correction:** Yesterday's email gave Jio's reported price band as ₹1,150–1,220 (Outlook Money, unconfirmed), and the tracker note before that a valuation of about ₹11 lakh crore. Bloomberg reported on 9 Oct a band of ₹1,065–1,119 and a valuation of about ₹10.3 lakh crore ($107 bn). Still unconfirmed until the RHP; the facts below use the newer figures.
 
-Hot lane · HOT · **9/10** (momentum 3/3, stake 2/2, shareability 2/2, gap 1/2, clarity 1/1) · tracker id `market-crash-oct8`
+## 1. Jio's IPO: ₹30,000 crore, India's biggest ever, at up to ₹1,119 a share
 
-Window: Today (Fri 9 Oct). If Friday's session bounces or falls further, the number changes: check the close before posting tonight.
+Hot lane (tracked; new turn) · RISING · **8/10** (momentum 2/3, stake 2/2, shareability 2/2, gap 1/2, clarity 1/1) · tracker id `jio-ipo`
+
+Window: Sat 10 Oct to listing on Wed 28 Oct. The next turns: RHP expected Mon 12 Oct (confirms the band), anchor book 19 Oct, open 21–23 Oct, listing 28 Oct.
 
 ### What's happening
-- On Thursday 8 October the Sensex fell 1,045 points (1.44%) to 71,593 and the Nifty 50 fell 371 points (1.64%) to 22,232. The Sensex closed at its lowest level in 32 months; the Nifty touched a 52-week low (22,180) during the day.
-- The market value of NSE-listed companies fell by ₹10.23 lakh crore in one session, to ₹456.69 lakh crore.
-- Small companies fell harder: the Nifty Midcap 100 and Smallcap 100 lost 2.53% and 2.34%. 3,280 shares fell and 951 rose.
-- Why, per the market reports: Brent crude jumped 4.2% to $104.43 a barrel (attacks on Gulf shipping and the Strait of Hormuz); the RBI raised the repo rate on 7 Oct, its first hike in nearly four years, and markets fear more; and foreign investors sold for a ninth straight session (₹6,121 crore on Wednesday alone), while Indian funds bought ₹4,597 crore.
-- Biggest Nifty losers: Adani Enterprises −5.4%, JSW Steel −4.5%, ITC −4.0%. Petrol and diesel prices haven't been raised yet: the state oil companies are absorbing the crude jump for now.
+- New since we sent it: on Friday 9 October Bloomberg reported that Jio Platforms will price its IPO at ₹1,065 to ₹1,119 a share. At the top of the band it raises about ₹30,213 crore, which would make it India's largest IPO, ahead of Hyundai Motor India.
+- At that price Jio would be worth about ₹10.3 lakh crore ($107 billion): India's third-biggest company, after its own parent Reliance and Bharti Airtel.
+- Dates, per market sources: anchor book Monday 19 Oct; open Wednesday 21 Oct to Friday 23 Oct; listing 28 Oct. The red herring prospectus, which fixes the band officially, is expected on Monday.
+- The grey market is quoting a premium of ₹175–180 a share, up from ₹145–150 earlier in the week: about 16% over the top of the band (unofficial).
+- Friday was reported as the last day to buy a Reliance share and qualify for the shareholders' quota.
+- Context: India's IPO market has raised over $13 billion (₹1.26 lakh crore) this year; September was a record month (34 companies, more than ₹39,300 crore), while foreign investors sold about ₹2.7 lakh crore of listed shares.
 
 ### The curiosity gap
-- Your SIP statement this month: ₹10 lakh crore left the market in a single day. Where did it go, and who was selling? (Foreigners sold for nine sessions running; Indian funds, which means SIP money, kept buying.)
-- Oil at $104 hits the market before it hits the petrol pump. Pump prices haven't moved yet; why the market moved first is the question nobody answers in 20 seconds.
-- The herd angle: India is falling while other markets aren't (the top reel this fortnight asks exactly this, 1.2M views).
+- Almost every viewer pays Jio every month. From 21 October they can own a piece of it. What exactly are they buying, and how big is ₹10.3 lakh crore next to the companies they already know?
+- The biggest IPO India has ever had arrives in the same week the market hit a 32-month low. Foreign investors are selling listed shares and still queuing for IPOs. Why?
+- The grey market already prices a 16% first-day gain. The herd question: can a ₹10 lakh crore giant actually pop on listing day?
 
 ### How hot it is
-- Trend meter: HOT. "Sensex crash": 6 news items today against 5 for the rest of the week; YouTube this week 704K views. "Stock market crash" RISING: 46 of 76 articles this week landed today.
-- vidIQ "stock market crash today" (India): about 16,900 searches a month, +85% on its 30-day baseline. Competition 56 of 100.
-- YouTube Shorts on yesterday's fall are thin: the top one has 1.3K views (Being Shivoo, "10 lakh crore wiped off").
+- Trend meter: FLAT on news (32 items today, 97 this week); YouTube this week 334K views, top video CA Rachana Ranade's explainer (156K in 72 h).
+- vidIQ "jio ipo" (India): about 71,700 searches a month in India, +66% on its 30-day baseline. Competition 58 of 100. Views per hour on the keyword rose every day this week: 29K (4 Oct) to 90K (8 Oct).
+- Instagram outliers: two Jio IPO reels broke out (4.7M and 1.1M), both on the "it's coming" announcement.
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [@caharsh_insta (Instagram)](https://www.instagram.com/reel/Dd-7EFDx_Il/) | "Why only the Indian stock market is falling": FII selling and tax changes, talking head, headline strip "BLOODBATH AT DALAL STREET" | 1.2M | 39.9× median | last fortnight |
-| [@newsyouth (Instagram)](https://www.instagram.com/reel/Dd3Bh5JBaj7/) | "35 lakh investors exit the Indian stock market": the herd leaving, one big number on screen | 921K | 385× median | last fortnight |
-| [@learning_markets_with_manish (Instagram)](https://www.instagram.com/reel/Dd05rLzht2c/) | "CRASH": opinion piece blaming the government's growth data | 1.3M | 7.1× median | last fortnight |
-| [@ankitbajad4u (Instagram)](https://www.instagram.com/reel/Dd5TFsFhv2g/) | Nifty chart split-screen, political commentary on the slump | 1.5M | 15.9× median | last fortnight |
-| [Being Shivoo (YouTube Short)](https://www.youtube.com/shorts/j6iyfbq_Fjk) | "10 lakh crore wiped off": the only Short on yesterday's number | 1.3K | 2× channel usual | 8 Oct |
+| [@tradingmargin (Instagram)](https://www.instagram.com/reel/DeMEyIrB6Y5/) | "JIO IPO IS HERE!!!": opens on a clip of Mukesh Ambani, then split screen (news clips on top, talking head below) through dates, financials and Jio's business segments | 4.7M | 486× median | since 26 Sep |
+| [@bollywoodsocietyy (Instagram)](https://www.instagram.com/reel/DeMDBU6Iq5r/) | "Who is bringing India's biggest IPO?": a question in text over B-roll of Ambani, music only | 1.1M | 24.5× median | since 26 Sep |
+| [CNBC Awaaz (YouTube)](https://www.youtube.com/watch?v=SFrrHIL7LCM) | "Jio IPO at ₹11 lakh crore valuation?": Motilal Oswal's report, news format | 26.1K | 10.8× channel usual | 7 Oct |
+| [INVESTMENT ka bazar (YouTube)](https://www.youtube.com/watch?v=alLCHZ0OXik) | Upcoming IPOs list with Jio GMP and price band, 4 min | 11.5K | 3.4× channel usual | 7 Oct |
+| [@abhishekkarofficial (Instagram)](https://www.instagram.com/reel/Ddi0QLCv5yP/) | Adjacent: "NSE GMP crash! Kya kare?", the IPO-hype-meets-reality shape (our E2 topic) | 2.1M | 4.2× median | last month |
 
-_The slump itself has been made many times, mostly as political opinion. Nobody has yet told yesterday's one-day number as plain news from the SIP holder's side, and no Hinglish Short on it has broken out._
+_The announcement ("Jio IPO is here") has been made and travelled. Since Friday's band, YouTube has only GMP and date lists; nobody has explained in 20 seconds what the viewer actually buys at ₹1,119, the value-over-news shape that worked for Snapdeal._
 
 ### Facts and sources
-- Sensex 71,593.24 (−1,045.46, −1.44%); Nifty 22,231.80 (−371.25, −1.64%); Nifty 52-week low 22,179.90; NSE market cap −₹10.23 lakh crore to ₹456.69 lakh crore; Brent +4.2% to $104.43; FIIs sold ₹6,121.37 cr and DIIs bought ₹4,596.57 cr on 7 Oct; top losers Adani Ent −5.36%, JSW Steel −4.46%, ITC −4.03%. — [Upstox market wrap, 8 Oct](https://upstox.com/news/market-news/stocks/market-wrap-oct-8-sensex-crashes-1-045-pts-nifty-50-dip-1-6-as-crude-oil-prices-hit-over-104-bbl-adani-enterprises-top-loser/article-201532/)
-- Sensex at its lowest level in 32 months; 3,280 declines vs 951 advances; FPIs selling for nine straight sessions; RBI's 25 bp hike to 5.5%, first in nearly four years. — [HDFC Sky market close report, 8 Oct](https://hdfcsky.com/news/market-close-report-today-october-8-2026-sensex-nifty-melt-down-as-rbi-oil-weigh)
-- Midcap 100 −2.53%, Smallcap 100 −2.34%; India VIX up about 10%. — [Business Standard live blog, 8 Oct](https://www.business-standard.com/markets/news/stock-market-live-october-8-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-rbi-repo-rate-hike-ipo-today-126100800108_1.html)
-- Retail petrol and diesel unchanged on 8 Oct (Mumbai petrol ₹111.21); state oil companies holding prices. — [BusinessToday, 8 Oct](https://www.businesstoday.in/amp/india/story/petrol-diesel-prices-today-october-8-check-latest-rates-in-delhi-mumbai-chennai-kolkata-more-560273-2026-10-08)
+- Price band ₹1,065–1,119 (Bloomberg report); issue about ₹30,213 crore, India's largest IPO, surpassing Hyundai Motor India; valuation about $107 bn (₹10.3 lakh crore), third-biggest company after Reliance and Bharti Airtel; anchor 19 Oct, open 21 Oct, close 23 Oct, listing 28 Oct; RHP likely Monday; GMP ₹175–180 (from ₹145–150 earlier in the week), about 16% over the upper band; Friday the last day to buy RIL shares for the shareholder quota; FIIs sold about ₹2.7 lakh crore this year; September record, 34 companies, more than ₹39,300 crore; YTD IPO fundraising above $13 bn (₹1.26 lakh crore). — [BusinessToday, 9 Oct](https://www.businesstoday.in/markets/ipo-corner/story/jio-platform-ipo-price-to-be-set-at-rs-1065-1119-says-report-check-details-560687-2026-10-09)
+- The original report: Jio Platforms set to price its shares at ₹1,065–1,119, per people familiar with the matter (headline and summary; paywalled). — [Bloomberg, 9 Oct](https://www.bloomberg.com/news/articles/2026-10-09/ambani-s-jio-said-to-set-ipo-price-band-at-1-065-1-119-rupees)
 
 ### Watch out
-- Index level only: no stock tips, no "buy the dip", no Nifty targets or price charts (SEBI price-data rule in docs/platform-playbook.md).
-- ₹10.23 lakh crore is NSE market cap, not money "lost" by people; reports call it investor wealth. Say "market value" or "wiped off", not "you lost".
-- Friday's session can change the picture. Re-check the close before posting.
-- Tests it can carry: hook in frame one (the rupee number), tight 20–30 s (one number fits 20–25 s), a line worth sending (who sold, who bought).
+- No call on applying: not "apply", not "skip", no listing-gain promise. GMP is unofficial grey-market talk; if used, say it as what the grey market is quoting.
+- The band, size and dates are reported, not confirmed. The RHP (expected Monday) can change them: post today as "reported", or wait for the RHP and say it as fact.
+- Mukesh and Akash Ambani: no AI face or voice. A licensed still or their own real footage only (CLAUDE.md rule 4); the Jio logo is fine on a reel about Jio.
+- Tests it can carry: hook in frame one (₹30,000 crore or ₹1,119 on screen), tight 20–30 s, a line worth sending (the SIM in your pocket is now for sale).
 
-## 2. TCS: profit up 15%, share down 35% this year
+## 2. The UPI fee due on Thursday may be pushed to 1 January
 
-Hot lane · RISING · **8/10** (momentum 2/3, stake 1/2, shareability 2/2, gap 2/2, clarity 1/1) · tracker id `tcs-q2-profit-share`
+Hot lane · HOT · **8/10** (momentum 3/3, stake 1/2, shareability 2/2, gap 1/2, clarity 1/1) · tracker id `upi-mdr-deferral`
 
-Window: Fri 9 to about Tue 13 Oct (results reaction today; dividend record date 14 Oct; Infosys and Wipro results follow next week).
+Window: Sat 10 to Thu 15 Oct. A final decision is expected "in the coming days"; if it is announced, the story turns into a one-day follow-up that evening.
 
 ### What's happening
-- TCS reported its July–September results on Thursday 8 October. Profit was ₹13,884 crore, up 15% on a year ago; revenue ₹73,188 crore, up 11.2%. Profit was about 1% below what analysts expected.
-- The share is down 35% in 2026 so far (BusinessToday, 7 Oct). It closed at ₹2,075 on Thursday before the results.
-- AI is now more than 10% of TCS's business: $3.1 billion a year, up from $2.6 billion a quarter earlier. New deals signed: $9.6 billion.
-- Jobs: TCS added 4,258 people in the quarter (third quarter of growth running) and about 10,000 freshers joined. Headcount is 598,056, still below the 613,069 of mid-2025, before last year's cuts. Attrition fell to 13.3%.
-- Dividend of ₹12 a share; record date 14 October.
+- From Thursday 15 October, shops were due to pay a 0.4% fee (MDR) on UPI payments above ₹2,000, capped at ₹300 a payment. It would end the zero-fee UPI the country has had since 2020. Customers don't pay it, and merchants are not allowed to pass it on.
+- New on 8 October: a proposal to push the start to 1 January 2027 is under consideration, after pushback from traders. It would keep shop payments free through the festive season. A final decision is expected in the coming days.
+- Also under consideration: exempting every business with turnover up to ₹40 lakh a year (today's exemption is only for small merchants receiving up to ₹1 lakh a month on their QR).
+- The traders' fight: two associations called a "No UPI Day" for 2 October, then withdrew it after meeting the Finance Minister on 30 September. The distributors' federation estimates the fee would cost FMCG distribution and retail ₹7,000–9,000 crore a year.
+- The government told the Supreme Court about 96% of merchant payments would be untouched. UPI handled 24.07 billion payments worth ₹29.37 lakh crore in September.
 
 ### The curiosity gap
-- The company made 15% more profit, and its share has lost a third of its value this year. Why does the market punish a company that's growing? (The fear that AI shrinks the IT services business, which TCS is answering with its own AI number.)
-- Six lakh people work at TCS, and almost every viewer knows one. Is TCS hiring or cutting? The numbers say hiring again, but still fewer people than a year and a half ago.
-- Your mutual fund almost certainly owns TCS. A 35% fall in one of India's biggest companies is in your SIP whether you picked it or not.
+- Who actually pays? The rule says the shop pays and can't pass it on. Will your kirana really swallow ₹12 on a ₹3,000 bill, or will "cash only above ₹2,000" signs appear?
+- The fee was set to start in the middle of the festive season. It is being delayed for the shopkeepers' Diwali, not the customer's.
+- Who gets the 0.4%? The banks and the UPI app take their cut (0.28% to the payer's bank, 0.08% to the app). Free UPI was never free to run.
 
 ### How hot it is
-- Trend meter: "TCS results" HOT (7 of 11 articles this week landed today); "TCS share" RISING (31 articles today).
-- vidIQ "tcs share": about 41,200 searches a month in India; competition 41 of 100 (low for this volume).
-- Instagram/TikTok outlier search: no TCS results reel broke out. The only TCS outlier is a fresher-hiring reel (913K).
+- Trend meter: HOT. "UPI charges": 8 news items today against 32 this week; YouTube this week 273K views, top video "UPI Charges Postponed?" (120K in 24 h).
+- vidIQ "upi charges" (India): about 137,900 searches a month; competition 63 of 100. Views per hour on the keyword peaked at 2.36M on 16 Sep (the fee announced), fell to 25K on 7 Oct and jumped back to 73K on 8 Oct with the deferral news.
+- YouTube Shorts on the deferral: News18 Tamil Nadu's 19 s Short is at 231K (5,768 views an hour).
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [The Engineer's Trade (YouTube)](https://www.youtube.com/watch?v=I51W5IAAGYc) | TCS Q2 results and dividend, results-dump format | 62.4K | 8.7× channel usual | 8 Oct |
-| [CNBC Awaaz (YouTube)](https://www.youtube.com/watch?v=h6PZE-cNDZI) | What to expect from TCS's results (preview) | 16.8K | 3.5× channel usual | 7 Oct |
-| [Zee Business (YouTube Short)](https://www.youtube.com/shorts/ABmSU9DUusI) | Profit and revenue figures read out, 28 s | 7.8K | – | 8 Oct |
-| [@om_2000_om_2000 (Instagram)](https://www.instagram.com/reel/Dd8bLeita0l/) | Adjacent: "TCS NQT 2026 registration is open" (fresher hiring); TCS-as-employer interest is huge | 913K | 64.8× median | last fortnight |
-| [@daljit_bitchybhaiya (Instagram)](https://www.instagram.com/reel/DdrEOYUPXSi/) | Adjacent: "₹2 lakh a month isn't making it", the salaried professional's money anxiety | 3.8M | 838× median | last fortnight |
+| [@pooja_kumari.9108 (Instagram)](https://www.instagram.com/reel/DdvuB0SAwa3/) | "Take cash on 2 October": the No UPI Day warning, talking head with a news overlay | 26.6M | 32× median | late Sep |
+| [@priyanshu_jaiman27 (Instagram)](https://www.instagram.com/reel/Dd54O-sR9lI/) | "This will happen on 2 October": split screen, protest B-roll on top, urgent talking head | 20.8M | 7.6× median | late Sep |
+| [@deep_unstoppable (Instagram)](https://www.instagram.com/reel/Dd74oiPzspp/) | "Don't make this mistake": why UPI may not work on 2 October, merchants protesting the fee | 8.9M | 8.4× median | late Sep |
+| [News18 Tamil Nadu (YouTube Short)](https://www.youtube.com/shorts/CMkV5RGA8V8) | Is the UPI merchant fee being postponed? 19 s news read | 231K | – | 8 Oct |
+| [Sakshi TV Business (YouTube)](https://www.youtube.com/watch?v=Z9CfaGXns6Y) | "UPI Charges Postponed? MDR may be deferred till January 1", Telugu, 89 s | 120K | 26× channel usual | 8 Oct |
 
-_Everyone posted the results numbers; nobody explains why profit up and share down at the same time, or what it says about IT jobs._
+_The No UPI Day warnings went to tens of millions of views two weeks ago. The deferral is so far only on news channels' Shorts, mostly in regional languages; no Hinglish creator reel on "the fee is off till January" yet. Note: our own X1 (28 Sep, "96% UPI abhi bhi free") covered the fee itself, so this needs the new turn, not the rule._
 
 ### Facts and sources
-- Profit ₹13,884 cr (+15% YoY from ₹12,075 cr); revenue ₹73,188 cr (+11.2%); TCV $9.6 bn; annualised AI revenue $3.1 bn from $2.6 bn, over 10% of revenue; ₹12 dividend, record date 14 Oct. — [Kotak Neo, 8 Oct](https://www.kotakneo.com/news/stocks/tcs-q2-fy27-results-profit-rises-15-percent-13884-crore-12-dividend/)
-- Headcount 598,056; 4,258 net additions, third straight quarter; attrition 13.3% from 13.6%; share closed ₹2,075.25 (−0.4%) on Thursday. — [BusinessToday, 8 Oct](https://www.businesstoday.in/markets/stocks/story/tcs-adds-4258-employees-in-q2-marks-third-quarter-of-headcount-addition-560460-2026-10-08)
-- "The stock is down 35 per cent in 2026 so far." — [BusinessToday via IndiaIPO, 7 Oct](https://www.indiaipo.in/news/detail/tcs-q2-results-dividend-on-october-8-will-earnings-lift-stock-after-35-fall-in-2026-businesstoday)
-- About 10,000 freshers onboarded in the quarter; headcount was 613,069 in Q1 FY26 before the FY26 restructuring. — [Business Standard, 8 Oct](https://www.business-standard.com/amp/companies/news/tcs-onboards-10-000-freshers-in-q2-fy27-plans-to-hire-on-demand-126100801677_1.html)
-- Profit about 1% below expectations. — [Zee Business, 8 Oct](https://www.zeebiz.com/market-news/news-tcs-q2-results-fy27-profit-jumps-4-qoq-to-rs-13884-crore-revenue-up-13-403609)
+- Rollout set for 15 Oct may move to 1 Jan 2027 (Business Standard report; decision "in the coming days"); NPCI-headed UPI and Services Steering Committee met 7 Oct; 0.40% on P2M payments above ₹2,000, capped at ₹300; ₹5 flat for bill payments, utilities, education, fuel; ₹40 lakh turnover exemption under consideration; existing exemption up to ₹1 lakh a month on QR; merchants pay, consumers nothing; about 96% of merchant transactions unaffected (Centre to the Supreme Court); fee split 0.28% to issuing bank, 0.12% onward, 0.08% to the UPI app; No UPI Day for 2 Oct withdrawn after meeting the FM on 30 Sep; AICPDF estimate ₹7,000–9,000 cr a year; September: 24.07 bn transactions worth ₹29.37 lakh crore. — [Inc42, 8 Oct](https://inc42.com/buzz/upi-mdr-rollout-may-be-deferred-to-january-2027-amid-pushback-by-retailers/)
+- NPCI FAQ examples: nil on ₹2,000; ₹12 on ₹3,000; ₹200 on ₹50,000; ₹300 cap from ₹75,000; merchants may not pass the charge on to customers; effective 15 Oct 2026 (FAQ dated 15 Sep; context). — [SCC Online, 16 Sep, updated 6 Oct](https://www.scconline.com/blog/post/2026/09/16/npci-released-upi-mdr-faqs-explained/)
+- The original deferral report (not opened: paywalled). — [Business Standard, 8 Oct](https://www.business-standard.com/finance/news/festival-breather-upi-merchant-fee-may-be-deferred-till-january-1-126100800036_1.html)
 
 ### Watch out
-- No call on the share: not "cheap now", no target. Explain the gap between profit and price only.
-- The "AI fear" explanation is the market's general reading; the sources above don't attribute the 35% fall to one cause. Say it as the fear, not as fact.
-- The 35% is year-to-date as of 7 Oct; today's move after results isn't in yet. The TCS logo is fine (the reel is about TCS); no executive's likeness.
-- Tests it can carry: hook in frame one (+15% against −35%), tight 20–30 s, a line worth sending (to anyone in IT).
+- The deferral is a proposal, not a decision. Until it is announced, 15 October still stands; say "may be pushed", not "postponed".
+- Customers don't pay the fee. Say it plainly; the viral reels that implied UPI would cost the user were wrong.
+- Humour on the system (a fee timed for Diwali, then delayed for Diwali), never on shopkeepers or the viewer.
+- Tests it can carry: hook in frame one (0.4% or ₹300 on screen), tight 20–30 s, a line worth sending ("your kirana pays, not you").
 
-## 3. Supreme Court orders a panel on drug companies' gifts to doctors
+## 3. Inox Clean: revenue up 43X in a year, debt up 45X, and a ₹10,000 crore IPO on hold
 
-Deep lane (via Moneylife, Bar & Bench) · COLD · **6/10** (momentum 0/3, stake 1/2, shareability 2/2, gap 2/2, clarity 1/1) · tracker id `pharma-freebies-sc`
+Deep lane (via The Ken) · COLD · **6/10** (momentum 0/3, stake 1/2, shareability 2/2, gap 2/2, clarity 1/1) · tracker id `inox-clean-ipo`
 
-Window: About two weeks; the panel reports within two months and the court hears it again on 29 Jan 2027.
+Window: About two weeks; it returns when SEBI clears or rejects the draft papers.
 
 ### What's happening
-- On Thursday 8 October the Supreme Court (Justices Vikram Nath and Sandeep Mehta) told the Centre to set up a committee on pharma companies giving freebies to doctors in return for prescribing their drugs.
-- The Centre said it will form a three-member panel to decide whether the law needs to regulate drug companies' marketing; it should report in about two months. Until then the voluntary marketing code (UCPMP, 2024) applies.
-- The gap the petition pointed at: doctors who accept such gifts can be punished under medical-council rules, but no law penalises the companies that give them.
-- The petitioners (the federation of medical sales representatives) earlier cited a tax department allegation that the maker of Dolo-650 gave ₹1,000 crore of freebies to doctors (an allegation from 2022, context only).
-- Next hearing: 29 January 2027.
+- The Ken (9 Oct): Inox Clean Energy made 11 acquisitions since June 2025, the biggest Vena Energy for ₹6,000 crore. Its revenue went from ₹47 crore to about ₹2,000 crore in FY26 (43X) and its borrowings from ₹350 crore to nearly ₹16,000 crore (45X). Interest is now about ₹1,000 crore a year, up from about ₹30 crore.
+- It filed for a ₹10,000 crore IPO on 29 September: ₹8,000 crore of new shares plus ₹2,000 crore sold by promoter Devansh Jain. ₹6,000 crore of the new money goes to repaying debt.
+- SEBI has kept its observations on the draft papers in abeyance (reported 6 Oct). Reported reason: investigations involving INOXGFL group companies, including a group firm's sale of its Inox Clean stake that the board approved at ₹290 crore and the books show as ₹90 crore received. The group says the other ₹200 crore repaid a loan.
+- The draft papers also disclose that the promoter was summoned in SEBI's investigation into trading in PVR INOX shares, and that Inox Wind was summoned over its disclosures. Not a rejection; no show-cause notice as of filing.
 
 ### The curiosity gap
-- Who really chooses the brand on your prescription? The court says the question needs a law; right now only the doctor can be punished, not the company.
-- Everyone took Dolo-650 in Covid. The ₹1,000 crore freebie allegation against its maker is the image people remember.
-- The petition came from the sales reps themselves, the people who hand the gifts over.
+- A company that was ₹47 crore of revenue two years ago now wants ₹10,000 crore from the public, and most of it pays back the loans that made it big. How do you grow 43X in a year? You buy the growth on credit.
+- SEBI has quietly paused India's next big green-energy IPO, and the papers name a probe into trading in PVR INOX, the cinema chain every viewer has been to.
+- The ₹290 crore that became ₹90 crore: one number the regulator wants explained.
 
 ### How hot it is
-- Trend meter: COLD. 1 news item; YouTube this week mostly unrelated.
-- vidIQ "pharma companies doctors gifts": under 750 searches a month. Demand is unproven.
-- Adjacent outrage at the health system travels: @marketswithkratik's private-hospital C-section reel, 1.6M (48× median).
+- Trend meter: no news today, 5 items this week; YouTube's "HOT" reading is general market videos, not this story.
+- vidIQ outlier search: nobody has made a reel on it. Adjacent: a reel mocking pre-IPO hype in the unlisted market did 1.8M.
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [@marketswithkratik (Instagram)](https://www.instagram.com/reel/DdZPDMDxHwF/) | Adjacent: "Open scam by Indian private hospitals" (unnecessary C-sections, data overlays) | 1.6M | 48.4× median | last two months |
-| [@think.bits (TikTok)](https://www.tiktok.com/@think.bits/video/7687248045745917206) | Adjacent: a famous name's tax case, explained from documents | 931K | 11.8× median | last fortnight |
+| [@mehta_janhavi_ (Instagram)](https://www.instagram.com/reel/DdVy3NHBPnN/) | Adjacent: "Loss in the unlisted market before an IPO is common now": irony over a table of pre-IPO losses | 1.8M | 25.6× median | last month |
+| [@think.bits (TikTok)](https://www.tiktok.com/@think.bits/video/7687248045745917206) | Adjacent: a famous name's tax case explained from documents ("zoom into this photo") | 931K | 11.8× median | last fortnight |
 
-_Nobody that vidIQ found has made the court order. The health-system-scam shape travels; this one is fresh and from a court, not an opinion._
+_Nobody has made it. The documents-explained shape travels, and IPO hype is this month's biggest money conversation (Jio); this is the other side of it._
 
 ### Facts and sources
-- Bench of Justices Vikram Nath and Sandeep Mehta; three-member panel on whether statutory regulation is needed; report expected in two months; UCPMP 2024 applies meanwhile; Dolo-650 ₹1,000 crore freebies allegation (petitioner, Aug 2022); next hearing 29 Jan 2027. — [The Tribune, 8 Oct](https://www.tribuneindia.com/news/india/sc-directs-centre-to-form-committee-to-examine-pharma-companies-freebies-to-doctors/)
-- Order on Thursday; petition by the Federation of Medical & Sales Representatives Association of India; committee's recommendations go to the Centre. — [Bar & Bench, 8 Oct](https://www.barandbench.com/news/litigation/form-panel-to-examine-issue-of-pharmas-giving-doctors-freebies-to-prescribe-their-drugs-supreme-court-to-centre)
+- 11 acquisitions since June 2025; largest Vena Energy, ₹6,000 crore; revenue about ₹2,000 crore in FY26 from ₹47 crore (43X); borrowings nearly ₹16,000 crore from ₹350 crore (45X); interest about ₹1,000 crore a year from about ₹30 crore; ₹10,000 crore IPO, SEBI hold; 60% for debt (headline and public text; paywalled). — [The Ken, 9 Oct](https://the-ken.com/story/inox-cleans-masterclass-in-growing-revenue-43x-in-one-year-is-a-cautionary-tale/)
+- SEBI kept observations in abeyance (Moneycontrol, 6 Oct); DRHP filed 29 Sep; ₹8,000 crore fresh plus ₹2,000 crore OFS by Devansh Jain; ₹6,000 crore for debt; borrowings ₹16,781.8 crore (Aug 2026); ₹290 crore approved vs ₹90 crore in the books, ₹200 crore said to repay a PFC loan; Jain summoned in the PVR Inox share-trading probe; Inox Wind summoned; not a rejection. — [Kotak Neo, 6 Oct](https://www.kotakneo.com/news/ipos/inox-clean-energy-ipo-sebi-hold-inoxgfl-group-investigation/)
+- Reported FY26 revenue in the draft papers ₹178.1 crore (from ₹47.2 crore); profit ₹30.9 crore (from ₹1.5 crore). — [Kotak Neo, 30 Sep](https://www.kotakneo.com/news/ipos/inox-clean-energy-ipo-10000-crore-sebi-filing/)
 
 ### Watch out
-- Doctors are not the villain: the joke, if any, lands on the system (only one side can be punished). No suggestion that a viewer's own doctor is bought.
-- The ₹1,000 crore figure is an untested allegation from 2022 (older than a week: context, never the headline). If used, say "alleged" on screen and in voice; never draw the pack with an image model.
-- Stake is "some day", not this week. Tests: hook in frame one only if a number leads; a line worth sending is strong (outrage at the system).
+- The numbers disagree: the draft papers report FY26 revenue of ₹178.1 crore (3.8X); The Ken's ₹2,000 crore (43X) appears to count the acquired businesses for the full year. Say "The Ken calculates 43X", and credit The Ken in the caption.
+- No wrongdoing has been found. SEBI has paused, not rejected; the promoter's summons is in a probe, not a charge. Say "SEBI wants answers", never "fraud".
+- No buy/sell: the IPO isn't open. No face of the promoter (no licensed photo checked).
+- Tests it can carry: hook in frame one (43X), tight 20–30 s; a line worth sending is weaker (stake is "some day").
 
 ## Stories we're tracking
 
@@ -148,27 +147,29 @@ Full board: research/desk/TRACKER.md
 
 | Story | Now | Direction | Day | Status |
 |---|---|---|---|---|
-| Jio Platforms IPO (`jio-ipo`) | RISING | fading | 2 | active |
-| Ramayana producer's Prime Focus searched by Income Tax (`prime-focus-ramayana`) | HOT | rising | 2 | active |
-| International ETFs trading far above NAV (NSE warning) (`intl-etf-premium`) | COLD | steady | 2 | active |
-| EPF wage ceiling raised to ₹25,000 (`epf-wage-ceiling`) | FLAT | rising | 2 | active |
-| Nana Patekar dies; the Rs 1.5 crore car he gave up for farmers (`nana-patekar`) | RISING | new | 2 | active |
-| Sensex -1,045 on 8 Oct: ₹10.23 lakh crore wiped off (`market-crash-oct8`) | - | new | 1 | active |
-| TCS: profit +15%, share -35% in 2026 (`tcs-q2-profit-share`) | - | new | 1 | active |
-| SC orders panel on pharma freebies to doctors (`pharma-freebies-sc`) | - | new | 1 | active |
+| Jio Platforms IPO (`jio-ipo`) | FLAT | fading | 3 | active |
+| Ramayana producer's Prime Focus searched by Income Tax (`prime-focus-ramayana`) | HOT | fading | 3 | active |
+| International ETFs trading far above NAV (NSE warning) (`intl-etf-premium`) | COLD | fading | 3 | active |
+| EPF wage ceiling raised to ₹25,000 (`epf-wage-ceiling`) | COLD | fading | 3 | active |
+| Sensex -1,045 on 8 Oct: ₹10.23 lakh crore wiped off (`market-crash-oct8`) | HOT | new | 2 | active |
+| TCS: profit +15%, share -35% in 2026 (`tcs-q2-profit-share`) | HOT | new | 2 | active |
+| SC orders panel on pharma freebies to doctors (`pharma-freebies-sc`) | COLD | new | 2 | active |
+| UPI merchant fee (0.4% MDR) may be deferred to 1 Jan (`upi-mdr-deferral`) | - | new | 1 | active |
+| Inox Clean: revenue 43X, debt 45X, IPO on hold (`inox-clean-ipo`) | - | new | 1 | active |
+| Nana Patekar dies; the Rs 1.5 crore car he gave up for farmers (`nana-patekar`) | HOT | rising | 3 | made |
 
 ## Also on the wire
-- Jio IPO (tracked): reports now put the price band at ₹1,150–1,220 a share (unconfirmed); RHP expected after 12 Oct, open 21–23 Oct, listing about 28 Oct (Outlook Money). The next real turn is the RHP.
-- Mamaearth (Honasa, a Shark Tank judge's company) rose up to 10–11% on 6 Oct on a Q2 update (sales growth in the early 30s %); the stock is up 66% in 2026 (Zee Business). The famous-founder shape, but three days old.
-- Paytm, MobiKwik and Pine Labs fell 4–5% on 8 Oct on reports that proposed merchant fees may be delayed beyond the 15 Oct rollout (HDFC Sky).
-- HD Fire Protect IPO opens 13–15 Oct, ₹258–271, about ₹712 crore (IPO Watch). Small; GMP chatter only.
-- Nana Patekar (tracked, Akhilesh's draft v4 in scripts/drafts): no new money angle this morning.
-- Prime Focus / Ramayana (tracked): the trailer is still the hottest video (3.4M in 48 h), but no new news on the tax search.
+- Market bounced on Friday after Thursday's 32-month low (tracked): IT led, TCS +3.85% and Infosys +2.65% at the close (HDFC Sky). The one-day wipe-out story has lost its peg.
+- TCS (tracked): the share rose on Friday after results (+3.85% to ₹2,156, HDFC Sky); the "profit up, share down 35% this year" gap narrowed a little. Infosys and Wipro report next week.
+- Hexaware jumped 12.4% early on Friday (₹574.45) after a multi-year partnership with Anthropic; still about 19% below its ₹708 IPO price (BusinessToday). The other side of the "AI hurts IT" fear.
+- Unacademy: The Morning Context ran "Gaurav Munjal loses his faith" (7 Oct, paywalled); the sale to upGrad at about 94% below peak valuation was 1 Sep. Famous founder, but no fresh public facts yet.
+- Texmaco Rail: a ₹700 crore "contingency provision" drew a qualified audit opinion; a Substack column compares it to an astrologer's forecast. Commentary only so far.
+- Nana Patekar (tracked, made as E10): no new money angle. Prime Focus / Ramayana (tracked): release date news, no new tax-search facts.
 
 ## Where we stand
 
-209 followers (+137 this week)  
-Last reel (Down to Business 3: Hindustan Unilever, share -27% in a year; trust, distribution, advertising challenged; Minimalist deal): 546 plays so far, 64% swiped away in the first 3 s, watched 16% of the way  
+209 followers (+136 this week)  
+Last reel (Down to Business 3: Hindustan Unilever, share -27% in a year; trust, distribution, advertising challenged; Minimalist deal): 553 plays so far, 64% swiped away in the first 3 s, watched 16% of the way  
 What every reel is testing:  
 - Hook in frame one: swipe-aways in the first 3 s 52% now, target 45% (3 of 3 reels in)
 - Tight 20-30 s: average watched 39% now, target 45% (1 of 3 reels in)
