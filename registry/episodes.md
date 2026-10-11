@@ -161,3 +161,9 @@ Add a row per episode, and a line whenever you change a default or a tool.
   - **verify_line.py:** digits before हज़ार compose like number words (Scribe wrote 'पंद्रह-पंद्रह हज़ार' and '15-15 हजार' for the same audio).
   - **pipeline/level_keyframe.py:** rotate a tilted-head keyframe level instead of regenerating it.
   - **pipeline/fetch_clips.py:** film and web clips are downloaded on Akhilesh's laptop (YouTube blocks cloud machines) and arrive on the `clips` branch.
+
+- 2026-10-11, experiment recast01 (Kling 3.0 Motion Control, Akhilesh's request; footage consent confirmed by Akhilesh 2026-10-10):
+  - **What:** a 5 s cut (9.9–14.8 s) of a consented 15 s phone reel drove Akhilesh's new AI character (Higgsfield `motion_control`, 720p, `scene_control: video` so the real hallway stays). The burnt-in caption was blanked first with ffmpeg `delogo` (plain wall behind it). Media: drive 5ed5dc11-6d3a-4900-abd9-2c88f3f3a082, character ce6ec1f0-74a9-4d6e-a3f5-b28eba25be90, full-body ref job a155b788-7009-4833-89ad-c2041be86c67, recast job 587056a7-2e4f-4915-8027-3b668f29adf2.
+  - **Proportions:** the character photo was seated, so a standing full-body reference was made first (seedream_v4_5, 1 credit each, 2 variants); a seated reference against a standing, walking clip is the likely cause of stretched bodies. With the full-body ref, proportions held through the walk and the close-up.
+  - **Result:** the face is the character's, not the source person's; motion, timing, camera and room light are the source's. Drift: hair curlier and the body slimmer than the reference, following the source's build. The props (bag, scarf) were dropped, so the hands hold nothing.
+  - **Cost:** 12 credits (2 stills + 10 for 5 s of motion control at 720p) from the weekly experiment budget. Not yet tried: a talking clip for lip sync, the 1080p tier, `scene_control: image`.
