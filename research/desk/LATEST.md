@@ -1,145 +1,149 @@
-# Doordhan desk research — Sat 10 Oct 2026
+# Doordhan desk research — Sun 11 Oct 2026
 
-Session: https://claude.ai/code/session_01GiLDV4CbdYp6TMkFCLSgac
+Session: https://claude.ai/code/session_018i3vm54A5SW56ooAeDoeRw
 
-**Pick: story 1.** Jio is the shape of both our breakouts (Snapdeal, Policybazaar): a company every viewer knows, in today's news, explained in one number. Bloomberg's price band (₹1,065–1,119, about ₹30,213 crore, India's biggest IPO ever) is the new turn since we first sent it, and YouTube searches for "jio ipo" are up 66% on their 30-day baseline and climbing daily. It also runs to listing on 28 Oct, so it can carry follow-ups (the RHP on Monday, opening day 21 Oct, listing day).
+**Pick: story 1.** Musk vs Ambani is the shape of all three of our breakouts (Policybazaar, Snapdeal, Nana Patekar): names every viewer knows, in frame one, and it is still climbing (49% of the week's news landed today; Musk posted again on Saturday). It also ties to the story we've tracked all week: Jio, the company Musk says is blocking him, opens India's biggest IPO on 21 Oct. So it can start a short series (the fight, the RHP this week, listing day), which the strategist says the next reel needs to turn plays into follows.
 
-Runner-up: 2, the hottest story today: the 0.4% UPI merchant fee due on Thursday may be pushed to 1 January. A decision is expected within days, so it has to go out before it lands or the same evening it does.
+Runner-up: 2, the US suspending TCS, Infosys and Wipro from the green-card process: the highest stake for our viewers (IT jobs and IT shares in every SIP), with a counter-intuitive turn (IT shares rose the next day). Already covered widely since Thursday, so it needs The Ken's angle, not the news.
 
-> **Correction:** Yesterday's email gave Jio's reported price band as ₹1,150–1,220 (Outlook Money, unconfirmed), and the tracker note before that a valuation of about ₹11 lakh crore. Bloomberg reported on 9 Oct a band of ₹1,065–1,119 and a valuation of about ₹10.3 lakh crore ($107 bn). Still unconfirmed until the RHP; the facts below use the newer figures.
+## 1. Musk calls Ambani "Prime Minister Ambani" over Starlink, 10 days before Jio's IPO
 
-## 1. Jio's IPO: ₹30,000 crore, India's biggest ever, at up to ₹1,119 a share
+Hot lane (new; ties to the tracked Jio IPO) · HOT · **8/10** (momentum 3/3, stake 1/2, shareability 2/2, gap 1/2, clarity 1/1) · tracker id `musk-ambani-starlink`
 
-Hot lane (tracked; new turn) · RISING · **8/10** (momentum 2/3, stake 2/2, shareability 2/2, gap 1/2, clarity 1/1) · tracker id `jio-ipo`
-
-Window: Sat 10 Oct to listing on Wed 28 Oct. The next turns: RHP expected Mon 12 Oct (confirms the band), anchor book 19 Oct, open 21–23 Oct, listing 28 Oct.
+Window: Sun 11 to about Wed 14 Oct while the posts continue; it rejoins the Jio IPO story at the RHP (expected this week) and the open on 21 Oct.
 
 ### What's happening
-- New since we sent it: on Friday 9 October Bloomberg reported that Jio Platforms will price its IPO at ₹1,065 to ₹1,119 a share. At the top of the band it raises about ₹30,213 crore, which would make it India's largest IPO, ahead of Hyundai Motor India.
-- At that price Jio would be worth about ₹10.3 lakh crore ($107 billion): India's third-biggest company, after its own parent Reliance and Bharti Airtel.
-- Dates, per market sources: anchor book Monday 19 Oct; open Wednesday 21 Oct to Friday 23 Oct; listing 28 Oct. The red herring prospectus, which fixes the band officially, is expected on Monday.
-- The grey market is quoting a premium of ₹175–180 a share, up from ₹145–150 earlier in the week: about 16% over the top of the band (unofficial).
-- Friday was reported as the last day to buy a Reliance share and qualify for the shareholders' quota.
-- Context: India's IPO market has raised over $13 billion (₹1.26 lakh crore) this year; September was a record month (34 companies, more than ₹39,300 crore), while foreign investors sold about ₹2.7 lakh crore of listed shares.
+- Starlink holds an Indian satellite licence but still can't sell: it has no spectrum yet, and every satellite operator must first clear a security assessment.
+- Earlier this week Musk blamed unnamed "oligarchs" for the delay. On Thursday 8 Oct he posted that Starlink is licensed in over 165 countries and asked: "Is Ambani the real boss of India?"
+- On Friday 9 Oct he wrote "Dear Prime Minister Ambani, please accept my humble apologies for not realising that you are the real boss of India", accused him of "monopolistic exploitation of the great people of India", and asked whether he would "consider allowing Starlink to compete". On Saturday he shared old reports on a Reliance-linked firm's electoral-bond donations.
+- The government's answer: the framework is "fair and non-discriminatory"; Starlink, Jio's own satellite venture (Jio Satellite Communications) and Airtel-backed Eutelsat OneWeb are at broadly the same stage. Telecom minister Scindia: India "does not allow a monopoly in any sector". Reliance has not responded.
+- The twist: Starlink signed distribution deals with both Jio and Airtel last year, and Jio is building its own rival. At India Mobile Congress this week Jio showed a plan for about 1,600 low-orbit satellites and 23 ground stations (a proposal; test flight around 2027, services around 2028).
+- The money link: Jio Platforms, the company at the centre of the fight, is due to open India's biggest IPO (reported ₹30,000 crore, band ₹1,065–1,119) on 21 Oct.
 
 ### The curiosity gap
-- Almost every viewer pays Jio every month. From 21 October they can own a piece of it. What exactly are they buying, and how big is ₹10.3 lakh crore next to the companies they already know?
-- The biggest IPO India has ever had arrives in the same week the market hit a 32-month low. Foreign investors are selling listed shares and still queuing for IPOs. Why?
-- The grey market already prices a 16% first-day gain. The herd question: can a ₹10 lakh crore giant actually pop on listing day?
+- The richest man in the world says the richest man in India is stopping him. What exactly is stuck, and who decides?
+- Starlink signed up Jio as its own seller in India. Why would Jio help sell a rival, and build 1,600 satellites of its own?
+- The fight lands ten days before Jio asks the public for ₹30,000 crore. Does a monopoly accusation from Musk matter to someone buying into Jio's IPO?
 
 ### How hot it is
-- Trend meter: FLAT on news (32 items today, 97 this week); YouTube this week 334K views, top video CA Rachana Ranade's explainer (156K in 72 h).
-- vidIQ "jio ipo" (India): about 71,700 searches a month in India, +66% on its 30-day baseline. Competition 58 of 100. Views per hour on the keyword rose every day this week: 29K (4 Oct) to 90K (8 Oct).
-- Instagram outliers: two Jio IPO reels broke out (4.7M and 1.1M), both on the "it's coming" announcement.
+- Trend meter: HOT. "Musk Ambani": 20 news items today out of 41 this week (49% today); YouTube this week 1.19M views on 7 videos, 6 of them in the last 24 h.
+- vidIQ "starlink india" (India): about 7,600 searches a month; competition 56 of 100.
+- YouTube Shorts: FactTechz's 58 s Short at 2.0M in about a day (83,800 views an hour); Biz Tak's "what Akash Ambani said" at 1.2M (9.5× the channel's usual).
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [@tradingmargin (Instagram)](https://www.instagram.com/reel/DeMEyIrB6Y5/) | "JIO IPO IS HERE!!!": opens on a clip of Mukesh Ambani, then split screen (news clips on top, talking head below) through dates, financials and Jio's business segments | 4.7M | 486× median | since 26 Sep |
-| [@bollywoodsocietyy (Instagram)](https://www.instagram.com/reel/DeMDBU6Iq5r/) | "Who is bringing India's biggest IPO?": a question in text over B-roll of Ambani, music only | 1.1M | 24.5× median | since 26 Sep |
-| [CNBC Awaaz (YouTube)](https://www.youtube.com/watch?v=SFrrHIL7LCM) | "Jio IPO at ₹11 lakh crore valuation?": Motilal Oswal's report, news format | 26.1K | 10.8× channel usual | 7 Oct |
-| [INVESTMENT ka bazar (YouTube)](https://www.youtube.com/watch?v=alLCHZ0OXik) | Upcoming IPOs list with Jio GMP and price band, 4 min | 11.5K | 3.4× channel usual | 7 Oct |
-| [@abhishekkarofficial (Instagram)](https://www.instagram.com/reel/Ddi0QLCv5yP/) | Adjacent: "NSE GMP crash! Kya kare?", the IPO-hype-meets-reality shape (our E2 topic) | 2.1M | 4.2× median | last month |
+| [@101xfounders (Instagram)](https://www.instagram.com/reel/DeRWozMhBTk/) | Ambani's 1,600-satellite plan as the answer to Musk: footage of Ambani with the headline as text, music only, looped | 3M | 69.8× median | this week |
+| [@luckyrohillaa (Instagram)](https://www.instagram.com/reel/DePaSK-gBS9/) | "Is Ambani the real boss of India?": split screen, Musk's photo on top and the creator talking below | 1.6M | 53.8× median | since 8 Oct |
+| [@cryptowalaindia (Instagram)](https://www.instagram.com/reel/DePZ4scondH/) | Musk's tweet on top, creator below, Starlink vs Jio's dominance; a numbered series ("Part 2") | 1.5M | 8.4× median | since 8 Oct |
+| [@amitcuts.through (Instagram)](https://www.instagram.com/reel/DeSLeoRzIGk/) | Opens holding a paper scroll: "10th October 2026, Dear Prime Minister Ambani"; talking head with headline screenshots | 924K | 26.8× median | 10 Oct |
+| [FactTechz (YouTube Short)](https://www.youtube.com/watch?v=SnZK39RJbzg) | "Final Battle: Elon Musk vs Ambani": Jio and Airtel vs Starlink, 58 s | 2.0M | – | 10 Oct |
 
-_The announcement ("Jio IPO is here") has been made and travelled. Since Friday's band, YouTube has only GMP and date lists; nobody has explained in 20 seconds what the viewer actually buys at ₹1,119, the value-over-news shape that worked for Snapdeal._
+_The fight itself ("real boss of India", "Team Elon or Team Ambani") has been made many times and travelled. Nobody has tied it to the viewer's money: the company being accused of a monopoly is the one asking for ₹30,000 crore of their savings on 21 Oct._
 
 ### Facts and sources
-- Price band ₹1,065–1,119 (Bloomberg report); issue about ₹30,213 crore, India's largest IPO, surpassing Hyundai Motor India; valuation about $107 bn (₹10.3 lakh crore), third-biggest company after Reliance and Bharti Airtel; anchor 19 Oct, open 21 Oct, close 23 Oct, listing 28 Oct; RHP likely Monday; GMP ₹175–180 (from ₹145–150 earlier in the week), about 16% over the upper band; Friday the last day to buy RIL shares for the shareholder quota; FIIs sold about ₹2.7 lakh crore this year; September record, 34 companies, more than ₹39,300 crore; YTD IPO fundraising above $13 bn (₹1.26 lakh crore). — [BusinessToday, 9 Oct](https://www.businesstoday.in/markets/ipo-corner/story/jio-platform-ipo-price-to-be-set-at-rs-1065-1119-says-report-check-details-560687-2026-10-09)
-- The original report: Jio Platforms set to price its shares at ₹1,065–1,119, per people familiar with the matter (headline and summary; paywalled). — [Bloomberg, 9 Oct](https://www.bloomberg.com/news/articles/2026-10-09/ambani-s-jio-said-to-set-ipo-price-band-at-1-065-1-119-rupees)
+- Thursday post "Is Ambani the real boss of India?"; Friday "monopolistic exploitation of the great people of India", "would you nonetheless consider allowing Starlink to compete?", "prime minister"; ministry: framework "fair and non-discriminatory", Starlink and two other licensed operators at "broadly the same regulatory stage", security assessments before spectrum; Scindia: India "does not allow a monopoly in any sector"; Starlink has clearances but no go-ahead and no spectrum; Starlink distribution deals with Jio and Airtel last year; Jio has a JV with SES; Reliance Jio did not comment. — [TechCrunch, 9 Oct](https://techcrunch.com/2026/10/09/elon-musk-intensifies-attack-on-ambani-over-starlink-india-launch-delay/)
+- "Dear Prime Minister Ambani, Please accept my humble apologies for not realising that you are the real boss of India"; on Saturday Musk shared a 2022 Al Jazeera report and a 2024 Indian Express report on Qwik Supply (described as Reliance-linked) donating ₹385 crore to the BJP and ₹25 crore to the Shiv Sena via electoral bonds; Reliance has not responded; Starlink, Jio Satcom and Eutelsat OneWeb hold satcom licences; spectrum once pricing is final. — [Outlook Business, 10 Oct](https://www.outlookbusiness.com/news/elon-musk-starlink-row-reliance-linked-firms-bjp-donations-reports-prime-minister-ambani-remarks)
+- Jio's proposal: about 1,600 low-Earth-orbit satellites and 23 ground stations, shown at India Mobile Congress 2026 as "Sovereign Satellite Connectivity"; a proposal, not a network; initial plans (ThePrint, Sept): test flight around 2027, services around 2028; Musk's 8 Oct post: Starlink licensed in over 165 countries; Starlink has 20 gateway sites in India. — [MediaNama, 9 Oct](https://www.medianama.com/2026/10/223-jio-1600-satellites-starlink-delays/)
+- Jio IPO: reported band ₹1,065–1,119, about ₹30,200 crore at the top, open 21–23 Oct, listing 28 Oct; final offer documents expected in the week from 12 Oct (reported, not yet confirmed). — [Kotak Neo, 9 Oct](https://www.kotakneo.com/news/ipos/jio-platforms-ipo-price-band-dates-issue-size-and-listing-details/)
 
 ### Watch out
-- No call on applying: not "apply", not "skip", no listing-gain promise. GMP is unofficial grey-market talk; if used, say it as what the grey market is quoting.
-- The band, size and dates are reported, not confirmed. The RHP (expected Monday) can change them: post today as "reported", or wait for the RHP and say it as fact.
-- Mukesh and Akash Ambani: no AI face or voice. A licensed still or their own real footage only (CLAUDE.md rule 4); the Jio logo is fine on a reel about Jio.
-- Tests it can carry: hook in frame one (₹30,000 crore or ₹1,119 on screen), tight 20–30 s, a line worth sending (the SIM in your pocket is now for sale).
+- No evidence has been published that Ambani or Jio is behind the delay; the government denies it. Report it as Musk's accusation and the government's answer, never as fact.
+- Stay off the party politics: the donations reports are Musk sharing old articles. Humour lands on the system and the herd (two billionaires, one regulator), not on either side.
+- Musk and Ambani: no AI face or voice. A licensed still or their own real footage only (CLAUDE.md rule 4); Musk's post can be shown as a screenshot. No words put in their mouths beyond what they posted.
+- No call on the Jio IPO: not "apply", not "skip". The band and dates are still reported until the RHP.
+- Tests it can carry: hook in frame one (the "Prime Minister Ambani" post or ₹30,000 crore on screen), tight 20–30 s, a line worth sending (the monopoly row ten days before the IPO).
 
-## 2. The UPI fee due on Thursday may be pushed to 1 January
+## 2. The US froze green cards at TCS, Infosys and Wipro. Their shares went up.
 
-Hot lane · HOT · **8/10** (momentum 3/3, stake 1/2, shareability 2/2, gap 1/2, clarity 1/1) · tracker id `upi-mdr-deferral`
+Hot lane (new; The Ken's angle) · HOT · **8/10** (momentum 3/3, stake 2/2, shareability 2/2, gap 0/2, clarity 1/1) · tracker id `us-perm-indian-it`
 
-Window: Sat 10 to Thu 15 Oct. A final decision is expected "in the coming days"; if it is announced, the story turns into a one-day follow-up that evening.
+Window: Sun 11 to about Tue 13 Oct. Infosys and Wipro report results this week, which can give it a second turn.
 
 ### What's happening
-- From Thursday 15 October, shops were due to pay a 0.4% fee (MDR) on UPI payments above ₹2,000, capped at ₹300 a payment. It would end the zero-fee UPI the country has had since 2020. Customers don't pay it, and merchants are not allowed to pass it on.
-- New on 8 October: a proposal to push the start to 1 January 2027 is under consideration, after pushback from traders. It would keep shop payments free through the festive season. A final decision is expected in the coming days.
-- Also under consideration: exempting every business with turnover up to ₹40 lakh a year (today's exemption is only for small merchants receiving up to ₹1 lakh a month on their QR).
-- The traders' fight: two associations called a "No UPI Day" for 2 October, then withdrew it after meeting the Finance Minister on 30 September. The distributors' federation estimates the fee would cost FMCG distribution and retail ₹7,000–9,000 crore a year.
-- The government told the Supreme Court about 96% of merchant payments would be untouched. UPI handled 24.07 billion payments worth ₹29.37 lakh crore in September.
+- On Thursday 8 Oct the US Labor Department suspended eight companies from PERM, the labour certification that starts most employer-sponsored green cards: Cognizant, Infosys, TCS, Wipro, HCL and Capgemini, plus Microsoft and Adobe. It will not accept new applications or process pending ones from them.
+- Labor Secretary Keith Sonderling said these companies requested almost 3 million foreign workers since 2009 and got over 230,000 H-1B approvals and over 100,000 labour certifications. Vice President JD Vance singled out Microsoft: 6,000 Americans laid off in 2025, 6,300 H-1B visas and nearly 3,000 green cards.
+- It does not cancel anyone's H-1B or existing green card; what it means depends on each person's stage (BusinessToday). No end date has been given.
+- The twist: on Friday Nifty IT rose more than 1,000 points at one stage and TCS about 5% (TCS's quarterly results helped too). The Ken's reading: Indian IT had already stopped depending on this route. Infosys filed 781 certifications in 2023 and none since; TCS says its filings were in single digits for two years. TCS's H-1B approvals fell from 1,452 to 846 in a year, and the top seven India-based IT firms together got 70% fewer new H-1Bs than in 2015.
+- Where the hiring went: global capability centres in India hired nearly twice as many people as IT services firms in FY26 (The Ken).
 
 ### The curiosity gap
-- Who actually pays? The rule says the shop pays and can't pass it on. Will your kirana really swallow ₹12 on a ₹3,000 bill, or will "cash only above ₹2,000" signs appear?
-- The fee was set to start in the middle of the festive season. It is being delayed for the shopkeepers' Diwali, not the customer's.
-- Who gets the 0.4%? The banks and the UPI app take their cut (0.28% to the payer's bank, 0.08% to the app). Free UPI was never free to run.
+- America shut the green-card door on India's biggest IT employers, and their shares rose the next day. What did the market know that the headlines didn't?
+- Infosys hasn't filed a single green-card certification since 2023. So whose dream did this actually end: the companies', or the employees' who joined them to get to America?
+- The US named Microsoft the worst offender. Why are Indian companies taking the headlines for an American company's visas?
 
 ### How hot it is
-- Trend meter: HOT. "UPI charges": 8 news items today against 32 this week; YouTube this week 273K views, top video "UPI Charges Postponed?" (120K in 24 h).
-- vidIQ "upi charges" (India): about 137,900 searches a month; competition 63 of 100. Views per hour on the keyword peaked at 2.36M on 16 Sep (the fee announced), fell to 25K on 7 Oct and jumped back to 73K on 8 Oct with the deferral news.
-- YouTube Shorts on the deferral: News18 Tamil Nadu's 19 s Short is at 231K (5,768 views an hour).
+- Trend meter: HOT on YouTube ("PERM suspension Infosys": 1.26M views this week; the top video 345K in 48 h); news has moved on (0 items today).
+- vidIQ "green card suspension" (India): under 750 searches a month; people search the company names, not the term.
+- YouTube Shorts: Gaurav Karan Chaudhary's "No More Green Card!" at 1.1M (27,000 views an hour); Bilal Kirmani's 35 s Short at 404K.
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [@pooja_kumari.9108 (Instagram)](https://www.instagram.com/reel/DdvuB0SAwa3/) | "Take cash on 2 October": the No UPI Day warning, talking head with a news overlay | 26.6M | 32× median | late Sep |
-| [@priyanshu_jaiman27 (Instagram)](https://www.instagram.com/reel/Dd54O-sR9lI/) | "This will happen on 2 October": split screen, protest B-roll on top, urgent talking head | 20.8M | 7.6× median | late Sep |
-| [@deep_unstoppable (Instagram)](https://www.instagram.com/reel/Dd74oiPzspp/) | "Don't make this mistake": why UPI may not work on 2 October, merchants protesting the fee | 8.9M | 8.4× median | late Sep |
-| [News18 Tamil Nadu (YouTube Short)](https://www.youtube.com/shorts/CMkV5RGA8V8) | Is the UPI merchant fee being postponed? 19 s news read | 231K | – | 8 Oct |
-| [Sakshi TV Business (YouTube)](https://www.youtube.com/watch?v=Z9CfaGXns6Y) | "UPI Charges Postponed? MDR may be deferred till January 1", Telugu, 89 s | 120K | 26× channel usual | 8 Oct |
+| [@thetatvaindia (Instagram)](https://www.instagram.com/reel/DePWnYvJEVL/) | "No H1B visa/Green cards": the announcement at the podium with the headline as static text | 9.6M | 4.9× median | 8–9 Oct |
+| [@bitinning (Instagram)](https://www.instagram.com/reel/DePnc_TyifT/) | "BAD NEWS FOR INDIAN IT PROFESSIONALS": talking head with a mic, impact on IT stocks | 3.8M | 8.9× median | 8–9 Oct |
+| [@kirtanshahcfp (Instagram)](https://www.instagram.com/reel/DeQgOYHKKUw/) | "Yesterday's big news...": a planner explains the real impact on Indian IT is smaller than it sounds | 2.5M | 10.4× median | 9 Oct |
+| [@ndtvindia (Instagram)](https://www.instagram.com/reel/DePdPe-jpAQ/) | Split screen, Trump on top, anchor below: "8 IT companies suspended from the green card programme" | 1.6M | 11.6× median | 8 Oct |
+| [@udayanonmoney (Instagram)](https://www.instagram.com/reel/DePbbpOtClb/) | "Bad news for Indian IT stocks": single-shot talking head | 750K | 7.7× median | 8–9 Oct |
 
-_The No UPI Day warnings went to tens of millions of views two weeks ago. The deferral is so far only on news channels' Shorts, mostly in regional languages; no Hinglish creator reel on "the fee is off till January" yet. Note: our own X1 (28 Sep, "96% UPI abhi bhi free") covered the fee itself, so this needs the new turn, not the rule._
+_The news and the "bad news for IT" angle have been made by big accounts (9.6M, 3.8M), and one planner already said the impact is small. Nobody has used The Ken's numbers: Infosys filing zero since 2023, and the shares rising the day after. That, or the employee's side of it (the onsite dream the companies quietly dropped), is the open angle._
 
 ### Facts and sources
-- Rollout set for 15 Oct may move to 1 Jan 2027 (Business Standard report; decision "in the coming days"); NPCI-headed UPI and Services Steering Committee met 7 Oct; 0.40% on P2M payments above ₹2,000, capped at ₹300; ₹5 flat for bill payments, utilities, education, fuel; ₹40 lakh turnover exemption under consideration; existing exemption up to ₹1 lakh a month on QR; merchants pay, consumers nothing; about 96% of merchant transactions unaffected (Centre to the Supreme Court); fee split 0.28% to issuing bank, 0.12% onward, 0.08% to the UPI app; No UPI Day for 2 Oct withdrawn after meeting the FM on 30 Sep; AICPDF estimate ₹7,000–9,000 cr a year; September: 24.07 bn transactions worth ₹29.37 lakh crore. — [Inc42, 8 Oct](https://inc42.com/buzz/upi-mdr-rollout-may-be-deferred-to-january-2027-amid-pushback-by-retailers/)
-- NPCI FAQ examples: nil on ₹2,000; ₹12 on ₹3,000; ₹200 on ₹50,000; ₹300 cap from ₹75,000; merchants may not pass the charge on to customers; effective 15 Oct 2026 (FAQ dated 15 Sep; context). — [SCC Online, 16 Sep, updated 6 Oct](https://www.scconline.com/blog/post/2026/09/16/npci-released-upi-mdr-faqs-explained/)
-- The original deferral report (not opened: paywalled). — [Business Standard, 8 Oct](https://www.business-standard.com/finance/news/festival-breather-upi-merchant-fee-may-be-deferred-till-january-1-126100800036_1.html)
+- Suspended from the Permanent Labour Certification Programme: Cognizant, Infosys, TCS, Wipro, HCL, Capgemini, plus Microsoft and Adobe; no new or pending applications processed; since 2009 the companies requested almost 3 million foreign workers, got over 230,000 H-1B approvals and over 100,000 permanent labour certifications (Sonderling); Microsoft laid off 6,000 Americans in 2025 while securing 6,300 H-1Bs and nearly 3,000 green cards (Vance). — [The Week, 8 Oct](https://www.theweek.in/news/biz-tech/2026/10/08/us-labour-department-halts-green-cards-for-tcs-infosys.html)
+- PERM is a step in the employer-sponsored green card process; the announcement "should not be read as proof" that any employee's H-1B or green card is cancelled; outcomes depend on each case; no duration given. — [BusinessToday, 9 Oct](https://www.businesstoday.in/latest/world/photo/us-suspends-tcs-infosys-and-wipro-from-perm-what-indian-it-workers-need-to-know-560724-2026-10-09)
+- Nifty IT up more than 1,000 points at one stage on Friday 9 Oct, TCS up about 5%; Infosys 781 certifications in 2023 and none since; TCS filings single digits for two years, plans 15,000 more US hires; TCS H-1B approvals 1,452 to 846 in a year; HCL America 1,248 to 379; top seven India-based IT firms 4,573 new H-1Bs in FY25, 70% lower than 2015 (vs Amazon's 4,644 alone); GCCs hired nearly 2× IT services in FY26 (public part of a paywalled newsletter). — [The Ken, 10 Oct](https://the-ken.com/the-collection/dear-tcs-infosys-wipro-its-not-you-its-microsoft/)
 
 ### Watch out
-- The deferral is a proposal, not a decision. Until it is announced, 15 October still stands; say "may be pushed", not "postponed".
-- Customers don't pay the fee. Say it plainly; the viral reels that implied UPI would cost the user were wrong.
-- Humour on the system (a fee timed for Diwali, then delayed for Diwali), never on shopkeepers or the viewer.
-- Tests it can carry: hook in frame one (0.4% or ₹300 on screen), tight 20–30 s, a line worth sending ("your kirana pays, not you").
+- Don't say green cards or H-1Bs were cancelled: PERM is the first step, and existing visas aren't touched by this order.
+- No call on IT shares: report Friday's rise as news (TCS's results helped too), no levels, targets or "buy the dip".
+- Real people (Vance, Sonderling, Trump): only real footage or a licensed still, no AI face or voice. Credit The Ken in the caption if its numbers are used.
+- Tests it can carry: hook in frame one ("0 since 2023" or the eight logos), tight 20–30 s, a line worth sending (every IT employee knows someone waiting on a green card).
 
-## 3. Inox Clean: revenue up 43X in a year, debt up 45X, and a ₹10,000 crore IPO on hold
+## 3. A cancer drug that costs the chemist ₹2,700 is sold at ₹27,000. The Supreme Court hears it again on Monday.
 
-Deep lane (via The Ken) · COLD · **6/10** (momentum 0/3, stake 1/2, shareability 2/2, gap 2/2, clarity 1/1) · tracker id `inox-clean-ipo`
+Deep lane (court record; hearing Monday) · COLD · **6/10** (momentum 0/3, stake 1/2, shareability 2/2, gap 2/2, clarity 1/1) · tracker id `hospital-drug-markup-sc`
 
-Window: About two weeks; it returns when SEBI clears or rejects the draft papers.
+Window: Sun 11 Oct to a day or two after the hearing on Mon 12 Oct, when the Centre answers. If the Centre backs a cap, it becomes a hot-lane story.
 
 ### What's happening
-- The Ken (9 Oct): Inox Clean Energy made 11 acquisitions since June 2025, the biggest Vena Energy for ₹6,000 crore. Its revenue went from ₹47 crore to about ₹2,000 crore in FY26 (43X) and its borrowings from ₹350 crore to nearly ₹16,000 crore (45X). Interest is now about ₹1,000 crore a year, up from about ₹30 crore.
-- It filed for a ₹10,000 crore IPO on 29 September: ₹8,000 crore of new shares plus ₹2,000 crore sold by promoter Devansh Jain. ₹6,000 crore of the new money goes to repaying debt.
-- SEBI has kept its observations on the draft papers in abeyance (reported 6 Oct). Reported reason: investigations involving INOXGFL group companies, including a group firm's sale of its Inox Clean stake that the board approved at ₹290 crore and the books show as ₹90 crore received. The group says the other ₹200 crore repaid a loan.
-- The draft papers also disclose that the promoter was summoned in SEBI's investigation into trading in PVR INOX shares, and that Inox Wind was summoned over its disclosures. Not a rejection; no show-cause notice as of filing.
+- In hearings on 22 and 29 Sep, a Supreme Court bench (Justices Vikram Nath and Sandeep Mehta) took up a cancer drug that is supplied to retailers at ₹2,700 and carries an MRP of ₹27,000: ten times. The court called it "broad daylight dacoity" and "carnage".
+- It asked the Centre to look at a uniform 16% trade margin on all medicines. Today the price controls (DPCO 2013) cap only scheduled essential medicines; non-scheduled drugs, about 80% of the market by number and value according to the petition, set their own MRP and may raise it up to 10% a year.
+- It also questioned corporate hospitals that make admitted patients buy medicines from their own pharmacy, and said "corporate hospitals are industries. It is not a service at all." The Solicitor General asked for two weeks and said private hospitals, not drug companies, appear to gain from the markups.
+- The market noticed: on 30 Sep hospital shares fell up to 5.6% in a morning (Max Healthcare −5.59%, Apollo −5.55%, Fortis −4.81%).
+- Next: the hearing on Monday 12 Oct, when the Centre is due to give its view. India Today Hindi (7 Oct) adds a patient's case: one 100 mg vial of the breast-cancer drug Enhertu at an MRP of about ₹1.67 lakh. Hospitals say the gap pays for storage, staff, cold chain and expired stock.
 
 ### The curiosity gap
-- A company that was ₹47 crore of revenue two years ago now wants ₹10,000 crore from the public, and most of it pays back the loans that made it big. How do you grow 43X in a year? You buy the growth on credit.
-- SEBI has quietly paused India's next big green-energy IPO, and the papers name a probe into trading in PVR INOX, the cinema chain every viewer has been to.
-- The ₹290 crore that became ₹90 crore: one number the regulator wants explained.
+- The MRP on your medicine strip looks like the law. For most medicines it's a number the company picks, and the court just found one at ten times cost.
+- When a relative is admitted, the hospital pharmacy is the only shop you're allowed to use. Who sets that price?
+- A court ruling on Monday could cap it at 16%. Why did hospital shares fall, and not drug companies'?
 
 ### How hot it is
-- Trend meter: no news today, 5 items this week; YouTube's "HOT" reading is general market videos, not this story.
-- vidIQ outlier search: nobody has made a reel on it. Adjacent: a reel mocking pre-IPO hype in the unlisted market did 1.8M.
+- Trend meter: COLD on news this week (the hearing is Monday); YouTube's top video this week is a Hindi explainer on hospital bills and the court (27,000 views in six days).
+- vidIQ outliers: nobody has made a reel on the ten-times markup. Hospital-bill outrage travels: a raw video of a ₹80,000 fever bill did 2.7M (67× median).
+- No YouTube Shorts found on the ruling in Hindi or English.
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [@mehta_janhavi_ (Instagram)](https://www.instagram.com/reel/DdVy3NHBPnN/) | Adjacent: "Loss in the unlisted market before an IPO is common now": irony over a table of pre-IPO losses | 1.8M | 25.6× median | last month |
-| [@think.bits (TikTok)](https://www.tiktok.com/@think.bits/video/7687248045745917206) | Adjacent: a famous name's tax case explained from documents ("zoom into this photo") | 931K | 11.8× median | last fortnight |
+| [@nagpurkabetaa (Instagram)](https://www.instagram.com/reel/DdonJyrBxQH/) | Adjacent: a man confronts hospital staff over an ₹80,000 bill for two days of fever; captioned "Broad daylight dacoity", the court's own words | 2.7M | 67.1× median | last month |
+| [@inspirenowofficial (Instagram)](https://www.instagram.com/reel/DdvseMpJ072/) | Adjacent: a receptionist skit, "your father's bill is ₹5 lakh", answered with a government scheme | 951K | 50.2× median | last month |
+| [@hauterrfly (Instagram)](https://www.instagram.com/reel/DeMpqlzN4fF/) | Adjacent: what IVF really costs in India, interview with B-roll | 1.6M | 78.6× median | last month |
 
-_Nobody has made it. The documents-explained shape travels, and IPO hype is this month's biggest money conversation (Jio); this is the other side of it._
+_Hospital-bill pain travels when it is one specific bill. Nobody has turned the court's ₹2,700 vs ₹27,000 into a reel, and Monday's hearing gives it a date._
 
 ### Facts and sources
-- 11 acquisitions since June 2025; largest Vena Energy, ₹6,000 crore; revenue about ₹2,000 crore in FY26 from ₹47 crore (43X); borrowings nearly ₹16,000 crore from ₹350 crore (45X); interest about ₹1,000 crore a year from about ₹30 crore; ₹10,000 crore IPO, SEBI hold; 60% for debt (headline and public text; paywalled). — [The Ken, 9 Oct](https://the-ken.com/story/inox-cleans-masterclass-in-growing-revenue-43x-in-one-year-is-a-cautionary-tale/)
-- SEBI kept observations in abeyance (Moneycontrol, 6 Oct); DRHP filed 29 Sep; ₹8,000 crore fresh plus ₹2,000 crore OFS by Devansh Jain; ₹6,000 crore for debt; borrowings ₹16,781.8 crore (Aug 2026); ₹290 crore approved vs ₹90 crore in the books, ₹200 crore said to repay a PFC loan; Jain summoned in the PVR Inox share-trading probe; Inox Wind summoned; not a rejection. — [Kotak Neo, 6 Oct](https://www.kotakneo.com/news/ipos/inox-clean-energy-ipo-sebi-hold-inoxgfl-group-investigation/)
-- Reported FY26 revenue in the draft papers ₹178.1 crore (from ₹47.2 crore); profit ₹30.9 crore (from ₹1.5 crore). — [Kotak Neo, 30 Sep](https://www.kotakneo.com/news/ipos/inox-clean-energy-ipo-10000-crore-sebi-filing/)
+- Cancer drug supplied to retailers at about ₹2,700, given to patients by hospitals at ₹27,000 (up to 10×); uniform 16% margin suggested; inpatients made to buy from hospital pharmacies; Enhertu 100 mg vial MRP about ₹1.67 lakh; hospitals cite pharmacy staff, storage, cold chain and expired stock. — [India Today Hindi, 7 Oct](https://www.indiatodayhindi.com/feature/health/story/hospital-drug-pricing-cancer-medicines-high-markups-supreme-court-1459743-2026-10-07)
+- Context (older than a week): bench of Justices Vikram Nath and Sandeep Mehta; PTR ₹2,700, MRP ₹27,000; "broad daylight dacoity" (22 Sep); "Corporate hospitals are industries. It is not a service at all."; SG sought two weeks; next hearing 12 Oct; 30 Sep falls: Max Healthcare −5.59%, Apollo −5.55%, Fortis −4.81%, Manipal −4.44%, Aster −3.82%; non-scheduled drugs about 80% of the market (petition), up to 10% a year price rises. — [Moneylife, 30 Sep](https://www.moneylife.in/article/why-hospital-stocks-are-falling-sc-scrutiny-of-drug-markups-corporate-healthcare-model-raises-prospect-of-tighter-regulation/81802.html)
+- Context: "carnage. Plain and simple."; DPCO 16% margin on scheduled medicines; Centre to examine hospitals' in-house pharmacy rules; next hearing 12 Oct. — [Onmanorama, 30 Sep](https://www.onmanorama.com/news/india/2026/09/30/supreme-court-uniform-medicine-margin.html)
 
 ### Watch out
-- The numbers disagree: the draft papers report FY26 revenue of ₹178.1 crore (3.8X); The Ken's ₹2,000 crore (43X) appears to count the acquired businesses for the full year. Say "The Ken calculates 43X", and credit The Ken in the caption.
-- No wrongdoing has been found. SEBI has paused, not rejected; the promoter's summons is in a probe, not a charge. Say "SEBI wants answers", never "fraud".
-- No buy/sell: the IPO isn't open. No face of the promoter (no licensed photo checked).
-- Tests it can carry: hook in frame one (43X), tight 20–30 s; a line worth sending is weaker (stake is "some day").
+- Nothing is ordered yet: the 16% cap is the court's suggestion to the Centre, not a ruling. Say "the court asked", and check Monday's outcome before posting after the hearing.
+- One report puts the retailer price at about ₹3,000; most, including the newest (India Today Hindi, 7 Oct), say ₹2,700.
+- No hospital named as the one charging ₹27,000; the court didn't name one. Humour on the system, never on patients or doctors.
+- No call on hospital shares. Tests it can carry: hook in frame one (₹2,700 → ₹27,000), tight 20–30 s, a line worth sending (everyone has a hospital-pharmacy bill story).
 
 ## Stories we're tracking
 
@@ -147,29 +151,30 @@ Full board: research/desk/TRACKER.md
 
 | Story | Now | Direction | Day | Status |
 |---|---|---|---|---|
-| Jio Platforms IPO (`jio-ipo`) | FLAT | fading | 3 | active |
-| Ramayana producer's Prime Focus searched by Income Tax (`prime-focus-ramayana`) | HOT | fading | 3 | active |
-| International ETFs trading far above NAV (NSE warning) (`intl-etf-premium`) | COLD | fading | 3 | active |
-| EPF wage ceiling raised to ₹25,000 (`epf-wage-ceiling`) | COLD | fading | 3 | active |
-| Sensex -1,045 on 8 Oct: ₹10.23 lakh crore wiped off (`market-crash-oct8`) | HOT | new | 2 | active |
-| TCS: profit +15%, share -35% in 2026 (`tcs-q2-profit-share`) | HOT | new | 2 | active |
-| SC orders panel on pharma freebies to doctors (`pharma-freebies-sc`) | COLD | new | 2 | active |
-| UPI merchant fee (0.4% MDR) may be deferred to 1 Jan (`upi-mdr-deferral`) | - | new | 1 | active |
-| Inox Clean: revenue 43X, debt 45X, IPO on hold (`inox-clean-ipo`) | - | new | 1 | active |
-| Nana Patekar dies; the Rs 1.5 crore car he gave up for farmers (`nana-patekar`) | HOT | rising | 3 | made |
+| Jio Platforms IPO (`jio-ipo`) | FLAT | steady | 4 | active |
+| Ramayana producer's Prime Focus searched by Income Tax (`prime-focus-ramayana`) | HOT | steady | 4 | active |
+| International ETFs trading far above NAV (NSE warning) (`intl-etf-premium`) | COLD | fading | 4 | active |
+| Sensex -1,045 on 8 Oct: ₹10.23 lakh crore wiped off (`market-crash-oct8`) | HOT | rising | 3 | active |
+| TCS: profit +15%, share -35% in 2026 (`tcs-q2-profit-share`) | FLAT | fading | 3 | active |
+| SC orders panel on pharma freebies to doctors (`pharma-freebies-sc`) | COLD | fading | 3 | active |
+| UPI merchant fee (0.4% MDR) may be deferred to 1 Jan (`upi-mdr-deferral`) | HOT | new | 2 | active |
+| Inox Clean: revenue 43X, debt 45X, IPO on hold (`inox-clean-ipo`) | COLD | new | 2 | active |
+| Musk calls Ambani 'Prime Minister Ambani' over Starlink (`musk-ambani-starlink`) | - | new | 1 | active |
+| US suspends TCS, Infosys, Wipro from green-card PERM; IT shares rise (`us-perm-indian-it`) | - | new | 1 | active |
+| SC on hospital drug markups: Rs 2,700 drug sold at Rs 27,000 (`hospital-drug-markup-sc`) | - | new | 1 | active |
+| Nana Patekar dies; the Rs 1.5 crore car he gave up for farmers (`nana-patekar`) | HOT | steady | 4 | made |
 
 ## Also on the wire
-- Market bounced on Friday after Thursday's 32-month low (tracked): IT led, TCS +3.85% and Infosys +2.65% at the close (HDFC Sky). The one-day wipe-out story has lost its peg.
-- TCS (tracked): the share rose on Friday after results (+3.85% to ₹2,156, HDFC Sky); the "profit up, share down 35% this year" gap narrowed a little. Infosys and Wipro report next week.
-- Hexaware jumped 12.4% early on Friday (₹574.45) after a multi-year partnership with Anthropic; still about 19% below its ₹708 IPO price (BusinessToday). The other side of the "AI hurts IT" fear.
-- Unacademy: The Morning Context ran "Gaurav Munjal loses his faith" (7 Oct, paywalled); the sale to upGrad at about 94% below peak valuation was 1 Sep. Famous founder, but no fresh public facts yet.
-- Texmaco Rail: a ₹700 crore "contingency provision" drew a qualified audit opinion; a Substack column compares it to an astrologer's forecast. Commentary only so far.
-- Nana Patekar (tracked, made as E10): no new money angle. Prime Focus / Ramayana (tracked): release date news, no new tax-search facts.
+- UPI merchant fee (tracked): the steering committee meeting set for Fri 9 Oct was not held (Free Press Journal), so the 15 Oct start still officially stands with a deferral to 1 Jan under consideration. A decision could land any day before Thursday; the deferral Short "UPI MDR Delayed?" is at 431K in 24 h.
+- Jio IPO (tracked): no RHP yet; final offer documents expected in the week from 12 Oct (PTI via Kotak Neo). Band still reported at ₹1,065–1,119. Story 1 is its newest turn.
+- Rupee: ₹96.73 a dollar on Friday, near its ₹96.96 low; on Saturday the RBI opened a special dollar window for IOC, BPCL and HPCL from 12 Oct and tightened forex-hedging rules (BusinessToday, CNBC). Searches are cold so far.
+- Market: Nifty and Sensex ended an eight-week losing streak (Sensex +0.8%, Nifty +0.4% for the week) after Friday's TCS-led bounce (Upstox). The 8 Oct crash story (tracked) has lost its peg.
+- KEC International is trending on Google: up as much as 5% on Friday on ₹1,030 crore of orders, a day after a 52-week low, and down over 52% this year (Upstox). A recovery blip, no clear story yet.
 
 ## Where we stand
 
-209 followers (+136 this week)  
-Last reel (Down to Business 3: Hindustan Unilever, share -27% in a year; trust, distribution, advertising challenged; Minimalist deal): 553 plays so far, 64% swiped away in the first 3 s, watched 16% of the way  
+213 followers (+126 this week)  
+Last reel (Nana Patekar's Rs 1.5 crore car: the money went to farmers' families, then Naam Foundation): 1768 plays so far  
 What every reel is testing:  
 - Hook in frame one: swipe-aways in the first 3 s 52% now, target 45% (3 of 3 reels in)
 - Tight 20-30 s: average watched 39% now, target 45% (1 of 3 reels in)

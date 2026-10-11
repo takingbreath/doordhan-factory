@@ -10,7 +10,8 @@
    "notes": [
     "First sent 8 Oct. Valuation reportedly cut to ~₹11 lakh crore ($114 bn) from $130-170 bn; opens week of 19 Oct, lists before 30 Oct.",
     "2026-10-09: Reported band ₹1,150-1,220 (unconfirmed); RHP after 12 Oct",
-    "2026-10-10: 2026-10-10: Bloomberg band ₹1,065-1,119, ~₹30,213 cr, valuation ~07 bn; RHP expected Mon 12 Oct"
+    "2026-10-10: 2026-10-10: Bloomberg band ₹1,065-1,119, ~₹30,213 cr, valuation ~07 bn; RHP expected Mon 12 Oct",
+    "2026-10-11: 11 Oct: no RHP yet; documents expected week of 12 Oct; Musk-Ambani row (story musk-ambani-starlink) is its newest turn"
    ],
    "readings": [
     {
@@ -51,6 +52,19 @@
      "yt_top": "Jio Platforms Ltd. | Key Things You Need to Know | CA Rachana Ranade (156,194 views in 72h)",
      "google_trending": [],
      "desk_score": 8.0
+    },
+    {
+     "date": "2026-10-11",
+     "label": "FLAT",
+     "news_1d": 14,
+     "news_7d": 99,
+     "momentum_pct": 14,
+     "yt_week_videos": 11,
+     "yt_week_views": 373487,
+     "yt_best_vph": 2038,
+     "yt_top": "BIZ Adda : जियो IPO की तैयारी तेज, रोडमैप फाइनल! | BIZ Tak (48,915 views in 24h)",
+     "google_trending": [],
+     "desk_score": 7.0
     }
    ],
    "lane": "hot"
@@ -101,6 +115,18 @@
      "yt_week_views": 1578584,
      "yt_best_vph": 25305,
      "yt_top": "Finally Ramayana Release Date revealed | #Yogipedia 287 | Yogi Bolta H (607,326 views in 24h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-10-11",
+     "label": "HOT",
+     "news_1d": 0,
+     "news_7d": 1,
+     "momentum_pct": 0,
+     "yt_week_videos": 12,
+     "yt_week_views": 1377411,
+     "yt_best_vph": 12273,
+     "yt_top": "Ramayana in Real Trouble? Production house raided by income tax depart (883,647 views in 72h)",
      "google_trending": []
     }
    ],
@@ -153,6 +179,18 @@
      "yt_best_vph": 562,
      "yt_top": "Investing in Global DRAM ETFs with Your Retirement Account (No Currenc (13,478 views in 24h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-11",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 14,
+     "yt_week_views": 40273,
+     "yt_best_vph": 496,
+     "yt_top": "China Rejects Claims the Yuan Is Undervalued (11,896 views in 24h)",
+     "google_trending": []
     }
    ],
    "lane": "deep"
@@ -163,7 +201,7 @@
    "query": "EPF wage ceiling|पीएफ सैलरी लिमिट",
    "first_seen": "2026-10-08",
    "window_until": null,
-   "status": "active",
+   "status": "retired",
    "notes": [
     "On the wire 8 Oct. Min PF goes ₹1,800 to ₹3,000 a month; take-home can fall."
    ],
@@ -203,9 +241,25 @@
      "yt_best_vph": 684,
      "yt_top": "Private Employees की कटेगी salary! सरकार का नया नियम | Epfo | PF | fin (32,818 views in 48h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-11",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 7,
+     "momentum_pct": 0,
+     "yt_week_videos": 11,
+     "yt_week_views": 20051,
+     "yt_best_vph": 152,
+     "yt_top": "EPF Limit Change October 2026 (14,597 views in 96h)",
+     "google_trending": []
     }
    ],
-   "lane": "hot"
+   "lane": "hot",
+   "retired": {
+    "date": "2026-10-11",
+    "reason": "COLD on 2 checks running"
+   }
   },
   {
    "id": "snapdeal-acevector",
@@ -289,6 +343,18 @@
      "yt_best_vph": 141551,
      "yt_top": "Veteran Actor Nana Patekar’s Final Rites held with full State Honours  (3,397,216 views in 24h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-11",
+     "label": "HOT (saturated: everyone has it; needs a sharper angle)",
+     "news_1d": 100,
+     "news_7d": 100,
+     "momentum_pct": 100,
+     "yt_week_videos": 14,
+     "yt_week_views": 16089566,
+     "yt_best_vph": 90355,
+     "yt_top": "RIP Comedian Nana Patekar - SHOCKING Facts About Legend Actor #shorts (2,168,522 views in 24h)",
+     "google_trending": []
     }
    ],
    "made_episode": "E10"
@@ -320,6 +386,18 @@
      "yt_best_vph": 12419,
      "yt_top": "The upcoming stock market collapse (& how to prepare for it) (596,125 views in 48h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-11",
+     "label": "HOT",
+     "news_1d": 0,
+     "news_7d": 4,
+     "momentum_pct": 0,
+     "yt_week_videos": 17,
+     "yt_week_views": 2946234,
+     "yt_best_vph": 41882,
+     "yt_top": "AMERICANS CELEBRATE CRASH OF INDIAN STOCK MARKET | So Much Hate For Bh (1,005,164 views in 24h)",
+     "google_trending": []
     }
    ]
   },
@@ -349,6 +427,18 @@
      "yt_week_views": 300801,
      "yt_best_vph": 3033,
      "yt_top": "Tcs Q2 Results 2027 | Tcs Results Today | Tcs Share News Today | Tcs D (72,801 views in 24h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-10-11",
+     "label": "FLAT",
+     "news_1d": 2,
+     "news_7d": 43,
+     "momentum_pct": 5,
+     "yt_week_videos": 20,
+     "yt_week_views": 353926,
+     "yt_best_vph": 1565,
+     "yt_top": "Tcs Q2 Results 2027 | Tcs Results Today | Tcs Share News Today | Tcs D (75,114 views in 48h)",
      "google_trending": []
     }
    ]
@@ -380,6 +470,18 @@
      "yt_best_vph": 1093,
      "yt_top": "重生 80 年代，心疼受盡欺負的妻子，靠茶葉蛋賺第一桶金，逆襲坐擁工廠 (26,236 views in 24h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-11",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 1,
+     "momentum_pct": 0,
+     "yt_week_videos": 15,
+     "yt_week_views": 68627,
+     "yt_best_vph": 674,
+     "yt_top": "重生 80 年代，心疼受盡欺負的妻子，靠茶葉蛋賺第一桶金，逆襲坐擁工廠 (32,356 views in 48h)",
+     "google_trending": []
     }
    ]
   },
@@ -392,12 +494,26 @@
    "window_until": "2026-10-16",
    "status": "active",
    "notes": [
-    "First sent 10 Oct. Fee due 15 Oct; deferral to 1 Jan 2027 under consideration, decision in days."
+    "First sent 10 Oct. Fee due 15 Oct; deferral to 1 Jan 2027 under consideration, decision in days.",
+    "2026-10-11: 11 Oct: steering committee meeting of 9 Oct not held; 15 Oct still officially stands"
    ],
    "readings": [
     {
      "date": "2026-10-10",
      "desk_score": 8.0
+    },
+    {
+     "date": "2026-10-11",
+     "label": "HOT",
+     "news_1d": 2,
+     "news_7d": 36,
+     "momentum_pct": 6,
+     "yt_week_videos": 19,
+     "yt_week_views": 801444,
+     "yt_best_vph": 17981,
+     "yt_top": "UPI's Zero-Fee Era Under Pressure? | The New 0.4% MDR Rule Explained B (431,534 views in 24h)",
+     "google_trending": [],
+     "desk_score": 7.0
     }
    ]
   },
@@ -415,6 +531,72 @@
    "readings": [
     {
      "date": "2026-10-10",
+     "desk_score": 6.0
+    },
+    {
+     "date": "2026-10-11",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 2,
+     "momentum_pct": 0,
+     "yt_week_videos": 12,
+     "yt_week_views": 352152,
+     "yt_best_vph": 2908,
+     "yt_top": "#1846 Market News Analysis (279,178 views in 96h)",
+     "google_trending": []
+    }
+   ]
+  },
+  {
+   "id": "musk-ambani-starlink",
+   "title": "Musk calls Ambani 'Prime Minister Ambani' over Starlink",
+   "query": "Musk Ambani|मस्क अंबानी",
+   "first_seen": "2026-10-11",
+   "lane": "hot",
+   "window_until": "2026-10-21",
+   "status": "active",
+   "notes": [
+    "First sent 11 Oct. Musk posts 8-10 Oct; govt: same stage for all three satcom operators; Jio 1,600-satellite plan; ties to Jio IPO 21 Oct."
+   ],
+   "readings": [
+    {
+     "date": "2026-10-11",
+     "desk_score": 8.0
+    }
+   ]
+  },
+  {
+   "id": "us-perm-indian-it",
+   "title": "US suspends TCS, Infosys, Wipro from green-card PERM; IT shares rise",
+   "query": "PERM suspension Infosys|ग्रीन कार्ड टीसीएस",
+   "first_seen": "2026-10-11",
+   "lane": "hot",
+   "window_until": "2026-10-17",
+   "status": "active",
+   "notes": [
+    "First sent 11 Oct. Suspension 8 Oct; Nifty IT +1,000 pts at one stage 9 Oct; The Ken: Infosys 0 certifications since 2023."
+   ],
+   "readings": [
+    {
+     "date": "2026-10-11",
+     "desk_score": 8.0
+    }
+   ]
+  },
+  {
+   "id": "hospital-drug-markup-sc",
+   "title": "SC on hospital drug markups: Rs 2,700 drug sold at Rs 27,000",
+   "query": "hospital medicine MRP Supreme Court|अस्पताल दवा एमआरपी",
+   "first_seen": "2026-10-11",
+   "lane": "deep",
+   "window_until": "2026-10-25",
+   "status": "active",
+   "notes": [
+    "First sent 11 Oct. Hearings 22 and 29 Sep; 16% uniform margin suggested; Centre's reply due at the 12 Oct hearing."
+   ],
+   "readings": [
+    {
+     "date": "2026-10-11",
      "desk_score": 6.0
     }
    ]
