@@ -1,7 +1,7 @@
 """Face-only swap with FaceFusion's models (yoloface, arcface, hyperswap/inswapper, bisenet, gfpgan).
 
 Every pixel outside the swapped face region comes from the source video.
-usage: ff_swap.py SOURCE_FACE.png TARGET.mp4 OUT.mp4 [--swapper hyperswap|inswapper] [--enhance 0.8] [--start 0] [--dur 10]
+usage: ff_swap.py SOURCE_FACE.png[,MORE_VIEWS.png...] TARGET.mp4 OUT.mp4 [--swapper hyperswap|inswapper] [--enhance 0.8] [--start 0] [--dur 10]
 """
 import argparse, os, subprocess, sys, tempfile
 import cv2, numpy as np, onnxruntime as ort
@@ -102,27 +102,33 @@ def main():
     a = ap.parse_args()
     det, emb, sw, par = Detector(), Embedder(), Swapper(a.swapper), Parser()
     enh = Enhancer() if a.enhance > 0 else None
-    src_img = cv2.imread(a.source); d = det(src_img)
-    if d is None: sys.exit('no face in source image')
-    e, en = emb(src_img, d[0]); src = sw.source(e, en)
+    es = []
+    for path in a.source.split(','):   # several views of one face: average their identities, as FaceFusion does
+        img = cv2.imread(path); d = det(img)
+        if d is None: print('no face in', path); continue
+        es.append(emb(img, d[0])[0])
+    if not es: sys.exit('no face in any source image')
+    e = np.mean(es, 0); src = sw.source(e, e / np.linalg.norm(e))
     cap = cv2.VideoCapture(a.target); fps = cap.get(cv2.CAP_PROP_FPS)
     cap.set(cv2.CAP_PROP_POS_MSEC, a.start * 1000)
     w, h = int(cap.get(3)), int(cap.get(4)); n = int(a.dur * fps) if a.dur else 10 ** 9
     tmp = tempfile.mkdtemp(); silent = os.path.join(tmp, 'v.mp4')
     vw = cv2.VideoWriter(silent, cv2.VideoWriter_fourcc(*'mp4v'), fps, (w, h))
-    i = miss = 0
+    i = miss = 0; prev = None
     while i < n:
         ok, f = cap.read()
         if not ok: break
         d = det(f)
-        if d is None: miss += 1
+        if d is None: miss += 1; prev = None
         else:
-            crop, A = warp(f, d[0], 'arcface_128', sw.size)
+            kps = d[0] if prev is None or np.abs(d[0] - prev).max() > 0.08 * d[2] else 0.6 * d[0] + 0.4 * prev   # steady small jitter, follow real moves
+            prev = kps
+            crop, A = warp(f, kps, 'arcface_128', sw.size)
             out, smask = sw(crop, src)
             m = box_mask(sw.size, 0.3) * par(crop)
             if smask is not None: m = m * cv2.GaussianBlur(smask, (0, 0), 2)
             f = paste(f, out, A, m)
-            if enh: f = enh(f, d[0], a.enhance)
+            if enh: f = enh(f, kps, a.enhance)
         vw.write(f); i += 1
         if i % 30 == 0: print(f'{i} frames, {miss} without a face', flush=True)
     vw.release()
