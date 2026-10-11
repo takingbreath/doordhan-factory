@@ -54,10 +54,10 @@ def bullets(items):
 
 
 def score_strip(sc):
-    cells = [("Momentum", sc["momentum"], 3), ("Stake", sc["stake"], 2), ("Shareability", sc["share"], 2),
-             ("Gap", sc["gap"], 2), ("Clarity", sc["clarity"], 1)]
+    cells = [("Momentum", sc["momentum"], 3), ("Stake", sc["stake"], 1 if "name" in sc else 2), ("Shareability", sc["share"], 2),
+             ("Gap", sc["gap"], 2), ("Known name", sc["name"], 2) if "name" in sc else ("Clarity", sc["clarity"], 1)]
     tds = "".join(
-        f'<td align="center" width="20%" style="padding:8px 2px;{"border-right:1px solid " + RULE if n != "Clarity" else ""}">'
+        f'<td align="center" width="20%" style="padding:8px 2px;{"border-right:1px solid " + RULE if n not in ("Clarity", "Known name") else ""}">'
         f'<div style="font:700 16px/1.2 {SANS};color:{INK}">{v}<span style="color:{MUTED};font-weight:400">/{m}</span></div>'
         f'<div style="font:400 11px/1.3 {SANS};color:{MUTED};margin-top:2px">{n}</div></td>' for n, v, m in cells)
     return (f'<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" '
@@ -212,8 +212,11 @@ def md(d, rows, standing):
     for s in d["stories"]:
         sc = s["score"]
         L += [f"## {s['id']}. {s['title']}", "",
-              f"{s['lane']} · {s['label']} · **{sc['total']}/10** (momentum {sc['momentum']}/3, stake {sc['stake']}/2, "
-              f"shareability {sc['share']}/2, gap {sc['gap']}/2, clarity {sc['clarity']}/1) · tracker id `{s['tracker_id']}`", "",
+              f"{s['lane']} · {s['label']} · **{sc['total']}/10** (momentum {sc['momentum']}/3, "
+              + (f"stake {sc['stake']}/1, shareability {sc['share']}/2, gap {sc['gap']}/2, known name {sc['name']}/2"
+                 if "name" in sc else
+                 f"stake {sc['stake']}/2, shareability {sc['share']}/2, gap {sc['gap']}/2, clarity {sc['clarity']}/1")
+              + f") · tracker id `{s['tracker_id']}`", "",
               f"Window: {s['window']}", "", "### What's happening"]
         L += [f"- {x}" for x in s["happening"]]
         L += ["", "### The curiosity gap"] + [f"- {x}" for x in s["curiosity_gaps"]]

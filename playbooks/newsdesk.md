@@ -35,10 +35,12 @@ No hooks, no "line worth sending", no script: Akhilesh writes those. Everything 
    | Factor | Points | What earns them |
    |---|---|---|
    | Momentum | 0–3 | 3 HOT (trending on Google, or a video on it gaining ≥3,000 views/hour within 72 h); 2 RISING (≥35% of the week's coverage came today, or uploads are accelerating); 1 FLAT; 0 COLD or fading. The deep lane can score 0 here. |
-   | Stake | 0–2 | Hits the viewer's money as an investor this week (2), some day (1), abstract (0). Our viewers watch for investing stories: everyday banking chores (a bank strike, a holiday, branch timings) score 0 here however hot they are (Akhilesh, 2026-09-26). |
+   | Stake | 0–1 | Hits the viewer's money as an investor, now or some day (1), abstract (0). Our viewers watch for investing stories: everyday banking chores (a bank strike, a holiday, branch timings) score 0 here however hot they are (Akhilesh, 2026-09-26). |
    | Shareability | 0–2 | Makes someone send it to a friend: outrage at the system, a surprising number, relatable pain, an "I told you so". |
    | Gap | 0–2 | Plenty of interest but few good Hinglish shorts on it (vidIQ competition low, few Shorts), or a deep-lane story nobody has made yet. 0 if everyone has already posted the same angle. |
-   | Clarity | 0–1 | One number or image that lands in two seconds. |
+   | Known name | 0–2 | 2: a company, brand or person every viewer already knows can be named or shown in frame one (a logo, a licensed photo, their real footage) with one number or question that lands in two seconds. 1: no known name, but one number or image that lands in two seconds. 0: neither. (Strategist, 2026-10-11: all four reels that opened on a known name reached 582–3,224 plays, all eight that didn't stayed at 94–303; stake was worth less than it scored: Nana Patekar's story had no investor stake and is our best reel.) |
+
+   In the research JSON the score keys are `momentum`, `stake`, `share`, `gap` and `name` (Known name; files before 2026-10-11 used `clarity`, out of 1, and `stake` out of 2, and still render).
 
    Also note the **window**: until when the story stays relevant, e.g. "post by Sun 27 Sep; the strike starts Monday".
 8. **Find what others are making** on each of the top five:

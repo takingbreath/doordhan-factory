@@ -50,15 +50,15 @@ Stage 1 targets are live in the block below. Stages 2 and 3 are the plan after t
 
 ## The book and where we stand
 <!-- scoreboard -->
-_Updated 2026-10-10 21:32 IST by `scoreboard.py write`._
+_Updated 2026-10-11 21:34 IST by `scoreboard.py write`._
 
 **Stage 1: Stop the scroll** (2026-09-26 to 2026-10-25): prove people stop for our reels and stay to the end
 
 - skip rate %: now 55.9, target 45 → not yet
 - watched %: now 29.5, target 45 → not yet
 - median plays at 72 h: now 226, target 500 → not yet
-- best reel's plays: now 2420, target 2000 → on target
-- followers: now 213, target 100 → on target
+- best reel's plays: now 3224, target 2000 → on target
+- followers: now 291, target 100 → on target
 - strategy stop: 10/20 reels posted this stage; median plays at 72 h now 226, must reach 300
 
 | Bet | Lever | Judged on | Baseline | Now | Target | Stop | Reels (judged/carried) | Verdict |
@@ -66,22 +66,22 @@ _Updated 2026-10-10 21:32 IST by `scoreboard.py write`._
 | B1 Hook in frame one | Frame 1: the anchor looks into the lens, already saying the viewer's stake; the hook in 6 big words or fewer on screen; nothing (Namaskar, title, logo) before it; a cut or punch-in by 1 s; cover = frame 1 | skip rate % | 60.7 | 52.4 | 45 | 58 | 3/3 (judge at 3, max 6) | **HOLD** 3 reels, between stop and target |
 | B2 Tight 20-30 s | 20-30 s total; title montage 1.5 s or less and only after the hook; payoff by 20 s; the last line echoes the hook so a replay feels natural; no dead air | watched % | 26.3 | 38.6 | 45 | 32 | 1/1 (judge at 3, max 6) | **HOLD** 1/3 reels |
 | B3 A line worth sending | Every script lands one line a viewer would forward to a specific person (a number to remember, a jab at the system, an 'I told you so'); never ask for shares | sends per 1k plays | 2.6 | 3.2 | 8 | 2 | 3/4 (judge at 4, max 6) | **HOLD** 3/4 reels |
-| W1 Glam Sarika | Sarika in the glam wardrobe (formats/samachar.md) on every Samachar reel | skip rate % | 66.9 | 55.6 | – | – | 3/3 (judge at 3, max 6) | **WATCH** tracked; judged at the monthly review |
+| W1 Glam Sarika | Sarika in the glam wardrobe (formats/samachar.md) on every Samachar reel | skip rate % | 66.9 | 55.7 | – | – | 3/3 (judge at 3, max 6) | **WATCH** tracked; judged at the monthly review |
+| W2 Famous name in frame one | Frame one shows a company, brand or person every viewer already knows (their name, logo, or a licensed photo or real footage), with the number or question it turns on | median plays at 72 h | 243 | 2388 | – | – | 3/4 (judge at 3, max 6) | **WATCH** tracked; judged at the monthly review |
 <!-- /scoreboard -->
 
 ## This week's plan
 _Written by the strategist every Sunday. The morning session executes it: each story option says which bets it carries, and each script says how it carries them._
 
-**Week of Mon 5 Oct (written Sun 4 Oct)**
-- **The strategy (Akhilesh, 4 Oct): current affairs bring viewers in, Sahayata Kendra gives them value.** Sarika and Gupta's Samachar reels ride the news cycle for reach; Sahayata Kendra episodes are evergreen topics that still mean something in a few months, never news. Still an experiment; no pivot, and consistency for the next few weeks is the lever.
-- **Mix: at least 4 of 7 reels are short Samachar reels (20–30 s) on current affairs, carrying all three tests;** Sahayata Kendra (evergreen) at most 2 this week. The tight-length test got no new reel in 9 days because the week went to 66–67 s episodes.
-- **Hook in frame one (skip rate, 52.5% on 3 reels, target 45%):** the on-screen hook is the rupee or % number the story turns on, 6 big words or fewer, spoken to camera from frame 1, as Policybazaar did. Sahayata keeps its hook strip from frame one (E6 and E7 are at 31–37% early).
-- **Tight 20–30 s (watched %, 39.5% on 1 reel, target 45%):** our viewers give about 12 s on every reel, so the payoff lands by 12 s, the reel ends by 25 s, and the last line echoes the hook.
-- **A line worth sending (sends per 1k, 3.8 on 3 reels, target 8):** the sendable line goes inside the first 12 s, not at the end; never ask for shares.
-- **Ride now:** the market slump as one rupee number ("Sitambar mein ₹23 lakh crore saaf. Aapke SIP ka kya?"), Samachar, 20–25 s, index level only, figure checked at the desk. Then "1 October se kya badla" for salaried viewers. Big movers with a clear cause stay the desk's first source.
-- **Posting:** one reel a day, 7 days, 7–9 pm IST (E6 and E7 went up at 17:00). Stage 1 now runs to 25 Oct and the strategy stop is judged after 20 reels, so consistency is the test: no day skipped. Trial Reel whenever the option shows.
-- **Every reel through the log:** `scoreboard.py add-reel` with bets, credits and the desk score before it posts. Three of nine reels can't be judged. Reels made outside the loop are Naveen's (X1, X2, likely E4): log them with their tests and credits too.
-- **Watching:** E6 and E7 at 72 h (does the low skip survive non-followers?); E7's saves (the checklist); followers to 100 by 11 Oct.
+**Week of Mon 12 Oct (written Sun 11 Oct)**
+- **Lead every day with a known name.** The desk's first option is a company, brand or person every viewer already knows, in the news or with a money decision worth a story, shown in frame one (logo, licensed photo or their real footage) with the number or question it turns on. All four reels that did this reached 582–3,224 plays; all eight that didn't stayed at 94–303. The desk now scores it ("Known name", 0–2, playbooks/newsdesk.md) and the watch item "famous name in frame one" tracks it.
+- **Ride now: two creator-format reels this week** on a famous Indian's money decision (an actor, cricketer or founder: what they did with a big sum and why), opened on their real footage or a licensed photo, as Nana Patekar did (3,224 plays, 78 likes per 1k, followers 213 → 291 in a day). End on what the series is ("har hafte ek famous paisa faisla") so the follow has a reason.
+- **Tight 20–30 s (watched %, 38.6% on 1 reel since 26 Sep):** every Samachar and creator reel is 20–30 s, never over 30 (CLAUDE.md), payoff by 12 s, the last line echoes the hook. This week's three reels ran 39, 57 and 42 s, so the length test got nothing for a second week.
+- **Hook in frame one (skip rate, 52.4% on 3 reels):** where the known name opens the reel, the anchor or Rashmi says the stake over it inside the first second; the 6-word hook text sits on screen from frame one either way.
+- **A line worth sending (sends per 1k, 3.2 on 3 of 4 reels):** one line inside the first 12 s a viewer would forward to a specific person; never ask for shares.
+- **Posting:** one reel a day, 7–9 pm IST, no day skipped. Stage 1 has 10 of 20 reels with 14 days left, so 10 reels by 25 Oct means at least 5 this week. Trial Reel whenever the option shows.
+- **Every reel through the log** (`scoreboard.py add-reel` with bets, credits and the desk score before it posts): E8, E9 and E10 carried no score, so the desk can't be calibrated yet.
+- **Watching:** E10 at 72 h (Monday night) and whether followers keep converting; the US green-card freeze on Indian IT (two outliers this week, 1.1M and 2.6M); vidIQ's owner feed (down since 9 Oct: no skip, watched or sends for E10).
 
 ## Working rhythm
 | When | Who | What |
@@ -159,3 +159,11 @@ _Written by the strategist every Sunday. The morning session executes it: each s
 - 2026-10-08 (Akhilesh): the morning desk email is now HTML research only (facts, what others are making, the curiosity gap, the tracker board; no hooks or scripts; English). Keep this exact format every day; review whether it's working around Wed 14 Oct.
 - 2026-10-09 (nightly): vidIQ owner insights unavailable at 21:31 ("Meta token is inactive"; the account list says active, as on 28 Sep). Akhilesh to reconnect Instagram in vidIQ. Public counts only (ig_profile_reels): no new reel since E9, and every older reel within 0–7 plays of last night, so public readings logged only for E8 (2,395) and E9 (553 at 72 h); no bets judged on public data. No stop or target hit; all bets HOLD (hook in frame one 52.4% on 3 reels; tight 20–30 s 38.6% on 1; a line worth sending 3.2 per 1k on 3 of 4). Stage median plays at 72 h 187 with E8 matured (10 readings, 9 of 20 stage reels). No reel posted 7, 8 or 9 Oct: three days off the 7-a-week plan, with 11 stage reels needed in 16 days. Followers not read (owner feed down).
 - 2026-10-10 (nightly): Nana Patekar (E10, creator format, posted 9 Oct about 22:00) is taking off: 1,768 public plays at about 23 h, about 8× the ~214 median of our reels at a day old. Linked to DeSScR6ycpo; it carries no bet. Ride-now line added to docs/learnings.md: a famous Indian's money decision, told in the creator format, under 30 s. vidIQ owner insights unavailable for a second night ("Meta token is inactive"); public counts only, logged for E10, E9 (582) and E8 (2,420); no bets judged on public data. Followers 213 (public profile; +4 since 8 Oct). No stop or target hit; all bets HOLD (hook in frame one 52.4% on 3 reels; tight 20–30 s 38.6% on 1; a line worth sending 3.2 per 1k on 3 of 4). Stage median plays at 72 h 226 (10 of 20 reels). Instagram lists E10 at 84 s against the 42.1 s final: to confirm.
+- 2026-10-11 (weekly review):
+  - vidIQ owner insights unavailable for a third night ("Meta token is inactive"); public counts only, logged for E10 (3,224 at 48 h, 252 likes), E9 (598), E8 (2,434) and E3 (2,425). Followers 291 (public profile), +78 since last night and +204 in the week (87 → 291). No bets judged on public data; no stop or target hit; all bets HOLD.
+  - The week: 3 reels (E8 Snapdeal, E9 HUL, E10 Nana Patekar) against a plan of 7, about 6,500 plays (about 10× the week before) and 297 episode credits (about 47 per 1,000 plays on the week's reels). None of the three carried a bet, so the book has not moved since 4 Oct; tight 20–30 s still has 1 judged reel.
+  - Weakest stage: stop. Skip rate 55.9% against 45%, and the three breakouts skipped at 54–55% too: they won on distribution, not the opening.
+  - Book unchanged (full at 3, nothing at a stop, target or time stop). New watch item W2, "famous name in frame one", tracked on median plays at 72 h (243 baseline across all reels; 2,388 on the 3 matured W2 reels). Not traded: confounded with topic.
+  - Desk grading weights changed: Stake 0–2 → 0–1, Clarity 0–1 → "Known name" 0–2 (playbooks/newsdesk.md; desk_report.py renders both). Evidence: four known-name openers at 582–3,224 plays vs eight others at 94–303; E10 had no investor stake and is the best reel.
+  - Asked Akhilesh to keep his scripts to 30 s so the length test can be judged, and to reconnect Instagram in vidIQ.
+  - Platform: YouTube Shorts now favours original clips and cuts reach for re-uploaders (1 Oct); the creator format's film clips stay a few seconds inside our own edit. No Instagram ranking, SEBI or MeitY change found.

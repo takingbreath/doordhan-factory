@@ -43,6 +43,12 @@
       "lever": "Sarika in the glam wardrobe (formats/samachar.md) on every Samachar reel",
       "thesis": "Akhilesh: a glamorous anchor is a hook for this audience. Confounded with B1 on skip rate while both run, so it is compared with the other formats at the monthly review",
       "metric": "skip_rate", "baseline": 66.9, "target": null, "stop": null, "min_reels": 3, "max_reels": 6
+    },
+    {
+      "id": "W2", "name": "Famous name in frame one", "status": "watch", "opened": "2026-10-11", "applies": "reels whose frame one names or shows a company, brand or person every viewer knows",
+      "lever": "Frame one shows a company, brand or person every viewer already knows (their name, logo, or a licensed photo or real footage), with the number or question it turns on",
+      "thesis": "All four reels that opened on a known name (Policybazaar, Snapdeal/Kunal Bahl, HUL, Nana Patekar) reached 582-3,224 plays; all eight that didn't stayed at 94-303. Their skip rates (54-64%) were no better, so it works through distribution, not the opening. Confounded with topic choice, so tracked, not traded",
+      "metric": "views", "baseline": 243, "target": null, "stop": null, "min_reels": 3, "max_reels": 6
     }
   ]
 }
