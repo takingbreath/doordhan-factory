@@ -65,6 +65,18 @@
      "yt_top": "BIZ Adda : जियो IPO की तैयारी तेज, रोडमैप फाइनल! | BIZ Tak (48,915 views in 24h)",
      "google_trending": [],
      "desk_score": 7.0
+    },
+    {
+     "date": "2026-10-12",
+     "label": "FLAT",
+     "news_1d": null,
+     "news_7d": 100,
+     "momentum_pct": 0,
+     "yt_week_videos": 10,
+     "yt_week_views": 403318,
+     "yt_best_vph": 1612,
+     "yt_top": "Musk vs Ambani: “Prime Minister Ambani?” Impact on Jio IPO, Reliance & (38,678 views in 24h)",
+     "google_trending": []
     }
    ],
    "lane": "hot"
@@ -128,6 +140,18 @@
      "yt_best_vph": 12273,
      "yt_top": "Ramayana in Real Trouble? Production house raided by income tax depart (883,647 views in 72h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-12",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 14,
+     "yt_week_views": 1050808,
+     "yt_best_vph": 9372,
+     "yt_top": "Ramayana in Real Trouble? Production house raided by income tax depart (899,728 views in 96h)",
+     "google_trending": []
     }
    ],
    "lane": "hot"
@@ -190,6 +214,18 @@
      "yt_week_views": 40273,
      "yt_best_vph": 496,
      "yt_top": "China Rejects Claims the Yuan Is Undervalued (11,896 views in 24h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-10-12",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 17,
+     "yt_week_views": 67347,
+     "yt_best_vph": 267,
+     "yt_top": "China Rejects Claims the Yuan Is Undervalued (12,833 views in 48h)",
      "google_trending": []
     }
    ],
@@ -311,7 +347,7 @@
    "first_seen": "2026-10-08",
    "lane": "hot",
    "window_until": "2026-10-11",
-   "status": "made",
+   "status": "retired",
    "notes": [
     "Died in Goa 8 Oct, 75. Money angle: Rs 1.5 cr car money to farmer families (2015), Naam Foundation. Respectful only; no likeness beyond a licensed photo."
    ],
@@ -355,9 +391,25 @@
      "yt_best_vph": 90355,
      "yt_top": "RIP Comedian Nana Patekar - SHOCKING Facts About Legend Actor #shorts (2,168,522 views in 24h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-12",
+     "label": "HOT (saturated: everyone has it; needs a sharper angle)",
+     "news_1d": 100,
+     "news_7d": 100,
+     "momentum_pct": 100,
+     "yt_week_videos": 18,
+     "yt_week_views": 27305534,
+     "yt_best_vph": 110559,
+     "yt_top": "Nana Patekar’s Final Reflections On Life, Mortality & Legacy | Exclusi (7,960,231 views in 72h)",
+     "google_trending": []
     }
    ],
-   "made_episode": "E10"
+   "made_episode": "E10",
+   "retired": {
+    "date": "2026-10-12",
+    "reason": "past its window"
+   }
   },
   {
    "id": "market-crash-oct8",
@@ -397,6 +449,18 @@
      "yt_week_views": 2946234,
      "yt_best_vph": 41882,
      "yt_top": "AMERICANS CELEBRATE CRASH OF INDIAN STOCK MARKET | So Much Hate For Bh (1,005,164 views in 24h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-10-12",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 4,
+     "momentum_pct": 0,
+     "yt_week_videos": 16,
+     "yt_week_views": 1777684,
+     "yt_best_vph": 6888,
+     "yt_top": "The upcoming stock market collapse (& how to prepare for it) (661,295 views in 96h)",
      "google_trending": []
     }
    ]
@@ -440,6 +504,18 @@
      "yt_best_vph": 1565,
      "yt_top": "Tcs Q2 Results 2027 | Tcs Results Today | Tcs Share News Today | Tcs D (75,114 views in 48h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-12",
+     "label": "FLAT",
+     "news_1d": 2,
+     "news_7d": 40,
+     "momentum_pct": 5,
+     "yt_week_videos": 14,
+     "yt_week_views": 190558,
+     "yt_best_vph": 1055,
+     "yt_top": "Tcs Q2 Results 2027 | Tcs Results Today | Tcs Share News Today | Tcs D (75,974 views in 72h)",
+     "google_trending": []
     }
    ]
   },
@@ -482,6 +558,18 @@
      "yt_best_vph": 674,
      "yt_top": "重生 80 年代，心疼受盡欺負的妻子，靠茶葉蛋賺第一桶金，逆襲坐擁工廠 (32,356 views in 48h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-12",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 1,
+     "momentum_pct": 0,
+     "yt_week_videos": 12,
+     "yt_week_views": 68795,
+     "yt_best_vph": 497,
+     "yt_top": "重生 80 年代，心疼受盡欺負的妻子，靠茶葉蛋賺第一桶金，逆襲坐擁工廠 (35,756 views in 72h)",
+     "google_trending": []
     }
    ]
   },
@@ -514,6 +602,18 @@
      "yt_top": "UPI's Zero-Fee Era Under Pressure? | The New 0.4% MDR Rule Explained B (431,534 views in 24h)",
      "google_trending": [],
      "desk_score": 7.0
+    },
+    {
+     "date": "2026-10-12",
+     "label": "FLAT",
+     "news_1d": 3,
+     "news_7d": 43,
+     "momentum_pct": 7,
+     "yt_week_videos": 13,
+     "yt_week_views": 302336,
+     "yt_best_vph": 2119,
+     "yt_top": "UPI Charges Postponed? | UPI MDR May Be Deferred Till January 1 | @Sak (152,558 views in 72h)",
+     "google_trending": []
     }
    ]
   },
@@ -544,6 +644,18 @@
      "yt_best_vph": 2908,
      "yt_top": "#1846 Market News Analysis (279,178 views in 96h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-12",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 2,
+     "momentum_pct": 0,
+     "yt_week_videos": 10,
+     "yt_week_views": 358262,
+     "yt_best_vph": 2330,
+     "yt_top": "#1846 Market News Analysis (279,584 views in 120h)",
+     "google_trending": []
     }
    ]
   },
@@ -556,12 +668,26 @@
    "window_until": "2026-10-21",
    "status": "active",
    "notes": [
-    "First sent 11 Oct. Musk posts 8-10 Oct; govt: same stage for all three satcom operators; Jio 1,600-satellite plan; ties to Jio IPO 21 Oct."
+    "First sent 11 Oct. Musk posts 8-10 Oct; govt: same stage for all three satcom operators; Jio 1,600-satellite plan; ties to Jio IPO 21 Oct.",
+    "2026-10-12: Musk promises affordable Starlink (Sat 10 Oct); Jio targets $106 bn"
    ],
    "readings": [
     {
      "date": "2026-10-11",
      "desk_score": 8.0
+    },
+    {
+     "date": "2026-10-12",
+     "label": "HOT",
+     "news_1d": 3,
+     "news_7d": 38,
+     "momentum_pct": 8,
+     "yt_week_videos": 18,
+     "yt_week_views": 1667305,
+     "yt_best_vph": 7599,
+     "yt_top": "Elon Musk Double Standards? Ambani vs Musk #shorts (182,368 views in 24h)",
+     "google_trending": [],
+     "desk_score": 9.0
     }
    ]
   },
@@ -580,6 +706,18 @@
     {
      "date": "2026-10-11",
      "desk_score": 8.0
+    },
+    {
+     "date": "2026-10-12",
+     "label": "HOT",
+     "news_1d": 0,
+     "news_7d": 1,
+     "momentum_pct": 0,
+     "yt_week_videos": 16,
+     "yt_week_views": 1310342,
+     "yt_best_vph": 5567,
+     "yt_top": "Infosys, Wipro among 8 IT firms suspended from green card programme |  (400,844 views in 72h)",
+     "google_trending": []
     }
    ]
   },
@@ -597,6 +735,54 @@
    "readings": [
     {
      "date": "2026-10-11",
+     "desk_score": 6.0
+    },
+    {
+     "date": "2026-10-12",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 7,
+     "yt_week_views": 6689,
+     "yt_best_vph": 46,
+     "yt_top": "Today UP News October 07, 2026 | Breaking News Live | Uttar Pradesh La (5,572 views in 120h)",
+     "google_trending": []
+    }
+   ]
+  },
+  {
+   "id": "hdfc-ceo-pay-sbi",
+   "title": "HDFC Bank's new CEO ₹35.9 cr vs SBI chairman ₹43 lakh",
+   "query": "HDFC Bank CEO salary|एचडीएफसी बैंक सीईओ सैलरी",
+   "first_seen": "2026-10-12",
+   "lane": "hot",
+   "window_until": "2026-10-27",
+   "status": "active",
+   "notes": [
+    "Bagchi package via postal ballot; desk 12 Oct"
+   ],
+   "readings": [
+    {
+     "date": "2026-10-12",
+     "desk_score": 9.0
+    }
+   ]
+  },
+  {
+   "id": "gauahar-khan-flat",
+   "title": "Gauahar Khan's Versova duplex: 88% in 12 years",
+   "query": "Gauahar Khan flat|गौहर खान फ्लैट",
+   "first_seen": "2026-10-12",
+   "lane": "deep",
+   "window_until": "2026-10-26",
+   "status": "active",
+   "notes": [
+    "creator-format option; desk 12 Oct"
+   ],
+   "readings": [
+    {
+     "date": "2026-10-12",
      "desk_score": 6.0
     }
    ]
