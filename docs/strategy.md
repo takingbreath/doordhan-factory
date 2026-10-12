@@ -50,14 +50,14 @@ Stage 1 targets are live in the block below. Stages 2 and 3 are the plan after t
 
 ## The book and where we stand
 <!-- scoreboard -->
-_Updated 2026-10-11 21:34 IST by `scoreboard.py write`._
+_Updated 2026-10-12 21:32 IST by `scoreboard.py write`._
 
 **Stage 1: Stop the scroll** (2026-09-26 to 2026-10-25): prove people stop for our reels and stay to the end
 
 - skip rate %: now 55.9, target 45 → not yet
 - watched %: now 29.5, target 45 → not yet
 - median plays at 72 h: now 226, target 500 → not yet
-- best reel's plays: now 3224, target 2000 → on target
+- best reel's plays: now 3275, target 2000 → on target
 - followers: now 291, target 100 → on target
 - strategy stop: 10/20 reels posted this stage; median plays at 72 h now 226, must reach 300
 
@@ -167,3 +167,4 @@ _Written by the strategist every Sunday. The morning session executes it: each s
   - Desk grading weights changed: Stake 0–2 → 0–1, Clarity 0–1 → "Known name" 0–2 (playbooks/newsdesk.md; desk_report.py renders both). Evidence: four known-name openers at 582–3,224 plays vs eight others at 94–303; E10 had no investor stake and is the best reel.
   - Asked Akhilesh to keep his scripts to 30 s so the length test can be judged, and to reconnect Instagram in vidIQ.
   - Platform: YouTube Shorts now favours original clips and cuts reach for re-uploaders (1 Oct); the creator format's film clips stay a few seconds inside our own edit. No Instagram ranking, SEBI or MeitY change found.
+- 2026-10-12 (nightly): Quiet. vidIQ owner insights unavailable for a fourth night ("Meta token is inactive"; the account list still says active); public counts only, no bets judged on public data. No reel posted on 10, 11 or 12 Oct (the plan says one a day; 10 of 20 stage reels with 13 days left). Nana Patekar (E10) 3,275 public plays at 71.6 h (257 likes), flattening (+51 on the day); every older reel within 0–3 plays of last night, so only E10 logged. Followers 291 (public profile, flat). No stop or target hit; all bets HOLD (hook in frame one 52.4% on 3 reels; tight 20–30 s 38.6% on 1; a line worth sending 3.2 per 1k on 3 of 4). vidIQ credits this week: 10.
