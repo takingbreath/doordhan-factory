@@ -12,7 +12,7 @@ Label history reads oldest to newest: H hot, R rising, F flat, C cold.
 | International ETFs trading far above NAV (NSE warning) (`intl-etf-premium`) | active | COLD | rising | 6 | C C C C C C | 0/0 | 111,096 | 1,859 | 6 | 2026-10-22 |
 | TCS: profit +15%, share -35% in 2026 (`tcs-q2-profit-share`) | active | FLAT | steady | 5 | H F F F | 4/41 | 206,469 | 801 | 8 | 2026-10-14 |
 | SC orders panel on pharma freebies to doctors (`pharma-freebies-sc`) | active | COLD | steady | 5 | C C C C | 0/1 | 56,143 | 398 | 6 | 2026-10-23 |
-| UPI merchant fee (0.4% MDR) may be deferred to 1 Jan (`upi-mdr-deferral`) | active | HOT | rising | 4 | H F H | 5/41 | 907,121 | 6,495 | 7 | 2026-10-16 |
+| UPI merchant fee (0.4% MDR) may be deferred to 1 Jan (`upi-mdr-deferral`) | active | HOT | rising | 4 | H F H | 5/41 | 907,121 | 6,495 | 8 | 2026-10-16 |
 | Inox Clean: revenue 43X, debt 45X, IPO on hold (`inox-clean-ipo`) | active | COLD | steady | 4 | C C C | 0/2 | 352,154 | 1,948 | 6 | 2026-10-24 |
 | Musk calls Ambani 'Prime Minister Ambani' over Starlink (`musk-ambani-starlink`) | active | HOT | rising | 3 | H H | 2/43 | 6,750,511 | 109,241 | 9 | 2026-10-21 |
 | US suspends TCS, Infosys, Wipro from green-card PERM; IT shares rise (`us-perm-indian-it`) | active | COLD | fading | 3 | H C | 0/1 | 1,305,201 | 4,441 | 8 | 2026-10-17 |
@@ -33,7 +33,7 @@ Label history reads oldest to newest: H hot, R rising, F flat, C cold.
 - **International ETFs trading far above NAV (NSE warning):** First sent 8 Oct (deep lane). NSE caution 7 Oct; BSE 25 Sep.
 - **TCS: profit +15%, share -35% in 2026:** First sent 9 Oct. Q2 profit ₹13,884 cr; +4,258 staff; AI $3.1 bn.
 - **SC orders panel on pharma freebies to doctors:** First sent 9 Oct (deep lane). Order 8 Oct; panel reports in ~2 months; hearing 29 Jan 2027.
-- **UPI merchant fee (0.4% MDR) may be deferred to 1 Jan:** 2026-10-11: 11 Oct: steering committee meeting of 9 Oct not held; 15 Oct still officially stands
+- **UPI merchant fee (0.4% MDR) may be deferred to 1 Jan:** 2026-10-13: 13 Oct: no decision yet, 15 Oct stands; IIT-Bombay study says 0.08% (PTI, 11 Oct)
 - **UPI merchant fee (0.4% MDR) may be deferred to 1 Jan:** 2026-10-13: 13 Oct: no decision yet, 15 Oct stands; IIT-Bombay study says 0.08% (PTI, 11 Oct)
 - **Inox Clean: revenue 43X, debt 45X, IPO on hold:** First sent 10 Oct (via The Ken, 9 Oct). SEBI observations in abeyance.
 - **Musk calls Ambani 'Prime Minister Ambani' over Starlink:** First sent 11 Oct. Musk posts 8-10 Oct; govt: same stage for all three satcom operators; Jio 1,600-satellite plan; ties to Jio IPO 21 Oct.

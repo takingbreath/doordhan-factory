@@ -4,7 +4,7 @@ Session: https://claude.ai/code/session_0187AsGdubzrjpFRE16YVhB7
 
 **Pick: story 1.** This week's plan asks for two creator-format reels on a famous Indian's money decision, and Virat Kohli is the most-watched name in Indian Reels this week (the ₹5 crore Premanand rumour drew 1.5M–4.1M views on four separate reels). The money story is fresh and almost unmade: Anushka Sharma, her parents and Kohli have put about ₹44 crore into three flats on one floor of a Versova tower that won't be handed over until June 2031. The best Short on it has 5,100 views. The angle nobody has taken is the decision itself: about ₹2.5 crore of stamp duty already paid on flats that don't exist yet, five years of payments tied to construction, and roughly ₹69,000 a sq ft. That fits 20–30 s and opens on a name every viewer knows.
 
-Runner-up: 2, the rupee: the hottest money story of the morning (80% of the week's news landed in the last day; Vijay Sardana's video 218K views in its first day). The dollar touched about ₹97, the RBI raised rates for the first time since 2023 and then announced emergency measures on Saturday. It suits Sarika on the news desk. Story 3 is the deep lane: UPI's 0.4% merchant fee is due on Thursday with no decision yet, and an IIT-Bombay study says it should be 0.08%.
+Runner-up: 2, the rupee: the hottest money story of the morning (80% of the week's news landed in the last day; Vijay Sardana's video 218K views in its first day). The dollar touched about ₹97, the RBI raised rates for the first time since 2023 and then announced emergency measures on Saturday. It suits Sarika on the news desk. Story 3 (also 8/10) is the deep lane: UPI's 0.4% merchant fee is due on Thursday with no decision yet, and an IIT-Bombay study says it should be 0.08%.
 
 ## 1. Kohli and Anushka's ₹44 crore: three flats on one floor, ready in 2031
 
@@ -75,7 +75,7 @@ Window: Tue 13 to Fri 16 Oct: the daily-reserve rule starts with the fortnight b
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [Vijay Sardana (YouTube)](https://www.youtube.com/watch?v=u8UZXJxNucs) | 'Rupee in crisis, RBI's big action': commentary on the package, crude and the dollar | 218K | – | 12 Oct |
+| [Vijay Sardana (YouTube)](https://www.youtube.com/watch?v=u8UZXJxNucs) | 20-min 'Rupee in crisis, RBI's big action': is ₹100 a dollar just a number, and who pays (fuel, medicines, foreign education) | 218K | – | 11 Oct |
 | [@naman_sharma_ias_academy (Instagram)](https://www.instagram.com/reel/DeWtAvHO8S1/) | Pen on a newspaper headline, then a hand-drawn flowchart of the 99% daily CRR rule | 912K | 14.9× median | this week |
 | [CA Jai Gupta (YouTube Short)](https://www.youtube.com/watch?v=0-41NAOVLZk) | 1:51 explainer: oil companies' dollar window, derivatives rules, is the recovery real | 1.1K | 24× median | 12 Oct |
 
@@ -95,7 +95,7 @@ _Coverage is either long commentary or exam-style mechanics (CRR, FERR). Nobody 
 
 ## 3. UPI's 0.4% merchant fee is due Thursday. An IIT-Bombay study says it should be 0.08%.
 
-Deep lane (tracked; new turn: IIT-Bombay study, via Moneylife and PTI) · FLAT · **7/10** (momentum 1/3, stake 1/1, shareability 1/2, gap 2/2, known name 2/2) · tracker id `upi-mdr-deferral`
+Deep lane (tracked; new turn: IIT-Bombay study, via Moneylife and PTI) · HOT · **8/10** (momentum 2/3, stake 1/1, shareability 1/2, gap 2/2, known name 2/2) · tracker id `upi-mdr-deferral`
 
 Window: Tue 13 to Thu 15 Oct: the fee is due to start on 15 Oct unless NPCI defers it; the decision itself is the next peg.
 
@@ -111,7 +111,7 @@ Window: Tue 13 to Thu 15 Oct: the fee is due to start on 15 Oct unless NPCI defe
 - Will the shopkeeper simply add it to your bill?
 
 ### How hot it is
-- Trend meter: FLAT ("UPI MDR": 11 of 100 news items this week landed today; 16 YouTube videos this week, 6 in 24 h; best 31,714 views in 24 h). Tracker history: HOT on 10 Oct, then FLAT.
+- Two readings this morning disagree: the tracker's check reads HOT and rising (907K YouTube views this week on the story, best 6,495 an hour); a narrower 'UPI MDR' query reads FLAT (11 of 100 news items this week landed today; best 31,714 views in 24 h). Scored RISING (2) between them.
 - The September announcement was one of the season's biggest money topics on Instagram (below, up to 3.9M). The IIT-Bombay study has not been made as a Short at all.
 
 ### What others are making
