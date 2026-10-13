@@ -1,140 +1,140 @@
-# Doordhan desk research — Mon 12 Oct 2026
+# Doordhan desk research — Tue 13 Oct 2026
 
-Session: https://claude.ai/code/session_01Aja5NL2kR38ReqZ52nhAcq
+Session: https://claude.ai/code/session_0187AsGdubzrjpFRE16YVhB7
 
-**Pick: story 1.** HDFC Bank and SBI are the two banks every viewer has an account with, and one number does the work in two seconds: the new HDFC Bank CEO's proposed ₹35.9 crore against the SBI chairman's ₹43.19 lakh, about 83 times. It is the week's biggest money outlier on Instagram (1.6M at 239× the creator's median) and still rising on YouTube, yet every reel so far is a 5–20 s static comparison. Nobody has said what the ₹35.9 crore actually is (₹3.32 crore of it is salary; three quarters is a target bonus, half of it in shares). That is the value-over-news angle that worked for Snapdeal and Policybazaar, and it fits a tight 20–30 s.
+**Pick: story 1.** This week's plan asks for two creator-format reels on a famous Indian's money decision, and Virat Kohli is the most-watched name in Indian Reels this week (the ₹5 crore Premanand rumour drew 1.5M–4.1M views on four separate reels). The money story is fresh and almost unmade: Anushka Sharma, her parents and Kohli have put about ₹44 crore into three flats on one floor of a Versova tower that won't be handed over until June 2031. The best Short on it has 5,100 views. The angle nobody has taken is the decision itself: about ₹2.5 crore of stamp duty already paid on flats that don't exist yet, five years of payments tied to construction, and roughly ₹69,000 a sq ft. That fits 20–30 s and opens on a name every viewer knows.
 
-Runner-up: 2, Musk's new turn: he now promises 'affordable' Starlink in a country where data costs about 8 cents a GB, days before Jio asks for a $106 billion valuation. Hottest story on the board (Abhi and Niyu's explainer 1.2M in a day), and a natural part 2 if we want a series to the IPO. Story 3 is the creator-format option the strategist asked for twice this week.
+Runner-up: 2, the rupee: the hottest money story of the morning (80% of the week's news landed in the last day; Vijay Sardana's video 218K views in its first day). The dollar touched about ₹97, the RBI raised rates for the first time since 2023 and then announced emergency measures on Saturday. It suits Sarika on the news desk. Story 3 is the deep lane: UPI's 0.4% merchant fee is due on Thursday with no decision yet, and an IIT-Bombay study says it should be 0.08%.
 
-## 1. HDFC Bank's new CEO: ₹35.9 crore a year. SBI's chairman: ₹43 lakh.
+## 1. Kohli and Anushka's ₹44 crore: three flats on one floor, ready in 2031
 
-Hot lane (new) · HOT · **9/10** (momentum 3/3, stake 1/1, shareability 2/2, gap 1/2, known name 2/2) · tracker id `hdfc-ceo-pay-sbi`
+Hot lane (new; the creator-format slot in This week's plan) · FLAT · **8/10** (momentum 1/3, stake 1/1, shareability 2/2, gap 2/2, known name 2/2) · tracker id `kohli-anushka-versova-flats`
 
-Window: Mon 12 to about Thu 15 Oct while the comparison is circulating; a second peg when Bagchi takes charge on 27 Oct.
+Window: Tue 13 to about Fri 16 Oct, while the ₹44 crore figure is circulating (first reported 7–8 Oct, again by Business Today on 12 Oct). Kohli stays the week's hottest name whatever the peg.
 
 ### What's happening
-- Anup Bagchi, now MD & CEO of ICICI Prudential Life, takes over as HDFC Bank's MD & CEO on 27 Oct for three years, succeeding Sashidhar Jagdishan. The bank's postal ballot notice (reported 8–9 Oct) asks shareholders to approve his pay.
-- The proposed package is ₹35.9 crore a year: ₹8.97 crore fixed (of which ₹3.32 crore is salary; the rest allowances, retirement benefits and perks) plus a target variable pay of ₹26.92 crore for 2026-27, which is 300% of fixed pay. Of the variable part, ₹8.88 crore is cash (₹4.44 crore upfront, the rest over three years) and ₹18.04 crore is in share-linked instruments.
-- On top: a joining award of about ₹7.35 crore in share-linked instruments over four years, up to two company cars of up to ₹1.4 crore each, and 700 litres of fuel a month.
-- For comparison (FY26, as reported): outgoing HDFC CEO Jagdishan ₹28.65 crore including stock benefits; Kotak's Ashok Vaswani about ₹17.2 crore; ICICI Bank's Sandeep Bakhshi about ₹10.6 crore; Bagchi himself ₹7.48 crore at ICICI Pru Life.
-- SBI chairman CS Setty's FY26 remuneration was ₹43.19 lakh (basic ₹27 lakh, DA ₹15.59 lakh, other ₹60,000), the lowest basic pay among the four big state-bank chiefs; PSU bank pay is set by the government.
-- Desk arithmetic: ₹35.9 crore is about 83 times ₹43.19 lakh, so at the proposed rate the HDFC CEO would pass the SBI chairman's year in about 4.4 days. The comparison is not like for like: one is a forward target that depends on performance and share prices, the other is pay already drawn.
+- Anushka Sharma and her parents, Ashima and Ajay Kumar Sharma, now own three apartments on the same floor of Godrej Skyshore, an under-construction Godrej Properties tower in Versova, Mumbai. The combined value is about ₹44 crore (Gulf News, from registered agreements accessed by CRE Matrix and documents from Zapkey).
+- Anushka's flat: 2,153 sq ft for ₹14.89 crore, stamp duty ₹74.5 lakh, registered 8 Jul 2026. Her parents' adjoining flat: 1,577 sq ft for ₹10.91 crore, stamp duty ₹65.4 lakh, same day. A third flat, bought jointly by Anushka and Virat Kohli: ₹18.29 crore, stamp duty about ₹1.09 crore, registered 21 Jul 2026.
+- Possession is due by 30 Jun 2031, with payments linked to construction progress. Gulf News puts all their latest transactions at ₹62.29 crore; it also mentions an Alibaug property bought months earlier, with no price.
+- Desk arithmetic: stamp duty on the three is about ₹2.49 crore, paid in 2026 on homes due in 2031. Anushka's flat works out to about ₹69,000 a sq ft. Not on any page we opened: why they bought, and where the couple plan to live. Don't assume either.
+- One report (Free Press Journal) printed the joint flat as ₹182.91 crore; every other report, and Gulf News's ₹18.29 crore, say it is a typo for ₹18.29 crore.
 
 ### The curiosity gap
-- The viral reels call it a '₹36 crore salary'. His salary is ₹3.32 crore. What is the other ₹32 crore, and does he get it?
-- SBI's chairman runs India's largest bank for ₹43 lakh. Who decides that, and why do the two banks' shareholders pay so differently?
-- Bagchi earned ₹7.48 crore last year. Moving across the street multiplies it nearly five times. What is HDFC Bank buying?
+- India's most famous couple just paid about ₹44 crore and ₹2.5 crore in stamp duty for three flats they can't move into until 2031. Why would someone with that much money buy a building that isn't built yet?
+- Three flats, one floor, one family: a home for the parents next door. What does the same decision cost an ordinary buyer in an under-construction project, and what can go wrong in five years?
+- ₹69,000 a square foot in Versova. What does that buy, and is it a home or an investment?
 
 ### How hot it is
-- Trend meter: HOT on YouTube ("HDFC Bank CEO salary": 15 videos this week, 1.10M views, 3 in the last 24 h; top related video "Why private sector jobs pay more" 232K in 24 h, 9,672 an hour). News: 1 item this week; not on Google's India trending list.
-- vidIQ "hdfc bank ceo salary" (India): under 750 searches a month, competition 14 of 100: people share it more than they search it.
-- YouTube Shorts on the comparison are all tiny (177 to 3,536 views, 4–32 s static cards since 9 Oct), so the format is open on YouTube.
+- Trend meter on "Virat Kohli Anushka flat": COLD as news this week (the story broke on 7–8 Oct), but Kohli is the week's biggest name in Indian Reels: four reels on the ₹5 crore Premanand rumour reached 4.1M (@tajakhabar799, 520× median), 3.2M (@thatkrishnasboy, 32×), 1.6M (@amitkilhor) and 1.5M (@saurabhtripathianchor, 838×).
+- On the flats themselves, every Short is a 6–60 s card read-out: best 5,100 views (Prime Shorts) and 4,673 (Simplease). Nobody has made the money decision the story.
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [@bhartiya24x7 (Instagram)](https://www.instagram.com/reel/DeRowXUTK-v/) | Static split image of the two bankers with "HDFC Bank CEO Salary: 36 Crore / SBI Chairman Salary: 43 LAKH", 'Power of private job', music only, looped | 1.6M | 239× median | since 9 Oct |
-| [Krushna Sangave (YouTube Short)](https://www.youtube.com/watch?v=weSdL8XC1j8) | 11 s card "₹36 Crore vs ₹43 Lakh", private vs government job | 3.5K | – | 9 Oct |
-| [rishi_speaks1996 (YouTube Short)](https://www.youtube.com/watch?v=1zMPGQ6RG0s) | 21 s: 'SBI chairman earns ₹43 lakh, HDFC CEO ₹35 crore, so why is SBI more powerful?' | 730 | – | 9 Oct |
-| [MM Facts (YouTube Short)](https://www.youtube.com/watch?v=-m7l_jPaiZY) | 32 s: 'HDFC CEO earns in one week what the SBI chairman earns in a year' | 1K | – | 11 Oct |
+| [Prime Shorts (YouTube Short)](https://www.youtube.com/watch?v=J4VJgG4KBS4) | 6 s card: 'Anushka Sharma & family bought apartments for ₹44 crore' | 5.1K | 1.2× median | 7 Oct |
+| [Simplease (YouTube Short)](https://www.youtube.com/watch?v=MygWWZApdRo) | 44 s real-estate firm read-out of the deal sheet: prices, sizes, parking, possession 2031 | 4.7K | 3.5× median | 7 Oct |
+| [@tajakhabar799 (Instagram)](https://www.instagram.com/reel/DeImAWbokVV/) | Adjacent, same name: news split-screen on the rumour that Kohli was paid ₹5 crore to visit Premanand Maharaj, ends asking 'fake or true?' | 4.1M | 520× median | this week |
+| [@thatkrishnasboy (Instagram)](https://www.instagram.com/reel/DeI0Z21OjrK/) | Adjacent: creator below, Kohli footage above, mocking the media's '₹5 crore' story | 3.2M | 32× median | this week |
 
-_Every reel so far is the same static card ('₹36 crore salary vs ₹43 lakh') set to music, and the one that broke out did it on the gap alone. Nobody has opened the ₹35.9 crore: ₹3.32 crore is salary, and three quarters is a target bonus, more than half of which is paid in share-linked instruments, which shareholders still have to approve._
+_Kohli is pulling millions this week, but on a rumour, not his money. The flats have only been read out as a price list. Nobody has asked the decision question: why pay ₹44 crore and ₹2.5 crore in stamp duty now for homes handed over in 2031._
 
 ### Facts and sources
-- Bagchi: fixed ₹8.97 crore including ₹3.32 crore salary; target variable ₹26.92 crore (300% of fixed, about 75% of package) for FY2026-27: cash ₹8.88 crore (₹4.44 crore upfront, rest over three years), share-linked ₹18.04 crore; total ₹35.9 crore; joining award about ₹7.35 crore in share-linked instruments over four years, outside the ₹35.9 crore; two cars up to ₹1.4 crore each, 700 litres fuel a month; starts 27 Oct, three-year term; source the postal ballot notice. FY26: Jagdishan ₹28.65 crore incl. stock benefits, Bharucha ₹26.32 crore, Vaswani about ₹17.2 crore, Bakhshi about ₹10.6 crore, Bagchi ₹7.48 crore at ICICI Pru Life excl. options. — [Free Press Journal, 9 Oct](https://www.freepressjournal.in/business/hdfc-banks-new-ceo-anup-bagchi-set-to-become-indias-highest-paid-bank-chief-with-359-crore-annual-package)
-- SBI chairman CS Setty FY26: basic ₹27 lakh, DA ₹15.59 lakh, other allowances ₹60,000, total ₹43.19 lakh (excludes retirement benefits); lowest basic among SBI, PNB, Bank of Baroda, Canara; Bank of Baroda's Debadatta Chand ₹73.16 lakh; PNB's Ashok Chandra about ₹52.6 lakh; from FY26 annual reports. (Context: a separate PLI of about ₹16 lakh is listed outside this total by HelloBanker; not on this page.) — [Storyboard18, 29 Jun 2026 (context: older than a week, but it is the annual-report figure every reel uses)](https://www.storyboard18.com/brand-makers/sbi-chairman-earns-lowest-pay-among-major-public-sector-bank-chiefs-ws-l-102612.htm)
-- Business Standard headline, 8 Oct: 'HDFC Bank's Anup Bagchi set to become India's highest-paid bank CEO' (page blocked to our fetcher; the figures above come from FPJ citing the same postal ballot). — [Business Standard, 8 Oct](https://www.business-standard.com/industry/banking/hdfc-bank-s-anup-bagchi-set-to-become-india-s-highest-paid-bank-ceo-126100801076_1.html)
+- Three flats on the same floor, Godrej Skyshore, Versova; combined ₹44 crore (Rs440 million). Anushka ₹14.89 crore, 2,153 sq ft, stamp duty ₹74.5 lakh; parents ₹10.91 crore, 1,577 sq ft, stamp duty ₹65.4 lakh, both registered 8 Jul 2026 (CRE Matrix). Anushka and Kohli ₹18.29 crore, stamp duty about ₹1.09 crore, registered 21 Jul 2026 (Zapkey). Possession by 30 Jun 2031, payments linked to construction. All latest transactions ₹62.29 crore. — [Gulf News, updated 8 Oct](https://gulfnews.com/entertainment/anushka-sharma-family-buy-3-mumbai-flats-worth-rs440m-on-same-floor-1.500703304)
+- The ₹44 crore three-flat figure, reported again on 12 Oct (page blocked to our fetcher; headline seen in search). — [Business Today, 12 Oct](https://businesstoday.in/real-estate/story/rs44-crore-deal-anushka-sharma-virat-kohli-family-add-3-luxury-flats-to-mumbai-property-portfolio-561005-2026-10-12)
 
 ### Watch out
-- Call it a proposed package, not a salary and not money earned: three quarters is a target variable pay that depends on performance, and half of it is in share-linked instruments. Shareholders still have to approve it.
-- Not like for like: a forward target against pay drawn last year. If the reel uses 83× or '4.4 days', say 'proposed' with it.
-- Real people: no AI face or voice of Bagchi or Setty. A licensed still (check Wikimedia first) or the bank logos; logos are fine because the reel is about the two banks. Humour on the system (who sets PSU pay), never on either man.
-- No call on HDFC Bank or SBI shares.
-- Tests it can carry: the number in frame one (B1), 20–30 s (B2), and a send line inside 12 s (B3): the gap is something people forward to the friend in a PSU bank.
+- Real people: Kohli and Anushka appear only through licensed photos or their own real footage (a few seconds each), never AI faces or voices, and no words put in their mouths. We don't know why they bought; say so rather than guess.
+- Godrej Properties: the logo is fine since the reel is about the purchase; no call on its shares.
+- Not a property buy or sell call for viewers: the reel can ask the question, not answer 'buy under construction' or 'don't'.
+- Tests it can carry: name and number in frame one (B1), 20–30 s (B2), a send line inside 12 s (B3), plus the series ending ('har hafte ek famous paisa faisla') the strategist asked for.
 
-## 2. Musk now promises 'affordable' Starlink in India, days before Jio's $106 billion IPO
+## 2. The dollar hit nearly ₹97. The RBI raised rates, then pulled four emergency levers.
 
-Hot lane (tracked; new turn on Saturday) · HOT · **9/10** (momentum 3/3, stake 1/1, shareability 2/2, gap 1/2, known name 2/2) · tracker id `musk-ambani-starlink`
+Hot lane (new) · HOT · **7/10** (momentum 3/3, stake 1/1, shareability 1/2, gap 1/2, known name 1/2) · tracker id `rbi-rupee-rescue`
 
-Window: Mon 12 to Wed 21 Oct: the RHP is expected this week and the issue is reported to open 21 Oct. Each step is a fresh peg.
+Window: Tue 13 to Fri 16 Oct: the daily-reserve rule starts with the fortnight beginning 16 Oct; any new low or RBI step is a fresh peg.
 
 ### What's happening
-- New since we sent it yesterday: on Saturday Musk wrote on X, "Obviously, if Starlink is too expensive in India, no one will buy it, so SpaceX will need to make pricing affordable." He also wrote that competition "would greatly benefit the average citizen in India" and "Ambani's profits will be lower, but he is not going out of business." He gave no Indian price.
-- The catch Reuters points out: mobile data in India costs about 8 cents a gigabyte, among the cheapest in the world.
-- The government denies any bias: the three satellite ventures, Starlink's and Jio's included, are all awaiting final security clearance. Reliance has not responded.
-- Jio Platforms is targeting a valuation of $106 billion in what would be India's largest IPO (Reuters). Terms are still reported, not filed: anchor about 19 Oct, issue 21–23 Oct, listing about 28 Oct; tracking platforms show an indicative band of ₹1,066–1,118 (not final); up to 27 crore fresh shares, no offer for sale, up to ₹27,500 crore to repay Reliance Jio Infocomm's borrowings (DSIJ, 8 Oct).
+- The rupee closed at ₹96.73 a dollar on Friday 9 Oct, close to a record low near ₹97, and is still down 6.6% against the dollar this year (Bajaj Broking; IBTimes).
+- On 7 Oct the RBI raised the repo rate by 0.25 points to 5.50%, unanimously, its first hike since February 2023, and moved its stance to 'calibrated tightening'. It blamed the US–Iran conflict (in its eighth month), high crude and a weaker rupee making imports dearer; it raised its FY27 inflation forecast to 5.2% (PhonePe Invest summary of the policy).
+- When the hike didn't stop the fall, the RBI announced four measures over the weekend: it now meets the full daily dollar needs of IOCL, BPCL and HPCL (about 55% of India's oil import bill, which averaged $16.4 bn a month in April–August, per Nomura); the limit for currency derivatives without a proven exposure was cut from $100 million to $5 million; banks must park 20% of the rupee value of each rupee derivative above $2 million as cash with the RBI until it expires; and banks must hold at least 99% of their cash reserve every day (up from 90%) from the fortnight beginning 16 Oct.
+- On Monday 12 Oct the rupee jumped 97 paise to ₹95.76, about 1%, its best day in a while; government bond prices fell as the measures drained cash, and the Sensex fell 548 points to 71,924.68.
+- Nomura estimates India's reserves have fallen about $43 billion since early September.
 
 ### The curiosity gap
-- Indians already pay one of the world's lowest prices for data. How does a satellite service that needs a dish on your roof get 'affordable' against that?
-- Musk says Ambani's profits will be lower. Ambani is about to ask the public to buy those profits at a $106 billion valuation. Who's right?
-- Both Starlink and Jio's own satellite arm are stuck at the same security clearance. So who is actually blocking whom?
+- The RBI raised interest rates and the rupee still fell. What did it have to do over the weekend to make it stop, and why does Indian Oil get its own dollar window?
+- ₹96 a dollar: what does a weaker rupee quietly cost a salaried Indian who never buys dollars (fuel, foreign-fund SIPs, a child's fees abroad)?
+- The rupee jumped 1% in a day on rules, not on good news. Does that last?
 
 ### How hot it is
-- Trend meter: HOT ("Starlink India price": 16 YouTube videos this week, 5.4M views, best 50,760 an hour). Abhi and Niyu's 18-min explainer: 1.22M views in about a day. The tracker reads the wider Musk–Ambani story HOT; "Jio IPO" FLAT (10% of the week's news today).
-- Saturday's new turn has barely been made as a Short yet: the top Shorts on it have under 400 views.
+- Trend meter: HOT ("RBI rupee measures": 4 of the week's 5 news items landed today; 4 YouTube videos this week, 3 in the last 24 h; Vijay Sardana's 20-min 'रुपये पर संकट - RBI का बड़ा एक्शन!' 218K views since 11 Oct, about 9,000 an hour on its first day).
+- Instagram: @naman_sharma_ias_academy's newspaper explainer of the 99% daily CRR rule did 912K (15× median). Few Shorts on the weekend package yet: CA Jai Gupta's 'Rupee jumps 96 paise! What did the RBI do?' 1,141 views in a day on a 211-subscriber channel.
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [Abhi and Niyu (YouTube)](https://www.youtube.com/watch?v=nU-zv99vOzY) | 18-min explainer: why Starlink is delayed, security, Jio and Airtel, expected cost | 1.22M | – | 10 Oct |
-| [@101xfounders (Instagram)](https://www.instagram.com/reel/DeRWozMhBTk/) | Ambani's 1,600-satellite plan as the answer to Musk; footage and headline text, music only | 3M | 69.8× median | this week |
-| [@luckyrohillaa (Instagram)](https://www.instagram.com/reel/DePaSK-gBS9/) | "Is Ambani the real boss of India?": Musk's photo on top, creator below | 1.6M | 53.8× median | since 8 Oct |
-| [Profit Ahead (YouTube)](https://www.youtube.com/watch?v=FaBfh6Fzzw8) | Saturday's pricing post, framed as what RIL investors should do (a buy/sell framing we can't use) | 353 | – | 11 Oct |
+| [Vijay Sardana (YouTube)](https://www.youtube.com/watch?v=u8UZXJxNucs) | 'Rupee in crisis, RBI's big action': commentary on the package, crude and the dollar | 218K | – | 12 Oct |
+| [@naman_sharma_ias_academy (Instagram)](https://www.instagram.com/reel/DeWtAvHO8S1/) | Pen on a newspaper headline, then a hand-drawn flowchart of the 99% daily CRR rule | 912K | 14.9× median | this week |
+| [CA Jai Gupta (YouTube Short)](https://www.youtube.com/watch?v=0-41NAOVLZk) | 1:51 explainer: oil companies' dollar window, derivatives rules, is the recovery real | 1.1K | 24× median | 12 Oct |
 
-_The fight itself is saturated (millions of views on 'real boss of India'). Saturday's price promise is new and unmade: nobody has set 'affordable Starlink' against the 8-cents-a-GB data Indians already get, or against the $106 billion Jio wants for those profits._
+_Coverage is either long commentary or exam-style mechanics (CRR, FERR). Nobody has put it in the viewer's wallet: what ₹96 a dollar costs someone who never buys a dollar._
 
 ### Facts and sources
-- Musk on X, Saturday: "Obviously, if Starlink is too expensive in India, no one will buy it, so SpaceX will need to make pricing affordable"; competition "would greatly benefit the average citizen in India by giving them more choices"; "Ambani's profits will be lower, but he is not going out of business"; no Indian prices given; India mobile data about 8 cents per GB; Jio Platforms targeting a $106 billion valuation in India's largest-ever IPO; government denies bias, three ventures incl. Starlink and Jio's awaiting final security clearance; Reliance did not respond. — [Reuters via Deccan Chronicle, 11 Oct](https://www.deccanchronicle.com/nation/business-tech/musk-vows-affordable-starlink-in-india-days-before-ambanis-record-jio-ipo-1994885)
-- Indicative band ₹1,066–1,118 from IPO tracking platforms, not final; lot 13 shares; anchor 19 Oct, issue 21–23 Oct, listing about 28 Oct (all reported); up to 27 crore fresh shares, face value ₹10, no OFS; up to ₹27,500 crore to repay Reliance Jio Infocomm borrowings; Reuters' reported size of about ₹37,700 crore doesn't match 27 crore shares at ₹1,118 (about ₹30,186 crore). — [DSIJ, 8 Oct](https://insights.dsij.in/dsijarticledetail/jio-platforms-ipo-key-dates-issue-size-valuation-and-other-details-id022-59902)
+- Friday close ₹96.73; Monday ₹95.76, +97 paise (about 1%); rupee down 6.6% this year. Four measures: full daily dollar needs of IOCL, BPCL, HPCL met via designated banks (about 55% of the oil import bill, which averaged $16.4 bn a month Apr–Aug, Nomura); derivatives without proven exposure limit cut $100 mn → $5 mn; 20% FERR cash reserve on rupee derivatives above $2 mn until expiry; CRR stays 3% but 99% must be held daily (was 90%) from the fortnight beginning 16 Oct. Reserves down about $43 bn since early September (Nomura). Extra ₹25,000 crore OMO on 13 Oct. — [Bajaj Broking Markets, 12 Oct](https://bajajbrokingmarkets.substack.com/p/rupee-stages-1-comeback-against-dollar)
+- Rupee opened at 95.76 on Mon 12 Oct after the RBI's measures; it had approached a record low near 97; the RBI raised rates on Wednesday and said it was open to more tightening; analysts expect it to defend 97. — [IBTimes India, 12 Oct](https://www.ibtimes.co.in/rupee-opens-higher-95-76-against-us-dollar-after-rbi-measures-curb-speculation-907366)
+- Repo rate raised 5.25% → 5.50% (all six members), first hike since February 2023; stance 'calibrated tightening' (4–2); FY27 CPI forecast 5.2% (from 5.0%); reasons: US–Iran conflict in its eighth month, high crude, a weaker rupee, a deficient monsoon. — [PhonePe Invest, 7 Oct](https://www.phonepeinvest.com/buzz/news/rbi-mpc-october-2026/)
+- Sensex −548 to 71,924.68, Nifty 22,363.35 (−0.7%) on 12 Oct; FMCG and PSU Bank indices weakest. — [Business Standard, 12 Oct](https://www.business-standard.com/amp/markets/news/stock-market-live-october-12-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-126101200057_1.html)
 
 ### Watch out
-- Musk's 'monopoly' and 'Prime Minister Ambani' are his accusations; the government denies bias. Report them as posts, not facts.
-- No call on the Jio IPO or RIL shares: not 'apply', not 'skip'. Band, size and dates are reported until the RHP is filed, and sources disagree on the size; say 'reported'.
-- Musk and Ambani: licensed stills or their own real footage only, Musk's posts as screenshots; no AI face or voice, no words beyond what they posted.
-- No Starlink India price exists yet; don't quote one.
+- Rested topic: the rate hike leads straight to EMIs and home loans. Keep the reel on the rupee, not loans.
+- No currency or stock call: don't tell viewers to buy dollars, gold or foreign funds, or where the rupee goes next.
+- Name the record carefully: 'close to a record low near ₹97'. We found no page saying it crossed 97.
+- Tests it can carry: '₹97' in frame one (B1), 20–30 s (B2), a send line inside 12 s (B3): the cost to someone with a child studying abroad is the thing people forward.
 
-## 3. Gauahar Khan sold her Versova duplex for almost double. That's about 5.4% a year.
+## 3. UPI's 0.4% merchant fee is due Thursday. An IIT-Bombay study says it should be 0.08%.
 
-Deep lane (registration records via CRE Matrix; the creator-format slot in This week's plan) · COLD · **6/10** (momentum 0/3, stake 1/1, shareability 2/2, gap 2/2, known name 1/2) · tracker id `gauahar-khan-flat`
+Deep lane (tracked; new turn: IIT-Bombay study, via Moneylife and PTI) · FLAT · **7/10** (momentum 1/3, stake 1/1, shareability 1/2, gap 2/2, known name 2/2) · tracker id `upi-mdr-deferral`
 
-Window: Any day this week (evergreen; the sale was reported 9 Oct). Fits the strategist's 'famous Indian's money decision' series.
+Window: Tue 13 to Thu 15 Oct: the fee is due to start on 15 Oct unless NPCI defers it; the decision itself is the next peg.
 
 ### What's happening
-- Actor Gauahar Khan sold her duplex in Versova Shiv Kutir Co-operative Housing Society, Andheri West, Mumbai, for ₹6.01 crore; the sale was registered on 24 Sep 2026 (registration documents accessed by CRE Matrix, reported 9 Oct).
-- She bought it in November 2014 for ₹3.2 crore. The report puts the gain at about 88% (₹2.81 crore) in nearly 12 years. The buyers paid ₹36.06 lakh stamp duty. The flat is 2,340 sq ft super built-up.
-- Desk arithmetic: 88% over about 11 years 10 months is roughly 5.4% a year, before her own 2014 stamp duty and costs and before any tax on the gain, which lower it. It also ignores rent saved or earned, which a fair comparison must count.
-- Context, older than a week: Akshay Kumar sold two Mulund flats for ₹12.38 crore in mid-2026 against about ₹4.49 crore each in 2017, a reported 38% in about nine years (NewsX).
+- NPCI's UPI Steering Committee set a 0.4% merchant discount rate on person-to-merchant UPI payments above ₹2,000 last month, due from 15 Oct 2026: ₹8 on a ₹2,000 payment, ₹40 on ₹10,000. Merchants pay it; person-to-person transfers stay free (Outlook Money).
+- NPCI is weighing a delay to January 2027 after merchant groups and fintechs asked for more time over the festival season. The committee meeting set for 9 Oct did not take place, and as of this morning we found no announcement either way: the 15 Oct date still officially stands (Free Press Journal, 10 Oct; tracked since 10 Oct).
+- New since we last sent it: a report by IIT-Bombay professor Ashish Das and former RBI official Pragya Das, 'UPI at a Crossroads: Reintroducing the MDR', says the fee should be 0.08% (0.06% for the apps, 0.02% for the payment banks), limited to merchants with turnover of ₹50 crore or more, which would still cover about 90% of NPCI's proposed fee base (PTI via Daily Excelsior, 11 Oct; Moneylife).
+- The study's case: in the present model the banks take 'a bulk 70 per cent' of the fee, yet banks earned over ₹4.85 lakh crore in net interest margin on current and savings deposits in FY26; setting aside about 3% of that, about ₹15,000 crore, would run UPI without the bank share.
 
 ### The curiosity gap
-- A celebrity 'almost doubles' her money on Mumbai property. Spread over 12 years, it's about 5.4% a year. Did she win?
-- Headlines report star property deals as profits. What would the same ₹3.2 crore have become elsewhere, and what does the headline leave out (rent, stamp duty, tax)?
+- UPI was supposed to be free. From Thursday, a shop may pay ₹40 on your ₹10,000 payment, and most of it goes to banks, not to PhonePe or Google Pay. Who actually gets the money?
+- An IIT-Bombay study says one-fifth of the fee would do. If it's 0.08% versus 0.4%, who picked 0.4%?
+- Will the shopkeeper simply add it to your bill?
 
 ### How hot it is
-- Trend meter: COLD ("Gauahar Khan flat": no news this week; 4 YouTube videos, best 261 an hour). Deep lane: momentum isn't expected.
-- Adjacent formats travel: a celebrity clip turned into an FD-return breakdown is this season's biggest finance outlier (below).
+- Trend meter: FLAT ("UPI MDR": 11 of 100 news items this week landed today; 16 YouTube videos this week, 6 in 24 h; best 31,714 views in 24 h). Tracker history: HOT on 10 Oct, then FLAT.
+- The September announcement was one of the season's biggest money topics on Instagram (below, up to 3.9M). The IIT-Bombay study has not been made as a Short at all.
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [@moneyandmeet (Instagram)](https://www.instagram.com/reel/DcsVxBEzwN4/) | Opens on an Akshay Kumar talk-show clip, then the creator: 'Your FD won't give any returns', b-roll breakdown | 986K | 421× median | Aug–Sep |
-| [@think.bits (TikTok)](https://www.tiktok.com/@think.bits/video/7687248045745917206) | Amitabh Bachchan's ABCL tax case: his photo on top, creator below ('Is photo pe zoom karo') | 931K | 11.8× median | Sep |
-| [@motivation777709 (TikTok)](https://www.tiktok.com/@motivation777709/video/7673185373048098055) | Two men argue buying a ₹2 crore house with cash vs a loan and investing the rest | 470K | 25.1× median | Aug |
+| [@itsmeshubhamm (Instagram)](https://www.instagram.com/reel/DdW31OUzs4i/) | 'UPI charges explained': split screen, news clip above, creator below; who pays, who is affected | 3.9M | 18.1× median | mid-Sep |
+| [@livetimesnewschannel (Instagram)](https://www.instagram.com/reel/DdV7F4QAAdX/) | 'UPI fee: whose coffers fill? Banks and apps, how is the money split?' Studio anchor with the FM's photo | 2M | 261× median | mid-Sep |
+| [@fiscalbandit (Instagram)](https://www.instagram.com/reel/DdUJBACTAdA/) | 'UPI isn't free anymore': talking head, quick summary of who pays what | 1.8M | 658× median | mid-Sep |
+| [@the_hindu (Instagram)](https://www.instagram.com/reel/DdUSLN0CvRK/) | B-roll of a QR payment with the UPI 'ting', voice-over on the 0.4% rule | 1M | 8.7× median | mid-Sep |
 
-_Nobody has made Gauahar Khan's sale, and nobody turns celebrity property 'profits' into a yearly return. The famous-face-plus-money-maths shape is proven (Nana Patekar for us, Akshay Kumar's clip for @moneyandmeet)._
+_September's reels explained the rule. Nobody has come back two days before it starts, with no decision yet, nor shown the IIT-Bombay figure: one-fifth of the fee, and banks taking most of it._
 
 ### Facts and sources
-- Sale ₹6.01 crore; bought November 2014 for ₹3.2 crore; registered 24 Sep 2026; 2,340 sq ft super built-up (1,872 sq ft built-up); stamp duty ₹36.06 lakh paid by buyers; about 88% (₹2.81 crore) appreciation in nearly 12 years; source registration documents accessed by CRE Matrix; Khan and buyers not reachable for comment. — [PropTech Pulse (Aurum PropTech), 9 Oct](https://www.aurumproptech.in/pulse/media/gauahar-khan-sells-versova-duplex-for-rs-6-01-crore)
-- Business Standard also reported it on 9 Oct: 'Gauahar Khan sells Versova duplex for ₹6 cr, bought it for ₹3.2 cr in 2014' (page blocked to our fetcher). — [Business Standard, 9 Oct](https://business-standard.com/finance/personal-finance/gauahar-khan-sells-versova-duplex-for-6-cr-bought-it-for-3-2-cr-in-2014-126100900576_1.html)
-- Context only (older than a week): Akshay Kumar sold two Mulund West units for a combined ₹12.38 crore; bought October 2017 for about ₹4.49 crore each; about 38% over nearly nine years. — [NewsX (mid-2026)](https://www.newsx.com/entertainment/akshay-kumar-sells-two-mumbai-luxury-apartments-for-rs-12-38-crore-makes-38-profit-on-2017-investment-243783/)
+- MDR 0.40% on P2M above ₹2,000 per the NPCI circular of 15 Sep, capped at ₹300 for payments of ₹75,000 or more; IIT-Bombay report (Ashish Das, Pragya Das) proposes 0.08% (0.06% TPAPs + 0.02% PSPs), only for merchants with turnover ≥ ₹50 crore (about 90% of NPCI's proposed MDR); banks take 'a bulk 70 per cent' in the present model; banks booked over ₹4.85 lakh crore NIM on CASA in FY26; about 3% (~₹15,000 crore) could run UPI. — [Daily Excelsior (PTI), 11 Oct](https://www.dailyexcelsior.com/iit-b-study-bats-to-cut-mdr-to-0-08-pc-from-0-4-pc-exclude-banks-from-taking-bulk-share)
+- Fee due from 15 Oct 2026; 0.40% above ₹2,000 = ₹8 on ₹2,000, ₹40 on ₹10,000; committee considering a delay to January 2027; meeting set for 9 Oct. — [Outlook Money, 9 Oct](https://www.outlookmoney.com/banking/npci-to-decide-on-upi-mdr-delay-as-payments-industry-seeks-more-time)
+- The 9 Oct steering committee meeting was not held; no new date; 15 Oct rollout uncertain. — [Free Press Journal, 10 Oct](https://www.freepressjournal.in/business/october-15-rollout-of-upi-mdr-faces-uncertainty-as-npci-meeting-not-held-on-friday)
 
 ### Watch out
-- Be fair to her: no mockery of the person (humour on the herd's 'property always wins' belief and on headlines, never on her). We don't know whether she lived in it or rented it out; rent changes the answer.
-- A worked comparison with another asset says its return out loud as an assumption ('12% maan ke'), and stays general: no specific fund or stock.
-- Real person: her real footage or a licensed photo only, no AI face or voice. Ask Akhilesh for a clip if needed.
-- Creator format (formats/creator.md): Rashmi at home, under 30 s, ends on the series line ('har hafte ek famous paisa faisla').
+- Moving target: if NPCI announces a delay today or tomorrow, the reel's first line changes. Check the morning of the shoot.
+- Say 'shops pay it', not 'you pay it': whether it reaches the customer's bill is not on any page we opened.
+- No call on Paytm, Pine Labs or bank shares (they fell on the delay reports).
+- Tests it can carry: '0.4% vs 0.08%' in frame one (B1), 20–30 s (B2), a send line inside 12 s (B3) for the friend who runs a shop.
 
 ## Stories we're tracking
 
@@ -142,30 +142,30 @@ Full board: research/desk/TRACKER.md
 
 | Story | Now | Direction | Day | Status |
 |---|---|---|---|---|
-| Jio Platforms IPO (`jio-ipo`) | FLAT | steady | 5 | active |
-| Ramayana producer's Prime Focus searched by Income Tax (`prime-focus-ramayana`) | COLD | fading | 5 | active |
-| International ETFs trading far above NAV (NSE warning) (`intl-etf-premium`) | COLD | rising | 5 | active |
-| Sensex -1,045 on 8 Oct: ₹10.23 lakh crore wiped off (`market-crash-oct8`) | COLD | fading | 4 | active |
-| TCS: profit +15%, share -35% in 2026 (`tcs-q2-profit-share`) | FLAT | fading | 4 | active |
-| SC orders panel on pharma freebies to doctors (`pharma-freebies-sc`) | COLD | steady | 4 | active |
-| UPI merchant fee (0.4% MDR) may be deferred to 1 Jan (`upi-mdr-deferral`) | FLAT | fading | 3 | active |
-| Inox Clean: revenue 43X, debt 45X, IPO on hold (`inox-clean-ipo`) | COLD | steady | 3 | active |
-| Musk calls Ambani 'Prime Minister Ambani' over Starlink (`musk-ambani-starlink`) | HOT | new | 2 | active |
-| US suspends TCS, Infosys, Wipro from green-card PERM; IT shares rise (`us-perm-indian-it`) | HOT | new | 2 | active |
-| SC on hospital drug markups: Rs 2,700 drug sold at Rs 27,000 (`hospital-drug-markup-sc`) | COLD | new | 2 | active |
-| HDFC Bank's new CEO ₹35.9 cr vs SBI chairman ₹43 lakh (`hdfc-ceo-pay-sbi`) | - | new | 1 | active |
-| Gauahar Khan's Versova duplex: 88% in 12 years (`gauahar-khan-flat`) | - | new | 1 | active |
+| Jio Platforms IPO (`jio-ipo`) | RISING | rising | 6 | active |
+| International ETFs trading far above NAV (NSE warning) (`intl-etf-premium`) | COLD | rising | 6 | active |
+| TCS: profit +15%, share -35% in 2026 (`tcs-q2-profit-share`) | FLAT | steady | 5 | active |
+| SC orders panel on pharma freebies to doctors (`pharma-freebies-sc`) | COLD | steady | 5 | active |
+| UPI merchant fee (0.4% MDR) may be deferred to 1 Jan (`upi-mdr-deferral`) | HOT | rising | 4 | active |
+| Inox Clean: revenue 43X, debt 45X, IPO on hold (`inox-clean-ipo`) | COLD | steady | 4 | active |
+| Musk calls Ambani 'Prime Minister Ambani' over Starlink (`musk-ambani-starlink`) | HOT | rising | 3 | active |
+| US suspends TCS, Infosys, Wipro from green-card PERM; IT shares rise (`us-perm-indian-it`) | COLD | fading | 3 | active |
+| SC on hospital drug markups: Rs 2,700 drug sold at Rs 27,000 (`hospital-drug-markup-sc`) | COLD | steady | 3 | active |
+| HDFC Bank's new CEO ₹35.9 cr vs SBI chairman ₹43 lakh (`hdfc-ceo-pay-sbi`) | COLD | new | 2 | active |
+| Gauahar Khan's Versova duplex: 88% in 12 years (`gauahar-khan-flat`) | COLD | new | 2 | active |
+| Kohli and Anushka's ₹44 crore: three Versova flats, ready 2031 (`kohli-anushka-versova-flats`) | - | new | 1 | active |
+| Rupee near ₹97: RBI hike, then four emergency measures (`rbi-rupee-rescue`) | - | new | 1 | active |
 
 ## Also on the wire
-- GST on deliveries: the GST Council's 57th meeting on 8 Oct proposed 5% GST without input tax credit on delivery services through e-commerce platforms (not courier or post), and withdrew an exemption for goods transport to unregistered buyers (IBTimes, 10 Oct). Two big outliers (@tarunmalikx 6.5M, @thebean.media 870K), but whether your Zomato or Blinkit bill rises is unclear and nothing is notified; we'll take it when it is.
-- US green-card suspension of Indian IT (tracked, HOT on YouTube): HCLTech reports today, Wipro on 15 Oct and Infosys on 23 Oct, so results can give it a second turn this week.
-- Market: the Sensex and Nifty broke an eight-week losing streak on Friday (Sensex 72,472, Nifty 22,520 on 9 Oct) after Thursday's 1,045-point fall as oil topped $104 (Business Standard). No big single-stock crash with a clear cause turned up over the weekend.
-- Nana Patekar died on 8 Oct at 75 (Al Jazeera, PTI). Tribute reels are everywhere (@know_daily 2.3M, @goldenmic88 1.7M). Our E10 told the money story of his car; the tracker has retired it.
+- GST on deliveries (sent in yesterday's wire): CBIC said on 10 Oct that the viral 'new 5% GST on deliveries' claim is wrong: delivery services such as food apps' were taxed at 18% and are now cut to 5%, uniform for e-commerce deliveries (Social News XYZ). The outlier that started it, @thebean.media's 'Online orders may cost you more', is at 885K (394× median). A myth-busting reel is possible; the goods-transport exemption change still isn't notified.
+- Kohli's ₹5 crore Premanand rumour: four reels at 1.5M–4.1M this week, but it's a rumour about a fee, not his money decision; we'd be repeating an unverified claim. Not sent.
+- Jio Platforms IPO (tracked): still no RHP; reported band ₹1,065–1,119 (Bloomberg via Zee Business), issue reported 21–23 Oct. Musk–Ambani Starlink (tracked, HOT): no new turn since Saturday's 'affordable' post.
+- HDFC Bank CEO pay (yesterday's pick, tracked): no new turn; COLD on the meter today. Bagchi takes charge 27 Oct, the next peg.
 
 ## Where we stand
 
-291 followers (+204 this week)  
-Last reel (Nana Patekar's Rs 1.5 crore car: the money went to farmers' families, then Naam Foundation): 3224 plays so far  
+291 followers (+203 this week)  
+Last reel (Nana Patekar's Rs 1.5 crore car: the money went to farmers' families, then Naam Foundation): 3275 plays so far  
 What every reel is testing:  
 - Hook in frame one: swipe-aways in the first 3 s 52% now, target 45% (3 of 3 reels in)
 - Tight 20-30 s: average watched 39% now, target 45% (1 of 3 reels in)

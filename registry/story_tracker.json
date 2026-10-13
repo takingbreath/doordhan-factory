@@ -77,6 +77,18 @@
      "yt_best_vph": 1612,
      "yt_top": "Musk vs Ambani: “Prime Minister Ambani?” Impact on Jio IPO, Reliance & (38,678 views in 24h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-13",
+     "label": "RISING",
+     "news_1d": 36,
+     "news_7d": 100,
+     "momentum_pct": 36,
+     "yt_week_videos": 8,
+     "yt_week_views": 197159,
+     "yt_best_vph": 2337,
+     "yt_top": "Jio IPO में ₹11 लाख करोड़ की Valuation! Airtel और Reliance Investors प (56,083 views in 24h)",
+     "google_trending": []
     }
    ],
    "lane": "hot"
@@ -87,7 +99,7 @@
    "query": "Prime Focus Ramayana|रामायण इनकम टैक्स",
    "first_seen": "2026-10-08",
    "window_until": "2026-11-10",
-   "status": "active",
+   "status": "retired",
    "notes": [
     "First sent 8 Oct. I-T searches 7 Oct, shares about -8%. Film releases 5 Nov: the story can return at release."
    ],
@@ -152,9 +164,25 @@
      "yt_best_vph": 9372,
      "yt_top": "Ramayana in Real Trouble? Production house raided by income tax depart (899,728 views in 96h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-13",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 11,
+     "yt_week_views": 1056196,
+     "yt_best_vph": 7548,
+     "yt_top": "Ramayana in Real Trouble? Production house raided by income tax depart (905,704 views in 120h)",
+     "google_trending": []
     }
    ],
-   "lane": "hot"
+   "lane": "hot",
+   "retired": {
+    "date": "2026-10-13",
+    "reason": "COLD on 2 checks running"
+   }
   },
   {
    "id": "intl-etf-premium",
@@ -226,6 +254,18 @@
      "yt_week_views": 67347,
      "yt_best_vph": 267,
      "yt_top": "China Rejects Claims the Yuan Is Undervalued (12,833 views in 48h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-10-13",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 18,
+     "yt_week_views": 111096,
+     "yt_best_vph": 1859,
+     "yt_top": "High Yields To Pull Asset Prices Down | Danielle Park (44,627 views in 24h)",
      "google_trending": []
     }
    ],
@@ -418,7 +458,7 @@
    "first_seen": "2026-10-09",
    "lane": "hot",
    "window_until": "2026-10-12",
-   "status": "active",
+   "status": "retired",
    "notes": [
     "First sent 9 Oct. Sensex 32-month low, Nifty 52-week low, Brent $104, FII selling 9 sessions."
    ],
@@ -462,8 +502,24 @@
      "yt_best_vph": 6888,
      "yt_top": "The upcoming stock market collapse (& how to prepare for it) (661,295 views in 96h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-13",
+     "label": "HOT",
+     "news_1d": 9,
+     "news_7d": 17,
+     "momentum_pct": 53,
+     "yt_week_videos": 15,
+     "yt_week_views": 3239882,
+     "yt_best_vph": 14656,
+     "yt_top": "AMERICANS CELEBRATE CRASH OF INDIAN STOCK MARKET | So Much Hate For Bh (1,055,222 views in 72h)",
+     "google_trending": []
     }
-   ]
+   ],
+   "retired": {
+    "date": "2026-10-13",
+    "reason": "past its window"
+   }
   },
   {
    "id": "tcs-q2-profit-share",
@@ -515,6 +571,18 @@
      "yt_week_views": 190558,
      "yt_best_vph": 1055,
      "yt_top": "Tcs Q2 Results 2027 | Tcs Results Today | Tcs Share News Today | Tcs D (75,974 views in 72h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-10-13",
+     "label": "FLAT",
+     "news_1d": 4,
+     "news_7d": 41,
+     "momentum_pct": 10,
+     "yt_week_videos": 11,
+     "yt_week_views": 206469,
+     "yt_best_vph": 801,
+     "yt_top": "Tcs Q2 Results 2027 | Tcs Results Today | Tcs Share News Today | Tcs D (76,861 views in 96h)",
      "google_trending": []
     }
    ]
@@ -570,6 +638,18 @@
      "yt_best_vph": 497,
      "yt_top": "重生 80 年代，心疼受盡欺負的妻子，靠茶葉蛋賺第一桶金，逆襲坐擁工廠 (35,756 views in 72h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-13",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 1,
+     "momentum_pct": 0,
+     "yt_week_videos": 11,
+     "yt_week_views": 56143,
+     "yt_best_vph": 398,
+     "yt_top": "重生 80 年代，心疼受盡欺負的妻子，靠茶葉蛋賺第一桶金，逆襲坐擁工廠 (38,186 views in 96h)",
+     "google_trending": []
     }
    ]
   },
@@ -583,7 +663,8 @@
    "status": "active",
    "notes": [
     "First sent 10 Oct. Fee due 15 Oct; deferral to 1 Jan 2027 under consideration, decision in days.",
-    "2026-10-11: 11 Oct: steering committee meeting of 9 Oct not held; 15 Oct still officially stands"
+    "2026-10-11: 11 Oct: steering committee meeting of 9 Oct not held; 15 Oct still officially stands",
+    "2026-10-13: 13 Oct: no decision yet, 15 Oct stands; IIT-Bombay study says 0.08% (PTI, 11 Oct)"
    ],
    "readings": [
     {
@@ -614,6 +695,19 @@
      "yt_best_vph": 2119,
      "yt_top": "UPI Charges Postponed? | UPI MDR May Be Deferred Till January 1 | @Sak (152,558 views in 72h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-13",
+     "label": "HOT",
+     "news_1d": 5,
+     "news_7d": 41,
+     "momentum_pct": 12,
+     "yt_week_videos": 15,
+     "yt_week_views": 907121,
+     "yt_best_vph": 6495,
+     "yt_top": "UPI MDR Delayed? | 0.4% Fee on Payments Above ₹2,000 May Start in 2027 (467,634 views in 72h)",
+     "google_trending": [],
+     "desk_score": 7.0
     }
    ]
   },
@@ -656,6 +750,18 @@
      "yt_best_vph": 2330,
      "yt_top": "#1846 Market News Analysis (279,584 views in 120h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-13",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 2,
+     "momentum_pct": 0,
+     "yt_week_videos": 10,
+     "yt_week_views": 352154,
+     "yt_best_vph": 1948,
+     "yt_top": "#1846 Market News Analysis (280,461 views in 144h)",
+     "google_trending": []
     }
    ]
   },
@@ -688,6 +794,18 @@
      "yt_top": "Elon Musk Double Standards? Ambani vs Musk #shorts (182,368 views in 24h)",
      "google_trending": [],
      "desk_score": 9.0
+    },
+    {
+     "date": "2026-10-13",
+     "label": "HOT",
+     "news_1d": 2,
+     "news_7d": 43,
+     "momentum_pct": 5,
+     "yt_week_videos": 13,
+     "yt_week_views": 6750511,
+     "yt_best_vph": 109241,
+     "yt_top": "Ambani vs Elon Musk (3D) by Professor of How (5,243,562 views in 48h)",
+     "google_trending": []
     }
    ]
   },
@@ -717,6 +835,18 @@
      "yt_week_views": 1310342,
      "yt_best_vph": 5567,
      "yt_top": "Infosys, Wipro among 8 IT firms suspended from green card programme |  (400,844 views in 72h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-10-13",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 1,
+     "momentum_pct": 0,
+     "yt_week_videos": 16,
+     "yt_week_views": 1305201,
+     "yt_best_vph": 4441,
+     "yt_top": "Infosys, Wipro among 8 IT firms suspended from green card programme |  (426,358 views in 96h)",
      "google_trending": []
     }
    ]
@@ -748,6 +878,18 @@
      "yt_best_vph": 46,
      "yt_top": "Today UP News October 07, 2026 | Breaking News Live | Uttar Pradesh La (5,572 views in 120h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-13",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 6,
+     "yt_week_views": 6395,
+     "yt_best_vph": 39,
+     "yt_top": "Today UP News October 07, 2026 | Breaking News Live | Uttar Pradesh La (5,583 views in 144h)",
+     "google_trending": []
     }
    ]
   },
@@ -766,6 +908,18 @@
     {
      "date": "2026-10-12",
      "desk_score": 9.0
+    },
+    {
+     "date": "2026-10-13",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 1,
+     "momentum_pct": 0,
+     "yt_week_videos": 7,
+     "yt_week_views": 90898,
+     "yt_best_vph": 796,
+     "yt_top": "ಬ್ಯಾಂಕ್‌ಗಳು ಇವರಿಗೆ ಮುಗಿಬಿದ್ದಿದ್ಯಾಕೆ? | 36 Cr Salary | HDFC | Kotak | M (76,420 views in 96h)",
+     "google_trending": []
     }
    ]
   },
@@ -784,6 +938,54 @@
     {
      "date": "2026-10-12",
      "desk_score": 6.0
+    },
+    {
+     "date": "2026-10-13",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 5,
+     "yt_week_views": 2119627,
+     "yt_best_vph": 21490,
+     "yt_top": "Gulbahar - Episode 08 - [ENG SUB] - 8th Oct 2026 [ Sanam Saeed, Emmad  (2,063,021 views in 96h)",
+     "google_trending": []
+    }
+   ]
+  },
+  {
+   "id": "kohli-anushka-versova-flats",
+   "title": "Kohli and Anushka's ₹44 crore: three Versova flats, ready 2031",
+   "query": "Virat Kohli Anushka flat|विराट कोहली अनुष्का फ्लैट",
+   "first_seen": "2026-10-13",
+   "lane": "hot",
+   "window_until": "2026-10-20",
+   "status": "active",
+   "notes": [
+    "First sent 13 Oct. Godrej Skyshore, 3 flats ₹44 cr, stamp duty ~₹2.49 cr, possession 30 Jun 2031."
+   ],
+   "readings": [
+    {
+     "date": "2026-10-13",
+     "desk_score": 8.0
+    }
+   ]
+  },
+  {
+   "id": "rbi-rupee-rescue",
+   "title": "Rupee near ₹97: RBI hike, then four emergency measures",
+   "query": "RBI rupee measures|रुपया आरबीआई",
+   "first_seen": "2026-10-13",
+   "lane": "hot",
+   "window_until": "2026-10-20",
+   "status": "active",
+   "notes": [
+    "First sent 13 Oct. Repo 5.50% (7 Oct); ₹96.73 → ₹95.76 on 12 Oct; 99% daily CRR from 16 Oct."
+   ],
+   "readings": [
+    {
+     "date": "2026-10-13",
+     "desk_score": 7.0
     }
    ]
   }

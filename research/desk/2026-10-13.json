@@ -1,0 +1,287 @@
+{
+ "date": "2026-10-13",
+ "date_label": "Tue 13 Oct 2026",
+ "session_link": "https://claude.ai/code/session_0187AsGdubzrjpFRE16YVhB7",
+ "pick": {
+  "id": "1",
+  "reason": "This week's plan asks for two creator-format reels on a famous Indian's money decision, and Virat Kohli is the most-watched name in Indian Reels this week (the ₹5 crore Premanand rumour drew 1.5M–4.1M views on four separate reels). The money story is fresh and almost unmade: Anushka Sharma, her parents and Kohli have put about ₹44 crore into three flats on one floor of a Versova tower that won't be handed over until June 2031. The best Short on it has 5,100 views. The angle nobody has taken is the decision itself: about ₹2.5 crore of stamp duty already paid on flats that don't exist yet, five years of payments tied to construction, and roughly ₹69,000 a sq ft. That fits 20–30 s and opens on a name every viewer knows.",
+  "runner_up": "2, the rupee: the hottest money story of the morning (80% of the week's news landed in the last day; Vijay Sardana's video 218K views in its first day). The dollar touched about ₹97, the RBI raised rates for the first time since 2023 and then announced emergency measures on Saturday. It suits Sarika on the news desk. Story 3 is the deep lane: UPI's 0.4% merchant fee is due on Thursday with no decision yet, and an IIT-Bombay study says it should be 0.08%."
+ },
+ "stories": [
+  {
+   "id": "1",
+   "tracker_id": "kohli-anushka-versova-flats",
+   "lane": "Hot lane (new; the creator-format slot in This week's plan)",
+   "title": "Kohli and Anushka's ₹44 crore: three flats on one floor, ready in 2031",
+   "label": "FLAT",
+   "score": {
+    "total": 8,
+    "momentum": 1,
+    "stake": 1,
+    "share": 2,
+    "gap": 2,
+    "name": 2
+   },
+   "window": "Tue 13 to about Fri 16 Oct, while the ₹44 crore figure is circulating (first reported 7–8 Oct, again by Business Today on 12 Oct). Kohli stays the week's hottest name whatever the peg.",
+   "happening": [
+    "Anushka Sharma and her parents, Ashima and Ajay Kumar Sharma, now own three apartments on the same floor of Godrej Skyshore, an under-construction Godrej Properties tower in Versova, Mumbai. The combined value is about ₹44 crore (Gulf News, from registered agreements accessed by CRE Matrix and documents from Zapkey).",
+    "Anushka's flat: 2,153 sq ft for ₹14.89 crore, stamp duty ₹74.5 lakh, registered 8 Jul 2026. Her parents' adjoining flat: 1,577 sq ft for ₹10.91 crore, stamp duty ₹65.4 lakh, same day. A third flat, bought jointly by Anushka and Virat Kohli: ₹18.29 crore, stamp duty about ₹1.09 crore, registered 21 Jul 2026.",
+    "Possession is due by 30 Jun 2031, with payments linked to construction progress. Gulf News puts all their latest transactions at ₹62.29 crore; it also mentions an Alibaug property bought months earlier, with no price.",
+    "Desk arithmetic: stamp duty on the three is about ₹2.49 crore, paid in 2026 on homes due in 2031. Anushka's flat works out to about ₹69,000 a sq ft. Not on any page we opened: why they bought, and where the couple plan to live. Don't assume either.",
+    "One report (Free Press Journal) printed the joint flat as ₹182.91 crore; every other report, and Gulf News's ₹18.29 crore, say it is a typo for ₹18.29 crore."
+   ],
+   "curiosity_gaps": [
+    "India's most famous couple just paid about ₹44 crore and ₹2.5 crore in stamp duty for three flats they can't move into until 2031. Why would someone with that much money buy a building that isn't built yet?",
+    "Three flats, one floor, one family: a home for the parents next door. What does the same decision cost an ordinary buyer in an under-construction project, and what can go wrong in five years?",
+    "₹69,000 a square foot in Versova. What does that buy, and is it a home or an investment?"
+   ],
+   "measured": [
+    "Trend meter on \"Virat Kohli Anushka flat\": COLD as news this week (the story broke on 7–8 Oct), but Kohli is the week's biggest name in Indian Reels: four reels on the ₹5 crore Premanand rumour reached 4.1M (@tajakhabar799, 520× median), 3.2M (@thatkrishnasboy, 32×), 1.6M (@amitkilhor) and 1.5M (@saurabhtripathianchor, 838×).",
+    "On the flats themselves, every Short is a 6–60 s card read-out: best 5,100 views (Prime Shorts) and 4,673 (Simplease). Nobody has made the money decision the story."
+   ],
+   "others": [
+    {
+     "who": "Prime Shorts (YouTube Short)",
+     "views": "5.1K",
+     "multiple": "1.2× median",
+     "date": "7 Oct",
+     "what": "6 s card: 'Anushka Sharma & family bought apartments for ₹44 crore'",
+     "url": "https://www.youtube.com/watch?v=J4VJgG4KBS4"
+    },
+    {
+     "who": "Simplease (YouTube Short)",
+     "views": "4.7K",
+     "multiple": "3.5× median",
+     "date": "7 Oct",
+     "what": "44 s real-estate firm read-out of the deal sheet: prices, sizes, parking, possession 2031",
+     "url": "https://www.youtube.com/watch?v=MygWWZApdRo"
+    },
+    {
+     "who": "@tajakhabar799 (Instagram)",
+     "views": "4.1M",
+     "multiple": "520× median",
+     "date": "this week",
+     "what": "Adjacent, same name: news split-screen on the rumour that Kohli was paid ₹5 crore to visit Premanand Maharaj, ends asking 'fake or true?'",
+     "url": "https://www.instagram.com/reel/DeImAWbokVV/"
+    },
+    {
+     "who": "@thatkrishnasboy (Instagram)",
+     "views": "3.2M",
+     "multiple": "32× median",
+     "date": "this week",
+     "what": "Adjacent: creator below, Kohli footage above, mocking the media's '₹5 crore' story",
+     "url": "https://www.instagram.com/reel/DeI0Z21OjrK/"
+    }
+   ],
+   "others_takeaway": "Kohli is pulling millions this week, but on a rumour, not his money. The flats have only been read out as a price list. Nobody has asked the decision question: why pay ₹44 crore and ₹2.5 crore in stamp duty now for homes handed over in 2031.",
+   "facts": [
+    {
+     "text": "Three flats on the same floor, Godrej Skyshore, Versova; combined ₹44 crore (Rs440 million). Anushka ₹14.89 crore, 2,153 sq ft, stamp duty ₹74.5 lakh; parents ₹10.91 crore, 1,577 sq ft, stamp duty ₹65.4 lakh, both registered 8 Jul 2026 (CRE Matrix). Anushka and Kohli ₹18.29 crore, stamp duty about ₹1.09 crore, registered 21 Jul 2026 (Zapkey). Possession by 30 Jun 2031, payments linked to construction. All latest transactions ₹62.29 crore.",
+     "source": "Gulf News, updated 8 Oct",
+     "url": "https://gulfnews.com/entertainment/anushka-sharma-family-buy-3-mumbai-flats-worth-rs440m-on-same-floor-1.500703304"
+    },
+    {
+     "text": "The ₹44 crore three-flat figure, reported again on 12 Oct (page blocked to our fetcher; headline seen in search).",
+     "source": "Business Today, 12 Oct",
+     "url": "https://businesstoday.in/real-estate/story/rs44-crore-deal-anushka-sharma-virat-kohli-family-add-3-luxury-flats-to-mumbai-property-portfolio-561005-2026-10-12"
+    }
+   ],
+   "watch_out": [
+    "Real people: Kohli and Anushka appear only through licensed photos or their own real footage (a few seconds each), never AI faces or voices, and no words put in their mouths. We don't know why they bought; say so rather than guess.",
+    "Godrej Properties: the logo is fine since the reel is about the purchase; no call on its shares.",
+    "Not a property buy or sell call for viewers: the reel can ask the question, not answer 'buy under construction' or 'don't'.",
+    "Tests it can carry: name and number in frame one (B1), 20–30 s (B2), a send line inside 12 s (B3), plus the series ending ('har hafte ek famous paisa faisla') the strategist asked for."
+   ]
+  },
+  {
+   "id": "2",
+   "tracker_id": "rbi-rupee-rescue",
+   "lane": "Hot lane (new)",
+   "title": "The dollar hit nearly ₹97. The RBI raised rates, then pulled four emergency levers.",
+   "label": "HOT",
+   "score": {
+    "total": 7,
+    "momentum": 3,
+    "stake": 1,
+    "share": 1,
+    "gap": 1,
+    "name": 1
+   },
+   "window": "Tue 13 to Fri 16 Oct: the daily-reserve rule starts with the fortnight beginning 16 Oct; any new low or RBI step is a fresh peg.",
+   "happening": [
+    "The rupee closed at ₹96.73 a dollar on Friday 9 Oct, close to a record low near ₹97, and is still down 6.6% against the dollar this year (Bajaj Broking; IBTimes).",
+    "On 7 Oct the RBI raised the repo rate by 0.25 points to 5.50%, unanimously, its first hike since February 2023, and moved its stance to 'calibrated tightening'. It blamed the US–Iran conflict (in its eighth month), high crude and a weaker rupee making imports dearer; it raised its FY27 inflation forecast to 5.2% (PhonePe Invest summary of the policy).",
+    "When the hike didn't stop the fall, the RBI announced four measures over the weekend: it now meets the full daily dollar needs of IOCL, BPCL and HPCL (about 55% of India's oil import bill, which averaged $16.4 bn a month in April–August, per Nomura); the limit for currency derivatives without a proven exposure was cut from $100 million to $5 million; banks must park 20% of the rupee value of each rupee derivative above $2 million as cash with the RBI until it expires; and banks must hold at least 99% of their cash reserve every day (up from 90%) from the fortnight beginning 16 Oct.",
+    "On Monday 12 Oct the rupee jumped 97 paise to ₹95.76, about 1%, its best day in a while; government bond prices fell as the measures drained cash, and the Sensex fell 548 points to 71,924.68.",
+    "Nomura estimates India's reserves have fallen about $43 billion since early September."
+   ],
+   "curiosity_gaps": [
+    "The RBI raised interest rates and the rupee still fell. What did it have to do over the weekend to make it stop, and why does Indian Oil get its own dollar window?",
+    "₹96 a dollar: what does a weaker rupee quietly cost a salaried Indian who never buys dollars (fuel, foreign-fund SIPs, a child's fees abroad)?",
+    "The rupee jumped 1% in a day on rules, not on good news. Does that last?"
+   ],
+   "measured": [
+    "Trend meter: HOT (\"RBI rupee measures\": 4 of the week's 5 news items landed today; 4 YouTube videos this week, 3 in the last 24 h; Vijay Sardana's 20-min 'रुपये पर संकट - RBI का बड़ा एक्शन!' 218K views since 11 Oct, about 9,000 an hour on its first day).",
+    "Instagram: @naman_sharma_ias_academy's newspaper explainer of the 99% daily CRR rule did 912K (15× median). Few Shorts on the weekend package yet: CA Jai Gupta's 'Rupee jumps 96 paise! What did the RBI do?' 1,141 views in a day on a 211-subscriber channel."
+   ],
+   "others": [
+    {
+     "who": "Vijay Sardana (YouTube)",
+     "views": "218K",
+     "multiple": "–",
+     "date": "12 Oct",
+     "what": "'Rupee in crisis, RBI's big action': commentary on the package, crude and the dollar",
+     "url": "https://www.youtube.com/watch?v=u8UZXJxNucs"
+    },
+    {
+     "who": "@naman_sharma_ias_academy (Instagram)",
+     "views": "912K",
+     "multiple": "14.9× median",
+     "date": "this week",
+     "what": "Pen on a newspaper headline, then a hand-drawn flowchart of the 99% daily CRR rule",
+     "url": "https://www.instagram.com/reel/DeWtAvHO8S1/"
+    },
+    {
+     "who": "CA Jai Gupta (YouTube Short)",
+     "views": "1.1K",
+     "multiple": "24× median",
+     "date": "12 Oct",
+     "what": "1:51 explainer: oil companies' dollar window, derivatives rules, is the recovery real",
+     "url": "https://www.youtube.com/watch?v=0-41NAOVLZk"
+    }
+   ],
+   "others_takeaway": "Coverage is either long commentary or exam-style mechanics (CRR, FERR). Nobody has put it in the viewer's wallet: what ₹96 a dollar costs someone who never buys a dollar.",
+   "facts": [
+    {
+     "text": "Friday close ₹96.73; Monday ₹95.76, +97 paise (about 1%); rupee down 6.6% this year. Four measures: full daily dollar needs of IOCL, BPCL, HPCL met via designated banks (about 55% of the oil import bill, which averaged $16.4 bn a month Apr–Aug, Nomura); derivatives without proven exposure limit cut $100 mn → $5 mn; 20% FERR cash reserve on rupee derivatives above $2 mn until expiry; CRR stays 3% but 99% must be held daily (was 90%) from the fortnight beginning 16 Oct. Reserves down about $43 bn since early September (Nomura). Extra ₹25,000 crore OMO on 13 Oct.",
+     "source": "Bajaj Broking Markets, 12 Oct",
+     "url": "https://bajajbrokingmarkets.substack.com/p/rupee-stages-1-comeback-against-dollar"
+    },
+    {
+     "text": "Rupee opened at 95.76 on Mon 12 Oct after the RBI's measures; it had approached a record low near 97; the RBI raised rates on Wednesday and said it was open to more tightening; analysts expect it to defend 97.",
+     "source": "IBTimes India, 12 Oct",
+     "url": "https://www.ibtimes.co.in/rupee-opens-higher-95-76-against-us-dollar-after-rbi-measures-curb-speculation-907366"
+    },
+    {
+     "text": "Repo rate raised 5.25% → 5.50% (all six members), first hike since February 2023; stance 'calibrated tightening' (4–2); FY27 CPI forecast 5.2% (from 5.0%); reasons: US–Iran conflict in its eighth month, high crude, a weaker rupee, a deficient monsoon.",
+     "source": "PhonePe Invest, 7 Oct",
+     "url": "https://www.phonepeinvest.com/buzz/news/rbi-mpc-october-2026/"
+    },
+    {
+     "text": "Sensex −548 to 71,924.68, Nifty 22,363.35 (−0.7%) on 12 Oct; FMCG and PSU Bank indices weakest.",
+     "source": "Business Standard, 12 Oct",
+     "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-12-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-126101200057_1.html"
+    }
+   ],
+   "watch_out": [
+    "Rested topic: the rate hike leads straight to EMIs and home loans. Keep the reel on the rupee, not loans.",
+    "No currency or stock call: don't tell viewers to buy dollars, gold or foreign funds, or where the rupee goes next.",
+    "Name the record carefully: 'close to a record low near ₹97'. We found no page saying it crossed 97.",
+    "Tests it can carry: '₹97' in frame one (B1), 20–30 s (B2), a send line inside 12 s (B3): the cost to someone with a child studying abroad is the thing people forward."
+   ]
+  },
+  {
+   "id": "3",
+   "tracker_id": "upi-mdr-deferral",
+   "lane": "Deep lane (tracked; new turn: IIT-Bombay study, via Moneylife and PTI)",
+   "title": "UPI's 0.4% merchant fee is due Thursday. An IIT-Bombay study says it should be 0.08%.",
+   "label": "FLAT",
+   "score": {
+    "total": 7,
+    "momentum": 1,
+    "stake": 1,
+    "share": 1,
+    "gap": 2,
+    "name": 2
+   },
+   "window": "Tue 13 to Thu 15 Oct: the fee is due to start on 15 Oct unless NPCI defers it; the decision itself is the next peg.",
+   "happening": [
+    "NPCI's UPI Steering Committee set a 0.4% merchant discount rate on person-to-merchant UPI payments above ₹2,000 last month, due from 15 Oct 2026: ₹8 on a ₹2,000 payment, ₹40 on ₹10,000. Merchants pay it; person-to-person transfers stay free (Outlook Money).",
+    "NPCI is weighing a delay to January 2027 after merchant groups and fintechs asked for more time over the festival season. The committee meeting set for 9 Oct did not take place, and as of this morning we found no announcement either way: the 15 Oct date still officially stands (Free Press Journal, 10 Oct; tracked since 10 Oct).",
+    "New since we last sent it: a report by IIT-Bombay professor Ashish Das and former RBI official Pragya Das, 'UPI at a Crossroads: Reintroducing the MDR', says the fee should be 0.08% (0.06% for the apps, 0.02% for the payment banks), limited to merchants with turnover of ₹50 crore or more, which would still cover about 90% of NPCI's proposed fee base (PTI via Daily Excelsior, 11 Oct; Moneylife).",
+    "The study's case: in the present model the banks take 'a bulk 70 per cent' of the fee, yet banks earned over ₹4.85 lakh crore in net interest margin on current and savings deposits in FY26; setting aside about 3% of that, about ₹15,000 crore, would run UPI without the bank share."
+   ],
+   "curiosity_gaps": [
+    "UPI was supposed to be free. From Thursday, a shop may pay ₹40 on your ₹10,000 payment, and most of it goes to banks, not to PhonePe or Google Pay. Who actually gets the money?",
+    "An IIT-Bombay study says one-fifth of the fee would do. If it's 0.08% versus 0.4%, who picked 0.4%?",
+    "Will the shopkeeper simply add it to your bill?"
+   ],
+   "measured": [
+    "Trend meter: FLAT (\"UPI MDR\": 11 of 100 news items this week landed today; 16 YouTube videos this week, 6 in 24 h; best 31,714 views in 24 h). Tracker history: HOT on 10 Oct, then FLAT.",
+    "The September announcement was one of the season's biggest money topics on Instagram (below, up to 3.9M). The IIT-Bombay study has not been made as a Short at all."
+   ],
+   "others": [
+    {
+     "who": "@itsmeshubhamm (Instagram)",
+     "views": "3.9M",
+     "multiple": "18.1× median",
+     "date": "mid-Sep",
+     "what": "'UPI charges explained': split screen, news clip above, creator below; who pays, who is affected",
+     "url": "https://www.instagram.com/reel/DdW31OUzs4i/"
+    },
+    {
+     "who": "@livetimesnewschannel (Instagram)",
+     "views": "2M",
+     "multiple": "261× median",
+     "date": "mid-Sep",
+     "what": "'UPI fee: whose coffers fill? Banks and apps, how is the money split?' Studio anchor with the FM's photo",
+     "url": "https://www.instagram.com/reel/DdV7F4QAAdX/"
+    },
+    {
+     "who": "@fiscalbandit (Instagram)",
+     "views": "1.8M",
+     "multiple": "658× median",
+     "date": "mid-Sep",
+     "what": "'UPI isn't free anymore': talking head, quick summary of who pays what",
+     "url": "https://www.instagram.com/reel/DdUJBACTAdA/"
+    },
+    {
+     "who": "@the_hindu (Instagram)",
+     "views": "1M",
+     "multiple": "8.7× median",
+     "date": "mid-Sep",
+     "what": "B-roll of a QR payment with the UPI 'ting', voice-over on the 0.4% rule",
+     "url": "https://www.instagram.com/reel/DdUSLN0CvRK/"
+    }
+   ],
+   "others_takeaway": "September's reels explained the rule. Nobody has come back two days before it starts, with no decision yet, nor shown the IIT-Bombay figure: one-fifth of the fee, and banks taking most of it.",
+   "facts": [
+    {
+     "text": "MDR 0.40% on P2M above ₹2,000 per the NPCI circular of 15 Sep, capped at ₹300 for payments of ₹75,000 or more; IIT-Bombay report (Ashish Das, Pragya Das) proposes 0.08% (0.06% TPAPs + 0.02% PSPs), only for merchants with turnover ≥ ₹50 crore (about 90% of NPCI's proposed MDR); banks take 'a bulk 70 per cent' in the present model; banks booked over ₹4.85 lakh crore NIM on CASA in FY26; about 3% (~₹15,000 crore) could run UPI.",
+     "source": "Daily Excelsior (PTI), 11 Oct",
+     "url": "https://www.dailyexcelsior.com/iit-b-study-bats-to-cut-mdr-to-0-08-pc-from-0-4-pc-exclude-banks-from-taking-bulk-share"
+    },
+    {
+     "text": "Fee due from 15 Oct 2026; 0.40% above ₹2,000 = ₹8 on ₹2,000, ₹40 on ₹10,000; committee considering a delay to January 2027; meeting set for 9 Oct.",
+     "source": "Outlook Money, 9 Oct",
+     "url": "https://www.outlookmoney.com/banking/npci-to-decide-on-upi-mdr-delay-as-payments-industry-seeks-more-time"
+    },
+    {
+     "text": "The 9 Oct steering committee meeting was not held; no new date; 15 Oct rollout uncertain.",
+     "source": "Free Press Journal, 10 Oct",
+     "url": "https://www.freepressjournal.in/business/october-15-rollout-of-upi-mdr-faces-uncertainty-as-npci-meeting-not-held-on-friday"
+    }
+   ],
+   "watch_out": [
+    "Moving target: if NPCI announces a delay today or tomorrow, the reel's first line changes. Check the morning of the shoot.",
+    "Say 'shops pay it', not 'you pay it': whether it reaches the customer's bill is not on any page we opened.",
+    "No call on Paytm, Pine Labs or bank shares (they fell on the delay reports).",
+    "Tests it can carry: '0.4% vs 0.08%' in frame one (B1), 20–30 s (B2), a send line inside 12 s (B3) for the friend who runs a shop."
+   ]
+  }
+ ],
+ "wire": [
+  {
+   "text": "GST on deliveries (sent in yesterday's wire): CBIC said on 10 Oct that the viral 'new 5% GST on deliveries' claim is wrong: delivery services such as food apps' were taxed at 18% and are now cut to 5%, uniform for e-commerce deliveries (Social News XYZ). The outlier that started it, @thebean.media's 'Online orders may cost you more', is at 885K (394× median). A myth-busting reel is possible; the goods-transport exemption change still isn't notified."
+  },
+  {
+   "text": "Kohli's ₹5 crore Premanand rumour: four reels at 1.5M–4.1M this week, but it's a rumour about a fee, not his money decision; we'd be repeating an unverified claim. Not sent."
+  },
+  {
+   "text": "Jio Platforms IPO (tracked): still no RHP; reported band ₹1,065–1,119 (Bloomberg via Zee Business), issue reported 21–23 Oct. Musk–Ambani Starlink (tracked, HOT): no new turn since Saturday's 'affordable' post."
+  },
+  {
+   "text": "HDFC Bank CEO pay (yesterday's pick, tracked): no new turn; COLD on the meter today. Bagchi takes charge 27 Oct, the next peg."
+  }
+ ]
+}
