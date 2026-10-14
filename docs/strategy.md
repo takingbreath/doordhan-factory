@@ -50,7 +50,7 @@ Stage 1 targets are live in the block below. Stages 2 and 3 are the plan after t
 
 ## The book and where we stand
 <!-- scoreboard -->
-_Updated 2026-10-13 21:31 IST by `scoreboard.py write`._
+_Updated 2026-10-14 21:32 IST by `scoreboard.py write`._
 
 **Stage 1: Stop the scroll** (2026-09-26 to 2026-10-25): prove people stop for our reels and stay to the end
 
@@ -169,3 +169,4 @@ _Written by the strategist every Sunday. The morning session executes it: each s
   - Platform: YouTube Shorts now favours original clips and cuts reach for re-uploaders (1 Oct); the creator format's film clips stay a few seconds inside our own edit. No Instagram ranking, SEBI or MeitY change found.
 - 2026-10-12 (nightly): Quiet. vidIQ owner insights unavailable for a fourth night ("Meta token is inactive"; the account list still says active); public counts only, no bets judged on public data. No reel posted on 10, 11 or 12 Oct (the plan says one a day; 10 of 20 stage reels with 13 days left). Nana Patekar (E10) 3,275 public plays at 71.6 h (257 likes), flattening (+51 on the day); every older reel within 0–3 plays of last night, so only E10 logged. Followers 291 (public profile, flat). No stop or target hit; all bets HOLD (hook in frame one 52.4% on 3 reels; tight 20–30 s 38.6% on 1; a line worth sending 3.2 per 1k on 3 of 4). vidIQ credits this week: 10.
 - 2026-10-13 (nightly): Quiet. vidIQ owner insights unavailable for a fifth night ("Meta token is inactive"; the account list still says active); public counts only, no bets judged on public data. No reel posted on 10–13 Oct (four days off the one-a-day plan; 10 of 20 stage reels with 12 days left, so 10 more means almost one a day to 25 Oct). Every reel within 0–6 plays of the last reading (E10 3,279), so no public reading logged. No stop or target hit; all bets HOLD (hook in frame one 52.4% on 3 reels; tight 20–30 s 38.6% on 1; a line worth sending 3.2 per 1k on 3 of 4). vidIQ credits this week: 15.
+- 2026-10-14 (nightly): Quiet. vidIQ owner insights unavailable for a sixth night ("Meta token is inactive"; the account list still says active); public counts only, no bets judged on public data. No reel posted on 10–14 Oct (five days off the one-a-day plan; 10 of 20 stage reels with 11 days left). Every reel within 0–6 plays of the last reading (E10 3,281, E8 2,440, E9 604), so no public reading logged. No stop or target hit; all bets HOLD (hook in frame one 52.4% on 3 reels; tight 20–30 s 38.6% on 1; a line worth sending 3.2 per 1k on 3 of 4). vidIQ credits this week: 20.
