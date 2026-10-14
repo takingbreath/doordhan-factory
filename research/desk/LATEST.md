@@ -1,140 +1,134 @@
-# Doordhan desk research — Tue 13 Oct 2026
+# Doordhan desk research — Wed 14 Oct 2026
 
-Session: https://claude.ai/code/session_0187AsGdubzrjpFRE16YVhB7
+Session: https://claude.ai/code/session_01KLenDuVfPXvNUHMFZERbJG
 
-**Pick: story 1.** This week's plan asks for two creator-format reels on a famous Indian's money decision, and Virat Kohli is the most-watched name in Indian Reels this week (the ₹5 crore Premanand rumour drew 1.5M–4.1M views on four separate reels). The money story is fresh and almost unmade: Anushka Sharma, her parents and Kohli have put about ₹44 crore into three flats on one floor of a Versova tower that won't be handed over until June 2031. The best Short on it has 5,100 views. The angle nobody has taken is the decision itself: about ₹2.5 crore of stamp duty already paid on flats that don't exist yet, five years of payments tied to construction, and roughly ₹69,000 a sq ft. That fits 20–30 s and opens on a name every viewer knows.
+**Pick: story 1.** This week's plan asks for creator-format reels on a famous Indian's money decision, and today's is fresh: Zoho's founder Sridhar Vembu told staff there will be no pay rise this year, apologised, and asked people to "pray for us", blaming a 4× jump in server prices and AI costs. It broke on Tuesday and is moving fast (Firstpost's video at about 4,500 views an hour), and every salaried viewer feels it. So far it has only been read out as news; nobody has asked the money question: a founder chose a pay freeze over layoffs, and the money that used to go to raises now goes to servers. Known name in frame one (Zoho logo, a licensed photo of Vembu, his own X post), fits 20–30 s.
 
-Runner-up: 2, the rupee: the hottest money story of the morning (80% of the week's news landed in the last day; Vijay Sardana's video 218K views in its first day). The dollar touched about ₹97, the RBI raised rates for the first time since 2023 and then announced emergency measures on Saturday. It suits Sarika on the news desk. Story 3 (also 8/10) is the deep lane: UPI's 0.4% merchant fee is due on Thursday with no decision yet, and an IIT-Bombay study says it should be 0.08%.
+Runner-up: 2, the Sensex's best day in four months (+1,109) partly on a finance-minister remark that promised nothing on LTCG tax: Dr Mukul Agrawal's video on it is at about 3,800 views an hour. Story 3 is the deep lane, a new turn on a tracked story: the 0.4% UPI merchant fee, due tomorrow, is now deferred to 'immediately after Diwali', while an IIT-Bombay study says 0.08% would do and banks take 70% of the fee.
 
-## 1. Kohli and Anushka's ₹44 crore: three flats on one floor, ready in 2031
+## 1. Zoho freezes pay rises: 'AI has raised costs', founder apologises and says 'pray for us'
 
-Hot lane (new; the creator-format slot in This week's plan) · FLAT · **8/10** (momentum 1/3, stake 1/1, shareability 2/2, gap 2/2, known name 2/2) · tracker id `kohli-anushka-versova-flats`
+Hot lane (new; the creator-format slot in This week's plan) · RISING · **9/10** (momentum 3/3, stake 0/1, shareability 2/2, gap 2/2, known name 2/2) · tracker id `zoho-pay-freeze`
 
-Window: Tue 13 to about Fri 16 Oct, while the ₹44 crore figure is circulating (first reported 7–8 Oct, again by Business Today on 12 Oct). Kohli stays the week's hottest name whatever the peg.
+Window: Wed 14 to about Fri 16 Oct: first posted Tue 13 Oct; appraisal season and Diwali bonuses keep pay in the news.
 
 ### What's happening
-- Anushka Sharma and her parents, Ashima and Ajay Kumar Sharma, now own three apartments on the same floor of Godrej Skyshore, an under-construction Godrej Properties tower in Versova, Mumbai. The combined value is about ₹44 crore (Gulf News, from registered agreements accessed by CRE Matrix and documents from Zapkey).
-- Anushka's flat: 2,153 sq ft for ₹14.89 crore, stamp duty ₹74.5 lakh, registered 8 Jul 2026. Her parents' adjoining flat: 1,577 sq ft for ₹10.91 crore, stamp duty ₹65.4 lakh, same day. A third flat, bought jointly by Anushka and Virat Kohli: ₹18.29 crore, stamp duty about ₹1.09 crore, registered 21 Jul 2026.
-- Possession is due by 30 Jun 2031, with payments linked to construction progress. Gulf News puts all their latest transactions at ₹62.29 crore; it also mentions an Alibaug property bought months earlier, with no price.
-- Desk arithmetic: stamp duty on the three is about ₹2.49 crore, paid in 2026 on homes due in 2031. Anushka's flat works out to about ₹69,000 a sq ft. Not on any page we opened: why they bought, and where the couple plan to live. Don't assume either.
-- One report (Free Press Journal) printed the joint flat as ₹182.91 crore; every other report, and Gulf News's ₹18.29 crore, say it is a typo for ₹18.29 crore.
+- Zoho, the Chennai software company, has paused its annual pay rises and cut its marketing budget, founder Sridhar Vembu said in a post on X on Tuesday 13 Oct (PTI).
+- His reasons, in his words: 'AI has raised costs dramatically with a) A massive 4-fold increase in server prices which we need for data centres and b) AI usage increasing rapidly', plus 'a challenging geopolitical backdrop'.
+- Headcount has been flat for 18 months. He said the company will 'work hard to avoid mass layoffs' but 'the outlook for software jobs in general is grim'.
+- 'We have also told our employees that we cannot have our usual pay increase this year. I have apologised for not being able to avoid this.' And: 'The next 3-5 years will decide how our reinvention has worked. Please pray for us.'
+- Same day: HCL Tech reported a 21% rise in quarterly profit, helped by its AI work, and rose 8.3%; TCS rose 6.6% (PTI). One software company's AI bill is another's AI revenue.
 
 ### The curiosity gap
-- India's most famous couple just paid about ₹44 crore and ₹2.5 crore in stamp duty for three flats they can't move into until 2031. Why would someone with that much money buy a building that isn't built yet?
-- Three flats, one floor, one family: a home for the parents next door. What does the same decision cost an ordinary buyer in an under-construction project, and what can go wrong in five years?
-- ₹69,000 a square foot in Versova. What does that buy, and is it a home or an investment?
+- A founder who says he is working hard to avoid mass layoffs just told his employees there's no raise this year, and blamed servers. Where does a software company's money go when AI arrives?
+- Zoho chose 'everyone gets no raise' over 'some people get fired'. Is that the kind choice or the cheap one, and which would you pick?
+- On the same day HCL Tech's profit jumped 21% on AI. Why is AI a cost for one and a windfall for the other, and what does it mean for every IT salary this appraisal season?
 
 ### How hot it is
-- Trend meter on "Virat Kohli Anushka flat": COLD as news this week (the story broke on 7–8 Oct), but Kohli is the week's biggest name in Indian Reels: four reels on the ₹5 crore Premanand rumour reached 4.1M (@tajakhabar799, 520× median), 3.2M (@thatkrishnasboy, 32×), 1.6M (@amitkilhor) and 1.5M (@saurabhtripathianchor, 838×).
-- On the flats themselves, every Short is a 6–60 s card read-out: best 5,100 views (Prime Shorts) and 4,673 (Simplease). Nobody has made the money decision the story.
+- Trend meter on 'Zoho salary hike': all 3 of the week's news items landed in the last day (100%). YouTube: Firstpost's 'Sridhar Vembu of Zoho Faces Reality Check' 36K views in about 8 h (about 4,500 an hour, so HOT by the playbook's 3,000/hr rule); Mint's 25K in 14 h.
+- Instagram outliers (vidIQ, last two weeks): nothing on Zoho itself yet. Adjacent salary-pain reels are huge: @heyitslaxmi25 'we take insult to earn salary' 1.9M (10×), @indias_got_startup '20 years of education, ₹15,000 salary' 868K (57×), @swatiiiii03_agrawal '2027 is a corporate employee's worst nightmare' (holidays on weekends) 1.5M (649×).
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [Prime Shorts (YouTube Short)](https://www.youtube.com/watch?v=J4VJgG4KBS4) | 6 s card: 'Anushka Sharma & family bought apartments for ₹44 crore' | 5.1K | 1.2× median | 7 Oct |
-| [Simplease (YouTube Short)](https://www.youtube.com/watch?v=MygWWZApdRo) | 44 s real-estate firm read-out of the deal sheet: prices, sizes, parking, possession 2031 | 4.7K | 3.5× median | 7 Oct |
-| [@tajakhabar799 (Instagram)](https://www.instagram.com/reel/DeImAWbokVV/) | Adjacent, same name: news split-screen on the rumour that Kohli was paid ₹5 crore to visit Premanand Maharaj, ends asking 'fake or true?' | 4.1M | 520× median | this week |
-| [@thatkrishnasboy (Instagram)](https://www.instagram.com/reel/DeI0Z21OjrK/) | Adjacent: creator below, Kohli footage above, mocking the media's '₹5 crore' story | 3.2M | 32× median | this week |
+| [Firstpost (YouTube)](https://www.youtube.com/watch?v=faY7YvsI9aA) | 6:36 news segment: Vembu's 'come home and build India' call against the pay freeze; AI and software jobs | 36K | – | 13 Oct |
+| [Mint (YouTube)](https://www.youtube.com/watch?v=K_v4iLbnWaE) | 3-min read-out: no appraisals, marketing cut, 18 months of flat headcount, server prices 4× | 25K | – | 13 Oct |
+| [RJ Dheena (YouTube Short, Tamil)](https://www.youtube.com/watch?v=qT_2Lh6MVvs) | 1-min 'Shocking post and mass layoffs! A wake-up call for the IT industry' | 14K | 10.6× (vidIQ outlier score) | 13 Oct |
+| [@heyitslaxmi25 (Instagram)](https://www.instagram.com/reel/DeM3hNPh9Gr/) | Adjacent: static night shot with text, 'We don't take salary to get insulted. We take insult to earn salary' | 1.9M | 10× median | this month |
+| [@indias_got_startup (Instagram)](https://www.instagram.com/reel/DeQq79apvd9/) | Adjacent: talking head, '20 years of education, people are earning just ₹15,000' | 868K | 57× median | this month |
 
-_Kohli is pulling millions this week, but on a rumour, not his money. The flats have only been read out as a price list. Nobody has asked the decision question: why pay ₹44 crore and ₹2.5 crore in stamp duty now for homes handed over in 2031._
+_Only news channels have touched it, all reading out the post. The salary-pain mood on Instagram is running at 1–2M views, but nobody has told Zoho as a founder's money decision: pay freeze instead of layoffs, and the raise money going to servers._
 
 ### Facts and sources
-- Three flats on the same floor, Godrej Skyshore, Versova; combined ₹44 crore (Rs440 million). Anushka ₹14.89 crore, 2,153 sq ft, stamp duty ₹74.5 lakh; parents ₹10.91 crore, 1,577 sq ft, stamp duty ₹65.4 lakh, both registered 8 Jul 2026 (CRE Matrix). Anushka and Kohli ₹18.29 crore, stamp duty about ₹1.09 crore, registered 21 Jul 2026 (Zapkey). Possession by 30 Jun 2031, payments linked to construction. All latest transactions ₹62.29 crore. — [Gulf News, updated 8 Oct](https://gulfnews.com/entertainment/anushka-sharma-family-buy-3-mumbai-flats-worth-rs440m-on-same-floor-1.500703304)
-- The ₹44 crore three-flat figure, reported again on 12 Oct (page blocked to our fetcher; headline seen in search). — [Business Today, 12 Oct](https://businesstoday.in/real-estate/story/rs44-crore-deal-anushka-sharma-virat-kohli-family-add-3-luxury-flats-to-mumbai-property-portfolio-561005-2026-10-12)
+- Zoho paused annual pay hikes and cut marketing spend; Vembu's X post on Tue 13 Oct: 4-fold increase in server prices, AI usage rising rapidly, challenging geopolitical backdrop; headcount flat for 18 months; 'cannot have our usual pay increase this year'; 'I have apologised'; working to avoid mass layoffs; 'outlook for software jobs in general is grim'; 'next 3-5 years will decide how our reinvention has worked. Please pray for us.' — [Rediff (PTI), 13 Oct](https://www.rediff.com/business/report/zoho-freezes-pay-hikes-cuts-marketing-spend-amid-rising-ai-costs--uncertain-outlook/20261013.htm)
+- Same day: HCL Tech +8.28% after Q2 net profit rose 21.18% to ₹5,132 crore, 'helped by higher margins from its fast-growing advanced AI operations'; TCS +6.59%. — [Rediff (PTI), 13 Oct](https://www.rediff.com/business/report/indian-stock-market-rebounds-sensex-jumps-1109-points-on-strong-it-earnings-fms-ltcg-tax-comments/20261013.htm)
+- Context only (August): 'The money that would have gone to new employees is now going to AI and data centre costs'. — [Free Press Journal, August](https://www.freepressjournal.in/tech/the-money-that-would-have-gone-to-new-employees-is-now-going-to-ai-zohos-sridhar-vembu)
 
 ### Watch out
-- Real people: Kohli and Anushka appear only through licensed photos or their own real footage (a few seconds each), never AI faces or voices, and no words put in their mouths. We don't know why they bought; say so rather than guess.
-- Godrej Properties: the logo is fine since the reel is about the purchase; no call on its shares.
-- Not a property buy or sell call for viewers: the reel can ask the question, not answer 'buy under construction' or 'don't'.
-- Tests it can carry: name and number in frame one (B1), 20–30 s (B2), a send line inside 12 s (B3), plus the series ending ('har hafte ek famous paisa faisla') the strategist asked for.
+- Real person: Vembu appears only as a licensed photo (check Wikimedia Commons) or his own real footage, and only his own published words (the X post, quoted exactly). No AI face or voice.
+- Not on any page we opened: how many people Zoho employs, its revenue or profit this year, or what a typical raise there would have been. Don't put a number on it.
+- Humour lands on the system (AI eating the raise budget), never on Zoho's employees or the viewer.
+- Tests it can carry: name and number in frame one ('ZOHO: NO HIKE' / '4× server prices', B1), 20–30 s (B2), a send line inside 12 s (B3), and the series ending 'har hafte ek famous paisa faisla'.
 
-## 2. The dollar hit nearly ₹97. The RBI raised rates, then pulled four emergency levers.
+## 2. Sensex +1,109, its best day in four months, partly on a remark that promised nothing on LTCG tax
 
-Hot lane (new) · HOT · **7/10** (momentum 3/3, stake 1/1, shareability 1/2, gap 1/2, known name 1/2) · tracker id `rbi-rupee-rescue`
+Hot lane (new) · HOT · **8/10** (momentum 3/3, stake 1/1, shareability 1/2, gap 1/2, known name 2/2) · tracker id `ltcg-remark-rally`
 
-Window: Tue 13 to Fri 16 Oct: the daily-reserve rule starts with the fortnight beginning 16 Oct; any new low or RBI step is a fresh peg.
+Window: Wed 14 to about Fri 16 Oct; the LTCG debate comes back before the Budget (likely 1 Feb).
 
 ### What's happening
-- The rupee closed at ₹96.73 a dollar on Friday 9 Oct, close to a record low near ₹97, and is still down 6.6% against the dollar this year (Bajaj Broking; IBTimes).
-- On 7 Oct the RBI raised the repo rate by 0.25 points to 5.50%, unanimously, its first hike since February 2023, and moved its stance to 'calibrated tightening'. It blamed the US–Iran conflict (in its eighth month), high crude and a weaker rupee making imports dearer; it raised its FY27 inflation forecast to 5.2% (PhonePe Invest summary of the policy).
-- When the hike didn't stop the fall, the RBI announced four measures over the weekend: it now meets the full daily dollar needs of IOCL, BPCL and HPCL (about 55% of India's oil import bill, which averaged $16.4 bn a month in April–August, per Nomura); the limit for currency derivatives without a proven exposure was cut from $100 million to $5 million; banks must park 20% of the rupee value of each rupee derivative above $2 million as cash with the RBI until it expires; and banks must hold at least 99% of their cash reserve every day (up from 90%) from the fortnight beginning 16 Oct.
-- On Monday 12 Oct the rupee jumped 97 paise to ₹95.76, about 1%, its best day in a while; government bond prices fell as the measures drained cash, and the Sensex fell 548 points to 71,924.68.
-- Nomura estimates India's reserves have fallen about $43 billion since early September.
+- On Tue 13 Oct the Sensex rose 1,109.10 points (1.54%) to 73,033.78, its best single-day gain in four months; the Nifty rose 1.60% to 22,721.95 (PTI).
+- Three reasons, per PTI: IT results (HCL Tech +8.28% on a 21% profit rise; TCS +6.59%, Tech Mahindra +4.90%, Infosys +4.44%), the rupee's third day of gains (up about 41 paise to 95.37), and Nirmala Sitharaman's remark on LTCG tax, which 'triggered buying in blue-chip stocks'.
+- What she actually said at the Bloomberg New Economy Forum: the debate on STT and LTCG is 'healthy' and she will be 'keenly hearing them'; but 'We are very close to the Budget... It may not be the best time for me to say what I will or what I will not consider.' No promise either way.
+- Today's tax for context: LTCG on listed shares and equity funds is 12.5% on gains above ₹1.25 lakh, after 12 months; short-term gains 20% (ClearTax).
+- The Budget 2027-28 is likely on 1 Feb.
 
 ### The curiosity gap
-- The RBI raised interest rates and the rupee still fell. What did it have to do over the weekend to make it stop, and why does Indian Oil get its own dollar window?
-- ₹96 a dollar: what does a weaker rupee quietly cost a salaried Indian who never buys dollars (fuel, foreign-fund SIPs, a child's fees abroad)?
-- The rupee jumped 1% in a day on rules, not on good news. Does that last?
+- The finance minister said 'it's not the best time to say what I will consider' about LTCG, and the market had its best day in four months. What did she actually promise? Nothing.
+- How much of Tuesday's rally was the remark, and how much was HCL Tech's AI profits and the rupee?
 
 ### How hot it is
-- Trend meter: HOT ("RBI rupee measures": 4 of the week's 5 news items landed today; 4 YouTube videos this week, 3 in the last 24 h; Vijay Sardana's 20-min 'रुपये पर संकट - RBI का बड़ा एक्शन!' 218K views since 11 Oct, about 9,000 an hour on its first day).
-- Instagram: @naman_sharma_ias_academy's newspaper explainer of the 99% daily CRR rule did 912K (15× median). Few Shorts on the weekend package yet: CA Jai Gupta's 'Rupee jumps 96 paise! What did the RBI do?' 1,141 views in a day on a 211-subscriber channel.
+- Trend meter on 'LTCG tax Sitharaman': COLD on its YouTube sample; but Dr Mukul Agrawal's 'LTCG–STT Tax Hatega? Nirmala Sitharaman Ka Bada Bayan' has 53.6K views in about 14 h (about 3,800 an hour, HOT by the 3,000/hr rule).
+- Shorts are few and tiny: 'LTCG & STT hatega?' by Algo trader nishant 1.5K, stocktalksbyayushi 42 views. Instagram outlier search found nothing on the remark yet; the adjacent 'why only Indian market is falling' reel by @caharsh_insta did 482K (14×).
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [Vijay Sardana (YouTube)](https://www.youtube.com/watch?v=u8UZXJxNucs) | 20-min 'Rupee in crisis, RBI's big action': is ₹100 a dollar just a number, and who pays (fuel, medicines, foreign education) | 218K | – | 11 Oct |
-| [@naman_sharma_ias_academy (Instagram)](https://www.instagram.com/reel/DeWtAvHO8S1/) | Pen on a newspaper headline, then a hand-drawn flowchart of the 99% daily CRR rule | 912K | 14.9× median | this week |
-| [CA Jai Gupta (YouTube Short)](https://www.youtube.com/watch?v=0-41NAOVLZk) | 1:51 explainer: oil companies' dollar window, derivatives rules, is the recovery real | 1.1K | 24× median | 12 Oct |
+| [Dr. Mukul Agrawal (YouTube)](https://www.youtube.com/watch?v=9VDVyqDKsOI) | 14-min 'LTCG–STT tax hatega?': the 12.5% rule, Budget 2027 expectations, FPI outflows, why Nifty rose | 53.6K | – | 13 Oct |
+| [Algo trader nishant (YouTube Short)](https://www.youtube.com/watch?v=ud-A7ajGT8Q) | 17 s: 'no announcement, nothing removed yet; FM says the debate is healthy' | 1.5K | – | 13 Oct |
+| [@caharsh_insta (Instagram)](https://www.instagram.com/reel/Dd-7EFDx_Il/) | Adjacent: talking head, 'Bloodbath at Dalal Street: why only the Indian market is crashing?', FII selling and tax policy | 482K | 14× median | this month |
 
-_Coverage is either long commentary or exam-style mechanics (CRR, FERR). Nobody has put it in the viewer's wallet: what ₹96 a dollar costs someone who never buys a dollar._
+_The Hindi long-form explainer is flying; the Shorts are read-outs ('LTCG hatega?'). Nobody has put her actual sentence on screen next to the 1,109 points: the market rallied on a non-answer._
 
 ### Facts and sources
-- Friday close ₹96.73; Monday ₹95.76, +97 paise (about 1%); rupee down 6.6% this year. Four measures: full daily dollar needs of IOCL, BPCL, HPCL met via designated banks (about 55% of the oil import bill, which averaged $16.4 bn a month Apr–Aug, Nomura); derivatives without proven exposure limit cut $100 mn → $5 mn; 20% FERR cash reserve on rupee derivatives above $2 mn until expiry; CRR stays 3% but 99% must be held daily (was 90%) from the fortnight beginning 16 Oct. Reserves down about $43 bn since early September (Nomura). Extra ₹25,000 crore OMO on 13 Oct. — [Bajaj Broking Markets, 12 Oct](https://bajajbrokingmarkets.substack.com/p/rupee-stages-1-comeback-against-dollar)
-- Rupee opened at 95.76 on Mon 12 Oct after the RBI's measures; it had approached a record low near 97; the RBI raised rates on Wednesday and said it was open to more tightening; analysts expect it to defend 97. — [IBTimes India, 12 Oct](https://www.ibtimes.co.in/rupee-opens-higher-95-76-against-us-dollar-after-rbi-measures-curb-speculation-907366)
-- Repo rate raised 5.25% → 5.50% (all six members), first hike since February 2023; stance 'calibrated tightening' (4–2); FY27 CPI forecast 5.2% (from 5.0%); reasons: US–Iran conflict in its eighth month, high crude, a weaker rupee, a deficient monsoon. — [PhonePe Invest, 7 Oct](https://www.phonepeinvest.com/buzz/news/rbi-mpc-october-2026/)
-- Sensex −548 to 71,924.68, Nifty 22,363.35 (−0.7%) on 12 Oct; FMCG and PSU Bank indices weakest. — [Business Standard, 12 Oct](https://www.business-standard.com/amp/markets/news/stock-market-live-october-12-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-126101200057_1.html)
+- Sensex +1,109.10 (1.54%) to 73,033.78, best single-day gain in four months; Nifty +358.60 (1.60%) to 22,721.95; HCL Tech +8.28% (Q2 profit +21.18% to ₹5,132 crore); TCS +6.59%, Tech Mahindra +4.90%, Infosys +4.44%; rupee +41 paise to 95.37; FM's LTCG remark 'triggered buying in blue-chip stocks'. — [Rediff (PTI), 13 Oct](https://www.rediff.com/business/report/indian-stock-market-rebounds-sensex-jumps-1109-points-on-strong-it-earnings-fms-ltcg-tax-comments/20261013.htm)
+- Sitharaman at the Bloomberg New Economy Forum 2026: STT and LTCG debate 'healthy', she will be 'keenly hearing them'; 'It may not be the best time for me to say what I will or what I will not consider'; Budget 2027-28 likely on 1 Feb. — [Rediff (PTI), 13 Oct](https://www.rediff.com/business/report/will-budget-see-axing-of-ltcg-tax-sitharaman-says/20261013.htm)
+- Current rule: LTCG 12.5% on listed equity and equity funds, gains up to ₹1.25 lakh exempt, long-term after 12 months; STCG 20%. — [ClearTax (reference page)](https://cleartax.in/s/long-term-capital-gains-ltcg-tax)
 
 ### Watch out
-- Rested topic: the rate hike leads straight to EMIs and home loans. Keep the reel on the rupee, not loans.
-- No currency or stock call: don't tell viewers to buy dollars, gold or foreign funds, or where the rupee goes next.
-- Name the record carefully: 'close to a record low near ₹97'. We found no page saying it crossed 97.
-- Tests it can carry: '₹97' in frame one (B1), 20–30 s (B2), a send line inside 12 s (B3): the cost to someone with a child studying abroad is the thing people forward.
+- Index level only: no stock tips, no price levels or targets, no 'buy before the Budget'.
+- Don't say LTCG is going away. She committed to nothing; the reel can only say what she said.
+- Real person: Sitharaman only through a licensed photo or her own real footage, her own words exactly.
+- A newspaper headline says investors got '₹4.12 lakh crore richer' (Times of India); we couldn't open it, so don't use that number unless it's checked.
 
-## 3. UPI's 0.4% merchant fee is due Thursday. An IIT-Bombay study says it should be 0.08%.
+## 3. The 0.4% UPI merchant fee, due tomorrow, is pushed to after Diwali; an IIT-Bombay study says 0.08% would do
 
-Deep lane (tracked; new turn: IIT-Bombay study, via Moneylife and PTI) · HOT · **8/10** (momentum 2/3, stake 1/1, shareability 1/2, gap 2/2, known name 2/2) · tracker id `upi-mdr-deferral`
+Deep lane (tracked story, new turn; via Moneylife) · RISING · **6/10** (momentum 2/3, stake 1/1, shareability 1/2, gap 1/2, known name 1/2) · tracker id `upi-mdr-deferral`
 
-Window: Tue 13 to Thu 15 Oct: the fee is due to start on 15 Oct unless NPCI defers it; the decision itself is the next peg.
+Window: Wed 14 Oct until the new date is notified ('immediately after Diwali').
 
 ### What's happening
-- NPCI's UPI Steering Committee set a 0.4% merchant discount rate on person-to-merchant UPI payments above ₹2,000 last month, due from 15 Oct 2026: ₹8 on a ₹2,000 payment, ₹40 on ₹10,000. Merchants pay it; person-to-person transfers stay free (Outlook Money).
-- NPCI is weighing a delay to January 2027 after merchant groups and fintechs asked for more time over the festival season. The committee meeting set for 9 Oct did not take place, and as of this morning we found no announcement either way: the 15 Oct date still officially stands (Free Press Journal, 10 Oct; tracked since 10 Oct).
-- New since we last sent it: a report by IIT-Bombay professor Ashish Das and former RBI official Pragya Das, 'UPI at a Crossroads: Reintroducing the MDR', says the fee should be 0.08% (0.06% for the apps, 0.02% for the payment banks), limited to merchants with turnover of ₹50 crore or more, which would still cover about 90% of NPCI's proposed fee base (PTI via Daily Excelsior, 11 Oct; Moneylife).
-- The study's case: in the present model the banks take 'a bulk 70 per cent' of the fee, yet banks earned over ₹4.85 lakh crore in net interest margin on current and savings deposits in FY26; setting aside about 3% of that, about ₹15,000 crore, would run UPI without the bank share.
+- New since we last sent it: on Tue 13 Oct NPCI's steering committee deferred the UPI merchant discount rate (MDR), due on 15 Oct, because of the festive season: 'The charges will be implemented immediately after Diwali, on a date to be notified separately.' The rates are unchanged (Moneylife).
+- The fee as proposed: 0.4% on person-to-merchant UPI payments above ₹2,000, capped at ₹300 (₹40 on a ₹10,000 payment); a flat ₹5 for railways, telecom, insurance, fuel and farm inputs; 0.02% for mutual funds and brokers. Payments up to ₹2,000, person-to-person transfers and eligible small merchants stay free. The government says about 96% of merchant payments stay free.
+- No fee for the customer: banks should stop merchants adding it as a surcharge, though the merchants can raise prices.
+- The IIT-Bombay study (Prof. Ashish Das and former RBI official Praggya Das): cut the rate to 0.08%, and drop the banks' 70% share of the fee; banks would get about ₹1,200 crore of the roughly ₹1,500 crore a month the fee raises (₹18,000 crore a year). PhonePe (49% of UPI value) could get over ₹140 crore a month and Google Pay about ₹100 crore. They'd fund UPI from 3% of the ₹4.84 lakh crore banks earn on savings and current accounts.
 
 ### The curiosity gap
-- UPI was supposed to be free. From Thursday, a shop may pay ₹40 on your ₹10,000 payment, and most of it goes to banks, not to PhonePe or Google Pay. Who actually gets the money?
-- An IIT-Bombay study says one-fifth of the fee would do. If it's 0.08% versus 0.4%, who picked 0.4%?
-- Will the shopkeeper simply add it to your bill?
+- UPI was free for six years. The fee was due tomorrow and got pushed past Diwali, conveniently when you spend the most. Who decided, and who gets the money?
+- An IIT professor says 0.08% is enough, not 0.4%, and that banks, who did least, take 70% of it. Why?
+- You won't see a charge, but your ₹10,000 TV may now carry ₹40 of fee in its price. Who actually pays?
 
 ### How hot it is
-- Two readings this morning disagree: the tracker's check reads HOT and rising (907K YouTube views this week on the story, best 6,495 an hour); a narrower 'UPI MDR' query reads FLAT (11 of 100 news items this week landed today; best 31,714 views in 24 h). Scored RISING (2) between them.
-- The September announcement was one of the season's biggest money topics on Instagram (below, up to 3.9M). The IIT-Bombay study has not been made as a Short at all.
+- Trend meter on 'UPI MDR deferred': 4 of the week's 5 news items landed in the last day (80%), so RISING; the tracker's broader 'UPI charges' query reads HOT, with a video at about 3,400 views an hour.
+- The deferral itself has barely been made into video: the best this week is 955 views. Payment stocks moved: Paytm, Pine Labs and MobiKwik fell up to 7% (Economic Times headline, page not opened).
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [@itsmeshubhamm (Instagram)](https://www.instagram.com/reel/DdW31OUzs4i/) | 'UPI charges explained': split screen, news clip above, creator below; who pays, who is affected | 3.9M | 18.1× median | mid-Sep |
-| [@livetimesnewschannel (Instagram)](https://www.instagram.com/reel/DdV7F4QAAdX/) | 'UPI fee: whose coffers fill? Banks and apps, how is the money split?' Studio anchor with the FM's photo | 2M | 261× median | mid-Sep |
-| [@fiscalbandit (Instagram)](https://www.instagram.com/reel/DdUJBACTAdA/) | 'UPI isn't free anymore': talking head, quick summary of who pays what | 1.8M | 658× median | mid-Sep |
-| [@the_hindu (Instagram)](https://www.instagram.com/reel/DdUSLN0CvRK/) | B-roll of a QR payment with the UPI 'ting', voice-over on the 0.4% rule | 1M | 8.7× median | mid-Sep |
 
-_September's reels explained the rule. Nobody has come back two days before it starts, with no decision yet, nor shown the IIT-Bombay figure: one-fifth of the fee, and banks taking most of it._
+_The fee itself was covered heavily in September; the deferral and the IIT-Bombay counter-proposal haven't been. Nobody has asked who keeps the 0.4%._
 
 ### Facts and sources
-- MDR 0.40% on P2M above ₹2,000 per the NPCI circular of 15 Sep, capped at ₹300 for payments of ₹75,000 or more; IIT-Bombay report (Ashish Das, Pragya Das) proposes 0.08% (0.06% TPAPs + 0.02% PSPs), only for merchants with turnover ≥ ₹50 crore (about 90% of NPCI's proposed MDR); banks take 'a bulk 70 per cent' in the present model; banks booked over ₹4.85 lakh crore NIM on CASA in FY26; about 3% (~₹15,000 crore) could run UPI. — [Daily Excelsior (PTI), 11 Oct](https://www.dailyexcelsior.com/iit-b-study-bats-to-cut-mdr-to-0-08-pc-from-0-4-pc-exclude-banks-from-taking-bulk-share)
-- Fee due from 15 Oct 2026; 0.40% above ₹2,000 = ₹8 on ₹2,000, ₹40 on ₹10,000; committee considering a delay to January 2027; meeting set for 9 Oct. — [Outlook Money, 9 Oct](https://www.outlookmoney.com/banking/npci-to-decide-on-upi-mdr-delay-as-payments-industry-seeks-more-time)
-- The 9 Oct steering committee meeting was not held; no new date; 15 Oct rollout uncertain. — [Free Press Journal, 10 Oct](https://www.freepressjournal.in/business/october-15-rollout-of-upi-mdr-faces-uncertainty-as-npci-meeting-not-held-on-friday)
+- NPCI's SSC deferred UPI MDR: 'implemented immediately after Diwali, on a date to be notified separately'; earlier date 15 Oct; rates unchanged: 0.4% above ₹2,000, cap ₹300; ₹5 flat for railways, telecom, insurance, fuel, agri inputs; 0.02% capital markets; P2P and up to ₹2,000 free; ~96% of P2M stays free. — [Moneylife, 13 Oct](https://www.moneylife.in/article/npci-defers-upi-mdr-rollout-amid-festive-season-select-merchant-payments-to-attract-charges-postdiwali/81931.html)
+- IIT-Bombay study (Ashish Das, Praggya Das): 0.08% (0.06% apps, 0.02% PSPs); banks 70% (~₹1,050 crore/month) + PSPs 10%; ~₹1,500 crore a month, ₹18,000 crore a year (Aug 2026 data); PhonePe 49%, Google Pay 34% of UPI value; fund from 3% of banks' ₹4.84 lakh crore CASA margin; firms over ₹1,000 crore turnover pay ~80% of MDR. — [Moneylife, 12 Oct](https://www.moneylife.in/article/cut-upi-mdr-to-008-percentage-scrap-banks-70-percentage-share-iitbombay-study-proposes-overhaul-of-merchant-charges/81914.html)
 
 ### Watch out
-- Moving target: if NPCI announces a delay today or tomorrow, the reel's first line changes. Check the morning of the shoot.
-- Say 'shops pay it', not 'you pay it': whether it reaches the customer's bill is not on any page we opened.
-- No call on Paytm, Pine Labs or bank shares (they fell on the delay reports).
-- Tests it can carry: '0.4% vs 0.08%' in frame one (B1), 20–30 s (B2), a send line inside 12 s (B3) for the friend who runs a shop.
+- Facts change fast: check for the notified date before scripting.
+- No call on Paytm, Pine Labs or MobiKwik shares.
+- Credit Moneylife in the caption if the IIT-Bombay angle leads ('via Moneylife').
 
 ## Stories we're tracking
 
@@ -142,29 +136,28 @@ Full board: research/desk/TRACKER.md
 
 | Story | Now | Direction | Day | Status |
 |---|---|---|---|---|
-| Jio Platforms IPO (`jio-ipo`) | RISING | rising | 6 | active |
-| International ETFs trading far above NAV (NSE warning) (`intl-etf-premium`) | COLD | rising | 6 | active |
-| TCS: profit +15%, share -35% in 2026 (`tcs-q2-profit-share`) | FLAT | steady | 5 | active |
-| SC orders panel on pharma freebies to doctors (`pharma-freebies-sc`) | COLD | steady | 5 | active |
-| UPI merchant fee (0.4% MDR) may be deferred to 1 Jan (`upi-mdr-deferral`) | HOT | rising | 4 | active |
-| Inox Clean: revenue 43X, debt 45X, IPO on hold (`inox-clean-ipo`) | COLD | steady | 4 | active |
-| Musk calls Ambani 'Prime Minister Ambani' over Starlink (`musk-ambani-starlink`) | HOT | rising | 3 | active |
-| US suspends TCS, Infosys, Wipro from green-card PERM; IT shares rise (`us-perm-indian-it`) | COLD | fading | 3 | active |
-| SC on hospital drug markups: Rs 2,700 drug sold at Rs 27,000 (`hospital-drug-markup-sc`) | COLD | steady | 3 | active |
-| HDFC Bank's new CEO ₹35.9 cr vs SBI chairman ₹43 lakh (`hdfc-ceo-pay-sbi`) | COLD | new | 2 | active |
-| Gauahar Khan's Versova duplex: 88% in 12 years (`gauahar-khan-flat`) | COLD | new | 2 | active |
-| Kohli and Anushka's ₹44 crore: three Versova flats, ready 2031 (`kohli-anushka-versova-flats`) | - | new | 1 | active |
-| Rupee near ₹97: RBI hike, then four emergency measures (`rbi-rupee-rescue`) | - | new | 1 | active |
+| Jio Platforms IPO (`jio-ipo`) | FLAT | fading | 7 | active |
+| International ETFs trading far above NAV (NSE warning) (`intl-etf-premium`) | COLD | rising | 7 | active |
+| TCS: profit +15%, share -35% in 2026 (`tcs-q2-profit-share`) | FLAT | steady | 6 | active |
+| SC orders panel on pharma freebies to doctors (`pharma-freebies-sc`) | COLD | steady | 6 | active |
+| UPI merchant fee (0.4% MDR) may be deferred to 1 Jan (`upi-mdr-deferral`) | HOT | rising | 5 | active |
+| Inox Clean: revenue 43X, debt 45X, IPO on hold (`inox-clean-ipo`) | COLD | fading | 5 | active |
+| Musk calls Ambani 'Prime Minister Ambani' over Starlink (`musk-ambani-starlink`) | HOT | rising | 4 | active |
+| SC on hospital drug markups: Rs 2,700 drug sold at Rs 27,000 (`hospital-drug-markup-sc`) | COLD | steady | 4 | active |
+| Gauahar Khan's Versova duplex: 88% in 12 years (`gauahar-khan-flat`) | COLD | steady | 3 | active |
+| Kohli and Anushka's ₹44 crore: three Versova flats, ready 2031 (`kohli-anushka-versova-flats`) | COLD | new | 2 | active |
+| Rupee near ₹97: RBI hike, then four emergency measures (`rbi-rupee-rescue`) | HOT | new | 2 | active |
+| Zoho freezes pay rises over AI and server costs (`zoho-pay-freeze`) | - | new | 1 | active |
+| Sensex +1,109 partly on FM's LTCG remark (`ltcg-remark-rally`) | - | new | 1 | active |
 
 ## Also on the wire
-- GST on deliveries (sent in yesterday's wire): CBIC said on 10 Oct that the viral 'new 5% GST on deliveries' claim is wrong: delivery services such as food apps' were taxed at 18% and are now cut to 5%, uniform for e-commerce deliveries (Social News XYZ). The outlier that started it, @thebean.media's 'Online orders may cost you more', is at 885K (394× median). A myth-busting reel is possible; the goods-transport exemption change still isn't notified.
-- Kohli's ₹5 crore Premanand rumour: four reels at 1.5M–4.1M this week, but it's a rumour about a fee, not his money decision; we'd be repeating an unverified claim. Not sent.
-- Jio Platforms IPO (tracked): still no RHP; reported band ₹1,065–1,119 (Bloomberg via Zee Business), issue reported 21–23 Oct. Musk–Ambani Starlink (tracked, HOT): no new turn since Saturday's 'affordable' post.
-- HDFC Bank CEO pay (yesterday's pick, tracked): no new turn; COLD on the meter today. Bagchi takes charge 27 Oct, the next peg.
+- Jio Platforms IPO (tracked): a price band of ₹1,065–1,119 is reported (Reuters via The Edge, 9 Oct), with subscription reported for 21–23 Oct and listing around 28 Oct; Economic Times and Mint headlines on 13 Oct say it may draw over $20 billion of bids. Not official until the RHP. @tradingmargin's 'Jio IPO is here' reel did 5M views (251× median): the biggest money reel of the fortnight. Expect it to be today's top contender the day the RHP lands.
+- Waaree Energies fell about 15% after the US put a 126% duty on Indian solar imports (Goodreturns headline, page not opened). RBL Bank fell about 9% despite nearly tripling its quarterly profit (Moneycontrol headline). Both are possible stock-mover reels; check before using.
+- Veeramani, a Madurai influencer who asked followers for Diwali gifts, was flooded with fake cash-on-delivery orders (a JCB, TVs, fridges); 111K views on the top Tamil video. Viral, but there's no investor stake and the joke would land on a person. Not sent.
 
 ## Where we stand
 
-291 followers (+203 this week)  
+291 followers (+89 this week)  
 Last reel (Nana Patekar's Rs 1.5 crore car: the money went to farmers' families, then Naam Foundation): 3275 plays so far  
 What every reel is testing:  
 - Hook in frame one: swipe-aways in the first 3 s 52% now, target 45% (3 of 3 reels in)

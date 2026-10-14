@@ -11,7 +11,8 @@
     "First sent 8 Oct. Valuation reportedly cut to ~₹11 lakh crore ($114 bn) from $130-170 bn; opens week of 19 Oct, lists before 30 Oct.",
     "2026-10-09: Reported band ₹1,150-1,220 (unconfirmed); RHP after 12 Oct",
     "2026-10-10: 2026-10-10: Bloomberg band ₹1,065-1,119, ~₹30,213 cr, valuation ~07 bn; RHP expected Mon 12 Oct",
-    "2026-10-11: 11 Oct: no RHP yet; documents expected week of 12 Oct; Musk-Ambani row (story musk-ambani-starlink) is its newest turn"
+    "2026-10-11: 11 Oct: no RHP yet; documents expected week of 12 Oct; Musk-Ambani row (story musk-ambani-starlink) is its newest turn",
+    "2026-10-14: 13 Oct: >$20 bn bids reported (ET/Mint headlines); band 1,065-1,119 reported; no RHP yet"
    ],
    "readings": [
     {
@@ -89,6 +90,19 @@
      "yt_best_vph": 2337,
      "yt_top": "Jio IPO में ₹11 लाख करोड़ की Valuation! Airtel और Reliance Investors प (56,083 views in 24h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-14",
+     "label": "FLAT",
+     "news_1d": 34,
+     "news_7d": 100,
+     "momentum_pct": 34,
+     "yt_week_videos": 8,
+     "yt_week_views": 207073,
+     "yt_best_vph": 1199,
+     "yt_top": "Jio IPO में ₹11 लाख करोड़ की Valuation! Airtel और Reliance Investors प (57,567 views in 48h)",
+     "google_trending": [],
+     "desk_score": 7.0
     }
    ],
    "lane": "hot"
@@ -266,6 +280,18 @@
      "yt_week_views": 111096,
      "yt_best_vph": 1859,
      "yt_top": "High Yields To Pull Asset Prices Down | Danielle Park (44,627 views in 24h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-10-14",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 16,
+     "yt_week_views": 419323,
+     "yt_best_vph": 2026,
+     "yt_top": "【全球政經周報】AI出口大增!馬凱拆解台積電供應鏈外移、中國房市與通縮、牽動投資布局的全球5大變局20261011 @中天財經頻道CtiFi (97,247 views in 48h)",
      "google_trending": []
     }
    ],
@@ -584,6 +610,18 @@
      "yt_best_vph": 801,
      "yt_top": "Tcs Q2 Results 2027 | Tcs Results Today | Tcs Share News Today | Tcs D (76,861 views in 96h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-14",
+     "label": "FLAT",
+     "news_1d": 7,
+     "news_7d": 45,
+     "momentum_pct": 16,
+     "yt_week_videos": 13,
+     "yt_week_views": 78771,
+     "yt_best_vph": 153,
+     "yt_top": "12 Companies Announced Bonus, Dividend, Split | Bonus Share Latest New (7,350 views in 48h)",
+     "google_trending": []
     }
    ]
   },
@@ -650,6 +688,18 @@
      "yt_best_vph": 398,
      "yt_top": "重生 80 年代，心疼受盡欺負的妻子，靠茶葉蛋賺第一桶金，逆襲坐擁工廠 (38,186 views in 96h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-14",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 1,
+     "momentum_pct": 0,
+     "yt_week_videos": 11,
+     "yt_week_views": 50160,
+     "yt_best_vph": 332,
+     "yt_top": "重生 80 年代，心疼受盡欺負的妻子，靠茶葉蛋賺第一桶金，逆襲坐擁工廠 (39,828 views in 120h)",
+     "google_trending": []
     }
    ]
   },
@@ -665,7 +715,8 @@
     "First sent 10 Oct. Fee due 15 Oct; deferral to 1 Jan 2027 under consideration, decision in days.",
     "2026-10-11: 11 Oct: steering committee meeting of 9 Oct not held; 15 Oct still officially stands",
     "2026-10-13: 13 Oct: no decision yet, 15 Oct stands; IIT-Bombay study says 0.08% (PTI, 11 Oct)",
-    "2026-10-13: 13 Oct: no decision yet, 15 Oct stands; IIT-Bombay study says 0.08% (PTI, 11 Oct)"
+    "2026-10-13: 13 Oct: no decision yet, 15 Oct stands; IIT-Bombay study says 0.08% (PTI, 11 Oct)",
+    "2026-10-14: 13 Oct: NPCI deferred MDR to 'immediately after Diwali', date to be notified; rates unchanged"
    ],
    "readings": [
     {
@@ -709,6 +760,19 @@
      "yt_top": "UPI MDR Delayed? | 0.4% Fee on Payments Above ₹2,000 May Start in 2027 (467,634 views in 72h)",
      "google_trending": [],
      "desk_score": 8.0
+    },
+    {
+     "date": "2026-10-14",
+     "label": "HOT",
+     "news_1d": 31,
+     "news_7d": 43,
+     "momentum_pct": 72,
+     "yt_week_videos": 2,
+     "yt_week_views": 122054,
+     "yt_best_vph": 3396,
+     "yt_top": "NPCI May Defer October 15 UPI MDR Rollout for UPI transactions! #ankit (81,505 views in 24h)",
+     "google_trending": [],
+     "desk_score": 6.0
     }
    ]
   },
@@ -763,6 +827,18 @@
      "yt_best_vph": 1948,
      "yt_top": "#1846 Market News Analysis (280,461 views in 144h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-14",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 7,
+     "yt_week_views": 77242,
+     "yt_best_vph": 455,
+     "yt_top": "Reliance Industries, PC Jeweller, HDFC Bank, CarTrade Tech, Tata Techn (10,912 views in 24h)",
+     "google_trending": []
     }
    ]
   },
@@ -776,7 +852,8 @@
    "status": "active",
    "notes": [
     "First sent 11 Oct. Musk posts 8-10 Oct; govt: same stage for all three satcom operators; Jio 1,600-satellite plan; ties to Jio IPO 21 Oct.",
-    "2026-10-12: Musk promises affordable Starlink (Sat 10 Oct); Jio targets $106 bn"
+    "2026-10-12: Musk promises affordable Starlink (Sat 10 Oct); Jio targets $106 bn",
+    "2026-10-14: 13 Oct: RSS affiliate urges Starlink licence denial (Reuters)"
    ],
    "readings": [
     {
@@ -807,6 +884,19 @@
      "yt_best_vph": 109241,
      "yt_top": "Ambani vs Elon Musk (3D) by Professor of How (5,243,562 views in 48h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-14",
+     "label": "HOT",
+     "news_1d": 8,
+     "news_7d": 28,
+     "momentum_pct": 29,
+     "yt_week_videos": 18,
+     "yt_week_views": 8972151,
+     "yt_best_vph": 79404,
+     "yt_top": "Ambani vs Elon Musk (3D) by Professor of How (5,717,078 views in 72h)",
+     "google_trending": [],
+     "desk_score": 6.0
     }
    ]
   },
@@ -817,7 +907,7 @@
    "first_seen": "2026-10-11",
    "lane": "hot",
    "window_until": "2026-10-17",
-   "status": "active",
+   "status": "retired",
    "notes": [
     "First sent 11 Oct. Suspension 8 Oct; Nifty IT +1,000 pts at one stage 9 Oct; The Ken: Infosys 0 certifications since 2023."
    ],
@@ -849,8 +939,24 @@
      "yt_best_vph": 4441,
      "yt_top": "Infosys, Wipro among 8 IT firms suspended from green card programme |  (426,358 views in 96h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-14",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 1,
+     "momentum_pct": 0,
+     "yt_week_videos": 15,
+     "yt_week_views": 1195114,
+     "yt_best_vph": 3721,
+     "yt_top": "Infosys, Wipro among 8 IT firms suspended from green card programme |  (446,548 views in 120h)",
+     "google_trending": []
     }
-   ]
+   ],
+   "retired": {
+    "date": "2026-10-14",
+    "reason": "COLD on 2 checks running"
+   }
   },
   {
    "id": "hospital-drug-markup-sc",
@@ -891,6 +997,18 @@
      "yt_best_vph": 39,
      "yt_top": "Today UP News October 07, 2026 | Breaking News Live | Uttar Pradesh La (5,583 views in 144h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-14",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 3,
+     "yt_week_views": 6416,
+     "yt_best_vph": 256,
+     "yt_top": "Healthcare Stocks Fall After SC Calls Out Govt on Cancer Drug Markups (6,155 views in 24h)",
+     "google_trending": []
     }
    ]
   },
@@ -901,7 +1019,7 @@
    "first_seen": "2026-10-12",
    "lane": "hot",
    "window_until": "2026-10-27",
-   "status": "active",
+   "status": "retired",
    "notes": [
     "Bagchi package via postal ballot; desk 12 Oct"
    ],
@@ -921,8 +1039,24 @@
      "yt_best_vph": 796,
      "yt_top": "ಬ್ಯಾಂಕ್‌ಗಳು ಇವರಿಗೆ ಮುಗಿಬಿದ್ದಿದ್ಯಾಕೆ? | 36 Cr Salary | HDFC | Kotak | M (76,420 views in 96h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-14",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 1,
+     "momentum_pct": 0,
+     "yt_week_videos": 4,
+     "yt_week_views": 8051,
+     "yt_best_vph": 55,
+     "yt_top": "'Q2 Updates Are Encouraging,' Expert Asks To Wait and Watch The New CE (6,638 views in 120h)",
+     "google_trending": []
     }
-   ]
+   ],
+   "retired": {
+    "date": "2026-10-14",
+    "reason": "COLD on 2 checks running"
+   }
   },
   {
    "id": "gauahar-khan-flat",
@@ -951,6 +1085,18 @@
      "yt_best_vph": 21490,
      "yt_top": "Gulbahar - Episode 08 - [ENG SUB] - 8th Oct 2026 [ Sanam Saeed, Emmad  (2,063,021 views in 96h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-14",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 6,
+     "yt_week_views": 2302454,
+     "yt_best_vph": 18075,
+     "yt_top": "Gulbahar - Episode 08 - [ENG SUB] - 8th Oct 2026 [ Sanam Saeed, Emmad  (2,169,058 views in 120h)",
+     "google_trending": []
     }
    ]
   },
@@ -969,6 +1115,18 @@
     {
      "date": "2026-10-13",
      "desk_score": 8.0
+    },
+    {
+     "date": "2026-10-14",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 3,
+     "yt_week_views": 232610,
+     "yt_best_vph": 1519,
+     "yt_top": "PREMANAND MAHARAJ 5 CRORE ROW | The Real Conspiracy Behind Virat Kohli (218,692 views in 144h)",
+     "google_trending": []
     }
    ]
   },
@@ -987,6 +1145,54 @@
     {
      "date": "2026-10-13",
      "desk_score": 7.0
+    },
+    {
+     "date": "2026-10-14",
+     "label": "HOT",
+     "news_1d": 2,
+     "news_7d": 6,
+     "momentum_pct": 33,
+     "yt_week_videos": 15,
+     "yt_week_views": 174842,
+     "yt_best_vph": 3457,
+     "yt_top": "RBI’s 20% Foreign Exchange Risk Reserve (FERR) & Sp. Oil Dollar Pipeli (82,964 views in 24h)",
+     "google_trending": []
+    }
+   ]
+  },
+  {
+   "id": "zoho-pay-freeze",
+   "title": "Zoho freezes pay rises over AI and server costs",
+   "query": "Zoho salary hike|ज़ोहो सैलरी",
+   "first_seen": "2026-10-14",
+   "lane": "hot",
+   "window_until": "2026-10-20",
+   "status": "active",
+   "notes": [
+    "First sent 14 Oct. Vembu X post 13 Oct: no usual pay increase, server prices 4x, headcount flat 18 months, 'pray for us'."
+   ],
+   "readings": [
+    {
+     "date": "2026-10-14",
+     "desk_score": 9.0
+    }
+   ]
+  },
+  {
+   "id": "ltcg-remark-rally",
+   "title": "Sensex +1,109 partly on FM's LTCG remark",
+   "query": "LTCG tax Sitharaman|एलटीसीजी टैक्स",
+   "first_seen": "2026-10-14",
+   "lane": "hot",
+   "window_until": "2026-10-20",
+   "status": "active",
+   "notes": [
+    "First sent 14 Oct. FM: debate healthy, 'not the best time to say what I will consider'; Sensex +1,109 to 73,033.78 on 13 Oct."
+   ],
+   "readings": [
+    {
+     "date": "2026-10-14",
+     "desk_score": 8.0
     }
    ]
   }
