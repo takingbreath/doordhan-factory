@@ -12,7 +12,8 @@
     "2026-10-09: Reported band ₹1,150-1,220 (unconfirmed); RHP after 12 Oct",
     "2026-10-10: 2026-10-10: Bloomberg band ₹1,065-1,119, ~₹30,213 cr, valuation ~07 bn; RHP expected Mon 12 Oct",
     "2026-10-11: 11 Oct: no RHP yet; documents expected week of 12 Oct; Musk-Ambani row (story musk-ambani-starlink) is its newest turn",
-    "2026-10-14: 13 Oct: >$20 bn bids reported (ET/Mint headlines); band 1,065-1,119 reported; no RHP yet"
+    "2026-10-14: 13 Oct: >$20 bn bids reported (ET/Mint headlines); band 1,065-1,119 reported; no RHP yet",
+    "2026-10-15: 15 Oct: dates official (PTI): opens 21 Oct, lists 28 Oct; ₹2,500 cr quota for Reliance holders as of 14 Oct; ₹500 cr employees"
    ],
    "readings": [
     {
@@ -103,6 +104,19 @@
      "yt_top": "Jio IPO में ₹11 लाख करोड़ की Valuation! Airtel और Reliance Investors प (57,567 views in 48h)",
      "google_trending": [],
      "desk_score": 7.0
+    },
+    {
+     "date": "2026-10-15",
+     "label": "RISING",
+     "news_1d": 50,
+     "news_7d": 100,
+     "momentum_pct": 50,
+     "yt_week_videos": 0,
+     "yt_week_views": 0,
+     "yt_best_vph": 0,
+     "yt_top": "",
+     "google_trending": [],
+     "desk_score": 8.0
     }
    ],
    "lane": "hot"
@@ -292,6 +306,18 @@
      "yt_week_views": 419323,
      "yt_best_vph": 2026,
      "yt_top": "【全球政經周報】AI出口大增!馬凱拆解台積電供應鏈外移、中國房市與通縮、牽動投資布局的全球5大變局20261011 @中天財經頻道CtiFi (97,247 views in 48h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-10-15",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 17,
+     "yt_week_views": 32508,
+     "yt_best_vph": 115,
+     "yt_top": "China Rejects Claims the Yuan Is Undervalued (13,820 views in 120h)",
      "google_trending": []
     }
    ],
@@ -554,7 +580,7 @@
    "first_seen": "2026-10-09",
    "lane": "hot",
    "window_until": "2026-10-14",
-   "status": "active",
+   "status": "retired",
    "notes": [
     "First sent 9 Oct. Q2 profit ₹13,884 cr; +4,258 staff; AI $3.1 bn."
    ],
@@ -622,8 +648,24 @@
      "yt_best_vph": 153,
      "yt_top": "12 Companies Announced Bonus, Dividend, Split | Bonus Share Latest New (7,350 views in 48h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-15",
+     "label": "HOT",
+     "news_1d": 7,
+     "news_7d": 48,
+     "momentum_pct": 15,
+     "yt_week_videos": 11,
+     "yt_week_views": 464093,
+     "yt_best_vph": 10346,
+     "yt_top": "How TCS Plans to Beat America in the AI Era | upGrad (248,292 views in 24h)",
+     "google_trending": []
     }
-   ]
+   ],
+   "retired": {
+    "date": "2026-10-15",
+    "reason": "past its window"
+   }
   },
   {
    "id": "pharma-freebies-sc",
@@ -700,6 +742,18 @@
      "yt_best_vph": 332,
      "yt_top": "重生 80 年代，心疼受盡欺負的妻子，靠茶葉蛋賺第一桶金，逆襲坐擁工廠 (39,828 views in 120h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-15",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 1,
+     "momentum_pct": 0,
+     "yt_week_videos": 7,
+     "yt_week_views": 4746,
+     "yt_best_vph": 18,
+     "yt_top": "LiveLaw Daily|Freebies to doctors|Jantar Mantar Protests|Kangana Ranau (2,573 views in 144h)",
+     "google_trending": []
     }
    ]
   },
@@ -773,6 +827,18 @@
      "yt_top": "NPCI May Defer October 15 UPI MDR Rollout for UPI transactions! #ankit (81,505 views in 24h)",
      "google_trending": [],
      "desk_score": 6.0
+    },
+    {
+     "date": "2026-10-15",
+     "label": "HOT",
+     "news_1d": 7,
+     "news_7d": 40,
+     "momentum_pct": 18,
+     "yt_week_videos": 17,
+     "yt_week_views": 363947,
+     "yt_best_vph": 3323,
+     "yt_top": "UPI payment पे charge फिलहाल टाल दिया गया ।  Ashok Wankhede Show (79,753 views in 24h)",
+     "google_trending": []
     }
    ]
   },
@@ -839,6 +905,18 @@
      "yt_best_vph": 455,
      "yt_top": "Reliance Industries, PC Jeweller, HDFC Bank, CarTrade Tech, Tata Techn (10,912 views in 24h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-15",
+     "label": "COLD",
+     "news_1d": 1,
+     "news_7d": 1,
+     "momentum_pct": 100,
+     "yt_week_videos": 5,
+     "yt_week_views": 65813,
+     "yt_best_vph": 343,
+     "yt_top": "Suzlon Repowering Project से बदलेगी Wind Energy की तस्वीर? Girish Tant (49,440 views in 144h)",
+     "google_trending": []
     }
    ]
   },
@@ -897,6 +975,18 @@
      "yt_top": "Ambani vs Elon Musk (3D) by Professor of How (5,717,078 views in 72h)",
      "google_trending": [],
      "desk_score": 6.0
+    },
+    {
+     "date": "2026-10-15",
+     "label": "FLAT",
+     "news_1d": 6,
+     "news_7d": 28,
+     "momentum_pct": 21,
+     "yt_week_videos": 20,
+     "yt_week_views": 11686514,
+     "yt_best_vph": 61891,
+     "yt_top": "Ambani vs Elon Musk (3D) by Professor of How (5,941,515 views in 96h)",
+     "google_trending": []
     }
    ]
   },
@@ -1009,6 +1099,18 @@
      "yt_best_vph": 256,
      "yt_top": "Healthcare Stocks Fall After SC Calls Out Govt on Cancer Drug Markups (6,155 views in 24h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-15",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 12,
+     "yt_week_views": 188314,
+     "yt_best_vph": 1547,
+     "yt_top": "Why Middle-Class Indians Feel Cheated Everywhere (185,646 views in 120h)",
+     "google_trending": []
     }
    ]
   },
@@ -1097,6 +1199,18 @@
      "yt_best_vph": 18075,
      "yt_top": "Gulbahar - Episode 08 - [ENG SUB] - 8th Oct 2026 [ Sanam Saeed, Emmad  (2,169,058 views in 120h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-15",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 3,
+     "yt_week_views": 2399696,
+     "yt_best_vph": 15790,
+     "yt_top": "Gulbahar - Episode 08 - [ENG SUB] - 8th Oct 2026 [ Sanam Saeed, Emmad  (2,273,818 views in 144h)",
+     "google_trending": []
     }
    ]
   },
@@ -1107,7 +1221,7 @@
    "first_seen": "2026-10-13",
    "lane": "hot",
    "window_until": "2026-10-20",
-   "status": "active",
+   "status": "retired",
    "notes": [
     "First sent 13 Oct. Godrej Skyshore, 3 flats ₹44 cr, stamp duty ~₹2.49 cr, possession 30 Jun 2031."
    ],
@@ -1127,8 +1241,24 @@
      "yt_best_vph": 1519,
      "yt_top": "PREMANAND MAHARAJ 5 CRORE ROW | The Real Conspiracy Behind Virat Kohli (218,692 views in 144h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-15",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 1,
+     "yt_week_views": 598,
+     "yt_best_vph": 25,
+     "yt_top": "UP News Live 14th October. UP farmers,Gen Z ,CM Yogi, UP ration card e (598 views in 24h)",
+     "google_trending": []
     }
-   ]
+   ],
+   "retired": {
+    "date": "2026-10-15",
+    "reason": "COLD on 2 checks running"
+   }
   },
   {
    "id": "rbi-rupee-rescue",
@@ -1157,6 +1287,18 @@
      "yt_best_vph": 3457,
      "yt_top": "RBI’s 20% Foreign Exchange Risk Reserve (FERR) & Sp. Oil Dollar Pipeli (82,964 views in 24h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-15",
+     "label": "HOT",
+     "news_1d": 0,
+     "news_7d": 7,
+     "momentum_pct": 0,
+     "yt_week_videos": 18,
+     "yt_week_views": 885576,
+     "yt_best_vph": 28608,
+     "yt_top": "HOW RBI SAVED THE INDIAN RUPEE FROM FALLING?? (686,581 views in 24h)",
+     "google_trending": []
     }
    ]
   },
@@ -1175,6 +1317,18 @@
     {
      "date": "2026-10-14",
      "desk_score": 9.0
+    },
+    {
+     "date": "2026-10-15",
+     "label": "HOT",
+     "news_1d": 0,
+     "news_7d": 2,
+     "momentum_pct": 0,
+     "yt_week_videos": 9,
+     "yt_week_views": 288797,
+     "yt_best_vph": 4656,
+     "yt_top": "India's Tech Poster Child Sridhar Vembu of Zoho Faces Reality Check, F (111,739 views in 24h)",
+     "google_trending": []
     }
    ]
   },
@@ -1193,6 +1347,54 @@
     {
      "date": "2026-10-14",
      "desk_score": 8.0
+    },
+    {
+     "date": "2026-10-15",
+     "label": "HOT",
+     "news_1d": 0,
+     "news_7d": 1,
+     "momentum_pct": 0,
+     "yt_week_videos": 13,
+     "yt_week_views": 1046546,
+     "yt_best_vph": 18007,
+     "yt_top": "Nirmala Sitharaman's BIG Statement on STT & LTCG! | STT और LTCG पर FM  (432,172 views in 24h)",
+     "google_trending": []
+    }
+   ]
+  },
+  {
+   "id": "gold-slide-rupee",
+   "title": "Gold ₹3,600 cheaper in four sessions on a stronger rupee",
+   "query": "gold price today|सोने का भाव",
+   "first_seen": "2026-10-15",
+   "lane": "hot",
+   "window_until": "2026-10-19",
+   "status": "active",
+   "notes": [
+    "First sent 15 Oct. ₹1,50,800/10 g on 14 Oct (−₹1,800; −₹3,600 since 9 Oct); rupee 95.17, 4th gain."
+   ],
+   "readings": [
+    {
+     "date": "2026-10-15",
+     "desk_score": 8.0
+    }
+   ]
+  },
+  {
+   "id": "airtel-money-london",
+   "title": "Airtel Money lists in London at $7 bn (via The Ken)",
+   "query": "Airtel Money|एयरटेल मनी",
+   "first_seen": "2026-10-15",
+   "lane": "deep",
+   "window_until": "2026-10-29",
+   "status": "active",
+   "notes": [
+    "First sent 15 Oct. £1.96, £5.3 bn; 270m shares; flat debut 9 Oct; admission 14 Oct."
+   ],
+   "readings": [
+    {
+     "date": "2026-10-15",
+     "desk_score": 6.0
     }
    ]
   }
