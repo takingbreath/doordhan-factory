@@ -93,7 +93,7 @@ _News channels read out the daily rate and ask 'buy now?'; the viral reels are a
 - No 'buy now' or 'wait' call, and no price forecast or target: explain why it moved.
 - Prices are Delhi Sarafa rates including taxes; city rates and making charges differ. Check Thursday's rate before scripting; the slide may have turned.
 - Humour lands on the herd's festival timing or the system (the rupee decides your bangle), never on the viewer.
-- Tests it can carry: '₹3,600 sasta' on screen in frame one (hook in frame one; no known name, so the number has to carry it), 20–30 s, and a send line for whoever is buying gold this Diwali (a line worth sending).
+- Tests it can carry: the ₹3,600 fall on screen in frame one (hook in frame one; no known name, so the number has to carry it), 20–30 s, and a send line for whoever is buying gold this Diwali (a line worth sending).
 
 ## 3. Airtel's African payments arm listed in London at $7 billion, 'because Africa never got UPI'
 
