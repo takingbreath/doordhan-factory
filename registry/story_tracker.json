@@ -13,7 +13,8 @@
     "2026-10-10: 2026-10-10: Bloomberg band ₹1,065-1,119, ~₹30,213 cr, valuation ~07 bn; RHP expected Mon 12 Oct",
     "2026-10-11: 11 Oct: no RHP yet; documents expected week of 12 Oct; Musk-Ambani row (story musk-ambani-starlink) is its newest turn",
     "2026-10-14: 13 Oct: >$20 bn bids reported (ET/Mint headlines); band 1,065-1,119 reported; no RHP yet",
-    "2026-10-15: 15 Oct: dates official (PTI): opens 21 Oct, lists 28 Oct; ₹2,500 cr quota for Reliance holders as of 14 Oct; ₹500 cr employees"
+    "2026-10-15: 15 Oct: dates official (PTI): opens 21 Oct, lists 28 Oct; ₹2,500 cr quota for Reliance holders as of 14 Oct; ₹500 cr employees",
+    "2026-10-17: 17 Oct: GMP ₹206 (15 Oct, Outlook Money); anchor Mon 19; opens Wed 21"
    ],
    "readings": [
     {
@@ -128,6 +129,19 @@
      "yt_week_views": 453792,
      "yt_best_vph": 9525,
      "yt_top": "Jio IPO की डिटेल्स आईं सामने! क्या आप Subscribe करेंगे ? | Anuj Singha (228,605 views in 24h)",
+     "google_trending": [],
+     "desk_score": 7.0
+    },
+    {
+     "date": "2026-10-17",
+     "label": "HOT",
+     "news_1d": 60,
+     "news_7d": 100,
+     "momentum_pct": 60,
+     "yt_week_videos": 9,
+     "yt_week_views": 667344,
+     "yt_best_vph": 8598,
+     "yt_top": "🚨 Portfolio స్టాక్స్ ఎందుకు FALL? Jio IPO పై BIG UPDATE! (206,347 views in 24h)",
      "google_trending": [],
      "desk_score": 7.0
     }
@@ -343,6 +357,18 @@
      "yt_week_views": 12809,
      "yt_best_vph": 51,
      "yt_top": "How I’d Build a Dividend ETF Portfolio from Scratch Today (For Europea (4,935 views in 96h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-10-17",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 15,
+     "yt_week_views": 43630,
+     "yt_best_vph": 1404,
+     "yt_top": "Kein Apple, kein Nvidia! Dieser Welt-ETF setzt auf günstige Aktien | j (33,706 views in 24h)",
      "google_trending": []
     }
    ],
@@ -791,6 +817,18 @@
      "yt_best_vph": 183,
      "yt_top": "미녀 CEO 결혼 피해 가난한 산촌에 숨었다! 익사할 뻔한 걸 가난한 청년이 구했다. 깨어나 변태라고 우겼지만, 은거 신의이고 (4,396 views in 24h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-17",
+     "label": "HOT",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 12,
+     "yt_week_views": 176660,
+     "yt_best_vph": 3328,
+     "yt_top": "【最新合集】一口气看完《穿成农女，带崽种田爽翻天！》第1-6季 (79,878 views in 24h)",
+     "google_trending": []
     }
    ]
   },
@@ -801,7 +839,7 @@
    "first_seen": "2026-10-10",
    "lane": "hot",
    "window_until": "2026-10-16",
-   "status": "active",
+   "status": "retired",
    "notes": [
     "First sent 10 Oct. Fee due 15 Oct; deferral to 1 Jan 2027 under consideration, decision in days.",
     "2026-10-11: 11 Oct: steering committee meeting of 9 Oct not held; 15 Oct still officially stands",
@@ -888,8 +926,24 @@
      "yt_best_vph": 8129,
      "yt_top": "The true reality of UPI charges | UPI Charges Scam? (195,103 views in 24h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-17",
+     "label": "HOT",
+     "news_1d": 2,
+     "news_7d": 41,
+     "momentum_pct": 5,
+     "yt_week_videos": 20,
+     "yt_week_views": 910815,
+     "yt_best_vph": 4784,
+     "yt_top": "The true reality of UPI charges | UPI Charges Scam? (229,639 views in 48h)",
+     "google_trending": []
     }
-   ]
+   ],
+   "retired": {
+    "date": "2026-10-17",
+    "reason": "past its window"
+   }
   },
   {
    "id": "inox-clean-ipo",
@@ -978,6 +1032,18 @@
      "yt_best_vph": 352,
      "yt_top": "Suzlon में 4% से ज्यादा तेजी! MOFSL का BUY कॉल, ₹65 का टारगेट! Suzlon  (25,338 views in 72h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-17",
+     "label": "HOT",
+     "news_1d": 0,
+     "news_7d": 2,
+     "momentum_pct": 0,
+     "yt_week_videos": 9,
+     "yt_week_views": 155908,
+     "yt_best_vph": 3662,
+     "yt_top": "CHINA: Cities That Don’t Seem Real (Documentary) (87,893 views in 24h)",
+     "google_trending": []
     }
    ]
   },
@@ -1059,6 +1125,18 @@
      "yt_week_views": 8751103,
      "yt_best_vph": 52173,
      "yt_top": "Ambani vs Elon Musk (3D) by Professor of How (6,260,749 views in 120h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-10-17",
+     "label": "FLAT",
+     "news_1d": 6,
+     "news_7d": 18,
+     "momentum_pct": 33,
+     "yt_week_videos": 11,
+     "yt_week_views": 3262342,
+     "yt_best_vph": 13022,
+     "yt_top": "Elon Musk vs Ambani: भारत में Starlink को कौन रोक रहा है? | SAGAR SINH (1,250,121 views in 96h)",
      "google_trending": []
     }
    ]
@@ -1196,6 +1274,18 @@
      "yt_best_vph": 1318,
      "yt_top": "Why Middle-Class Indians Feel Cheated Everywhere (189,762 views in 144h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-17",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 14,
+     "yt_week_views": 16328,
+     "yt_best_vph": 322,
+     "yt_top": "2700 रुपये की दवा 27 हजार में..दवाओं के नाम पर 'डकैती' का पर्दाफाश करन (7,739 views in 24h)",
+     "google_trending": []
     }
    ]
   },
@@ -1308,6 +1398,18 @@
      "yt_best_vph": 1047,
      "yt_top": "Rahat Fateh Ali Khan - Zaroori Tha (4K Music Video) Gauahar Khan, Kush (125,596 views in 120h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-17",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 4,
+     "yt_week_views": 147762,
+     "yt_best_vph": 876,
+     "yt_top": "Rahat Fateh Ali Khan - Zaroori Tha (4K Music Video) Gauahar Khan, Kush (126,206 views in 144h)",
+     "google_trending": []
     }
    ]
   },
@@ -1408,6 +1510,18 @@
      "yt_best_vph": 20121,
      "yt_top": "HOW RBI SAVED THE INDIAN RUPEE FROM FALLING?? (965,794 views in 48h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-17",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 9,
+     "momentum_pct": 0,
+     "yt_week_videos": 18,
+     "yt_week_views": 360844,
+     "yt_best_vph": 1319,
+     "yt_top": "RBI’s 20% Foreign Exchange Risk Reserve (FERR) & Sp. Oil Dollar Pipeli (126,623 views in 96h)",
+     "google_trending": []
     }
    ]
   },
@@ -1418,7 +1532,7 @@
    "first_seen": "2026-10-14",
    "lane": "hot",
    "window_until": "2026-10-20",
-   "status": "active",
+   "status": "retired",
    "notes": [
     "First sent 14 Oct. Vembu X post 13 Oct: no usual pay increase, server prices 4x, headcount flat 18 months, 'pray for us'."
    ],
@@ -1450,8 +1564,24 @@
      "yt_best_vph": 2590,
      "yt_top": "India's Tech Poster Child Sridhar Vembu of Zoho Faces Reality Check, F (124,297 views in 48h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-17",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 2,
+     "momentum_pct": 0,
+     "yt_week_videos": 9,
+     "yt_week_views": 287736,
+     "yt_best_vph": 1847,
+     "yt_top": "Sridhar Vembu’s BIG WARNING On SOFTWARE JOBS (44,318 views in 24h)",
+     "google_trending": []
     }
-   ]
+   ],
+   "retired": {
+    "date": "2026-10-17",
+    "reason": "COLD on 2 checks running"
+   }
   },
   {
    "id": "ltcg-remark-rally",
@@ -1492,6 +1622,18 @@
      "yt_best_vph": 22635,
      "yt_top": "LTCG tax relief? Sitharaman's remark sparks buzz | Ankit Agrawal Study (543,251 views in 24h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-17",
+     "label": "HOT",
+     "news_1d": 0,
+     "news_7d": 1,
+     "momentum_pct": 0,
+     "yt_week_videos": 18,
+     "yt_week_views": 1603032,
+     "yt_best_vph": 11630,
+     "yt_top": "LTCG tax relief? Sitharaman's remark sparks buzz | Ankit Agrawal Study (558,253 views in 48h)",
+     "google_trending": []
     }
    ]
   },
@@ -1521,6 +1663,18 @@
      "yt_week_views": 252012,
      "yt_best_vph": 3242,
      "yt_top": "#BREAKING: சட்டென ரூட்டை மாற்றிய தங்கம் விலை.. | GoldRate | Today Gold (155,596 views in 48h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-10-17",
+     "label": "RISING",
+     "news_1d": 55,
+     "news_7d": 76,
+     "momentum_pct": 72,
+     "yt_week_videos": 4,
+     "yt_week_views": 117606,
+     "yt_best_vph": 2011,
+     "yt_top": "স্বর্ণের দামে বড় পতন, এখন ভরি কত? | Gold Price | Gold Price Today | J (48,264 views in 24h)",
      "google_trending": []
     }
    ]
@@ -1552,6 +1706,18 @@
      "yt_best_vph": 7287,
      "yt_top": "Pick Your Win, Choice Yo! | UGX 200 Million in Prizes with Airtel Mone (349,776 views in 48h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-17",
+     "label": "HOT",
+     "news_1d": 9,
+     "news_7d": 56,
+     "momentum_pct": 16,
+     "yt_week_videos": 9,
+     "yt_week_views": 724150,
+     "yt_best_vph": 9728,
+     "yt_top": "Pick Your Win, Choice Yo! | UGX 200 Million in Prizes with Airtel Mone (700,398 views in 72h)",
+     "google_trending": []
     }
    ]
   },
@@ -1564,12 +1730,26 @@
    "window_until": "2026-10-20",
    "status": "active",
    "notes": [
-    "results 17 Oct"
+    "results 17 Oct",
+    "2026-10-17: 17 Oct: results today; CNBC-TV18 headline ₹5,400 cr earnings hit"
    ],
    "readings": [
     {
      "date": "2026-10-16",
      "desk_score": 9.0
+    },
+    {
+     "date": "2026-10-17",
+     "label": "RISING",
+     "news_1d": 34,
+     "news_7d": 26,
+     "momentum_pct": 131,
+     "yt_week_videos": 7,
+     "yt_week_views": 167617,
+     "yt_best_vph": 1989,
+     "yt_top": "YES BANK Bond Holders-க்கு மகிழ்ச்சியான செய்தி? | Q2 Results | Share M (47,743 views in 24h)",
+     "google_trending": [],
+     "desk_score": 7.0
     }
    ]
   },
@@ -1586,6 +1766,18 @@
     {
      "date": "2026-10-16",
      "desk_score": 8.0
+    },
+    {
+     "date": "2026-10-17",
+     "label": "RISING",
+     "news_1d": 35,
+     "news_7d": 75,
+     "momentum_pct": 47,
+     "yt_week_videos": 7,
+     "yt_week_views": 46290,
+     "yt_best_vph": 310,
+     "yt_top": "Central Banks Are Buying, ETFs Are Buying. Why Is Gold Falling? (44,588 views in 144h)",
+     "google_trending": []
     }
    ]
   },
@@ -1604,6 +1796,72 @@
     {
      "date": "2026-10-16",
      "desk_score": 7.0
+    },
+    {
+     "date": "2026-10-17",
+     "label": "FLAT",
+     "news_1d": 8,
+     "news_7d": 51,
+     "momentum_pct": 16,
+     "yt_week_videos": 16,
+     "yt_week_views": 211435,
+     "yt_best_vph": 2930,
+     "yt_top": "IPO Junction: Zetwerk, Tonbo, Sahajanand Medical और Bonfiglioli Transm (70,315 views in 24h)",
+     "google_trending": []
+    }
+   ]
+  },
+  {
+   "id": "idbi-fairfax-sale",
+   "title": "IDBI Bank sold to Fairfax at ₹81 vs ₹90 market",
+   "query": "IDBI Bank Fairfax|आईडीबीआई बैंक",
+   "first_seen": "2026-10-17",
+   "lane": "hot",
+   "window_until": "2026-10-24",
+   "status": "active",
+   "notes": [
+    "First sent 17 Oct. ₹52,878 cr for 60.72% (govt 30.48, LIC 30.24); ₹81 vs ₹90.40 close; −7% on 15 Oct"
+   ],
+   "readings": [
+    {
+     "date": "2026-10-17",
+     "desk_score": 9.0
+    }
+   ]
+  },
+  {
+   "id": "ed-whatsapp-multibagger",
+   "title": "ED raids WhatsApp 'Multibagger' pump-and-dump (RM Drip, R&B Denims)",
+   "query": "RM Drip R&B Denims|आरएम ड्रिप",
+   "first_seen": "2026-10-17",
+   "lane": "hot",
+   "window_until": "2026-10-22",
+   "status": "active",
+   "notes": [
+    "First sent 17 Oct. 29 premises, 6 cities; buyers 3,400 → 1 lakh; −70% in days"
+   ],
+   "readings": [
+    {
+     "date": "2026-10-17",
+     "desk_score": 7.0
+    }
+   ]
+  },
+  {
+   "id": "insurance-misselling-ken",
+   "title": "Insurance mis-selling complaints +14%; IRDAI crackdown may slip (via The Ken)",
+   "query": "insurance mis-selling|बीमा मिस सेलिंग",
+   "first_seen": "2026-10-17",
+   "lane": "deep",
+   "window_until": "2026-10-31",
+   "status": "active",
+   "notes": [
+    "First sent 17 Oct. Comments due 25 Oct"
+   ],
+   "readings": [
+    {
+     "date": "2026-10-17",
+     "desk_score": 6.0
     }
    ]
   }

@@ -1,147 +1,150 @@
-# Doordhan desk research — Fri 16 Oct 2026
+# Doordhan desk research — Sat 17 Oct 2026
 
-Session: https://claude.ai/code/session_01HQC1TeRtX9bpCE5UWgmjHz
+Session: https://claude.ai/code/session_01QEDmKn7hH1iq6m3mMhfbT9
 
-**Pick: story 1.** This week's plan says lead with a known name, and the biggest one-day fall in a household stock yesterday has the clearest cause: Yes Bank closed 14.53% lower at ₹18.12 (intraday −20%) after the Supreme Court upheld the quashing of its ₹8,415 crore AT-1 bond write-off from March 2020 (India Infoline; Bar and Bench). The fastest YouTube Short on it is running at about 6,500 views an hour (HOT). The curiosity gap: the people the 2020 rescue wiped out (bondholders, many of them retail customers SEBI later said were mis-sold) have won six years later, and it is the shareholders who pay, with one report putting the bill at over ₹14,000 crore with back interest. Results are due Sat 17 Oct, so there is a second turn tomorrow. Yes Bank logo in frame one, fits 20–30 s, no buy/sell call.
+**Pick: story 1.** This week's plan says lead with a known name, and the fastest money story on YouTube this morning is a bank everyone has heard of being sold. On Wed 14 Oct the Cabinet approved the sale of 60.72% of IDBI Bank to Canada's Fairfax Financial for ₹52,878 crore, at ₹81 a share when the stock had closed at ₹90.40 (IndMoney; Finshots). The next morning the shares fell more than 7% to below ₹84 (Outlook Business). The top YouTube Short on it is at 909,591 views in about a day (about 37,900 views an hour), and two Instagram reels passed 900K. The curiosity gap nobody has taken: LIC, using policyholders' money, put ₹21,624 crore into this bank in 2019 when its bad loans were the worst in India. What does LIC get back now? It fits 20–30 s, opens on the IDBI logo, and needs no buy/sell call.
 
-Runner-up: 2, HDFC, ICICI Prudential and Tata mutual funds stop new SIPs and lump sums in their gold funds-of-funds from today (16 Oct), and Kotak, UTI and HDFC halt bulk gold-ETF subscriptions (Reuters: after talks with SEBI) – just before Dhanteras, with the rupee under pressure. No YouTube video on it yet, and gold-SIP reels are at 2.3M. Story 3 is the deep lane via The Ken: Zetwerk's ₹5,012 crore IPO is open till Mon 19 Oct, and 54% of its April–June revenue came from selling metal, not manufacturing. Jio IPO (tracked) is still HOT; it opens Wed 21 Oct.
+Runner-up: 2, the ED's raids on a WhatsApp 'Multibagger Stocks' pump-and-dump: daily buy tips to retail investors for two months, buyers up from about 3,400 to over one lakh, then both shares fell about 70% within days (Tribune, 16 Oct). Nobody on YouTube has made it yet. Story 3 is the deep lane via The Ken: insurance mis-selling complaints are up 14% a year, and IRDAI's crackdown may slip past early 2027. It is the buyer's side of our Policybazaar reel. Tracked: Yes Bank reports its Q2 results today, and the Jio IPO opens Wed 21 Oct.
 
-## 1. Yes Bank −14.5% in a day: the Supreme Court says the 2020 write-off of ₹8,415 crore of its bonds was illegal
+## 1. IDBI Bank sold to Canada's Fairfax for ₹52,878 crore, at ₹81 a share against a market price of ₹90
 
-Hot lane (new; big stock mover) · HOT · **9/10** (momentum 3/3, stake 1/1, shareability 2/2, gap 1/2, known name 2/2) · tracker id `yes-bank-at1-sc`
+Hot lane (new; big company event and stock mover) · HOT · **9/10** (momentum 3/3, stake 1/1, shareability 2/2, gap 1/2, known name 2/2) · tracker id `idbi-fairfax-sale`
 
-Window: Fri 16 to about Mon 19 Oct; a second turn with the results on Sat 17 Oct, when the bank may say how it will account for the liability.
+Window: Sat 17 to about Tue 20 Oct. After that the Jio IPO (opens Wed 21 Oct) takes the news cycle. Later turns: definitive agreements, the open offer and RBI approval, with completion expected before 31 Mar 2027.
 
 ### What's happening
-- On Thu 15 Oct a bench of Justices Dipankar Datta and Augustine George Masih dismissed the appeals of Yes Bank, the RBI and the Centre and upheld the Bombay High Court's January 2023 order quashing the write-off of ₹8,415 crore of Yes Bank's AT-1 bonds (Bar and Bench).
-- The background: on 5 March 2020 the RBI put Yes Bank under moratorium; the reconstruction scheme took effect on 13 March; on 14 March the administrator wrote the AT-1 bonds down to zero. The courts held the administrator had no power to do it: a write-down clause was in the draft scheme but deleted from the final one (Bar and Bench).
-- The stock: closed at ₹18.12, down 14.53% from ₹21.20; intraday low ₹16.96, nearly −20% (India Infoline). Over 62 crore shares traded on NSE and BSE; market cap about ₹56,876 crore (Upstox). Reported as its steepest one-day fall since July 2020 (Outlook Business, citing CNBC-TV18).
-- The bill: ₹3,000 crore of the bonds carried a 9.5% coupon and ₹5,415 crore 9% (Kotak Neo). Gujarat Samachar puts the liability at over ₹14,000 crore, with about ₹6,000 crore of back interest; Yes Bank had not provisioned for it. CRISIL (August) estimated a full write-back would cut the CET-1 ratio by about 230–250 basis points (Kotak Neo). Yes Bank says it is examining the order.
-- Results: Q2 FY27 on Sat 17 Oct (Kotak Neo). Largest shareholder: Japan's SMBC with 24.99% (Outlook Business, via Reuters).
-- Lead to check before using: ET and CNBC-TV18 headlines (15 Oct) say Kotak Mutual Fund halted subscriptions in two debt funds whose Yes Bank AT-1 holdings are restored by the ruling. Pages not opened (blocked); don't use it until confirmed.
+- On Wed 14 Oct the Cabinet Committee on Economic Affairs approved the sale of 60.72% of IDBI Bank to a Fairfax Financial Holdings company for ₹52,878 crore in cash. The government sells 30.48% and LIC sells 30.24%, both at ₹81 a share. Afterwards the government keeps 15% and LIC 19% (IndMoney; Finshots). Finshots calls it the largest foreign direct investment in India's financial sector.
+- The price: ₹81 is about 10.4% below the previous close of ₹90.40 and above the ₹75.99 benchmark set by independent valuers (IndMoney). It is about 9 times FY26 profit of ₹9,513 crore and 23% above book value of ₹65.75 (Finshots). The government says it did not use the market price as its benchmark. The government and LIC hold 94.72% between them, so few shares trade and the price is easy to push up (Finshots).
+- The stock: it rose about 9% on Wed 14 Oct ahead of the announcement, then fell more than 7% in early trade on Thu 15 Oct to below ₹84, still about 3.7% above the ₹81 deal price. It is down 19.1% in 2026 (Outlook Business). Finshots says the shares had nearly tripled since the government first announced the sale plan.
+- The journey: the RBI put IDBI under Prompt Corrective Action in May 2017, with net NPAs above 13%. LIC took 51% control in January 2019, PCA was lifted in March 2021, and the Cabinet approved the strategic sale in May 2021. Bids came from Fairfax and Emirates NBD in February 2026, but the process was put on hold in March because the bids were below the reserve price (Outlook Business timeline). Gross NPAs fell from 31.8% in 2018 to 2.3% in 2026 (Finshots).
+- The buyer: Fairfax is Prem Watsa's insurance and investment group. In India it already owns Bengaluru airport, Thomas Cook India and Go Digit stakes, and about 40% of CSB Bank, which it must merge into IDBI or exit (Finshots; Wikipedia). The deal still needs RBI and SEBI approvals, plus an open offer to minority shareholders (Finshots). The employees' union has asked the government to review the sale (BusinessLine headline, 17 Oct).
 
 ### The curiosity gap
-- In 2020 the people who bought Yes Bank's 'safe' bonds lost everything overnight, many of them bank customers sold the bonds like FDs. Six years later they've won, and the bill lands on today's shareholders. Who exactly pays, and how much?
-- ₹8,415 crore was erased with one exchange filing on 14 March 2020. The Supreme Court says it was never allowed. How does a bank's rescue get undone six years later?
-- Yes Bank fell 14.5% on a day the Sensex rose 1,534 points. One court order did that.
+- In 2019 LIC put ₹21,624 crore of its money (policyholders' premiums) into a bank whose bad loans were the worst in India. Seven years later the bank is being sold. Did LIC make money or lose it? At ₹81 a share, its 30.24% fetches about ₹26,300 crore (our arithmetic), and it keeps another 19%.
+- The buyer is paying ₹81 a share, while anyone who bought on the market that week paid ₹90. Why would a government sell below the market price, and who is left holding the ₹90 shares?
+- In 2018 almost one in three rupees this bank had lent had gone bad. Now a Canadian investor is paying ₹52,878 crore for it.
 
 ### How hot it is
-- Trend meter on 'Yes Bank share': 19 news items today against 18 in the week before (RISING on news); Google Trends India: not in the top searches. vidIQ keyword 'yes bank share': about 5,000 searches a month in India, competition 56/100 (metrics as of June).
-- YouTube: Dr. Mukul Agrawal's 2:38 Short 'YES Bank Share Crash, Supreme Court Verdict' 85K views in about 13 h, about 6,500 views an hour (HOT by the 3,000/hr rule); 'Stock Market का Commando' 13-minute video 50K at about 4,200 an hour; ET Now Swadesh 27K.
-- Instagram/TikTok outliers (last two weeks): nothing on Yes Bank itself has broken out yet. Adjacent: @caharsh_insta 'Why only Indian stock market is falling' 1.3M (38.5× median).
+- Trend meter on 'IDBI Bank Fairfax': HOT. 5 news items today of 33 this week. On YouTube this week: 14 videos, 780,704 views, the best at 19,322 views an hour (a Marathi Short with 463,721 views in 24 h). Google Trends India: not in the top searches.
+- vidIQ, YouTube Shorts (region IN): CryptoWala's 2:08 Short has 909,591 views since 16 Oct 01:09 UTC, about 37,900 views an hour (HOT by the 3,000/hr rule). Indian Express Hindi has 302,950 and Rahul ki duniya 301,871.
+- vidIQ keyword 'idbi bank': about 3,470 searches a month, competition 52.5/100 (metrics as of August).
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [Dr. Mukul Agrawal (YouTube Short)](https://www.youtube.com/watch?v=ufbPQY9o4SQ) | 2:38 explainer: what the ruling means for capital, interest payments, what to watch | 85K | 1.6× (vidIQ outlier score) | 15 Oct |
-| [Stock Market का Commando (YouTube)](https://www.youtube.com/watch?v=NMp49tuk5Fs) | 13 min, 'Share holders barbaad': the ruling and the stock | 50K | – | 15 Oct |
-| [ET Now Swadesh (YouTube)](https://www.youtube.com/watch?v=KHCrRJMP5fM) | 3:34, an analyst's view on the share after the ruling | 27K | – | 15 Oct |
-| [@caharsh_insta (Instagram, adjacent)](https://www.instagram.com/reel/Dd-7EFDx_Il/) | Talking head: why only the Indian market is falling (FII selling, tax) | 1.3M | 38.5× median | early Oct |
+| [CryptoWala (YouTube Short)](https://www.youtube.com/watch?v=254CfySCJS4) | 2:08 Hinglish explainer: who Prem Watsa is, why ₹81 when the market was ₹90, and what happens to your FD (DICGC covers ₹5 lakh) | 909.6K | 7.6× (vidIQ outlier score) | 16 Oct |
+| [@earnwithsapna (Instagram)](https://www.instagram.com/reel/DefFs2FBjf6/) | Split screen with news clips: 'Indian govt sold IDBI Bank for ₹53,000 crore', and what it means for depositors; ends by inviting debate | 1M | 27.4× median | this week |
+| [@indianyouthcongress (Instagram)](https://www.instagram.com/reel/Dego35ZTYeK/) | Political anchor-style attack: 'IDBI Bank bhi bech dala' | 909.7K | 14.3× median | this week |
+| [Indian Express Hindi (YouTube Short)](https://www.youtube.com/watch?v=zsOF5RtaOX0) | 1:45 on what the sale means for you, employees and the share price | 303K | 9.8× | 15 Oct |
+| [Rahul ki duniya (YouTube Short)](https://www.youtube.com/watch?v=f8gb_iM3izY) | 16-second headline read: 'IDBI bank bik gaya?' | 302K | 35.1× | 15 Oct |
 
-_Everyone has done 'share crash, buy or not, levels'. Nobody has told it as the 2020 story come back: the bondholders who were wiped out, the deleted clause, and the bill now landing on shareholders._
+_Everyone has told it as 'the government sold a bank', either as politics or as depositor safety. Nobody has followed LIC's money (the 2019 rescue and what it gets back now), or the retail buyers who chased the takeover rally to ₹90 just before the ₹81 deal._
 
 ### Facts and sources
-- SC bench (Datta, Masih) dismissed appeals of Yes Bank, RBI and Centre; upheld Bombay HC order of 20 Jan 2023; moratorium 5 Mar 2020, scheme in force 13 Mar, write-down announced 14 Mar 2020; write-down clause deleted from the final scheme. — [Bar and Bench, 15 Oct](https://www.barandbench.com/news/litigation/supreme-court-upholds-quashing-of-yes-banks-8415-crore-at1-bond-write-off)
-- Closed ₹18.12, −14.53% from ₹21.20; intraday low ₹16.96, nearly −20%. — [India Infoline, 15 Oct](https://www.indiainfoline.com/news/companies/yes-bank-share-price-crashes-14-53-after-supreme-court-rejects-8415-crore-at1-bond-write-off-plea)
-- ₹3,000 cr at 9.5% and ₹5,415 cr at 9%; 62 crore+ shares traded; CRISIL: CET-1 −230 to 250 bps on a full write-back; results 17 Oct. — [Kotak Neo, 15 Oct](https://www.kotakneo.com/news/stocks/yes-bank-share-price-crash-supreme-court-at1-bonds-ruling/)
-- Market cap ₹56,876 crore; one-year −21%. — [Upstox, 15 Oct](https://upstox.com/news/market-news/stocks/yes-bank-shares-crash-10-after-supreme-court-sets-aside-plea-on-at-1-bond-write-off-what-investors-should-know/article-201913/)
-- Liability over ₹14,000 crore: ₹8,415 cr principal plus about ₹6,000 cr back interest; no provision made. — [Gujarat Samachar, 15 Oct](https://english.gujaratsamachar.com/news/business/yes-bank-shares-plunge-supreme-court-79962505042)
-- Steepest one-day fall since July 2020; SMBC holds 24.99%. — [Outlook Business, 15 Oct](https://www.outlookbusiness.com/corporate/supreme-court-rules-yes-banks-884-mn-at1-bond-write-off-illegal-shares-fall-15)
+- ₹52,878 crore in cash for 60.72%; government 15% and LIC 19% after the sale; about 9× FY26 profit of ₹9,513 crore; 23% above book of ₹65.75; about 7% above fair value of ₹76; government and LIC hold 94.72%; gross NPAs 31.8% (2018) → 2.3% (2026); capital adequacy 6.2% → 26.7%; shares nearly tripled since the sale plan; RBI and SEBI approvals and an open offer still needed. — [Finshots, 16 Oct](https://finshots.in/markets/idbi-bank-is-finally-being-sold/)
+- Government 30.48% and LIC 30.24%; ₹81 a share against a close of ₹90.40 (10.4% below); benchmark ₹75.99; completion expected before the end of this financial year; CSB Bank to be merged or sold within two years. — [IndMoney, updated 14 Oct](https://www.indmoney.com/blog/stocks/idbi-bank-fairfax-deal-explained)
+- Fell more than 7% in early trade on Thu 15 Oct to below ₹84; rose about 9% on Wed; down 19.1% in 2026 against −12.6% for the Nifty 50; market value about ₹90,567 crore. — [Outlook Business, 15 Oct](https://www.outlookbusiness.com/markets/idbi-bank-shares-fall-7-after-fairfax-deal-whats-behind-the-drop)
+- Timeline: PCA in May 2017 (net NPAs above 13%); LIC takes 51% in January 2019; PCA lifted March 2021; sale approved May 2021; bids from Fairfax and Emirates NBD in February 2026; process put on hold in March 2026 because the bids were below the reserve price. — [Outlook Business, 14 Oct](https://www.outlookbusiness.com/corporate/idbi-bank-fairfax-deal-timeline-nine-year-journey-rbi-curbs-stake-sale-privatisation-disinvestment)
+- Context (not a dated news page): LIC completed its 51% acquisition on 21 Jan 2019 for a total investment of ₹21,624 crore; gross NPAs about ₹55,588 crore, about 28% of loans, in March 2018. — [Wikipedia, IDBI Bank](https://en.wikipedia.org/wiki/IDBI_Bank)
 
 ### Watch out
-- No buy/sell, no 'opportunity or trap', no price levels or targets (SEBI price-data rule): report the fall as news and explain the cause.
-- The ₹14,000 crore is one outlet's estimate; how the bank pays (cash, shares, over time) is not decided. Say 'estimated' and wait for the 17 Oct results for the bank's own number.
-- Closing price differs slightly by source (₹18.12 India Infoline; ₹18.15 per another report). Use the percentage, about 14.5%.
-- Mis-selling to retail customers is from SEBI's 2021 orders (context, older than a week): fine as background, not as today's headline. Rana Kapoor only as a licensed photo or real footage, never an AI face.
-- Tests it can carry: the Yes Bank logo and '−14.5%' in frame one with the stake said in the first second (hook in frame one), 20–30 s (tight length), and a send line inside 12 s for the friend who holds Yes Bank shares or lost money on its bonds in 2020 (a line worth sending).
+- No buy/sell and no 'should you hold IDBI'. No price targets or levels beyond the deal price and the move: report the fall as news (SEBI price-data rule).
+- LIC's round trip is not settled. The ₹21,624 crore is from Wikipedia (context). The ₹26,300 crore is our arithmetic (₹52,878 crore × 30.24/60.72, since both sellers get ₹81). LIC's remaining 19% hasn't been sold. Say 'about' and present it as a calculation, or check an LIC or DIPAM statement before it goes on screen.
+- The deal isn't done: definitive agreements aren't signed, and RBI and SEBI approvals and the open offer are pending.
+- It is political (the opposition says the government is selling national assets; the FM has defended it). Keep the humour on the system and the herd, and take no side.
+- Prem Watsa or the FM only as a licensed photo or their real footage, never an AI face. The IDBI Bank logo is fine for a reel about IDBI.
+- Tests it can carry: the IDBI logo with '₹81 vs ₹90' in frame one and the stake said in the first second (hook in frame one); 20–30 s (tight length); a send line inside 12 s for the friend with an LIC policy or the one who bought IDBI on the takeover rally (a line worth sending).
 
-## 2. Before Dhanteras, big mutual funds stop new money into gold funds: new SIPs and lump sums halted from today
+## 2. WhatsApp 'Multibagger Stocks' tips to one lakh buyers, then a 70% crash: the ED raids 29 places in six cities
 
-Hot lane (new; a new turn on the tracked gold story) · RISING · **8/10** (momentum 2/3, stake 1/1, shareability 2/2, gap 2/2, known name 1/2) · tracker id `gold-fund-halt`
+Hot lane (new; viral money story) · RISING · **7/10** (momentum 2/3, stake 1/1, shareability 2/2, gap 2/2, known name 0/2) · tracker id `ed-whatsapp-multibagger`
 
-Window: Fri 16 Oct to Dhanteras/Diwali (early November), or until the funds reopen.
+Window: Sat 17 to about Tue 20 Oct, unless the ED makes arrests or SEBI issues an order, which would be a second turn.
 
 ### What's happening
-- HDFC, ICICI Prudential and Tata mutual funds suspend fresh subscriptions to their gold funds-of-funds from Fri 16 Oct: no new lump sums, no new SIP or STP registrations. Existing SIPs keep running; redemptions stay open (Whalesbook, 16 Oct; same story reported by ET).
-- Separately, Kotak Mahindra, UTI and HDFC mutual funds are among those suspending bulk subscriptions to gold ETFs, by notices late Thursday, with no reason given. A mutual-fund executive and two bullion officials told Reuters it followed discussions with SEBI; SEBI didn't comment (investingLive, citing Reuters).
-- The reported why: the rupee is under pressure from higher oil prices and foreign selling; gold imports widen the deficit; import duties on gold and silver were raised earlier this year. India's gold imports were $1.8 billion in September, down from $2.3 billion in August (investingLive, citing Reuters).
-- Ordinary investors can still buy gold ETFs on the exchange and buy physical gold; the halt is on fund-of-fund money and large direct ETF subscriptions.
-- Context (June 2026, older than a week): HDFC, ICICI Prudential, Nippon and SBI had capped gold ETF and FoF inflows once before; the duty went from 6% to 15% in May (Outlook Money, 7 Jun).
+- On Fri 16 Oct the Enforcement Directorate (Mumbai Zonal Office-I) searched 29 premises in Mumbai, Nashik, Ahmedabad, Gandhinagar, Surat and Bhavnagar under the money-laundering law (PMLA). The case is alleged share manipulation in two small listed companies, RM Drip and Sprinklers Systems Ltd and R&B Denims Ltd (Tribune).
+- The set-up: between April 2023 and March 2024 the two companies issued over 3.5 crore shares and convertible warrants to selected people and entities. The prices were then pushed up steadily while the shares stayed largely with the same holders, and much of the money came from a small circle of connected people, firms and lenders (Tribune).
+- The tips: from late December 2025 to February 2026, WhatsApp communities with names like 'Multibagger Stocks' sent retail investors daily 'buy' tips. The SIM cards were registered to other people in Haryana and Mumbai, but the groups were run from Bhavnagar, Gujarat. The groups were deleted on 25 Feb 2026 (Tribune).
+- The crash: buyers rose from about 3,400 to over one lakh. Then both shares hit the lower circuit and lost about 70% within days, leaving investors with heavy losses and shares they couldn't sell (Tribune). UNI also puts it at more than one lakh retail investors.
+- The searches covered the companies' offices, the promoters' homes, the people allotted cheap shares, broking and finance firms, and the people suspected of running the groups. Documents, devices and share records were seized; 'further investigation is in progress' (Tribune). These are allegations; no charges have been reported.
 
 ### The curiosity gap
-- The week everyone is told to buy gold, the biggest fund houses quietly stopped taking your gold SIP. Nobody said why.
-- Reuters' sources say it came after talks with SEBI. Is the system rationing gold to protect the rupee?
-- Your existing SIP keeps running, but a new one can't start. What does that do to the 'buy a gram a month' plan everyone is selling?
+- One lakh people got the same 'multibagger' tip on WhatsApp every day for two months. Who was on the other side of their buy orders, and how did every group vanish on the same day?
+- The shares went cheaply to a chosen few a year before the first tip was sent. The tip was never meant to make the reader money: the reader was the exit.
+- The company went from 3,400 shareholders to one lakh. Then the stock fell 70% in days, and nobody could sell.
 
 ### How hot it is
-- Trend meter on 'gold ETF': 17 of the week's 37 news items landed today (46%), RISING. vidIQ keyword 'gold etf' (India): about 22,000 searches a month, +40% against 30 days ago, competition 53/100.
-- YouTube on the halt itself: no videos found yet (vidIQ search, last 3 days). Gold in general: 'Physical Gold vs Gold ETF, which is cheaper' 104K in 72 h.
-- Instagram: @half.mapped's 'instead of buying gold on festivals she buys a 1 gram coin' at 2.3M (287× median); @anchor_meenakshi_rajat 'will gold fall to 1 lakh?' 1.7M (18×).
+- Trend meter on 'RM Drip R&B Denims': 3 news items today, and all of this week's coverage came today (RISING by the coverage rule). No YouTube videos yet. The phrase 'multibagger WhatsApp ED' reads COLD. Google Trends India: not in the top searches.
+- vidIQ YouTube search (region IN, since 15 Oct): no videos on this case at all.
+- vidIQ keyword 'multibagger stocks': about 4,099 searches a month, competition 47.2/100 (metrics as of 16 Oct).
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [@half.mapped (Instagram)](https://www.instagram.com/reel/DeSH8b1hGQH/) | Faceless text-on-screen: a monthly gold SIP instead of buying on festivals | 2.3M | 287× median | early Oct |
-| [@anchor_meenakshi_rajat (Instagram)](https://www.instagram.com/reel/DeRlXqNTj-R/) | News-anchor talking head: why gold is falling and whether it reaches ₹1 lakh | 1.7M | 18× median | early Oct |
-| [@financebyankitaa (Instagram)](https://www.instagram.com/reel/DeMFvxToSFp/) | Bank of America's gold forecast, split screen with charts | 1M | 6.2× median | early Oct |
+| [@unfilteredwithmack (Instagram, adjacent)](https://www.instagram.com/reel/DeMZ2xPj0xc/) | Interview: a woman tells how trading and a fraudster took her gold and her house | 1.4M | 304× median | last two weeks |
+| [@fincoracybysakshi (Instagram, adjacent)](https://www.instagram.com/reel/Ded6voaiQKC/) | Opens on a Scam 1992 Harshad Mehta clip, then the lesson | 934K | 232× median | last two weeks |
+| [@ca.vaibhavjain (Instagram, adjacent)](https://www.instagram.com/reel/DeYwXDeyHMb/) | Two men at a trading expo: day trading costs you your peace | 1.7M | 8.2× median | last two weeks |
 
-_Gold-SIP reels are huge right now and nobody has posted that the funds just stopped new gold SIPs. First mover._
+_Nobody has made this case yet. The adjacent breakouts are personal-loss stories and Scam 1992 hooks. The open angle is the mechanics told plainly: cheap shares to insiders first, daily tips to the herd second, then delete the group._
 
 ### Facts and sources
-- HDFC, ICICI Prudential, Tata MF: gold FoFs closed to new lump sums, SIPs and STPs from 16 Oct; existing SIPs continue; redemptions open. — [Whalesbook, 16 Oct](https://www.whalesbook.com/news/English/mutual-funds/HDFC-ICICI-Tata-Mutual-Funds-Halt-Fresh-Gold-Fund-Investments/6ad12d3279a16deaeaf35df7)
-- Kotak, UTI, HDFC among funds halting bulk gold-ETF subscriptions; notices late Thursday, no reason; after talks with SEBI per a fund executive and two bullion officials; gold imports $1.8 bn Sept vs $2.3 bn Aug. — [investingLive (citing Reuters), 16 Oct](https://investinglive.com/commodities/india-curbs-gold-etf-buying-before-diwali-removing-a-seasonal-prop-for-gold-demand/)
-- Context: June 2026 caps (HDFC Gold ETF ₹25 cr+ bulk, FoF ₹10 lakh a month; ICICI Pru ₹25 cr+); gold duty 6% → 15% in May. — [Outlook Money, 7 Jun (context only)](https://www.outlookmoney.com/invest/why-mutual-fund-houses-are-capping-fresh-investments-in-gold-etfs)
+- 29 premises in six cities; RM Drip and Sprinklers Systems and R&B Denims; over 3.5 crore shares and warrants issued April 2023–March 2024; 'Multibagger Stocks' groups from late December 2025 to February 2026, run from Bhavnagar on SIMs registered in Haryana and Mumbai, deleted 25 Feb 2026; buyers about 3,400 → over one lakh; lower circuit and about 70% lost within days. — [Tribune, 16 Oct](https://www.tribuneindia.com/news/india/ed-raids-29-premises-in-6-cities-in-stock-manipulation-case-involving-rm-drip-rb-denims/)
+- More than one lakh retail investors suffered heavy losses; searches under PMLA in six cities. — [UNI, 16 Oct](https://www.uniindia.com/west-india/crime-maha-share-manipulation/216084)
 
 ### Watch out
-- The fund houses gave no reason. The SEBI link is Reuters' sources, and the rupee reason is analysis: say 'reportedly'.
-- Two different halts: FoFs (new SIPs and lump sums, HDFC/ICICI Pru/Tata) and ETFs (bulk subscriptions only, Kotak/UTI/HDFC). Don't say 'you can't buy gold ETFs': on the exchange you still can.
-- No 'buy physical gold instead' or any other buy call.
-- Tests it can carry: the HDFC/ICICI/Tata names with 'gold SIP band' in frame one (hook), 20–30 s, a send line for the friend who started a gold SIP for Dhanteras.
+- These are allegations under investigation. Say 'alleged' and call nobody guilty. Name the two companies only as the ED named them. No buy/sell call.
+- The 70% is from the Tribune ('about 70% within days'); no price levels were published. Use 'about 70%'.
+- No known name in frame one (two unknown small companies), so it scores 0 there. A WhatsApp-style chat built locally would carry the opening; don't use WhatsApp's logo, since the reel isn't about the company. No AI faces of any real promoter.
+- The humour lands on the operators and the herd's FOMO, never on a viewer who lost money.
+- Tests it can carry: '1 lakh buyers, −70%' in frame one with the stake said in the first second; 20–30 s; a send line inside 12 s for the friend who forwards stock tips (a line worth sending).
 
-## 3. Zetwerk's ₹5,012 crore IPO is open: 54% of its latest quarter's revenue came from selling metal, not making things
+## 3. Insurance mis-selling complaints up 14% in a year, and IRDAI's crackdown may slip past early 2027
 
-Deep lane (via The Ken, 14 Oct) · RISING · **7/10** (momentum 2/3, stake 1/1, shareability 1/2, gap 2/2, known name 1/2) · tracker id `zetwerk-ipo-metals`
+Deep lane (via The Ken, 15 Oct) · COLD · **6/10** (momentum 0/3, stake 1/1, shareability 2/2, gap 2/2, known name 1/2) · tracker id `insurance-misselling-ken`
 
-Window: Open till Mon 19 Oct; listing expected Fri 23 Oct (the second turn).
+Window: Until Sun 25 Oct, the comment deadline on IRDAI's paper (a second turn if it is extended; brokers want the end of December).
 
 ### What's happening
-- Zetwerk Manufacturing Businesses' IPO runs 15–19 Oct at ₹143–151 a share: ₹5,012.3 crore in all, ₹2,830 crore fresh and ₹2,182.3 crore offer for sale, valuing it at about ₹25,583 crore (about $2.7 bn) at the top (Inc42).
-- Sellers include co-founders Amrit Pratik Acharya and Srinath Ramakkrushnan and funds of Peak XV, Accel, Lightspeed and Kae Capital; ₹2,160 crore (about 76%) of the fresh money goes to repaying debt (Inc42).
-- Numbers: FY26 revenue ₹15,913 crore (+40.4%), net loss ₹1,606 crore (from ₹371 crore), including a ₹796 crore exceptional charge and a ₹453 crore impairment (Inc42).
-- The Ken's angle: of ₹4,120 crore revenue in April–June, 54% was commodity sales (aluminium, zinc, steel, copper, lead), up from 44% a year earlier; the order pipeline is ₹13,000 crore, about twice two years ago (The Ken, 14 Oct).
-- Day 1 (15 Oct): subscribed 22% (Rediff MoneyWiz); ET's headline says 0.23 times.
+- The Ken (Ka-Ching!, 15 Oct, Sudeshna Ray) argues that IRDAI must act on mis-selling now. The deadline for comments on its consultation paper, 'Recalibrating Economics of Insurance Distribution', is 25 Oct and may be extended, which could push implementation beyond its early-2027 target.
+- The headline number, as The Ken reads IRDAI's 2024–25 annual report: complaints about unfair business practices, mostly mis-selling, rose 14% year on year.
+- The Ken's example: a 61-year-old was pitched a market-linked ULIP with promised returns of 10–13%, against 6–8% on FDs. ULIPs carry some of the best sales commissions, and an analyst said agents can hardly be asked to take a 40% pay cut.
+- What the paper proposes against mis-selling (context, MediaNama, 30 Sep): clawing back commissions, publishing a salesperson's mis-selling record, stopping banks and NBFCs from making insurance compulsory with their products, and banning volume-linked incentives for bank staff. It lists the kinds of mis-selling: regular-premium policies sold as single-premium, insurance presented as an FD, and ULIPs sold without the risks.
+- Why commissions matter (context, older than a week): IRDAI's data shows motor premiums up about 34% from FY23 to FY25 while motor commissions rose about 259% (MediaNama). The Ken's 8 Oct podcast says premiums rose 28% in two years while distributor pay rose 125%. Brokers say the caps would cut their revenue 60–70% and cost up to 10 lakh jobs (Inc42, 7 Oct).
+- Our link: these are the caps that sent Policybazaar down 36%, our best Samachar reel (E3). This is the buyer's side of the same rulebook.
 
 ### The curiosity gap
-- India's 'manufacturing unicorn' is listing, and more than half of last quarter's revenue was trading metal. What exactly are IPO buyers buying?
-- Its customers make boAt watches, Acer laptops and wind turbines. Zetwerk is the factory behind brands you know, and you've never heard of it.
-- Revenue up 40%, loss up four times, and the founders and VCs are selling ₹2,182 crore of shares on the way in.
+- Your policy may have been chosen by what it paid the seller. Commissions grew 259% while premiums grew 34%, and complaints are rising every year.
+- The rule that would stop it is written, and the people it costs are asking for more time. Which way will it go by 25 Oct?
+- Insurance sold as an FD: the single most common complaint, written into the regulator's own paper.
 
 ### How hot it is
-- Trend meter on 'Zetwerk IPO': 26 of the week's 49 news items today (53%), RISING; YouTube this week 8 videos, 191K views, best 1,523 an hour. vidIQ keyword 'zetwerk ipo': about 11,200 searches a month, competition 53/100.
-- YouTube: Zerodha's Daily Brief 'Inside Zetwerk's ₹5,000 crore IPO' 73K; Money9 IPO round-up 87K at about 2,200 an hour; Anant Ladha's IPO ranking 98K.
+- Trend meter on 'insurance mis-selling': 1 news item today and 7 this week (COLD). On 'IRDAI commission mis-selling', YouTube shows 14 videos this week, 81,203 views, the best at 397 views an hour ('IRDAI ka naya proposal: insurance agents ki 10 lakh jobs par khatra?', 57,146 in 144 h). Deep lane: momentum can be 0.
+- vidIQ YouTube Shorts since 1 Oct (region IN): the best on mis-selling has 5,502 views. Nothing has broken out.
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [Markets by Zerodha (YouTube)](https://www.youtube.com/watch?v=GHsulThB7v8) | 27-min Daily Brief: how Zetwerk's model works, margins, cash flow | 73K | 2.0× (vidIQ outlier score) | 14 Oct |
-| [Money9 (YouTube)](https://www.youtube.com/watch?v=Y3aftGAXgdE) | 14-min round-up of six IPOs including Zetwerk, 'which IPO to earn from' | 87K | 3.1× | 14 Oct |
-| [Anant Ladha (YouTube)](https://www.youtube.com/watch?v=_oiGEjuRGbU) | 13-min IPO ranking: Tonbo, HD Fire, Bonfiglioli, Zetwerk | 98K | – | 13 Oct |
+| [CA Pushpak Bogati: Fundsutra (YouTube Short)](https://www.youtube.com/watch?v=I6Nb_RZCOJo) | 'Insurance agent ka commission kitna? IRDAI ka bada plan': was your policy sold for the commission? | 5.5K | – | 1 Oct |
+| [Piyush Semwal (YouTube)](https://www.youtube.com/watch?v=RQdcyQMUW_8) | 3 min: are local agents in danger, will customers still get service? | 4.1K | – | 1 Oct |
+| [Outlook Money (YouTube)](https://www.youtube.com/watch?v=gDhbNgT_OrE) | 2 min: could the new commission rules curb mis-selling? | 396 | 2.0× | 8 Oct |
 
-_All long-form and all 'apply or not'. No short has said that most of last quarter's revenue was metal trading._
+_The caps were covered as a stock story (Policybazaar, PB Fintech −47%) and as an agents'-jobs story. Nobody has told the buyer's side: what the seller earned on the policy in your drawer._
 
 ### Facts and sources
-- ₹143–151; ₹5,012.3 cr (₹2,830 cr fresh + ₹2,182.3 cr OFS); 15–19 Oct; ~₹25,583 cr valuation; ₹2,160 cr to repay debt; FY26 revenue ₹15,913.3 cr (+40.4%), loss ₹1,606.2 cr (FY25 ₹370.7 cr). — [Inc42](https://inc42.com/buzz/zetwerk-sets-ipo-price-band-at-%E2%82%B9143-%E2%82%B9151-for-%E2%82%B95012-cr-issue/)
-- Q1 FY27 revenue ₹4,120 cr, 54% commodity sales (44% a year earlier); pipeline ₹13,000 cr; 26 plants; ~7,000 manufacturers. — [The Ken, 14 Oct (headline and public summary)](https://the-ken.com/story/zetwerk-is-as-much-a-commodity-trader-as-it-is-a-contract-manufacturer/)
-- Day 1 subscribed 22%. — [Rediff MoneyWiz, 15 Oct](https://money.rediff.com/news/market/zetwerk-manufacturing-ipo-subscribed-22-on-day-1/)
+- Consultation paper 'Recalibrating Economics of Insurance Distribution'; comments due 25 Oct, may be extended; early-2027 target at risk; unfair-business-practice complaints (mostly mis-selling) +14% year on year per IRDAI's 2024–25 annual report; the ULIP example (10–13% promised vs 6–8% FD). — [The Ken, 15 Oct](https://the-ken.com/kaching/the-crackdown-on-insurance-mis-selling-just-cant-wait/)
+- Context (30 Sep): anti-mis-selling measures (clawback, published mis-selling records, no compulsory bundling by banks and NBFCs, no volume-linked incentives for bank staff); motor premiums +34% vs motor commissions +259% from FY23 to FY25. — [MediaNama, 30 Sep](https://www.medianama.com/2026/09/223-irdai-consultation-paper-insurance-distribution-reforms/)
+- Context (8 Oct): premiums +28% in two years while distributor pay rose 125%. — [The Ken, Two by Two podcast, 8 Oct](https://the-ken.com/podcasts/two-by-two/how-do-we-fix-how-india-sells-insurance/)
+- Context (7 Oct): brokers' association projects a 60–70% revenue fall and up to 10 lakh job losses; IRDAI data: broker-sourced general premiums +37% vs commissions +173%; PB Fintech and Turtlemint down over 47% since 23 Sep. — [Inc42, 7 Oct](https://inc42.com/buzz/insurance-brokers-oppose-irdai-reforms-project-70-revenue-loss/)
 
 ### Watch out
-- No apply/avoid, no GMP or listing-gain guess. Say what the business is.
-- Credit 'via The Ken' in the caption; use only the headline and public facts, never the paywalled text.
-- Brand names of customers (boAt, Acer) are from Inc42's list; show them only as text, not their logos (the reel isn't about them).
-- Tests it can carry: '54%' and the Zetwerk name in frame one (hook), 20–30 s, a send line for the friend applying to every IPO.
+- The only number from the last week is the 14% (The Ken's reading of IRDAI's report). The commission-growth figures come from pages more than a week old, so they can sit in the body but not be the headline.
+- Credit 'via The Ken' in the caption, and don't copy paywalled text.
+- Don't name any insurer or bank as a mis-seller: no source here does.
+- Loans are a rested topic. The bundling rule mentions loans; leave that part out.
+- Tests it can carry: '+14% complaints' or the 34% vs 259% gap in frame one; 20–30 s; a send line for the parent who was sold a policy 'like an FD'.
 
 ## Stories we're tracking
 
@@ -149,29 +152,31 @@ Full board: research/desk/TRACKER.md
 
 | Story | Now | Direction | Day | Status |
 |---|---|---|---|---|
-| Jio Platforms IPO (`jio-ipo`) | HOT | rising | 9 | active |
-| International ETFs trading far above NAV (NSE warning) (`intl-etf-premium`) | COLD | fading | 9 | active |
-| SC orders panel on pharma freebies to doctors (`pharma-freebies-sc`) | COLD | rising | 8 | active |
-| UPI merchant fee (0.4% MDR) may be deferred to 1 Jan (`upi-mdr-deferral`) | HOT | rising | 7 | active |
-| Inox Clean: revenue 43X, debt 45X, IPO on hold (`inox-clean-ipo`) | COLD | steady | 7 | active |
-| Musk calls Ambani 'Prime Minister Ambani' over Starlink (`musk-ambani-starlink`) | FLAT | fading | 6 | active |
-| SC on hospital drug markups: Rs 2,700 drug sold at Rs 27,000 (`hospital-drug-markup-sc`) | COLD | steady | 6 | active |
-| Gauahar Khan's Versova duplex: 88% in 12 years (`gauahar-khan-flat`) | COLD | fading | 5 | active |
-| Rupee near ₹97: RBI hike, then four emergency measures (`rbi-rupee-rescue`) | HOT | rising | 4 | active |
-| Zoho freezes pay rises over AI and server costs (`zoho-pay-freeze`) | COLD | fading | 3 | active |
-| Sensex +1,109 partly on FM's LTCG remark (`ltcg-remark-rally`) | HOT | rising | 3 | active |
-| Gold ₹3,600 cheaper in four sessions on a stronger rupee (`gold-slide-rupee`) | HOT | new | 2 | active |
-| Airtel Money lists in London at $7 bn (via The Ken) (`airtel-money-london`) | HOT | new | 2 | active |
-| Yes Bank -14.5% after SC voids AT-1 write-off (`yes-bank-at1-sc`) | - | new | 1 | active |
-| Mutual funds halt new gold FoF SIPs and bulk gold ETF buys (`gold-fund-halt`) | - | new | 1 | active |
-| Zetwerk IPO: 54% of Q1 revenue from metal sales (`zetwerk-ipo-metals`) | - | new | 1 | active |
+| Jio Platforms IPO (`jio-ipo`) | HOT | rising | 10 | active |
+| International ETFs trading far above NAV (NSE warning) (`intl-etf-premium`) | COLD | rising | 10 | active |
+| SC orders panel on pharma freebies to doctors (`pharma-freebies-sc`) | HOT | rising | 9 | active |
+| Inox Clean: revenue 43X, debt 45X, IPO on hold (`inox-clean-ipo`) | HOT | rising | 8 | active |
+| Musk calls Ambani 'Prime Minister Ambani' over Starlink (`musk-ambani-starlink`) | FLAT | rising | 7 | active |
+| SC on hospital drug markups: Rs 2,700 drug sold at Rs 27,000 (`hospital-drug-markup-sc`) | COLD | fading | 7 | active |
+| Gauahar Khan's Versova duplex: 88% in 12 years (`gauahar-khan-flat`) | COLD | steady | 6 | active |
+| Rupee near ₹97: RBI hike, then four emergency measures (`rbi-rupee-rescue`) | COLD | fading | 5 | active |
+| Sensex +1,109 partly on FM's LTCG remark (`ltcg-remark-rally`) | HOT | steady | 4 | active |
+| Gold ₹3,600 cheaper in four sessions on a stronger rupee (`gold-slide-rupee`) | RISING | fading | 3 | active |
+| Airtel Money lists in London at $7 bn (via The Ken) (`airtel-money-london`) | HOT | rising | 3 | active |
+| Yes Bank -14.5% after SC voids AT-1 write-off (`yes-bank-at1-sc`) | RISING | new | 2 | active |
+| Mutual funds halt new gold FoF SIPs and bulk gold ETF buys (`gold-fund-halt`) | RISING | new | 2 | active |
+| Zetwerk IPO: 54% of Q1 revenue from metal sales (`zetwerk-ipo-metals`) | FLAT | new | 2 | active |
+| IDBI Bank sold to Fairfax at ₹81 vs ₹90 market (`idbi-fairfax-sale`) | - | new | 1 | active |
+| ED raids WhatsApp 'Multibagger' pump-and-dump (RM Drip, R&B Denims) (`ed-whatsapp-multibagger`) | - | new | 1 | active |
+| Insurance mis-selling complaints +14%; IRDAI crackdown may slip (via The Ken) (`insurance-misselling-ken`) | - | new | 1 | active |
 
 ## Also on the wire
-- Markets Thu 15 Oct: Sensex +1,534 (about 2.1%) to about 74,316, Nifty +375 to 22,997, best session in about four months, on a stronger rupee and easing crude; IT, financials, Reliance led (Goodwill Wealth's market note; Moneylife and IndiaIPO headlines). Our tracked 'LTCG remark' rally story, a second leg.
-- Nestlé India fell as much as 9% on Thursday despite Q2 profit +36.3% to ₹1,026.7 crore and sales +20.5% to ₹6,782 crore; headlines blame an inflation warning (Fortune India headline; numbers from Goodwill Wealth's market note). Known name (Maggi), but the trend meter reads FLAT.
-- PepsiCo warns an India 'energy drink' label ban could run its supplies (Sting) dry in two months while Red Bull keeps selling (Reuters headline, 15 Oct; page not opened). Big brand, COLD on the meter, no investor stake.
-- Jio IPO (tracked, HOT): Reuters (15 Oct) headline says analysts expect a listing pop; opens Wed 21 Oct. Akhilesh has a draft on the Reliance-holder quota from yesterday.
-- Creator-format slot (This week's plan, a famous Indian's money decision): nothing new in the last 48 hours beat the earlier picks (Kohli-Anushka flats, 13 Oct). Still owed this week.
+- Yes Bank (tracked, yesterday's pick) reports its Q2 results today, Sat 17 Oct, alongside HDFC Bank, ICICI Bank and Axis Bank (Upstox and NDTV Profit headlines). A CNBC-TV18 headline (16 Oct, page not opened) says the AT-1 ruling means about a ₹5,400 crore earnings hit. The bank's own number is the second turn on Akhilesh's draft.
+- Jio IPO (tracked, HOT): price band ₹1,065–1,119, up to ₹30,213 crore, all fresh shares; lot of 12 shares (₹13,428); anchor bids Mon 19 Oct, open Wed 21 to Fri 23 Oct; ₹2,500 crore reserved for Reliance shareholders as of 14 Oct; GMP ₹206 on 15 Oct (Outlook Money). An India Infoline headline says ₹225 on 16 Oct. The top Instagram reel is @growwithyuvraj.20 at 11.2M (37.8× median). This is the story for Mon–Wed.
+- Nestlé India is down about 9% in two sessions after Q2 despite profit growth, on an inflation warning (Business Standard and Upstox headlines; pages not opened). Known name (Maggi), but the meter reads COLD.
+- Cult.fit has SEBI's approval for an IPO with a ₹950 crore fresh issue (ET, TOI, Reuters headlines, 16 Oct; pages not opened). A known name to keep for when it files its prospectus.
+- Creator-format slot (a famous Indian's money decision, still owed this week): Ranbir Kapoor has leased out his ₹11 crore flat in Pune's Trump Towers for ₹4.63 lakh a month (Moneycontrol headline, 16 Oct; page not opened; meter COLD). If both numbers hold, that is about 5% a year on the price. Also: Suryakumar Yadav's Dubai property (Moneycontrol, 14 Oct).
+- Markets: Sensex +414 and Nifty above 23,100 on Fri 16 Oct, led by IT (TradingView and Deccan Herald headlines). The rupee closed at 94.92 to the dollar (The Hindu headline). South Korea's Kospi fell 7.6% in a day (bloomingbit, 15 Oct).
 
 ## Where we stand
 
