@@ -30,6 +30,7 @@ Working experiment: immediate substantive opening, no title/greeting pause, cont
 
 ## Feedback log
 
+- 19 October, Jio shortening: user marks the existing Musk/IPO opening as a good start and now requests under 60 seconds for the combined story. Preserve that opening. His question about ARPU flatlining is a clarification request, not an approved claim; answer separately and do not state recharge revenue or reported ARPU has stopped growing.
 - 19 October, combined Jio storyline: first identify the audience's curiosity around the imminent IPO and Musk–Ambani dispute, then develop the insight connecting the two supplied stories. Do not compress to 30–40 seconds during this story-development pass; decide what to remove after the full story works. This is not a permanent change to daily reel length.
 - 19 October, Jio: use the two user-supplied stories as the editorial basis rather than recreating/replacing them. Audience watches finance podcasts, understands markets and invests; write at that level without explaining familiar finance terms. Keep hook and continuing engagement central. New drafts are English-first and remain unapproved.
 - 10 October repo sync: registry/scripts/nana01.json records Akhilesh's approval on 9 October and correction of opening to 2015/Ab Tak Chhappan 2. This supersedes the earlier local unapproved Nana status for that frozen production script. It does not establish which film paid for the car or approve future drafts. Inline edits in this chat remain the writing feedback source.
