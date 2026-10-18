@@ -90,16 +90,6 @@ Jio IPO (also crowded, all hype or legacy):
 
 **The angle nobody has taken:** what Jio's own prospectus says about Starlink, with the ₹214 vs ₹4,800 numbers. Everyone has made the feud, or the IPO as a legacy or hype story. Nobody has opened the document.
 
-## 6. Watch out
-- **No call on the IPO:** not "apply", not "skip", not "listing gain pakka". GMP only as "grey market says", if at all; it is unofficial. No price levels for RIL.
-- **Musk's claims are accusations:** "monopoly", "oligarchs" and "Prime Minister Ambani" are his posts. The government calls them "baseless and misconceived", and there is no evidence that Reliance caused the delay. Show the posts as screenshots, quoted exactly.
-- **Real people:** Musk and Ambani appear only as licensed stills, their own real footage or screenshots of their posts. No AI face or voice, and no words they didn't say (CLAUDE.md rule 4). Mittal's and Reliance's lines are quotable as said.
-- **Stay off party politics:** the electoral-bond reports Musk shared, Rahul Gandhi's reported comment, and the RSS affiliate (13 Oct, Reuters, tracker note; page not reopened today).
-- **Starlink's prices are its US and African prices, as quoted in Jio's RHP.** Starlink has no Indian price yet.
-- **Unverified today:** whether Rubio actually met Ambani (only "expected"). The ₹2,500 crore shareholder quota and ₹500 crore employee figures are from PTI (15 Oct, tracker note); the page wasn't reopened today.
-- **Logos:** Jio's and Starlink's official logos are fine for a reel about them; never have an image model draw them.
-- **Window:** before Wed 21 Oct (the issue opens) is best. The story stays live to listing on 28 Oct.
-
 ## Sources opened today
 - Business Today, 16 Oct (Reliance statement, Mittal, Musk's quotes): https://www.businesstoday.in/latest/corporate/story/jios-own-satellites-await-clearances-ril-issues-rebuttal-to-musks-starlink-india-claims-561946-2026-10-16
 - Business Standard, 15 Oct (RHP satellite risk): https://www.business-standard.com/companies/news/jio-platforms-satellite-broadband-india-starlink-leo-spectrum-risk-126101500576_1.html
