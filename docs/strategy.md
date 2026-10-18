@@ -50,7 +50,7 @@ Stage 1 targets are live in the block below. Stages 2 and 3 are the plan after t
 
 ## The book and where we stand
 <!-- scoreboard -->
-_Updated 2026-10-17 21:31 IST by `scoreboard.py write`._
+_Updated 2026-10-18 21:39 IST by `scoreboard.py write`._
 
 **Stage 1: Stop the scroll** (2026-09-26 to 2026-10-25): prove people stop for our reels and stay to the end
 
@@ -73,15 +73,14 @@ _Updated 2026-10-17 21:31 IST by `scoreboard.py write`._
 ## This week's plan
 _Written by the strategist every Sunday. The morning session executes it: each story option says which bets it carries, and each script says how it carries them._
 
-**Week of Mon 12 Oct (written Sun 11 Oct)**
-- **Lead every day with a known name.** The desk's first option is a company, brand or person every viewer already knows, in the news or with a money decision worth a story, shown in frame one (logo, licensed photo or their real footage) with the number or question it turns on. All four reels that did this reached 582–3,224 plays; all eight that didn't stayed at 94–303. The desk now scores it ("Known name", 0–2, playbooks/newsdesk.md) and the watch item "famous name in frame one" tracks it.
-- **Ride now: two creator-format reels this week** on a famous Indian's money decision (an actor, cricketer or founder: what they did with a big sum and why), opened on their real footage or a licensed photo, as Nana Patekar did (3,224 plays, 78 likes per 1k, followers 213 → 291 in a day). End on what the series is ("har hafte ek famous paisa faisla") so the follow has a reason.
-- **Tight 20–30 s (watched %, 38.6% on 1 reel since 26 Sep):** every Samachar and creator reel is 20–30 s, never over 30 (CLAUDE.md), payoff by 12 s, the last line echoes the hook. This week's three reels ran 39, 57 and 42 s, so the length test got nothing for a second week.
-- **Hook in frame one (skip rate, 52.4% on 3 reels):** where the known name opens the reel, the anchor or Rashmi says the stake over it inside the first second; the 6-word hook text sits on screen from frame one either way.
+**Week of Mon 19 Oct (written Sun 18 Oct)**
+- **Volume first: 5 reels by Sun 25 Oct.** Zero reels went up from 10 to 18 Oct while a script was drafted every day (ten drafts in scripts/drafts/, all still "not approved"). The morning session produces any draft the same day Akhilesh or Naveen approves it; nothing else this week matters as much.
+- **Ride now: the Jio IPO, before it opens on Tue 21 Oct.** 6 of the 10 Indian money outliers this week were on it (985K to 15.5M plays, 4–50× their creators' medians). Lead with the existing Jio drafts (jio-quota, musk-jio-ipo-risk v2): Jio's name and logo in frame one, the stake said in the first second, IPO facts only, no apply/skip call. A second known-name follow-up on listing day if the first travels.
+- **Tight 20–30 s (watched %, 38.6% on 1 reel since 26 Sep):** every script is 50–75 spoken words, never over 30 s (CLAUDE.md). The current drafts aim at 30–40 s; cut before sending, as CLAUDE.md asks. Payoff by 12 s, the last line echoes the hook.
+- **Hook in frame one (skip rate, 52.4% on 3 reels):** the known name and the 6-word hook text on screen from frame one, the stake spoken inside the first second; no title before it.
 - **A line worth sending (sends per 1k, 3.2 on 3 of 4 reels):** one line inside the first 12 s a viewer would forward to a specific person; never ask for shares.
-- **Posting:** one reel a day, 7–9 pm IST, no day skipped. Stage 1 has 10 of 20 reels with 14 days left, so 10 reels by 25 Oct means at least 5 this week. Trial Reel whenever the option shows.
-- **Every reel through the log** (`scoreboard.py add-reel` with bets, credits and the desk score before it posts): E8, E9 and E10 carried no score, so the desk can't be calibrated yet.
-- **Watching:** E10 at 72 h (Monday night) and whether followers keep converting; the US green-card freeze on Indian IT (two outliers this week, 1.1M and 2.6M); vidIQ's owner feed (down since 9 Oct: no skip, watched or sends for E10).
+- **Posting:** one reel a day, 7–9 pm IST. Trial Reel whenever the option shows. Every reel through `scoreboard.py add-reel` with its bets, credits and desk score before it posts.
+- **Watching:** whether the Jio reel travels like Policybazaar and Snapdeal (same shape: known name, news that day); the split-screen layout (footage on top, presenter below), seen in 8 of this week's 10 Instagram outliers; vidIQ's owner feed (down since 9 Oct, so skip, watched and sends are unknown for every reel since E9).
 
 ## Working rhythm
 | When | Who | What |
@@ -173,3 +172,11 @@ _Written by the strategist every Sunday. The morning session executes it: each s
 - 2026-10-15 (nightly): Quiet. vidIQ owner insights unavailable for a seventh night ("Meta token is inactive"; the account list still says active); public counts only, no bets judged on public data. No reel posted on 10–15 Oct (six days off the one-a-day plan; 10 of 20 stage reels with 10 days left, so the strategy stop can only be judged on 25 Oct with a reel every day from tomorrow). Every reel within 0–6 plays of the last reading (E10 3,282, E8 2,442, E9 604), so no public reading logged. No stop or target hit; all bets HOLD (hook in frame one 52.4% on 3 reels; tight 20–30 s 38.6% on 1; a line worth sending 3.2 per 1k on 3 of 4). vidIQ credits this week: 25.
 - 2026-10-16 (nightly): Quiet. vidIQ owner insights unavailable for an eighth night ("Meta token is inactive"; the account list still says active); public counts only, no bets judged on public data. No reel posted on 10–16 Oct (seven days off the one-a-day plan; 10 of 20 stage reels with 9 days left, so the strategy stop can no longer reach 20 reels by 25 Oct even at one a day; the 25 Oct review judges it on what is posted). Every reel within 0–3 plays of the last reading (E10 3,284, E8 2,445, E9 605), so no public reading logged. No stop or target hit; all bets HOLD (hook in frame one 52.4% on 3 reels; tight 20–30 s 38.6% on 1; a line worth sending 3.2 per 1k on 3 of 4). vidIQ credits this week: 30.
 - 2026-10-17 (nightly): Quiet. vidIQ owner insights unavailable for a ninth night ("Meta token is inactive"; the account list still says active); public counts only, no bets judged on public data. No reel posted on 10–17 Oct (eight days off the one-a-day plan; 10 of 20 stage reels with 8 days left; the desk drafted the WhatsApp stock-tip story today). Every reel within 0–5 plays of the last reading (E10 3,289, E8 2,445, E9 610), so no public reading logged. No stop or target hit; all bets HOLD (hook in frame one 52.4% on 3 reels; tight 20–30 s 38.6% on 1; a line worth sending 3.2 per 1k on 3 of 4). vidIQ credits this week: 35.
+- 2026-10-18 (weekly review):
+  - vidIQ owner insights unavailable for a tenth night ("Meta token is inactive"; the account list still says active); public counts only, no bets judged on public data. Every reel within 0–2 plays of last night (E10 3,291), so no public reading logged. No stop or target hit; all bets HOLD (hook in frame one 52.4% on 3 reels; tight 20–30 s 38.6% on 1; a line worth sending 3.2 per 1k on 3 of 4).
+  - The week: no reel posted (the last was E10 on 9 Oct), about 230 plays on the back catalogue (public counts), followers 291 (+0), 0 episode credits. Ten script drafts in scripts/drafts/ since 10 Oct, none approved; the drafts aim at 30–40 s, over the 30 s rule.
+  - Weakest stage: still the stop (skip 55.9% against 45%), but the binding constraint is volume: no bet can move without reels. Book unchanged (full at 3; no stop, target or time stop). No new bet.
+  - Evidence (one outlier scan, 5 credits): the Jio IPO (opens 21 Oct) was 6 of 10 Instagram outliers (@growwithyuvraj.20 15.5M, @therawfeed.ig 6.6M, @thekiranyadavv 4.7M, @abhishekkarofficial 2.4M, @rehan.talkss 1.9M, @the_unchaptered 985K); IDBI's sale to Fairfax (@cryptowalaindia 1.9M) and UPI MDR postponed (@legitfinancials 866K) were stories the desk also carried. Pattern (8 of 10): split screen, real footage on top, presenter below.
+  - Put to Akhilesh: the Jio IPO reel before Tuesday; scripts held to 30 s; Stage 1 to run to 20 reels or 8 Nov; reconnect Instagram in vidIQ.
+  - Platform: no change found to Instagram ranking, YouTube Shorts (beyond the 1 Oct originality update), SEBI's finfluencer rules or MeitY's AI labels.
+  - vidIQ credits this week: 45 (35 nightly cross-checks, 5 tonight's cross-check, 5 outliers).
