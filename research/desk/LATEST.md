@@ -1,150 +1,143 @@
-# Doordhan desk research — Sat 17 Oct 2026
+# Doordhan desk research — Sun 18 Oct 2026
 
-Session: https://claude.ai/code/session_01QEDmKn7hH1iq6m3mMhfbT9
+Session: https://claude.ai/code/session_011SZRVMUaJ5kaoJy1bZb7ZD
 
-**Pick: story 1.** This week's plan says lead with a known name, and the fastest money story on YouTube this morning is a bank everyone has heard of being sold. On Wed 14 Oct the Cabinet approved the sale of 60.72% of IDBI Bank to Canada's Fairfax Financial for ₹52,878 crore, at ₹81 a share when the stock had closed at ₹90.40 (IndMoney; Finshots). The next morning the shares fell more than 7% to below ₹84 (Outlook Business). The top YouTube Short on it is at 909,591 views in about a day (about 37,900 views an hour), and two Instagram reels passed 900K. The curiosity gap nobody has taken: LIC, using policyholders' money, put ₹21,624 crore into this bank in 2019 when its bad loans were the worst in India. What does LIC get back now? It fits 20–30 s, opens on the IDBI logo, and needs no buy/sell call.
+**Pick: story 1.** This week's plan says lead with a known name, and the best story this morning is a twist on one every viewer already saw. On Thu 8 Oct the US Labor Department froze green-card (PERM) filings for TCS, Infosys, Wipro, HCL, Cognizant, Capgemini, Microsoft and Adobe (Kotak Neo). Instagram filled up with doom: @thetatvaindia 9.7M, @bitinning 'BAD NEWS FOR INDIAN IT PROFESSIONALS' 3.9M, @finsight20 'TOMORROW BLOOD BATH IT COMPANIES??' 861K. Then, in the week to Fri 16 Oct, the Nifty IT index rose 11.72%, its best week since April 2008, and 10 IT stocks added ₹2.75 lakh crore in market value (Business Today). Nobody has put the two side by side. Humour lands on the herd, it needs no buy/sell call, it fits 20–30 s, and the TCS and Infosys logos carry frame one.
 
-Runner-up: 2, the ED's raids on a WhatsApp 'Multibagger Stocks' pump-and-dump: daily buy tips to retail investors for two months, buyers up from about 3,400 to over one lakh, then both shares fell about 70% within days (Tribune, 16 Oct). Nobody on YouTube has made it yet. Story 3 is the deep lane via The Ken: insurance mis-selling complaints are up 14% a year, and IRDAI's crackdown may slip past early 2027. It is the buyer's side of our Policybazaar reel. Tracked: Yes Bank reports its Q2 results today, and the Jio IPO opens Wed 21 Oct.
+Runner-up: 2, Maharashtra's FDA says expired and rejected food meant for destruction was diverted back into shops. An FIR in Thane names 10 people, including a Reliance Consumer Products director and a Blinkit director; ₹48.09 lakh of stock was seized and five licences suspended (Deccan Herald, Business Today, 17 Oct). It is all over the news and nobody has made a Short on it yet. It has no investor stake, so it scores lower. Story 3 is the deep lane via The Arc: Groww's profit is up 54%, but F&O's share of its revenue fell from 56.9% to 44.8% in a year, so it is turning to IPOs (Jio's opens Wed) and wealth. Tracked: Musk vs Ambani is still the hottest money video in India but crowded; the Jio IPO opens Wed 21 Oct.
 
-## 1. IDBI Bank sold to Canada's Fairfax for ₹52,878 crore, at ₹81 a share against a market price of ₹90
+## 1. After the US green-card freeze, Instagram predicted a 'bloodbath' for TCS and Infosys. Indian IT then had its best week since 2008
 
-Hot lane (new; big company event and stock mover) · HOT · **9/10** (momentum 3/3, stake 1/1, shareability 2/2, gap 1/2, known name 2/2) · tracker id `idbi-fairfax-sale`
+Hot lane (new; market move and big company event) · RISING · **9/10** (momentum 2/3, stake 1/1, shareability 2/2, gap 2/2, known name 2/2) · tracker id `it-rally-green-card`
 
-Window: Sat 17 to about Tue 20 Oct. After that the Jio IPO (opens Wed 21 Oct) takes the news cycle. Later turns: definitive agreements, the open offer and RBI approval, with completion expected before 31 Mar 2027.
+Window: Sun 18 to about Wed 21 Oct. After that the Jio IPO takes the cycle. Later turns: the DOL's written guidance on the freeze; Infosys and Wipro's next updates; whether the rally holds.
 
 ### What's happening
-- On Wed 14 Oct the Cabinet Committee on Economic Affairs approved the sale of 60.72% of IDBI Bank to a Fairfax Financial Holdings company for ₹52,878 crore in cash. The government sells 30.48% and LIC sells 30.24%, both at ₹81 a share. Afterwards the government keeps 15% and LIC 19% (IndMoney; Finshots). Finshots calls it the largest foreign direct investment in India's financial sector.
-- The price: ₹81 is about 10.4% below the previous close of ₹90.40 and above the ₹75.99 benchmark set by independent valuers (IndMoney). It is about 9 times FY26 profit of ₹9,513 crore and 23% above book value of ₹65.75 (Finshots). The government says it did not use the market price as its benchmark. The government and LIC hold 94.72% between them, so few shares trade and the price is easy to push up (Finshots).
-- The stock: it rose about 9% on Wed 14 Oct ahead of the announcement, then fell more than 7% in early trade on Thu 15 Oct to below ₹84, still about 3.7% above the ₹81 deal price. It is down 19.1% in 2026 (Outlook Business). Finshots says the shares had nearly tripled since the government first announced the sale plan.
-- The journey: the RBI put IDBI under Prompt Corrective Action in May 2017, with net NPAs above 13%. LIC took 51% control in January 2019, PCA was lifted in March 2021, and the Cabinet approved the strategic sale in May 2021. Bids came from Fairfax and Emirates NBD in February 2026, but the process was put on hold in March because the bids were below the reserve price (Outlook Business timeline). Gross NPAs fell from 31.8% in 2018 to 2.3% in 2026 (Finshots).
-- The buyer: Fairfax is Prem Watsa's insurance and investment group. In India it already owns Bengaluru airport, Thomas Cook India and Go Digit stakes, and about 40% of CSB Bank, which it must merge into IDBI or exit (Finshots; Wikipedia). The deal still needs RBI and SEBI approvals, plus an open offer to minority shareholders (Finshots). The employees' union has asked the government to review the sale (BusinessLine headline, 17 Oct).
+- On Thu 8 Oct, US Labor Secretary Keith Sonderling said the department 'will not accept any new or process any pending permanent labor certification applications' involving Cognizant, Infosys, TCS, Wipro, HCL Technologies, Capgemini, Microsoft and Adobe. PERM is the first step of an employer-sponsored green card. It is not a blanket H-1B suspension (Kotak Neo, 9 Oct).
+- Instagram read it as a disaster for IT stocks and IT jobs: the top reels in our search were @thetatvaindia (9.7M), @bitinning, 'BAD NEWS FOR INDIAN IT PROFESSIONALS' (3.9M), @kirtanshahcfp (1.2M), @finsight20, 'TOMORROW BLOOD BATH IT COMPANIES??' (861K) and @udayanonmoney, 'Bad news for Indian IT stocks' (756K) (vidIQ).
+- Then the week to Fri 16 Oct: Nifty IT rose 11.72%, its biggest weekly gain since April 2008, against 2.78% for the Nifty 50 and 3.11% for the Sensex (Kotak Neo, 17 Oct). The 10 IT stocks' market value rose from ₹22.66 lakh crore to ₹25.41 lakh crore, up ₹2.75 lakh crore; TCS alone added ₹1.1 lakh crore (Business Today, 17 Oct).
+- Why it rose: September-quarter results beat fears (TCS deal wins $9.6 billion; Tech Mahindra and Wipro beat on revenue), and money rotated out of global AI stocks after a hot US inflation print raised doubts about AI spending (Business Today; TradingView/Mint). Weekly gains: Tech Mahindra 18.2%, TCS 14.3%, HCL Tech 13.4% (Business Today). TradingView's figures run higher (TCS 18.7%, Infosys 16.5%, Wipro 16.4%), so use Business Today's.
+- It's a bounce, not a recovery: the index had fallen 32% this year before the rally and is still down 15.7% for 2026 (TradingView, 16 Oct). The freeze is still in place, and the companies called its impact limited (News18 and TradingView headlines, 12–13 Oct).
 
 ### The curiosity gap
-- In 2019 LIC put ₹21,624 crore of its money (policyholders' premiums) into a bank whose bad loans were the worst in India. Seven years later the bank is being sold. Did LIC make money or lose it? At ₹81 a share, its 30.24% fetches about ₹26,300 crore (our arithmetic), and it keeps another 19%.
-- The buyer is paying ₹81 a share, while anyone who bought on the market that week paid ₹90. Why would a government sell below the market price, and who is left holding the ₹90 shares?
-- In 2018 almost one in three rupees this bank had lent had gone bad. Now a Canadian investor is paying ₹52,878 crore for it.
+- Five reels with about 16 million views between them said the green-card freeze was bad news for Indian IT stocks. Six trading days later those stocks had their best week in 18 years. What did the doom reels miss?
+- The freeze was a problem for IT employees waiting for green cards, not for the companies' earnings. Investors cared about the quarterly results and the AI sell-off. Who was the bad news actually for?
+- ₹2.75 lakh crore added in five days by 10 companies everybody knows. How many people sold on the 'bloodbath' reels?
 
 ### How hot it is
-- Trend meter on 'IDBI Bank Fairfax': HOT. 5 news items today of 33 this week. On YouTube this week: 14 videos, 780,704 views, the best at 19,322 views an hour (a Marathi Short with 463,721 views in 24 h). Google Trends India: not in the top searches.
-- vidIQ, YouTube Shorts (region IN): CryptoWala's 2:08 Short has 909,591 views since 16 Oct 01:09 UTC, about 37,900 views an hour (HOT by the 3,000/hr rule). Indian Express Hindi has 302,950 and Rahul ki duniya 301,871.
-- vidIQ keyword 'idbi bank': about 3,470 searches a month, competition 52.5/100 (metrics as of August).
+- Trend meter on 'Nifty IT rally': YouTube this week 10 videos, 9 of them in the last 24 h, 165,204 views; the best at 2,204 views an hour ('IT Stocks Surge 11% in a Week! Biggest Rally in 18 Years', 52,902 views in 24 h). The meter reads COLD on Google News for that phrase, but Google News carried at least nine outlets on the record week between 15 and 17 Oct, and uploads are accelerating, so we grade it RISING.
+- vidIQ Instagram outliers on the freeze (posted since 8 Oct): 9.7M, 3.9M, 1.2M, 861K and 756K, at 4.4× to 17.1× each creator's median. None of the five covers the rally.
+- vidIQ YouTube Shorts search (region IN, since 13 Oct) for the rally: no results returned.
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [CryptoWala (YouTube Short)](https://www.youtube.com/watch?v=254CfySCJS4) | 2:08 Hinglish explainer: who Prem Watsa is, why ₹81 when the market was ₹90, and what happens to your FD (DICGC covers ₹5 lakh) | 909.6K | 7.6× (vidIQ outlier score) | 16 Oct |
-| [@earnwithsapna (Instagram)](https://www.instagram.com/reel/DefFs2FBjf6/) | Split screen with news clips: 'Indian govt sold IDBI Bank for ₹53,000 crore', and what it means for depositors; ends by inviting debate | 1M | 27.4× median | this week |
-| [@indianyouthcongress (Instagram)](https://www.instagram.com/reel/Dego35ZTYeK/) | Political anchor-style attack: 'IDBI Bank bhi bech dala' | 909.7K | 14.3× median | this week |
-| [Indian Express Hindi (YouTube Short)](https://www.youtube.com/watch?v=zsOF5RtaOX0) | 1:45 on what the sale means for you, employees and the share price | 303K | 9.8× | 15 Oct |
-| [Rahul ki duniya (YouTube Short)](https://www.youtube.com/watch?v=f8gb_iM3izY) | 16-second headline read: 'IDBI bank bik gaya?' | 302K | 35.1× | 15 Oct |
+| [@thetatvaindia (Instagram)](https://www.instagram.com/reel/DePWnYvJEVL/) | Breaking-news card: 'No H1B visa/Green cards: US SUSPENDS top Indian IT firms' over podium footage | 9.7M | 4.4× median | since 8 Oct |
+| [@bitinning (Instagram)](https://www.instagram.com/reel/DePnc_TyifT/) | Talking head: 'BAD NEWS FOR INDIAN IT PROFESSIONALS', what the green-card freeze means for IT stocks | 3.9M | 8.9× median | since 8 Oct |
+| [@kirtanshahcfp (Instagram)](https://www.instagram.com/reel/DeQgOYHKKUw/) | Advisor explains the suspension and argues the real impact on the companies is smaller | 1.2M | 5.6× median | since 8 Oct |
+| [@finsight20 (Instagram)](https://www.instagram.com/reel/DePhJRtyRhC/) | Fast news roundup: 'TOMORROW BLOOD BATH IT COMPANIES??' | 861K | 17.1× median | since 8 Oct |
+| [@udayanonmoney (Instagram)](https://www.instagram.com/reel/DePbbpOtClb/) | Single-shot explainer: 'Bad news for Indian IT stocks: new USA policy' | 756K | 7.0× median | since 8 Oct |
 
-_Everyone has told it as 'the government sold a bank', either as politics or as depositor safety. Nobody has followed LIC's money (the 2019 rescue and what it gets back now), or the retail buyers who chased the takeover rally to ₹90 just before the ₹81 deal._
+_Every outlier told the freeze as bad news for IT stocks, and none has come back to show the stocks' record week. Nobody has put the doom reel next to the scoreboard, or said who the freeze actually hurts (employees in the green-card queue, not the companies' results)._
 
 ### Facts and sources
-- ₹52,878 crore in cash for 60.72%; government 15% and LIC 19% after the sale; about 9× FY26 profit of ₹9,513 crore; 23% above book of ₹65.75; about 7% above fair value of ₹76; government and LIC hold 94.72%; gross NPAs 31.8% (2018) → 2.3% (2026); capital adequacy 6.2% → 26.7%; shares nearly tripled since the sale plan; RBI and SEBI approvals and an open offer still needed. — [Finshots, 16 Oct](https://finshots.in/markets/idbi-bank-is-finally-being-sold/)
-- Government 30.48% and LIC 30.24%; ₹81 a share against a close of ₹90.40 (10.4% below); benchmark ₹75.99; completion expected before the end of this financial year; CSB Bank to be merged or sold within two years. — [IndMoney, updated 14 Oct](https://www.indmoney.com/blog/stocks/idbi-bank-fairfax-deal-explained)
-- Fell more than 7% in early trade on Thu 15 Oct to below ₹84; rose about 9% on Wed; down 19.1% in 2026 against −12.6% for the Nifty 50; market value about ₹90,567 crore. — [Outlook Business, 15 Oct](https://www.outlookbusiness.com/markets/idbi-bank-shares-fall-7-after-fairfax-deal-whats-behind-the-drop)
-- Timeline: PCA in May 2017 (net NPAs above 13%); LIC takes 51% in January 2019; PCA lifted March 2021; sale approved May 2021; bids from Fairfax and Emirates NBD in February 2026; process put on hold in March 2026 because the bids were below the reserve price. — [Outlook Business, 14 Oct](https://www.outlookbusiness.com/corporate/idbi-bank-fairfax-deal-timeline-nine-year-journey-rbi-curbs-stake-sale-privatisation-disinvestment)
-- Context (not a dated news page): LIC completed its 51% acquisition on 21 Jan 2019 for a total investment of ₹21,624 crore; gross NPAs about ₹55,588 crore, about 28% of loans, in March 2018. — [Wikipedia, IDBI Bank](https://en.wikipedia.org/wiki/IDBI_Bank)
+- US Labor Department suspended Cognizant, Infosys, TCS, Wipro, HCL Technologies, Capgemini, Microsoft and Adobe from PERM; Sonderling's quote; not a blanket H-1B suspension; acted on Thursday (8 Oct). — [Kotak Neo, 9 Oct](https://www.kotakneo.com/news/global-markets/us-suspends-infosys-tcs-wipro-hcl-perm-green-card-programme/)
+- Nifty IT +11.72% for the week, the biggest since April 2008; m-cap of 10 IT stocks ₹22.66 lakh crore → ₹25.41 lakh crore (+₹2.75 lakh crore); TCS added ₹1.1 lakh crore; Tech Mahindra +18.22%, TCS +14.33%, HCL Tech +13.42%; TCS deal wins $9.6 billion; the reverse AI trade after a higher US inflation print. — [Business Today, 17 Oct](https://www.businesstoday.in/markets/stocks/story/10-it-stocks-add-rs-275000-crore-in-m-cap-in-best-week-in-18-years-heres-why-562239-2026-10-17)
+- Nifty IT +11.72% for the week, +3.92% on Fri 16 Oct; Nifty 50 +2.78%, Sensex +3.11%; reasons: rotation out of AI-linked stocks, better Q2 results. — [Kotak Neo, 17 Oct](https://www.kotakneo.com/news/sectors/nifty-it-rises-11-7-percent-in-biggest-weekly-rally-since-2008/)
+- Six of 10 constituents up more than 10%; the sector had fallen 32% before the recovery; still down 15.7% year to date. (Its per-stock gains are higher than Business Today's.) — [TradingView (Mint), 16 Oct](https://www.tradingview.com/news/moodys:ce5557892fd1b:0-nifty-it-posts-best-weekly-gain-in-18-years-as-q2-earnings-revive-investor-interest-which-stocks-led-the-rally/)
 
 ### Watch out
-- No buy/sell and no 'should you hold IDBI'. No price targets or levels beyond the deal price and the move: report the fall as news (SEBI price-data rule).
-- LIC's round trip is not settled. The ₹21,624 crore is from Wikipedia (context). The ₹26,300 crore is our arithmetic (₹52,878 crore × 30.24/60.72, since both sellers get ₹81). LIC's remaining 19% hasn't been sold. Say 'about' and present it as a calculation, or check an LIC or DIPAM statement before it goes on screen.
-- The deal isn't done: definitive agreements aren't signed, and RBI and SEBI approvals and the open offer are pending.
-- It is political (the opposition says the government is selling national assets; the FM has defended it). Keep the humour on the system and the herd, and take no side.
-- Prem Watsa or the FM only as a licensed photo or their real footage, never an AI face. The IDBI Bank logo is fine for a reel about IDBI.
-- Tests it can carry: the IDBI logo with '₹81 vs ₹90' in frame one and the stake said in the first second (hook in frame one); 20–30 s (tight length); a send line inside 12 s for the friend with an LIC policy or the one who bought IDBI on the takeover rally (a line worth sending).
+- Don't say the freeze caused the rally, or that it was lifted. It is still in place. The rally came from results and the AI rotation, and the two just happened in the same week.
+- No buy/sell call, no 'IT is back' and no price levels or targets (SEBI price-data rule): report the weekly move as news, as an index percentage and market value.
+- The doom reels are other creators' work. Show them only as a few seconds of screen or headline, or describe them; no creator's face in our edit, and don't mock a named creator. The joke is on the herd.
+- The TCS and Infosys logos are fine for a reel about them; never have an image model draw them.
+- Per-stock gains differ by source (Business Today vs TradingView). Use Business Today's or the index figure.
+- Tests it can carry: the logos with '+11.7%' in frame one and the stake said in the first second (hook in frame one); 20–30 s (tight length); a send line inside 12 s for the friend who forwarded the bloodbath reel (a line worth sending).
 
-## 2. WhatsApp 'Multibagger Stocks' tips to one lakh buyers, then a 70% crash: the ED raids 29 places in six cities
+## 2. Expired food meant for the bin allegedly went back on sale: FIR names Reliance and Blinkit directors, ₹48 lakh of stock seized
 
-Hot lane (new; viral money story) · RISING · **7/10** (momentum 2/3, stake 1/1, shareability 2/2, gap 2/2, known name 0/2) · tracker id `ed-whatsapp-multibagger`
+Hot lane (new; big company event) · RISING · **8/10** (momentum 2/3, stake 0/1, shareability 2/2, gap 2/2, known name 2/2) · tracker id `expired-food-reliance-blinkit`
 
-Window: Sat 17 to about Tue 20 Oct, unless the ED makes arrests or SEBI issues an order, which would be a second turn.
+Window: Sun 18 to about Tue 20 Oct, while the companies' responses and any further raids come in.
 
 ### What's happening
-- On Fri 16 Oct the Enforcement Directorate (Mumbai Zonal Office-I) searched 29 premises in Mumbai, Nashik, Ahmedabad, Gandhinagar, Surat and Bhavnagar under the money-laundering law (PMLA). The case is alleged share manipulation in two small listed companies, RM Drip and Sprinklers Systems Ltd and R&B Denims Ltd (Tribune).
-- The set-up: between April 2023 and March 2024 the two companies issued over 3.5 crore shares and convertible warrants to selected people and entities. The prices were then pushed up steadily while the shares stayed largely with the same holders, and much of the money came from a small circle of connected people, firms and lenders (Tribune).
-- The tips: from late December 2025 to February 2026, WhatsApp communities with names like 'Multibagger Stocks' sent retail investors daily 'buy' tips. The SIM cards were registered to other people in Haryana and Mumbai, but the groups were run from Bhavnagar, Gujarat. The groups were deleted on 25 Feb 2026 (Tribune).
-- The crash: buyers rose from about 3,400 to over one lakh. Then both shares hit the lower circuit and lost about 70% within days, leaving investors with heavy losses and shares they couldn't sell (Tribune). UNI also puts it at more than one lakh retail investors.
-- The searches covered the companies' offices, the promoters' homes, the people allotted cheap shares, broking and finance firms, and the people suspected of running the groups. Documents, devices and share records were seized; 'further investigation is in progress' (Tribune). These are allegations; no charges have been reported.
+- Maharashtra's Food and Drug Administration ran seven teams across Thane and Pune districts on 14 and 15 Oct. It says expired, damaged and customer-rejected food that was meant for destruction was diverted through disposal agencies, unlicensed sorting yards and brokers, and reached shops (Deccan Herald / PTI, 17 Oct).
+- How, as alleged: disposal agencies issued certificates saying the goods were destroyed without checking. At unlicensed yards in Bhiwandi, packets that still looked saleable were picked out and sold to brokers. Expired and leaking products were found on sale at an unlicensed shop in Gulzar Nagar, Bhiwandi, with no purchase bills (Deccan Herald; Business Today).
+- Seized: ₹48,09,924 in all, including over ₹24 lakh from a Bhiwandi disposal yard, about ₹4.92 lakh from Reliance Consumer Products' warehouse at Vadpe and about ₹7.81 lakh from Zomato Hyperpure's facility at Usatane (Deccan Herald).
+- The FIR, at Shanti Nagar police station in Thane under the Food Safety and Standards Act and the BNS, names 10 people. They include a whole-time director of Reliance Consumer Products, a whole-time director of Blinkit Commerce, a Reliance Retail warehouse manager and a Zomato Hyperpure employee, plus disposal-agency operators and local suppliers. Five establishments' licences were suspended and four unlicensed premises shut (Deccan Herald; Business Today).
+- Business Today says it will update with the companies' responses, and none had been published when we checked. These are allegations from a preliminary investigation, not findings.
 
 ### The curiosity gap
-- One lakh people got the same 'multibagger' tip on WhatsApp every day for two months. Who was on the other side of their buy orders, and how did every group vanish on the same day?
-- The shares went cheaply to a chosen few a year before the first tip was sent. The tip was never meant to make the reader money: the reader was the exit.
-- The company went from 3,400 shareholders to one lakh. Then the stock fell 70% in days, and nobody could sell.
+- The brands we order from in 10 minutes pay someone to destroy their expired stock. According to the FDA, the 'destroyed' food came back to a shop shelf with a certificate saying it no longer existed.
+- Who checks that the food was actually destroyed? Apparently the people paid to destroy it.
+- Rejected and returned packets went from a quick-commerce warehouse to a Bhiwandi discount store. How would a buyer ever know?
 
 ### How hot it is
-- Trend meter on 'RM Drip R&B Denims': 3 news items today, and all of this week's coverage came today (RISING by the coverage rule). No YouTube videos yet. The phrase 'multibagger WhatsApp ED' reads COLD. Google Trends India: not in the top searches.
-- vidIQ YouTube search (region IN, since 15 Oct): no videos on this case at all.
-- vidIQ keyword 'multibagger stocks': about 4,099 searches a month, competition 47.2/100 (metrics as of 16 Oct).
+- Google News: at least 17 outlets carried it on 17 Oct (Reuters, PTI via Deccan Herald, Business Today, ET, Mint, NDTV Profit, India Today and others), all in the last 24 h. We grade it RISING. The meter's phrase search found 0 news items, a phrasing miss.
+- YouTube this week: 5 videos, 16,572 views, best 346 views an hour (a Malayalam video on expired ice cream). vidIQ Shorts search (region IN, since 15 Oct): two Shorts on the FIR, with 3 and 2 views.
+- vidIQ Instagram outliers: nothing on this story yet.
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [@unfilteredwithmack (Instagram, adjacent)](https://www.instagram.com/reel/DeMZ2xPj0xc/) | Interview: a woman tells how trading and a fraudster took her gold and her house | 1.4M | 304× median | last two weeks |
-| [@fincoracybysakshi (Instagram, adjacent)](https://www.instagram.com/reel/Ded6voaiQKC/) | Opens on a Scam 1992 Harshad Mehta clip, then the lesson | 934K | 232× median | last two weeks |
-| [@ca.vaibhavjain (Instagram, adjacent)](https://www.instagram.com/reel/DeYwXDeyHMb/) | Two men at a trading expo: day trading costs you your peace | 1.7M | 8.2× median | last two weeks |
+| [Anything_from_H (YouTube Short)](https://www.youtube.com/watch?v=i96HGesNaBU) | 35 s explainer on the alleged route from warehouse to shop, with Reuters and PTI sources | 3 | – | 17 Oct |
+| [NewsTadkaX (YouTube Short)](https://www.youtube.com/watch?v=Tcpg_i8zVKQ) | 16 s Hindi headline card: ₹48 lakh seized, 10 FIRs | 2 | – | 17 Oct |
 
-_Nobody has made this case yet. The adjacent breakouts are personal-loss stories and Scam 1992 hooks. The open angle is the mechanics told plainly: cheap shares to insiders first, daily tips to the herd second, then delete the group._
+_Nobody with an audience has made it yet. The open angle is the mechanism: the destruction certificate that 'destroyed' food carries back to the shelf._
 
 ### Facts and sources
-- 29 premises in six cities; RM Drip and Sprinklers Systems and R&B Denims; over 3.5 crore shares and warrants issued April 2023–March 2024; 'Multibagger Stocks' groups from late December 2025 to February 2026, run from Bhavnagar on SIMs registered in Haryana and Mumbai, deleted 25 Feb 2026; buyers about 3,400 → over one lakh; lower circuit and about 70% lost within days. — [Tribune, 16 Oct](https://www.tribuneindia.com/news/india/ed-raids-29-premises-in-6-cities-in-stock-manipulation-case-involving-rm-drip-rb-denims/)
-- More than one lakh retail investors suffered heavy losses; searches under PMLA in six cities. — [UNI, 16 Oct](https://www.uniindia.com/west-india/crime-maha-share-manipulation/216084)
+- FIR at Shanti Nagar police station, Thane, against 10 people incl. officials of Reliance Consumer Products, Reliance Retail, Blinkit and Zomato Hyperpure; raids 14–15 Oct in Thane and Pune; seizure ₹48,09,924 (₹24 lakh+ Bhiwandi yard, ₹4.92 lakh Reliance Consumer Products' Vadpe warehouse, ₹7.81 lakh Hyperpure Usatane); certificates without verified destruction; five licences suspended, four unlicensed premises shut. — [Deccan Herald (PTI), 17 Oct](https://www.deccanherald.com/india/maharashtra/fir-against-reliance-consumer-products-director-senior-officials-of-blinkit-zomato-after-fda-crackdown-on-expired-food-products-4186089)
+- Same figures; seven FDA teams; expired and leaking products on sale at an unlicensed Gulzar Nagar, Bhiwandi outlet with no purchase bills; company responses awaited. — [Business Today, 17 Oct](https://www.businesstoday.in/india/story/expired-food-recycled-to-markets-reliance-zomato-blinkit-units-hit-by-fda-action-562247-2026-10-17)
 
 ### Watch out
-- These are allegations under investigation. Say 'alleged' and call nobody guilty. Name the two companies only as the ED named them. No buy/sell call.
-- The 70% is from the Tribune ('about 70% within days'); no price levels were published. Use 'about 70%'.
-- No known name in frame one (two unknown small companies), so it scores 0 there. A WhatsApp-style chat built locally would carry the opening; don't use WhatsApp's logo, since the reel isn't about the company. No AI faces of any real promoter.
-- The humour lands on the operators and the herd's FOMO, never on a viewer who lost money.
-- Tests it can carry: '1 lakh buyers, −70%' in frame one with the stake said in the first second; 20–30 s; a send line inside 12 s for the friend who forwards stock tips (a line worth sending).
+- Allegations under investigation: say 'FDA ka aarop' / 'FIR mein naam', never that Reliance or Blinkit sold expired food. No company had responded when we checked; look again before the script gate.
+- Name no individual on screen. The FIR names people, but they are private executives. Use the companies, and their official logos, only.
+- No investor angle and no buy/sell talk about Reliance or Eternal shares.
+- Don't tell viewers to stop using any app. The humour lands on the system (the certificate nobody checks), not on the companies' customers.
+- Tests it can carry: logos plus '₹48 lakh' or 'EXPIRED' in frame one (hook in frame one); 20–30 s; the certificate as the send line (a line worth sending).
 
-## 3. Insurance mis-selling complaints up 14% in a year, and IRDAI's crackdown may slip past early 2027
+## 3. Groww's profit rose 54%, but F&O's share of its revenue fell from 57% to 45% in a year, so it is turning to IPOs and wealth
 
-Deep lane (via The Ken, 15 Oct) · COLD · **6/10** (momentum 0/3, stake 1/1, shareability 2/2, gap 2/2, known name 1/2) · tracker id `insurance-misselling-ken`
+Deep lane (via The Arc, 15 Oct) · FLAT · **6/10** (momentum 0/3, stake 1/1, shareability 1/2, gap 2/2, known name 2/2) · tracker id `groww-derivatives-arc`
 
-Window: Until Sun 25 Oct, the comment deadline on IRDAI's paper (a second turn if it is extended; brokers want the end of December).
+Window: Best this week, Mon 19 to Fri 23 Oct, while the Jio IPO (opens Wed 21 Oct) is applied for on apps like Groww. It fades after Jio lists (about 28 Oct).
 
 ### What's happening
-- The Ken (Ka-Ching!, 15 Oct, Sudeshna Ray) argues that IRDAI must act on mis-selling now. The deadline for comments on its consultation paper, 'Recalibrating Economics of Insurance Distribution', is 25 Oct and may be extended, which could push implementation beyond its early-2027 target.
-- The headline number, as The Ken reads IRDAI's 2024–25 annual report: complaints about unfair business practices, mostly mis-selling, rose 14% year on year.
-- The Ken's example: a 61-year-old was pitched a market-linked ULIP with promised returns of 10–13%, against 6–8% on FDs. ULIPs carry some of the best sales commissions, and an analyst said agents can hardly be asked to take a 40% pay cut.
-- What the paper proposes against mis-selling (context, MediaNama, 30 Sep): clawing back commissions, publishing a salesperson's mis-selling record, stopping banks and NBFCs from making insurance compulsory with their products, and banning volume-linked incentives for bank staff. It lists the kinds of mis-selling: regular-premium policies sold as single-premium, insurance presented as an FD, and ULIPs sold without the risks.
-- Why commissions matter (context, older than a week): IRDAI's data shows motor premiums up about 34% from FY23 to FY25 while motor commissions rose about 259% (MediaNama). The Ken's 8 Oct podcast says premiums rose 28% in two years while distributor pay rose 125%. Brokers say the caps would cut their revenue 60–70% and cost up to 10 lakh jobs (Inc42, 7 Oct).
-- Our link: these are the caps that sent Policybazaar down 36%, our best Samachar reel (E3). This is the buyer's side of the same rulebook.
+- The Arc (15 Oct): Groww is leaning on IPO-related income, margin funding and its fast-growing wealth business, as regulatory changes weigh on equity derivatives. Total income was about ₹1,545 crore in the September quarter, up 44% (The Arc RSS summary).
+- The numbers: net profit ₹725 crore, up 54% from ₹471 crore; revenue from operations ₹1,541 crore, up 44%. Profit was slightly down on the June quarter's ₹735 crore (TradingView/Mint).
+- The shift: equity derivatives were 44.8% of revenue, down from 56.9% a year earlier. Commodities rose from 0.2% to 6.2% of revenue, and margin trading from 7.4% to 10.1%. Groww's own AMC manages ₹7,179 crore, up 145% (TradingView/Mint). Reports tie the F&O slowdown to SEBI's changes to the closing session (CAS).
+- Users: about 2.4 crore transacting users, up 27%. Customer assets ₹3.9 lakh crore, up 46%. SIP inflows ₹14,347 crore in the quarter (TradingView/Mint).
 
 ### The curiosity gap
-- Your policy may have been chosen by what it paid the seller. Commissions grew 259% while premiums grew 34%, and complaints are rising every year.
-- The rule that would stop it is written, and the people it costs are asking for more time. Which way will it go by 25 Oct?
-- Insurance sold as an FD: the single most common complaint, written into the regulator's own paper.
+- The app most of us opened for our first SIP made more than half its money from F&O traders a year ago, and still makes 45% from them. Where does a free app's money come from?
+- As F&O slows, its fastest-growing lines are commodities trading (up 30 times as a share of revenue) and margin trading. Where is the app nudging its users next?
+- Next week millions will apply for the Jio IPO through apps like this. What does the app earn from that?
 
 ### How hot it is
-- Trend meter on 'insurance mis-selling': 1 news item today and 7 this week (COLD). On 'IRDAI commission mis-selling', YouTube shows 14 videos this week, 81,203 views, the best at 397 views an hour ('IRDAI ka naya proposal: insurance agents ki 10 lakh jobs par khatra?', 57,146 in 144 h). Deep lane: momentum can be 0.
-- vidIQ YouTube Shorts since 1 Oct (region IN): the best on mis-selling has 5,502 views. Nothing has broken out.
+- Trend meter on 'Groww results': COLD. YouTube this week: 17 videos, 94,874 views, best 564 views an hour (a Q2 results roundup).
+- vidIQ Instagram outliers on Groww's revenue mix: none. Nearest: @ca.vaibhavjain, day trading vs long-term investing, 1.7M (8.3× median), and @the_unchaptered, the Jio IPO story, 985K (6.0×).
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [CA Pushpak Bogati: Fundsutra (YouTube Short)](https://www.youtube.com/watch?v=I6Nb_RZCOJo) | 'Insurance agent ka commission kitna? IRDAI ka bada plan': was your policy sold for the commission? | 5.5K | – | 1 Oct |
-| [Piyush Semwal (YouTube)](https://www.youtube.com/watch?v=RQdcyQMUW_8) | 3 min: are local agents in danger, will customers still get service? | 4.1K | – | 1 Oct |
-| [Outlook Money (YouTube)](https://www.youtube.com/watch?v=gDhbNgT_OrE) | 2 min: could the new commission rules curb mis-selling? | 396 | 2.0× | 8 Oct |
+| [@ca.vaibhavjain (Instagram, adjacent)](https://www.instagram.com/reel/DeYwXDeyHMb/) | Two men at a trading expo on why day trading wrecks your peace, and long-term investing | 1.7M | 8.3× median | since 4 Oct |
+| [@the_unchaptered (Instagram, adjacent)](https://www.instagram.com/reel/Dehg2B3zVjW/) | 'Best IPO of 2026': the Jio story told from the 2G data-recharge era | 985K | 6.0× median | since 4 Oct |
 
-_The caps were covered as a stock story (Policybazaar, PB Fintech −47%) and as an agents'-jobs story. Nobody has told the buyer's side: what the seller earned on the policy in your drawer._
+_Nobody has made Groww's revenue mix. The open angle is 'how your free investing app makes money', told the week everyone uses it to apply for Jio._
 
 ### Facts and sources
-- Consultation paper 'Recalibrating Economics of Insurance Distribution'; comments due 25 Oct, may be extended; early-2027 target at risk; unfair-business-practice complaints (mostly mis-selling) +14% year on year per IRDAI's 2024–25 annual report; the ULIP example (10–13% promised vs 6–8% FD). — [The Ken, 15 Oct](https://the-ken.com/kaching/the-crackdown-on-insurance-mis-selling-just-cant-wait/)
-- Context (30 Sep): anti-mis-selling measures (clawback, published mis-selling records, no compulsory bundling by banks and NBFCs, no volume-linked incentives for bank staff); motor premiums +34% vs motor commissions +259% from FY23 to FY25. — [MediaNama, 30 Sep](https://www.medianama.com/2026/09/223-irdai-consultation-paper-insurance-distribution-reforms/)
-- Context (8 Oct): premiums +28% in two years while distributor pay rose 125%. — [The Ken, Two by Two podcast, 8 Oct](https://the-ken.com/podcasts/two-by-two/how-do-we-fix-how-india-sells-insurance/)
-- Context (7 Oct): brokers' association projects a 60–70% revenue fall and up to 10 lakh job losses; IRDAI data: broker-sourced general premiums +37% vs commissions +173%; PB Fintech and Turtlemint down over 47% since 23 Sep. — [Inc42, 7 Oct](https://inc42.com/buzz/insurance-brokers-oppose-irdai-reforms-project-70-revenue-loss/)
+- Groww leaning on IPO income, margin funding and wealth as regulatory changes weigh on equity derivatives; total income about ₹1,545 crore, up 44%. — [The Arc, 15 Oct (headline and public summary)](https://thearcweb.com/article/groww-turns-to-ipos-wealth-as-derivatives-engine-slows-tdsR4tEUirCGCbp9)
+- PAT ₹725 crore (+54% from ₹471 crore); revenue from operations ₹1,541 crore (+44%); June quarter PAT ₹735 crore; equity derivatives 44.8% of revenue vs 56.9%; commodities 6.2% vs 0.2%; MTF 10.1% vs 7.4%; 2.4 crore transacting users; customer assets ₹3.9 lakh crore (+46%); SIP inflows ₹14,347 crore; Groww AMC AUM ₹7,179 crore (+145%). — [TradingView (Mint), 14 Oct](https://www.tradingview.com/news/moodys:8cab8c29eb878:0-groww-q2-profit-rises-54-to-725-crore-as-revenue-mix-diversifies/)
 
 ### Watch out
-- The only number from the last week is the 14% (The Ken's reading of IRDAI's report). The commission-growth figures come from pages more than a week old, so they can sit in the body but not be the headline.
-- Credit 'via The Ken' in the caption, and don't copy paywalled text.
-- Don't name any insurer or bank as a mis-seller: no source here does.
-- Loans are a rested topic. The bundling rule mentions loans; leave that part out.
-- Tests it can carry: '+14% complaints' or the 34% vs 259% gap in frame one; 20–30 s; a send line for the parent who was sold a policy 'like an FD'.
+- Revenue figures differ (₹1,541 crore revenue from operations vs ₹1,502 crore in other reports, about ₹1,545 crore total income in The Arc): use percentages or say 'about ₹1,500 crore'.
+- No buy/sell on Groww's shares and no advice to use or quit the app. The humour lands on the business model, not on traders.
+- Margin trading is lending against shares: mention it as a revenue line only, since loans are a rested topic.
+- Credit 'via The Arc' in the caption; don't quote their text.
+- Tests it can carry: the Groww logo with '45%' in frame one (hook in frame one); 20–30 s; a send line for the F&O friend (a line worth sending).
 
 ## Stories we're tracking
 
@@ -152,35 +145,38 @@ Full board: research/desk/TRACKER.md
 
 | Story | Now | Direction | Day | Status |
 |---|---|---|---|---|
-| Jio Platforms IPO (`jio-ipo`) | HOT | rising | 10 | active |
-| International ETFs trading far above NAV (NSE warning) (`intl-etf-premium`) | COLD | rising | 10 | active |
-| SC orders panel on pharma freebies to doctors (`pharma-freebies-sc`) | HOT | rising | 9 | active |
-| Inox Clean: revenue 43X, debt 45X, IPO on hold (`inox-clean-ipo`) | HOT | rising | 8 | active |
-| Musk calls Ambani 'Prime Minister Ambani' over Starlink (`musk-ambani-starlink`) | FLAT | rising | 7 | active |
-| SC on hospital drug markups: Rs 2,700 drug sold at Rs 27,000 (`hospital-drug-markup-sc`) | COLD | fading | 7 | active |
-| Gauahar Khan's Versova duplex: 88% in 12 years (`gauahar-khan-flat`) | COLD | steady | 6 | active |
-| Rupee near ₹97: RBI hike, then four emergency measures (`rbi-rupee-rescue`) | COLD | fading | 5 | active |
-| Sensex +1,109 partly on FM's LTCG remark (`ltcg-remark-rally`) | HOT | steady | 4 | active |
-| Gold ₹3,600 cheaper in four sessions on a stronger rupee (`gold-slide-rupee`) | RISING | fading | 3 | active |
-| Airtel Money lists in London at $7 bn (via The Ken) (`airtel-money-london`) | HOT | rising | 3 | active |
-| Yes Bank -14.5% after SC voids AT-1 write-off (`yes-bank-at1-sc`) | RISING | new | 2 | active |
-| Mutual funds halt new gold FoF SIPs and bulk gold ETF buys (`gold-fund-halt`) | RISING | new | 2 | active |
-| Zetwerk IPO: 54% of Q1 revenue from metal sales (`zetwerk-ipo-metals`) | FLAT | new | 2 | active |
-| IDBI Bank sold to Fairfax at ₹81 vs ₹90 market (`idbi-fairfax-sale`) | - | new | 1 | active |
-| ED raids WhatsApp 'Multibagger' pump-and-dump (RM Drip, R&B Denims) (`ed-whatsapp-multibagger`) | - | new | 1 | active |
-| Insurance mis-selling complaints +14%; IRDAI crackdown may slip (via The Ken) (`insurance-misselling-ken`) | - | new | 1 | active |
+| Jio Platforms IPO (`jio-ipo`) | HOT | steady | 11 | active |
+| International ETFs trading far above NAV (NSE warning) (`intl-etf-premium`) | COLD | rising | 11 | active |
+| SC orders panel on pharma freebies to doctors (`pharma-freebies-sc`) | HOT | rising | 10 | active |
+| Inox Clean: revenue 43X, debt 45X, IPO on hold (`inox-clean-ipo`) | HOT | rising | 9 | active |
+| Musk calls Ambani 'Prime Minister Ambani' over Starlink (`musk-ambani-starlink`) | HOT | rising | 8 | active |
+| SC on hospital drug markups: Rs 2,700 drug sold at Rs 27,000 (`hospital-drug-markup-sc`) | COLD | rising | 8 | active |
+| Gauahar Khan's Versova duplex: 88% in 12 years (`gauahar-khan-flat`) | COLD | fading | 7 | active |
+| Sensex +1,109 partly on FM's LTCG remark (`ltcg-remark-rally`) | HOT | fading | 5 | active |
+| Gold ₹3,600 cheaper in four sessions on a stronger rupee (`gold-slide-rupee`) | RISING | rising | 4 | active |
+| Airtel Money lists in London at $7 bn (via The Ken) (`airtel-money-london`) | FLAT | fading | 4 | active |
+| Yes Bank -14.5% after SC voids AT-1 write-off (`yes-bank-at1-sc`) | HOT | rising | 3 | active |
+| Mutual funds halt new gold FoF SIPs and bulk gold ETF buys (`gold-fund-halt`) | HOT | rising | 3 | active |
+| Zetwerk IPO: 54% of Q1 revenue from metal sales (`zetwerk-ipo-metals`) | FLAT | rising | 3 | active |
+| IDBI Bank sold to Fairfax at ₹81 vs ₹90 market (`idbi-fairfax-sale`) | HOT | new | 2 | active |
+| ED raids WhatsApp 'Multibagger' pump-and-dump (RM Drip, R&B Denims) (`ed-whatsapp-multibagger`) | COLD | new | 2 | active |
+| Insurance mis-selling complaints +14%; IRDAI crackdown may slip (via The Ken) (`insurance-misselling-ken`) | COLD | new | 2 | active |
+| Green-card freeze 'bloodbath' reels, then Indian IT's best week since 2008 (`it-rally-green-card`) | - | new | 1 | active |
+| Expired food allegedly back on sale: FIR names Reliance, Blinkit directors (`expired-food-reliance-blinkit`) | - | new | 1 | active |
+| Groww's F&O share of revenue falls to 45%; turns to IPOs and wealth (via The Arc) (`groww-derivatives-arc`) | - | new | 1 | active |
 
 ## Also on the wire
-- Yes Bank (tracked, yesterday's pick) reports its Q2 results today, Sat 17 Oct, alongside HDFC Bank, ICICI Bank and Axis Bank (Upstox and NDTV Profit headlines). A CNBC-TV18 headline (16 Oct, page not opened) says the AT-1 ruling means about a ₹5,400 crore earnings hit. The bank's own number is the second turn on Akhilesh's draft.
-- Jio IPO (tracked, HOT): price band ₹1,065–1,119, up to ₹30,213 crore, all fresh shares; lot of 12 shares (₹13,428); anchor bids Mon 19 Oct, open Wed 21 to Fri 23 Oct; ₹2,500 crore reserved for Reliance shareholders as of 14 Oct; GMP ₹206 on 15 Oct (Outlook Money). An India Infoline headline says ₹225 on 16 Oct. The top Instagram reel is @growwithyuvraj.20 at 11.2M (37.8× median). This is the story for Mon–Wed.
-- Nestlé India is down about 9% in two sessions after Q2 despite profit growth, on an inflation warning (Business Standard and Upstox headlines; pages not opened). Known name (Maggi), but the meter reads COLD.
-- Cult.fit has SEBI's approval for an IPO with a ₹950 crore fresh issue (ET, TOI, Reuters headlines, 16 Oct; pages not opened). A known name to keep for when it files its prospectus.
-- Creator-format slot (a famous Indian's money decision, still owed this week): Ranbir Kapoor has leased out his ₹11 crore flat in Pune's Trump Towers for ₹4.63 lakh a month (Moneycontrol headline, 16 Oct; page not opened; meter COLD). If both numbers hold, that is about 5% a year on the price. Also: Suryakumar Yadav's Dubai property (Moneycontrol, 14 Oct).
-- Markets: Sensex +414 and Nifty above 23,100 on Fri 16 Oct, led by IT (TradingView and Deccan Herald headlines). The rupee closed at 94.92 to the dollar (The Hindu headline). South Korea's Kospi fell 7.6% in a day (bloomingbit, 15 Oct).
+- Musk vs Ambani (tracked, HOT, crowded): after Musk's 'Prime Minister Ambani' posts, Reliance said on 16 Oct that it 'never feared competition' and that Jio awaits the same clearances as Starlink (Reuters, The Hindu and Telegraph headlines; pages not opened). Starlink says its India infrastructure is ready. It is still the fastest money video in India (CNBC Awaaz's Short at 547K, about 2,700 views an hour; @iamumair7.lee 3.9M on Instagram), but five creators passed 1M on it, so the gap is gone unless it is tied to the Jio IPO.
+- Jio IPO (tracked, HOT): anchor book Mon 19 Oct; the issue is open Wed 21 to Fri 23 Oct, listing expected 28 Oct (IPO Ji, tentative). GMP ₹206 on 15 Oct (Outlook Money) and ₹217 (IPOGyani, 15 Oct). Price band ₹1,065–1,119 per Outlook Money; IPO Ji lists ₹1,066–1,118 as tentative. GMP is unofficial.
+- IDBI Bank (tracked, Saturday's pick): Q2 profit fell 39% to ₹2,205 crore (BusinessLine headline, 17 Oct; page not opened), a new turn on the Fairfax sale at ₹81.
+- Yes Bank (tracked): Q2 profit rose, but the AT-1 ruling was not booked while a further appeal is weighed (Reuters headline, 17 Oct; page not opened).
+- Big banks' Q2 (17 Oct, headlines): HDFC Bank profit +4.7% to ₹19,510 crore, deputy MD to step down; ICICI Bank +20% to ₹14,843 crore; Axis Bank +38% to ₹7,003 crore but below estimates.
+- RBI: headlines say the MPC raised its FY27 inflation forecast to 5.2% (Business Standard, 16 Oct) and PNB is 'in no hurry' to raise deposit rates despite the RBI rate hike (ANI). Confirm the policy decision on RBI's site before it is used; the borrower side is a rested topic.
+- Also seen: RBI removed Paytm Payments Bank from its list of scheduled banks (headline, 17 Oct; meter COLD); Cult.fit's IPO approval and Burma Burma's DRHP; Alok Industries down 32% in five days after a wider Q2 loss (Goodreturns). Creator-format slot (a famous Indian's money decision): no strong candidate today.
 
 ## Where we stand
 
-291 followers (+82 this week)  
+291 followers (+78 this week)  
 Last reel (Nana Patekar's Rs 1.5 crore car: the money went to farmers' families, then Naam Foundation): 3275 plays so far  
 What every reel is testing:  
 - Hook in frame one: swipe-aways in the first 3 s 52% now, target 45% (3 of 3 reels in)
