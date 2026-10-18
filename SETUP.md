@@ -55,3 +55,5 @@ The `claude` on PATH is an old npm install (1.0.17, `~/.npm-global`) that crashe
 
 ## History
 The repo came from a zip plus one takeover prompt (2026-09-25): unzip, private GitHub repo, pipeline self-test, Higgsfield registry sync, ElevenLabs key check, a ≤10-credit Sarika test shot, and this routine. What changed during that takeover, and why, is logged in registry/episodes.md.
+
+**Film and web clips (since 2026-10-09):** YouTube refuses downloads from cloud machines, so the laptop fetches them. A cloud session writes `registry/clip_requests/<slug>.json` (name, url, optional start/end) and pushes it to main. The laptop's hourly scheduled task "Doordhan: fetch new clip requests" runs `python3 pipeline/fetch_clips.py registry/clip_requests/<slug>.json --push`, which downloads, trims and commits the clips to the `clips` branch. The cloud session takes them with `git fetch origin clips && git archive origin/clips clips/<slug> | tar -x -C work/<slug>/`. Clips never go on main.

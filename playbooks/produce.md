@@ -1,5 +1,7 @@
 # Playbook: produce (after the script is approved)
 
+_The creator format (Rashmi at home, modern look) follows formats/creator.md and assets/edits/nana01_build.py instead of assemble.py's old-TV finish; what makes it read as real is in docs/realism.md._
+
 _This is the path that has worked so far. Change it whenever you find a better way, and note what you changed in registry/episodes.md._
 
 **`/produce-video` runs this playbook end to end** (.claude/skills/produce-video/SKILL.md, with prompts.md and gotchas.md). For a Sahayata Kendra episode the edit and graphics start from `assets/edits/sk03_build.py` and `assets/edits/sk03_gfx.py` (E7). Check a new machine with `python3 pipeline/produce_check.py`.

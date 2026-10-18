@@ -108,3 +108,83 @@ naturally."
   does not move." The printed word smears while the cover is in the air; play that part at x2.2.
 - **Hang-up, 2 s**: "Top-down overhead shot: the man's hand puts the cream telephone receiver down into its cradle
   firmly and lets go, then the hand withdraws out of the top of the frame." The receiver seats at 0.24 s.
+
+# Creator format (E10, nana01, 2026-10-09)
+Rules and why: formats/creator.md and docs/realism.md. Keyframes on seedream_v4_5, 9:16, 1 credit, refs: the identity
+image (`e9a78b8d…`) and, after the first, the episode's master keyframe (`20f3c2d0…`).
+
+**Master keyframe, the sofa selfie** (refs: identity image + the look-test still `01610a3c…`; 2 variants, the first won):
+> Vertical 9:16 frame grabbed from a real Instagram creator's front-camera video, recorded on a recent smartphone front
+> camera held at arm's length. The camera IS the phone: there is no phone, no hand holding a phone and no screen
+> anywhere in the frame. The same young Indian woman as in both reference images (shoulder-length wavy dark brown hair,
+> warm brown eyes, soft round face, small gold hoop earrings, thin gold chain), wearing the same chunky cream knit open
+> cardigan over a black scoop-neck top as in the second reference. She sits curled up on a beige linen sofa in her warm,
+> lived-in Mumbai apartment. Close-up from mid-chest up, her face in the upper-middle of the frame and filling about a
+> quarter of the frame height; her right shoulder is raised slightly toward the lens, as if her arm is stretched out
+> holding the camera just outside the right edge of the frame. Camera slightly above eye level, about 50 cm from her
+> face, 24 mm wide front-camera lens with mild wide-angle perspective, f/2.2, background softly out of focus but
+> readable. Light: low golden-hour sun through a window on camera left, a warm rim of light on her hair and the left
+> side of her face, soft bounce fill from the cream walls; a warm table lamp glows in the background. Depth behind her:
+> the window with sheer curtains, a potted monstera, a framed print, a small bookshelf, a ceramic mug on a side table.
+> She is about to start talking: mouth closed, a relaxed natural half-smile, eyes looking straight into the lens, head
+> level, one loose strand of hair across her cheek. Real skin texture with pores, faint under-eye shadows, a slight
+> asymmetry in her smile, natural makeup only, slight front-camera noise in the shadows, not retouched, not glossy, not
+> a studio portrait. No text, no logos.
+
+**Other setups** (refs: master + identity) start "Vertical 9:16 frame from the same Instagram creator's video, a few
+minutes later in the same warm apartment and the same golden-hour light. The same woman as in the first reference
+image, identical face, hair, gold hoops and chain, the same <outfit>", then the place, how the phone is held, the
+framing, the camera block, the light, the background, the expression, the imperfection line. What each said:
+- kitchen: "leaning forward on her forearms on the wooden counter, a ceramic mug of chai beside her elbow. The camera is
+  the phone, propped up on the counter in front of her at her chest height ... Medium close-up from the waist up, face
+  ... about a fifth of the frame height ... 26 mm phone lens, f/1.8 ... warm low sun through the window on camera left
+  raking across the counter, a warm pendant lamp ... open shelves with jars and steel dabbas".
+- extreme close-up: "leaned in very close to the camera ... face fills about 45 percent of the frame height ... 24 mm at
+  35 cm ... a knowing look, as if about to tell a secret, eyebrows very slightly raised". (Its talking shot failed
+  twice: eyes half-closed. Prefer the kitchen or sofa framing for short lines.)
+- window seat: "later the same evening ... cushioned window seat, knees drawn up ... the phone, propped on the bookshelf
+  opposite at her eye level ... The sun has just set: the window glows soft orange and dusky blue, a warm table lamp
+  lights her face from the right, a gentle rim of cool window light on her hair". Seedream drew a phone on the shelf.
+
+**Remove a phone Seedream drew** (ref: the frame): "Exactly the same image as the reference, identical in every detail
+(same woman, same face and expression, same <outfit>, same pose, same window ..., same lamp, same bookshelf, same
+lighting and framing), with one change only: the smartphone standing on top of the bookshelf beside the lamp is gone
+completely, so the top of the bookshelf there is plain empty wood with only the lamp on it. No phone or screen anywhere
+in the image. No other change."
+
+**A period recreation, a real person from behind** (gpt_image_2_5, 0.25): "Vertical 9:16 candid photograph, Mumbai,
+2015, night. Inside a small, simple one-bedroom apartment in Andheri. An older Indian man in his sixties with short grey
+hair, wearing a plain white cotton kurta, is seen FROM BEHIND and slightly to the left: only the back of his head, his
+shoulders and one arm, sitting on a plain wooden sofa with a worn cushion. His face is not visible at all. He is
+watching a 2015 32-inch black flat LCD television that stands on a low dark wooden cabinet against a pale green wall; a
+Tata-Sky-style black set-top box with a small red light sits under the TV, a tangle of cables behind it. The TV screen
+shows a plain deep blue picture with nothing on it. Light: the cold blue-white glow of the TV is the main light ... a
+dim warm bulb from the kitchen doorway on the right. Details of 2015: a steel glass of tea on the cabinet, an old Nokia
+feature phone and a folded Marathi newspaper beside it, a wall clock, a calendar with no readable text, a ceiling fan.
+Shot on a 2015 point-and-shoot at eye level from just behind the sofa, 28 mm, slight noise in the shadows, real
+lived-in room, not staged, not glossy. No readable text anywhere, no logos." The blue screen is keyed locally
+(nana01_build.py `tv_composite`).
+
+**A product without a brand** (gpt_image_2_5): an "unbranded luxury SUV" came out as a Range Rover. What worked: "Only an
+abstract detail of a new glossy black car fills the frame: the long curve of the polished bonnet and the edge of a sleek
+headlight, with crisp white showroom spotlights reflected as long streaks on the black paint. No badge, no grille
+emblem, no logo, no lettering, no recognisable car model, shape kept generic. Shallow depth of field, 85 mm, dark
+background with soft bokeh lights. Real photograph, natural reflections, not CGI."
+
+**Talking shots (Wan 2.7)**: `shot_spec.py build ... --character rashmi --look modern` (the base and the modern tail are
+built in). Acting notes that passed: "Easy and chatty at the start, a small knowing smile on 'Ab Tak Chhappan Two'; her
+eyebrows lift a little on 'dedh crore'; on the last words 'lekin phir' her voice drops and she leans very slightly
+toward the lens"; "Quiet, slower and thoughtful, speaking from the heart; a gentle sincere smile grows on the final
+question and she holds the look into the lens at the end". The kitchen retry that passed added "Eyes open and straight
+to the camera" and "Her head stays facing the lens".
+
+**Silent shots (Wan 2.7, no audio)**:
+- chai B-roll, 3 s: "The young woman from the start image, leaning on her kitchen counter in the warm golden-hour light,
+  picks up the ceramic chai mug beside her elbow with her hand, takes one small slow sip, then lowers the mug a little
+  and looks straight into the lens over its rim with a knowing, slightly mischievous smile and raised eyebrows, as if
+  saying 'wait, there is more'. ... No one speaks; her mouth stays closed except to sip. The camera holds still. Keep the
+  exact look of the start image: a modern phone video ..." Use src 1.1–2.6 s, inside a pause in the voice.
+- recreation, 3 s: "The older man seen from behind sits still on the wooden sofa watching the television; slowly,
+  heavily, his head lowers a little and his shoulders sink, as if he has just heard something terrible. His face is never
+  seen; he does not turn around. The blue television screen stays a flat, steady blue with nothing on it ... Locked-off
+  camera on a tripod." (He rose and leaned toward the TV instead; it played well.)

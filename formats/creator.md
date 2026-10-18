@@ -21,11 +21,12 @@ Human money stories: a person's choice about money, a values story, a "what woul
 ## 3. Characters
 - **Rashmi:** the creator. Late 20s, shoulder-length wavy dark brown hair, small gold hoops, a thin gold chain, natural makeup.
   - Identity reference: Akhilesh's Higgsfield image `e9a78b8d-1f8b-4c82-876b-e212b7f896f8` (work/nana/kf/identity_ref.png).
-  - E10 master keyframe: `20f3c2d0-b756-4d43-95b4-50851c10b26b`; it is also the face-check reference.
+  - E10 master keyframe: `20f3c2d0-b756-4d43-95b4-50851c10b26b`; it is also the face-check reference (assets/characters/rashmi_e10_master.jpg; identity image assets/characters/rashmi_identity.jpg).
   - Voice: ElevenLabs **Rashmiji** (`registry/assets.json` voices.rashmiji) on **eleven_v4**, directed per docs/voices/directing-tts.md.
 - **Real people** only through their real footage, or a recreation from behind or in silhouette, tagged "RECREATION · <year>".
 
 ## 3a. Shot grammar
+- Talking-shot specs: `shot_spec.py build ... --character rashmi --look modern` (her base prompt and the modern tail). Exact keyframe and shot prompts: .claude/skills/produce-video/prompts.md, "Creator format"; traps: gotchas.md.
 - Talking shots are selfie or propped-phone **close-ups** (face 24–28% of the frame height), straight to the lens.
 - **Head level:** preflight fails at 16° of roll. A tilted Seedream frame is levelled by rotating the whole frame locally with `pipeline/level_keyframe.py` (it reads as a casually held phone).
 - Lines of 2 s or less are voice-over, never a talking shot (E10: the 2.1 s "lekin madad…" failed lip sync twice and went over B-roll).

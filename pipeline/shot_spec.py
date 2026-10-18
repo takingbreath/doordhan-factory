@@ -53,6 +53,11 @@ BASES = {
                "by her eyes, a faint knowing smile at the end. No head tilting, no bobbing, no hair movement."),
     "gupta": ("The field news correspondent from the start image reports to camera in Hindi, head steady, "
               "a small natural nod on a stressed word."),
+    # creator format (formats/creator.md): use with --look modern
+    "rashmi": ("The young woman from the start image is an Instagram creator talking to her own phone camera in Hindi, "
+               "telling her followers a true story the way she would tell a friend: warm, natural and conversational. "
+               "Her eyebrows and eyes carry the expression; small natural head movements only, a slight nod on a "
+               "stressed word, no big tilts, no hair touching."),
 }
 # eyeline rule (2026-09-29): talking shots are straight to camera or eyes down, with exactly one blink and one small
 # eye shift, and no objects handled; a look at something is either a cut or the thing is in frame with an end image
@@ -60,7 +65,10 @@ EYES_TALK = ("Eyes straight to the camera, or down; exactly one blink and one sm
              "more. No objects are handled.")
 EYES_LOOK = "His eyes stay on {t}, which is in the frame; exactly one blink, nothing more. No objects are handled."
 TAIL = "Small, subtle, natural movements only. Locked-off camera. Keep the exact analog look of the start image; no new text, no subtitles."
-SHEETS = {"pandey": "assets/characters/pandey_sheet_v2.jpg"}   # identity reference per character (repo-relative, tracked)
+TAILS = {"analog": TAIL,   # the old-TV formats
+         "modern": ("Small, subtle, natural movements only. The camera holds still. Keep the exact look of the start image: "
+                    "a modern phone video with natural colour and real skin texture; no new text, no subtitles.")}  # creator
+SHEETS = {"pandey": "assets/characters/pandey_sheet_v2.jpg", "rashmi": "assets/characters/rashmi_e10_master.jpg"}   # identity reference per character (repo-relative, tracked)
 END_IMAGE_MODEL = {"sarika": "seedream_v4_5"}                 # GPT Image blocks her wardrobe; everyone else gpt_image_2_5
 ROOT = os.path.dirname(here)
 
@@ -206,7 +214,7 @@ def build(a):
         dur = int(out.split("clip duration ")[1].split("s")[0])
         base = a.prompt_base or BASES.get(a.character, BASES["pandey"])
         eyes = EYES_LOOK.format(t=a.look_at) if a.look_at else EYES_TALK
-        prompt = " ".join(x for x in [STILL_START, base, ARTICULATE, eyes, a.acting or "", TAIL] if x)
+        prompt = " ".join(x for x in [STILL_START, base, ARTICULATE, eyes, a.acting or "", TAILS[a.look]] if x)
         medias = [{"role": "start_image", "value": start["value"]}]
         if end_request:
             medias.append({"role": "end_image", "value": "<job id of the checked end image>"})
@@ -243,7 +251,7 @@ def build_silent(a, start, chain, end_request):
     """a cutaway, reaction or insert without dialogue: no track, business and reaches allowed, same continuity rules"""
     dur = max(2, math.ceil(a.silent))
     base = a.prompt_base or ""
-    prompt = " ".join(x for x in [base, a.acting or "", "No one speaks; the mouth stays closed.", TAIL] if x)
+    prompt = " ".join(x for x in [base, a.acting or "", "No one speaks; the mouth stays closed.", TAILS[a.look]] if x)
     medias = [{"role": "start_image", "value": start["value"]}]
     if end_request:
         medias.append({"role": "end_image", "value": "<job id of the checked end image>"})
@@ -358,6 +366,8 @@ def main():
     b.add_argument("--look-at"); b.add_argument("--reach-for"); b.add_argument("--end-pose")
     b.add_argument("--target-side", choices=["left", "right", "down"])
     b.add_argument("--target-in-frame", action="store_true")
+    b.add_argument("--look", choices=sorted(TAILS), default="analog",
+                   help="analog (old-TV formats, default) or modern (the creator format: no 'analog look' in the prompt)")
     e = sub.add_parser("endcheck"); e.add_argument("spec"); e.add_argument("image")
     j = sub.add_parser("judge"); j.add_argument("spec"); j.add_argument("clip")
     a = ap.parse_args()

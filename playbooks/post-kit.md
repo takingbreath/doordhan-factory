@@ -6,6 +6,11 @@ Deliver as one message Akhilesh can copy from. The first two reels went out with
 - Caption: line 1 = the hook with the main keywords (e.g. "NSE IPO"). Line 2–3 = the story in Roman Hinglish. No "share/send/comment/tag" asks: Meta demotes engagement bait, so make the reel itself worth sending. Then "Not investment advice. Characters are AI-generated." Then exactly 5 hashtags: topic tag, company or theme tag, #StockMarketIndia or #PersonalFinance, one niche tag, #Doordhan.
 - Settings: AI label ON (and the profile's "AI-generated profile" label must be on, or the account loses reach to non-followers; Instagram, 31 Aug 2026). While the account is small, post as a **Trial Reel** to test the hook on non-followers first (docs/platform-playbook.md). Poll (one question that echoes the hook, 2–3 short options) or Prompt. Link a reel: the previous episode. Rename audio: "Doordhan Samachar – <topic>" (or the show name). Location: the story's place if meaningful. Tag people: none. Audience: Everyone. Facebook cross-post: OFF (it points at his personal profile). Threads optional. Story: ON.
 - Reminder once per new format: the profile should carry Instagram's AI-generated profile label.
+- **Real footage, film clips and recreations** (E10): a credits line in the caption ("Footage: <owner> (via <channel>).
+  Film clip: <film> (<year>). The <scene> is a recreation."). The on-screen credits sit on each archive shot.
+- **Suicide, self-harm or distress in the story** (E10): add "Agar aap ya koi apna mushkil mein hai, Tele-MANAS 14416
+  par baat karein (free, 24x7)." No depiction of the act on screen, only the aftermath.
+- **Creator format:** rename audio "Doordhan – <topic>"; YouTube category People & Blogs.
 
 ## YouTube Shorts (same final video)
 - Title (≤60 characters): the hook in Roman Hinglish with the main keyword, e.g. "NSE IPO: galat faisla tha?" Add #Shorts at the end of the title or description.

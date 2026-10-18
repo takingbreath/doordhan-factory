@@ -48,3 +48,27 @@
   audio is now padded to its picture). If late lines drift but each part measures fine alone, check this first.
 - **A lower-third over Sarika covers her neckline** (DTB3, 2026-10-06: the −27% card, the 1-2-3 strip and the sign-off
   strips; Akhilesh: "not allowed"). On her shots, every graphic goes in the top-left box beside the bug.
+
+## Creator format (E10, nana01)
+- **A phone in frame breaks the premise** (the phone is the camera). Seedream drew one on a shelf showing her selfie
+  despite the prompt. Look for it in every frame; remove it with the one-change edit in prompts.md.
+- **Head roll 17–23°** on Seedream selfies fails preflight (roll over 16°). `pipeline/level_keyframe.py` rotates the
+  frame level for free.
+- **shot_spec's default tail said "analog look"**: use `--look modern` for this format.
+- **The extreme close-up (face ~45%) failed lip sync twice** (eyes half-closed, the mouth open before the voice). Keep talking
+  frames at 24–28% face height.
+- **Image models draw real products.** An unbranded SUV became a Range Rover; use an abstract detail.
+- **Her voice played while she sipped** (Akhilesh caught it). Silent B-roll of her goes into a real pause inserted into
+  the voice (nana01_build.py `GAP_AT`/`GAP`), and no caption sits over it.
+- **Overlays on spans, not shots:** a credit set from 10.6–22.9 s sat over her talking shot. Attach credits to their archive shots.
+- **The concat drifted 0.35 s** with `-t` per shot. Render each shot to an exact frame count from cumulative times.
+- **One-pass loudnorm undershot** (−16.3 for −14). Measure, then one gain and a limiter.
+- **A swallowed word reads as a "tail"** in the mix check ("मिले" 7 dB under her level after a gap). Lift the word, don't
+  trim it; it also sounds clearer.
+- **Scribe spells the same audio differently between runs** ("पंद्रह-पंद्रह हज़ार" / "15-15 हजार"; "car" / "कार").
+  verify_line composes both now. If another spelling fails, fix the normaliser rather than re-rolling the transcriber.
+- **Grain lowers the face check** (about 0.05). Use grain 1 on her shots, and the episode's master keyframe as the face reference.
+- **Every rebuild needs a new transcript** (the binding is by file hash, about 230 ElevenLabs credits each). Make all
+  fixes, look at full-size frames, then transcribe once.
+- **YouTube blocks cloud machines** (yt-dlp, Piped, Invidious, cobalt). Clips come from the laptop: write
+  registry/clip_requests/<slug>.json, and the laptop's hourly task runs `pipeline/fetch_clips.py --push` to the `clips` branch.
