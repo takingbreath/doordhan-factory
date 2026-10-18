@@ -14,8 +14,13 @@ if [ "$(uname)" = "Darwin" ]; then
   VIRTUAL_ENV="$V" uv pip install -q "numpy<2" pillow "scipy==1.16.2" "mediapipe==0.10.21" onnxruntime pytesseract \
     "opencv-python-headless==4.11.0.86" python_speech_features torch fonttools   # MediaPipe 0.10.21 needs numpy 1.x
 else
-  sudo apt-get install -y -q libegl1 libgles2 libgl1 tesseract-ocr tesseract-ocr-hin >/dev/null
-  pip3 install -q mediapipe onnxruntime pytesseract opencv-python-headless python_speech_features scipy
+  # a fresh cloud container has empty package lists: install fails with "Unable to locate package" (nana01, 2026-10-09)
+  (sudo apt-get update -q || apt-get update -q) >/dev/null 2>&1
+  (sudo apt-get install -y -q libegl1 libgles2 libgl1 tesseract-ocr tesseract-ocr-hin || \
+   apt-get install -y -q libegl1 libgles2 libgl1 tesseract-ocr tesseract-ocr-hin) >/dev/null
+  pip3 install -q mediapipe onnxruntime pytesseract opencv-python-headless scipy numpy pillow praat-parselmouth
+  # python_speech_features fails to build in an isolated env on Python 3.11 there; without isolation it installs
+  pip3 install -q python_speech_features || pip3 install -q --no-build-isolation python_speech_features
   pip3 install -q torch --index-url https://download.pytorch.org/whl/cpu
 fi
 [ -s "$M/face_landmarker.task" ] || curl -sSfL -o "$M/face_landmarker.task" \

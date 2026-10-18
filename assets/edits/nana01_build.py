@@ -360,7 +360,7 @@ def write_manifest(total, final):
             ln["cut_in"] = round(cut + V0, 3)
         lines.append(ln)
     M = {"slug": "nana01", "format": "creator", "final": os.path.relpath(final, ROOT), "script": "registry/scripts/nana01.json",
-         "characters": {"rashmi": "work/nana/kf/k1a.png"}, "prefinish": "work/nana/edit_raw.mp4",
+         "characters": {"rashmi": "assets/characters/rashmi_e10_master.jpg"}, "prefinish": "work/nana/edit_raw.mp4",
          "dialogue_stem": "work/nana/build/dialogue.wav", "length": {"min": 20, "max": 45, "expected": total},
          "loudness": {"target": -14}, "fps": FPS, "repairs_file": "work/nana/qc_repairs.json",
          "rebuild": "python3 work/nana/build.py", "lines": lines}
