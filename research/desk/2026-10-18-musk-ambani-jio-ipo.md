@@ -27,16 +27,18 @@ In its own IPO prospectus, filed with SEBI on Thu 15 Oct, Jio Platforms lists sa
 From Business Standard, 15 Oct, quoting the RHP:
 - Satellite broadband is flagged as "a potential disruptor" and "one of the key risks to its business".
 - Jio's argument: satellite "is not likely to be able to compete with FWA on pricing... For example, Starlink's entry level fixed broadband plans in the USA are priced at ~₹4800 (~US$55) per month, and in most African countries are priced at Rs 2500–Rs 4500 (US$28–50) per month." Satellite may matter only "for specialised use cases in remote or hard-to-reach locations".
-- The spectrum risk: satellite spectrum is given out administratively, while terrestrial spectrum is auctioned. "This administrative allocation framework may lower entry economics for satellite-based broadband service providers, including operators of low earth orbit (LEO) and non-geostationary satellite orbit (NGSO) constellations, when compared to existing digital connectivity players, which are required to acquire spectrum through auctions."
+- The spectrum risk: satellite spectrum is given out administratively, while terrestrial spectrum is auctioned. "This administrative allocation framework may lower entry economics for satellite-based broadband service providers, including operators of low earth orbit and non-geostationary satellite orbit constellations, when compared to existing digital connectivity players, which are required to acquire spectrum through auctions." (RHP p. 35, verbatim; corrected 18 Oct: Business Standard's quote adds "(LEO)" and "(NGSO)", which the RHP does not have.)
 - On its own products: "there can be no assurance that the competitive advantages our JioFiber, JioAirFiber, and UBR-based fixed wireless access services currently enjoy vis-à-vis this technology will continue... If satellite solutions scale faster than expected, become more cost effective, or are adopted by competitors... our current offerings may become less competitive and require additional investments and increased costs."
 - On its own satellite plan (1,600 LEO satellites, separate from the Jio–SES joint venture): it "cannot assure you whether we would be able to deploy our satellite-based connectivity solutions in a timely manner, or at all".
 
 Exposure (Multibagg, 16 Oct, from the RHP): Reliance Jio Infocomm, the telecom arm, made 87.74% of Jio Platforms' FY26 revenue, 94.88% of EBITDA and 93.76% of profit.
 
 How much satellite can actually touch (IndMoney, from the DRHP; analysis, not the company's own words):
-- 77.08% of operating revenue comes from prepaid mobile recharges, which satellite can't compete for. A satellite dish costs $300–500 of hardware and needs a clear view of the sky.
-- Jio's ARPU is ₹214 a month for 42.3 GB, about ₹7.74 a GB.
-- The overlap is home broadband: Jio has 42.6% of fixed broadband (2.71 crore homes) and 77.49% of 5G fixed wireless (1.29 crore AirFiber homes).
+- 77.08% of operating revenue comes from "pre-paid connectivity services" (FY26; 76.37% in Q1 FY27, RHP p. 33). Corrected 18 Oct: the RHP does not say "mobile", and the label may also cover prepaid JioFiber and AirFiber plans. A satellite dish costs $300–500 of hardware and needs a clear view of the sky.
+- Jio's ARPU is ₹214 a month for 42.3 GB. Corrected 18 Oct: IndMoney's "about ₹7.74 a GB" doesn't follow from its own figures (₹214 ÷ 42.3 GB is about ₹5.1); TRAI's industry figure is ₹7.51 a GB (Jan–Mar 2026).
+- The overlap is home broadband: Jio has 42.6% of fixed broadband (2.71 crore homes) and 77.49% of 5G fixed wireless (1.29 crore AirFiber homes). Newer, from the RHP (30 Jun 2026): 28.6 million fixed-broadband homes (43.32% share), 14.6 million on JioFiber and 14.0 million on AirFiber (78.62% of fixed wireless).
+
+The full research on how Starlink would affect Jio and Airtel, with sources, is in reports/Starlink impact on Jio and Airtel.md (18 Oct).
 - The other side: SpaceX's connectivity revenue was $7.55 billion in H1 2026 (+49%), with Starlink subscribers doubling from 6 million to 12 million. SpaceX itself listed in June 2026 (Benzinga).
 
 ## 3. The Jio IPO: terms (RHP dated 14 Oct)
