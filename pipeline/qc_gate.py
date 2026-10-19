@@ -38,7 +38,8 @@ MANIFEST (written by the episode's build; assets/edits/sk03_build.py is the exam
    "repairs_file": "work/<slug>/qc_repairs.json", "rebuild": "<shell command that rebuilds the final>",
    "edit_json": "<optional: assemble.py spec; lines with a 'part' index get audio_shift_ms there>",
    "lines": [{"id", "speaker", "start", "end" (voice as placed, reel s), "source" (the line's wav),
-              "cut_in" (reel s the talking shot starts), "segments": [[t0, t1], ...], "part": optional}]}"""
+              "cut_in" (reel s the talking shot starts), "segments": [[t0, t1], ...], "part": optional,
+              "clip" + "clip_spans" (or "clips", one per segment): judge the face on the raw talking clip(s)}]}"""
 import argparse, datetime, hashlib, json, os, shutil, subprocess, sys, tempfile, wave
 import numpy as np
 
@@ -233,11 +234,13 @@ def check_face(M, final):
         R = refs[ln["speaker"]]
         # identity is judged on the talking clip itself over the span the edit uses: in the final, captions flying
         # over the face, crash zooms and whip pans drop the score of a face that is plainly him (E5 v4: 0.33-0.47)
+        # a line cut from several clips (jio01's split-screen opening) lists one clip per segment in "clips"
         sims, src = [], "final"
-        if ln.get("clip") and ln.get("clip_spans") and os.path.exists(P(ln["clip"])):
-            src = f"clip {os.path.basename(ln['clip'])}"
-            for (c0, c1), (t0, t1) in zip(ln["clip_spans"], ln["segments"]):
-                sims += [(t0 + (t - c0), score(R, e)) for t, e in target_embeddings(P(ln["clip"]), FACE_EVERY, c0, c1)]
+        clips = ln.get("clips") or ([ln["clip"]] * len(ln.get("clip_spans", [])) if ln.get("clip") else [])
+        if clips and ln.get("clip_spans") and all(os.path.exists(P(c)) for c in clips):
+            src = "clip " + ", ".join(dict.fromkeys(os.path.basename(c) for c in clips))
+            for c, (c0, c1), (t0, t1) in zip(clips, ln["clip_spans"], ln["segments"]):
+                sims += [(t0 + (t - c0), score(R, e)) for t, e in target_embeddings(P(c), FACE_EVERY, c0, c1)]
         else:
             for t0, t1 in ln["segments"]:
                 sims += [(t, score(R, e)) for t, e in target_embeddings(P(final), FACE_EVERY, t0, t1)]
