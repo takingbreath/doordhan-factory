@@ -1,0 +1,58 @@
+{
+ "slug": "jio01",
+ "approved_by": "Akhilesh (2026-10-19)",
+ "frozen_at": "2026-10-19 15:32 IST",
+ "note": "Akhilesh's own script (Roman Hinglish, scripts/drafts/2026-10-19-jio-combined-story-v8-spoken-score.md with 'sirf 5.6% thi'): 'dont change it. voice it'; take C approved ('C is good'). Devanagari for TTS; words unchanged. Voice: Rashmiji eleven_v4 take C (ElevenLabs gen CeMztFVjp6FDgpdeEryX, flow x8OI7uoRkpDOfUzPgErN), 58.7 s; blind Scribe transcript matched. Length ~59 s, above the 20-30 s default (Akhilesh allowed this story to run long). Format: creator (Rashmi) with Vox-style collage graphics.",
+ "lines": [
+  {
+   "id": "L1",
+   "speaker": "creator",
+   "text": "[casual, warm, telling a story to her followers] Jio के IPO से बस कुछ दिन पहले, Elon Musk और Ambani Twitter पर लड़ रहे हैं, लेकिन Starlink, Jio के business को — कितना hurt कर सकता है?",
+   "spoken": "Jio के IPO से बस कुछ दिन पहले, Elon Musk और Ambani Twitter पर लड़ रहे हैं, लेकिन Starlink, Jio के business को — कितना hurt कर सकता है?"
+  },
+  {
+   "id": "L2",
+   "speaker": "creator",
+   "text": "देखो, फ़िलहाल India में Starlink तुम्हारा Jio SIM replace नहीं कर रहा, फिर भी Jio ने IPO filing में satellite competition को — risk बोला है।",
+   "spoken": "देखो, फ़िलहाल India में Starlink तुम्हारा Jio SIM replace नहीं कर रहा, फिर भी Jio ने IPO filing में satellite competition को — risk बोला है।"
+  },
+  {
+   "id": "L3",
+   "speaker": "creator",
+   "text": "[curious] तो risk कहाँ है? ...",
+   "spoken": "तो risk कहाँ है? ..."
+  },
+  {
+   "id": "L4",
+   "speaker": "creator",
+   "text": "Jio की अगली growth opportunity है — home broadband, last financial year, यहाँ customers पचपन percent बढ़े, mobile broadband में growth — सिर्फ़ पाँच point छह percent थी।",
+   "spoken": "Jio की अगली growth opportunity है — home broadband, last financial year, यहाँ customers पचपन percent बढ़े, mobile broadband में growth — सिर्फ़ पाँच point छह percent थी।"
+  },
+  {
+   "id": "L5",
+   "speaker": "creator",
+   "text": "अब AirFiber उन घरों तक पहुँचता है जहाँ fibre connection देना difficult है, और उन्हीं घरों में, Starlink भी एक option बन सकता है।",
+   "spoken": "अब AirFiber उन घरों तक पहुँचता है जहाँ fibre connection देना difficult है, और उन्हीं घरों में, Starlink भी एक option बन सकता है।"
+  },
+  {
+   "id": "L6",
+   "speaker": "creator",
+   "text": "यानी competition उन customers के लिए हो सकता है, जो Jio को — अभी acquire करने हैं।",
+   "spoken": "यानी competition उन customers के लिए हो सकता है, जो Jio को — अभी acquire करने हैं।"
+  },
+  {
+   "id": "L7",
+   "speaker": "creator",
+   "text": "उसके लिए Starlink को cheaper होना होगा, और capacity बढ़ानी होगी, अगर वो कर पाया, तो Jio को ये customers जीतने के लिए better deals देनी पड़ सकती हैं, या ज़्यादा spend करना पड़ सकता है।",
+   "spoken": "उसके लिए Starlink को cheaper होना होगा, और capacity बढ़ानी होगी, अगर वो कर पाया, तो Jio को ये customers जीतने के लिए better deals देनी पड़ सकती हैं, या ज़्यादा spend करना पड़ सकता है।"
+  },
+  {
+   "id": "L8",
+   "speaker": "creator",
+   "text": "[thoughtful] So Musk doesn't need to take away Jio's existing mobile customers... वो Jio की future growth को — less profitable बना सकते हैं।",
+   "spoken": "So Musk doesn't need to take away Jio's existing mobile customers... वो Jio की future growth को — less profitable बना सकते हैं।"
+  }
+ ],
+ "sha256": "02689d7c126d06f08945051da600cecf9a8ca25848e25e2490a817b97f65e796",
+ "history": []
+}

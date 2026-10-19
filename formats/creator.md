@@ -23,7 +23,7 @@ Human money stories: a person's choice about money, a values story, a "what woul
   - Identity reference: Akhilesh's Higgsfield image `e9a78b8d-1f8b-4c82-876b-e212b7f896f8` (work/nana/kf/identity_ref.png).
   - E10 master keyframe: `20f3c2d0-b756-4d43-95b4-50851c10b26b`; it is also the face-check reference (assets/characters/rashmi_e10_master.jpg; identity image assets/characters/rashmi_identity.jpg).
   - Voice: ElevenLabs **Rashmiji** (`registry/assets.json` voices.rashmiji) on **eleven_v4**, directed per docs/voices/directing-tts.md.
-- **Real people** only through their real footage, or a recreation from behind or in silhouette, tagged "RECREATION · <year>".
+- **Real people** (hard rule 4, relaxed 2026-10-19): their real photos and footage, and real pictures animated with AI when a shot needs motion; never invented speech. A recreation still carries the "RECREATION · <year>" tag.
 
 ## 3a. Shot grammar
 - Talking-shot specs: `shot_spec.py build ... --character rashmi --look modern` (her base prompt and the modern tail). Exact keyframe and shot prompts: .claude/skills/produce-video/prompts.md, "Creator format"; traps: gotchas.md.
