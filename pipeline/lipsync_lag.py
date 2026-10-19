@@ -60,7 +60,7 @@ def mouth_openness(fr):
     import mediapipe as mp
     from mediapipe.tasks.python import vision, BaseOptions
     opts = vision.FaceLandmarkerOptions(base_options=BaseOptions(model_asset_path=MODEL),
-                                        running_mode=vision.RunningMode.VIDEO, num_faces=1,
+                                        running_mode=vision.RunningMode.VIDEO, num_faces=3,
                                         min_face_detection_confidence=0.3, min_tracking_confidence=0.3)
     out, boxes, mw = np.full(len(fr), np.nan), [None] * len(fr), np.full(len(fr), np.nan)
     with vision.FaceLandmarker.create_from_options(opts) as lm:
@@ -69,7 +69,10 @@ def mouth_openness(fr):
                                       int(i * 1000 / FPS))
             if not res.face_landmarks:
                 continue
-            p = np.array([[q.x * f.shape[1], q.y * f.shape[0]] for q in res.face_landmarks[0]])
+            # the speaker is the largest face: a photo of someone else in frame (jio01's split-screen collage of
+            # Musk and Ambani above Rashmi) must not take the track
+            meshes = [np.array([[q.x * f.shape[1], q.y * f.shape[0]] for q in lmk]) for lmk in res.face_landmarks]
+            p = max(meshes, key=lambda m: np.prod(m.max(0) - m.min(0)))
             width = np.linalg.norm(p[CORNERS[0]] - p[CORNERS[1]])
             if width < 5:
                 continue
