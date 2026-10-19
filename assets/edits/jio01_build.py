@@ -1,5 +1,6 @@
 # Template from jio01 (E11, 2026-10-19): copy to work/<slug>/build.py. Creator edit with a split-screen opening
 # (collage on top, Rashmi below), local collage scenes, AI collage clips with logo labels, and a multi-clip QC manifest.
+# Shots render in parallel and are cached (pipeline/buildkit.py); DRAFT=1 gives a fast look-only copy between fixes.
 #!/usr/bin/env python3
 """jio01 edit: the creator format (Rashmi) with Vox-style collage graphics. Shots -> base video -> captions/labels -> mix.
 
@@ -150,7 +151,8 @@ def seam_png():
     from PIL import ImageFilter
     sh = sh.filter(ImageFilter.GaussianBlur(4)); im.alpha_composite(sh)
     d.polygon(top + bot, fill=(248, 246, 238, 255))
-    im.save(f"{TMP}/seam.png")
+    if not os.path.exists(f"{TMP}/seam.png"):          # written once: a new mtime would re-render the split shots
+        im.save(f"{TMP}/seam.png")
 
 
 # ---- text overlays
@@ -331,27 +333,25 @@ def main():
     if os.environ.get("PLAN_ONLY"):
         return
     seam_png()
-    parts = [render(i, s) for i, s in enumerate(SHOTS)]
+    sys.path.insert(0, f"{ROOT}/pipeline"); import buildkit
+    parts = buildkit.render_all(SHOTS, render, lambda i, s: f"{TMP}/s{i:02d}_{s[3]['name']}.mp4", [handheld, grade],
+                                {i: [f"{G}/hook.mp4", f"{TMP}/seam.png"] for i, s in enumerate(SHOTS) if s[2] == "split"})
     with open(f"{TMP}/concat.txt", "w") as f:
         f.writelines(f"file '{p}'\n" for p in parts)
     run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", f"{TMP}/concat.txt", "-c", "copy", f"{TMP}/base.mp4"])
     burn(f"{TMP}/base.mp4", f"{TMP}/burned.mp4", overlays())
     mix(total, f"{TMP}/mix.wav")
     os.makedirs(f"{ROOT}/outputs/jio01", exist_ok=True)
-    out = f"{ROOT}/outputs/jio01/jio01_starlink_jio.mp4"
+    out = os.environ.get("OUT") or f"{ROOT}/outputs/jio01/jio01_starlink_jio.mp4"
     run(["ffmpeg", "-v", "error", "-y", "-i", f"{TMP}/base.mp4", "-i", f"{TMP}/mix.wav", "-map", "0:v", "-map", "1:a",
          "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-shortest", f"{HERE}/edit_raw.mp4"])          # pre-finish, for lip sync
     run(["ffmpeg", "-v", "error", "-y", "-i", f"{TMP}/voice_fixed.wav", "-ar", "48000", "-ac", "1", f"{TMP}/dialogue_src.wav"])
     run(["ffmpeg", "-v", "error", "-y", "-i", f"{TMP}/voice_fixed.wav", "-af", f"adelay={int(V0 * 1000)},apad,atrim=0:{total}",
          "-ar", "48000", "-ac", "1", f"{TMP}/dialogue.wav"])
-    run(["ffmpeg", "-v", "error", "-y", "-i", f"{TMP}/burned.mp4", "-i", f"{TMP}/mix.wav", "-map", "0:v", "-map", "1:a",
-         "-vf", "scale=1080:1920:flags=lanczos", "-r", str(FPS), "-c:v", "libx264", "-crf", "17", "-preset", "slow",
-         "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "192k", "-shortest", "-movflags", "+faststart", out])
     phone = out.replace(".mp4", "_phone.mp4")
-    run(["ffmpeg", "-v", "error", "-y", "-i", out, "-c:v", "libx264", "-crf", "26", "-preset", "slow", "-pix_fmt", "yuv420p",
-         "-c:a", "aac", "-b:a", "128k", "-movflags", "+faststart", phone])
+    written = buildkit.encode_finals(f"{TMP}/burned.mp4", f"{TMP}/mix.wav", out, phone, FPS)   # DRAFT=1: a fast look-only copy
     write_manifest(total, out)
-    print("wrote", out, "and", phone)
+    print("wrote", " and ".join(written))
 
 
 if __name__ == "__main__":

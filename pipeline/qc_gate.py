@@ -171,6 +171,18 @@ def check_lipsync(M, final, work):
     if src is None:
         src = final
         print("[qc_gate] no pre-finish edit found: lip-sync measured on the finished reel", flush=True)
+    # every segment is measured by its own lipsync_lag process, side by side (the readings don't depend on each other)
+    jobs = {(ln["id"], k): (t0, t1) for ln in M["lines"] for k, (t0, t1) in enumerate(ln.get("segments", []))
+            if t1 - t0 >= MIN_SEG}
+
+    def lag(key):
+        (lid, k), (t0, t1) = key, jobs[key]
+        jf = os.path.join(work, f"lag_{lid}_{k}.json")
+        return key, sh([sys.executable, os.path.join(here, "lipsync_lag.py"), P(src), "--start", f"{t0:.3f}",
+                        "--end", f"{t1:.3f}", "--json", jf, "--label", f"{lid}#{k}"])
+    from concurrent.futures import ThreadPoolExecutor
+    with ThreadPoolExecutor(max_workers=max(1, min(4, (os.cpu_count() or 2) // 2))) as ex:
+        done = dict(ex.map(lag, jobs))
     for ln in M["lines"]:
         segs = [s for s in ln.get("segments", [])]
         if not segs:
@@ -180,8 +192,7 @@ def check_lipsync(M, final, work):
             if t1 - t0 < MIN_SEG:
                 unsure.append((t0, t1, "shorter than one 2 s window")); continue
             jf = os.path.join(work, f"lag_{ln['id']}_{k}.json")
-            r = sh([sys.executable, os.path.join(here, "lipsync_lag.py"), P(src), "--start", f"{t0:.3f}",
-                    "--end", f"{t1:.3f}", "--json", jf, "--label", f"{ln['id']}#{k}"])
+            r = done[(ln["id"], k)]
             if r.returncode or not os.path.exists(jf):
                 fails.append((t0, t1, {"verdict": "ERROR", "repair": r.stderr[-200:]})); continue
             L = json.load(open(jf))

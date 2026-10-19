@@ -13,16 +13,27 @@ if [ "$(uname)" = "Darwin" ]; then
   [ -x "$V/bin/python" ] || uv venv -q -p python3.11 "$V"
   VIRTUAL_ENV="$V" uv pip install -q "numpy<2" pillow "scipy==1.16.2" "mediapipe==0.10.21" onnxruntime pytesseract \
     "opencv-python-headless==4.11.0.86" python_speech_features torch fonttools   # MediaPipe 0.10.21 needs numpy 1.x
+  # collage reels (jio01): pdftoppm renders filing pages; rembg cuts photos out, in its own environment so its
+  # dependencies can't move the QC environment's pinned numpy
+  brew list poppler >/dev/null 2>&1 || brew install -q poppler
+  C="$HOME/.venvs/doordhan-cut"
+  [ -x "$C/bin/python" ] || uv venv -q -p python3.11 "$C"
+  VIRTUAL_ENV="$C" uv pip install -q "rembg[cpu]"
+  CUTPY="$C/bin/python"
 else
   # a fresh cloud container has empty package lists: install fails with "Unable to locate package" (nana01, 2026-10-09)
   (sudo apt-get update -q || apt-get update -q) >/dev/null 2>&1
-  (sudo apt-get install -y -q libegl1 libgles2 libgl1 tesseract-ocr tesseract-ocr-hin || \
-   apt-get install -y -q libegl1 libgles2 libgl1 tesseract-ocr tesseract-ocr-hin) >/dev/null
+  (sudo apt-get install -y -q libegl1 libgles2 libgl1 tesseract-ocr tesseract-ocr-hin poppler-utils || \
+   apt-get install -y -q libegl1 libgles2 libgl1 tesseract-ocr tesseract-ocr-hin poppler-utils) >/dev/null
   pip3 install -q mediapipe onnxruntime pytesseract opencv-python-headless scipy numpy pillow praat-parselmouth
   # python_speech_features fails to build in an isolated env on Python 3.11 there; without isolation it installs
   pip3 install -q python_speech_features || pip3 install -q --no-build-isolation python_speech_features
   pip3 install -q torch --index-url https://download.pytorch.org/whl/cpu
+  pip3 install -q "rembg[cpu]"
+  CUTPY=python3
 fi
+# the cut-out model for pipeline/cutout.py (about 180 MB, once)
+"$CUTPY" -c "from rembg import new_session; new_session('isnet-general-use')" >/dev/null 2>&1   # quick once cached
 [ -s "$M/face_landmarker.task" ] || curl -sSfL -o "$M/face_landmarker.task" \
   https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/latest/face_landmarker.task
 # AuraFace-v1 (Apache-2.0). Not InsightFace buffalo_*: those weights are licensed for non-commercial research only.

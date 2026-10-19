@@ -25,6 +25,27 @@ Supporting files in this folder: `prompts.md` (the prompts that worked on E7, fo
 - **Akhilesh should never be the one to find** gibberish audio, still lips, a cut word, garbled text, a jarring cut or
   a wrong fact. Look at frames yourself; the checks are proxies.
 
+## 0. Where it runs, and what runs in parallel
+**On Akhilesh's laptop** (the Doordhan studio session; Akhilesh, 2026-10-19). The cloud morning session freezes the
+approved script and hands over `/produce-video <slug>`; `git pull` first. On a Mac, run the QC tools with
+`~/.venvs/doordhan-qc/bin/python` and cut-outs with `~/.venvs/doordhan-cut/bin/python`. A cloud session produces only
+when Akhilesh asks ("produce it here"); it installs its tools first (about 13 minutes on jio01).
+
+Parallel work that leaves the result unchanged (jio01 measured it: the same files, the same gate readings):
+- **While Higgsfield renders** (talking shots in batches of 3, its limit; collage clips and stills alongside): build
+  the graphics, cut out photos (`pipeline/cutout.py`), write the edit, and send a sub-agent to source real photos.
+- **Judge each batch as it lands**, the shots of a batch side by side (each `shot_spec.py judge` writes only its own spec).
+- **The edit** (pipeline/buildkit.py, used by assets/edits/jio01_build.py and nana01_build.py): shots render in
+  parallel and a shot whose inputs haven't changed is reused, so a one-shot fix rebuilds in about a minute. Between
+  fixes use `DRAFT=1` (a fast `<stem>_draft.mp4` to look at; never gated). The build that goes to the gate is a
+  normal one: the final and the phone copy encode at once, preset slow, as before.
+- **The QC gate** measures every talking segment's lip sync at the same time.
+
+What stays in order, because each step feeds the next: the voice cut, then the segments and tracks (they drive the
+lips); the keyframe checks, then the talking shots (identity); each shot judged before the edit uses it (a bad take
+must not reach the cut); a chained shot after the clip it chains from; the final build, then the gate, then you look,
+then it is sent.
+
 ## 1. Setup (about 3 minutes, no credits)
 1. `python3 pipeline/produce_check.py` must say READY. It lists the fix for anything missing (fetch_models.sh, the
    ElevenLabs key, the sfx kit). Then `python3 pipeline/self_test.py` must end ALL PASS (on a Mac, run the QC tools
@@ -173,7 +194,7 @@ runs under the footer or off the frame, and no text is smaller than about 32 px 
   strategist routine reads GitHub every night, and an unpushed episode gets logged as an unknown reel.
 
 ## Other formats
-The creator format (Rashmi at home, modern look): formats/creator.md section 1 first, then `assets/edits/nana01_build.py` (it writes its own QC manifest; set `fps` 30) and `pipeline/level_keyframe.py` for tilted heads.
+The creator format (Rashmi at home, modern look): formats/creator.md section 1 first, then `assets/edits/nana01_build.py` (real footage, a keyed TV recreation) or `assets/edits/jio01_build.py` with `assets/edits/jio01_vox.py` (a split-screen opening, Vox-style collage from real documents and photos, AI collage clips with logo labels); both write their own QC manifest at 30 fps. `pipeline/level_keyframe.py` for tilted heads, `pipeline/cutout.py` for photo cut-outs.
 The templates are for Sahayata Kendra. Samachar (Sarika, Gupta) and Teleshop follow their format files: Sarika's
 wardrobe keyframes use seedream_v4_5 (GPT Image blocks her necklines), talking shots use the steady-newsreader
 sentence and must pass `headcheck.py`, and the edit is usually an assemble.py edit.json with a hand-written

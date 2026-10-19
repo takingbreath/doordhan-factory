@@ -42,9 +42,18 @@ def main():
         row(os.path.exists(os.path.join(ROOT, f)), f, "bash pipeline/fetch_models.sh")
     row(os.path.exists(os.path.join(SYNCNET, "data", "syncnet_v2.model")), f"SyncNet model in {SYNCNET}",
         "bash pipeline/fetch_models.sh")
+    # collage reels (jio01): filing pages rendered with pdftoppm, photos cut out with rembg (its own venv on a Mac)
+    row(bool(shutil.which("pdftoppm")), "pdftoppm on PATH (poppler)", "brew install poppler (Mac) / sudo apt-get install -y poppler-utils")
+    cut_py = os.path.expanduser("~/.venvs/doordhan-cut/bin/python")
+    cut_py = cut_py if os.path.exists(cut_py) else sys.executable
+    isnet = [os.path.expanduser(p) for p in ("~/.rembg/models/isnet-general-use/isnet-general-use.onnx",  # rembg 2.0.8x
+                                             "~/.u2net/isnet-general-use.onnx")]                        # older rembg
+    row(py_has(cut_py, "rembg") and any(os.path.exists(p) for p in isnet),
+        "rembg and its isnet-general-use model (pipeline/cutout.py)", "bash pipeline/fetch_models.sh")
     tracked = ["assets/characters/pandey_sheet_v2.jpg", "assets/characters/billu_sheet.jpg",
                "assets/references/doordhan_look_vertical.jpg", "assets/clips/sahayata_endcard.mp4",
                "assets/edits/sk03_build.py", "assets/edits/sk03_gfx.py", "assets/edits/sk02_mouthbox.py",
+               "assets/edits/nana01_build.py", "assets/edits/jio01_build.py", "assets/edits/jio01_vox.py",
                "assets/fonts/TitanOne.ttf", "assets/fonts/Bungee.ttf", "assets/fonts/Baloo2-Latin-ExtraBold.ttf",
                "assets/fonts/Baloo2-Deva-ExtraBold.ttf", "assets/audio/ambience"]
     for f in tracked:

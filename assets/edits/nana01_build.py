@@ -4,6 +4,7 @@
 Times are in VOICE time (v, seconds into work/nana/voice/cut.wav, Rashmiji v4_2); the reel runs v + V0.
   python3 work/nana/build.py            full build -> work/nana/edit_raw.mp4 (pre-finish) and outputs/nana01/...
   PLAN_ONLY=1 python3 work/nana/build.py   prints the timeline and talking share
+  DRAFT=1 python3 work/nana/build.py       a fast look-only <stem>_draft.mp4 between fixes (the QC gate needs a normal build)
 """
 import json, math, os, subprocess, sys
 import numpy as np
@@ -382,7 +383,8 @@ def main():
         return
     if not os.path.exists(f"{TMP}/TVc.mp4"):
         tv_composite()
-    parts = [render(i, s) for i, s in enumerate(SHOTS)]
+    sys.path.insert(0, f"{ROOT}/pipeline"); import buildkit                      # parallel shots, cached when unchanged
+    parts = buildkit.render_all(SHOTS, render, lambda i, s: f"{TMP}/s{i:02d}_{s[3]['name']}.mp4", [handheld, grade])
     with open(f"{TMP}/concat.txt", "w") as f:
         f.writelines(f"file '{p}'\n" for p in parts)
     run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", f"{TMP}/concat.txt", "-c", "copy", f"{TMP}/base.mp4"])
@@ -394,14 +396,10 @@ def main():
          "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-shortest", f"{HERE}/edit_raw.mp4"])          # pre-finish, for lip sync
     run(["ffmpeg", "-v", "error", "-y", "-i", f"{TMP}/voice_fixed.wav", "-af", f"adelay={int(V0 * 1000)},apad,atrim=0:{total}",
          "-ar", "48000", "-ac", "1", f"{TMP}/dialogue.wav"])
-    run(["ffmpeg", "-v", "error", "-y", "-i", f"{TMP}/burned.mp4", "-i", f"{TMP}/mix.wav", "-map", "0:v", "-map", "1:a",
-         "-vf", "scale=1080:1920:flags=lanczos", "-r", str(FPS), "-c:v", "libx264", "-crf", "17", "-preset", "slow",
-         "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "192k", "-shortest", "-movflags", "+faststart", out])
     phone = out.replace(".mp4", "_phone.mp4")
-    run(["ffmpeg", "-v", "error", "-y", "-i", out, "-c:v", "libx264", "-crf", "26", "-preset", "slow", "-pix_fmt", "yuv420p",
-         "-c:a", "aac", "-b:a", "128k", "-movflags", "+faststart", phone])
+    written = buildkit.encode_finals(f"{TMP}/burned.mp4", f"{TMP}/mix.wav", out, phone, FPS)   # DRAFT=1: a fast look-only copy
     write_manifest(total, out)
-    print("wrote", out, "and", phone)
+    print("wrote", " and ".join(written))
 
 
 if __name__ == "__main__":
