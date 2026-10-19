@@ -24,6 +24,7 @@ Human money stories: a person's choice about money, a values story, a "what woul
   - E10 master keyframe: `20f3c2d0-b756-4d43-95b4-50851c10b26b`; it is also the face-check reference (assets/characters/rashmi_e10_master.jpg; identity image assets/characters/rashmi_identity.jpg).
   - Voice: ElevenLabs **Rashmiji** (`registry/assets.json` voices.rashmiji) on **eleven_v4**, directed per docs/voices/directing-tts.md.
 - **Real people** (hard rule 4, relaxed 2026-10-19): their real photos and footage, and real pictures animated with AI when a shot needs motion; never invented speech. A recreation still carries the "RECREATION · <year>" tag.
+  - E11 look: dusty-pink ribbed-knit tank with a high square neckline (Akhilesh: less cleavage, for serious viewers), keyframe `creator_e11_sofa_pink_levelled`; face reference assets/characters/rashmi_e11_master.jpg.
 
 ## 3a. Shot grammar
 - Talking-shot specs: `shot_spec.py build ... --character rashmi --look modern` (her base prompt and the modern tail). Exact keyframe and shot prompts: .claude/skills/produce-video/prompts.md, "Creator format"; traps: gotchas.md.
@@ -80,5 +81,29 @@ Human money stories: a person's choice about money, a values story, a "what woul
 - **Script check:** Scribe spells the same audio two ways ("पंद्रह-पंद्रह हज़ार" / "15-15 हजार"). verify_line now composes digits before हज़ार.
 - **Edit:** render every shot to an exact frame count. The first build drifted 0.35 s over the concat.
 
+## 9a. Notes from production (E11, jio01: Vox-style collage instead of footage)
+- **The variant:** an explainer with no footage to show (Starlink vs Jio). Akhilesh asked for Vox style as close as
+  possible, real photos, and a split-screen opening (collage on top, Rashmi below; full screen from the second line).
+  Template: assets/edits/jio01_build.py (edit) and assets/edits/jio01_vox.py (local collage scenes).
+- **What made the collage:** local scenes for anything with real documents, real photos or exact numbers (the RHP page
+  highlighted and stamped RISK, a to-scale growth chart, the Musk/Ambani hook); gemini_omni clips (3 credits a second,
+  style key `style.vox_mixed_media_key`) for motion with no text (fibre vs antenna vs satellite; a tug of war over
+  houses), with logos and labels laid on top locally. Prompt each cutout to a fixed place ("stays on the LEFT third")
+  so labels can sit still; "wobbles as if thinking" gave the dish a cartoon face.
+- **Cutouts:** rembg `isnet-general-use` locally (no credits) on news-agency photos; a sticker = white border by
+  dilating the alpha + a soft shadow; stop-motion boil (±1.6 px, ±0.45° at 8 fps).
+- **Real posts:** a clean screenshot of Musk's X post wasn't reachable (the only one sat in a collage its outlet
+  labelled AI-generated), so a quote card carried his verbatim words with "Elon Musk on X · 9 Oct 2026".
+- **Frame one:** Akhilesh asked for the famous faces "as quickly as possible": Musk and Ambani are on from frame one,
+  the Jio/IPO stickers land on the voice.
+- **Eyes:** a line about a question drifted her eyes off the lens; "her eyes look straight into the camera lens for
+  the whole line, never glancing to the side" fixed it. "Lively and amused" gave squints and a wink; "eyes open, head
+  steady and level, never tipping back" fixed the face-check dips.
+- **QC:** in the split, MediaPipe locked onto a photo above her (lipsync_lag now tracks the largest face), and the
+  seam crops her forehead (the manifest judges identity on the raw clips: `clips` + `clip_spans`).
+- **Soft last words:** the tail check and shot_spec's auto-trim both took a soft final word after a short stop
+  ("customers", "हैं") for a breath. Rebuild the track from the untrimmed segment; lift the word 7 dB in the mix.
+
 ## 10. Typical cost
 E10: 65.25 credits of an approved 80. Keyframes 6, other stills 0.75, talking shots 36 (including 9 of retries), silent shots 9 (the TV room, the chai sip). The voice cost ElevenLabs credits only.
+E11 (jio01, 59.2 s, Vox collage): 138.75 of about 185 approved. Looks 6, stills 0.75, talking shots 78 (8 shots, including 25.5 of retakes for eyes and face), gemini_omni collage clips 54 (8 s test reused + 10 s). Local collage scenes cost nothing.

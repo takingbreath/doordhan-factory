@@ -50,7 +50,7 @@ Stage 1 targets are live in the block below. Stages 2 and 3 are the plan after t
 
 ## The book and where we stand
 <!-- scoreboard -->
-_Updated 2026-10-18 21:39 IST by `scoreboard.py write`._
+_Updated 2026-10-19 18:09 IST by `scoreboard.py write`._
 
 **Stage 1: Stop the scroll** (2026-09-26 to 2026-10-25): prove people stop for our reels and stay to the end
 
@@ -67,7 +67,7 @@ _Updated 2026-10-18 21:39 IST by `scoreboard.py write`._
 | B2 Tight 20-30 s | 20-30 s total; title montage 1.5 s or less and only after the hook; payoff by 20 s; the last line echoes the hook so a replay feels natural; no dead air | watched % | 26.3 | 38.6 | 45 | 32 | 1/1 (judge at 3, max 6) | **HOLD** 1/3 reels |
 | B3 A line worth sending | Every script lands one line a viewer would forward to a specific person (a number to remember, a jab at the system, an 'I told you so'); never ask for shares | sends per 1k plays | 2.6 | 3.2 | 8 | 2 | 3/4 (judge at 4, max 6) | **HOLD** 3/4 reels |
 | W1 Glam Sarika | Sarika in the glam wardrobe (formats/samachar.md) on every Samachar reel | skip rate % | 66.9 | 55.7 | – | – | 3/3 (judge at 3, max 6) | **WATCH** tracked; judged at the monthly review |
-| W2 Famous name in frame one | Frame one shows a company, brand or person every viewer already knows (their name, logo, or a licensed photo or real footage), with the number or question it turns on | median plays at 72 h | 243 | 2388 | – | – | 3/4 (judge at 3, max 6) | **WATCH** tracked; judged at the monthly review |
+| W2 Famous name in frame one | Frame one shows a company, brand or person every viewer already knows (their name, logo, or a licensed photo or real footage), with the number or question it turns on | median plays at 72 h | 243 | 2388 | – | – | 3/5 (judge at 3, max 6) | **WATCH** tracked; judged at the monthly review |
 <!-- /scoreboard -->
 
 ## This week's plan

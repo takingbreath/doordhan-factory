@@ -68,7 +68,26 @@
 - **Scribe spells the same audio differently between runs** ("पंद्रह-पंद्रह हज़ार" / "15-15 हजार"; "car" / "कार").
   verify_line composes both now. If another spelling fails, fix the normaliser rather than re-rolling the transcriber.
 - **Grain lowers the face check** (about 0.05). Use grain 1 on her shots, and the episode's master keyframe as the face reference.
-- **Every rebuild needs a new transcript** (the binding is by file hash, about 230 ElevenLabs credits each). Make all
-  fixes, look at full-size frames, then transcribe once.
+- **A rebuild that changes the sound needs a new transcript** (the binding is by a fingerprint of the decoded audio,
+  about 230-330 ElevenLabs credits each; a picture-only rebuild keeps it, as on E11). Make all fixes, look at
+  full-size frames, then transcribe once.
 - **YouTube blocks cloud machines** (yt-dlp, Piped, Invidious, cobalt). Clips come from the laptop: write
   registry/clip_requests/<slug>.json, and the laptop's hourly task runs `pipeline/fetch_clips.py --push` to the `clips` branch.
+
+## Creator + Vox collage (E11, jio01)
+- **Photos of people in frame steal the lip-sync track.** With Musk and Ambani above Rashmi in the split, MediaPipe
+  measured a photo (62 px mouth, SyncNet 0). lipsync_lag now tracks the largest face; keep the speaker the biggest face.
+- **The split crops her forehead**, dropping the face check: give the manifest `clips` + `clip_spans` (assets/edits/jio01_build.py
+  writes them) so identity is judged on the raw clips.
+- **shot_spec's auto-trim and the mix tail check cut real last words** said softly after a short stop ("customers",
+  "हैं"). Read `tail_fix` in every spec; rebuild the track from the untrimmed segment (`make_track.py`), and lift a
+  soft final word in the mix rather than trimming it.
+- **A cut can land mid-blink.** Look at the first frames of every talking clip and move the cut past a blink.
+- **Attitude words in the acting note show on her face:** "lively and amused" gave squints and a wink, "eyebrows lift
+  on the question" took her eyes off the lens. Use "eyes open and on the lens, head steady and level".
+- **gemini_omni collage:** text-free only; keep cutouts in fixed thirds so logo labels can sit still; a "3D RENDER"
+  preset suggestion needs declined_preset_id 5a77643c-b6cc-4efd-bdc6-ab8ff48dfa82; "as if thinking" gave a prop a face.
+- **A 10 s gemini clip for a 10.5 s line:** slow it with setpts and pad the end (`tpad`); a scene one frame short
+  shifted every later cut (render local scenes a little long).
+- **Real screenshots of posts are hard to verify:** use a quote card with the verbatim words and the date unless the
+  screenshot's source is clean.

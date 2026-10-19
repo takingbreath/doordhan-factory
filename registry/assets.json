@@ -3,7 +3,9 @@
   "style": {
     "doordhan_look_vertical": "2557c287-bf5c-4905-933e-9b75f04c4a79",
     "doordhan_look_4x3": "82b77b0f-5b58-43ab-b6bd-89c1033bb8f5",
-    "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612"
+    "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+    "vox_mixed_media_key": "b0d9a257-b3e9-4d6a-9744-989c7532d020",
+    "_vox_note": "vox_mixed_media_key: style reference for Vox-style mixed-media collage (gemini_omni clips, gpt_image plates), declined preset 5a77643c-b6cc-4efd-bdc6-ab8ff48dfa82 when gemini_omni suggests '3D RENDER'"
   },
   "characters": {
     "sarika": {
@@ -44,7 +46,8 @@
       "identity_ref": "e9a78b8d-1f8b-4c82-876b-e212b7f896f8",
       "master_keyframe_e10": "20f3c2d0-b756-4d43-95b4-50851c10b26b",
       "voice": "rashmiji",
-      "note": "no phone in frame (the phone is the camera); modern clothes; face check against the episode's master keyframe"
+      "note": "no phone in frame (the phone is the camera); modern clothes; face check against the episode's master keyframe",
+      "master_keyframe_e11": "daacaa3f-bdbd-46b5-ae60-0a8eda7002f1"
     }
   },
   "keyframes": {
@@ -113,7 +116,9 @@
     "creator_e10_window_seat_no_phone": "6d26e800-690e-42f6-b56f-a46f0aac1841",
     "creator_e10_window_seat_levelled": "d1ae821d-5c3a-4287-80f1-65dae83ee431",
     "recreation_2015_tv_room_from_behind": "e0144b44-9a0d-40bf-b6c9-3a5515bb3b16",
-    "insert_car_detail_unbranded": "7c8ab66f-689b-4360-9a8c-e9d71926a379"
+    "insert_car_detail_unbranded": "7c8ab66f-689b-4360-9a8c-e9d71926a379",
+    "creator_e11_sofa_pink": "44d7b75c-8437-4369-81c3-a45fb7e226bf",
+    "creator_e11_sofa_pink_levelled": "daacaa3f-bdbd-46b5-ae60-0a8eda7002f1"
   },
   "voices": {
     "_note": "ElevenLabs over the API is the default (2026-09-30): a voice with an elevenlabs_voice_id is generated with pipeline/tts_elevenlabs.py --voice <name>. A voice without one stays on Higgsfield. higgsfield_fallback keeps a character's old Higgsfield voice element usable (pipeline/higgsfield.py audio --voice <name>).",
@@ -315,6 +320,18 @@
     "creator_e10_chai_sip": {
       "video_job": "6e091922-0fe9-42cb-a845-1a159a9ace19",
       "note": "Rashmi sips chai at the kitchen counter and raises her eyebrows over the mug; silent B-roll (use in a voice pause)"
+    },
+    "creator_e11_vox_airfiber_satellite": {
+      "job": "169488a0-97d0-4253-bacb-01c9b965ccbb",
+      "model": "gemini_omni",
+      "seconds": 8,
+      "what": "collage: fibre line from a city fails, AirFiber-style antenna on village houses, satellite beams in, houses circled; no text"
+    },
+    "creator_e11_vox_tug_of_war": {
+      "job": "8c291ce9-99d8-49d4-9e24-9621a4f022ea",
+      "model": "gemini_omni",
+      "seconds": 10,
+      "what": "collage: satellite dish (left), houses (centre), Wi-Fi router (right); price tag snipped, satellites multiply, gift box and coins, rope tug of war; no text"
     }
   },
   "keyframes_notes": {
@@ -327,11 +344,18 @@
     },
     "kendra_e7": "E7 (2026-10-04) set dressing, episode-specific: the wall behind Pandey carries a faded 'SAPNON KA GHAR / POSSESSION 2011' builder poster (fictional), a crack through it and a damp stain; the low angle shows the damp, flaking ceiling. The two cold-open frames are local crops (648x1152 from the GPT frames 428e2276 / 1092160a) uploaded as media, so the face is 15-16% of the frame height. Pandey wears the E7 outfit in all of them; reuse only where it can't be seen or with a wardrobe restyle.",
     "e9": "E9 (DTB3 HUL): sarika_closeup_e9_ruby_wrap is the Seedream job 84514361 frame, cropped locally to 0.85 from the top (mouth box 480: 147,437,108,79); wider framing than E8, 80s blue studio, no bindi (it flickered). gupta_market_e9 is Higgsfield job 183eb879.",
-    "creator_e10": "creator_e10_*: Rashmi's four setups (seedream_v4_5); the 'levelled' uploads were rotated with pipeline/level_keyframe.py to pass the head-roll check. recreation_2015_tv_room: blue screen for keying a bulletin; the man is only ever seen from behind. insert_car_detail_unbranded: the first car came out as a recognisable Range Rover; avoid implying a model."
+    "creator_e10": "creator_e10_*: Rashmi's four setups (seedream_v4_5); the 'levelled' uploads were rotated with pipeline/level_keyframe.py to pass the head-roll check. recreation_2015_tv_room: blue screen for keying a bulletin; the man is only ever seen from behind. insert_car_detail_unbranded: the first car came out as a recognisable Range Rover; avoid implying a model.",
+    "creator_e11": "creator_e11_*: Rashmi's E11 look (seedream_v4_5 one-change edit to a high square neckline after the first try copied the reference's deep neckline); the levelled upload is rotated -10 deg with level_keyframe.py (roll 18 -> 8). Face reference: assets/characters/rashmi_e11_master.jpg."
   },
   "wardrobe_log": {
     "_note": "One row per character per episode, added when the final is approved. Nobody wears the same outfit twice on air.",
     "rows": [
+      {
+        "episode": "11",
+        "date": "2026-10-19",
+        "character": "rashmi",
+        "outfit": "dusty-pink ribbed-knit tank with wide straps and a high square neckline (Akhilesh: less cleavage), thin gold chain, small gold hoops; loose shoulder-length waves; sofa selfie at golden hour"
+      },
       {
         "episode": "10",
         "date": "2026-10-09",
