@@ -26,10 +26,14 @@ Supporting files in this folder: `prompts.md` (the prompts that worked on E7, fo
   a wrong fact. Look at frames yourself; the checks are proxies.
 
 ## 0. Where it runs, and what runs in parallel
-**On Akhilesh's laptop** (the Doordhan studio session; Akhilesh, 2026-10-19). The cloud morning session freezes the
-approved script and hands over `/produce-video <slug>`; `git pull` first. On a Mac, run the QC tools with
-`~/.venvs/doordhan-qc/bin/python` and cut-outs with `~/.venvs/doordhan-cut/bin/python`. A cloud session produces only
-when Akhilesh asks ("produce it here"); it installs its tools first (about 13 minutes on jio01).
+Two routes, both always ready (Akhilesh, 2026-10-19):
+- **Laptop** (Akhilesh's default): the Doordhan studio session; the cloud morning session freezes the approved script
+  and hands over `/produce-video <slug>`. `git pull` first. On a Mac, run the QC tools with
+  `~/.venvs/doordhan-qc/bin/python` and cut-outs with `~/.venvs/doordhan-cut/bin/python`.
+- **Cloud** (Naveen's route; Akhilesh's "produce it here"): any Claude Code cloud session on this repo. The session-start
+  hook (.claude/hooks/session-start.sh) installs the tools when the session starts; check its last line, and run
+  `bash pipeline/fetch_models.sh` if it says the setup is incomplete. With no ElevenLabs key, voices and transcripts
+  go through the ElevenLabs connector. Everything below works the same, only slower (4 cores, no GPU).
 
 Parallel work that leaves the result unchanged (jio01 measured it: the same files, the same gate readings):
 - **While Higgsfield renders** (talking shots in batches of 3, its limit; collage clips and stills alongside): build

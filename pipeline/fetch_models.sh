@@ -25,11 +25,16 @@ else
   (sudo apt-get update -q || apt-get update -q) >/dev/null 2>&1
   (sudo apt-get install -y -q libegl1 libgles2 libgl1 tesseract-ocr tesseract-ocr-hin poppler-utils || \
    apt-get install -y -q libegl1 libgles2 libgl1 tesseract-ocr tesseract-ocr-hin poppler-utils) >/dev/null
-  pip3 install -q mediapipe onnxruntime pytesseract opencv-python-headless scipy numpy pillow praat-parselmouth
-  # python_speech_features fails to build in an isolated env on Python 3.11 there; without isolation it installs
-  pip3 install -q python_speech_features || pip3 install -q --no-build-isolation python_speech_features
-  pip3 install -q torch --index-url https://download.pytorch.org/whl/cpu
-  pip3 install -q "rembg[cpu]"
+  # "pip3" can belong to another Python than "python3" (the cloud image, 2026-10-19: pip3 -> 3.13, python3 -> 3.11), so
+  # every install goes through the python3 that runs the pipeline
+  PIP="python3 -m pip"
+  $PIP install -q mediapipe onnxruntime pytesseract opencv-python-headless scipy numpy pillow praat-parselmouth fonttools
+  # python_speech_features fails to build in an isolated env there; without isolation (and with Debian's setuptools,
+  # SETUPTOOLS_USE_DISTUTILS=stdlib) it installs
+  $PIP install -q python_speech_features || $PIP install -q --no-build-isolation python_speech_features || \
+    SETUPTOOLS_USE_DISTUTILS=stdlib $PIP install -q --no-build-isolation python_speech_features
+  $PIP install -q torch --index-url https://download.pytorch.org/whl/cpu
+  $PIP install -q "rembg[cpu]"
   CUTPY=python3
 fi
 # the cut-out model for pipeline/cutout.py (about 180 MB, once)
