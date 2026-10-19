@@ -50,7 +50,7 @@ Stage 1 targets are live in the block below. Stages 2 and 3 are the plan after t
 
 ## The book and where we stand
 <!-- scoreboard -->
-_Updated 2026-10-19 18:09 IST by `scoreboard.py write`._
+_Updated 2026-10-19 21:39 IST by `scoreboard.py write`._
 
 **Stage 1: Stop the scroll** (2026-09-26 to 2026-10-25): prove people stop for our reels and stay to the end
 
@@ -58,8 +58,8 @@ _Updated 2026-10-19 18:09 IST by `scoreboard.py write`._
 - watched %: now 29.5, target 45 → not yet
 - median plays at 72 h: now 226, target 500 → not yet
 - best reel's plays: now 3275, target 2000 → on target
-- followers: now 291, target 100 → on target
-- strategy stop: 10/20 reels posted this stage; median plays at 72 h now 226, must reach 300
+- followers: now 286, target 100 → on target
+- strategy stop: 11/20 reels posted this stage; median plays at 72 h now 226, must reach 300
 
 | Bet | Lever | Judged on | Baseline | Now | Target | Stop | Reels (judged/carried) | Verdict |
 |---|---|---|---|---|---|---|---|---|
@@ -180,3 +180,4 @@ _Written by the strategist every Sunday. The morning session executes it: each s
   - Put to Akhilesh: the Jio IPO reel before Tuesday; scripts held to 30 s; Stage 1 to run to 20 reels or 8 Nov; reconnect Instagram in vidIQ.
   - Platform: no change found to Instagram ranking, YouTube Shorts (beyond the 1 Oct originality update), SEBI's finfluencer rules or MeitY's AI labels.
   - vidIQ credits this week: 45 (35 nightly cross-checks, 5 tonight's cross-check, 5 outliers).
+- 2026-10-19 (nightly): First reel in ten days: E11 (Starlink vs Jio, creator format, 59 s, carries only the famous-name watch item) posted about 18:10 (time read from the shortcode) and linked to DerRj-MyNeO; 237 public plays, 7 likes at 3.5 h, in line with E7's early follower burst (204 at 4 h), so not taking off yet; judge it tomorrow at about a day old against E10's 1,768. vidIQ owner insights unavailable for an eleventh night ("Meta token is inactive"; the account list still says active), so public counts only and no bets judged. Followers 286 (public profile, -5 on the week). Every older reel within 0–26 plays of its last reading (E10 3,297), so only E11 logged. No stop or target hit; all bets HOLD (hook in frame one 52.4% on 3 reels; tight 20–30 s 38.6% on 1; a line worth sending 3.2 per 1k on 3 of 4). 11 of 20 stage reels with 6 days left. Shortcode times put E10's posting at about 01:14 on 10 Oct, not 22:00 on 9 Oct; its readings' ages are about 3 h too high (not changed). vidIQ credits this week: 10.
