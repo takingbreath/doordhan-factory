@@ -48,7 +48,7 @@ Steps:
    - Load the Higgsfield tools (ToolSearch "select:mcp__Higgsfield__balance,mcp__Higgsfield__jobs_wait") and call
      `balance`.
    - Call `jobs_wait` with timeout 0 on these registry IDs (registry/assets.json): `style.doordhan_look_vertical`,
-     `style.vox_mixed_media_key`, `keyframes.creator_e11_sofa_pink_levelled`. All should come back `completed`, which
+     `style.vox_mixed_media_key`, `keyframes.creator_e11_sofa_pink` (a generation job; the "_levelled" one is an upload). All should come back `completed`, which
      proves this session sees Akhilesh's workspace. One that fails is not a blocker (the skill uploads the local
      copies in assets/ instead), but say which.
    - `python3 pipeline/tts_elevenlabs.py --check`: the key works and eleven_v3 is offered. On the laptop, voices and
