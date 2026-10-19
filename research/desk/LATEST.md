@@ -1,143 +1,148 @@
-# Doordhan desk research — Sun 18 Oct 2026
+# Doordhan desk research — Mon 19 Oct 2026
 
-Session: https://claude.ai/code/session_011SZRVMUaJ5kaoJy1bZb7ZD
+Session: https://claude.ai/code/session_01VVqxkuhLvEiHhaozEGW7A4
 
-**Pick: story 1.** This week's plan says lead with a known name, and the best story this morning is a twist on one every viewer already saw. On Thu 8 Oct the US Labor Department froze green-card (PERM) filings for TCS, Infosys, Wipro, HCL, Cognizant, Capgemini, Microsoft and Adobe (Kotak Neo). Instagram filled up with doom: @thetatvaindia 9.7M, @bitinning 'BAD NEWS FOR INDIAN IT PROFESSIONALS' 3.9M, @finsight20 'TOMORROW BLOOD BATH IT COMPANIES??' 861K. Then, in the week to Fri 16 Oct, the Nifty IT index rose 11.72%, its best week since April 2008, and 10 IT stocks added ₹2.75 lakh crore in market value (Business Today). Nobody has put the two side by side. Humour lands on the herd, it needs no buy/sell call, it fits 20–30 s, and the TCS and Infosys logos carry frame one.
+**Pick: story 1.** This week's plan says ride the Jio IPO before it opens on Wed 21 Oct, and today is the last full news day before it does: the anchor book is today. Six of last week's ten Indian money outliers were on it (up to 16.4M plays), so the story is proven; the gap is the angle. Two facts nobody in the outliers leads with: the whole ₹30,200 crore is fresh money that goes mainly to repaying Jio's own loans (Outlook Money; Finshots), and the grey-market premium went from ₹140 on 2 Oct to ₹249 on 18 Oct (IPO Ji). Jio's logo carries frame one, it fits 20–30 s, and it needs no apply/skip call. We have two Jio drafts already (jio-quota, musk-jio-ipo-risk v2); either can be cut to 30 s with today's numbers.
 
-Runner-up: 2, Maharashtra's FDA says expired and rejected food meant for destruction was diverted back into shops. An FIR in Thane names 10 people, including a Reliance Consumer Products director and a Blinkit director; ₹48.09 lakh of stock was seized and five licences suspended (Deccan Herald, Business Today, 17 Oct). It is all over the news and nobody has made a Short on it yet. It has no investor stake, so it scores lower. Story 3 is the deep lane via The Arc: Groww's profit is up 54%, but F&O's share of its revenue fell from 56.9% to 44.8% in a year, so it is turning to IPOs (Jio's opens Wed) and wealth. Tracked: Musk vs Ambani is still the hottest money video in India but crowded; the Jio IPO opens Wed 21 Oct.
+Runner-up: 2, Yes Bank: the same quarter reads as a ₹1,080 crore profit (+65%) or a ₹5,217 crore loss, depending on whether the Supreme Court's AT-1 ruling is booked; the bank chose not to book it yet, and its auditors qualified the results. A known name, a number that doesn't add up, and the YouTube Shorts on it are all under 500 views. Story 3 is the deep lane via Moneylife: from 9 Nov, 137 cancer drugs get a 30% trade-margin cap, which Moneylife says can cut prices by up to 70%; the Supreme Court had called one ₹2,700 drug sold at ₹27,000 'broad daylight dacoity'. Medicine mark-up reels are breaking out on Instagram (News18 1.3M, 75× median).
 
-## 1. After the US green-card freeze, Instagram predicted a 'bloodbath' for TCS and Infosys. Indian IT then had its best week since 2008
+## 1. Jio's ₹30,200 crore IPO opens Wednesday: all of it is fresh money, mostly to repay Jio's own loans, and the grey market has nearly doubled its bet in two weeks
 
-Hot lane (new; market move and big company event) · RISING · **9/10** (momentum 2/3, stake 1/1, shareability 2/2, gap 2/2, known name 2/2) · tracker id `it-rally-green-card`
+Hot lane (tracked, day 12; IPO) · HOT · **8/10** (momentum 3/3, stake 1/1, shareability 1/2, gap 1/2, known name 2/2) · tracker id `jio-ipo`
 
-Window: Sun 18 to about Wed 21 Oct. After that the Jio IPO takes the cycle. Later turns: the DOL's written guidance on the freeze; Infosys and Wipro's next updates; whether the rally holds.
+Window: Mon 19 Oct (anchor book) to Fri 23 Oct (issue closes). Listing-day follow-up on 28 or 29 Oct (sources differ).
 
 ### What's happening
-- On Thu 8 Oct, US Labor Secretary Keith Sonderling said the department 'will not accept any new or process any pending permanent labor certification applications' involving Cognizant, Infosys, TCS, Wipro, HCL Technologies, Capgemini, Microsoft and Adobe. PERM is the first step of an employer-sponsored green card. It is not a blanket H-1B suspension (Kotak Neo, 9 Oct).
-- Instagram read it as a disaster for IT stocks and IT jobs: the top reels in our search were @thetatvaindia (9.7M), @bitinning, 'BAD NEWS FOR INDIAN IT PROFESSIONALS' (3.9M), @kirtanshahcfp (1.2M), @finsight20, 'TOMORROW BLOOD BATH IT COMPANIES??' (861K) and @udayanonmoney, 'Bad news for Indian IT stocks' (756K) (vidIQ).
-- Then the week to Fri 16 Oct: Nifty IT rose 11.72%, its biggest weekly gain since April 2008, against 2.78% for the Nifty 50 and 3.11% for the Sensex (Kotak Neo, 17 Oct). The 10 IT stocks' market value rose from ₹22.66 lakh crore to ₹25.41 lakh crore, up ₹2.75 lakh crore; TCS alone added ₹1.1 lakh crore (Business Today, 17 Oct).
-- Why it rose: September-quarter results beat fears (TCS deal wins $9.6 billion; Tech Mahindra and Wipro beat on revenue), and money rotated out of global AI stocks after a hot US inflation print raised doubts about AI spending (Business Today; TradingView/Mint). Weekly gains: Tech Mahindra 18.2%, TCS 14.3%, HCL Tech 13.4% (Business Today). TradingView's figures run higher (TCS 18.7%, Infosys 16.5%, Wipro 16.4%), so use Business Today's.
-- It's a bounce, not a recovery: the index had fallen 32% this year before the rally and is still down 15.7% for 2026 (TradingView, 16 Oct). The freeze is still in place, and the companies called its impact limited (News18 and TradingView headlines, 12–13 Oct).
+- New since we last sent it: the anchor book is today, Mon 19 Oct. The issue is open Wed 21 to Fri 23 Oct; allotment 26 Oct; listing 'likely' 29 Oct per Outlook Money, 28 Oct per IPO Ji.
+- Size: up to ₹30,213 crore, all fresh shares (270 million), no offer for sale, so no existing shareholder is selling. Use of proceeds: mainly to repay borrowings of Reliance Jio Infocomm, the rest for general corporate purposes (Outlook Money, 15 Oct). It is bigger than Hyundai India (₹27,870 crore, 2024) and LIC (₹21,008 crore, 2022), the two largest so far.
+- Price band ₹1,065–1,119; valuation about ₹10.3 lakh crore at the top; one lot is 12 shares, ₹13,428 at the top of the band. Employees get ₹54 a share off. Up to ₹2,500 crore is reserved for Reliance Industries shareholders who held on 14 Oct (Outlook Money).
+- Grey-market premium (unofficial): ₹140 on 2 Oct, ₹201 on 14 Oct, ₹249 on 18 Oct, which IPO Ji reads as about 22% over the top of the band. Outlook Money had ₹206 on 15 Oct. Grey-market numbers are unofficial and can swing.
+- The business (Finshots, 19 Oct): telecom is about 77% of revenue. FY26 revenue ₹1,46,885 crore and profit ₹30,049 crore (Outlook Money). Finance costs rose 76% to ₹8,653 crore in FY26, partly because interest on network loans now shows as an expense once the network is live. In Q1 FY27 Jio beat Airtel India on EBITDA minus capex for the first time (₹16,681 crore vs ₹14,102 crore). P/E about 34× against Airtel's 41×.
 
 ### The curiosity gap
-- Five reels with about 16 million views between them said the green-card freeze was bad news for Indian IT stocks. Six trading days later those stocks had their best week in 18 years. What did the doom reels miss?
-- The freeze was a problem for IT employees waiting for green cards, not for the companies' earnings. Investors cared about the quarterly results and the AI sell-off. Who was the bad news actually for?
-- ₹2.75 lakh crore added in five days by 10 companies everybody knows. How many people sold on the 'bloodbath' reels?
+- India's biggest IPO, and the money isn't for a new network or a new business: it mostly pays off Jio's own loans. A company that made ₹30,049 crore profit last year is asking the public for ₹30,200 crore. Why?
+- The grey market's premium went from ₹140 to ₹249 in sixteen days. Who sets that number, and what does it promise? (Nothing: it is unofficial.)
+- Every Indian with a phone knows Jio. ₹13,428 buys one lot. How much of India's biggest IPO is actually set aside for people like the viewer?
 
 ### How hot it is
-- Trend meter on 'Nifty IT rally': YouTube this week 10 videos, 9 of them in the last 24 h, 165,204 views; the best at 2,204 views an hour ('IT Stocks Surge 11% in a Week! Biggest Rally in 18 Years', 52,902 views in 24 h). The meter reads COLD on Google News for that phrase, but Google News carried at least nine outlets on the record week between 15 and 17 Oct, and uploads are accelerating, so we grade it RISING.
-- vidIQ Instagram outliers on the freeze (posted since 8 Oct): 9.7M, 3.9M, 1.2M, 861K and 756K, at 4.4× to 17.1× each creator's median. None of the five covers the rally.
-- vidIQ YouTube Shorts search (region IN, since 13 Oct) for the rally: no results returned.
+- Trend meter on 'Jio IPO': HOT. Google News 41 today of 100 this week (41% today, saturated feed); YouTube this week 10 videos, 6 in the last 24 h, 916,144 views, best 9,856 views/hr ('Jio IPO: Biggest Opportunity or Trap?', 236,555 views in 24 h). Tracker history F R F R H H H, now HOT and rising.
+- vidIQ Instagram outliers since 12 Oct: eight Jio reels between 935K and 16.4M, at 3.4× to 583× each creator's median. Six of the eight use the split-screen layout (Ambani or Jio footage on top, presenter below).
+- Google Trends India: not in today's trending searches ('stock market holidays' and 'crude oil price today' are).
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [@thetatvaindia (Instagram)](https://www.instagram.com/reel/DePWnYvJEVL/) | Breaking-news card: 'No H1B visa/Green cards: US SUSPENDS top Indian IT firms' over podium footage | 9.7M | 4.4× median | since 8 Oct |
-| [@bitinning (Instagram)](https://www.instagram.com/reel/DePnc_TyifT/) | Talking head: 'BAD NEWS FOR INDIAN IT PROFESSIONALS', what the green-card freeze means for IT stocks | 3.9M | 8.9× median | since 8 Oct |
-| [@kirtanshahcfp (Instagram)](https://www.instagram.com/reel/DeQgOYHKKUw/) | Advisor explains the suspension and argues the real impact on the companies is smaller | 1.2M | 5.6× median | since 8 Oct |
-| [@finsight20 (Instagram)](https://www.instagram.com/reel/DePhJRtyRhC/) | Fast news roundup: 'TOMORROW BLOOD BATH IT COMPANIES??' | 861K | 17.1× median | since 8 Oct |
-| [@udayanonmoney (Instagram)](https://www.instagram.com/reel/DePbbpOtClb/) | Single-shot explainer: 'Bad news for Indian IT stocks: new USA policy' | 756K | 7.0× median | since 8 Oct |
+| [@growwithyuvraj.20 (Instagram)](https://www.instagram.com/reel/DehfrSMv4lt/) | Split screen, Ambani on top: 'Finally Jio IPO is coming and changing the game' | 16.4M | 52.7× median | since 12 Oct |
+| [@sharmasunfiltered_ (Instagram)](https://www.instagram.com/reel/Dehs2h4zgmR/) | 'JIO IPO IS HERE!!!', Ambani split screen and Reliance history parallels | 4.4M | 583× median | since 12 Oct |
+| [@abhishekkarofficial (Instagram)](https://www.instagram.com/reel/DejK5ZLvMBb/) | Talking-head IPO review, ends on a question | 2.6M | 4.5× median | since 12 Oct |
+| [@rehan.talkss (Instagram)](https://www.instagram.com/reel/DehXWv4SZXQ/) | Opens on 'The 5th of September, 2016' (Jio's launch) over Ambani footage | 1.9M | 6.3× median | since 12 Oct |
+| [@wealthboard_ (Instagram)](https://www.instagram.com/reel/Deml3FQTq9E/) | 'AMBANI CHANGE THE GAME': summary with a caution note | 1.2M | 6.8× median | since 12 Oct |
+| [@poojapatelcfp (Instagram)](https://www.instagram.com/reel/DehJRkKoHOz/) | 'Biggest IPO of India's history': the must-know facts | 936K | 19.8× median | since 12 Oct |
 
-_Every outlier told the freeze as bad news for IT stocks, and none has come back to show the stocks' record week. Nobody has put the doom reel next to the scoreboard, or said who the freeze actually hurts (employees in the green-card queue, not the companies' results)._
+_Every outlier sells the size and the Ambani story ('biggest ever', 'changing the game', 'best IPO of 2026'). None leads with where the money goes (Jio's own loans) or with the grey-market number going up while nothing official has changed. Those are the open angles._
 
 ### Facts and sources
-- US Labor Department suspended Cognizant, Infosys, TCS, Wipro, HCL Technologies, Capgemini, Microsoft and Adobe from PERM; Sonderling's quote; not a blanket H-1B suspension; acted on Thursday (8 Oct). — [Kotak Neo, 9 Oct](https://www.kotakneo.com/news/global-markets/us-suspends-infosys-tcs-wipro-hcl-perm-green-card-programme/)
-- Nifty IT +11.72% for the week, the biggest since April 2008; m-cap of 10 IT stocks ₹22.66 lakh crore → ₹25.41 lakh crore (+₹2.75 lakh crore); TCS added ₹1.1 lakh crore; Tech Mahindra +18.22%, TCS +14.33%, HCL Tech +13.42%; TCS deal wins $9.6 billion; the reverse AI trade after a higher US inflation print. — [Business Today, 17 Oct](https://www.businesstoday.in/markets/stocks/story/10-it-stocks-add-rs-275000-crore-in-m-cap-in-best-week-in-18-years-heres-why-562239-2026-10-17)
-- Nifty IT +11.72% for the week, +3.92% on Fri 16 Oct; Nifty 50 +2.78%, Sensex +3.11%; reasons: rotation out of AI-linked stocks, better Q2 results. — [Kotak Neo, 17 Oct](https://www.kotakneo.com/news/sectors/nifty-it-rises-11-7-percent-in-biggest-weekly-rally-since-2008/)
-- Six of 10 constituents up more than 10%; the sector had fallen 32% before the recovery; still down 15.7% year to date. (Its per-stock gains are higher than Business Today's.) — [TradingView (Mint), 16 Oct](https://www.tradingview.com/news/moodys:ce5557892fd1b:0-nifty-it-posts-best-weekly-gain-in-18-years-as-q2-earnings-revive-investor-interest-which-stocks-led-the-rally/)
+- Price band ₹1,065–1,119; valuation ~₹10.3 lakh crore; up to ₹30,213 crore, 270 million fresh shares, no OFS; proceeds mainly to repay Reliance Jio Infocomm's borrowings; lot 12 shares, ₹13,428; employee discount ₹54; up to ₹2,500 crore for RIL shareholders as of 14 Oct; anchor 19 Oct, open 21–23 Oct, allotment 26 Oct, listing likely 29 Oct; GMP ₹206 at 9:24 am on 15 Oct; FY26 revenue ₹1,46,885 crore, PAT ₹30,049 crore; bigger than Hyundai (₹27,870 crore) and LIC (₹21,008 crore). — [Outlook Money, 15 Oct](https://www.outlookmoney.com/invest/jio-platforms-ipo-price-band-dates-valuation-lot-size)
+- Day-wise GMP: ₹140 (2 Oct), ₹201 (14 Oct), ₹221 (16 Oct), ₹230 (17 Oct), ₹249 (18 Oct, about 22%); listing date 28 Oct; issue size about ₹30,187.65 crore. — [IPO Ji, 18 Oct](https://www.ipoji.com/ipo-gmp/jio-platforms-ipo)
+- Fresh issue of ₹30,200 crore, mainly to repay debt; telecom ~77% of revenue; finance costs +76% to ₹8,653 crore in FY26; Q1 FY27 EBITDA minus capex Jio ₹16,681 crore vs Airtel India ₹14,102 crore; P/E ~34× vs Airtel 41×. — [Finshots, 19 Oct](https://finshots.in/archive/a-few-more-things-about-the-jio-platforms-ipo/)
 
 ### Watch out
-- Don't say the freeze caused the rally, or that it was lifted. It is still in place. The rally came from results and the AI rotation, and the two just happened in the same week.
-- No buy/sell call, no 'IT is back' and no price levels or targets (SEBI price-data rule): report the weekly move as news, as an index percentage and market value.
-- The doom reels are other creators' work. Show them only as a few seconds of screen or headline, or describe them; no creator's face in our edit, and don't mock a named creator. The joke is on the herd.
-- The TCS and Infosys logos are fine for a reel about them; never have an image model draw them.
-- Per-stock gains differ by source (Business Today vs TradingView). Use Business Today's or the index figure.
-- Tests it can carry: the logos with '+11.7%' in frame one and the stake said in the first second (hook in frame one); 20–30 s (tight length); a send line inside 12 s for the friend who forwarded the bloodbath reel (a line worth sending).
+- No apply or skip call, no 'listing gain pakka'. GMP is said as unofficial whenever it appears; never as a promise.
+- Listing date differs by source (28 vs 29 Oct). Say 'next week' or use the RHP date once it is out.
+- Jio's official logo is fine; never have an image model draw it. Mukesh Ambani appears only as a licensed still photo or real footage, never AI, and no words he didn't say.
+- The story is crowded: lead with the new number (where the money goes, or the GMP move), not with 'biggest IPO ever'.
+- Tests it can carry: Jio's logo plus one number on screen from frame one and the stake in the first second (hook in frame one); 20–30 s (tight length); a send line inside 12 s for the friend who is applying (a line worth sending).
 
-## 2. Expired food meant for the bin allegedly went back on sale: FIR names Reliance and Blinkit directors, ₹48 lakh of stock seized
+## 2. Yes Bank's quarter: a ₹1,080 crore profit, or a ₹5,217 crore loss. Same bank, same three months
 
-Hot lane (new; big company event) · RISING · **8/10** (momentum 2/3, stake 0/1, shareability 2/2, gap 2/2, known name 2/2) · tracker id `expired-food-reliance-blinkit`
+Hot lane (tracked, day 4; company results) · FLAT · **8/10** (momentum 1/3, stake 1/1, shareability 2/2, gap 2/2, known name 2/2) · tracker id `yes-bank-at1-sc`
 
-Window: Sun 18 to about Tue 20 Oct, while the companies' responses and any further raids come in.
+Window: Mon 19 to about Wed 21 Oct, while the market digests the results; later turns: whether Yes Bank files a further plea in the Supreme Court, and how the RBI asks it to book the AT-1 hit.
 
 ### What's happening
-- Maharashtra's Food and Drug Administration ran seven teams across Thane and Pune districts on 14 and 15 Oct. It says expired, damaged and customer-rejected food that was meant for destruction was diverted through disposal agencies, unlicensed sorting yards and brokers, and reached shops (Deccan Herald / PTI, 17 Oct).
-- How, as alleged: disposal agencies issued certificates saying the goods were destroyed without checking. At unlicensed yards in Bhiwandi, packets that still looked saleable were picked out and sold to brokers. Expired and leaking products were found on sale at an unlicensed shop in Gulzar Nagar, Bhiwandi, with no purchase bills (Deccan Herald; Business Today).
-- Seized: ₹48,09,924 in all, including over ₹24 lakh from a Bhiwandi disposal yard, about ₹4.92 lakh from Reliance Consumer Products' warehouse at Vadpe and about ₹7.81 lakh from Zomato Hyperpure's facility at Usatane (Deccan Herald).
-- The FIR, at Shanti Nagar police station in Thane under the Food Safety and Standards Act and the BNS, names 10 people. They include a whole-time director of Reliance Consumer Products, a whole-time director of Blinkit Commerce, a Reliance Retail warehouse manager and a Zomato Hyperpure employee, plus disposal-agency operators and local suppliers. Five establishments' licences were suspended and four unlicensed premises shut (Deccan Herald; Business Today).
-- Business Today says it will update with the companies' responses, and none had been published when we checked. These are allegations from a preliminary investigation, not findings.
+- New since we last sent it: Yes Bank's Q2 results (17 Oct). Reported profit ₹1,080 crore, up 65% from ₹654 crore; net interest income ₹2,822 crore, up 22.7% (Lapaas Voice, 17 Oct). LSEG's analyst poll expected about ₹955 crore (Biznob, 17 Oct).
+- But on 15 Oct the Supreme Court upheld the Bombay High Court: the March 2020 write-off of ₹8,415 crore (about ₹84 billion) of AT-1 bonds was illegal, so those bonds come back as the bank's liability. The bank didn't book it in Q2. Its own pro forma table says booking it would have turned the quarter into a ₹5,217 crore loss, and the half-year's ₹2,151 crore profit into a ₹4,146 crore loss (Biznob; Briefs/Bloomberg; Lapaas Voice).
+- If booked, net worth falls from ₹53,268 crore to ₹46,970 crore and borrowings rise from ₹77,734 crore to ₹86,149 crore; CET1 could fall by about 250 basis points; capital adequacy stays at 14.5% (Biznob).
+- The bank is weighing further proceedings in the Supreme Court; the court had dismissed appeals from Yes Bank, the RBI and the government (Biznob). The shares are down more than 17% since the order (Briefs, citing Bloomberg). Sumitomo Mitsui owns 24.99%.
+- Who wins: the AT-1 bondholders, many of them individuals who were sold the bonds as safe deposits before 2020. Kotak Mahindra AMC and Nippon Life India AMC paused fresh money into schemes holding Yes Bank's AT-1s (Briefs/Bloomberg).
 
 ### The curiosity gap
-- The brands we order from in 10 minutes pay someone to destroy their expired stock. According to the FDA, the 'destroyed' food came back to a shop shelf with a certificate saying it no longer existed.
-- Who checks that the food was actually destroyed? Apparently the people paid to destroy it.
-- Rejected and returned packets went from a quick-commerce warehouse to a Bhiwandi discount store. How would a buyer ever know?
+- The headline says profit up 65%. The bank's own footnote says a ₹5,217 crore loss. Which one is the real quarter?
+- In 2020 the bank zeroed ₹8,415 crore of bonds to survive. Six years later the court says that money is owed. Who pays it back: the bank's shareholders?
+- The people the 2020 write-off hurt (bondholders sold 'safe' bonds) are now the winners, and the shareholders who bought Yes Bank cheap are the losers.
 
 ### How hot it is
-- Google News: at least 17 outlets carried it on 17 Oct (Reuters, PTI via Deccan Herald, Business Today, ET, Mint, NDTV Profit, India Today and others), all in the last 24 h. We grade it RISING. The meter's phrase search found 0 news items, a phrasing miss.
-- YouTube this week: 5 videos, 16,572 views, best 346 views an hour (a Malayalam video on expired ice cream). vidIQ Shorts search (region IN, since 15 Oct): two Shorts on the FIR, with 3 and 2 views.
-- vidIQ Instagram outliers: nothing on this story yet.
+- Trend meter on 'Yes Bank AT1': FLAT. Google News 2 today of 44 this week; YouTube this week 18 videos, 4 in the last 24 h, 448,831 views, best 2,696 views/hr ('YES Bank Share Fall Explained: ₹8,415 करोड़ AT-1 Bond Case', 129,431 views in 48 h). Tracker history R H F. That video's link isn't in our tools' results, so it isn't listed below.
+- vidIQ YouTube Shorts search (region IN, since 15 Oct) on the Q2 profit-vs-loss angle: seven Shorts, the best at 452 views ('YES Bank Q2 Results 2027 Profit Jumps 65%…'). One already uses the exact 'profit ya loss' frame (Neha Gupta, 102 views).
+- vidIQ Instagram outliers since 10 Oct: no Yes Bank reel among the outliers; the nearest bank story is IDBI's sale (2.1M and 1.0M).
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [Anything_from_H (YouTube Short)](https://www.youtube.com/watch?v=i96HGesNaBU) | 35 s explainer on the alleged route from warehouse to shop, with Reuters and PTI sources | 3 | – | 17 Oct |
-| [NewsTadkaX (YouTube Short)](https://www.youtube.com/watch?v=Tcpg_i8zVKQ) | 16 s Hindi headline card: ₹48 lakh seized, 10 FIRs | 2 | – | 17 Oct |
+| [Stocks by Ashish Bhalla (YouTube Shorts)](https://www.youtube.com/watch?v=S64CNfvOrj0) | Profit +65% and the AT-1 risk, ends on buy-or-sell framing | 452 | - | 18 Oct |
+| [SEBI Registered – Neha Gupta (YouTube Shorts)](https://www.youtube.com/watch?v=TbFLOrpXJOE) | '₹1,080 Cr Profit Ya ₹5,217 Cr Loss? AT1 Bond Twist': 'read the footnote, not the headline' | 102 | 1.4× | 18 Oct |
+| [@cryptowalaindia (Instagram, adjacent: IDBI)](https://www.instagram.com/reel/DeiT-DChwpU/) | 'Govt Sold IDBI Bank for ₹52,878 Crore': a bank story with one rupee number on screen | 2.1M | 7.3× median | since 10 Oct |
 
-_Nobody with an audience has made it yet. The open angle is the mechanism: the destruction certificate that 'destroyed' food carries back to the shelf._
+_Nobody with reach has made the profit-or-loss reel yet: the Shorts on it are all under 500 views, and the Instagram outliers on banks this week went to IDBI. The open angle is the two numbers side by side, and who wins (the 2020 bondholders) versus who pays (today's shareholders)._
 
 ### Facts and sources
-- FIR at Shanti Nagar police station, Thane, against 10 people incl. officials of Reliance Consumer Products, Reliance Retail, Blinkit and Zomato Hyperpure; raids 14–15 Oct in Thane and Pune; seizure ₹48,09,924 (₹24 lakh+ Bhiwandi yard, ₹4.92 lakh Reliance Consumer Products' Vadpe warehouse, ₹7.81 lakh Hyperpure Usatane); certificates without verified destruction; five licences suspended, four unlicensed premises shut. — [Deccan Herald (PTI), 17 Oct](https://www.deccanherald.com/india/maharashtra/fir-against-reliance-consumer-products-director-senior-officials-of-blinkit-zomato-after-fda-crackdown-on-expired-food-products-4186089)
-- Same figures; seven FDA teams; expired and leaking products on sale at an unlicensed Gulzar Nagar, Bhiwandi outlet with no purchase bills; company responses awaited. — [Business Today, 17 Oct](https://www.businesstoday.in/india/story/expired-food-recycled-to-markets-reliance-zomato-blinkit-units-hit-by-fda-action-562247-2026-10-17)
+- Q2 profit ₹10.80 billion (+65%); LSEG poll ₹9.55 billion; AT-1 ₹84 billion; pro forma Q2 loss ₹52.17 billion; SC dismissed appeals of Yes Bank, RBI and the government, upholding the 2023 Bombay HC decision; bank weighing further proceedings; net worth ₹532.68 bn → ₹469.70 bn and borrowings ₹777.34 bn → ₹861.49 bn if booked; CET1 −~250 bp; CRAR 14.5%; GNPA 1.2%, NNPA 0.2%; SMBC 24.99%. — [Biznob, 17 Oct](https://www.biznob.com/yes-bank-q2-profit-rises-but-at1-ruling-not-booked-as-further-appeal-weighed/)
+- Pro forma Q2 loss ₹52.17 billion ($549 million); half-year ₹21.51 bn profit → ₹41.46 bn loss; pro forma RoA −4.3%; shares down more than 17% since the order; Kotak and Nippon AMCs paused inflows into schemes holding Yes Bank AT-1s (citing Bloomberg, 18 Oct). — [Briefs Finance, 18 Oct](https://www.briefs.co/news/yes-bank-flags-court-hit-q2-loss-scenario-even-as-it-posts-a/)
+- Q2 profit ₹1,080 crore vs ₹654 crore a year ago (+65%); NII ₹2,822 crore (+22.7%); AT-1 ₹8,415 crore written off March 2020; pro forma Q2 loss ₹5,217 crore; SC ruling 15 Oct. — [Lapaas Voice, 17 Oct](https://lapaasvoice.com/yes-bank-q2-profit-rises-65-to-%E2%82%B91080-crore-at1-bond-ruling-impact-remains-unaccounted-for)
 
 ### Watch out
-- Allegations under investigation: say 'FDA ka aarop' / 'FIR mein naam', never that Reliance or Blinkit sold expired food. No company had responded when we checked; look again before the script gate.
-- Name no individual on screen. The FIR names people, but they are private executives. Use the companies, and their official logos, only.
-- No investor angle and no buy/sell talk about Reliance or Eternal shares.
-- Don't tell viewers to stop using any app. The humour lands on the system (the certificate nobody checks), not on the companies' customers.
-- Tests it can carry: logos plus '₹48 lakh' or 'EXPIRED' in frame one (hook in frame one); 20–30 s; the certificate as the send line (a line worth sending).
+- No buy/sell call and no price levels or targets; the 17% fall is reported as news.
+- The ₹5,217 crore is the bank's pro forma figure, not a booked loss. Say 'if booked' or 'the bank's own calculation'.
+- Half-year pro forma loss differs slightly by source (₹4,146 vs ₹4,141 crore); use the quarter figure.
+- Humour on the system (a write-off that was illegal for six years), not on Yes Bank shareholders.
+- Tests it can carry: the Yes Bank logo with '₹1,080 cr profit / ₹5,217 cr loss' in frame one (hook in frame one); 20–30 s (tight length); a send line inside 12 s for the friend who held Yes Bank or its bonds (a line worth sending).
 
-## 3. Groww's profit rose 54%, but F&O's share of its revenue fell from 57% to 45% in a year, so it is turning to IPOs and wealth
+## 3. From 9 Nov, 137 cancer drugs get a 30% cap on trade margins. Moneylife says some prices can fall up to 70%
 
-Deep lane (via The Arc, 15 Oct) · FLAT · **6/10** (momentum 0/3, stake 1/1, shareability 1/2, gap 2/2, known name 2/2) · tracker id `groww-derivatives-arc`
+Deep lane (via Moneylife, 18 Oct; tracked) · COLD · **6/10** (momentum 1/3, stake 0/1, shareability 2/2, gap 2/2, known name 1/2) · tracker id `hospital-drug-markup-sc`
 
-Window: Best this week, Mon 19 to Fri 23 Oct, while the Jio IPO (opens Wed 21 Oct) is applied for on apps like Groww. It fades after Jio lists (about 28 Oct).
+Window: Mon 19 Oct to Mon 9 Nov (new prices); the Supreme Court hears the wider mark-up case again on 27 Oct.
 
 ### What's happening
-- The Arc (15 Oct): Groww is leaning on IPO-related income, margin funding and its fast-growing wealth business, as regulatory changes weigh on equity derivatives. Total income was about ₹1,545 crore in the September quarter, up 44% (The Arc RSS summary).
-- The numbers: net profit ₹725 crore, up 54% from ₹471 crore; revenue from operations ₹1,541 crore, up 44%. Profit was slightly down on the June quarter's ₹735 crore (TradingView/Mint).
-- The shift: equity derivatives were 44.8% of revenue, down from 56.9% a year earlier. Commodities rose from 0.2% to 6.2% of revenue, and margin trading from 7.4% to 10.1%. Groww's own AMC manages ₹7,179 crore, up 145% (TradingView/Mint). Reports tie the F&O slowdown to SEBI's changes to the closing session (CAS).
-- Users: about 2.4 crore transacting users, up 27%. Customer assets ₹3.9 lakh crore, up 46%. SIP inflows ₹14,347 crore in the quarter (TradingView/Mint).
+- New since we last sent it: on 17 Oct the NPPA capped trade margins at 30% of MRP for 137 non-scheduled anti-cancer drugs, under Paragraph 19 of the Drugs (Prices Control) Order, 2013. Revised MRPs take effect on 9 Nov (Tribune, 17 Oct; Moneylife, 18 Oct).
+- It covers expensive targeted and immune therapies: pembrolizumab, nivolumab, osimertinib, palbociclib, ribociclib, abemaciclib, atezolizumab, bevacizumab, denosumab, durvalumab and more, including patented drugs unless exempted (Tribune; Moneylife; The South First).
+- Moneylife reports it is expected to cut retail prices of these medicines by up to 70%, and says not every drug will fall that much. The precedent: in 2019 the same 30% cap on 42 cancer drugs cut the MRPs of 526 brands by up to 90%, according to the government (Moneylife, 18 Oct).
+- How it works: the trade margin (stockist to chemist to patient) can be at most 30% of MRP, a mark-up of 42.86% on the price to the stockist. Where the old MRP is higher, the manufacturer must cut it; companies must file revised prices within seven days, and 'non-submission shall be construed as non-reduction of MRP' (The South First; Tribune).
+- Why it happened (context, 12 Oct): in the Supreme Court case on hospital mark-ups, the bench called a cancer drug priced at ₹2,700 but sold at an MRP of ₹27,000 'broad daylight dacoity', and cited a saline drip line with an MRP of ₹11 sold for ₹270. The court asked why caps cover only cancer drugs; next hearing 27 Oct (Moneylife, 12 Oct).
 
 ### The curiosity gap
-- The app most of us opened for our first SIP made more than half its money from F&O traders a year ago, and still makes 45% from them. Where does a free app's money come from?
-- As F&O slows, its fastest-growing lines are commodities trading (up 30 times as a share of revenue) and margin trading. Where is the app nudging its users next?
-- Next week millions will apply for the Jio IPO through apps like this. What does the app earn from that?
+- A drug that costs ₹2,700 was being sold at ₹27,000, and that was legal. From 9 Nov, for 137 cancer drugs, it won't be. Where was the other ₹24,300 going?
+- In 2019 the same rule cut some cancer-drug prices by up to 90%. If the margins were that fat, what about every other medicine the cap doesn't cover?
+- Almost every family has paid a cancer bill. Will the next one actually be cheaper, and from which date?
 
 ### How hot it is
-- Trend meter on 'Groww results': COLD. YouTube this week: 17 videos, 94,874 views, best 564 views an hour (a Q2 results roundup).
-- vidIQ Instagram outliers on Groww's revenue mix: none. Nearest: @ca.vaibhavjain, day trading vs long-term investing, 1.7M (8.3× median), and @the_unchaptered, the Jio IPO story, 985K (6.0×).
+- Trend meter on 'cancer drug price cap': COLD. Google News 3 today of 4 this week (75% today, but thin); YouTube this week 14 videos, 15,457 views, best 38 views/hr. Tracker history all COLD.
+- But medicine mark-up reels are breaking out on Instagram this month (vidIQ outliers since 5 Oct): @democracyexpresshindi 1.9M (376× median) on hospital drug prices in Bihar; @news18india 1.3M (75×), '56 रु. की दवा 3.5 हजार की कैसे बिकती है?'. Neither covers the new cap.
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [@ca.vaibhavjain (Instagram, adjacent)](https://www.instagram.com/reel/DeYwXDeyHMb/) | Two men at a trading expo on why day trading wrecks your peace, and long-term investing | 1.7M | 8.3× median | since 4 Oct |
-| [@the_unchaptered (Instagram, adjacent)](https://www.instagram.com/reel/Dehg2B3zVjW/) | 'Best IPO of 2026': the Jio story told from the 2G data-recharge era | 985K | 6.0× median | since 4 Oct |
+| [@democracyexpresshindi (Instagram)](https://www.instagram.com/reel/DecIjdnSszl/) | Reporter holds up a medicine box with a wholesale-vs-retail price breakdown: 'दवा के नाम पर डकैती?' | 1.9M | 375.7× median | since 5 Oct |
+| [@news18india (Instagram)](https://www.instagram.com/reel/DehfZb-hqG8/) | Anchor: 'How is a ₹56 drug sold for ₹3,500?', with the box on screen | 1.3M | 75.4× median | since 5 Oct |
+| [@anshrockstar06 (Instagram, adjacent)](https://www.instagram.com/reel/DeeMDluuKp-/) | Voice-over hot take: lavish weddings vs hospital bills | 812K | 120× median | since 5 Oct |
 
-_Nobody has made Groww's revenue mix. The open angle is 'how your free investing app makes money', told the week everyone uses it to apply for Jio._
+_The outrage reels on medicine mark-ups have travelled, but none has the payoff: a date (9 Nov), a rule (30% cap) and a precedent (up to 90% in 2019). The open angle is the answer to the outrage._
 
 ### Facts and sources
-- Groww leaning on IPO income, margin funding and wealth as regulatory changes weigh on equity derivatives; total income about ₹1,545 crore, up 44%. — [The Arc, 15 Oct (headline and public summary)](https://thearcweb.com/article/groww-turns-to-ipos-wealth-as-derivatives-engine-slows-tdsR4tEUirCGCbp9)
-- PAT ₹725 crore (+54% from ₹471 crore); revenue from operations ₹1,541 crore (+44%); June quarter PAT ₹735 crore; equity derivatives 44.8% of revenue vs 56.9%; commodities 6.2% vs 0.2%; MTF 10.1% vs 7.4%; 2.4 crore transacting users; customer assets ₹3.9 lakh crore (+46%); SIP inflows ₹14,347 crore; Groww AMC AUM ₹7,179 crore (+145%). — [TradingView (Mint), 14 Oct](https://www.tradingview.com/news/moodys:8cab8c29eb878:0-groww-q2-profit-rises-54-to-725-crore-as-revenue-mix-diversifies/)
+- Up to 70% expected cut from 9 Nov 2026; not every drug falls 70%; 30% of MRP cap; 137 drugs from a DGHS expert committee list; Para 19 of DPCO 2013; gazette 17 Oct; 2019: 42 drugs, 526 brands cut by up to 90%. — [Moneylife, 18 Oct](https://www.moneylife.in/article/cancer-drug-prices-set-to-fall-by-up-to-70-percentage-as-nppa-caps-trade-margins-on-137-medicines/81978.html)
+- 137 non-scheduled anti-cancer drugs; 30% of MRP; revised prices from 9 Nov; named drugs; manufacturers must cut MRPs above the new ceiling. — [The Tribune, 17 Oct](https://www.tribuneindia.com/news/india/nppa-caps-trade-margins-at-30-for-137-anti-cancer-drugs-revised-prices-from-november-9)
+- 30% of MRP excluding GST = 42.86% mark-up on PTS/PTD; March 2026 reference month; revised MRPs within seven days; patented drugs included unless exempted under Para 32. — [The South First, 17–18 Oct](https://thesouthfirst.com/health/immunotherapy-targeted-therapies-and-more-137-cancer-drugs-set-to-become-more-affordable-from-9-november/)
+- Context: SC bench (Justices Vikram Nath, Sandeep Mehta) on a ₹2,700 drug with a ₹27,000 MRP ('broad daylight dacoity'); saline drip line MRP ₹11 sold at ₹270; next hearing 27 Oct. — [Moneylife, 12 Oct (context)](https://www.moneylife.in/article/why-drug-price-caps-cover-only-cancer-medicines-asks-sc-also-flags-huge-markups-on-stents-and-medical-supplies/81919.html)
 
 ### Watch out
-- Revenue figures differ (₹1,541 crore revenue from operations vs ₹1,502 crore in other reports, about ₹1,545 crore total income in The Arc): use percentages or say 'about ₹1,500 crore'.
-- No buy/sell on Groww's shares and no advice to use or quit the app. The humour lands on the business model, not on traders.
-- Margin trading is lending against shares: mention it as a revenue line only, since loans are a rested topic.
-- Credit 'via The Arc' in the caption; don't quote their text.
-- Tests it can carry: the Groww logo with '45%' in frame one (hook in frame one); 20–30 s; a send line for the F&O friend (a line worth sending).
+- 'Up to 70%' is a ceiling reported by Moneylife, not a promise for every drug; say 'up to'.
+- Generic drug names only; brand names (e.g. Keytruda) aren't on the pages we opened. No pharma stock call.
+- Humour lands on the mark-up system, never on patients. A sensitive subject: no jokes about illness.
+- It has no investor stake (scores 0 there), but Nana Patekar's reel had none either and is our best.
+- Tests it can carry: '₹2,700 → ₹27,000' on screen from frame one (hook in frame one); 20–30 s (tight length); a send line inside 12 s for the family member paying for treatment (a line worth sending).
 
 ## Stories we're tracking
 
@@ -145,38 +150,34 @@ Full board: research/desk/TRACKER.md
 
 | Story | Now | Direction | Day | Status |
 |---|---|---|---|---|
-| Jio Platforms IPO (`jio-ipo`) | HOT | steady | 11 | active |
-| International ETFs trading far above NAV (NSE warning) (`intl-etf-premium`) | COLD | rising | 11 | active |
-| SC orders panel on pharma freebies to doctors (`pharma-freebies-sc`) | HOT | rising | 10 | active |
-| Inox Clean: revenue 43X, debt 45X, IPO on hold (`inox-clean-ipo`) | HOT | rising | 9 | active |
-| Musk calls Ambani 'Prime Minister Ambani' over Starlink (`musk-ambani-starlink`) | HOT | rising | 8 | active |
-| SC on hospital drug markups: Rs 2,700 drug sold at Rs 27,000 (`hospital-drug-markup-sc`) | COLD | rising | 8 | active |
-| Gauahar Khan's Versova duplex: 88% in 12 years (`gauahar-khan-flat`) | COLD | fading | 7 | active |
-| Sensex +1,109 partly on FM's LTCG remark (`ltcg-remark-rally`) | HOT | fading | 5 | active |
-| Gold ₹3,600 cheaper in four sessions on a stronger rupee (`gold-slide-rupee`) | RISING | rising | 4 | active |
-| Airtel Money lists in London at $7 bn (via The Ken) (`airtel-money-london`) | FLAT | fading | 4 | active |
-| Yes Bank -14.5% after SC voids AT-1 write-off (`yes-bank-at1-sc`) | HOT | rising | 3 | active |
-| Mutual funds halt new gold FoF SIPs and bulk gold ETF buys (`gold-fund-halt`) | HOT | rising | 3 | active |
-| Zetwerk IPO: 54% of Q1 revenue from metal sales (`zetwerk-ipo-metals`) | FLAT | rising | 3 | active |
-| IDBI Bank sold to Fairfax at ₹81 vs ₹90 market (`idbi-fairfax-sale`) | HOT | new | 2 | active |
-| ED raids WhatsApp 'Multibagger' pump-and-dump (RM Drip, R&B Denims) (`ed-whatsapp-multibagger`) | COLD | new | 2 | active |
-| Insurance mis-selling complaints +14%; IRDAI crackdown may slip (via The Ken) (`insurance-misselling-ken`) | COLD | new | 2 | active |
-| Green-card freeze 'bloodbath' reels, then Indian IT's best week since 2008 (`it-rally-green-card`) | - | new | 1 | active |
-| Expired food allegedly back on sale: FIR names Reliance, Blinkit directors (`expired-food-reliance-blinkit`) | - | new | 1 | active |
-| Groww's F&O share of revenue falls to 45%; turns to IPOs and wealth (via The Arc) (`groww-derivatives-arc`) | - | new | 1 | active |
+| Jio Platforms IPO (`jio-ipo`) | HOT | rising | 12 | active |
+| International ETFs trading far above NAV (NSE warning) (`intl-etf-premium`) | COLD | steady | 12 | active |
+| SC orders panel on pharma freebies to doctors (`pharma-freebies-sc`) | HOT | steady | 11 | active |
+| Inox Clean: revenue 43X, debt 45X, IPO on hold (`inox-clean-ipo`) | HOT | rising | 10 | active |
+| Musk calls Ambani 'Prime Minister Ambani' over Starlink (`musk-ambani-starlink`) | HOT | rising | 9 | active |
+| SC on hospital drug markups: Rs 2,700 drug sold at Rs 27,000 (`hospital-drug-markup-sc`) | COLD | steady | 9 | active |
+| Gauahar Khan's Versova duplex: 88% in 12 years (`gauahar-khan-flat`) | COLD | rising | 8 | active |
+| Sensex +1,109 partly on FM's LTCG remark (`ltcg-remark-rally`) | COLD | fading | 6 | active |
+| Gold ₹3,600 cheaper in four sessions on a stronger rupee (`gold-slide-rupee`) | FLAT | fading | 5 | active |
+| Airtel Money lists in London at $7 bn (via The Ken) (`airtel-money-london`) | FLAT | steady | 5 | active |
+| Yes Bank -14.5% after SC voids AT-1 write-off (`yes-bank-at1-sc`) | FLAT | fading | 4 | active |
+| Mutual funds halt new gold FoF SIPs and bulk gold ETF buys (`gold-fund-halt`) | HOT | rising | 4 | active |
+| Zetwerk IPO: 54% of Q1 revenue from metal sales (`zetwerk-ipo-metals`) | FLAT | fading | 4 | active |
+| IDBI Bank sold to Fairfax at ₹81 vs ₹90 market (`idbi-fairfax-sale`) | HOT | rising | 3 | active |
+| Insurance mis-selling complaints +14%; IRDAI crackdown may slip (via The Ken) (`insurance-misselling-ken`) | COLD | rising | 3 | active |
+| Green-card freeze 'bloodbath' reels, then Indian IT's best week since 2008 (`it-rally-green-card`) | COLD | new | 2 | active |
+| Expired food allegedly back on sale: FIR names Reliance, Blinkit directors (`expired-food-reliance-blinkit`) | COLD | new | 2 | active |
+| Groww's F&O share of revenue falls to 45%; turns to IPOs and wealth (via The Arc) (`groww-derivatives-arc`) | COLD | new | 2 | active |
 
 ## Also on the wire
-- Musk vs Ambani (tracked, HOT, crowded): after Musk's 'Prime Minister Ambani' posts, Reliance said on 16 Oct that it 'never feared competition' and that Jio awaits the same clearances as Starlink (Reuters, The Hindu and Telegraph headlines; pages not opened). Starlink says its India infrastructure is ready. It is still the fastest money video in India (CNBC Awaaz's Short at 547K, about 2,700 views an hour; @iamumair7.lee 3.9M on Instagram), but five creators passed 1M on it, so the gap is gone unless it is tied to the Jio IPO.
-- Jio IPO (tracked, HOT): anchor book Mon 19 Oct; the issue is open Wed 21 to Fri 23 Oct, listing expected 28 Oct (IPO Ji, tentative). GMP ₹206 on 15 Oct (Outlook Money) and ₹217 (IPOGyani, 15 Oct). Price band ₹1,065–1,119 per Outlook Money; IPO Ji lists ₹1,066–1,118 as tentative. GMP is unofficial.
-- IDBI Bank (tracked, Saturday's pick): Q2 profit fell 39% to ₹2,205 crore (BusinessLine headline, 17 Oct; page not opened), a new turn on the Fairfax sale at ₹81.
-- Yes Bank (tracked): Q2 profit rose, but the AT-1 ruling was not booked while a further appeal is weighed (Reuters headline, 17 Oct; page not opened).
-- Big banks' Q2 (17 Oct, headlines): HDFC Bank profit +4.7% to ₹19,510 crore, deputy MD to step down; ICICI Bank +20% to ₹14,843 crore; Axis Bank +38% to ₹7,003 crore but below estimates.
-- RBI: headlines say the MPC raised its FY27 inflation forecast to 5.2% (Business Standard, 16 Oct) and PNB is 'in no hurry' to raise deposit rates despite the RBI rate hike (ANI). Confirm the policy decision on RBI's site before it is used; the borrower side is a rested topic.
-- Also seen: RBI removed Paytm Payments Bank from its list of scheduled banks (headline, 17 Oct; meter COLD); Cult.fit's IPO approval and Burma Burma's DRHP; Alok Industries down 32% in five days after a wider Q2 loss (Goodreturns). Creator-format slot (a famous Indian's money decision): no strong candidate today.
+- Big banks' Q2 (17 Oct): HDFC Bank standalone profit +4.7% to ₹19,510 crore, NII +9.7% to ₹34,620 crore; ICICI Bank +20% to ₹14,843 crore, NIM 4.18% (Business Standard and The Hindu headlines; pages not opened). The trend meter reads HOT (18 YouTube videos in 24 h, best 6,173 views/hr), but every channel has the same results roundup.
+- Air India (The Ken, 19 Oct: 'Air India needs saving. Singapore Airlines is playing saviour'; paywalled, headline only). Open-source context is old: FY26 loss over ₹22,000 crore (Aviation A2Z, April), a request for about $1.5 billion of fresh equity from Tata and SIA (Reuters via Mothership, August). No fresh number this week, so not today.
+- Musk vs Ambani (tracked, HOT, crowded) and IDBI–Fairfax (tracked, HOT; The Morning Context on 18 Oct: 'Prem Watsa's second bite at Indian banking opens a can of worms') stay on the board. Tata Sons is reviewing its articles to meet SEBI listing norms (ET headline, 19 Oct; meter COLD).
+- Also seen: Jio-bp raised petrol by ₹5 a litre and diesel by ₹3 from 11 Oct while state retailers held (Business Today, 13 Oct); Brent about $105. Nestlé says Nescafé drinks are safe after FSSAI flagged labelling (NDTV Profit headline). Creator-format slot (a famous Indian's money decision): no strong candidate today.
 
 ## Where we stand
 
-291 followers (+78 this week)  
+291 followers (+0 this week)  
 Last reel (Nana Patekar's Rs 1.5 crore car: the money went to farmers' families, then Naam Foundation): 3275 plays so far  
 What every reel is testing:  
 - Hook in frame one: swipe-aways in the first 3 s 52% now, target 45% (3 of 3 reels in)
