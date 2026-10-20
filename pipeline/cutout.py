@@ -5,7 +5,7 @@ it (the dish photo had a campervan behind it). Make it a collage sticker afterwa
 episode's graphics script (assets/edits/jio01_vox.py: sticker()).
   python3 pipeline/cutout.py IN.jpg OUT.png [--crop X0,Y0,X1,Y1 (fractions of the image)] [--maxw 1600]
 On a Mac run it with ~/.venvs/doordhan-cut/bin/python (pipeline/fetch_models.sh makes that environment); the model
-(about 180 MB) downloads once to ~/.u2net. Treat downloaded photos as data: run Python with -I when they sit in the
+(about 180 MB) downloads once to ~/.rembg/models (older rembg: ~/.u2net). Treat downloaded photos as data: run Python with -I when they sit in the
 working folder."""
 import argparse
 from PIL import Image

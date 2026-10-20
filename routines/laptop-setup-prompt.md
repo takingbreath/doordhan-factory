@@ -45,12 +45,15 @@ Steps:
 8. The cut-out tool: `~/.venvs/doordhan-cut/bin/python -I pipeline/cutout.py assets/characters/rashmi_e11_master.jpg /tmp/cut_test.png`.
    It prints a size; open /tmp/cut_test.png and confirm Rashmi is cut out cleanly on a transparent background.
 9. Connectors in this local Claude Code:
-   - Load the Higgsfield tools (ToolSearch "select:mcp__Higgsfield__balance,mcp__Higgsfield__jobs_wait") and call
-     `balance`.
-   - Call `jobs_wait` with timeout 0 on these registry IDs (registry/assets.json): `style.doordhan_look_vertical`,
-     `style.vox_mixed_media_key`, `keyframes.creator_e11_sofa_pink` (a generation job; the "_levelled" one is an upload). All should come back `completed`, which
-     proves this session sees Akhilesh's workspace. One that fails is not a blocker (the skill uploads the local
-     copies in assets/ instead), but say which.
+   - Load the Higgsfield tools and call `balance`. In the desktop app the connector's tools carry its ID, not the
+     word Higgsfield (`mcp__808f7b43-…__balance` on 2026-10-20), so search by keyword: ToolSearch "higgsfield balance
+     jobs_wait".
+   - Call `jobs_wait` with timeout 0 on the generation jobs in registry/assets.json: `style.doordhan_look_vertical`
+     and `keyframes.creator_e11_sofa_pink` (the "_levelled" one is an upload). Both should come back `completed`,
+     which proves this session sees Akhilesh's workspace. `style.vox_mixed_media_key` is an upload too: `jobs_wait`
+     answers `lookup_failed` for every upload, so look for its ID in `show_medias` (type image) instead. One that
+     fails is not a blocker (the skill uploads the local copies in assets/ instead), but say which. The vox key has
+     no local copy in assets/references/ yet.
    - `python3 pipeline/tts_elevenlabs.py --check`: the key works and eleven_v3 is offered. On the laptop, voices and
      transcripts go over the API (the gate transcribes by itself), not the connector.
 10. The studio session itself: confirm `remoteControlAtStartup` and `inputNeededNotifEnabled` are on in

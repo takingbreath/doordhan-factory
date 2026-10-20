@@ -57,6 +57,8 @@ The hard rules apply to every reel. The three approval gates: the story pick is 
 ## Known snag on this Mac
 The `claude` on PATH is an old npm install (1.0.17, `~/.npm-global`) that crashes under Node 25. The desktop app bundles a current Claude Code. For the terminal, run `npm i -g @anthropic-ai/claude-code@latest` or use the native installer.
 
+`python3` is Homebrew's Python 3.14, which refuses `pip3 install` ("externally managed environment", PEP 668). Its numpy comes from Homebrew (`brew install numpy`); pillow and fonttools were installed with `pip3 install --break-system-packages`, and yt-dlp (for fetch_clips.py) as a user install in `~/Library/Python/3.14`. MediaPipe has no wheel for 3.14, so `python3 pipeline/self_test.py` skips the QC checks; the full self-test (ALL PASS, about 1 minute on the M5 Pro, 2026-10-20) is `~/.venvs/doordhan-qc/bin/python pipeline/self_test.py`. rembg 2.0.85 keeps its model in `~/.rembg/models/`, not `~/.u2net`.
+
 ## History
 The repo came from a zip plus one takeover prompt (2026-09-25): unzip, private GitHub repo, pipeline self-test, Higgsfield registry sync, ElevenLabs key check, a ≤10-credit Sarika test shot, and this routine. What changed during that takeover, and why, is logged in registry/episodes.md.
 
