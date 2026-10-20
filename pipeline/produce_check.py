@@ -4,7 +4,7 @@ Checks only local things (no credits, no network except the ElevenLabs key check
 the QC environment and models, the tracked assets the edit and the QC gate read, and the ElevenLabs key (never
 printed). The Higgsfield connector is a sign-in, so the skill checks it with a tool call, not here.
 Usage: python3 pipeline/produce_check.py [--no-network]     exit 0 when ready, 1 with a fix for each missing piece"""
-import argparse, importlib.util, os, shutil, subprocess, sys
+import argparse, importlib.util, json, os, shutil, subprocess, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 QC_PY = os.path.expanduser("~/.venvs/doordhan-qc/bin/python")
@@ -55,9 +55,18 @@ def main():
                "assets/edits/sk03_build.py", "assets/edits/sk03_gfx.py", "assets/edits/sk02_mouthbox.py",
                "assets/edits/nana01_build.py", "assets/edits/jio01_build.py", "assets/edits/jio01_vox.py",
                "assets/fonts/TitanOne.ttf", "assets/fonts/Bungee.ttf", "assets/fonts/Baloo2-Latin-ExtraBold.ttf",
-               "assets/fonts/Baloo2-Deva-ExtraBold.ttf", "assets/audio/ambience"]
+               "assets/fonts/Baloo2-Deva-ExtraBold.ttf", "assets/audio/ambience",
+               "assets/edits/samachar_gfx.py", "assets/fonts/PermanentMarker-Regular.ttf",
+               "assets/fonts/DejaVuSerif-Bold.ttf", "assets/references/vox/plate_paper.jpg",
+               "assets/references/vox/plate_chart.jpg", "assets/references/mirror/index.json",
+               "pipeline/prices.json", "docs/gallery/graphics_styles.jpg"]
     for f in tracked:
         row(os.path.exists(os.path.join(ROOT, f)), f, "git pull (it is tracked in the repo)")
+    hooks = json.load(open(os.path.join(ROOT, ".claude", "settings.json"))).get("hooks", {}).get("PreToolUse", [])
+    cmds = " ".join(h.get("command", "") for m in hooks for h in m.get("hooks", []))
+    row(all(k in cmds for k in ("spend_guard.py", "never_tools.py", "require_qc_stamp.py")),
+        "guard hooks registered (spend guard, never-post, QC stamp) in .claude/settings.json",
+        "git pull; restore the hooks in .claude/settings.json")
     sfx = [f"assets/audio/sfx_{k}.wav" for k in ("whoosh", "pop", "ding", "thud", "scratch", "riser", "stamp")]
     row(all(os.path.exists(os.path.join(ROOT, f)) for f in sfx), "sound-effect kit assets/audio/sfx_*.wav",
         "python3 pipeline/sfx.py")

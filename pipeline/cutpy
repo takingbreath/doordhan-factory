@@ -1,0 +1,7 @@
+#!/bin/sh
+# The Python for pipeline/cutout.py (rembg), on any machine: ~/.venvs/doordhan-cut on a Mac (pipeline/fetch_models.sh;
+# rembg's packages would move the QC environment's pinned numpy), python3 everywhere else. Runs Python isolated (-I),
+# because the photos it cuts are downloads. Usage: pipeline/cutpy pipeline/cutout.py IN.jpg OUT.png
+C="$HOME/.venvs/doordhan-cut/bin/python"
+[ -x "$C" ] && exec "$C" -I "$@"
+exec python3 -I "$@"

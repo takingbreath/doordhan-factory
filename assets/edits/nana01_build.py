@@ -11,6 +11,8 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
 HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(os.path.dirname(HERE))
+SLUG = os.path.basename(HERE)       # the episode is the folder this copy sits in: work/<slug>/build.py
+WREL = os.path.relpath(HERE, ROOT)  # work/<slug>
 W, H, FPS = 720, 1280, 30
 V0 = 0.15                      # voice starts this far into the reel (a lead before the first word)
 CLIPS = f"{HERE}/clips"; VID = f"{HERE}/vid"; KF = f"{HERE}/kf"; TMP = f"{HERE}/build"; os.makedirs(TMP, exist_ok=True)
@@ -356,15 +358,15 @@ def write_manifest(total, final):
     lines = []
     for lid, a, b, cut, segs in L:
         ln = {"id": lid, "speaker": "rashmi", "start": round(a + V0, 3), "end": round(b + V0, 3),
-              "source": "work/nana/build/voice_fixed.wav", "segments": [[round(x + V0, 3), round(y + V0, 3)] for x, y in segs]}
+              "source": f"{WREL}/build/voice_fixed.wav", "segments": [[round(x + V0, 3), round(y + V0, 3)] for x, y in segs]}
         if cut is not None:
             ln["cut_in"] = round(cut + V0, 3)
         lines.append(ln)
-    M = {"slug": "nana01", "format": "creator", "final": os.path.relpath(final, ROOT), "script": "registry/scripts/nana01.json",
-         "characters": {"rashmi": "assets/characters/rashmi_e10_master.jpg"}, "prefinish": "work/nana/edit_raw.mp4",
-         "dialogue_stem": "work/nana/build/dialogue.wav", "length": {"min": 20, "max": 45, "expected": total},
-         "loudness": {"target": -14}, "fps": FPS, "repairs_file": "work/nana/qc_repairs.json",
-         "rebuild": "python3 work/nana/build.py", "lines": lines}
+    M = {"slug": SLUG, "format": "creator", "final": os.path.relpath(final, ROOT), "script": f"registry/scripts/{SLUG}.json",
+         "characters": {"rashmi": "assets/characters/rashmi_e10_master.jpg"}, "prefinish": f"{WREL}/edit_raw.mp4",
+         "dialogue_stem": f"{WREL}/build/dialogue.wav", "length": {"min": 20, "max": 45, "expected": total},
+         "loudness": {"target": -14}, "fps": FPS, "repairs_file": f"{WREL}/qc_repairs.json",
+         "rebuild": f"pipeline/qcpy {WREL}/build.py", "lines": lines}
     json.dump(M, open(f"{HERE}/qc_manifest.json", "w"), indent=1)
 
 
@@ -390,8 +392,8 @@ def main():
     run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", f"{TMP}/concat.txt", "-c", "copy", f"{TMP}/base.mp4"])
     burn(f"{TMP}/base.mp4", f"{TMP}/burned.mp4", overlays())
     mix(total, f"{TMP}/mix.wav")
-    os.makedirs(f"{ROOT}/outputs/nana01", exist_ok=True)
-    out = f"{ROOT}/outputs/nana01/nana01_creator.mp4"
+    os.makedirs(f"{ROOT}/outputs/{SLUG}", exist_ok=True)
+    out = os.environ.get("OUT") or f"{ROOT}/outputs/{SLUG}/{SLUG}.mp4"
     run(["ffmpeg", "-v", "error", "-y", "-i", f"{TMP}/base.mp4", "-i", f"{TMP}/mix.wav", "-map", "0:v", "-map", "1:a",
          "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-shortest", f"{HERE}/edit_raw.mp4"])          # pre-finish, for lip sync
     run(["ffmpeg", "-v", "error", "-y", "-i", f"{TMP}/voice_fixed.wav", "-af", f"adelay={int(V0 * 1000)},apad,atrim=0:{total}",

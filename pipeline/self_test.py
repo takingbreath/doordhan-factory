@@ -145,7 +145,7 @@ def lipsync_model_check():
     try:   # the models can be on disk while this Python lacks the packages (macOS keeps them in a Python 3.11 venv)
         import mediapipe  # noqa: F401
     except Exception:
-        return "SKIPPED: this Python has no mediapipe; run the self-test with ~/.venvs/doordhan-qc/bin/python (fetch_models.sh)"
+        return "SKIPPED: this Python has no mediapipe; run the self-test with pipeline/qcpy (fetch_models.sh makes the environment on a Mac)"
     fx = os.path.join(here, "fixtures", "pandey_talk_3s.mp4"); bad = os.path.join(T, "late.mp4")
     run([FFMPEG, "-y", "-v", "error", "-i", fx, "-c:v", "copy", "-af", "adelay=300:all=1", "-c:a", "aac", bad])
     good = tool("lipsync_lag.py", fx)
@@ -421,6 +421,120 @@ def reel_script_stubs():
     assert r.returncode == 0, r.stdout + r.stderr
     return f"{r.stdout.count('PASS ')} stub runs pass"
 step("reel-script workflow stub runs", reel_script_stubs)
+ROOT = os.path.dirname(here)
+
+
+def hook(name, payload, env=None):
+    r = subprocess.run([py, os.path.join(here, "hooks", name)], input=payload if isinstance(payload, str) else json.dumps(payload),
+                       capture_output=True, text=True, env={**os.environ, **(env or {})})
+    return r.returncode, r.stderr
+
+
+def guard_hooks():
+    """hard rules 1, 2 and 6 hold whatever the instructions: the matchers in .claude/settings.json catch the paid and
+    the posting tools under any connector ID; the spend guard blocks without an approved script and over the budget,
+    and only Akhilesh raises it; never_tools blocks posting and voice cloning"""
+    import re
+    pre = json.load(open(os.path.join(ROOT, ".claude", "settings.json")))["hooks"]["PreToolUse"]
+    by_cmd = {h["hooks"][0]["command"].split("/")[-1].strip('"'): re.compile(h["matcher"]) for h in pre}
+    never, paid = by_cmd["never_tools.py"], by_cmd["spend_guard.py"]
+    for t in ("mcp__x1__vidiq_instagram_publish_reel", "mcp__x2__tiktok_prepare_publish", "mcp__x2__create_voice"):
+        assert never.search(t) and not paid.search(t), t
+    for t in ("mcp__x2__generate_video_batch", "mcp__x2__generate_image", "mcp__x2__upscale_video"):
+        assert paid.search(t) and not never.search(t), t
+    for t in ("mcp__x2__balance", "mcp__x2__jobs_wait", "mcp__x3__creative_generate_image", "mcp__x1__vidiq_generate_video"):
+        assert not paid.search(t) and not never.search(t), t
+    assert hook("never_tools.py", {"tool_name": "mcp__x1__vidiq_instagram_publish_reel"})[0] == 2
+    assert hook("never_tools.py", {"tool_name": "mcp__x2__balance"})[0] == 0
+    R = os.path.join(T, "spendroot"); os.makedirs(os.path.join(R, "registry", "scripts"), exist_ok=True)
+    os.makedirs(os.path.join(R, "pipeline"), exist_ok=True)
+    import shutil as _sh; _sh.copy(os.path.join(here, "prices.json"), os.path.join(R, "pipeline"))
+    env = {"DOORDHAN_ROOT": R}
+    wan = lambda *durs: {"tool_name": "mcp__x2__generate_video_batch", "tool_input": {"requests": [
+        {"index": i, "params": {"model": "wan2_7", "resolution": "720p", "duration": d}} for i, d in enumerate(durs)]}}
+    spend = lambda *a: subprocess.run([py, os.path.join(here, "spend.py"), *a], capture_output=True, text=True, env={**os.environ, **env})
+    assert hook("spend_guard.py", wan(5), env)[0] == 2                                   # no active episode
+    assert spend("start", "t01").returncode != 0                                         # no frozen script
+    json.dump({"slug": "t01", "approved_by": "Naveen (test)"}, open(os.path.join(R, "registry", "scripts", "t01.json"), "w"))
+    assert spend("start", "t01").returncode == 0
+    assert hook("spend_guard.py", wan(6, 5), env)[0] == 0                                # 16.5 of 60
+    assert hook("spend_guard.py", {"tool_name": "mcp__x2__generate_image", "tool_input": {"params": {"model": "new_model_x"}}}, env)[0] == 2
+    assert hook("spend_guard.py", {"tool_name": "mcp__x2__generate_image", "tool_input": {"params": {"model": "new_model_x", "get_cost": True}}}, env)[0] == 0
+    code, err = hook("spend_guard.py", wan(10, 10, 10), env)                             # 45 more: over 60
+    assert code == 2 and "Akhilesh" in err, err
+    assert spend("raise", "t01", "100", "--by", "Naveen", "--quote", "ok").returncode != 0
+    assert spend("raise", "t01", "100", "--by", "Akhilesh", "--quote", "ok, 100").returncode == 0
+    assert hook("spend_guard.py", wan(10, 10, 10), env)[0] == 0
+    assert hook("spend_guard.py", "not json", env)[0] == 2                                # fails closed
+    led = json.load(open(os.path.join(R, "work", "t01", "spend.json")))
+    assert abs(sum(e["credits"] for e in led["entries"]) - 61.5) < 1e-6, led
+    return "posting and voice cloning blocked; no script, unknown price, over budget and Naveen's raise blocked; ledger 61.5"
+step("guard hooks (never post, spend guard)", guard_hooks)
+
+
+def flow_order():
+    """/make-reel's gates keep their order, approvers, format caps and graphics pairings whatever is typed"""
+    R = os.path.join(T, "flowroot"); os.makedirs(os.path.join(R, "research", "briefs"), exist_ok=True)
+    open(os.path.join(R, "research", "briefs", "g01.md"), "w").write("brief")
+    f = lambda *a: subprocess.run([py, os.path.join(here, "flow.py"), *a], capture_output=True, text=True,
+                                  env={**os.environ, "DOORDHAN_ROOT": R}).returncode
+    assert f("new", "g01", "--topic", "t", "--by", "Naveen") == 0
+    assert f("done", "g01", "format", "--value", "creator", "--by", "Naveen") == 1      # out of order
+    assert f("done", "g01", "research", "--brief", "research/briefs/g01.md") == 0
+    assert f("done", "g01", "script", "--by", "Rahul", "--words", "70") == 1             # not an approver
+    assert f("done", "g01", "script", "--by", "Naveen", "--words", "92") == 0
+    assert f("done", "g01", "format", "--value", "teleshop", "--by", "Naveen") == 1      # not on offer
+    assert f("done", "g01", "format", "--value", "creator", "--by", "Naveen") == 1       # 92 words > 75
+    assert f("done", "g01", "format", "--value", "creator", "--by", "Naveen", "--exception-by", "Naveen", "--quote", "x") == 1
+    assert f("done", "g01", "format", "--value", "sahayata_kendra", "--by", "Naveen") == 0
+    assert f("done", "g01", "voice", "--by", "Naveen", "--value", "v.mp3") == 0
+    assert f("done", "g01", "graphics", "--value", "B", "--by", "Naveen") == 1           # untried pairing
+    assert f("done", "g01", "graphics", "--value", "A", "--by", "Naveen") == 0
+    assert f("done", "g01", "production", "--value", "missing.mp4") == 1
+    return "order, approvers, offered formats, word caps, Akhilesh-only exceptions, untried pairings, stamped final"
+step("make-reel flow gates (flow.py)", flow_order)
+
+
+def compliance():
+    """hard rule 3: commands to buy or sell are flagged (not past-tense reporting); a caption needs the disclaimer"""
+    s = os.path.join(T, "cc.txt")
+    open(s, "w").write("Abhi kharid lo.\nरिलायंस के शेयर ख़रीद लो।\nPromoters ne stake becha.\nLogon ne kharida tha.\n"
+                       "SIP mein 12% return milega.\nSIP mein 12% return maan ke.\n")
+    r = subprocess.run([py, os.path.join(here, "compliance_check.py"), s], capture_output=True, text=True)
+    assert r.returncode == 1 and r.stdout.count("BUY/SELL") == 2 and r.stdout.count("RETURN") == 1, r.stdout
+    cap = os.path.join(T, "cap.md"); open(cap, "w").write("Caption #money")
+    r = subprocess.run([py, os.path.join(here, "compliance_check.py"), os.path.join(ROOT, "registry", "scripts", "sk03.json"),
+                        "--caption", cap], capture_output=True, text=True)
+    assert r.returncode == 2, r.stdout
+    return "2 buy/sell commands and 1 bare return flagged; a caption without the disclaimer exits 2"
+step("compliance check (hard rule 3)", compliance)
+
+
+def stamp_long_videos():
+    """an unstamped reel is blocked wherever it is (15 s or more); a short test clip outside outputs/ passes"""
+    from qc_stamp import check
+    lng, sht = os.path.join(T, "long.mp4"), os.path.join(T, "short.mp4")
+    for p, d in ((lng, 16), (sht, 4)):
+        run([FFMPEG, "-v", "error", "-f", "lavfi", "-i", f"testsrc2=size=72x128:rate=25:duration={d}", "-y", p])
+    assert not check(lng)[0] and check(sht)[0]
+    return "16 s unstamped blocked outside outputs/, 4 s passes"
+step("QC stamp on any long video", stamp_long_videos)
+
+
+def graphics_templates():
+    """Samachar never draws outside Sarika's top-left box; the Vox template finds its fonts and paper plates in assets/"""
+    sys.path.insert(0, os.path.join(ROOT, "assets", "edits"))
+    import samachar_gfx as g
+    g.top_box(["UNILEVER BOUGHT", "Minimalist", "RS 3,000 CR"]); g.stock_badge("HUL", "27%")
+    try:
+        g.top_box(["A LINE FAR TOO LONG TO EVER FIT IN THE BOX AT ANY SIZE"]); raise AssertionError("not blocked")
+    except ValueError:
+        pass
+    import jio01_vox as v
+    assert v.plate(1080, 1920, 0.0).size == (1080, 1920) and v.plate_src("plate_chart.png").endswith("vox/plate_chart.jpg")
+    v.F(v.MARKER, 40); v.F(v.SERIF, 30)
+    return "top box and badge inside the box, overflow refused; plates and fonts load"
+step("graphics templates (Samachar box, Vox plates)", graphics_templates)
 for r in results:
     print(f"{r[0]}  {r[1]}  {r[2][:160]}")
 print("\nALL PASS" if all(r[0] == "PASS" for r in results) else "\nSOME STEPS FAILED")

@@ -1,0 +1,275 @@
+{
+ "_note": "Local copies of the Higgsfield references the formats use now (made 2026-10-20 from Akhilesh's workspace). When a registry ID does not resolve from the session's Higgsfield workspace (jobs_wait says lookup_failed and show_medias does not list it), upload the file here instead (media_upload, pipeline/put_upload.py, media_confirm) and use the new media ID. JPEG, at most 1536 px tall.",
+ "keyframes.samachar_closeup": {
+  "id": "1aed7ca2-bbe1-44e2-8237-6a82d4c5d2cf",
+  "file": "assets/references/mirror/samachar_closeup.jpg",
+  "size": [
+   752,
+   1344
+  ]
+ },
+ "keyframes.samachar_desk_medium": {
+  "id": "3501fe96-8bd8-41e8-bd02-3c5ca42c8bea",
+  "file": "assets/references/mirror/samachar_desk_medium.jpg",
+  "size": [
+   752,
+   1344
+  ]
+ },
+ "keyframes.sarika_closeup_w1_black_vneck_sari": {
+  "id": "6980440f-99d3-4db4-89e9-5805d4a03303",
+  "file": "assets/references/mirror/sarika_closeup_w1_black_vneck_sari.jpg",
+  "size": [
+   752,
+   1344
+  ]
+ },
+ "keyframes.sarika_closeup_e9_ruby_wrap": {
+  "id": "0b66415d-f88c-4fc9-98f3-e734f44c9299",
+  "file": "assets/references/mirror/sarika_closeup_e9_ruby_wrap.jpg",
+  "size": [
+   864,
+   1536
+  ]
+ },
+ "keyframes.sarika_closeup_e8_fuchsia_sari": {
+  "id": "20df1add-8b2f-42b6-803f-ea19a4a0eaf1",
+  "file": "assets/references/mirror/sarika_closeup_e8_fuchsia_sari.jpg",
+  "size": [
+   864,
+   1536
+  ]
+ },
+ "keyframes.gupta_stock_exchange": {
+  "id": "bed104cc-72e2-4c6b-a3ac-3bde4ef6ebd1",
+  "file": "assets/references/mirror/gupta_stock_exchange.jpg",
+  "size": [
+   752,
+   1344
+  ]
+ },
+ "keyframes.gupta_street_office": {
+  "id": "6d133894-ac0d-4276-aead-4a32b14ac821",
+  "file": "assets/references/mirror/gupta_street_office.jpg",
+  "size": [
+   752,
+   1344
+  ]
+ },
+ "keyframes.gupta_bima_bhavan_maroon": {
+  "id": "b27f95ae-22a5-4679-9612-25fc7216e66e",
+  "file": "assets/references/mirror/gupta_bima_bhavan_maroon.jpg",
+  "size": [
+   752,
+   1344
+  ]
+ },
+ "keyframes.gupta_parcel_godown_e8": {
+  "id": "0a50d969-f76e-4bb8-b3ab-3f39ea5e73f9",
+  "file": "assets/references/mirror/gupta_parcel_godown_e8.jpg",
+  "size": [
+   752,
+   1344
+  ]
+ },
+ "keyframes.gupta_market_e9": {
+  "id": "183eb879-85e5-432b-99db-f7c51e788cbb",
+  "file": "assets/references/mirror/gupta_market_e9.jpg",
+  "size": [
+   752,
+   1344
+  ]
+ },
+ "keyframes.insert_doorstep_delivery": {
+  "id": "fda14a72-c4f7-4d9b-8e56-a7b5f6f0280c",
+  "file": "assets/references/mirror/insert_doorstep_delivery.jpg",
+  "size": [
+   752,
+   1344
+  ]
+ },
+ "keyframes.insert_warehouse_crt_clerk": {
+  "id": "00ef659e-8c4e-4d04-b117-77dcc9a443f1",
+  "file": "assets/references/mirror/insert_warehouse_crt_clerk.jpg",
+  "size": [
+   752,
+   1344
+  ]
+ },
+ "keyframes.creator_e10_sofa_selfie_levelled": {
+  "id": "0c58ccf8-f503-4657-b15f-447ae91c9c02",
+  "file": "assets/references/mirror/creator_e10_sofa_selfie_levelled.jpg",
+  "size": [
+   864,
+   1536
+  ]
+ },
+ "keyframes.creator_e10_kitchen_counter": {
+  "id": "254def93-c19b-43e1-90cc-fcc5bbfd5dbb",
+  "file": "assets/references/mirror/creator_e10_kitchen_counter.jpg",
+  "size": [
+   864,
+   1536
+  ]
+ },
+ "keyframes.creator_e10_kitchen_counter_levelled": {
+  "id": "d0a3125a-acca-417a-bdba-6fbdce30f7e8",
+  "file": "assets/references/mirror/creator_e10_kitchen_counter_levelled.jpg",
+  "size": [
+   864,
+   1536
+  ]
+ },
+ "keyframes.creator_e10_selfie_close": {
+  "id": "adb963fe-4e68-488d-ad48-75dd0d5d54e9",
+  "file": "assets/references/mirror/creator_e10_selfie_close.jpg",
+  "size": [
+   864,
+   1536
+  ]
+ },
+ "keyframes.creator_e10_window_seat_no_phone": {
+  "id": "6d26e800-690e-42f6-b56f-a46f0aac1841",
+  "file": "assets/references/mirror/creator_e10_window_seat_no_phone.jpg",
+  "size": [
+   864,
+   1536
+  ]
+ },
+ "keyframes.creator_e10_window_seat_levelled": {
+  "id": "d1ae821d-5c3a-4287-80f1-65dae83ee431",
+  "file": "assets/references/mirror/creator_e10_window_seat_levelled.jpg",
+  "size": [
+   864,
+   1536
+  ]
+ },
+ "keyframes.creator_e11_sofa_pink": {
+  "id": "44d7b75c-8437-4369-81c3-a45fb7e226bf",
+  "file": "assets/references/mirror/creator_e11_sofa_pink.jpg",
+  "size": [
+   864,
+   1536
+  ]
+ },
+ "keyframes.recreation_2015_tv_room_from_behind": {
+  "id": "e0144b44-9a0d-40bf-b6c9-3a5515bb3b16",
+  "file": "assets/references/mirror/recreation_2015_tv_room_from_behind.jpg",
+  "size": [
+   752,
+   1344
+  ]
+ },
+ "keyframes.insert_car_detail_unbranded": {
+  "id": "7c8ab66f-689b-4360-9a8c-e9d71926a379",
+  "file": "assets/references/mirror/insert_car_detail_unbranded.jpg",
+  "size": [
+   752,
+   1344
+  ]
+ },
+ "style.vox_mixed_media_key": {
+  "id": "b0d9a257-b3e9-4d6a-9744-989c7532d020",
+  "file": "assets/references/mirror/vox_mixed_media_key.jpg",
+  "size": [
+   1080,
+   1080
+  ]
+ },
+ "keyframes.kendra_e7_listen_ecu_maroon": {
+  "id": "195522ec-b163-4189-9b88-eaa94648629d",
+  "file": "assets/references/mirror/kendra_e7_listen_ecu_maroon.jpg",
+  "size": [
+   752,
+   1344
+  ]
+ },
+ "keyframes.kendra_e7_right_talk_maroon": {
+  "id": "daaa8a81-21dd-4214-9741-6fe7ff6d978b",
+  "file": "assets/references/mirror/kendra_e7_right_talk_maroon.jpg",
+  "size": [
+   752,
+   1344
+  ]
+ },
+ "keyframes.kendra_e7_left_talk_maroon": {
+  "id": "41c03fd6-817e-41e1-9f4a-a0d989ac4c41",
+  "file": "assets/references/mirror/kendra_e7_left_talk_maroon.jpg",
+  "size": [
+   752,
+   1344
+  ]
+ },
+ "keyframes.kendra_e7_low_talk_damp_ceiling": {
+  "id": "ee2edcf5-693f-4584-b5ae-c8a804a8f3fc",
+  "file": "assets/references/mirror/kendra_e7_low_talk_damp_ceiling.jpg",
+  "size": [
+   752,
+   1344
+  ]
+ },
+ "keyframes.kendra_e7_billu_closeup_maroon_behind": {
+  "id": "9a4ef6db-2f33-4901-8350-43bacd5f1007",
+  "file": "assets/references/mirror/kendra_e7_billu_closeup_maroon_behind.jpg",
+  "size": [
+   752,
+   1344
+  ]
+ },
+ "keyframes.kendra_e7_overhead_hangup_maroon_cuff": {
+  "id": "71559b3c-48cc-4423-a075-7bed69652210",
+  "file": "assets/references/mirror/kendra_e7_overhead_hangup_maroon_cuff.jpg",
+  "size": [
+   752,
+   1344
+  ]
+ },
+ "keyframes.kendra_overhead_phone": {
+  "id": "25ffdb7f-42cf-4978-9028-2cc2a1c36f28",
+  "file": "assets/references/mirror/kendra_overhead_phone.jpg",
+  "size": [
+   752,
+   1344
+  ]
+ },
+ "keyframes.kendra_e7_cold_open_billu_standing_crop": {
+  "id": "85a1a70a-55f4-4bda-afbd-ffb706cb1727",
+  "file": "assets/references/mirror/kendra_e7_cold_open_billu_standing_crop.jpg",
+  "size": [
+   648,
+   1152
+  ]
+ },
+ "keyframes.kendra_e7_ring_both_look_at_phone": {
+  "id": "e91a8b40-aac4-40ba-ba9a-cdcf6b2667f6",
+  "file": "assets/references/mirror/kendra_e7_ring_both_look_at_phone.jpg",
+  "size": [
+   752,
+   1344
+  ]
+ },
+ "keyframes.kendra_front_talk": {
+  "id": "369af5a0-bb84-4918-baf4-56adcf7fd8b8",
+  "file": "assets/references/mirror/kendra_front_talk.jpg",
+  "size": [
+   752,
+   1344
+  ]
+ },
+ "keyframes.kendra_insert_key_on_empty_registry_file": {
+  "id": "6a32220b-9cfc-4d48-a3a2-c025611665ce",
+  "file": "assets/references/mirror/kendra_insert_key_on_empty_registry_file.jpg",
+  "size": [
+   752,
+   1344
+  ]
+ },
+ "keyframes.kendra_billu_by_closed_registry_file": {
+  "id": "1b0c8013-9998-4752-a3ea-f4b8dbe991fa",
+  "file": "assets/references/mirror/kendra_billu_by_closed_registry_file.jpg",
+  "size": [
+   752,
+   1344
+  ]
+ }
+}

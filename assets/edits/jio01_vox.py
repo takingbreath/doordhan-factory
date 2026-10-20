@@ -1,5 +1,6 @@
-# Template from jio01 (E11, 2026-10-19): copy to work/<slug>/vox.py. Local Vox-style collage scenes (paper plate,
-# stickers, marker strokes, stamps, stop-motion at 12 fps); scene_* functions are episode-specific examples.
+# Template from jio01 (E11, 2026-10-19): copy to work/<slug>/vox.py (fonts and paper plates come from assets/).
+# Local Vox-style collage scenes (paper plate, stickers, marker strokes, stamps, stop-motion at 12 fps);
+# scene_* functions are episode-specific examples.
 #!/usr/bin/env python3
 """jio01 Vox-style collage graphics, rendered locally (real documents and photos, exact numbers).
 
@@ -14,10 +15,10 @@ from PIL import Image, ImageDraw, ImageFilter, ImageFont, ImageChops
 HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(os.path.dirname(HERE))
 FPS = 30
 G = f"{HERE}/gfx"; R = f"{HERE}/real"
-MARKER = f"{HERE}/fonts/PermanentMarker-Regular.ttf"
+MARKER = f"{ROOT}/assets/fonts/PermanentMarker-Regular.ttf"
 BUNGEE = f"{ROOT}/assets/fonts/Bungee.ttf"
 BALOO = f"{ROOT}/assets/fonts/Baloo2-Latin-ExtraBold.ttf"
-SERIF = "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf"
+SERIF = f"{ROOT}/assets/fonts/DejaVuSerif-Bold.ttf"
 PHONE_SCREEN = (226, 228)         # set from the phone sticker (centre of its screen, in the 640-px-tall sticker)
 YEL = (255, 214, 10); RED = (214, 38, 38); INK = (22, 22, 24); CORAL = (232, 85, 62); NAVY = (28, 42, 82)
 
@@ -55,7 +56,15 @@ def boil(seed, t, amp=1.6, rot=0.45, rate=8):
 _PLATE = {}
 
 
-def plate(w, h, t, src=f"{G}/plate_paper.png", key="paper"):
+def plate_src(name):
+    """The episode's own plate (work/<slug>/gfx/<name>) if it has one, else the house plate in assets/references/vox/
+    (assets/edits/vox_plates.py makes those)."""
+    own = f"{G}/{name}"
+    return own if os.path.exists(own) else f"{ROOT}/assets/references/vox/{os.path.splitext(name)[0]}.jpg"
+
+
+def plate(w, h, t, src=None, key="paper"):
+    src = src or plate_src("plate_paper.png")
     k = (key, w, h)
     if k not in _PLATE:
         im = Image.open(src).convert("RGB")
@@ -280,7 +289,7 @@ def scene_chart(dur):
         im = Image.fromarray(a); return sticker(im, border=6, shadow=0.3, torn="t")
 
     def fr(t):
-        f = plate(W, H, t, src=f"{G}/plate_chart.png", key="chart").convert("RGBA")
+        f = plate(W, H, t, src=plate_src("plate_chart.png"), key="chart").convert("RGBA")
         bx, by, br = boil("fy", t)
         place(f, fy, 360 + bx, 80 + by, pop(t, 0.15), -2 + br)
         hh = FULL * ease_out((st(t) - 1.45) / 0.75) if t >= 1.45 else 0

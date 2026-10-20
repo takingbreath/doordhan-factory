@@ -1,6 +1,6 @@
 # Playbook: produce (after the script is approved)
 
-_The creator format (Rashmi at home, modern look) follows formats/creator.md and assets/edits/nana01_build.py (real footage) or jio01_build.py with jio01_vox.py (Vox-style collage) instead of assemble.py's old-TV finish; what makes it read as real is in docs/realism.md. Production runs on Akhilesh's laptop since 2026-10-19; what can run in parallel without changing the result is in the produce-video skill, section 0._
+_The creator format (Rashmi at home, modern look) follows formats/creator.md and assets/edits/nana01_build.py (real footage) or jio01_build.py with jio01_vox.py (Vox-style collage) instead of assemble.py's old-TV finish; what makes it read as real is in docs/realism.md. Production runs on Akhilesh's laptop by default since 2026-10-19, and in a cloud session at any time (Naveen's route, through /make-reel); what can run in parallel without changing the result is in the produce-video skill, section 0._
 
 _This is the path that has worked so far. Change it whenever you find a better way, and note what you changed in registry/episodes.md._
 

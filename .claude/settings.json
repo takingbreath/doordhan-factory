@@ -28,6 +28,28 @@
             "statusMessage": "Checking the QC stamp"
           }
         ]
+      },
+      {
+        "matcher": "^mcp__.*__(vidiq_instagram_publish_reel|vidiq_video_upload|vidiq_update_video|vidiq_update_video_thumbnail|vidiq_reply_to_comment|vidiq_comment_reply_permission|vidiq_authorize_with_youtube|vidiq_connect_youtube_channel|tiktok_prepare_publish|tiktok_connect|tiktok_reconnect|publish_project|unpublish_project|update_project_publication|confirm_project_publication_review|save_project_publication_preview|publish_website|deploy_website|participate_in_contest|create_voice|create_voice_from_confirmed_audio|voice_change|dubbing)$",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$CLAUDE_PROJECT_DIR/pipeline/hooks/never_tools.py\"",
+            "timeout": 30,
+            "statusMessage": "Checking the never-post rule"
+          }
+        ]
+      },
+      {
+        "matcher": "^mcp__.*__(generate_image|generate_image_batch|generate_video|generate_video_batch|generate_audio|generate_audio_batch|generate_3d|execute_preset|motion_control|upscale_image|upscale_video|outpaint_image|reframe|remove_background|ai_influencer_generate|shorts_studio_create|ads_studio_generate|scene_builder_3d_generate_angles|scene_builder_3d_generate_video)$",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$CLAUDE_PROJECT_DIR/pipeline/hooks/spend_guard.py\"",
+            "timeout": 60,
+            "statusMessage": "Checking the credit budget"
+          }
+        ]
       }
     ],
     "SessionStart": [

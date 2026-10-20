@@ -2,7 +2,7 @@
 """SK02 (E6) edit, "Retire hone ke liye kitni SIP chahiye?": composes every frame in Python (zooms, whips, shakes,
 kinetic text, captions) and mixes the sound with numpy, then hands one raw 720x1280 file to assemble.py for the
 kendra look, VHS motion and ambience. Made from assets/edits/sk01_build.py (E5).
-  ~/.venvs/doordhan-qc/bin/python work/sk02/build.py  ->  work/sk02/edit_raw.mkv + work/sk02/qc_manifest.json
+  pipeline/qcpy work/sk02/build.py  ->  work/sk02/edit_raw.mkv + work/sk02/qc_manifest.json
 The voice is the approved draft cut (work/sk02/voice, Akhilesh 2026-10-03) with the new hook: P1, the caller C1 on the
 landline chain, and the monologue P2 placed segment by segment (work/sk02/seg) so each talking clip lines up with its
 own part of the line. Talking clips (Wan 2.7, 0.5 s lead in each track) map clip time c = 0.5 + (reel - seg start)."""
@@ -717,7 +717,7 @@ def write_qc_manifest():
             ln.update(cut_in=round(CUT(lid), 3), segments=segs.get(lid, []), clip=rel(f"{V}/{TALK[lid][0]}.mp4"),
                       clip_spans=spans.get(lid, []))
         lines.append(ln)
-    py = os.path.expanduser("~/.venvs/doordhan-qc/bin/python")
+    py = "pipeline/qcpy"   # the QC environment on a Mac, python3 in the cloud
     env = f"EDIT_JSON={rel(EDIT_JSON)} QC_REPAIRS={rel(REPAIRS)}"
     man = {"slug": "sk02", "format": "sahayata_kendra", "final": edit["out"],
            "script": "registry/scripts/sk02.json",

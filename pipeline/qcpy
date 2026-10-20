@@ -1,0 +1,7 @@
+#!/bin/sh
+# The Python for the QC tools and the edit templates, on any machine: the QC environment on a Mac (pipeline/fetch_models.sh
+# makes ~/.venvs/doordhan-qc, because MediaPipe has no wheel for Homebrew's Python), python3 everywhere else (the cloud
+# installs the QC packages into python3). Usage: pipeline/qcpy pipeline/qc_gate.py work/<slug>/qc_manifest.json
+Q="$HOME/.venvs/doordhan-qc/bin/python"
+[ -x "$Q" ] && exec "$Q" "$@"
+exec python3 "$@"

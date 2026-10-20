@@ -14,6 +14,8 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 
 HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(os.path.dirname(HERE))
+SLUG = os.path.basename(HERE)       # the episode is the folder this copy sits in: work/<slug>/build.py
+WREL = os.path.relpath(HERE, ROOT)  # work/<slug>
 W, H, FPS = 720, 1280, 30
 V0 = 0.15                      # voice starts this far into the reel (a lead before the first word)
 VID = f"{HERE}/vid"; G = f"{HERE}/gfx"; VOX = f"{HERE}/vox"; TMP = f"{HERE}/build"; os.makedirs(TMP, exist_ok=True)
@@ -303,7 +305,7 @@ def write_manifest(total, final):
     for lid, a, b, cut in L:
         shots = [x for x in SHOTS if x[3]["name"] in LINE_SHOTS.get(lid, [])]       # the talking shots of this line
         ln = {"id": lid, "speaker": "rashmi", "start": round(a + V0, 3), "end": round(b + V0, 3),
-              "source": "work/jio01/build/dialogue_src.wav",
+              "source": f"{WREL}/build/dialogue_src.wav",
               "segments": [[round(x[0] + V0, 3), round(x[1] + V0, 3)] for x in shots]}
         if shots:                                 # identity judged on the raw clips (the split crops her forehead)
             ln["clips"] = [os.path.relpath(x[3]["src"], ROOT) for x in shots]
@@ -311,11 +313,11 @@ def write_manifest(total, final):
         if cut is not None:
             ln["cut_in"] = round(cut + V0, 3)
         lines.append(ln)
-    M = {"slug": "jio01", "format": "creator", "final": os.path.relpath(final, ROOT), "script": "registry/scripts/jio01.json",
-         "characters": {"rashmi": "assets/characters/rashmi_e11_master.jpg"}, "prefinish": "work/jio01/edit_raw.mp4",
-         "dialogue_stem": "work/jio01/build/dialogue.wav", "length": {"min": 20, "max": 70, "expected": total},
-         "loudness": {"target": -14}, "fps": FPS, "repairs_file": "work/jio01/qc_repairs.json",
-         "rebuild": "python3 work/jio01/build.py", "lines": lines}
+    M = {"slug": SLUG, "format": "creator", "final": os.path.relpath(final, ROOT), "script": f"registry/scripts/{SLUG}.json",
+         "characters": {"rashmi": "assets/characters/rashmi_e11_master.jpg"}, "prefinish": f"{WREL}/edit_raw.mp4",
+         "dialogue_stem": f"{WREL}/build/dialogue.wav", "length": {"min": 20, "max": 70, "expected": total},
+         "loudness": {"target": -14}, "fps": FPS, "repairs_file": f"{WREL}/qc_repairs.json",
+         "rebuild": f"pipeline/qcpy {WREL}/build.py", "lines": lines}
     json.dump(M, open(f"{HERE}/qc_manifest.json", "w"), indent=1)
 
 
@@ -341,8 +343,8 @@ def main():
     run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", f"{TMP}/concat.txt", "-c", "copy", f"{TMP}/base.mp4"])
     burn(f"{TMP}/base.mp4", f"{TMP}/burned.mp4", overlays())
     mix(total, f"{TMP}/mix.wav")
-    os.makedirs(f"{ROOT}/outputs/jio01", exist_ok=True)
-    out = os.environ.get("OUT") or f"{ROOT}/outputs/jio01/jio01_starlink_jio.mp4"
+    os.makedirs(f"{ROOT}/outputs/{SLUG}", exist_ok=True)
+    out = os.environ.get("OUT") or f"{ROOT}/outputs/{SLUG}/{SLUG}.mp4"
     run(["ffmpeg", "-v", "error", "-y", "-i", f"{TMP}/base.mp4", "-i", f"{TMP}/mix.wav", "-map", "0:v", "-map", "1:a",
          "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-shortest", f"{HERE}/edit_raw.mp4"])          # pre-finish, for lip sync
     run(["ffmpeg", "-v", "error", "-y", "-i", f"{TMP}/voice_fixed.wav", "-ar", "48000", "-ac", "1", f"{TMP}/dialogue_src.wav"])

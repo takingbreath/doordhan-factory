@@ -28,8 +28,8 @@ Supporting files in this folder: `prompts.md` (the prompts that worked on E7, fo
 ## 0. Where it runs, and what runs in parallel
 Two routes, both always ready (Akhilesh, 2026-10-19):
 - **Laptop** (Akhilesh's default): the Doordhan studio session; the cloud morning session freezes the approved script
-  and hands over `/produce-video <slug>`. `git pull` first. On a Mac, run the QC tools with
-  `~/.venvs/doordhan-qc/bin/python` and cut-outs with `~/.venvs/doordhan-cut/bin/python`.
+  and hands over `/produce-video <slug>`. `git pull` first. Run the QC tools with `pipeline/qcpy` and cut-outs with
+  `pipeline/cutpy` (they pick the Mac's environments, or python3 in the cloud).
 - **Cloud** (Naveen's route; Akhilesh's "produce it here"): any Claude Code cloud session on this repo. The session-start
   hook (.claude/hooks/session-start.sh) installs the tools when the session starts; check its last line, and run
   `bash pipeline/fetch_models.sh` if it says the setup is incomplete. With no ElevenLabs key, voices and transcripts
@@ -52,14 +52,15 @@ then it is sent.
 
 ## 1. Setup (about 3 minutes, no credits)
 1. `python3 pipeline/produce_check.py` must say READY. It lists the fix for anything missing (fetch_models.sh, the
-   ElevenLabs key, the sfx kit). Then `python3 pipeline/self_test.py` must end ALL PASS (on a Mac, run the QC tools
-   with `~/.venvs/doordhan-qc/bin/python`).
-2. Higgsfield: load the connector's tools (ToolSearch "select:" for generate_image, generate_image_batch,
-   generate_video_batch, media_upload, media_confirm, jobs_wait, balance, models_explore). Call `balance`. Then
-   `jobs_wait` with timeout 0 on the style reference (`registry/assets.json` style.doordhan_look_vertical) and the
-   character sheet: if they come back `completed`, the registry IDs work from this workspace. If not, upload the local
-   copies in `assets/characters/` and `assets/references/` (media_upload, then
-   `python3 pipeline/put_upload.py FILE "URL" image/jpeg`, then media_confirm) and use the new media IDs everywhere
+   ElevenLabs key, the sfx kit). Then `pipeline/qcpy pipeline/self_test.py` must end ALL PASS.
+2. Higgsfield: load the connector's tools by keyword (ToolSearch "higgsfield generate_image_batch
+   generate_video_batch media_upload media_confirm jobs_wait balance models_explore"; each person's connector carries
+   its own ID, so "select:" with a guessed name fails). Call `balance`. Then `jobs_wait` with timeout 0 on the style
+   reference (`registry/assets.json` style.doordhan_look_vertical) and the character sheet (uploads, like
+   style.vox_mixed_media_key, show in `show_medias` instead): if they come back `completed`, the registry IDs work
+   from this workspace. If not, upload the local copies in `assets/characters/`, `assets/references/` and
+   `assets/references/mirror/` (index.json maps registry keys to files): media_upload, then
+   `python3 pipeline/put_upload.py FILE "URL" image/jpeg`, then media_confirm; use the new media IDs everywhere
    (note them in `work/<slug>/ids.json`).
 3. Read, in full: CLAUDE.md; `formats/<format>.md` (section 1 = rulings); `playbooks/produce.md`; the registry
    (characters, keyframes, `wardrobe_log`, `clips`); the last three rows and the latest "Changes" bullets of
@@ -74,6 +75,9 @@ then it is sent.
   (`OC, U.P. RERA`), numbers as Hindi words.
 - Freeze it: `python3 pipeline/script_freeze.py <slug> --lines work/<slug>/approved_lines.json --approved-by "<who>"
   --note "<loop slug + pick, and every edit the approver asked for>"`.
+- Open the credit ledger: `python3 pipeline/spend.py start <slug>`. The spend guard (a hook on every paid Higgsfield
+  call) blocks all generation until this is done, and every call that would take the reel past its budget (60, or
+  what Akhilesh raised it to). `spend.py status` shows the running total; `spend.py refund` puts back a failed job.
 
 ## 3. Voice (no Higgsfield credits; ElevenLabs characters only)
 Sahayata Kendra (other formats: format file + playbooks/produce.md step 3):
@@ -108,19 +112,22 @@ Write `work/<slug>/plan.md`, then show it at the gate together with the voice cu
   One wide (the cold open), mediums, one close.
 - **Cost table** from `registry/assets.json` `_costs_credits` (Wan 720p 1.5 a second, billed in whole seconds;
   gpt_image_2_5 0.25). E7: 7 talking shots 54, 6 silent shots 31.5, 15 images 3.75.
-- **The gate:** if the total is over 60, ask Akhilesh (AskUserQuestion) with the breakdown, the voice cut, a look
-  sheet of the new keyframes, the graphics previews and a recommendation, plus the format default vs your alternative
-  for anything you're changing. While waiting, you may spend inside the 60 on keyframes and on one or two test shots
-  of the riskiest new idea (E7 tested Billu's walk-in and his file button first).
+- **The gate:** if the total is over 60, ask Akhilesh with the breakdown, the voice cut, a look sheet of the new
+  keyframes, the graphics previews and a recommendation, plus the format default vs your alternative for anything
+  you're changing. In Akhilesh's own session, AskUserQuestion. In anyone else's (Naveen's), the question would go to
+  them, so write `work/<slug>/budget_request.md` and ask them to forward it to Akhilesh; his answer comes back in his
+  words. Record a yes with `python3 pipeline/spend.py raise <slug> <credits> --by Akhilesh --quote "<his words>"`.
+  While waiting, you may spend inside the 60 on keyframes and on one or two test shots of the riskiest new idea (E7
+  tested Billu's walk-in and his file button first).
 
 ## 5. Keyframes (gpt_image_2_5, 9:16, 0.25 each)
 - Reference the previous episode's front keyframe (for the set), Pandey's sheet and the style reference; prompts in
   `prompts.md`. Make the new-look front frame first, look at it, then the rest in one `generate_image_batch` that
   references the new front frame.
 - Download every frame to `work/<slug>/kf/` and check each:
-  `~/.venvs/doordhan-qc/bin/python pipeline/preflight_keyframe.py KF.png --profile pandey` (talking frames: face at
+  `pipeline/qcpy pipeline/preflight_keyframe.py KF.png --profile pandey` (talking frames: face at
   least 15–16% of the frame height, closed mouth, heavy lids, head level) and
-  `~/.venvs/doordhan-qc/bin/python pipeline/face_consistency.py assets/characters/pandey_sheet_v2.jpg KF.png`
+  `pipeline/qcpy pipeline/face_consistency.py assets/characters/pandey_sheet_v2.jpg KF.png`
   (PASS ≥ 0.55). Look for the floor plan (Billu screen left, phone screen right), stray props on the desk (remove with
   an edit: "Exactly the same image ... with one change only"), and the text on the board and posters.
 - A face that is too small: crop locally (E7: 648x1152 from 752x1344) and upload the crop.
@@ -142,7 +149,7 @@ Write `work/<slug>/plan.md`, then show it at the gate together with the voice cu
 3. **Silent shots:** Wan 2.7 with a start image (and an end image for a change), no audio, 2 s minimum. Prompts in
    `prompts.md`.
 4. Download each clip to `work/<slug>/vid/<name>.mp4`, record its job ID in the spec, then
-   `~/.venvs/doordhan-qc/bin/python pipeline/shot_spec.py judge work/<slug>/specs/<T#>.json work/<slug>/vid/<T#>.mp4`.
+   `pipeline/qcpy pipeline/shot_spec.py judge work/<slug>/specs/<T#>.json work/<slug>/vid/<T#>.mp4`.
    ACCEPT, ACCEPT_WITH_SHIFT (an `audio_shift_ms`) or one automatic RETRY, then ask. Make contact sheets
    (`pipeline/contact_sheet.py CLIP OUT --fps 4 --width 160`) of every silent clip and find the frames you'll use
    (when the receiver lands, when the head turn completes).
@@ -157,21 +164,21 @@ runs under the footer or off the frame, and no text is smaller than about 32 px 
   Write `work/<slug>/edit.json`: `{"out": "outputs/<slug>/E<n>_<topic>.mp4", "parts": [{"file": "work/<slug>/edit_raw.mkv", "room": false}], "target_lufs": -14, "look": "kendra", "ambience": "office"}`.
 - Change the episode-specific parts of build.py: `RING`/`CLICK`/`C1_IN`/`C1_OUT`/`HANGUP1` from `voice/cut.json` and
   `voice/check/cut.scribe.json`; `FIRST` (each segment's first word); `TALK`; `FACE` (measure each clip with
-  `~/.venvs/doordhan-qc/bin/python work/<slug>/mouthbox.py work/<slug>/vid/<T#>.mp4 1.0`); the `SHOTS` list; the text
+  `pipeline/qcpy work/<slug>/mouthbox.py work/<slug>/vid/<T#>.mp4 1.0`); the `SHOTS` list; the text
   `EVENTS`; the sound effects in `mix()`; Billu's button and the card. Keep the hook voice 0.12 s into the reel
   (`P1_AT`): the gate wants a lead before the first word.
-- `PLAN_ONLY=1 ~/.venvs/doordhan-qc/bin/python work/<slug>/build.py` prints the timeline, the talking share (≤ 55%)
+- `PLAN_ONLY=1 pipeline/qcpy work/<slug>/build.py` prints the timeline, the talking share (≤ 55%)
   and each shot's source span ("runs past the clip" means fix it). Then the full build (about 30 s), then contact
   sheets of `work/<slug>/edit_raw.mkv` at 25–30 moments. Fix anything that covers a face or Billu's action, text off
   the frame, a jump at a cut, and look at the first frame (it is the cover).
 
 ## 9. Finish and the QC gate
-1. `~/.venvs/doordhan-qc/bin/python pipeline/assemble.py work/<slug>/edit.json` (about 3 minutes for 66 s).
+1. `pipeline/qcpy pipeline/assemble.py work/<slug>/edit.json` (about 3 minutes for 66 s).
 2. **The phone copy before the gate**, so the stamp covers it:
    `ffmpeg -v error -y -i FINAL.mp4 -c:v libx264 -crf 28 -preset slow -pix_fmt yuv420p -c:a aac -b:a 128k -movflags +faststart outputs/<slug>/<stem>_phone.mp4` (21 MB for 66 s; SendUserFile's limit is 30 MB).
 3. `python3 pipeline/transcribe.py FINAL.mp4 --json work/<slug>/final.scribe.json`, write its `text` to
-   `work/<slug>/final_transcript.txt`, then `~/.venvs/doordhan-qc/bin/python pipeline/qc_gate.py bind-transcript FINAL.mp4 work/<slug>/final_transcript.txt`.
-4. `~/.venvs/doordhan-qc/bin/python pipeline/qc_gate.py work/<slug>/qc_manifest.json`.
+   `work/<slug>/final_transcript.txt`, then `pipeline/qcpy pipeline/qc_gate.py bind-transcript FINAL.mp4 work/<slug>/final_transcript.txt`.
+4. `pipeline/qcpy pipeline/qc_gate.py work/<slug>/qc_manifest.json`.
 5. On BLOCKED, read each failure's clip and fix (gotchas.md has the ones we've hit), then rebuild, assemble, make the
    phone copy again, transcribe, bind and gate. Lip offsets that pass but sit near the −125 ms limit (E7 had −120): centre
    them with `work/<slug>/qc_repairs.json` (`{"P2A": {"src_shift_s": -0.08}}`; −0.08 s moves about +80 ms).
@@ -193,13 +200,18 @@ runs under the footer or off the frame, and no text is smaller than about 32 px 
 - `python3 pipeline/scoreboard.py add-reel --id E<N> --format <format> --story "..." --bets <what it carried> --length <s> --outfit "..." --credits <spent> --notes "..."`.
 - The format file: the cost line in section 10 and any lesson that changes how the next episode is made.
 - The posting kit, in the message itself, following `playbooks/post-kit.md` (caption, cover frame, settings, poll,
-  linked reel, audio name, slot, YouTube Shorts title and settings); also save it as `work/<slug>/post_kit.md`.
+  linked reel, audio name, slot, YouTube Shorts title and settings); also save it as `work/<slug>/post_kit.md` and run
+  `python3 pipeline/compliance_check.py registry/scripts/<slug>.json --caption work/<slug>/post_kit.md` (exit 2 = the
+  caption lacks "Not investment advice").
+- A reel made through /make-reel: `python3 pipeline/flow.py done <slug> final --by "<who>"` and push the flow file.
 - Offer to commit and push (registry, scripts, docs; work/ and outputs/ are git-ignored). Push when they say yes: the
   strategist routine reads GitHub every night, and an unpushed episode gets logged as an unknown reel.
 
 ## Other formats
 The creator format (Rashmi at home, modern look): formats/creator.md section 1 first, then `assets/edits/nana01_build.py` (real footage, a keyed TV recreation) or `assets/edits/jio01_build.py` with `assets/edits/jio01_vox.py` (a split-screen opening, Vox-style collage from real documents and photos, AI collage clips with logo labels); both write their own QC manifest at 30 fps. `pipeline/level_keyframe.py` for tilted heads, `pipeline/cutout.py` for photo cut-outs.
-The templates are for Sahayata Kendra. Samachar (Sarika, Gupta) and Teleshop follow their format files: Sarika's
-wardrobe keyframes use seedream_v4_5 (GPT Image blocks her necklines), talking shots use the steady-newsreader
+The templates are for Sahayata Kendra. Samachar graphics: `assets/edits/samachar_gfx.py` (Sarika's top-left box,
+the stock badge, the full-screen data card, lower thirds for Gupta; it refuses a graphic over Sarika's neckline). Every
+template copied into `work/<slug>/` takes its slug from that folder. Samachar (Sarika, Gupta) and Teleshop follow
+their format files: Sarika's wardrobe keyframes use seedream_v4_5 (GPT Image blocks her necklines), talking shots use the steady-newsreader
 sentence and must pass `headcheck.py`, and the edit is usually an assemble.py edit.json with a hand-written
 qc_manifest (playbooks/produce.md step 10). Steps 1–4 and 9–11 apply unchanged.

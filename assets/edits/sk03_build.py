@@ -5,7 +5,7 @@ does this), then change the episode-specific parts: SEG/FIRST/RING/C1/K_LAST tim
 text EVENTS and the sound effects. Paths come from where the copy sits, so nothing else needs editing.
 Composes every frame in Python (zooms, whips, shakes, kinetic text, the checklist graphics) and mixes the sound with
 numpy, then hands one raw 720x1280 file to assemble.py for the kendra look, VHS motion and ambience.
-  ~/.venvs/doordhan-qc/bin/python work/<slug>/build.py  ->  work/<slug>/edit_raw.mkv + work/<slug>/qc_manifest.json
+  pipeline/qcpy work/<slug>/build.py  ->  work/<slug>/edit_raw.mkv + work/<slug>/qc_manifest.json
   PLAN_ONLY=1 ... prints the timeline, talking share and each shot's source span without rendering
 The voice is the approved draft cut (work/<slug>/voice/<slug>_voice_cut.wav, Akhilesh 2026-10-04, with his four fixes),
 cut into segments at its pauses (work/<slug>/seg, segments.json in cut seconds). Reel time = cut time until Billu's
@@ -715,7 +715,7 @@ def write_qc_manifest():
             ln.update(cut_in=round(CUT(lid), 3), segments=segs.get(lid, []), clip=rel(f"{V}/{TALK[lid][0]}.mp4"),
                       clip_spans=spans.get(lid, []))
         lines.append(ln)
-    py = os.path.expanduser("~/.venvs/doordhan-qc/bin/python")
+    py = "pipeline/qcpy"   # the QC environment on a Mac, python3 in the cloud
     env = f"EDIT_JSON={rel(EDIT_JSON)} QC_REPAIRS={rel(REPAIRS)}"
     man = {"slug": SLUG, "format": "sahayata_kendra", "final": edit["out"],
            "script": f"registry/scripts/{SLUG}.json",
