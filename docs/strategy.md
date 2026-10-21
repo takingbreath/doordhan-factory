@@ -50,14 +50,14 @@ Stage 1 targets are live in the block below. Stages 2 and 3 are the plan after t
 
 ## The book and where we stand
 <!-- scoreboard -->
-_Updated 2026-10-20 21:41 IST by `scoreboard.py write`._
+_Updated 2026-10-21 21:46 IST by `scoreboard.py write`._
 
 **Stage 1: Stop the scroll** (2026-09-26 to 2026-10-25): prove people stop for our reels and stay to the end
 
 - skip rate %: now 55.9, target 45 → not yet
 - watched %: now 29.5, target 45 → not yet
 - median plays at 72 h: now 226, target 500 → not yet
-- best reel's plays: now 3275, target 2000 → on target
+- best reel's plays: now 4055, target 2000 → on target
 - followers: now 286, target 100 → on target
 - strategy stop: 11/20 reels posted this stage; median plays at 72 h now 226, must reach 300
 
@@ -182,3 +182,4 @@ _Written by the strategist every Sunday. The morning session executes it: each s
   - vidIQ credits this week: 45 (35 nightly cross-checks, 5 tonight's cross-check, 5 outliers).
 - 2026-10-19 (nightly): First reel in ten days: E11 (Starlink vs Jio, creator format, 59 s, carries only the famous-name watch item) posted about 18:10 (time read from the shortcode) and linked to DerRj-MyNeO; 237 public plays, 7 likes at 3.5 h, in line with E7's early follower burst (204 at 4 h), so not taking off yet; judge it tomorrow at about a day old against E10's 1,768. vidIQ owner insights unavailable for an eleventh night ("Meta token is inactive"; the account list still says active), so public counts only and no bets judged. Followers 286 (public profile, -5 on the week). Every older reel within 0–26 plays of its last reading (E10 3,297), so only E11 logged. No stop or target hit; all bets HOLD (hook in frame one 52.4% on 3 reels; tight 20–30 s 38.6% on 1; a line worth sending 3.2 per 1k on 3 of 4). 11 of 20 stage reels with 6 days left. Shortcode times put E10's posting at about 01:14 on 10 Oct, not 22:00 on 9 Oct; its readings' ages are about 3 h too high (not changed). vidIQ credits this week: 10.
 - 2026-10-20 (nightly): Starlink vs Jio (E11) is taking off, just over the line: 661 public plays and 34 likes at 27.5 h, against a line of about 650 (3× the ~216 median of the last 10 reels at about a day old); well below Snapdeal (2,242) and Nana Patekar (1,768) at that age. Ride-now line added to docs/learnings.md: a 20–30 s Jio IPO reel for tomorrow, the day it opens. vidIQ owner insights unavailable for a twelfth night ("Meta token is inactive"; the account list still says active), so public counts only and no bets judged. Followers not read tonight (286 last night). Every older reel within 0–20 plays of its last reading, so only E11 logged. No stop or target hit; all bets HOLD (hook in frame one 52.4% on 3 reels; tight 20–30 s 38.6% on 1; a line worth sending 3.2 per 1k on 3 of 4). 11 of 20 stage reels with 5 days left. vidIQ credits this week: 15.
+- 2026-10-21 (nightly): Starlink vs Jio (E11) is now our biggest reel: 4,055 public plays and 232 likes at about 52 h (661 last night), past Nana Patekar (3,319) before its 72 h reading; most of the jump came on Jio IPO opening day. Ride-now line updated: a 20–30 s Jio reel tomorrow while the issue is open, then listing day. No new reel posted today (11 of 20 stage reels, 4 days left). vidIQ owner insights unavailable for a thirteenth night ("Meta token is inactive"; the account list still says active), so public counts only and no bets judged. Followers not read tonight (286 on 19 Oct). Every older reel within 0–35 plays of its last reading, so only E11 logged. No stop or target hit; all bets HOLD (hook in frame one 52.4% on 3 reels; tight 20–30 s 38.6% on 1; a line worth sending 3.2 per 1k on 3 of 4). vidIQ credits this week: 20.
