@@ -118,7 +118,15 @@
     "recreation_2015_tv_room_from_behind": "e0144b44-9a0d-40bf-b6c9-3a5515bb3b16",
     "insert_car_detail_unbranded": "7c8ab66f-689b-4360-9a8c-e9d71926a379",
     "creator_e11_sofa_pink": "44d7b75c-8437-4369-81c3-a45fb7e226bf",
-    "creator_e11_sofa_pink_levelled": "daacaa3f-bdbd-46b5-ae60-0a8eda7002f1"
+    "creator_e11_sofa_pink_levelled": "daacaa3f-bdbd-46b5-ae60-0a8eda7002f1",
+    "kendra_e12_front_talk_mustard": "9c274248-04b3-4a8f-9145-4262360d09bb",
+    "kendra_e12_cold_open_billu_big_left": "2dac92a4-9c2b-40c2-baf4-42bd69edbfee",
+    "kendra_e12_left_talk_mustard": "34adf752-b2f9-4dbe-8abb-6b1c14a054d4",
+    "kendra_e12_right_talk_mustard": "aa73f1f6-8952-454d-8301-4e3299d29b38",
+    "kendra_e12_listen_ecu_mustard": "d9c045f8-b612-4a38-8241-3cd842b030e6",
+    "kendra_e12_overhead_hangup_cardigan_cuff": "8cabf161-bfb0-4394-a7a0-122e2ba98942",
+    "kendra_e12_cold_open_end_both_look_at_phone": "8bd70f59-f74e-4eeb-a9f6-de5aac1a73ca",
+    "kendra_e12_billu_note_tray": "b3a116bc-3994-4a00-a82c-7c2aae487752"
   },
   "voices": {
     "_note": "ElevenLabs over the API is the default (2026-09-30): a voice with an elevenlabs_voice_id is generated with pipeline/tts_elevenlabs.py --voice <name>. A voice without one stays on Higgsfield. higgsfield_fallback keeps a character's old Higgsfield voice element usable (pipeline/higgsfield.py audio --voice <name>).",
@@ -332,6 +340,14 @@
       "model": "gemini_omni",
       "seconds": 10,
       "what": "collage: satellite dish (left), houses (centre), Wi-Fi router (right); price tag snipped, satellites multiply, gift box and coins, rope tug of war; no text"
+    },
+    "kendra_reusable_e12": {
+      "_note": "Wan jobs from sk04 (2026-10-22) worth reusing: Pandey wears the mustard shirt and brown cardigan in all but the Billu clip (Billu's shows the mustard shirt hanging out of focus behind him).",
+      "ring_billu_turns_pandey_looks_down": "da038a6c-2f54-42e4-8e31-54548e47ac2a",
+      "listen_ecu_receiver_mustard": "7ec6c168-4615-4d89-9ddb-f9d9a17077d8",
+      "overhead_hangup_cardigan_cuff": "a97681e0-5796-48a1-b447-242ff9ea3b2c",
+      "billu_sniffs_note_paws_at_tray": "c93b278a-6d65-4704-9519-0699a5e34937",
+      "pandey_talk_T1b_opening_line_cat_beside": "6e910b70-a1b0-40c1-aa8c-5d00ddade6ed"
     }
   },
   "keyframes_notes": {
@@ -345,11 +361,18 @@
     "kendra_e7": "E7 (2026-10-04) set dressing, episode-specific: the wall behind Pandey carries a faded 'SAPNON KA GHAR / POSSESSION 2011' builder poster (fictional), a crack through it and a damp stain; the low angle shows the damp, flaking ceiling. The two cold-open frames are local crops (648x1152 from the GPT frames 428e2276 / 1092160a) uploaded as media, so the face is 15-16% of the frame height. Pandey wears the E7 outfit in all of them; reuse only where it can't be seen or with a wardrobe restyle.",
     "e9": "E9 (DTB3 HUL): sarika_closeup_e9_ruby_wrap is the Seedream job 84514361 frame, cropped locally to 0.85 from the top (mouth box 480: 147,437,108,79); wider framing than E8, 80s blue studio, no bindi (it flickered). gupta_market_e9 is Higgsfield job 183eb879.",
     "creator_e10": "creator_e10_*: Rashmi's four setups (seedream_v4_5); the 'levelled' uploads were rotated with pipeline/level_keyframe.py to pass the head-roll check. recreation_2015_tv_room: blue screen for keying a bulletin; the man is only ever seen from behind. insert_car_detail_unbranded: the first car came out as a recognisable Range Rover; avoid implying a model.",
-    "creator_e11": "creator_e11_*: Rashmi's E11 look (seedream_v4_5 one-change edit to a high square neckline after the first try copied the reference's deep neckline); the levelled upload is rotated -10 deg with level_keyframe.py (roll 18 -> 8). Face reference: assets/characters/rashmi_e11_master.jpg."
+    "creator_e11": "creator_e11_*: Rashmi's E11 look (seedream_v4_5 one-change edit to a high square neckline after the first try copied the reference's deep neckline); the levelled upload is rotated -10 deg with level_keyframe.py (roll 18 -> 8). Face reference: assets/characters/rashmi_e11_master.jpg.",
+    "kendra_e12_*": "sk04 (2026-10-22), job IDs of the gpt_image_2_5 results; local copies are in work/sk04/kf (git-ignored). The 3/4 frames came with stray papers on the desk and were cleaned by an edit (those two clean job IDs were not recorded). The cold open is a 74% crop (face 17% of the frame) of kendra_e12_cold_open_billu_big_left; its end frame was edited from the crop."
   },
   "wardrobe_log": {
     "_note": "One row per character per episode, added when the final is approved. Nobody wears the same outfit twice on air.",
     "rows": [
+      {
+        "episode": "12",
+        "date": "2026-10-22",
+        "character": "pandey",
+        "outfit": "mustard-yellow half-sleeve safari-style shirt with two buttoned chest pockets, brown knitted cardigan worn open with leather elbow patches, black plastic-frame spectacles pushed up on the forehead, blue ballpoint pen behind the ear; Kendra office with a SHIKAYAT PETI complaint box beside the board (sk04)"
+      },
       {
         "episode": "11",
         "date": "2026-10-19",

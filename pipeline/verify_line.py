@@ -37,6 +37,9 @@ NUM_WORDS.update(dict(zip(
     "निन्यानवे".split(),
     [n for n in range(11, 100) if n % 10])))
 NUM_WORDS.update({"पन्द्रह": 15, "पचास": 50})
+# the same 90s with व/ब swapped or the short अ spelling, as Scribe writes them (sk04, 2026-10-21: "अट्ठानवे" was heard as "अट्ठानबे")
+NUM_WORDS.update({"इक्यानबे": 91, "बानबे": 92, "तिरानबे": 93, "चौरानबे": 94, "पचानबे": 95, "छियानबे": 96, "सत्तानबे": 97,
+                  "अट्ठानबे": 98, "अठानवे": 98, "अठानबे": 98, "अंठानवे": 98, "अठ्ठानवे": 98, "अंठानबे": 98, "निन्यानबे": 99})
 UNITS = {"लाख": "lakh", "lakh": "lakh", "lakhs": "lakh", "करोड़": "crore", "करोड": "crore", "crore": "crore",
          "crores": "crore", "हज़ार": "thousand", "हजार": "thousand", "thousand": "thousand", "%": "percent",
          "प्रतिशत": "percent", "percent": "percent", "पर्सेंट": "percent", "परसेंट": "percent"}

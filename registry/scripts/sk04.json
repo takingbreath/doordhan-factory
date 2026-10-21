@@ -1,0 +1,55 @@
+{
+ "slug": "sk04",
+ "approved_by": "Naveen",
+ "frozen_at": "2026-10-21 22:31 IST",
+ "note": "re-approved: Naveen approved a second trim on 2026-10-21 to bring the cut under the 70 s cap: caller line shortened, 'Aaya kahaan?' and 'khud ko Lawrence ka bhai bataata tha' cut; second trim of loop pick w3-1r, about 67 s",
+ "lines": [
+  {
+   "id": "P1",
+   "speaker": "pandey",
+   "text": "[flat, brisk] Salman Khan, माफ़ी माँगो या पाँच करोड़ दो?",
+   "spoken": "Salman Khan, माफ़ी माँगो या पाँच करोड़ दो?"
+  },
+  {
+   "id": "C1",
+   "speaker": "caller",
+   "text": "[curious] Hello, दूरधन सहायता केंद्र? पांडेय जी, Salman Khan को बोला गया माफ़ी माँगो या पाँच करोड़ दो। झगड़ा तो हिरन का है, फिर पैसा क्यों?",
+   "spoken": "Hello, दूरधन सहायता केंद्र? पांडेय जी, Salman Khan को बोला गया माफ़ी माँगो या पाँच करोड़ दो। झगड़ा तो हिरन का है, फिर पैसा क्यों?"
+  },
+  {
+   "id": "P2",
+   "speaker": "pandey",
+   "text": "[flat, brisk] देखो, झगड़ा अट्ठानवे का है। जोधपुर के पास काला हिरन मारा गया, और Bishnoi समाज के लिए वो पवित्र है। Lawrence की अपनी माँग? Jail से बोला, नोखा धाम आके माफ़ी माँगो। पैसे का ज़िक्र ही नहीं। अब पाँच करोड़ वाला message। मुंबई traffic police के WhatsApp पे। भेजने वाला जमशेदपुर का सब्ज़ीवाला, दो दिन बाद खुद बोला, ग़लती से चला गया। दूसरा कर्नाटक का मज़दूर। असली पैसा कितना चला? Salman के घर पे गोली चलाने वालों को, police sources के हिसाब से, चार लाख का वादा था। तो गोली चार लाख की, और नाम [slowly] पाँच करोड़ का।",
+   "spoken": "देखो, झगड़ा अट्ठानवे का है। जोधपुर के पास काला हिरन मारा गया, और Bishnoi समाज के लिए वो पवित्र है। Lawrence की अपनी माँग? Jail से बोला, नोखा धाम आके माफ़ी माँगो। पैसे का ज़िक्र ही नहीं। अब पाँच करोड़ वाला message। मुंबई traffic police के WhatsApp पे। भेजने वाला जमशेदपुर का सब्ज़ीवाला, दो दिन बाद खुद बोला, ग़लती से चला गया। दूसरा कर्नाटक का मज़दूर। असली पैसा कितना चला? Salman के घर पे गोली चलाने वालों को, police sources के हिसाब से, चार लाख का वादा था। तो गोली चार लाख की, और नाम पाँच करोड़ का।"
+  }
+ ],
+ "sha256": "56ddef321a6f8b296c46d5f24cdc1d01c477d5807a3b5227b447c7ed82bcd0fa",
+ "history": [
+  {
+   "approved_by": "Naveen",
+   "frozen_at": "2026-10-21 22:28 IST",
+   "note": "loop salman-khan-extortion-demands-apologize-20261020 pick w3-1r; Pandey's monologue trimmed to ~65 s total (cuts: 'shooting mein', repeated 'message', 'Police ne pakda toh'; timing fix: the sender himself said 'galti se' two days later); plan approved 2026-10-21: Pandey on camera for opening line and closing punchline only, middle as voice-over on real news pictures, target 45-55 credits",
+   "sha256": "f4f7c0724fd295225870bfdd19d61c67525b8a5175652a9f78a10cba1359db6b",
+   "lines": [
+    {
+     "id": "P1",
+     "speaker": "pandey",
+     "text": "[flat, brisk] Salman Khan, माफ़ी माँगो या पाँच करोड़ दो?",
+     "spoken": "Salman Khan, माफ़ी माँगो या पाँच करोड़ दो?"
+    },
+    {
+     "id": "C1",
+     "speaker": "caller",
+     "text": "[curious] Hello, दूरधन सहायता केंद्र? पांडेय जी, news में देखा, Salman Khan को बोला गया Bishnoi मंदिर जाके माफ़ी माँगो या पाँच करोड़ दो। झगड़ा तो हिरन का है, फिर पैसा क्यों माँग रहे हैं?",
+     "spoken": "Hello, दूरधन सहायता केंद्र? पांडेय जी, news में देखा, Salman Khan को बोला गया Bishnoi मंदिर जाके माफ़ी माँगो या पाँच करोड़ दो। झगड़ा तो हिरन का है, फिर पैसा क्यों माँग रहे हैं?"
+    },
+    {
+     "id": "P2",
+     "speaker": "pandey",
+     "text": "[flat, brisk] देखो, झगड़ा अट्ठानवे का है। जोधपुर के पास काला हिरन मारा गया, और Bishnoi समाज के लिए वो पवित्र है। Lawrence की अपनी माँग? Jail से बोला, नोखा धाम आके माफ़ी माँगो। पैसे का ज़िक्र ही नहीं। अब पाँच करोड़ वाला message। आया कहाँ? मुंबई traffic police के WhatsApp पे। भेजने वाला जमशेदपुर का सब्ज़ीवाला, दो दिन बाद खुद बोला, ग़लती से चला गया। दूसरा कर्नाटक का मज़दूर, खुद को Lawrence का भाई बताता था। असली पैसा कितना चला? Salman के घर पे गोली चलाने वालों को, police sources के हिसाब से, चार लाख का वादा था। तो गोली चार लाख की, और नाम [slowly] पाँच करोड़ का.",
+     "spoken": "देखो, झगड़ा अट्ठानवे का है। जोधपुर के पास काला हिरन मारा गया, और Bishnoi समाज के लिए वो पवित्र है। Lawrence की अपनी माँग? Jail से बोला, नोखा धाम आके माफ़ी माँगो। पैसे का ज़िक्र ही नहीं। अब पाँच करोड़ वाला message। आया कहाँ? मुंबई traffic police के WhatsApp पे। भेजने वाला जमशेदपुर का सब्ज़ीवाला, दो दिन बाद खुद बोला, ग़लती से चला गया। दूसरा कर्नाटक का मज़दूर, खुद को Lawrence का भाई बताता था। असली पैसा कितना चला? Salman के घर पे गोली चलाने वालों को, police sources के हिसाब से, चार लाख का वादा था। तो गोली चार लाख की, और नाम पाँच करोड़ का."
+    }
+   ]
+  }
+ ]
+}

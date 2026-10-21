@@ -1,3 +1,17 @@
-numpy
-pillow
-fonttools
+# Python packages for the QC tools and edit templates (the pipeline/qcpy environment).
+# Mac: uv venv -p 3.11 ~/.venvs/doordhan-qc && VIRTUAL_ENV=~/.venvs/doordhan-qc uv pip install -r requirements.txt
+# (MediaPipe has no wheel for Python 3.12+ on macOS; it needs numpy 1.x). pipeline/fetch_models.sh also fetches the models.
+# Not here: rembg[cpu] (cut-outs) lives in its own environment, ~/.venvs/doordhan-cut, so it can't move the pinned numpy.
+# System tools pip can't install: tesseract (+ Hindi data), poppler. ffmpeg and ffprobe come from static-ffmpeg below.
+numpy==1.26.4
+pillow==13.0.0
+scipy==1.16.2
+mediapipe==0.10.21
+onnxruntime==1.23.2
+pytesseract==0.3.13
+opencv-python-headless==4.11.0.86
+python-speech-features==0.6
+torch==2.2.2
+fonttools==4.67.0
+praat-parselmouth==0.4.7
+static-ffmpeg==3.0   # run once: python -c "import static_ffmpeg.run as r; r.get_or_fetch_platform_executables_else_raise()", then link the two binaries into a PATH folder
