@@ -1,153 +1,154 @@
-# Doordhan desk research — Tue 20 Oct 2026
+# Doordhan desk research — Wed 21 Oct 2026
 
-Session: https://claude.ai/code/session_016Ro2wu1z6MDhZit4bDUFDK
+Session: https://claude.ai/code/session_013jvyic2LeEsodFhq1GNSiD
 
-**Pick: story 1.** The Jio IPO opens tomorrow (Wed 21 Oct) and closes Friday, and last night's anchor book is the new number: institutions bid about ₹2.5 lakh crore for ₹8,110 crore of shares, over 30 times. This week's plan says ride Jio, and tonight's 7–9 pm slot is the last one before the issue opens. The open angle is the viewer's own odds: the retail quota has room for at most about 70.9 lakh one-lot applicants (Chittorgarh's reservation table), in a company with over 50 crore subscribers. Caveat: E11 (Starlink vs Jio) went up yesterday and had 237 plays at 3.5 h, so this would be a second Jio reel in two days; it is a different angle (the queue, not the business).
+**Pick: story 1.** The Jio IPO opens today and closes Friday, so tonight's 7–9 pm slot is inside the window, and This week's plan says ride Jio. There is a new turn nobody has made yet: Reliance paid its 4 lakh-plus employees about 15 days early this month and helped them open share accounts for the IPO (Reuters). 'jio ipo gmp today' is trending on Google India and the keyword's YouTube searches are up about 6.5× on the month. The only Short on the early-salary angle has 6 views. Caveat: it would be our third Jio reel in a week (E11 posted 19 Oct; yesterday's anchor-book story is still unmade), so it has to stay on this new fact, not the business. Day-1 subscription numbers come in during the day (bidding opens at 10 am); I'll add them here when you pick.
 
-Runner-up: 2, Axis Bank: profit up 38%, shares down as much as 5%, the top Nifty loser on Monday. The +38% is measured against a quarter that a one-time ₹1,231 crore RBI-advised provision had cut by 26%; against the analysts' ₹7,124 crore, it missed. A known name with a number that doesn't add up, and no Short has taken that angle. Story 3 is the deep lane, via The Ken: Air India lost ₹22,238 crore in FY26 (about ₹61 crore a day), more than double FY25, and the airline still hasn't made an annual profit since Tata bought it.
+Runner-up: 2, silver: down about 46% from its January record in India, from ₹3,84,632 to ₹2,08,380 a kg (Financial Express), just before the Dhanteras buying season. It's a wallet hit for anyone who bought silver or a silver ETF in the January rush, and two Indian reels on the fall have already broken out (3.8M and 1.4M). Story 3 is the deep lane, via The Morning Context: Urban Company's loss tripled on InstaHelp, its 15-minute maid service. The average InstaHelp booking brings in ₹114 and loses ₹279, and the shares fell as much as 10%.
 
-## 1. Jio's IPO opens tomorrow. Institutions bid about ₹2.5 lakh crore for ₹8,110 crore of anchor shares: over 30 times
+## 1. Jio's IPO opens today. Reliance paid its 4 lakh-plus employees about 15 days early and helped them open share accounts
 
-Hot lane (tracked, day 13; IPO) · RISING · **8/10** (momentum 2/3, stake 1/1, shareability 1/2, gap 2/2, known name 2/2) · tracker id `jio-ipo`
+Hot lane (tracked, day 14; IPO opens today) · HOT · **9/10** (momentum 3/3, stake 1/1, shareability 2/2, gap 1/2, known name 2/2) · tracker id `jio-ipo`
 
-Window: Tue 20 Oct (last evening before it opens) to Fri 23 Oct (issue closes). Allotment Mon 26 Oct; listing Wed 28 Oct (Chittorgarh and IPO Guru; Chittorgarh's FAQ says not yet announced).
+Window: Wed 21 Oct (opens today) to Fri 23 Oct (closes). Allotment Mon 26 Oct; listing Wed 28 Oct. A listing-day follow-up is the next turn.
 
 ### What's happening
-- New since we last sent it: the anchor book ran on Mon 19 Oct. Bids came to more than ₹2.5 lakh crore against an anchor allocation of ₹8,110 crore, over 30 times (India Infoline, citing Reuters).
-- The exchange filing (per Moneycontrol, via IPO Guru): ₹8,109.84 crore allotted to 212 anchor investors, 7.24 crore shares at the top of the band, ₹1,119; about 27% of the issue. 25 domestic mutual-fund schemes took 2.48 crore shares, about a third of the anchor book.
-- Named bidders (media reports, not confirmed allocations): BlackRock, Fidelity, Capital Group, T. Rowe Price, JPMorgan AM; GIC, Norges Bank, ADIA, QIA; SBI, HDFC, ICICI Prudential MFs; LIC (India Infoline). CNBC-TV18's sources say most tier-1 funds are expected to get ₹400–450 crore each.
-- The public issue: open Wed 21 to Fri 23 Oct; price band ₹1,065–1,119; lot 12 shares, ₹13,428 at the top; total ₹30,213 crore, all fresh shares; up to ₹27,500 crore goes to repay or prepay Reliance Jio Infocomm's borrowings (India Infoline).
-- Reservation (Chittorgarh): retail 8,50,37,327 shares, 35% of the net issue (31.5% of the total); a retail application can be 1 to 14 lots. At one lot each, that is room for at most about 70.9 lakh retail allottees. Separate pools: RIL shareholders as of 14 Oct (2.23 crore shares) and employees (47 lakh shares).
-- Grey-market premium (unofficial dealer quotes): ₹167 on 6 Oct, peak ₹249 on 18 Oct, ₹245 on 20 Oct, about 22% over the top of the band (IPO Guru). India Infoline warns anchor demand 'should not be taken as a sign of the IPO subscription or the listing price'.
+- New since we last sent it: bidding opened this morning, Wed 21 Oct, and closes Friday. Retail investors, Reliance shareholders and employees can bid; about a third of the shares are reserved for retail (Reuters).
+- Reliance paid its more than 4,00,000 employees about 15 days early this month, and helped arrange share-account opening for those applying (Reuters). Bloomberg first reported it, and said staff were asked whether they had a demat account (as cited by the one Short on it). Reliance hasn't commented in the reports we found.
+- There is a separate employee quota: up to 46,94,835 shares at a ₹54 discount to the issue price, which works out to ₹648 off a 12-share lot (Chittorgarh; the per-lot figure is our arithmetic). Jio Platforms itself had 27,932 full-time employees on 30 June (Chittorgarh), far fewer than the group's 4 lakh-plus.
+- The issue: ₹30,213 crore, all 27 crore fresh shares, band ₹1,065–1,119, India's largest IPO, ahead of Hyundai's ₹27,800 crore; one lot of 12 shares is ₹13,428 at the top (Financial Express). It values Jio at up to about $108 billion (Reuters).
+- Anchors: ₹8,109.84 crore from 212 anchor investors at ₹1,119 on 19 Oct. LIC got the largest single allocation, then New World Fund and the Government of Singapore (Financial Express). Bids for the anchor portion topped $25 billion (Reuters).
+- Grey-market premium ₹245 before opening (Investorgain via Financial Express), about 22% over the top of the band; other trackers quote ₹253–268. All of these are unofficial.
 
 ### The curiosity gap
-- The world's biggest funds queued about ₹2.5 lakh crore for ₹8,110 crore of shares, and most got a slice. Tomorrow it's the public's turn: what are the odds for someone applying with one lot of ₹13,428?
-- Jio has more than 50 crore subscribers. The retail quota has room for at most about 71 lakh one-lot applicants. If even a small share of Jio's customers apply, most get nothing.
-- BlackRock and LIC bid for the same shares a retail viewer will bid for tomorrow, at the same ₹1,119. Who gets priority, and who ends up with the shares?
+- Reliance paid 4 lakh people their salary two weeks early in the same month its biggest IPO opens. Coincidence, or the world's biggest company payroll as a ready-made queue for its own IPO?
+- The salary came early; the next one comes on the usual date. So that money has to last about six weeks, and some of it was meant to go into a ₹13,428 lot.
+- The world's funds bid more than $25 billion for the anchor slice. Today it's the public's turn. Who gets in line first: the funds, Reliance's own staff, its shareholders or ordinary retail?
 
 ### How hot it is
-- Trend meter on 'Jio IPO anchor': RISING. Google News 15 today of 34 this week (44% today); YouTube this week 2 videos, 199,322 views, best 1,491 views/hr. Tracker on 'Jio IPO': RISING, fading (news 73/100), YouTube 337,715 views this week, best 2,401/hr.
-- vidIQ Instagram outliers since 13 Oct: six Jio reels between 945K and 4.4M, at 3.2× to 583× each creator's median, all published before the anchor book. None is on the anchor result.
-- YouTube Shorts on the anchor result (since 18 Oct, region IN): the best is CNBC-TV18 at 6,707 views; the rest are under 3,100. Google Trends India: 'market holidays' and 'is stock market open today' are trending (markets are shut today for Dussehra).
+- Trend meter on 'Jio IPO GMP': HOT. Google News 8 today of 54 this week; YouTube this week 12 videos, 1,134,683 views, best 14,890 views/hr ('JIO IPO Analysis', 357,365 views in 24 h). Google Trends India: 'jio ipo gmp today' is trending (100+). Tracker on 'Jio IPO': HOT, rising (news 54/100), best 27,799 views/hr this week.
+- vidIQ keyword research, 'jio ipo' in India: about 3.3 lakh monthly searches (very high volume, competition 70/100), up about 648% on the 30-day baseline; YouTube views per hour on the topic rose from about 26,000 on 30 Sep to about 4,97,000 on 19 Oct.
+- The early-salary angle: one YouTube Short (Compound Cave, 19 Oct) with 6 views. No Instagram outlier on it.
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [@sharmasunfiltered_ (Instagram)](https://www.instagram.com/reel/Dehs2h4zgmR/) | Split screen, Ambani on top: 'JIO IPO IS HERE!!!', Reliance history parallels | 4.4M | 583.5× median | since 13 Oct |
-| [@wealthboard_ (Instagram)](https://www.instagram.com/reel/Deml3FQTq9E/) | 'AMBANI CHANGE THE GAME': split-screen summary with a caution note | 1.9M | 9.4× median | since 13 Oct |
-| [@the_unchaptered (Instagram)](https://www.instagram.com/reel/Dehg2B3zVjW/) | Opens on an old 2G data recharge card: 'Ek samay tha…', Jio's history | 1.0M | 5.4× median | since 13 Oct |
-| [@maharajtrades (Instagram)](https://www.instagram.com/reel/DemTP7OyyF1/) | Ambani clip, then 'HAMARE MOTABHAI SE PANGA MAT LO': IPO breakdown | 949K | 60.9× median | since 13 Oct |
-| [@poojapatelcfp (Instagram)](https://www.instagram.com/reel/DehJRkKoHOz/) | 'Biggest IPO of India's history': must-know facts | 945K | 20.0× median | since 13 Oct |
-| [CNBC-TV18 (YouTube)](https://www.youtube.com/watch?v=jl8B_fRgeaM) | 'Anchor Book Sees Over 30x Demand At ₹8,110 Cr: Sources', news segment | 6,707 | - | 19 Oct |
+| [@abhishekkarofficial (Instagram)](https://www.instagram.com/reel/DejK5ZLvMBb/) | Talking-head IPO review, 'Most awaited IPO' | 2.8M | 4.7× median | since 14 Oct |
+| [@wealthboard_ (Instagram)](https://www.instagram.com/reel/Deml3FQTq9E/) | 'AMBANI CHANGE THE GAME': split-screen summary with a caution note | 1.9M | 9.5× median | since 14 Oct |
+| [@maharajtrades (Instagram)](https://www.instagram.com/reel/DemTP7OyyF1/) | Ambani clip in frame one, then a split-screen IPO breakdown | 951K | 61.0× median | since 14 Oct |
+| [@nirbhay.originals (Instagram)](https://www.instagram.com/reel/Dehlgb6P5l0/) | Split screen with Akash Ambani footage: 'India ka sabse bada IPO' | 860K | 4.9× median | since 14 Oct |
+| [@hariom.vns (Instagram)](https://www.instagram.com/reel/DerygLOzRyQ/) | Green screen: three tips to raise your allotment chances | 799K | 8.4× median | since 14 Oct |
+| [Compound Cave (YouTube Shorts)](https://www.youtube.com/watch?v=QTgXPQCOa8I) | Why Reliance paid salaries 15 days early (citing Bloomberg) | 6 | - | 19 Oct |
 
-_The big Jio reels all came before the anchor book and all sell the size and the Ambani story. The anchor result so far exists only as news segments and tiny Shorts. Nobody has turned it into the viewer's own odds tomorrow: about ₹2.5 lakh crore of institutional bids, at most about 71 lakh retail lots, 50 crore-plus Jio users._
+_Every Jio reel that broke out sells the size, the Ambani story or allotment tips, and all of them came before the issue opened. Nobody with reach has taken the early-salary angle (the only Short on it has 6 views): the group's own payroll paid early in the IPO's month, with help to open demat accounts._
 
 ### Facts and sources
-- Anchor bids over ₹2.5 lakh crore vs ₹8,110 crore allocation, over 30×; IPO ₹30,213 crore, band ₹1,065–1,119, up to 27 crore fresh shares; up to ₹27,500 crore to repay or prepay Reliance Jio Infocomm's borrowings; opens 21 Oct, closes 23 Oct; bigger than Hyundai's ₹27,800 crore; 500 million+ subscribers; named anchors incl. BlackRock, GIC, Norges, ADIA, QIA, SBI MF, LIC; 'should not be taken as a sign of the IPO subscription or the listing price'. — [India Infoline, 19 Oct](https://www.indiainfoline.com/news/ipo/jio-ipo-makes-history-as-anchor-book-draws-over-2-5-lakh-crore-in-bids-demand-exceeds-30-times)
-- ₹8,109.84 crore allotted to 212 anchors, 7.24 crore shares at ₹1,119, ~27% of the issue; 25 domestic MF schemes took 2.48 crore shares; allotment 26 Oct, listing 28 Oct; GMP ₹167 (6 Oct), ₹249 (18 Oct), ₹245 (20 Oct, +21.9%), unofficial. — [IPO Guru, 19 Oct (updated 22:23)](https://www.ipoguru.in/news/jio-platforms-ipo-anchor-book-30x-demand-8110-crore)
-- Reservation: retail 8,50,37,327 shares (35% of net issue, 31.5% of total); NII 15%; RIL shareholders 2,23,41,376; employees 46,94,835; lot 12 shares, ₹13,428; retail max 14 lots; maximum retail allottees about 70.86 lakh (8,50,37,327 ÷ 12). — [Chittorgarh, updated 20 Oct](https://www.chittorgarh.com/ipo/jio-platforms-ipo/)
-- 'Most tier-1 funds are expected to receive allocation worth Rs 400-450 cr each'; aggregate institutional demand ₹2.50 lakh crore (sources). — [CNBC-TV18 on YouTube, 19 Oct](https://www.youtube.com/watch?v=jl8B_fRgeaM)
+- Bidding opens Wed 21 Oct, closes Friday; about $3.2 billion, India's largest share sale; band ₹1,065–1,119; valuation up to $108.3 billion; retail, Reliance employees and shareholders can bid; about a third reserved for retail; anchor bids over $25 billion, $853 million allotted; trading from 28 Oct; 500 million+ subscribers; Reliance paid its 400,000+ employees about 15 days early this month and helped with share-account opening for applicants. — [Reuters (via WTVB syndication), 20–21 Oct](https://wtvbam.com/2026/10/20/indias-jio-ipo-opens-for-public-bids-in-record-3-2-billion-sale/)
+- Opens 21 Oct; ₹30,213 crore; 27 crore fresh shares; band ₹1,065–1,119; bigger than Hyundai's ₹27,800 crore (Oct 2024); one lot 12 shares, ₹13,428. — [Financial Express live blog, 21 Oct 08:00](https://www.financialexpress.com/market/jio-ipo-live-updates-reliance-jio-gmp-subscription-status-price-band-allotment-nse-bse-4365807/)
+- ₹8,109.84 crore from 212 anchors on 19 Oct at ₹1,119; 7.25 crore shares; LIC the largest single allocation, then New World Fund and the Government of Singapore; allotment 26 Oct, listing 28 Oct; GMP ₹245 (Investorgain), about 22%, unofficial. — [Financial Express, 20 Oct](https://www.financialexpress.com/market/ipo-news-jio-ipo-opens-oct-21-guess-which-key-investor-took-the-biggest-rs-500-cr-anchor-stake-4365415/)
+- Employee reservation up to 46,94,835 shares at a ₹54 discount to the issue price; 27,932 full-time employees and 63,795 contract personnel at 30 June 2026. — [Chittorgarh, Jio Platforms IPO page](https://www.chittorgarh.com/ipo/jio-platforms-ipo/)
+- Reliance shareholders get a ₹2,500 crore reservation; eligible shareholders can apply in both the shareholder and the retail category. — [The Economic Times, 20 Oct](https://economictimes.indiatimes.com/markets/stocks/news/jio-ipo-opens-tomorrow-how-can-investors-maximise-allotment-chances-under-rs-2500-crore-ril-shareholders-quota/articleshow/135064168.cms)
 
 ### Watch out
-- No apply or skip call, no 'listing gain pakka'. Anchor demand is not a forecast of subscription or listing; say so if it is used. GMP is unofficial whenever it appears.
-- The ~71 lakh is our arithmetic from the reservation table (retail shares ÷ 12), the maximum number of one-lot allottees, not an official allotment forecast. Say 'at most about 70 lakh'.
-- Second Jio reel in two days (E11 posted 19 Oct). Keep it on the new number, not the business story E11 told.
-- Jio's official logo is fine; never have an image model draw it. Mukesh Ambani only as a licensed photo or real footage, never AI, and no words he didn't say.
-- Tests it can carry: Jio's logo plus '₹2.5 lakh crore' on screen in frame one and the viewer's stake (tomorrow's application) in the first second; 20–30 s; a send line inside 12 s for the friend applying tomorrow.
+- No apply or skip call, and no 'listing gain pakka'. GMP is unofficial whenever it appears.
+- The early salary is reported fact (Reuters, Bloomberg). That it was done for the IPO is the reports' framing, not Reliance's: Reliance hasn't commented. Say 'the same month', not 'in order to'. No claim that staff were pushed to apply.
+- Who exactly is eligible for the employee quota (Jio staff only, or group staff) isn't stated on the pages we opened. Don't say Reliance's 4 lakh can all use the ₹54 discount.
+- Third Jio reel in a week (E11 posted 19 Oct). Keep it on the early salary, not the business story E11 told.
+- Jio's and Reliance's official logos are fine; never have an image model draw them. Mukesh or Akash Ambani only as a real photo or footage, with no words they didn't say.
+- Tests it can carry: Jio's logo plus 'salary 15 din pehle' style hook text from frame one and the viewer's stake (today's application) in the first second; 20–30 s; a send line inside 12 s for a friend who works at Reliance or is applying this week.
 
-## 2. Axis Bank: profit up 38%, shares down as much as 5%. The +38% is measured against last year's one-off hit
+## 2. Silver is down about 46% from its January record in India: ₹3,84,632 to ₹2,08,380 a kg, just before Dhanteras
 
-Hot lane (new; big stock mover) · RISING · **8/10** (momentum 2/3, stake 1/1, shareability 1/2, gap 2/2, known name 2/2) · tracker id `axis-bank-q2-fall`
+Hot lane (new; market move before Dhanteras) · HOT · **8/10** (momentum 3/3, stake 1/1, shareability 2/2, gap 1/2, known name 1/2) · tracker id `silver-crash-46`
 
-Window: Tue 20 to about Thu 22 Oct (markets shut today for Dussehra; reopen Wed 21). Later turn: HDFC Bank, ICICI and Kotak results reactions this week.
+Window: Wed 21 Oct to Dhanteras and Diwali in early November, the season's biggest silver and gold buying days. Next turns: the US Fed meeting on 27–28 Oct, and each daily rate.
 
 ### What's happening
-- Axis Bank's Q2 (July–Sept): standalone net profit ₹7,003 crore, up 38% from ₹5,090 crore a year earlier, but down 1.56% from ₹7,114 crore in the previous quarter. The LSEG analyst estimate was ₹7,124 crore, so it missed by about ₹121 crore (Upstox; India Infoline, 19 Oct).
-- On Monday 19 Oct the shares fell as much as 5%, to ₹1,225, the biggest one-day fall since 16 Dec 2025, and topped the Nifty 50 losers (Upstox; India Infoline).
-- Why the +38% looks bigger than it is (context, Oct 2025): last year's Q2 profit of ₹5,090 crore was itself down 26%, 'primarily due to a one-time standard asset provision of ₹1,231 crore' advised by the RBI (Business Standard, 15 Oct 2025).
-- What worried analysts: net interest margin down 10 basis points on the quarter to 3.36%; fee income growth 'muted' (Goldman Sachs; Citi: mid-single-digit); one-off labour-code and FCNR costs (Citi). Net interest income +12% to ₹15,371 crore; gross NPA improved to 1.16% from 1.46% (Upstox).
-- Same day: the Sensex fell about 876 points and the Nifty slipped below 22,900, led by private banks and IT (Google News headlines from India Infoline, CNBC-TV18, India Today; pages not opened).
+- Silver hit a record ₹3,84,632 a kg in India on 29 January. By 19 October it was ₹2,08,380, down ₹1,76,252, or about 45.8% (Financial Express, 20 Oct).
+- Internationally it is around $56.50 an ounce, about 54% below January's $121 peak and down more than 13% in the past month, though still about 17% up on a year ago (Financial Express).
+- Why: oil above $110 a barrel (Brent, its highest since May), sticky inflation, high bond yields and a stronger dollar have markets expecting tight central-bank policy for longer. Silver pays no interest, so it loses out (Financial Express).
+- What's next, by the forecasts quoted: J.P. Morgan sees $63 an ounce in Q4 2026 and cut its 2026 average to $70 from $84; Bloomberg Intelligence's Mike McGlone warns of $50 near term (Financial Express, citing Kitco). The Fed meets on 27–28 Oct; markets price a December hike at about 94%.
+- In rupees: ₹1 lakh of silver bought at the January peak is worth about ₹54,000 today (our arithmetic from the two prices). Gold has also cooled, by about 26% from its record (Livemint headline, page not opened), and is down for three straight sessions (Kitco headline).
 
 ### The curiosity gap
-- Profit up 38% and the share falls 5%. If profit jumped, why did the market sell?
-- The 38% is against a year when the bank set aside ₹1,231 crore on the RBI's advice. Take that away and the quarter was flat, and below what analysts expected.
-- Most viewers have an Axis account or card. The headline number and the market's verdict point opposite ways; which one tells you how the bank is doing?
+- In January, silver was the trade everyone wanted in on. Nine months later, ₹1 lakh put in at the top is worth about ₹54,000. Who bought at the top, and why did it fall harder than gold?
+- The metal isn't falling because people stopped wanting silver. It's falling because oil crossed $110 and US rates may go up. What does a war in the Gulf have to do with the silver coin you buy on Dhanteras?
+- Dhanteras is two weeks away, and silver costs about ₹1.76 lakh a kg less than in January. Is this the cheap Dhanteras, or is the fall not done? Forecasters quoted range from $50 to $63 an ounce.
 
 ### How hot it is
-- Trend meter on 'Axis Bank share': RISING. Google News 48 today of 49 this week (98% today); YouTube this week 10 videos, 136,966 views, best 1,593 views/hr.
-- YouTube (since 17 Oct, region IN): NDTV Profit's bank-results rating segment 49,826 views (2,546/hr); The Engineer's Trade results video 21,859; CNBC Awaaz 9,627. All are results roundups or 'what to do' segments.
-- vidIQ Instagram outliers since 6 Oct: no Axis reel among them; the bank stories that broke out were IDBI's sale (2.2M and 1.2M) and HDFC CEO vs SBI chairman pay (1.9M, 279×).
+- Trend meter on 'silver price crash': HOT. Google News 1 today of 9 this week; YouTube this week 15 videos, 693,309 views, best 6,753 views/hr (a gold-and-metals deep dive, 162,078 views in 24 h).
+- vidIQ Instagram outliers since 7 Oct: two Indian silver-fall reels broke out (3.8M at 98× median, and 1.4M at 7.1×). YouTube Shorts since 14 Oct (region IN): FM News 'Gold Silver Price' 145,436; Saam TV's Dussehra gold-and-silver story 88,677 (6,821/hr).
+- vidIQ keyword research, 'silver price crash' in India: about 4,800 monthly searches, competition 33/100 (low; the metrics date from August).
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [NDTV Profit (YouTube)](https://www.youtube.com/watch?v=3TDM2kavIRA) | 'Which Bank Stole The Show In Q2?': an analyst rates ICICI, HDFC, PNB, IDBI and Axis | 49,826 | - | 19 Oct |
-| [The Engineer's Trade (YouTube)](https://www.youtube.com/watch?v=g_scV1-uH2Q) | Axis Bank Q2 results walkthrough | 21,859 | 1.0× | 17 Oct |
-| [CNBC Awaaz (YouTube)](https://www.youtube.com/watch?v=nL28swb7VTc) | Anuj Singhal on what to do with HDFC Bank and Axis after results | 9,627 | - | 19 Oct |
-| [@bhartiya24x7 (Instagram, adjacent)](https://www.instagram.com/reel/DeRowXUTK-v/) | Split image: HDFC Bank CEO ₹36 crore vs SBI chairman ₹43 lakh | 1.9M | 279.2× median | since 6 Oct |
-| [@cryptowalaindia (Instagram, adjacent)](https://www.instagram.com/reel/DeiT-DChwpU/) | 'Govt Sold IDBI Bank for ₹52,878 Crore': one rupee number on screen | 2.2M | 7.5× median | since 6 Oct |
+| [@n.s_silver05 (Instagram)](https://www.instagram.com/reel/Def9VhCTmjt/) | A Jaipur silver dealer holds a silver bar while a voiceover skit panics: 'Market crash ho gaya!'; on-screen text '46 saal ka record toota… ₹2,13,000' | 3.8M | 98.2× median | since 7 Oct |
+| [@brijdwivedi17 (Instagram)](https://www.instagram.com/reel/DeMUlqRMFBb/) | Talking head: 'Bad news for silver: what will silver cost by Diwali?', with brokerage views | 1.4M | 7.1× median | since 7 Oct |
+| [@untappedind (Instagram, adjacent)](https://www.instagram.com/reel/DecLXJJJfYo/) | 'Everyone talks gold and silver; what about copper?' | 946K | 15.6× median | since 7 Oct |
+| [FM NEWS (YouTube Shorts)](https://www.youtube.com/watch?v=YMeGp3GjTE4) | 'Big news for gold and silver buyers', a rate update | 145,436 | 13.9× (vidIQ outlier score) | 16 Oct |
+| [Saam TV News (YouTube)](https://www.youtube.com/watch?v=x8TQpDlV0Q8) | Jalgaon's Dussehra rush as gold and silver prices fall | 88,677 | - | 20 Oct |
 
-_Axis exists only as long results videos and 'what to do now' segments. Nobody has made the short that puts the two numbers side by side (+38% profit, −5% share) and explains the base effect: last year's ₹1,231 crore one-off. Bank reels that broke out this month used one big number on screen._
+_The fall has broken out twice, as panic (a dealer's skit) and as a forecast ('what will it cost by Diwali?'). Nobody has told it as the viewer's own January buy: ₹1 lakh at the top is now about ₹54,000, and the cause is oil and US rates, not demand. The Dhanteras timing is still open._
 
 ### Facts and sources
-- Q2 net profit ₹7,003 crore vs ₹5,090 crore (+38%), −1.56% QoQ from ₹7,114 crore; LSEG estimate ₹7,124 crore; intraday low ₹1,225 (−5%), biggest one-day fall since 16 Dec 2025, top Nifty loser; NII +12% to ₹15,371 crore; NIM 3.36% (−10 bp QoQ), core 3.47%; GNPA 1.16% vs 1.46%; fee growth muted (Goldman, Citi). — [Upstox, 19 Oct](https://upstox.com/news/market-news/stocks/axis-bank-shares-post-biggest-single-day-fall-in-over-10-months-after-q2-earnings-here-is-why/article-202062/)
-- Profit ₹7,003 crore +38%; LSEG ₹7,124 crore; low ₹1,225; at 1:05 pm ₹1,237.20, −4.02%. — [India Infoline, 19 Oct](https://www.indiainfoline.com/news/companies/axis-bank-share-price-drops-5-despite-jump-in-profits-by-38-analysts-raise-concerns-over-margin-and-fee-income-growth)
-- Context (a year old): Q2 FY26 net profit ₹5,090 crore, −26% YoY, 'primarily due to a one-time standard asset provision of ₹1,231 crore'. — [Business Standard, 15 Oct 2025](https://www.business-standard.com/companies/news/axis-bank-q2-profit-falls-26-on-rbi-advised-one-time-provisioning-125101501014_1.html)
+- Record ₹3,84,632/kg on 29 Jan; ₹2,08,380/kg on 19 Oct; down ₹1,76,252, about 45.8%; international ~$56.50/oz, about 54% below the $121 January peak, down 13%+ in a month, up ~17% in a year; Brent above $110; dollar index ~102; J.P. Morgan Q4 2026 $63, 2026 average cut to $70 from $84; McGlone (Bloomberg Intelligence, via Kitco) $50 possible near term; Fed 27–28 Oct, ~94% December hike priced. — [Financial Express, 20 Oct 17:03](https://www.financialexpress.com/market/gold-pulse/silver-falls-over-13-in-a-month-what-should-investors-watch-next/4365496/)
 
 ### Watch out
-- No buy/sell call, no price targets or levels, no analyst ratings (SEBI price-data rule in docs/platform-playbook.md). Report the fall as news.
-- Sources give 4% and 5%: say 'as much as 5%' (intraday) or 'about 4%'.
-- Business Standard has a consolidated profit of ₹7,704.67 crore (+39.4%); the ₹7,003 crore is standalone. Use one and say which.
-- The 'flat without the one-off' line is a reading of the base, not a reported figure: the ₹1,231 crore is last year's provision. Keep it as 'last year was a low base'.
-- Tests it can carry: the Axis logo with '+38% profit / −5% share' in frame one (hook in frame one); 20–30 s; a send line inside 12 s for the friend who reads only headlines.
+- No buy or sell call, no 'Dhanteras pe le lo', no price targets of our own. The J.P. Morgan and McGlone numbers are their forecasts; if used, say whose.
+- The ₹54,000 is our arithmetic (₹1 lakh × 2,08,380 ÷ 3,84,632). Use the FE date (19 Oct price); city rates differ by a few thousand a kg (dealer reels quote ₹2.13–2.14 lakh).
+- The record is the January 2026 peak, not an all-time 46-year anything (the 3.8M reel's '46 saal' text is wrong or means something else). Say 'January's record'.
+- Gold's 26% fall is a headline we didn't open: context only, not a headline number.
+- Humour lands on the herd (everyone piled in in January), never on the viewer who bought.
+- Tests it can carry: '−46%' and a silver bar in frame one, the stake ('January mein liya?') in the first second; 20–30 s; a send line inside 12 s for the friend who bought silver in January.
 
-## 3. Air India lost ₹22,238 crore last year, about ₹61 crore a day, and Tata still hasn't made it profitable. The Ken: Singapore Airlines is playing saviour
+## 3. Urban Company's loss tripled on InstaHelp, its 15-minute maid service: the average booking brings in ₹114 and loses ₹279
 
-Deep lane (via The Ken, 19 Oct) · FLAT · **6/10** (momentum 1/3, stake 0/1, shareability 2/2, gap 1/2, known name 2/2) · tracker id `air-india-loss-ken`
+Deep lane (via The Morning Context, 20 Oct) · COLD · **7/10** (momentum 0/3, stake 1/1, shareability 2/2, gap 2/2, known name 2/2) · tracker id `urban-company-instahelp`
 
-Window: Tue 20 Oct to about Mon 2 Nov; later turns: a Tata Sons or Singapore Airlines capital infusion, and SIA's half-year results in November.
+Window: Wed 21 Oct to about Tue 3 Nov. Later turns: the ₹2,500 crore fundraise, and Snabbit's and Pronto's next rounds.
 
 ### What's happening
-- The Ken, 19 Oct: 'Air India needs saving. Singapore Airlines is playing saviour' (paywalled; headline only).
-- Public facts: Air India's consolidated loss more than doubled to ₹22,238.23 crore in FY26 (year to March 2026), from ₹10,858.83 crore in FY25. Total income fell to ₹71,869.94 crore from ₹78,635.61 crore; expenses rose to ₹93,733.31 crore (BW Businessworld). That is about ₹61 crore a day (our arithmetic).
-- Where it went: foreign-exchange losses rose to ₹7,388 crore from ₹1,545 crore; maintenance ₹14,976 crore; fuel actually fell, to ₹26,872 crore. Exceptional items ₹429 crore include an amount tied to the AI171 crash in June 2025 (BW Businessworld).
-- This week: new CEO Tewolde Gebremariam (from 1 Oct, ex-Ethiopian Airlines) set up a full-time cost-cutting team, tightened spending approvals and launched an employee award for savings ideas. The airline has not reported an annual profit since its return to Tata in 2022 (BW Businessworld).
-- The rescue (context, Sept): Tata Sons approved an infusion of over ₹10,000 crore with conditions; Singapore Airlines, which owns about a quarter of Air India, would need to put in about ₹3,350 crore to avoid dilution (Skift, 4 Sep; other reports). N Chandrasekaran calls the turnaround 'a five- to ten-year journey' (BW Businessworld).
+- The Morning Context, 20 Oct: 'Urban Company is forced to play both defence and offence' (paywalled; headline only).
+- The public facts: Q2 (July–Sept) consolidated net loss ₹182.48 crore, against ₹59.33 crore a year earlier, about three times as much; revenue up 41.4% to ₹537.29 crore (Upstox, 19 Oct).
+- The cause is InstaHelp, the 15-minute household-help service: revenue ₹20.5 crore (₹1.4 crore a year ago) against an adjusted EBITDA loss of ₹174 crore. 6.2 million orders, up 63% on the quarter (Upstox; INDmoney).
+- Per booking: net order value ₹114, down from ₹138; loss per order ₹279, down from ₹346 in Q1 (INDmoney). So on today's numbers, every ₹114 booking costs it about ₹393 to deliver (our arithmetic). It competes with Snabbit and Pronto (INDmoney).
+- Shares fell as much as about 9–10% on Mon 19 Oct, to a low of ₹143.2; market value ₹22,355 crore (Upstox). The board approved raising up to ₹2,500 crore (Upstox). Context: the IPO was priced at ₹103 in September 2025, 103× subscribed, and listed at ₹161–162 (5paisa, Business Standard), so the stock is still above its issue price.
 
 ### The curiosity gap
-- Tata bought back its own airline in 2022 to make it great again. Four years on it loses about ₹61 crore every day, more than double last year.
-- Fuel got cheaper and the loss still doubled. The biggest jump was currency losses: ₹1,545 crore to ₹7,388 crore. What does a weak rupee have to do with your flight ticket?
-- Why is a Singaporean airline the one being asked to save India's national carrier?
+- A maid at your door in 15 minutes for about ₹114. Urban Company loses about ₹279 every time you book one. Who is paying for your cheap maid?
+- The core business is profitable again, and the company is still burning ₹174 crore a quarter on one app feature. Why would a listed company choose to lose money this fast?
+- Snabbit, Pronto and Urban Company are all subsidising the same 15-minute maid. Which one runs out of money first, and what happens to the price when the subsidy stops?
 
 ### How hot it is
-- Trend meter on 'Air India loss': COLD (news query too narrow; BW, The Ken and others covered it on 19 Oct); YouTube this week 13 videos, 247,347 views, best 1,951 views/hr (an unrelated defence video).
-- YouTube Shorts since 20 Sep: CA Rahul Malodia's 'Air India की मुश्किलें आखिर क्यों खत्म नहीं हो रहीं?' (8 Oct, 335,531 views) already led with 'losses of over ₹22,000 crore'.
-- vidIQ Instagram outliers since 20 Sep: no Air India reel; the nearest is Vijay Mallya asking why India sees him as a failure (2.5M, 15.9×), the other famous airline loss.
+- Trend meter on 'Urban Company share': COLD. Google News 0 today of 8 this week; YouTube this week 19 videos, 60,163 views, best 587 views/hr.
+- YouTube since 1 Oct (region IN): the most-viewed Urban Company results video is NDTV Profit's at 1,473 views; CNBC-TV18 778; the rest are under 600. vidIQ Instagram outliers since 21 Sep: no Urban Company reel among them.
+- vidIQ keyword research, 'urban company share' in India: about 5,200 monthly searches, competition 55/100.
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [CA Rahul Malodia (YouTube Shorts)](https://www.youtube.com/watch?v=SnzsB-OmIVY) | Why Air India's troubles won't end: ₹22,000 crore losses, safety and complaints | 335,531 | - | 8 Oct |
-| [@visionaryindians (Instagram, adjacent)](https://www.instagram.com/reel/Deb70ZZSo0a/) | Vijay Mallya podcast clip: why India sees him as a failure when other airlines failed too | 2.5M | 15.9× median | since 20 Sep |
-| [ALPHA BY SHIVAM (YouTube Shorts)](https://www.youtube.com/watch?v=ylqrotn6oG0) | 'From JRD Tata's dream to a ₹22,000 crore loss?' | 2,176 | - | 10 Oct |
+| [NDTV Profit (YouTube)](https://www.youtube.com/watch?v=IZiN0k1kU4E) | 'Stock falls 10% post Q2: an opportunity to enter?' | 1,473 | - | 19 Oct |
+| [CNBC-TV18 (YouTube)](https://www.youtube.com/watch?v=45JUCWvgipE) | Results segment: loss widens on InstaHelp investments | 778 | - | 19 Oct |
+| [Stoploss Samosa (YouTube Shorts)](https://www.youtube.com/watch?v=RiaYLnQFrCM) | Tamil 12-second Short: why the share fell, loss tripled | 567 | - | 19 Oct |
 
-_The ₹22,000 crore loss has been done once at scale (Malodia, 335K), as a list of troubles. Nobody has made it per day (₹61 crore), the forex surprise (fuel fell, the loss still doubled) or The Ken's angle: Singapore Airlines, not Tata, as the rescuer. Mallya's 2.5M shows airline-loss stories with a famous name travel._
+_Nobody has made a short of this that travelled; the results exist only as news segments under 1,500 views. Nobody has told it as the viewer's own cheap maid: ₹114 a booking, ₹279 lost on each, and three funded apps subsidising the same 15 minutes._
 
 ### Facts and sources
-- FY26 consolidated loss ₹22,238.23 crore vs ₹10,858.83 crore; income ₹71,869.94 crore vs ₹78,635.61 crore; expenses ₹93,733.31 crore vs ₹89,317.12 crore; maintenance ₹14,976.45 crore; fuel ₹26,871.80 crore vs ₹29,023.37 crore; forex loss ₹7,388.23 crore vs ₹1,545.01 crore; exceptional ₹429.05 crore incl. AI171; standalone loss ₹15,367.75 crore; Chandrasekaran: 'five- to ten-year journey'; jointly owned by Tata and Singapore Airlines. — [BW Businessworld](https://www.businessworld.in/article/air-india-loss-widens-to-rs-22-238-cr-in-fy26-624114)
-- Dedicated full-time cost-cutting team under CEO Tewolde Gebremariam (took charge 1 Oct); tighter spending approvals; PRABHAV savings award; no annual profit since the 2022 return to Tata. — [BW Businessworld, 19 Oct](https://www.businessworld.in/article/air-india-steps-up-cost-cutting-drive-as-fy26-loss-widens-628731)
-- Context: Tata Sons' conditional infusion of over ₹10,000 crore; reports on SIA's share of the capital call (about ₹3,350 crore to avoid dilution). — [Skift, 4 Sep](https://skift.com/2026/09/04/air-indias-1-1-billion-lifeline-comes-with-conditions-reports/)
-- Headline only (paywalled): 'Air India needs saving. Singapore Airlines is playing saviour'. — [The Ken, 19 Oct](https://the-ken.com/)
+- Q2FY27 net loss ₹182.48 crore vs ₹59.33 crore; revenue ₹537.29 crore (+41.4%); EBITDA loss ₹187.6 crore vs ₹68.36 crore; InstaHelp revenue ₹20.5 crore vs ₹1.4 crore, adjusted EBITDA loss ₹174 crore, 0.62 crore orders, loss per order about ₹279; intraday −9.3%, low ₹143.2, market cap ₹22,355 crore; up to ₹2,500 crore fundraise approved. — [Upstox, 19 Oct](https://upstox.com/news/market-news/stocks/urban-company-shares-fall-over-9-intraday-as-q2-net-loss-widens-to-182-4-crore/article-202071/)
+- InstaHelp net order value ₹114 (from ₹138); loss per order ₹279 (from ₹346 in Q1); adjusted EBITDA loss ₹174 crore (from about ₹132 crore); 6.2 million orders; rivals Snabbit and Pronto; shares fell about 10%. — [INDmoney, updated 19 Oct](https://www.indmoney.com/blog/stocks/why-urban-company-shares-fell)
+- Context (Sept 2025): listed at ₹162.25 on NSE, a 57.5% premium to the ₹103 issue price. — [5paisa, Sept 2025](https://www.5paisa.com/news/urban-company-ipo-listing)
+- Headline only (paywalled): 'Urban Company is forced to play both defence and offence'. — [The Morning Context, 20 Oct](https://www.themorningcontext.com/)
 
 ### Watch out
-- Credit 'via The Ken' in the caption if their angle (SIA as saviour) is used; never copy paywalled text.
-- The loss figure dates from the FY26 accounts (approved 1 June); the news this week is the cost-cutting drive. Say 'last year's loss' rather than 'just reported'.
-- ₹61 crore a day is our arithmetic (₹22,238 crore ÷ 365). SIA's stake is reported as 24.7% to 25.1%: say 'about a quarter'.
-- The AI171 crash killed 260 people: no humour anywhere near it; humour lands on the system (a fuel bill that fell while the loss doubled).
-- Air India's and Tata's official logos only, never AI-drawn; Chandrasekaran or Tewolde only as real photos, no invented words.
+- Credit 'via The Morning Context' in the caption if their angle is used; never copy paywalled text.
+- No buy or sell call, no price targets or levels, no analyst ratings (SEBI price-data rule in docs/platform-playbook.md). Report the fall as news.
+- The ₹393 cost per booking is our arithmetic (₹114 + ₹279), an average; say 'about'. The sources give ₹173–174 crore for the InstaHelp loss and 7–10% for the fall: say 'as much as 10%' or 'about 9%'.
+- Don't mock the workers or the customers; the joke lands on the subsidy war (three apps paying for your 15 minutes).
+- Urban Company's, Snabbit's and Pronto's official logos only, never AI-drawn.
 
 ## Stories we're tracking
 
@@ -155,34 +156,37 @@ Full board: research/desk/TRACKER.md
 
 | Story | Now | Direction | Day | Status |
 |---|---|---|---|---|
-| Jio Platforms IPO (`jio-ipo`) | RISING | fading | 13 | active |
-| International ETFs trading far above NAV (NSE warning) (`intl-etf-premium`) | HOT | rising | 13 | active |
-| SC orders panel on pharma freebies to doctors (`pharma-freebies-sc`) | HOT | rising | 12 | active |
-| Inox Clean: revenue 43X, debt 45X, IPO on hold (`inox-clean-ipo`) | COLD | fading | 11 | active |
-| Musk calls Ambani 'Prime Minister Ambani' over Starlink (`musk-ambani-starlink`) | HOT | rising | 10 | active |
-| SC on hospital drug markups: Rs 2,700 drug sold at Rs 27,000 (`hospital-drug-markup-sc`) | HOT | rising | 10 | active |
-| Gauahar Khan's Versova duplex: 88% in 12 years (`gauahar-khan-flat`) | COLD | fading | 9 | active |
-| Airtel Money lists in London at $7 bn (via The Ken) (`airtel-money-london`) | FLAT | rising | 6 | active |
-| Yes Bank -14.5% after SC voids AT-1 write-off (`yes-bank-at1-sc`) | FLAT | steady | 5 | active |
-| Mutual funds halt new gold FoF SIPs and bulk gold ETF buys (`gold-fund-halt`) | HOT | steady | 5 | active |
-| Zetwerk IPO: 54% of Q1 revenue from metal sales (`zetwerk-ipo-metals`) | RISING | rising | 5 | active |
-| IDBI Bank sold to Fairfax at ₹81 vs ₹90 market (`idbi-fairfax-sale`) | HOT | steady | 4 | active |
-| Insurance mis-selling complaints +14%; IRDAI crackdown may slip (via The Ken) (`insurance-misselling-ken`) | COLD | fading | 4 | active |
-| Green-card freeze 'bloodbath' reels, then Indian IT's best week since 2008 (`it-rally-green-card`) | HOT | rising | 3 | active |
-| Groww's F&O share of revenue falls to 45%; turns to IPOs and wealth (via The Arc) (`groww-derivatives-arc`) | COLD | rising | 3 | active |
-| Axis Bank: profit +38%, shares -5% (base effect of last year's ₹1,231 cr provision) (`axis-bank-q2-fall`) | - | new | 1 | active |
-| Air India FY26 loss ₹22,238 cr (~₹61 cr a day); SIA as saviour (via The Ken) (`air-india-loss-ken`) | - | new | 1 | active |
+| Jio Platforms IPO (`jio-ipo`) | HOT | rising | 14 | active |
+| International ETFs trading far above NAV (NSE warning) (`intl-etf-premium`) | HOT | steady | 14 | active |
+| SC orders panel on pharma freebies to doctors (`pharma-freebies-sc`) | COLD | fading | 13 | active |
+| Inox Clean: revenue 43X, debt 45X, IPO on hold (`inox-clean-ipo`) | COLD | rising | 12 | active |
+| Musk calls Ambani 'Prime Minister Ambani' over Starlink (`musk-ambani-starlink`) | HOT | steady | 11 | active |
+| SC on hospital drug markups: Rs 2,700 drug sold at Rs 27,000 (`hospital-drug-markup-sc`) | COLD | fading | 11 | active |
+| Gauahar Khan's Versova duplex: 88% in 12 years (`gauahar-khan-flat`) | COLD | fading | 10 | active |
+| Airtel Money lists in London at $7 bn (via The Ken) (`airtel-money-london`) | FLAT | steady | 7 | active |
+| Mutual funds halt new gold FoF SIPs and bulk gold ETF buys (`gold-fund-halt`) | FLAT | fading | 6 | active |
+| Zetwerk IPO: 54% of Q1 revenue from metal sales (`zetwerk-ipo-metals`) | FLAT | fading | 6 | active |
+| IDBI Bank sold to Fairfax at ₹81 vs ₹90 market (`idbi-fairfax-sale`) | FLAT | fading | 5 | active |
+| Insurance mis-selling complaints +14%; IRDAI crackdown may slip (via The Ken) (`insurance-misselling-ken`) | COLD | steady | 5 | active |
+| Green-card freeze 'bloodbath' reels, then Indian IT's best week since 2008 (`it-rally-green-card`) | COLD | fading | 4 | active |
+| Groww's F&O share of revenue falls to 45%; turns to IPOs and wealth (via The Arc) (`groww-derivatives-arc`) | COLD | steady | 4 | active |
+| Axis Bank: profit +38%, shares -5% (base effect of last year's ₹1,231 cr provision) (`axis-bank-q2-fall`) | RISING | new | 2 | active |
+| Air India FY26 loss ₹22,238 cr (~₹61 cr a day); SIA as saviour (via The Ken) (`air-india-loss-ken`) | COLD | new | 2 | active |
+| Silver -46% from January record (₹3,84,632 → ₹2,08,380/kg) before Dhanteras (`silver-crash-46`) | - | new | 1 | active |
+| Urban Company loss triples on InstaHelp: ₹114 booking, ₹279 loss (via The Morning Context) (`urban-company-instahelp`) | - | new | 1 | active |
 
 ## Also on the wire
-- Markets shut today (Tue 20 Oct) for Dussehra; 'market holidays' and 'is stock market open today' are trending on Google India. Monday's close: Sensex about −876, Nifty below 22,900, private banks and IT leading (headlines from India Infoline, CNBC-TV18; pages not opened). The trend meter on 'Sensex crash' reads COLD and no Indian crash reel is among this week's outliers.
-- US H-1B: a Senate bill proposes raising the H-1B salary floor to nearly $140,000 (Hindustan Times, 18–19 Oct headlines; pages not opened); Infosys, TCS and Cognizant cut lottery registrations (Economic Times headline). A YouTube video on it drew 60,027 views in 24 h. Tracked story it-rally-green-card is HOT and rising; a proposal only, so it stays on the wire.
-- Results this short week: Eternal (Zomato) on Wed 21 Oct, plus Swiggy and Bajaj Finance (CNBC-TV18 headline). Swiggy got a brokerage upgrade on 19 Oct (a rating, so not for a reel).
-- SEBI set up a working group to review the main-board IPO and FPO rules (Moneycontrol headline, 19 Oct; page not opened), and 1 Finance got in-principle approval for India's first MF Lite (passive-only) AMC licence (Business Standard, Mint headlines).
+- Asia's AI rout: Korea's KOSPI fell another 5% and is about 40% below its record; SK Hynix is down 31% in October (Livemint and Economic Times headlines, 20 Oct; pages not opened). The trend meter on 'KOSPI crash' reads HOT on Korean YouTube. India's angle would be investors in international and semiconductor ETFs (tracked story intl-etf-premium is HOT), but we have no open source on Indian flows yet.
+- Yes Bank: the shares fell as much as 17.5% after Q2, where profit rose 65% but the Supreme Court's AT-1 ruling looms (Moneycontrol headline, 19 Oct; page not opened). The story was retired from the tracker yesterday as FLAT.
+- Sugar stocks (Balrampur Chini, Shree Renuka, Bajaj Sugar) fell up to 7% after the Centre stopped diversion of sugar to ethanol (Economic Times and Business Standard headlines, 19 Oct). Trend meter COLD.
+- A five-star hotel cook got a ₹4 crore tax notice over ₹24.62 crore of sales in Form 26AS that weren't his, and won at the tribunal (Economic Times and Times of India headlines, 20 Oct; pages not opened). A possible Sahayata Kendra caller story on PAN misuse, but no measurable momentum yet.
+- Deep lane to watch: The Ken (19 Oct) says India built digital twins of cities to predict floods and is now using them to find tax evaders. Paywalled, and no open source for the numbers yet; we'll look again tomorrow.
+- Results this week: Eternal (Zomato) reports this week (Business Standard preview headline); markets reopened today after Monday's 876-point Sensex fall.
 
 ## Where we stand
 
 286 followers (-5 this week)  
-Last reel (Starlink vs Jio before the Jio IPO: not your SIM, the next home-broadband customers; Musk can make Jio's growth less profitable): 237 plays so far  
+Last reel (Starlink vs Jio before the Jio IPO: not your SIM, the next home-broadband customers; Musk can make Jio's growth less profitable): 661 plays so far  
 What every reel is testing:  
 - Hook in frame one: swipe-aways in the first 3 s 52% now, target 45% (3 of 3 reels in)
 - Tight 20-30 s: average watched 39% now, target 45% (1 of 3 reels in)
