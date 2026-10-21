@@ -2,7 +2,7 @@
 
 Session: https://claude.ai/code/session_013jvyic2LeEsodFhq1GNSiD
 
-**Pick: story 1.** The Jio IPO opens today and closes Friday, so tonight's 7–9 pm slot is inside the window, and This week's plan says ride Jio. There is a new turn nobody has made yet: Reliance paid its 4 lakh-plus employees about 15 days early this month and helped them open share accounts for the IPO (Reuters). 'jio ipo gmp today' is trending on Google India and the keyword's YouTube searches are up about 6.5× on the month. The only Short on the early-salary angle has 6 views. Caveat: it would be our third Jio reel in a week (E11 posted 19 Oct; yesterday's anchor-book story is still unmade), so it has to stay on this new fact, not the business. Day-1 subscription numbers come in during the day (bidding opens at 10 am); I'll add them here when you pick.
+**Pick: story 1.** The Jio IPO opens today and closes Friday, so tonight's 7–9 pm slot is inside the window, and This week's plan says ride Jio. There is a new turn nobody has made yet: Reliance paid its 4 lakh-plus employees about 15 days early this month and helped them open share accounts for the IPO (Reuters). 'jio ipo gmp today' is trending on Google India and YouTube searches for 'jio ipo' are about 7.5× their 30-day baseline (vidIQ). The only Short on the early-salary angle has 6 views. Caveat: it would be our second Jio reel in three days (E11, Starlink vs Jio, posted 19 Oct), so it has to stay on this new fact, not the business. Day-1 subscription numbers come in during the day (bidding opens at 10 am); I'll add them here when you pick.
 
 Runner-up: 2, silver: down about 46% from its January record in India, from ₹3,84,632 to ₹2,08,380 a kg (Financial Express), just before the Dhanteras buying season. It's a wallet hit for anyone who bought silver or a silver ETF in the January rush, and two Indian reels on the fall have already broken out (3.8M and 1.4M). Story 3 is the deep lane, via The Morning Context: Urban Company's loss tripled on InstaHelp, its 15-minute maid service. The average InstaHelp booking brings in ₹114 and loses ₹279, and the shares fell as much as 10%.
 
@@ -54,7 +54,7 @@ _Every Jio reel that broke out sells the size, the Ambani story or allotment tip
 - No apply or skip call, and no 'listing gain pakka'. GMP is unofficial whenever it appears.
 - The early salary is reported fact (Reuters, Bloomberg). That it was done for the IPO is the reports' framing, not Reliance's: Reliance hasn't commented. Say 'the same month', not 'in order to'. No claim that staff were pushed to apply.
 - Who exactly is eligible for the employee quota (Jio staff only, or group staff) isn't stated on the pages we opened. Don't say Reliance's 4 lakh can all use the ₹54 discount.
-- Third Jio reel in a week (E11 posted 19 Oct). Keep it on the early salary, not the business story E11 told.
+- Second Jio reel in three days (E11 posted 19 Oct). Keep it on the early salary, not the business story E11 told.
 - Jio's and Reliance's official logos are fine; never have an image model draw them. Mukesh or Akash Ambani only as a real photo or footage, with no words they didn't say.
 - Tests it can carry: Jio's logo plus 'salary 15 din pehle' style hook text from frame one and the viewer's stake (today's application) in the first second; 20–30 s; a send line inside 12 s for a friend who works at Reliance or is applying this week.
 
