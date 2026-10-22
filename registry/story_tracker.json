@@ -17,7 +17,8 @@
     "2026-10-17: 17 Oct: GMP ₹206 (15 Oct, Outlook Money); anchor Mon 19; opens Wed 21",
     "2026-10-19: anchor book 19 Oct; GMP ₹140→₹249 (2–18 Oct); proceeds mainly repay Jio debt",
     "2026-10-20: anchor book ₹2.5 lakh cr bids for ₹8,110 cr, 30x",
-    "2026-10-21: 21 Oct: opens today; Reliance paid 4 lakh+ staff ~15 days early, helped open share accounts (Reuters)"
+    "2026-10-21: 21 Oct: opens today; Reliance paid 4 lakh+ staff ~15 days early, helped open share accounts (Reuters)",
+    "2026-10-22: 22 Oct: day 1 3.2x; QIB 9.42x, retail 0.73x; closes Fri 23 Oct"
    ],
    "readings": [
     {
@@ -196,6 +197,19 @@
      "yt_week_views": 2233094,
      "yt_best_vph": 27799,
      "yt_top": "JIO IPO Review! FREE DATA to ₹10 LAKH CRORE Company | CA Rahul Malodia (667,185 views in 24h)",
+     "google_trending": [],
+     "desk_score": 9.0
+    },
+    {
+     "date": "2026-10-22",
+     "label": "HOT (saturated: everyone has it; needs a sharper angle)",
+     "news_1d": 100,
+     "news_7d": 100,
+     "momentum_pct": 100,
+     "yt_week_videos": 8,
+     "yt_week_views": 2355890,
+     "yt_best_vph": 24211,
+     "yt_top": "JIO IPO Review! FREE DATA to ₹10 LAKH CRORE Company | CA Rahul Malodia (1,162,146 views in 48h)",
      "google_trending": [],
      "desk_score": 9.0
     }
@@ -471,6 +485,18 @@
      "yt_week_views": 445080,
      "yt_best_vph": 7445,
      "yt_top": "WHY THIS ETF CRASHED 46% in 2 DAYS ?? ETF MANIPULATION EXPLAINED !! (357,359 views in 48h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-10-22",
+     "label": "HOT",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 17,
+     "yt_week_views": 500030,
+     "yt_best_vph": 5297,
+     "yt_top": "WHY THIS ETF CRASHED 46% in 2 DAYS ?? ETF MANIPULATION EXPLAINED !! (381,349 views in 72h)",
      "google_trending": []
     }
    ],
@@ -979,6 +1005,18 @@
      "yt_best_vph": 2414,
      "yt_top": "MULTISUB📢新番抢先看！《穿成农女，带崽种田爽翻天1-6季》穷苦农女带娃创业，逆袭成首富！#最新漫剧#漫剧 #玄幻 #修仙 #逆袭 (231,714 views in 96h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-22",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 17,
+     "yt_week_views": 977178,
+     "yt_best_vph": 2203,
+     "yt_top": "MULTISUB📢新番抢先看！《穿成农女，带崽种田爽翻天1-6季》穷苦农女带娃创业，逆袭成首富！#最新漫剧#漫剧 #玄幻 #修仙 #逆袭 (264,315 views in 120h)",
+     "google_trending": []
     }
    ]
   },
@@ -1242,6 +1280,18 @@
      "yt_best_vph": 5206,
      "yt_top": "CHINA: Cities That Don’t Seem Real (Documentary) (624,723 views in 120h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-22",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 5,
+     "yt_week_views": 740267,
+     "yt_best_vph": 4654,
+     "yt_top": "CHINA | Cities That Don’t Seem Real (Documentary) (670,109 views in 144h)",
+     "google_trending": []
     }
    ]
   },
@@ -1252,7 +1302,7 @@
    "first_seen": "2026-10-11",
    "lane": "hot",
    "window_until": "2026-10-21",
-   "status": "active",
+   "status": "retired",
    "notes": [
     "First sent 11 Oct. Musk posts 8-10 Oct; govt: same stage for all three satcom operators; Jio 1,600-satellite plan; ties to Jio IPO 21 Oct.",
     "2026-10-12: Musk promises affordable Starlink (Sat 10 Oct); Jio targets $106 bn",
@@ -1387,8 +1437,24 @@
      "yt_best_vph": 22409,
      "yt_top": "Musk vs Ambani | Jio और Starlink की लड़ाई में Modi Govt ने क्या किया? (1,075,613 views in 48h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-22",
+     "label": "FLAT",
+     "news_1d": 1,
+     "news_7d": 10,
+     "momentum_pct": 10,
+     "yt_week_videos": 15,
+     "yt_week_views": 4347306,
+     "yt_best_vph": 14666,
+     "yt_top": "Mukesh Ambani Vs Elon Musk Satellite Internet War: मुकेश अंबानी का मस् (1,407,940 views in 96h)",
+     "google_trending": []
     }
-   ]
+   ],
+   "retired": {
+    "date": "2026-10-22",
+    "reason": "past its window"
+   }
   },
   {
    "id": "us-perm-indian-it",
@@ -1585,6 +1651,18 @@
      "yt_best_vph": 3896,
      "yt_top": "Desh Ki Pathshala With Sushant Sinha | देश की पाठशाला | EP- 121 | PM M (374,028 views in 96h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-22",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 11,
+     "yt_week_views": 425048,
+     "yt_best_vph": 3144,
+     "yt_top": "Desh Ki Pathshala With Sushant Sinha | देश की पाठशाला | EP- 121 | PM M (377,220 views in 120h)",
+     "google_trending": []
     }
    ]
   },
@@ -1756,6 +1834,18 @@
      "yt_week_views": 14701,
      "yt_best_vph": 131,
      "yt_top": "TV छोड़ Rajiv क्यों गए Film Industry में? | The Kapil Sharma Show | Ce (12,606 views in 96h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-10-22",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 3,
+     "yt_week_views": 12735,
+     "yt_best_vph": 105,
+     "yt_top": "TV छोड़ Rajiv क्यों गए Film Industry में? | The Kapil Sharma Show | Ce (12,620 views in 120h)",
      "google_trending": []
     }
    ]
@@ -2209,6 +2299,18 @@
      "yt_best_vph": 10337,
      "yt_top": "AIRTEL FINANCE - BORROW (1,240,439 views in 120h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-22",
+     "label": "FLAT",
+     "news_1d": 5,
+     "news_7d": 41,
+     "momentum_pct": 12,
+     "yt_week_videos": 11,
+     "yt_week_views": 3597262,
+     "yt_best_vph": 10675,
+     "yt_top": "AIRTEL FINANCE - BORROW (1,537,205 views in 144h)",
+     "google_trending": []
     }
    ]
   },
@@ -2371,6 +2473,18 @@
      "yt_best_vph": 2442,
      "yt_top": "SEBI Stops Gold & Silver Fund Investments? 🚨 #GoldETF #sanjaykathuria  (234,423 views in 96h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-22",
+     "label": "FLAT",
+     "news_1d": 10,
+     "news_7d": 64,
+     "momentum_pct": 16,
+     "yt_week_videos": 18,
+     "yt_week_views": 1150610,
+     "yt_best_vph": 3290,
+     "yt_top": "Govt. Banned Investment in Gold by Mutual Funds in India (315,879 views in 96h)",
+     "google_trending": []
     }
    ]
   },
@@ -2449,6 +2563,18 @@
      "yt_best_vph": 1127,
      "yt_top": "IPO GMP : Tonbo Imaging IPO | Bonfiglioli Transmissions IPO | Zetwerk  (108,154 views in 96h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-22",
+     "label": "FLAT",
+     "news_1d": 6,
+     "news_7d": 47,
+     "momentum_pct": 13,
+     "yt_week_videos": 17,
+     "yt_week_views": 216273,
+     "yt_best_vph": 564,
+     "yt_top": "Tonbo IPO Final Update | Bonfiglioli IPO Final Update | Zetwerk IPO |  (40,579 views in 72h)",
+     "google_trending": []
     }
    ]
   },
@@ -2514,6 +2640,18 @@
      "yt_week_views": 601861,
      "yt_best_vph": 1363,
      "yt_top": "Significance of Modi govt selling IDBI bank to Canada's ‘Warren Buffet (163,611 views in 120h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-10-22",
+     "label": "HOT",
+     "news_1d": 0,
+     "news_7d": 25,
+     "momentum_pct": 0,
+     "yt_week_videos": 20,
+     "yt_week_views": 870533,
+     "yt_best_vph": 3180,
+     "yt_top": "Why Govt. Sold IDBI Bank?.. (152,647 views in 48h)",
      "google_trending": []
     }
    ]
@@ -2627,6 +2765,18 @@
      "yt_best_vph": 92,
      "yt_top": "IRDAI to cap insurance commission | अब नहीं चलेगी बीमा एजेंट की मनमानी (13,290 views in 144h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-22",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 2,
+     "momentum_pct": 0,
+     "yt_week_videos": 9,
+     "yt_week_views": 9260,
+     "yt_best_vph": 37,
+     "yt_top": "Insurance Commissions Under Fire: Agents Push Back Against IRDAI Refor (5,300 views in 144h)",
+     "google_trending": []
     }
    ]
   },
@@ -2637,7 +2787,7 @@
    "first_seen": "2026-10-18",
    "lane": "hot",
    "window_until": "to about Wed 21 Oct",
-   "status": "active",
+   "status": "retired",
    "notes": [],
    "readings": [
     {
@@ -2679,8 +2829,24 @@
      "yt_best_vph": 2135,
      "yt_top": "Nifty Rally a Bull Trap? Book IT Profits, Crude to $120? | The N Show  (102,468 views in 48h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-22",
+     "label": "COLD",
+     "news_1d": 1,
+     "news_7d": 3,
+     "momentum_pct": 33,
+     "yt_week_videos": 4,
+     "yt_week_views": 38873,
+     "yt_best_vph": 1467,
+     "yt_top": "Nifty 50 Big Rally Ahead? 23,500 to 35,000 Targets Explained | Rohit S (35,206 views in 24h)",
+     "google_trending": []
     }
-   ]
+   ],
+   "retired": {
+    "date": "2026-10-22",
+    "reason": "COLD on 2 checks running"
+   }
   },
   {
    "id": "expired-food-reliance-blinkit",
@@ -2734,7 +2900,9 @@
    "lane": "deep",
    "window_until": "to about Fri 23 Oct",
    "status": "active",
-   "notes": [],
+   "notes": [
+    "2026-10-22: 22 Oct: The Ken 'hostage to options'; Groww PAT ₹725 cr, F&O 44.8% of revenue; SEBI FY26 87.7% lose"
+   ],
    "readings": [
     {
      "date": "2026-10-18",
@@ -2775,6 +2943,19 @@
      "yt_best_vph": 844,
      "yt_top": "Groww का Profit 54% बढ़ा, लेकिन F&O से कमाई घटी! अब कहां से कमा रही है (20,262 views in 24h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-22",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 17,
+     "yt_week_views": 133441,
+     "yt_best_vph": 560,
+     "yt_top": "Why these 4 stocks corrected sharply? (40,310 views in 72h)",
+     "google_trending": [],
+     "desk_score": 7.0
     }
    ]
   },
@@ -2804,6 +2985,18 @@
      "yt_week_views": 106895,
      "yt_best_vph": 576,
      "yt_top": "Anuj Singhal On Banks Q2 Results| नतीजों के बाद HDFC बैंक और Axis बैंक (13,817 views in 24h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-10-22",
+     "label": "RISING",
+     "news_1d": 30,
+     "news_7d": 15,
+     "momentum_pct": 200,
+     "yt_week_videos": 18,
+     "yt_week_views": 407614,
+     "yt_best_vph": 1724,
+     "yt_top": "ICICI, HDFC, Axis Bank Q2 Results: Who Delivered, Who Disappointed? |  (165,475 views in 96h)",
      "google_trending": []
     }
    ]
@@ -2835,6 +3028,18 @@
      "yt_best_vph": 5967,
      "yt_top": "Tesla Roadster Unveiled: Top Moments Of Elon Musk's New Flying Car (572,786 views in 96h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-22",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 12,
+     "yt_week_views": 1053820,
+     "yt_best_vph": 4862,
+     "yt_top": "Tesla Roadster Unveiled: Top Moments Of Elon Musk's New Flying Car (583,409 views in 120h)",
+     "google_trending": []
     }
    ]
   },
@@ -2847,12 +3052,26 @@
    "window_until": "2026-11-08",
    "status": "active",
    "notes": [
-    "sent 21 Oct"
+    "sent 21 Oct",
+    "2026-10-22: 22 Oct: no new turn; still HOT on YouTube"
    ],
    "readings": [
     {
      "date": "2026-10-21",
      "desk_score": 8.0
+    },
+    {
+     "date": "2026-10-22",
+     "label": "HOT",
+     "news_1d": 0,
+     "news_7d": 8,
+     "momentum_pct": 0,
+     "yt_week_videos": 10,
+     "yt_week_views": 610988,
+     "yt_best_vph": 5429,
+     "yt_top": "Silver Is Running Out... So Why Is It Crashing? (260,582 views in 48h)",
+     "google_trending": [],
+     "desk_score": 7.0
     }
    ]
   },
@@ -2871,6 +3090,37 @@
     {
      "date": "2026-10-21",
      "desk_score": 7.0
+    },
+    {
+     "date": "2026-10-22",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 8,
+     "momentum_pct": 0,
+     "yt_week_videos": 16,
+     "yt_week_views": 33017,
+     "yt_best_vph": 303,
+     "yt_top": "Stocks Crash 😱 Urban Company • Finolex • ICICI Bank • HDFC Bank • Axis (14,541 views in 48h)",
+     "google_trending": []
+    }
+   ]
+  },
+  {
+   "id": "emudhra-key-4",
+   "title": "eMudhra -20% lower circuit after its certificate keys turned out to be tiny numbers (one was 4)",
+   "query": "eMudhra share|ईमुद्रा शेयर",
+   "first_seen": "2026-10-22",
+   "lane": "hot",
+   "window_until": "2026-10-27",
+   "status": "active",
+   "notes": [
+    "sent 22 Oct",
+    "2026-10-22: 22 Oct: ₹540→₹432, ~₹900 cr wiped; Chrome root removal 27 Oct"
+   ],
+   "readings": [
+    {
+     "date": "2026-10-22",
+     "desk_score": 9.0
     }
    ]
   }
