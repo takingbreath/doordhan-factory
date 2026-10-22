@@ -1,0 +1,23 @@
+# eMudhra: research for Akhilesh's script (picked 22 Oct 2026)
+
+Research only, English; the script is Akhilesh's. Every number is on the linked page (opened 22 Oct).
+
+## New today (day 2)
+- Second 20% lower circuit on Thu 22 Oct: ₹432 → ₹345.60, a new 52-week low (INDmoney, 4:01 pm). https://www.indmoney.com/stocks/emudhra-ltd-share-price
+- Two days: ₹540 → ₹345.60 = −36%. Market value about ₹4,470 crore before (OfficeChai) → about ₹2,860 crore now, so about ₹1,600 crore gone in two sessions (our arithmetic from the two prices; not a quoted figure). https://officechai.com/stories/emudhras-stock-hits-20-lower-circuit-after-password-compromise-leads-to-global-cybersecurity-scare/
+- eMudhra's own statement (updated 22 Oct): the flaw went undetected for "about 18 months", through two audit cycles; no certificate was ever issued from the eight keys (seven never used in production; the one in production hadn't issued any); one customer ecosystem in the US affected; India DSC and eSign on separate infrastructure, not affected. https://emudhra.com/en/post/certificate-security-incident
+
+## Opening facts, strongest first (the Salman-style "one number" candidates)
+1. **The key was 4.** A proper key for these certificates (ECC P-384) is a random number up to about 2^384, i.e. a 116-digit number; eMudhra's eight were 4, 56, 66, 115, 155, 156, 230, 237, all under 256 (one byte, with 47 bytes of zeros). Fenko: https://fenko.nz/blog/emudhra-ca-compromise/ ; The Register: https://www.theregister.com/security/2026/10/20/indian-certification-authority-emudhras-private-keys-compromised-one-of-them-was-the-number-4/5304312 (2^384 ≈ 3.9 × 10^115 is arithmetic.)
+2. **₹1,600 crore gone for keys that signed zero certificates.** −36% in two days, while the company says not one certificate was issued from them and the business hit is about 1% of revenue (Inc42). https://inc42.com/buzz/emudhras-security-key-flaw-what-went-wrong-and-why-google-mozilla-stepped-in
+3. **The warning went to spam.** In June 2025, Sectigo emailed eMudhra that six of these CAs had invalid signatures; eMudhra's own incident report says the first email (3 June 2025) was caught by its quarantine filters and never reviewed. They blamed a manual "incorrect CA key configuration", fixed it and the bug was closed. Mozilla has now linked that 2025 bug to the key-compromise bug. https://bugzilla.mozilla.org/show_bug.cgi?id=1970728 (That the 2025 fix re-signed with the weak keys is Fenko's/Keytos's reading, not stated in the bug: don't say it as fact.)
+4. **18 months, two audits, nobody noticed** (eMudhra's statement). Found by an outside researcher, "Wayne", on 17 Oct; Scott Helme then recovered all eight on a laptop in under a second (The Register).
+5. **Who they are:** India's largest licensed certifying authority, about 38% of the Indian digital-signature market by value, and the only Indian CA whose roots were trusted in every major browser (Chaitanya Narra's Substack, 27 Sep 2026: https://chaitanyanarra.substack.com/p/the-small-bangalore-company-picking ). Their DSCs are what CAs and companies use to file on GST, MCA and income-tax portals (Inc42). Listed June 2022 at ₹256 (Business Standard, via search; page not opened, so don't use it as a headline number).
+6. **The fix took browsers hours, the market took two days:** Firefox blocked the keys in under 3 hours (Mozilla, https://blog.mozilla.org/security/2026/10/20/protecting-firefox-users-following-the-compromise-of-emudhra-intermediate-certificates/ ); Chrome drops the root on 27 Oct (Inc42).
+
+## Watch out
+- Not "hacked" and not "data stolen": the keys were never secret (computable from the public certificate), no misuse found, no certificates issued from them.
+- Indian DSC/eSign not affected (eMudhra; MeitY says impact very limited). Don't imply your ITR signature is unsafe.
+- No buy/sell/hold, no price targets, no chart with levels: report the two circuits as news.
+- "Spam" is our plain word for "quarantine filters"; fair, but the bug says quarantine.
+- Visuals: eMudhra's official logo is fine; Chairman Venkatraman Srinivasan's photo only from a good source (agency/official); a screenshot of the Chrome/Firefox error page is real and free to make.
