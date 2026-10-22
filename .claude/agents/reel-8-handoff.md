@@ -27,7 +27,7 @@ Read every path under "Read" in your task, and nothing else in the repository. T
 Everything the playbook's step 7 lists, in this order: the scripts first, then the cuts, then everything else. Short labels, no long paragraphs; anything with nothing to report says "None" rather than being left out.
 
 1. **The scripts.** Each pick in full, exactly as written, under a heading with its number, its file and its writer.
-2. **The cuts.** For each pick: the cut's file path, its length (and with the 4.8 s card), the whole-cut transcript match, and what to listen for, from the voice notes.
+2. **The cuts.** For each pick: exact MP3 and WAV paths, its length (and with the 4.8 s card), the whole-cut transcript match, and what to listen for, from the voice notes. Link the separate performance notes without inserting their marks into the script. Say whether anyone actually listened; transcript checks do not approve the voice. Explain that `work/` is git-ignored and a fresh clone lacks these audio files. A local app can open the existing file; another machine needs a transfer or an already-authorized accessible file link. Do not claim automatic ChatGPT/Claude chat or audio synchronization, silently upload files or regenerate a take for an app switch.
 3. **Then, for each pick:**
    - the writer's question and why, from its note;
    - the judge's note and the writer's answer (none, kept, revised and what changed, or the other draft);

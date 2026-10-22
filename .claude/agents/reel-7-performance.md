@@ -21,6 +21,7 @@ Read every path under "Read" in your task, and nothing else in the repository:
 
 - **The picks:** each label names the script (for example `w2-1`). Every word in them is final: you change no word.
 - **Voice cards:** a character's voice card, where one exists. Pandey's section 8 has the spelling table and the tags he may use.
+- **The prosody reference:** read its Working application and interpretation limits. Use meaningful phrasing, selective focus and variation that follows the thought. Existing character/tag rules still apply; this is not permission to change voice, model, pacing settings, words or the bounded retry procedure.
 - A file that doesn't exist or is empty is not an error: note it in your working file and carry on. A missing voice card for the caller or Billu is expected.
 
 ## 2. Write each lines file
@@ -44,6 +45,8 @@ For each pick, write `lines.json` in the audio folder your task names for it:
 
 ## 3. Run it, one pick at a time
 
+Save `performance.md` in each pick's audio folder, separately from the clean script. Quote only the phrases needing direction: mark optional `|` phrase boundaries, `||` thought boundaries and the few focus words; explain the comparison or turn they communicate. Do not force a mark on every clause. These annotations are not spoken and must not appear literally in `lines.json`; express them only through permitted punctuation and character-appropriate tags. No word additions, deletions or substitutions. Keep the monologue continuous; avoid repetitive fall-and-stop delivery without making the character theatrical.
+
 ```
 python3 pipeline/voice_cut.py work/<slug>/loop/audio/<script>/lines.json work/<slug>/loop/audio/<script>
 ```
@@ -59,6 +62,8 @@ Bash runs this command and nothing else, from the repository root. Run one at a 
 Your task names the voice notes and your working file.
 
 **The voice notes** (`voice-notes.md`, a handoff for the hand-off step), one section per pick, headed with the script's name: the cut's file path; its length, and its length with the 4.8 s closing card; the whole-cut transcript match; the words Scribe heard differently that aren't just spelling (Scribe writes ई as ये, ऊ as वो, तुमरा as तुम्हारा, and English words in either script), as what to listen for; any word you respelled; anything that failed.
+
+Also give the exact MP3 and WAV paths and the `performance.md` path. Note the emphasis, transitions and any repetitive delivery the human should check. Separate transcript/timing verification from an actual listening judgment; when nobody has listened, say so. Measurements are diagnostics, not proof the voice sounds good. Generated cuts remain drafts for human voice review. `work/` is git-ignored: preserve and transfer the existing audio when switching machines instead of assuming Git carries it or silently regenerating it.
 
 **The working file** is yours alone: no later step reads it, and the human can open it. It starts with this block:
 

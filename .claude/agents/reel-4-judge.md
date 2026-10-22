@@ -15,7 +15,8 @@ Read every path under "Read" in your task, and nothing else in the repository:
 - **The scripts:** every one, whole. Each label says which writer wrote it.
 - **The writers' notes:** each writer's question, why, and any lookup it made.
 - **The research handoff:** the facts and numbers, with sources.
-- **The playbook:** read it whole; it is one page. "What a good script is" is your standard; step 3 is your job.
+- **The playbook:** read it whole. "What a good script is" and "Prosody and spoken flow" are your standard; step 3 is your job.
+- **The prosody reference:** read its Working application and interpretation limits. Judge coherent spoken phrasing and meaningful emphasis opportunities, not conformity to a meter or numerical voice target. These are observations about the text; pitch, pauses and actual delivery cannot be confirmed before hearing a take.
 - **The examples:** the shape and the voice the standard means, and the one-chain-from-the-caller's-number shape.
 - **Pandey's voice card:** how he talks, his words and the slips to watch for. Use it to judge "sounds like Pandey", and to notice dialect slips: a "ka" that reads as "of" where he means "kya", "main" for "hum", a caller who speaks Pandey's dialect.
 - **The lint reports:** one per script, `pipeline/script_lint.py`'s measures and checks. They only report; nothing is sent back for them.
