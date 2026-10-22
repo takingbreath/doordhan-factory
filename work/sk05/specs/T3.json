@@ -1,0 +1,79 @@
+{
+ "id": "T3",
+ "line": "T3",
+ "part": 1,
+ "parts": 1,
+ "source_line": "work/sk05/seg/T3.wav",
+ "set": "kendra",
+ "framing": "low",
+ "target_side": null,
+ "start": {
+  "kind": "keyframe",
+  "value": "66d3cfb6-cc27-4ff1-b743-7e7befc865bd"
+ },
+ "chain": null,
+ "end_image_request": null,
+ "sheet": "assets/characters/pandey_sheet_v2.jpg",
+ "keyframe": "66d3cfb6-cc27-4ff1-b743-7e7befc865bd",
+ "source_span_s": [
+  0.0,
+  6.65
+ ],
+ "speech_s": 6.6,
+ "track": "work/sk05/specs/T3_track.mp3",
+ "character": "pandey",
+ "tail_fix": null,
+ "attempt": 0,
+ "max_auto_retries": 1,
+ "edit_src_in_s": 0.38,
+ "params": {
+  "model": "wan2_7",
+  "resolution": "720p",
+  "aspect_ratio": "9:16",
+  "duration": 8,
+  "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+  "medias": [
+   {
+    "role": "start_image",
+    "value": "66d3cfb6-cc27-4ff1-b743-7e7befc865bd"
+   },
+   {
+    "role": "audio_references",
+    "value": "a20a08ba-19d4-44a8-ab8e-9beed7f54810"
+   }
+  ],
+  "prompt": "The person begins completely still and silent with the mouth closed, and starts speaking only when the voice begins. The man from the start image, a fed-up government helpline clerk filmed for a mockumentary, speaks fast Hindi, openly frustrated, a real person reacting to something absurd. The jaw and lower lip move clearly with every syllable in exact sync with the provided audio, from the very first word. Eyes straight to the camera, or down; exactly one blink and one small eye shift during the line, nothing more. No objects are handled. Openly frustrated and exasperated: brows knitted, eyes alive and on the lens. Building annoyance through the line; on 'nahi pakdi gayi' a short exasperated exhale through the nose; on 'AUDIT mein check kya ho raha tha?' brows raised high, a pointed questioning stare down into the lens. Natural, lively, human movements: small head shakes and nods, brows and forehead working, but the head stays level and roughly in place, no big swings; no hands in frame. The camera holds still. Keep the exact look of the start image: a modern phone video with natural colour and real skin texture; no new text, no subtitles."
+ },
+ "qc": [
+  "python3 pipeline/lipsync_lag.py <clip> --json <clip>_lag.json",
+  "python3 pipeline/check_match.py <clip> work/sk05/specs/T3_track.mp3",
+  "python3 pipeline/face_consistency.py assets/characters/pandey_sheet_v2.jpg <clip>"
+ ],
+ "job_id": "5344dea1-131c-41c0-a756-83c878b94504",
+ "history": [
+  {
+   "attempt": 0,
+   "clip": "work/sk05/vid/T3.mp4",
+   "verdict": "FAIL",
+   "pattern": "constant",
+   "drift": -13.2,
+   "failing_windows": [
+    4.0,
+    5.0,
+    5.8
+   ],
+   "face": {
+    "verdict": "FAIL",
+    "min": 0.254,
+    "mean": 0.697
+   },
+   "accepted": true
+  }
+ ],
+ "clip": "work/sk05/vid/T3.mp4",
+ "decision": {
+  "action": "ACCEPT_WITH_SHIFT",
+  "audio_shift_ms": -80,
+  "why": "offset -160..-80 ms: set \"audio_shift_ms\": -80 on this part in edit.json (pulls the audio earlier by 80 ms; lands near -40 ms). In a custom edit (build.py) move the clip's source start (src_in) by -0.080 s instead."
+ }
+}

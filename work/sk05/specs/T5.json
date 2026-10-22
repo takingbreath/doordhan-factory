@@ -1,0 +1,73 @@
+{
+ "id": "T5",
+ "line": "T5",
+ "part": 1,
+ "parts": 1,
+ "source_line": "work/sk05/seg/T5.wav",
+ "set": "kendra",
+ "framing": "front",
+ "target_side": null,
+ "start": {
+  "kind": "keyframe",
+  "value": "39288701-702a-4573-8ad2-b18e00c8e2ba"
+ },
+ "chain": null,
+ "end_image_request": null,
+ "sheet": "assets/characters/pandey_sheet_v2.jpg",
+ "keyframe": "39288701-702a-4573-8ad2-b18e00c8e2ba",
+ "source_span_s": [
+  0.0,
+  3.95
+ ],
+ "speech_s": 3.9,
+ "track": "work/sk05/specs/T5_track.mp3",
+ "character": "pandey",
+ "tail_fix": null,
+ "attempt": 0,
+ "max_auto_retries": 1,
+ "edit_src_in_s": 0.38,
+ "params": {
+  "model": "wan2_7",
+  "resolution": "720p",
+  "aspect_ratio": "9:16",
+  "duration": 5,
+  "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+  "medias": [
+   {
+    "role": "start_image",
+    "value": "39288701-702a-4573-8ad2-b18e00c8e2ba"
+   },
+   {
+    "role": "audio_references",
+    "value": "dfd2b030-2f61-46dc-8c7e-ee6e3178bd98"
+   }
+  ],
+  "prompt": "The person begins completely still and silent with the mouth closed, and starts speaking only when the voice begins. The man from the start image, a fed-up government helpline clerk filmed for a mockumentary, speaks fast Hindi, openly frustrated, a real person reacting to something absurd. The jaw and lower lip move clearly with every syllable in exact sync with the provided audio, from the very first word. Eyes straight to the camera, or down; exactly one blink and one small eye shift during the line, nothing more. No objects are handled. Openly frustrated and exasperated: brows knitted, eyes alive and on the lens. On 'par sawaal' he jabs forward slightly with his chin; on 'credibility ka hai!' firm and angry; on 'Tabhi toh main kehta hoon' fast and fed-up, brows knitted, the same energy as an opening line. Natural, lively, human movements: small head shakes and nods, brows and forehead working, but the head stays level and roughly in place, no big swings; no hands in frame. The camera holds still. Keep the exact look of the start image: a modern phone video with natural colour and real skin texture; no new text, no subtitles."
+ },
+ "qc": [
+  "python3 pipeline/lipsync_lag.py <clip> --json <clip>_lag.json",
+  "python3 pipeline/check_match.py <clip> work/sk05/specs/T5_track.mp3",
+  "python3 pipeline/face_consistency.py assets/characters/pandey_sheet_v2.jpg <clip>"
+ ],
+ "job_id": "4eac2f3b-fc3f-4462-ab03-d8304eaedb17",
+ "history": [
+  {
+   "attempt": 0,
+   "clip": "work/sk05/vid/T5.mp4",
+   "verdict": "PASS",
+   "pattern": "constant",
+   "drift": -29.3,
+   "failing_windows": [],
+   "face": {
+    "verdict": "PASS",
+    "min": 0.7,
+    "mean": 0.765
+   },
+   "accepted": true
+  }
+ ],
+ "clip": "work/sk05/vid/T5.mp4",
+ "decision": {
+  "action": "ACCEPT"
+ }
+}

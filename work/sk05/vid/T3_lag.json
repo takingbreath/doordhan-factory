@@ -1,0 +1,133 @@
+{
+ "clip": "work/sk05/vid/T3.mp4",
+ "label": "",
+ "start": 0.0,
+ "end": 8.03,
+ "face_frames": 0.93,
+ "corr": {
+  "offset_ms": -123,
+  "r": 0.29,
+  "windows": [
+   {
+    "t": 0.0,
+    "offset_ms": -148,
+    "r": 0.3,
+    "speech": 0.7,
+    "face": 0.92
+   },
+   {
+    "t": 1.0,
+    "offset_ms": null,
+    "r": null,
+    "speech": 0.94,
+    "face": 1.0
+   },
+   {
+    "t": 2.0,
+    "offset_ms": -102,
+    "r": 0.4,
+    "speech": 0.98,
+    "face": 1.0
+   },
+   {
+    "t": 3.0,
+    "offset_ms": -84,
+    "r": 0.45,
+    "speech": 1.0,
+    "face": 1.0
+   },
+   {
+    "t": 4.0,
+    "offset_ms": -156,
+    "r": 0.07,
+    "speech": 0.8,
+    "face": 0.98
+   },
+   {
+    "t": 5.0,
+    "offset_ms": -314,
+    "r": 0.34,
+    "speech": 0.74,
+    "face": 0.96
+   },
+   {
+    "t": 6.0,
+    "offset_ms": -141,
+    "r": 0.72,
+    "speech": 0.5,
+    "face": 0.8
+   }
+  ]
+ },
+ "syncnet": {
+  "offset_ms": -120.0,
+  "conf": 4.03,
+  "windows": [
+   {
+    "t": 0.0,
+    "offset_ms": -80,
+    "conf": 3.79,
+    "face": 0.92,
+    "speech": 0.7
+   },
+   {
+    "t": 1.0,
+    "offset_ms": -120,
+    "conf": 4.25,
+    "face": 1.0,
+    "speech": 0.94
+   },
+   {
+    "t": 2.0,
+    "offset_ms": -120,
+    "conf": 4.79,
+    "face": 1.0,
+    "speech": 0.98
+   },
+   {
+    "t": 3.0,
+    "offset_ms": -120,
+    "conf": 3.9,
+    "face": 1.0,
+    "speech": 1.0
+   },
+   {
+    "t": 4.0,
+    "offset_ms": -160,
+    "conf": 4.7,
+    "face": 0.98,
+    "speech": 0.8
+   },
+   {
+    "t": 5.0,
+    "offset_ms": -160,
+    "conf": 5.26,
+    "face": 0.96,
+    "speech": 0.74
+   },
+   {
+    "t": 5.8,
+    "offset_ms": -160,
+    "conf": 3.24,
+    "face": 0.88,
+    "speech": 0.6
+   }
+  ]
+ },
+ "primary": "syncnet",
+ "judged_windows": 7,
+ "drift_ms_per_s": -13.2,
+ "spread_ms": 80,
+ "failing_windows": [
+  4.0,
+  5.0,
+  5.8
+ ],
+ "verdict": "FAIL",
+ "mouth_px": 70.5,
+ "median_conf": 4.25,
+ "pattern": "constant",
+ "median_offset_ms": -120,
+ "audio_shift_ms": -80,
+ "repair": "offset -160..-80 ms: set \"audio_shift_ms\": -80 on this part in edit.json (pulls the audio earlier by 80 ms; lands near -40 ms). In a custom edit (build.py) move the clip's source start (src_in) by -0.080 s instead."
+}

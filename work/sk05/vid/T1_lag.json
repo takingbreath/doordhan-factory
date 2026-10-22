@@ -1,0 +1,71 @@
+{
+ "clip": "work/sk05/vid/T1.mp4",
+ "label": "",
+ "start": 0.0,
+ "end": 4.04,
+ "face_frames": 1.0,
+ "corr": {
+  "offset_ms": -29,
+  "r": 0.64,
+  "windows": [
+   {
+    "t": 0.0,
+    "offset_ms": -43,
+    "r": 0.7,
+    "speech": 0.76,
+    "face": 1.0
+   },
+   {
+    "t": 1.0,
+    "offset_ms": null,
+    "r": null,
+    "speech": 0.98,
+    "face": 1.0
+   },
+   {
+    "t": 2.0,
+    "offset_ms": -291,
+    "r": 0.84,
+    "speech": 0.54,
+    "face": 1.0
+   }
+  ]
+ },
+ "syncnet": {
+  "offset_ms": -80.0,
+  "conf": 4.14,
+  "windows": [
+   {
+    "t": 0.0,
+    "offset_ms": -40,
+    "conf": 5.07,
+    "face": 1.0,
+    "speech": 0.76
+   },
+   {
+    "t": 1.0,
+    "offset_ms": -80,
+    "conf": 3.85,
+    "face": 1.0,
+    "speech": 0.98
+   },
+   {
+    "t": 1.8,
+    "offset_ms": -80,
+    "conf": 3.22,
+    "face": 1.0,
+    "speech": 0.64
+   }
+  ]
+ },
+ "primary": "syncnet",
+ "judged_windows": 3,
+ "drift_ms_per_s": -23.0,
+ "spread_ms": 40,
+ "failing_windows": [],
+ "verdict": "PASS",
+ "mouth_px": 103.7,
+ "median_conf": 3.85,
+ "pattern": "constant",
+ "median_offset_ms": -80
+}

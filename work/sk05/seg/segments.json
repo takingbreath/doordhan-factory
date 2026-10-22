@@ -1,0 +1,22 @@
+{
+ "T1": {
+  "cut_start": 0.05,
+  "cut_end": 2.68
+ },
+ "T2": {
+  "cut_start": 39.3,
+  "cut_end": 42.95
+ },
+ "T3": {
+  "cut_start": 51.8,
+  "cut_end": 58.45
+ },
+ "T4": {
+  "cut_start": 63.6,
+  "cut_end": 68.05
+ },
+ "T5": {
+  "cut_start": 87.5,
+  "cut_end": 91.45
+ }
+}
