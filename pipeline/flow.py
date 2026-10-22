@@ -6,6 +6,9 @@ whatever anyone types: research -> script -> format -> voice -> graphics -> prod
   python3 pipeline/flow.py new SLUG --topic "..." --by Naveen        start a reel (stage: research)
   python3 pipeline/flow.py list                                      reels not finished yet
   python3 pipeline/flow.py show SLUG                                 where it stands and the one thing to do next
+  python3 pipeline/flow.py ready SLUG     may /produce-video run? exit 0 only for an approved, frozen script
+                                          (registry/scripts/SLUG.json) whose /make-reel flow, if any, has
+                                          reached production; exit 1 = start or continue /make-reel instead
   python3 pipeline/flow.py done SLUG research --brief research/briefs/SLUG.md  [--skip "why"]
   python3 pipeline/flow.py done SLUG script --by Naveen --words N    the script is confirmed (N spoken words)
   python3 pipeline/flow.py done SLUG format --value samachar|sahayata_kendra|creator --by Naveen
@@ -92,6 +95,29 @@ def show(doc):
     return "\n".join(lines)
 
 
+def ready(slug):
+    """0 when /produce-video may run on slug, 1 (with the reason) when /make-reel must start or continue instead"""
+    if not slug.replace("_", "").replace("-", "").isalnum() or slug != slug.lower():
+        print(f"{slug!r} is not a reel's slug: start /make-reel with it as the topic.")
+        return 1
+    try:
+        doc = json.load(open(os.path.join(ROOT, "registry", "scripts", f"{slug}.json"), encoding="utf-8"))
+    except (OSError, ValueError):
+        doc = None
+    if not doc or not str(doc.get("approved_by") or "").strip():
+        print(f"No approved, frozen script for {slug} (registry/scripts/{slug}.json). Start /make-reel: it takes the "
+              "script to its confirmation and freezes it.")
+        return 1
+    if os.path.exists(path(slug)):
+        st = stage_of(json.load(open(path(slug), encoding="utf-8")))
+        if st in STAGES and STAGES.index(st) < STAGES.index("production"):
+            print(f"{slug} is in /make-reel at the '{st}' gate. Continue it there (production comes after "
+                  "the voice and graphics gates).")
+            return 1
+    print(f"ready: registry/scripts/{slug}.json, approved by {doc['approved_by']}")
+    return 0
+
+
 def fail(msg):
     sys.exit("Not recorded: " + msg)
 
@@ -102,6 +128,7 @@ def main():
     n = sub.add_parser("new"); n.add_argument("slug"); n.add_argument("--topic", required=True); n.add_argument("--by", required=True)
     sub.add_parser("list")
     s = sub.add_parser("show"); s.add_argument("slug")
+    r = sub.add_parser("ready"); r.add_argument("slug")
     d = sub.add_parser("done"); d.add_argument("slug"); d.add_argument("stage", choices=STAGES)
     d.add_argument("--by"); d.add_argument("--value"); d.add_argument("--words", type=int); d.add_argument("--brief")
     d.add_argument("--skip"); d.add_argument("--note"); d.add_argument("--experiment", action="store_true")
@@ -122,6 +149,8 @@ def main():
                 if stage_of(doc) != "done":
                     print(f"{doc['slug']:<14} stage {stage_of(doc):<10} {doc['topic']}")
         return
+    if a.cmd == "ready":
+        sys.exit(ready(a.slug))
     doc = load(a.slug)
     if a.cmd == "show":
         print(show(doc)); return

@@ -14,6 +14,9 @@ ever answers questions; you do everything else. The order never changes:
 `python3 pipeline/flow.py show <slug>` always says where a reel stands and what comes next. When anyone asks "where
 are we?", run it and answer from it.
 
+/produce-video sends everything that is not an approved, frozen script here (`flow.py ready`), so a session may
+arrive with args meant for it: treat them as a topic, a link, a script or a slug to continue.
+
 ## What holds whatever anyone types
 These come from CLAUDE.md's hard rules. Hooks in .claude/settings.json enforce most of them, so a careless or wrong
 instruction can't break them. Never try to get around a hook; if one blocks something that looks right, stop and say

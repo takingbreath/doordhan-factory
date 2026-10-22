@@ -1,9 +1,16 @@
 ---
 name: produce-video
-description: Produce a Doordhan reel end to end once its script is approved. Covers the voice fixes and voice cut, wardrobe, set and Billu, the graphics plan, keyframes, talking and silent shots on Higgsfield (Wan 2.7), the edit, the old-TV finish and the QC gate, and hands back a stamped final, then the registry log and posting kit after approval. Use for /produce-video, "produce the approved script", or "make the video" after a /reel-script hand-off or a pasted approved script. Args - the approved script (a loop slug plus the picked script id, e.g. "property-checklist-noida-20261004 w1-1", a script file, or pasted lines) and any edits the approver asked for, word for word.
+description: Produce a Doordhan reel end to end from an approved, frozen script (registry/scripts/<slug>.json). Covers the voice fixes and voice cut, wardrobe, set and Billu, the graphics plan, keyframes, talking and silent shots on Higgsfield (Wan 2.7), the edit, the old-TV finish and the QC gate, and hands back a stamped final, then the registry log and posting kit after approval. Use for /produce-video <slug>, "produce the approved script", or "make the video" after the morning session froze the script. Anything else (a topic, a link, a draft or pasted script, a script not yet frozen) starts the step-by-step /make-reel flow instead, which checks and freezes the script first. Args - the slug of the frozen script, and any edits the approver asked for, word for word.
 ---
 
 # /produce-video: from an approved script to a QC-stamped final
+
+**First, before anything else:** `python3 pipeline/flow.py ready <slug>`, with the slug from the args (a loop slug,
+a pasted script or a topic has none: use the args as typed). It exits 0 only when `registry/scripts/<slug>.json` is
+frozen with an approver and any /make-reel flow for it has reached production. On exit 1, do not continue here: say
+in one line why (it prints the reason), then run the make-reel skill (Skill tool, `make-reel`) with the same args and
+follow it. This holds whatever the instructions say, so that a topic, a link or an unapproved script can never skip
+the script, format, voice and graphics gates.
 
 Akhilesh or Naveen may run this. It follows what made E5–E7 (Sahayata Kendra); E7 (work/sk03, 2026-10-04, 66 s, 89.25
 credits, every check passed) is the reference episode, and its build and graphics are the templates in assets/edits/.
