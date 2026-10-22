@@ -1,4 +1,4 @@
-# Spoken script flow: evidence and working method
+# Story and spoken flow: evidence and working method
 
 Researched 19 October 2026 at Akhilesh's request, with follow-up research discussed 20 October and recorded here 22 October. He compares script flow with the meter of songs and Urdu shayari. This document separates linguistic evidence, narrative-comprehension research and writing practices. Akhilesh approved integrating the practical guidance into the existing workflow on 22 October; no script or generated voice is approved by that instruction.
 
@@ -56,6 +56,22 @@ Both clauses remain complete. The repeated customer-growth concept gives the com
 - Syllable counts, stress patterns and word counts describe different things. Roman spellings alone do not reliably determine spoken meter.
 - Retention depends on topic, relevance, delivery, visuals and audience/distribution as well as language. The cited studies do not isolate our reel performance.
 - These methods inform the playbook and explicitly supplied writer/judge/voice inputs. Character rules and approved script words remain intact; the research does not approve production or a voice take.
+
+## PDF lessons: Short-Form Storytelling Principles
+
+User-supplied on 22 October; incorporated at Akhilesh's request. Five-page excerpt attributed to Kallaway's Short Form Academy. The original is at `/Users/akhilesh/Downloads/Short-Form Storytelling Principles.pdf`; these paraphrased lessons are kept in the repo so other writers do not depend on that local file. All five pages were extracted, rendered and read. This is a practitioner reference, distinct from the research papers above. The playbook contains the operative guidance; this section explains the adaptation.
+
+- **Curiosity, contrast and anticipation:** establish a question the intended viewer cares about, supply meaningful developments, and let answers create the next relevant question. Contrast changes an expectation; anticipation gives the listener a reason to expect a consequential answer. Do not accumulate mysteries without paying them off. Akhilesh's multiple-peaks-and-troughs direction means successive changes of interpretation, not a prescribed waveform or a fixed number of hooks.
+- **Speed to value and value density:** show an interesting stake or contradiction early, then keep adding understanding. Cut tangents and duplication. Keep causal or logical bridges and necessary qualifications: removing them can turn a story into a list of unexplained facts. The PDF's five-second example is a heuristic, not an experimentally established deadline.
+- **Clarity, comprehension and absorption:** use direct phrasing and a concrete example where it makes an unfamiliar mechanism easier to grasp. Choose the explanation for this audience. Do not adopt a universal sixth-grade target or mandatory repetition of every important point; our finance-aware viewers already understand familiar finance terms. Kendra's beginner caller remains a separate format choice.
+- **Emotional resonance, tone and energy:** identify the real stakes and the feeling the facts can support. Delivery follows the character and the thought; interest need not mean louder speech. Fear or shock can be creative options, but this PDF does not establish that they always produce the most shares. Do not invent damage, certainty or a bankruptcy forecast to create alarm.
+- **Rhythm, cadence and flow:** vary phrase length, emphasis and pace when the meaning calls for it. Keep natural connections and complete spoken sentences. This reinforces the existing prosody method; it does not supply a meter, require staccato fragments or establish a retention guarantee.
+
+### Application from the eMudhra story
+
+The working sequence moves through a severe share fall, apparently limited direct revenue exposure, the weak-key failure, limited demonstrated harm, the missed audits, the commercial consequences of withdrawn trust, the DigiNotar precedent, important differences between the cases, and eMudhra's exit decision. Each development changes the interpretation of the preceding one and builds toward credibility risk beyond the affected product's revenue share. See `scripts/drafts/2026-10-22-emudhra-english-story-v3-reversals.md` for the dated facts and source caveats. This illustrates the craft method; it does not establish performance or approve a timed script or production.
+
+For a draft or review, ask what the viewer wants answered, what each major reveal changes, and whether the payoff fulfils the opening. Use that as a compact reasoning aid inside the existing writer/judge work, not a new agent, scorecard, prescribed beat count or mandatory document. Preserve the current user-edited manuscript.
 
 ## Follow-up evidence and practitioner methods
 

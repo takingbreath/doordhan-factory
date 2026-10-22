@@ -21,8 +21,8 @@ Read every path under "Read" in your task, and nothing else in the repository:
 
 - **The research handoff:** everything known about the topic, with sources.
 - **The reels folder:** a path ending in `/`. Glob inside it and read every file: popular reels on the topic, with their transcripts. If it holds `00-source.md`, that is a video (or a script he pasted) Akhilesh asked to adapt: take its order, its examples and its point, said as Pandey in a minute, with the research's corrected numbers where the source is wrong. Of your two scripts, the first follows the source closely; the second may depart where you see a better way in.
-- **The playbook:** read it whole. "What a good script is" and "Prosody and spoken flow" are the standard, and "The brief" is your brief.
-- **The prosody reference:** read its Working application and interpretation limits; consult evidence only when needed. Apply it to the chosen character, without imposing meter, fragments or a fixed pause pattern.
+- **The playbook:** read it whole. "What a good script is", "Curiosity and story movement" and "Prosody and spoken flow" are the standard, and "The brief" is your brief.
+- **The story and prosody reference:** read its Working application, PDF lessons and interpretation limits; consult evidence only when needed. Apply it to the chosen audience and character, without imposing a beat count, meter, fragments or a fixed pause pattern.
 - **The examples:** read them for how they work: the dollar one for the shape and the voice, the SIP one for a single chain from the caller's own number (its first line is its known weakness). Don't reuse their lines or their jokes.
 
 Nothing else: no voice card, no script bible, no voice reference transcripts, no other file in the run folder, nothing a file points you to. A file that doesn't exist or is empty is not an error: note it and carry on with what you have. Read in parallel.

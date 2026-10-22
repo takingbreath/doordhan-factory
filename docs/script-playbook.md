@@ -1,4 +1,4 @@
-# Script playbook, v0.5 (22 Oct 2026)
+# Script playbook, v0.6 (22 Oct 2026)
 
 How a Sahayata Kendra script gets written. Keep this guide short; the longer research is background, not a second rulebook. The 8,700-word spec it replaces is in `prompts/archive/` for reference; it produced worse scripts.
 
@@ -34,6 +34,19 @@ Someone curious asks a money question; Pandey explains it to a beginner, out lou
 
 The examples: `docs/examples/sahayata-kendra-dollar-rate.md` (the shape and the voice) and `docs/examples/sahayata-kendra-sip-retire.md` (one chain from the caller's own number; its first line is the known weakness). Read them for how they work. Don't reuse their lines.
 
+## Curiosity and story movement
+
+Added at Akhilesh's request from the supplied *Short-Form Storytelling Principles* PDF and the eMudhra collaboration. These are shared craft principles; the Kendra setup and beginner explanation above remain format-specific.
+
+- **Make a short, relevant promise.** The opening fits one spoken line and raises an understandable question. Give a substantive reason to stay immediately; introduce unfamiliar mechanics after their stakes. Research supplies facts, not the required hook or storyline.
+- **Keep curiosity moving.** Let a reveal answer something and make the next question worth asking. Build successive changes in the viewer's understanding: evidence, apparent reassurance, a complication or a supported consequence. Use multiple meaningful turns where the material supports them; no fixed count, reveal timestamp or forced alternation of good and bad news. The ending fulfils the opening promise.
+- **Use earned contrast.** Identify the expectation a fact changes. A striking number, historical example or qualification earns space by changing the argument. Preserve differences between cases and distinguish inference from established fact; uncertainty alone does not justify a frightening forecast.
+- **Keep substance and its connections.** Remove tangents and repeated conclusions while retaining the bridges needed to understand why one fact follows another. Value density is not the maximum number of facts or the fastest delivery.
+- **Match comprehension to the audience.** Our finance-aware viewers know IPO, GMP and SIP; unfamiliar mechanics need a concrete explanation. Kendra's beginner caller can need more. Use an example when it clarifies the mechanism, rather than explaining everything twice or forcing a reading-grade target.
+- **Earn emotion and the share.** Make the stakes felt through the facts and the character's appropriate delivery. Build toward an insight someone would want to tell a friend. Fear, shock, a moral and an explicit share request are not required; Pandey's existing ending and performance rules still apply.
+
+The PDF lessons and their limits are summarised in the existing `docs/script-flow-research.md`; agents do not need the original PDF or another checklist. Its rhythm/cadence guidance is incorporated below. Treat retention and sharing benefits as hypotheses to test, not established results.
+
 ## Prosody and spoken flow
 
 Agreed addition, 22 October, from the Jio–Starlink collaboration. These principles can support other formats; Pandey's dialect, beginner audience and performance rules remain specific to Kendra. Follow the chosen audience and character.
@@ -49,7 +62,7 @@ Agreed addition, 22 October, from the Jio–Starlink collaboration. These princi
 - **Check the spoken result.** Use the existing cold readers for one-listen understanding. A read or generated take is needed to assess stumbling and duration; do not claim to have heard audio from a transcript alone.
 - **Use measurements as diagnostics.** Repetitive contours or evenly spaced pauses can reveal mechanical delivery. No universal pitch range, speaking rate, pause count or retention guarantee is established. Actual recordings establish timing; word counts are estimates.
 
-The workflow supplies `docs/script-flow-research.md` explicitly to writers, the judge and the voice stage: read its practical application and interpretation limits. Evidence is background when needed, not extra creative constraints. Cold readers still see only the script.
+The workflow supplies `docs/script-flow-research.md` explicitly. Writers and the judge read its Working application, PDF lessons and interpretation limits; the voice stage uses the practical prosody guidance. Evidence is background when needed, not extra creative constraints. Cold readers still see only the script.
 
 ## The loop (v0.3, agreed 3 Oct 2026)
 
