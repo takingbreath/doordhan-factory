@@ -1,6 +1,6 @@
 # Spoken script flow: evidence and working method
 
-Researched 19 October 2026 at Akhilesh's request. He compares script flow with the meter of songs and Urdu shayari. This document separates linguistic evidence, narrative-comprehension research and proposed writing practices. No current manuscript is rewritten or approved by this research.
+Researched 19 October 2026 at Akhilesh's request, with follow-up research discussed 20 October and recorded here 22 October. He compares script flow with the meter of songs and Urdu shayari. This document separates linguistic evidence, narrative-comprehension research and writing practices. Akhilesh approved integrating the practical guidance into the existing workflow on 22 October; no script or generated voice is approved by that instruction.
 
 ## Answer
 
@@ -20,7 +20,7 @@ There is a scientific study of speech rhythm, prosody and information organisati
 
 6. **Curiosity:** Golman and Loewenstein, [Curiosity, Information Gaps, and the Utility of Knowledge](https://www.cmu.edu/dietrich/sds/docs/golman/golman_loewenstein_curiosity.pdf), inspected as an author-hosted theoretical paper. It models attention to missing information and the utility of knowing. It motivates testing specific, meaningful questions; it does not prescribe a number of hooks, a fixed reveal timestamp or a dopamine ladder for reels.
 
-## Working application — proposals, not established laws
+## Working application — craft guidance, not established laws
 
 Treat the script as three interacting structures:
 
@@ -55,4 +55,26 @@ Both clauses remain complete. The repeated customer-growth concept gives the com
 - An average rhythm in observed speech is not an optimal prescribed beat for every listener or language.
 - Syllable counts, stress patterns and word counts describe different things. Roman spellings alone do not reliably determine spoken meter.
 - Retention depends on topic, relevance, delivery, visuals and audience/distribution as well as language. The cited studies do not isolate our reel performance.
-- These methods are available for the next refinement pass; no approved script, training preference or production pipeline is automatically changed.
+- These methods inform the playbook and explicitly supplied writer/judge/voice inputs. Character rules and approved script words remain intact; the research does not approve production or a voice take.
+
+## Follow-up evidence and practitioner methods
+
+Reviewed for the 20 October discussion; integrated 22 October. The workflow's main instructions stay in the playbook. These sources explain why the options are useful and where their evidence stops.
+
+- **Audible focus, with trade-offs.** Chuklin et al., [Prosody Modifications for Question-Answering in Voice-Only Settings](https://arxiv.org/abs/1806.03957), full paper inspected. In crowdsourced English voice-only question answering with two TTS engines, some emphasis/rate/pitch modifications improved identification of key answers, while naturalness could suffer. Effects varied with the engine and answer characteristics. This supports selective prominence, not a universal SSML recipe or proof of higher reel completion.
+- **Recognisable rhetorical structures.** Heritage and Greatbatch (1986), [Generating Applause](https://www.journals.uchicago.edu/doi/10.1086/228465), primary abstract reviewed; [Bull's analysis](https://eprints.whiterose.ac.uk/100468/3/A_PublishedVersion.pdf) inspected. Contrasts and three-part lists can make completion points recognisable in political speeches. This is evidence about live speaker/audience coordination, not a reel-retention trial. Parallel comparisons and purposeful repetition are optional craft choices; do not manufacture lists or an opposition merely to use them.
+- **Telling before polishing.** [Noel King in Transom's Don't Write, Tell](https://transom.org/2026/revisiting-dont-write-tell/), practitioner interview transcript inspected. She describes telling a complex money story conversationally, noticing confusion/interest and composing passages for cadence. This is an experienced reporter's method, not a controlled experiment. Adapt it to the intended audience; conversational need not mean explaining familiar finance concepts.
+- **Voice notes and table reads.** [Transom's account of WBUR Cognoscenti's process](https://transom.org/2026/deploy-this-one-tiny-maneuver-to-improve-audio-essays/), practitioner transcript inspected. Editors use authors' spoken answers and rehearsals to make broadcast versions sound closer to their actual speech. Use an actual reading when available; a model inspecting text must not claim it performed an oral test.
+- **Our production observation.** `docs/voices/directing-tts.md` records a take with a normal pitch range that still sounded read because sentence contours and pauses repeated. Local measurements can expose a delivery problem; their numeric values are not universal targets. Keep the approved words separate from punctuation/tags used to direct performance. Do not change model, retry budgets or character constraints merely because a study used a different engine.
+
+### Example: comparison and landing phrase
+
+From Akhilesh's edited Jio script (an illustration of phrasing, not a new fact check):
+
+> Last financial year, yahaan customers **55% badhe**. | Mobile broadband mein growth **sirf 5.6% thi**. ||
+
+The second clause reuses the comparison's shape and changes the focus. The closing phrase, **future growth ko less profitable**, is the business distinction the story builds toward. A performance version can give it room to land without rewriting approved words or inserting silence after every written full stop. Prefer natural syntax over forcing every important word to the end.
+
+### Review the file, not the app
+
+The existing Kendra voice tool writes `<name>_voice_cut.mp3` and `.wav` under `work/<slug>/loop/audio/<script>/`, with reports. Human review can use that same recording in any app/player with file access; regenerated audio is a different take even when the text is identical. `work/` and `outputs/` are git-ignored, so pushing the script does not transfer the recording. A separate machine/session needs the actual file or an authorized accessible link. Preserve the script version, exact take path and human feedback when handing off. Transcript verification and acoustic diagnostics do not replace the user's listening judgment.

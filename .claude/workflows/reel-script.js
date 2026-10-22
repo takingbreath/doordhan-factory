@@ -15,7 +15,7 @@ export const meta = {
   ],
 }
 
-// The playbook is docs/script-playbook.md (v0.3, 3 Oct 2026); every agent reads it whole. Each step is its own agent
+// The playbook is docs/script-playbook.md (v0.5, 22 Oct 2026); every agent reads it whole. Each step is its own agent
 // (.claude/agents/reel-*.md) with fresh context, and its task is two lists of labelled paths: what to read, and where
 // to write. What a step is not given is part of the design: a writer sees the research, the reels, the playbook and
 // the example, never another writer's work or a voice card; a reader sees one script and nothing else; the judge
@@ -187,6 +187,7 @@ const numOf = stem => Number(/^w\d+-(\d)/.exec(stem)[1])
 
 const CLAUDE_MD = ['House rules: CLAUDE.md', 'CLAUDE.md']
 const PLAYBOOK = ['Playbook (read it whole)', 'docs/script-playbook.md']
+const PROSODY = ['Prosody reference (Working application and interpretation limits; evidence is background)', 'docs/script-flow-research.md']
 const EXAMPLE = ['Example, the dollar reel (the shape and the voice; don\'t reuse its lines)', 'docs/examples/sahayata-kendra-dollar-rate.md']
 const EXAMPLE2 = ['Example, the SIP reel (one chain from the caller\'s own number; its first line is the known weakness; don\'t reuse its lines)', 'docs/examples/sahayata-kendra-sip-retire.md']
 const FORMAT_FILE = `formats/${brief.format}.md`
@@ -223,7 +224,7 @@ await run('reel-1-research', 'Research', PH.research,
 const writerIds = Array.from({ length: brief.writers }, (_, i) => i + 1)
 await pipeline(writerIds,
   w => run('reel-2-writer', `Writer ${w}`, PH.writers,
-    [['Research handoff', P.s1], ['Reels folder', P.reels], PLAYBOOK, EXAMPLE, EXAMPLE2],
+    [['Research handoff', P.s1], ['Reels folder', P.reels], PLAYBOOK, PROSODY, EXAMPLE, EXAMPLE2],
     [['Your note (working file; the judge reads it)', P.note(w)], ['Script 1', P.script(stemOf(w, 1))],
       ['Script 2', P.script(stemOf(w, 2))]]),
   (_, w) => parallel([1, 2].map(m => () => lint(stemOf(w, m)))))
@@ -235,7 +236,7 @@ const want = Math.min(PICKS, scripts.length)
 const judged = await run('reel-4-judge', 'Judge', PH.judge,
   [...scripts.map(s => [`Script ${s} (writer ${writerOf(s)})`, P.script(s)]),
     ...writerIds.map(w => [`Writer ${w}'s note`, P.note(w)]),
-    ['Research handoff', P.s1], PLAYBOOK, EXAMPLE, EXAMPLE2, ['Pandey\'s voice card', 'docs/voices/pandey/voice-card.md'],
+    ['Research handoff', P.s1], PLAYBOOK, PROSODY, EXAMPLE, EXAMPLE2, ['Pandey\'s voice card', 'docs/voices/pandey/voice-card.md'],
     ...scripts.map(s => [`Lint report for ${s}`, P.lintReport(s)])],
   [['Picks file', P.picks], ['Working file', P.s4Work],
     ['Note to a pick\'s writer, one file per pick with a note (<script> is the pick\'s file name without .md)', P.judgeNote('<script>')]],
@@ -283,7 +284,7 @@ await pipeline(byWriter,
         [['Your note', P.note(w)], [`Your script ${m} (${p.script}, the pick the judge's note is about)`, P.script(p.script)],
           [otherPicked ? `Your script ${3 - m} (${other}, also one of the picks, so you can't offer it instead)`
             : `Your script ${3 - m} (${other}, your other draft)`, P.script(other)],
-          ['The judge\'s note', P.judgeNote(p.script)]],
+          ['The judge\'s note', P.judgeNote(p.script)], PLAYBOOK, PROSODY],
         [['Revised script (write it only if you revise)', P.script(`${p.script}r`)],
           ['Your note (add your reply at the end)', P.note(w)]])
       const said = (/\b(KEEP|REVISED|OTHER)\b/.exec(String(reply)) || [])[1]
@@ -317,7 +318,7 @@ const finals = picks.map(p => ({ pick: p.script, note: p.note, ...outcome[p.scri
 
 // ================================================================ 6. voice
 await run('reel-7-performance', 'Voice', PH.voice,
-  [...finals.map(f => [`Pick ${f.final}`, P.script(f.final)]), ...CARDS],
+  [...finals.map(f => [`Pick ${f.final}`, P.script(f.final)]), ...CARDS, PROSODY],
   [...finals.map(f => [`Audio folder for ${f.final}`, P.cut(f.final)]), ['Voice notes (handoff)', P.voiceNotes],
     ['Working file', P.s7Work]])
 

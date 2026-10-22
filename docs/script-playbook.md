@@ -1,6 +1,6 @@
-# Script playbook, v0.4 (3 Oct 2026)
+# Script playbook, v0.5 (22 Oct 2026)
 
-How a Sahayata Kendra script gets written. One page. The agents in the loop read this file and nothing longer. The 8,700-word spec it replaces is in `prompts/archive/` for reference; it produced worse scripts.
+How a Sahayata Kendra script gets written. Keep this guide short; the longer research is background, not a second rulebook. The 8,700-word spec it replaces is in `prompts/archive/` for reference; it produced worse scripts.
 
 ## How to run
 
@@ -34,15 +34,32 @@ Someone curious asks a money question; Pandey explains it to a beginner, out lou
 
 The examples: `docs/examples/sahayata-kendra-dollar-rate.md` (the shape and the voice) and `docs/examples/sahayata-kendra-sip-retire.md` (one chain from the caller's own number; its first line is the known weakness). Read them for how they work. Don't reuse their lines.
 
+## Prosody and spoken flow
+
+Agreed addition, 22 October, from the Jio–Starlink collaboration. These principles can support other formats; Pandey's dialect, beginner audience and performance rules remain specific to Kendra. Follow the chosen audience and character.
+
+- **Story before cadence.** Open a specific question and make each beat build toward its answer. Repair unexplained jumps before polishing the sound; rhythm cannot make unrelated facts into a story.
+- **Write meaningful spoken phrases.** A complete sentence can contain several phrases. Phrase boundaries need not contain silence. Keep natural joining words rather than manufacturing punchy fragments.
+- **Choose the focus.** Give the new information or important contrast prominence through timing, pitch or emphasis. Do not automatically stress every number or company name.
+- **Use parallel phrasing when it helps.** Give comparisons a recognisable shape. Repetition must advance the thought. Contrast and three-part builds are options, not compulsory ingredients.
+- **Let delivery follow meaning.** Context, complication and conclusion can have different pace and intonation. Avoid repeating the same melody and final pause after every sentence; do not exaggerate Pandey's emotion to create variety.
+- **Give important phrases room to land.** Remove trailing words that weaken a reveal. Keep word order natural for Hinglish instead of imposing English sentence-final focus everywhere.
+- **Choose language by spoken phrasing.** Use Hindi or English where the thought sounds natural, not by word-for-word translation. No fixed mix, rhyme, syllable count or meter.
+- **Separate words from performance.** Keep scripts clean. Put optional `|` phrase boundaries, `||` thought boundaries and selective emphasis in separate delivery notes; marks are not mandatory silences and are never spoken. Preserve the user's current edits and approved words; flag factual concerns separately.
+- **Check the spoken result.** Use the existing cold readers for one-listen understanding. A read or generated take is needed to assess stumbling and duration; do not claim to have heard audio from a transcript alone.
+- **Use measurements as diagnostics.** Repetitive contours or evenly spaced pauses can reveal mechanical delivery. No universal pitch range, speaking rate, pause count or retention guarantee is established. Actual recordings establish timing; word counts are estimates.
+
+The workflow supplies `docs/script-flow-research.md` explicitly to writers, the judge and the voice stage: read its practical application and interpretation limits. Evidence is background when needed, not extra creative constraints. Cold readers still see only the script.
+
 ## The loop (v0.3, agreed 3 Oct 2026)
 
 1. **Research. One agent.** Facts with sources and dates; every number computed in code; how people phrase the question (search suggestions, titles, comments); what popular creators say; and five to eight reels on the topic, chosen by views, with transcripts (vidIQ search, transcript and watch tools only). It flags gaps; it doesn't pick a take.
-2. **Writers. Three agents, independent, the same package each.** The package: the research handoff, the reels, this file's "What a good script is", the brief below, and the example. Nothing else. Each writer picks the question a normal person would ask, says in a few lines why, and writes two complete scripts, each as one continuous piece of talk. The question and the answer come from one mind; that is the point. If a writer needs a number the research doesn't have, it looks that one thing up, cites it in its note, and the judge checks it.
+2. **Writers. Three agents, independent, the same package each.** The package: the research handoff, the reels, this playbook, the explicitly supplied prosody reference and the examples. Nothing else. Each writer picks the question a normal person would ask, says in a few lines why, and writes two complete scripts, each as one continuous piece of talk. The question and the answer come from one mind; that is the point. If a writer needs a number the research doesn't have, it looks that one thing up, cites it in its note, and the judge checks it.
 3. **Judge. One agent.** Reads all six scripts whole and compares them against "What a good script is" and the examples. It also reads each first line on its own, as a stranger who hasn't heard the caller yet. Picks three, from different writers where it can. For each pick: traces every claim and number to the research (or the writer's cited lookup), attaches the lint's voice report, and writes four or five lines on why it works and what Akhilesh should listen for. It changes no words.
 4. **The judge's note.** For a pick, the judge may send one note back to the writer who wrote it: a claim it can't trace, a first line that doesn't stand on its own, or one observation about the whole script. A pick with one clear, fixable problem gets the note; the note exists for exactly that (sip-retire-1: the best script shipped with a first line nobody could place, and no note went out). The writer answers once: keep, revise, or offer its other draft. The writer has the last word on the words.
 5. **Readers. Three per pick, cold.** "You heard this once; tell a friend what it said, in three sentences." Their retells go to Akhilesh under each script, as information. They send nothing back to anyone; their lack of context is the point.
-6. **Voice.** The three picks, rendered the way V6b was: Devanagari from the voice card's spelling table, the monologue as one take, the slower spaced delivery, a Scribe transcript of each cut against its script.
-7. **Hand-off.** Three scripts in full, three cuts, each writer's question and reasons, the claims trace, the retells, the lint reports, compliance notes. Akhilesh picks one, or none. A rejection is a new brief with a sentence from him.
+6. **Voice.** The three picks, rendered the way V6b was: Devanagari from the voice card's spelling table, the monologue as one take, the slower spaced delivery, a Scribe transcript of each cut against its script. Save separate performance notes; keep words unchanged. A transcript match does not establish pleasant prosody; human voice review remains necessary.
+7. **Hand-off.** Three scripts in full, three cuts, each writer's question and reasons, the claims trace, the retells, the lint reports, compliance notes. Give the exact MP3/WAV paths and what to listen for. Audio is under git-ignored `work/`: another app on the same checkout can open it, but a Git pull on another machine will not transfer it. Provide a file attachment or an already-authorized accessible link when supported; otherwise explain how to transfer the file. Do not upload or regenerate a take merely to switch apps. Akhilesh picks one, or none. A rejection is a new brief with a sentence from him.
 
 **A source video.** The brief may name a video to adapt (`source:` a YouTube or Instagram link, or `work/<slug>/source.md` for a pasted script). Research saves its transcript as `reels/00-source.md`, checks its claims first, and collects fewer other reels. Each writer's first script follows the source's order, examples and point, as Pandey, in a minute; the second may depart. Everything else runs the same.
 
