@@ -489,9 +489,15 @@ def flow_order():
     assert f("done", "g01", "format", "--value", "sahayata_kendra", "--by", "Naveen") == 0
     assert f("done", "g01", "voice", "--by", "Naveen", "--value", "v.mp3") == 0
     assert f("done", "g01", "graphics", "--value", "B", "--by", "Naveen") == 1           # untried pairing
+    assert f("ready", "g01") == 1                                                         # /produce-video: no frozen script
+    os.makedirs(os.path.join(R, "registry", "scripts"), exist_ok=True)
+    json.dump({"slug": "g01", "approved_by": "Naveen (test)"}, open(os.path.join(R, "registry", "scripts", "g01.json"), "w"))
+    assert f("ready", "g01") == 1                                                         # frozen, but the flow is at graphics
     assert f("done", "g01", "graphics", "--value", "A", "--by", "Naveen") == 0
+    assert f("ready", "g01") == 0 and f("ready", "How much SIP") == 1                      # at production: /produce-video may run
     assert f("done", "g01", "production", "--value", "missing.mp4") == 1
-    return "order, approvers, offered formats, word caps, Akhilesh-only exceptions, untried pairings, stamped final"
+    return ("order, approvers, offered formats, word caps, Akhilesh-only exceptions, untried pairings, stamped final; "
+            "/produce-video only at production")
 step("make-reel flow gates (flow.py)", flow_order)
 
 
