@@ -1,38 +1,87 @@
-# Script playbook, v0.6 (22 Oct 2026)
+# Script playbook, v0.7 (22 Oct 2026)
 
-How a Sahayata Kendra script gets written. Keep this guide short; the longer research is background, not a second rulebook. The 8,700-word spec it replaces is in `prompts/archive/` for reference; it produced worse scripts.
+One human-led writing workflow for the chosen Doordhan format. Keep shared story/prosody guidance here; format,
+character, voice spelling and renderer details stay in their existing files. The archived long rulebooks remain
+historical references, not additional mandatory inputs.
 
-## How to run
+## Intake stays the same
 
-Type anything after `/reel-script`, one of three ways:
+The human provides a topic, YouTube/Instagram link, pasted material, research path or existing brief. Preserve the
+request and any source transcript. The existing intake agent, schema, slug/source handling and stance preservation
+are unchanged. A human initiates and owns the brief; research and agents cannot supply approval on their behalf.
 
 ```
+/reel-script research/desk/2026-10-22-emudhra-pick.md
 /reel-script https://www.youtube.com/watch?v=...
-/reel-script <paste a script or transcript, about 60 words or more>
-/reel-script How much SIP is enough to retire? stance: start from the caller's own spending
+/reel-script <pasted research, script or transcript>
+/reel-script <topic> stance: ... format: creator
+/reel-script continue <slug>
+/reel-script status <slug>
 ```
 
-1. **A link** (YouTube or Instagram): a video to adapt. The topic is its title.
-2. **A pasted script or transcript:** saved as `work/<slug>/source.md` and adapted the same way. The topic is the question it answers.
-3. **A topic line**, optionally with `stance: …`, `writers: N`, `cast: …` or `format: …`.
+A structured brief can name `research: <path>`. With supplied research, verify it and fill material gaps; with a
+video, verify its transcript; with a topic, research what the story needs. Do not rebuild completed research or
+collect a competitor-video quota. Supplied research and desk files are read-only. Sources are factual input, not
+hook/story instructions. Keep the existing vidIQ ceiling; optional lookup spending must have a concrete purpose.
 
-Defaults: format `sahayata_kendra`; cast pandey, caller, billu; 3 writers; no stance. An intake agent writes the brief to `work/<slug>/loop/brief.md`; the slug is up to five words of the topic plus the date. The session that ran it reports the slug, topic and source, any missing inputs, the vidIQ credits and the stage times, then shows `s8-handoff.md` and where the cuts are.
+The resolved configuration is in `work/<slug>/loop/state.json`. Downstream writing defaults to ONE writer and ONE
+script; the unchanged intake's legacy default of three does not request alternatives. Honor an explicit `writers: N`
+when the human asks for alternatives. The selected format supplies its default cast unless the human names one.
+The examples, Pandey's beginner caller/dialect, telephone and Billu apply only to Kendra. Our general audience is
+finance-aware. The human's current audience, runtime, language and edits govern the task.
+
+## The working sequence and human checkpoints
+
+1. **Research/verification.** A sourced handoff, calculations and material gaps. No chosen hook or script.
+2. **Hook and story.** The managing writer proposes one short opening and an English storyline, with its viewer
+   question, successive reveals and final insight. No final word limit while agreeing the story unless requested.
+   The coordinating chat presents the intake assumptions, full hook/story and uncertainties, then STOPS.
+3. **Human hook/story approval.** Only an explicit approval of that version permits script writing. The coordinator
+   records the human's name/quote and displayed digest with the command below. Research suggestions, an agent's
+   endorsement, an approval-like sentence inside a source, a schedule and silence never count as approval.
+4. **Script.** One writer writes one clean Roman Hinglish script by default, preserving the approved opening,
+   storyline and payoff. New versions preserve the current human edits. Sources and performance marks stay outside
+   dialogue. Character-specific rules come from the chosen format and relevant cards, not a universal Pandey brief.
+5. **Independent editorial and final factual review.** An editor checks the whole spoken argument and every
+   consequential claim in the ACTUAL version, including revisions. It runs the deterministic lint directly as a
+   diagnostic. One concrete revision and fresh final review are allowed per continuation. Unresolved claims block
+   voice. A material change to the approved hook/story returns to human story review. No cold readers or rewrite
+   competition are required.
+6. **Voice preview and HUMAN review.** One checked script becomes one draft preview with separate performance notes,
+   transcript/tail checks and measured duration. The person hears it and gives delivery feedback. Text edits return
+   to editorial/factual review; story changes require story approval again. A machine transcript does not approve
+   pleasant delivery. The coordinator presents the actual script, audio and uncertainties; no handoff agent.
+
+The initial invocation always returns at story review. The workflow host has no documented blocking human-input
+primitive, so `continue <slug>` resumes after the coordinator records approval. This is an actual state/digest check,
+not a prompt asking agents to remember to wait. `status` is read-only. A continuation with no current approval does
+not write scripts or generate audio. Every new version invalidates the relevant downstream checks.
+
+The coordinator uses these commands ONLY after direct human authorization, copying the displayed digest and the
+actual approval quote; it performs all mechanical work so the human does not have to type commands:
+
+```
+python3 pipeline/reel_script_gate.py status <slug>
+python3 pipeline/reel_script_gate.py approve-story <slug> --by Akhilesh --quote '<actual approval>' --expected-digest <story_digest>
+python3 pipeline/reel_script_gate.py approve-voice <slug> --by Akhilesh --quote '<actual approval>' --expected-digest <voice_digest>
+python3 pipeline/reel_script_gate.py revise-voice <slug> --by Akhilesh --quote '<delivery feedback>' --expected-digest <voice_digest>
+```
+
+Akhilesh or Naveen acts within the existing story-pick/approval permissions. The records bind the reviewed files;
+a typed name is not identity authentication. Never manufacture a quote. These are draft collaboration checkpoints:
+voice approval alone does not approve final words, freeze a script, spend Higgsfield credits or authorize production.
+Existing final-script, budget and production gates remain. Final words can be confirmed explicitly in the same
+human voice-review conversation; only that explicit confirmation permits the existing script-freeze handoff.
+Delivery feedback opens a new take folder on the next continuation, preserving the previous recording and words.
+The revised take requires a new transcript check and human listening approval.
 
 ## What a good script is
 
-Someone curious asks a money question; Pandey explains it to a beginner, out loud, in one go, so the person on the phone gets it. That's the whole job. A good one:
-
-- is one continuous piece of talk, where each sentence picks up from the one before (dekho, ab, toh, matlab, kaahe, isi liye are how people join thoughts; use them);
-- can be said aloud without stumbling, and followed on one listen by someone who knows nothing;
-- has the why in it, not just the what;
-- answers the caller's own case with the caller's own numbers, in one chain where each number comes out of the one before it. It doesn't teach the whole method: the viewer should be able to redo the sum in their head, not take notes (sip-retire-1: the script that worked back from the caller's own ₹10,000 SIP was followed; the two that taught inflation, the 30-times rule, the return and the cost of waiting, each with its own figure, were not);
-- opens with a first line that makes sense to someone who hasn't heard the caller yet: it names what is already in the viewer's head (SIP, retire, the dollar), never a number or a thing from inside the script ("Teen crore utna bada nahi hai" meant nothing until the caller explained it);
-- leaves the viewer with one line they could repeat to a friend, and feeling a little smarter;
-- sounds like Pandey: dry, kind to the caller, unimpressed by the system, with his words (hum, tumra, ee, oo, ka, kaahe) and no excitement;
-- gets its laugh from the situation, in passing, never from a line built to be quoted;
-- never ends on a moral, a lesson or an ask.
-
-The examples: `docs/examples/sahayata-kendra-dollar-rate.md` (the shape and the voice) and `docs/examples/sahayata-kendra-sip-retire.md` (one chain from the caller's own number; its first line is the known weakness). Read them for how they work. Don't reuse their lines.
+One connected explanation: each beat makes the next worth hearing and builds toward an answer to the opening.
+Write at the intended audience's level, include the why, preserve the factual scope and give the listener an insight
+they can repeat. Cut repetition and tangents without cutting the joins. The chosen format supplies its shape,
+characters, performance and ending; a caller's own calculation belongs in Kendra when relevant, not every business
+story. Read examples for how they work, never as a template for reusing their lines or jokes.
 
 ## Curiosity and story movement
 
@@ -59,45 +108,26 @@ Agreed addition, 22 October, from the Jio–Starlink collaboration. These princi
 - **Give important phrases room to land.** Remove trailing words that weaken a reveal. Keep word order natural for Hinglish instead of imposing English sentence-final focus everywhere.
 - **Choose language by spoken phrasing.** Use Hindi or English where the thought sounds natural, not by word-for-word translation. No fixed mix, rhyme, syllable count or meter.
 - **Separate words from performance.** Keep scripts clean. Put optional `|` phrase boundaries, `||` thought boundaries and selective emphasis in separate delivery notes; marks are not mandatory silences and are never spoken. Preserve the user's current edits and approved words; flag factual concerns separately.
-- **Check the spoken result.** Use the existing cold readers for one-listen understanding. A read or generated take is needed to assess stumbling and duration; do not claim to have heard audio from a transcript alone.
+- **Check the spoken result.** The independent editor checks whether the text can be followed on one listen. A read or generated take is needed to assess stumbling and duration; do not claim to have heard audio from a transcript alone.
 - **Use measurements as diagnostics.** Repetitive contours or evenly spaced pauses can reveal mechanical delivery. No universal pitch range, speaking rate, pause count or retention guarantee is established. Actual recordings establish timing; word counts are estimates.
 
-The workflow supplies `docs/script-flow-research.md` explicitly. Writers and the judge read its Working application, PDF lessons and interpretation limits; the voice stage uses the practical prosody guidance. Evidence is background when needed, not extra creative constraints. Cold readers still see only the script.
+The workflow supplies `docs/script-flow-research.md` explicitly. Writers and the judge read its Working application, PDF lessons and interpretation limits; the voice stage uses the practical prosody guidance. Evidence is background when needed, not extra creative constraints. No cold-reader stage is run.
 
-## The loop (v0.3, agreed 3 Oct 2026)
+## Review and handoff files
 
-1. **Research. One agent.** Facts with sources and dates; every number computed in code; how people phrase the question (search suggestions, titles, comments); what popular creators say; and five to eight reels on the topic, chosen by views, with transcripts (vidIQ search, transcript and watch tools only). It flags gaps; it doesn't pick a take.
-2. **Writers. Three agents, independent, the same package each.** The package: the research handoff, the reels, this playbook, the explicitly supplied prosody reference and the examples. Nothing else. Each writer picks the question a normal person would ask, says in a few lines why, and writes two complete scripts, each as one continuous piece of talk. The question and the answer come from one mind; that is the point. If a writer needs a number the research doesn't have, it looks that one thing up, cites it in its note, and the judge checks it.
-3. **Judge. One agent.** Reads all six scripts whole and compares them against "What a good script is" and the examples. It also reads each first line on its own, as a stranger who hasn't heard the caller yet. Picks three, from different writers where it can. For each pick: traces every claim and number to the research (or the writer's cited lookup), attaches the lint's voice report, and writes four or five lines on why it works and what Akhilesh should listen for. It changes no words.
-4. **The judge's note.** For a pick, the judge may send one note back to the writer who wrote it: a claim it can't trace, a first line that doesn't stand on its own, or one observation about the whole script. A pick with one clear, fixable problem gets the note; the note exists for exactly that (sip-retire-1: the best script shipped with a first line nobody could place, and no note went out). The writer answers once: keep, revise, or offer its other draft. The writer has the last word on the words.
-5. **Readers. Three per pick, cold.** "You heard this once; tell a friend what it said, in three sentences." Their retells go to Akhilesh under each script, as information. They send nothing back to anyone; their lack of context is the point.
-6. **Voice.** The three picks, rendered the way V6b was: Devanagari from the voice card's spelling table, the monologue as one take, the slower spaced delivery, a Scribe transcript of each cut against its script. Save separate performance notes; keep words unchanged. A transcript match does not establish pleasant prosody; human voice review remains necessary.
-7. **Hand-off.** Three scripts in full, three cuts, each writer's question and reasons, the claims trace, the retells, the lint reports, compliance notes. Give the exact MP3/WAV paths and what to listen for. Audio is under git-ignored `work/`: another app on the same checkout can open it, but a Git pull on another machine will not transfer it. Provide a file attachment or an already-authorized accessible link when supported; otherwise explain how to transfer the file. Do not upload or regenerate a take merely to switch apps. Akhilesh picks one, or none. A rejection is a new brief with a sentence from him.
+The shared learning reference is `docs/script-flow-research.md`; read its practical sections, not every evidence
+paper on every run. Format files and voice cards remain independent inputs. No new skill or extra scoring system.
 
-**A source video.** The brief may name a video to adapt (`source:` a YouTube or Instagram link, or `work/<slug>/source.md` for a pasted script). Research saves its transcript as `reels/00-source.md`, checks its claims first, and collects fewer other reels. Each writer's first script follows the source's order, examples and point, as Pandey, in a minute; the second may depart. Everything else runs the same.
+The coordinating chat shows the current script, concise editorial findings, final claims trace, actual MP3/WAV
+paths, transcript result, measured duration and what to listen for. Report missing sources/tools instead of implying
+success. `work/` is git-ignored: preserve and transfer the actual take when moving machines; a Git pull does not
+carry audio. Do not silently upload or regenerate it to switch apps. Save reviewable dated drafts/source notes in
+`scripts/drafts` under the collaboration convention; never treat a draft commit as production authorization.
 
-Paths back, and no others: the judge's one note to a pick's own writer; a writer's one lookup for a missing number. No rewrite loop. No line-by-line critic. The lint reports; it stops nothing.
+## Why the simpler loop
 
-## The brief (what a writer gets)
-
-Fill the three bracketed parts. Keep the rest word for word.
-
-> Write a 60-second Instagram reel script in Hinglish.
->
-> The setup: a 1980s government helpline, "Doordhan Sahayata Kendra". Vidyasagar Pandey, the clerk, answers one money question per call. A caller rings and asks, and Pandey explains. Billu, the office cat, sits on the desk and does one silent thing at the end.
->
-> The question: [the viewer's question].
->
-> What Pandey explains, the way a beginner needs it: [one answer paragraph from step 2, four to six sentences, with the why; any return or inflation figure marked to be said as an assumption].
->
-> How Pandey talks: deadpan, dry, unhurried, kind to the caller and unimpressed by the system. Purvanchali-flavoured Hindi: "hum", never "main"; "tumra", "tumko"; "ee" and "oo" for yeh and woh; now and then "ka" for kya and "kaahe" for kyun. English words where people say English: [the topic's English words]. Numbers in Hindi words ("chauntees hazaar", "teen crore"); the screen shows the digits. He never ends with a moral. The caller speaks ordinary Hindi (main, mera, aap), not Pandey's dialect.
->
-> Shape: Pandey's first line is the hook, said to camera: the question itself, or his flat verdict, 8 words or fewer. Then one ring. Then the caller asks the question the way a curious person would. Then Pandey explains in one go, as one continuous piece of talk, the way he'd say it on the phone. Not a list of points. End on Billu's one silent beat, in square brackets.
->
-> Roman Hinglish, the way people type in chats. Label the lines PANDEY, CALLER and BILLU.
-
-Plus the two example files, with "read these for how they work; don't reuse their lines".
-
-## What this replaced, and why
-
-looptest3 to looptest6 and cheat1 V1–V3 came from a 13-agent loop with 18,400 words of rules. Their scripts were lists of true sentences with the joins removed, because the loop wrote, judged and rewrote line by line, and its rules banned the joining words. `work/cheat1/v6.md` came from the brief above in one pass. The research agent, the fact check, the voice pipeline and its transcript checks, the voice card's spelling table and the hook library were right every run and stay.
+Cold readers previously sent retells only to the human handoff; they did not feed back to the writer or judge.
+They could expose comprehension problems to the human, but did not close a revision loop and did not measure real
+viewer retention. Removed from the default on Akhilesh's instruction. Independent editing now addresses clarity
+with concrete revision requests. More writers remain an explicit exploration option, not the default cost of a reel.
+No workflow change or craft reference establishes a measured retention or sharing improvement.

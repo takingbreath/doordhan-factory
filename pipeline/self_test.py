@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Toolchain self-test. Spends no credits. Run from the repo root: python3 pipeline/self_test.py
 Builds synthetic audio/video and runs every tool. Prints PASS/FAIL per step."""
-import json, os, subprocess, sys, tempfile
+import json, os, shlex, subprocess, sys, tempfile
 from PIL import Image, ImageDraw
 import numpy as np
 here = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, here)
@@ -171,6 +171,8 @@ def qc_gate_check():
         tool("script_freeze.py", "qctest", "--lines", lines, "--approved-by", "self-test", "--out-dir", T)
         rep, man, fin = os.path.join(T, "qc_repairs.json"), os.path.join(T, "qc_manifest.json"), os.path.join(ep, "qctest.mp4")
         build = os.path.join(T, "qc_build.py")
+        rebuild = (shlex.join([py, build]) + " && "
+                   + shlex.join([py, os.path.join(here, "assemble.py"), os.path.join(T, "qc_edit.json")]))
         open(build, "w").write(f"""
 import json, os, subprocess, numpy as np, wave
 R = json.load(open({rep!r})).get("L1", {{}}) if os.path.exists({rep!r}) else {{}}
@@ -192,7 +194,7 @@ json.dump({{"out": {fin!r}, "parts": [{{"file": {os.path.join(T, 'qc_raw.mkv')!r
 json.dump({{"slug": "_selftest", "final": {fin!r}, "script": {os.path.join(T, 'qctest.json')!r},
            "dialogue_stem": {os.path.join(T, 'qc_dialogue.wav')!r}, "length": {{"min": 1, "max": 10, "expected": 4.0}},
            "loudness": {{"target": -14}}, "repairs_file": {rep!r},
-           "rebuild": "{py} {build} && {py} {os.path.join(here, 'assemble.py')} {os.path.join(T, 'qc_edit.json')}",
+           "rebuild": {rebuild!r},
            "lines": [{{"id": "L1", "speaker": "anchor", "start": S, "end": round(S + len(x) / 48000, 3),
                       "source": {src!r}, "cut_in": round(cut, 3)}}]}}, open({man!r}, "w"))
 """)
@@ -421,6 +423,12 @@ def reel_script_stubs():
     assert r.returncode == 0, r.stdout + r.stderr
     return f"{r.stdout.count('PASS ')} stub runs pass"
 step("reel-script workflow stub runs", reel_script_stubs)
+
+def reel_script_checkpoint_tests():
+    r = subprocess.run([py, os.path.join(here, "test_reel_script_gate.py"), "-q"], capture_output=True, text=True)
+    assert r.returncode == 0, r.stdout + r.stderr
+    return "story/voice approval binding, stale final review, blocked facts, renderer preflight and command guards"
+step("reel-script human checkpoints", reel_script_checkpoint_tests)
 ROOT = os.path.dirname(here)
 
 

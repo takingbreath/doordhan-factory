@@ -169,13 +169,14 @@ class Cut:
         return os.path.join(self.out, *parts)
 
     def save(self):
-        json.dump(self.takes, open(self.takes_file, "w"), indent=1, ensure_ascii=False)
+        with open(self.takes_file, "w") as output:
+            json.dump(self.takes, output, indent=1, ensure_ascii=False)
 
     def line_of(self, take):
         return self.by_id[take.rsplit("_t", 1)[0]]
 
     def is_caller(self, take):
-        return self.line_of(take)["speaker"] == "caller"
+        return self.spec.get("format", "sahayata_kendra") == "sahayata_kendra" and self.line_of(take)["speaker"] == "caller"
 
     def prepped(self, take):
         return self.p("prep", f"{take}_phone.wav" if self.is_caller(take) else f"{take}.wav")
@@ -191,11 +192,16 @@ class Cut:
         def one(t):
             line = self.line_of(t)
             src = self.p("lines", f"{t}.txt")
-            open(src, "w", encoding="utf-8").write(line["text"].strip() + EXHALE + "\n")
-            voice = ["--voice-id", self.spec["caller_voice"]] if line["speaker"] == "caller" else ["--voice", "pandey"]
+            with open(src, "w", encoding="utf-8") as output:
+                output.write(line["text"].strip() + EXHALE + "\n")
+            kendra = self.spec.get("format", "sahayata_kendra") == "sahayata_kendra"
+            voice = (["--voice-id", self.spec["caller_voice"]] if kendra and line["speaker"] == "caller"
+                     else ["--voice", "pandey" if kendra else line["speaker"]])
+            model = ["--model", self.spec["model"]] if self.spec.get("model") else []
             r = run([PY, os.path.join(here, "tts_elevenlabs.py"), *voice, "--text-file", src,
-                     "--out", self.p("raw", f"{t}.mp3")])
-            open(self.p("check", f"{t}.tts.log"), "w").write(r.stdout + r.stderr)
+                     "--out", self.p("raw", f"{t}.mp3"), *model])
+            with open(self.p("check", f"{t}.tts.log"), "w") as output:
+                output.write(r.stdout + r.stderr)
             return t, r.returncode
         with ThreadPoolExecutor(3) as ex:
             for t, rc in ex.map(one, takes):
@@ -215,7 +221,7 @@ class Cut:
         r = run([PY, os.path.join(here, "prep_line.py"), raw, self.p("prep", f"{take}.wav")])
         if r.returncode != 0:
             res["why"] = "prep_line failed: " + (r.stdout + r.stderr).strip()[-200:]; return res
-        if line["speaker"] == "caller":
+        if self.is_caller(take):
             fc = (f"[0:a]{PHONE}[v];"
                   "anoisesrc=color=pink:amplitude=1:sample_rate=48000,highpass=f=400,lowpass=f=3000,volume=-44dB[n];"
                   "[v][n]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-17:TP=-1.5:LRA=11,aresample=48000")
@@ -262,10 +268,13 @@ def main():
         assert spec["lines"], "no lines"
         for l in spec["lines"]:
             assert re.fullmatch(r"[A-Za-z0-9-]+", l["id"]), f"bad id {l.get('id')!r}"
-            assert l["speaker"] in ("pandey", "caller"), f"{l['id']}: speaker must be pandey or caller"
+            if spec.get("format", "sahayata_kendra") == "sahayata_kendra":
+                assert l["speaker"] in ("pandey", "caller"), f"{l['id']}: speaker must be pandey or caller"
+            else:
+                assert re.fullmatch(r"[a-z][a-z0-9_]*", l["speaker"]), f"{l['id']}: invalid registry speaker"
             assert plain(l["text"]), f"{l['id']}: no words"
         assert len({l["id"] for l in spec["lines"]}) == len(spec["lines"]), "line ids repeat"
-        if any(l["speaker"] == "caller" for l in spec["lines"]):
+        if spec.get("format", "sahayata_kendra") == "sahayata_kendra" and any(l["speaker"] == "caller" for l in spec["lines"]):
             assert spec.get("caller_voice"), "caller_voice missing"
     except (OSError, ValueError, KeyError, AssertionError) as e:
         sys.exit(f"bad lines file {a.lines}: {e}")  # a message exit becomes code 2 (see the bottom)
@@ -320,18 +329,19 @@ def main():
     ring_x = room(peak(ring(), -9)); click_x = room(peak(click(), -12)); clack_x = room(peak(clack(), -7))
     ids = [l["id"] for l in spec["lines"]]
     audio = {i: cut.audio(chosen[i]) for i in ids}
-    callers = [i for i in ids if cut.by_id[i]["speaker"] == "caller"]
+    callers = [i for i in ids if cut.spec.get("format", "sahayata_kendra") == "sahayata_kendra" and cut.by_id[i]["speaker"] == "caller"]
     S, t = {}, 0.0
     for k, i in enumerate(ids):
         if callers and i == callers[0]:                       # one ring, the pick-up, then the caller
             S["ring"] = t + 0.25; S["click"] = S["ring"] + 1.2; t = S["click"] + 0.33
-        elif k and cut.by_id[ids[k - 1]]["speaker"] == "caller":   # he hangs up after the caller, before he speaks
+        elif k and cut.spec.get("format", "sahayata_kendra") == "sahayata_kendra" and cut.by_id[ids[k - 1]]["speaker"] == "caller":   # he hangs up after the caller, before he speaks
             S["clack"] = t + 0.6; t = S["clack"] + AFTER_CLACK
         elif k:
             t += GAP
         S[i] = t; t += len(audio[i]) / SR
     S["billu"] = t
-    total = t + float(spec.get("billu_s", 1.5))
+    kendra = spec.get("format", "sahayata_kendra") == "sahayata_kendra"
+    total = t + float(spec.get("billu_s", 1.5 if kendra else 0))
     n = int(total * SR); bus = np.zeros(n, np.float32)
 
     def put(x, at):
@@ -364,14 +374,15 @@ def main():
         failed.append(f"whole cut: transcript matches {sim:.0%} (needs {PASS_SIM:.0%})")
     diffs = differences(expect, heard)
 
-    report = {"name": spec["name"], "cut_s": round(total, 2), "with_card_s": round(total + 4.8, 2),
+    card_s = 4.8 if kendra else 0
+    report = {"name": spec["name"], "cut_s": round(total, 2), "with_card_s": round(total + card_s, 2),
               "timeline_s": {k: round(v, 2) for k, v in S.items()},
               "takes": {i: {k: chosen[i][k] for k in ("take", "sim", "speech_s")} for i in ids},
               "cut_transcript_match": round(sim, 3), "scribe": scribe_line, "failed": failed}
     json.dump(report, open(cut.p("cut.json"), "w"), indent=1, ensure_ascii=False)
     md = [f"# Voice cut: {spec['name']}", "",
           f"- File: {base}.mp3",
-          f"- Length: {total:.1f} s; with the 4.8 s closing card, {total + 4.8:.1f} s",
+          f"- Length: {total:.1f} s; with the format's {card_s:.1f} s closing card, {total + card_s:.1f} s",
           f"- Whole-cut transcript against the script: {sim:.0%} word match (Scribe's own score: {scribe_line.strip()})",
           f"- Result: {'PASS' if not failed else 'FAIL'}", ""]
     if failed:
@@ -387,7 +398,7 @@ def main():
     md += [f"- script \"{e}\" → heard \"{h}\"" for e, h in diffs] or ["- None"]
     md += ["", "## Whole-cut transcript", "", heard or "(none)", ""]
     open(cut.p("report.md"), "w", encoding="utf-8").write("\n".join(md))
-    print(f"{spec['name']}: {total:.1f} s ({total + 4.8:.1f} s with the card), transcript {sim:.0%}, "
+    print(f"{spec['name']}: {total:.1f} s ({total + card_s:.1f} s with the card), transcript {sim:.0%}, "
           f"{'PASS' if not failed else 'FAIL: ' + '; '.join(failed)}")
     print(f"wrote {base}.mp3 and {cut.p('report.md')}")
     sys.exit(0 if not failed else 1)

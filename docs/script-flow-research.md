@@ -55,7 +55,7 @@ Both clauses remain complete. The repeated customer-growth concept gives the com
 - An average rhythm in observed speech is not an optimal prescribed beat for every listener or language.
 - Syllable counts, stress patterns and word counts describe different things. Roman spellings alone do not reliably determine spoken meter.
 - Retention depends on topic, relevance, delivery, visuals and audience/distribution as well as language. The cited studies do not isolate our reel performance.
-- These methods inform the playbook and explicitly supplied writer/judge/voice inputs. Character rules and approved script words remain intact; the research does not approve production or a voice take.
+- These methods inform the playbook and explicitly supplied writer/editor/voice inputs. Character rules and approved script words remain intact; the research does not approve production or a voice take.
 
 ## PDF lessons: Short-Form Storytelling Principles
 
@@ -94,3 +94,7 @@ The second clause reuses the comparison's shape and changes the focus. The closi
 ### Review the file, not the app
 
 The existing Kendra voice tool writes `<name>_voice_cut.mp3` and `.wav` under `work/<slug>/loop/audio/<script>/`, with reports. Human review can use that same recording in any app/player with file access; regenerated audio is a different take even when the text is identical. `work/` and `outputs/` are git-ignored, so pushing the script does not transfer the recording. A separate machine/session needs the actual file or an authorized accessible link. Preserve the script version, exact take path and human feedback when handing off. Transcript verification and acoustic diagnostics do not replace the user's listening judgment.
+
+## Workflow update, 22 October
+
+Akhilesh approves the lighter human-led sequence: unchanged intake, verification of supplied research, human approval of the hook/story, one script by default, independent editorial and final factual review, then human voice review. Cold readers are removed; the independent editor addresses textual clarity through actionable feedback. Retells were model diagnostics, not actual listener or retention evidence. The PDF/prosody guidance remains in the existing inputs. Final-word approval and production gates remain separate.

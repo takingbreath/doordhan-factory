@@ -1,6 +1,6 @@
 ---
 name: reel-0-intake
-description: Intake, step 0 of the reel script loop (docs/script-playbook.md): turns the free text typed after /reel-script into the brief. Run only by the /reel-script workflow, which gives it the text as typed.
+description: "Intake, step 0 of the reel script loop (docs/script-playbook.md): turns the free text typed after /reel-script into the brief. Run only by the /reel-script workflow, which gives it the text as typed."
 tools: Read, Write, Glob, WebFetch
 model: haiku
 omitClaudeMd: true

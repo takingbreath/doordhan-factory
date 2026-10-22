@@ -48,7 +48,7 @@ Set by Akhilesh, 2026-10-01. The script loop (docs/script-playbook.md) and the l
 - **Length: 40–60 s, 70 s at most** (Akhilesh, 2026-10-01). Use the time the story needs; don't over-optimise for seconds. E5 ran 67 s.
 - **He may write the script.** When he does, voice it as written. Flag a fact or compliance problem once, then it's his call. E5 kept "₹1 crore ka ghar" and "comment karo / like karo".
 - **Pace:** Pandey speaks a little fast by default, and slows only for emphasis.
-- **End to end** (Akhilesh, 2026-10-01, replacing "research first, script second"): the loop researches, plans and writes from the topic alone, and he judges the finished script.
+- **Script workflow update** (Akhilesh, 2026-10-22, superseding the 1 October end-to-end default): verify supplied research or research the topic/source; develop the hook/story and wait for human approval before scripts. Independent final editorial/factual review precedes a voice preview for human listening. Existing Kendra character and performance rules stay.
 - **Billu is in every episode's cast** (Akhilesh, 2026-10-01), so the script can use him.
 
 **Look and set**

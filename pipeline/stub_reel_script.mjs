@@ -1,258 +1,282 @@
 #!/usr/bin/env node
-// Stub runs of .claude/workflows/reel-script.js (loop v0.3) with fake agents: no model, no network, no files written.
-// Four call shapes: free text (a link, a pasted transcript, a topic with "stance:"), which goes through a fake intake
-// that writes the brief, and the old brief with a slug (object, or key: value text), which skips the intake.
-// Each fake agent checks that every path under "Read" in its task exists (a file an earlier agent wrote, or a house
-// file in the repository) and "writes" its "Write" paths into an in-memory run folder. A scenario passes when the run
-// ends, every read was there (voice cards for cast members with no voice folder are expected missing), and the run
-// folder holds exactly the files the scenario expects.
-// Usage: node pipeline/stub_reel_script.mjs [--quiet]     exit 0 when every scenario passes
+// Real checkpoint helper + fake model stages, isolated temporary files. No model, API, audio or research charges.
 import fs from 'node:fs'
+import os from 'node:os'
 import path from 'node:path'
+import crypto from 'node:crypto'
+import { spawnSync } from 'node:child_process'
 import { fileURLToPath } from 'node:url'
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const QUIET = process.argv.includes('--quiet')
-const src = fs.readFileSync(path.join(ROOT, '.claude/workflows/reel-script.js'), 'utf8')
-  .replace(/^export const meta\s*=/m, 'const meta =')
+const source = fs.readFileSync(path.join(ROOT, '.claude/workflows/reel-script.js'), 'utf8').replace(/^export const meta\s*=/m, 'const meta =')
 const AsyncFunction = Object.getPrototypeOf(async function () {}).constructor
-const workflowBody = new AsyncFunction('agent', 'parallel', 'pipeline', 'log', 'phase', 'args', 'budget', 'workflow', src)
+const execute = new AsyncFunction('agent', 'parallel', 'pipeline', 'log', 'phase', 'args', 'budget', 'workflow', source)
+const hash = value => crypto.createHash('sha256').update(value).digest('hex')
+const assert = (truth, message) => { if (!truth) throw new Error(message) }
 
-function parseTask(prompt) {
-  const out = { reads: [], writes: [] }
+function task(prompt) {
+  const result = { reads: [], writes: [] }
   let list = null
-  for (const line of String(prompt).split('\n')) {
-    if (line === 'Read:') list = out.reads
-    else if (line === 'Write:') list = out.writes
+  for (const line of prompt.split('\n')) {
+    if (line === 'Read:') list = result.reads
+    else if (line === 'Write:') list = result.writes
     else if (line.startsWith('- ') && list) {
-      const i = line.lastIndexOf(': ')
-      list.push({ label: line.slice(2, i), path: line.slice(i + 2) })
+      const at = line.lastIndexOf(': ')
+      list.push({ label: line.slice(2, at), path: line.slice(at + 2) })
     }
   }
-  return out
+  return result
 }
 
-async function runScenario(name, opts) {
-  const files = new Map() // path -> content, for everything under work/
-  const missing = [] // reads that were not there
-  const logs = []
-  const calls = []
-  const slug = opts.brief.slug // for free text: the slug the fake intake will choose
-  const dir = `work/${slug}/loop`
-  if (!opts.freeText) files.set(`${dir}/brief.md`, `topic: ${opts.brief.topic}`)
-  let intakeText = null // the raw text the intake was given, if it ran
-  let sourceRead = null // the source the research task listed, if any
-  const writerSaw = {} // writer label -> did reels/00-source.md exist in its reels folder when it wrote
-  const exists = p => {
-    if (/^https?:\/\//.test(p)) return true // a link (a source video) can't be checked offline
-    if (p.startsWith('work/')) return p.endsWith('/') ? [...files.keys()].some(k => k.startsWith(p)) : files.has(p)
-    return fs.existsSync(path.join(ROOT, p))
+class Scenario {
+  constructor(slug, options = {}) {
+    this.slug = slug; this.options = options; this.calls = []; this.editorCalls = 0
+    this.temp = fs.mkdtempSync(path.join(os.tmpdir(), 'doordhan-workflow-test-'))
+    this.env = { ...process.env, DOORDHAN_ROOT: this.temp, PYTHONPATH: path.join(ROOT, 'pipeline') }
+    this.brief = { slug, topic: 'Who can a trust business trust?', format: 'sahayata_kendra', cast: ['pandey', 'caller', 'billu'], ...options.brief }
+    this.put(`work/${slug}/loop/brief.md`, '# Existing human intake brief')
+    this.json('registry/assets.json', { voices: Object.fromEntries(['pandey', 'rashmiji', 'sarika', 'gupta'].map(n => [n, { elevenlabs_voice_id: 'fixture-only' }])) })
   }
-  const put = (p, text) => files.set(p, text || 'stub')
-
-  async function agent(prompt, o) {
-    const t = parseTask(prompt)
-    calls.push(o.label)
-    if (opts.dies && opts.dies === o.label) return null
-    for (const r of t.reads) {
-      if (!exists(r.path) && !/^docs\/voices\/(caller|billu)\//.test(r.path)) missing.push(`${o.label} read ${r.path} (${r.label})`)
-    }
-    const W = label => (t.writes.find(x => x.label.startsWith(label)) || {}).path
-    const R = label => (t.reads.find(x => x.label.startsWith(label)) || {}).path
-    switch (o.agentType) {
-      case 'reel-0-intake': {
-        // the same decisions as .claude/agents/reel-0-intake.md, by rule: a link, a long pasted text, or a topic line
-        const m = /=== TEXT START ===\n([\s\S]*)\n=== TEXT END ===/.exec(prompt)
-        intakeText = m ? m[1] : null
-        const text = intakeText || ''
-        const kv = {}
-        const plain = text.replace(/\b(stance|writers|cast|format)\s*:\s*(.*?)(?=\s+\b(?:stance|writers|cast|format)\s*:|$)/gim,
-          (_, k, v) => { kv[k.toLowerCase()] = v.trim(); return '' }).trim()
-        const link = (/(https?:\/\/(?:www\.)?(?:youtube\.com\/(?:watch\?v=|shorts\/)|youtu\.be\/|instagram\.com\/(?:reels?|p)\/)\S+)/.exec(plain) || [])[1]
-        const words = plain.split(/\s+/).filter(Boolean)
-        const pasted = !link && words.length >= 60
-        const rest = link ? plain.replace(link, '').trim() : plain
-        const topic = link ? (rest || 'Stub video title') : pasted ? 'Stub question the transcript answers' : rest
-        const kebab = topic.toLowerCase().replace(/[^a-z0-9 ]+/g, ' ').split(/\s+/).filter(Boolean).slice(0, 5).join('-')
-        let sl = `${kebab}-20261004`, k = 2
-        while ([...files.keys()].some(f => f.startsWith(`work/${sl}/`))) sl = `${kebab}-20261004-${k++}`
-        const source = link || (pasted ? `work/${sl}/source.md` : '')
-        if (pasted) put(`work/${sl}/source.md`, `# Source pasted into /reel-script\n\n${text}`)
-        put(`work/${sl}/loop/brief.md`, `# Brief: ${sl}\n- **Topic:** ${topic}\n- **Stance:** ${kv.stance || 'none'}`)
-        return { slug: sl, topic, format: kv.format || 'sahayata_kendra', cast: ['pandey', 'caller', 'billu'],
-          stance: kv.stance || '', writers: kv.writers ? Number(kv.writers) : 3, source, note: '' }
-      }
-      case 'reel-1-research':
-      {
-        put(W('Handoff')); put(W('Working file'), '## Missing\n- None'); put(W('Python file'))
-        const srcIn = t.reads.find(x => x.label.startsWith('Source video to adapt'))
-        if (srcIn) { sourceRead = srcIn.path; put(`${W('Reels folder')}00-source.md`, 'SOURCE: the video the brief asks to adapt') }
-        const n = srcIn ? 4 : 6 // with a source: three to five other reels
-        for (let i = 1; i <= n; i++) put(`${W('Reels folder')}0${i}-reel.md`)
-        return `wrote s1-research.md, s1-working.md, s1-math.py, reels/ (${srcIn ? 'the source and ' : ''}${n} reels); vidIQ 40 credits`
-      }
-      case 'reel-2-writer':
-        if (R("The judge's note")) {
-          const pick = /\((w\d+-\d), the pick/.exec(t.reads.find(x => x.label.startsWith('Your script') && x.label.includes('the pick')).label)[1]
-          const answer = (opts.replies || {})[pick] || 'KEEP'
-          if (answer === 'REVISED') put(W('Revised script'))
-          put(W('Your note'), files.get(W('Your note')) + '\n## Reply to the judge')
-          return `${answer}\nbecause`
-        }
-        writerSaw[o.label] = files.has(`${R('Reels folder')}00-source.md`)
-        put(W('Your note'), '## Missing\n- None'); put(W('Script 1')); put(W('Script 2'))
-        return 'wrote the note and two scripts'
-      case 'reel-lint': {
-        const script = R('Script')
-        put(script.replace(/\.md$/, '-lint-fails.md')); put(script.replace(/\.md$/, '-lint-report.md'))
-        return 'VERDICT: FAIL'
-      }
-      case 'reel-4-judge': {
-        put(W('Picks file')); put(W('Working file'), '## Missing\n- None')
-        const picks = opts.picks.map(s => ({ script: s, note: (opts.notes || []).includes(s) }))
-        for (const p of picks) if (p.note) put(W('Note to a pick').replace('<script>', p.script))
-        return { picks }
-      }
-      case 'reel-4c-recall':
-        put(W('Your retell'))
-        return W('Your retell')
-      case 'reel-7-performance':
-        for (const x of t.writes.filter(x => x.label.startsWith('Audio folder for '))) {
-          const stem = x.label.slice('Audio folder for '.length)
-          put(`${x.path}${stem}_voice_cut.mp3`); put(`${x.path}report.md`); put(`${x.path}lines.json`)
-        }
-        put(W('Voice notes')); put(W('Working file'), '## Missing\n- docs/voices/caller/voice-card.md')
-        return 'cuts made'
-      case 'reel-8-handoff':
-        put(W('Hand-off')); put(W('Working file'), '## Missing\n- None')
-        return 'wrote s8-handoff.md, s8-working.md'
-      default:
-        throw new Error(`unexpected agent type ${o.agentType}`)
-    }
+  close() { fs.rmSync(this.temp, { recursive: true, force: true }) }
+  file(p) { return path.join(this.temp, p) }
+  put(p, value = 'stub') { fs.mkdirSync(path.dirname(this.file(p)), { recursive: true }); fs.writeFileSync(this.file(p), value) }
+  json(p, value) { this.put(p, JSON.stringify(value)) }
+  get(p) { return fs.readFileSync(this.file(p)) }
+  gate(...args) {
+    const r = spawnSync('python3', [path.join(ROOT, 'pipeline/reel_script_gate.py'), ...args], { env: this.env, encoding: 'utf8' })
+    assert(r.status === 0, r.stdout + r.stderr)
+    return JSON.parse(r.stdout)
   }
-  const parallel = thunks => Promise.all(thunks.map(async th => { try { return await th() } catch (e) { return null } }))
-  const pipeline = (items, ...stages) => Promise.all(items.map(async (item, i) => {
-    let v = item
-    try { for (const s of stages) v = await s(v, item, i) } catch (e) { return null }
-    return v
-  }))
-  let result, error = null
-  try {
-    result = await workflowBody(agent, parallel, pipeline, m => logs.push(m), () => {}, opts.args || opts.brief,
-      { total: null, spent: () => 0, remaining: () => Infinity }, () => { throw new Error('no nested workflows') })
-  } catch (e) { error = e.message }
-  const list = [...files.keys()].filter(k => k.startsWith(dir + '/')).map(k => k.slice(dir.length + 1)).sort()
-  const briefText = files.get(`${dir}/brief.md`) || ''
-  return { name, result, error, missing, logs, calls, list, sourceRead, writerSaw, intakeText, briefText,
-    allFiles: [...files.keys()] }
+  state() { return this.gate('status', this.slug) }
+  approve() {
+    const s = this.state()
+    return this.gate('approve-story', this.slug, '--by', 'Akhilesh', '--quote', 'Approved this hook and storyline', '--expected-digest', s.story_digest)
+  }
+  async invoke(args) {
+    const calls = [], scenario = this
+    const agent = async (prompt, opts) => {
+      calls.push(opts.agentType); this.calls.push(opts.agentType)
+      if (opts.agentType === this.options.dies) return null
+      if (opts.agentType === 'reel-0-gate') {
+        const command = prompt.split('\n')[1]
+        assert(/^python3 pipeline\/reel_script_gate\.py (init|status) /.test(command), 'Gate tried an approval or unexpected command')
+        const r = spawnSync('/bin/sh', ['-c', command], { cwd: ROOT, env: this.env, encoding: 'utf8' })
+        assert(r.stdout.trim(), r.stderr || 'No gate output')
+        return r.stdout.trim()
+      }
+      if (opts.agentType === 'reel-0-intake') {
+        this.intakeText = /=== TEXT START ===\n([\s\S]*)\n=== TEXT END ===/.exec(prompt)?.[1]
+        const b = { ...this.brief, writers: 3, source: this.options.source || '', stance: this.options.stance || '' }
+        this.put(`work/${this.slug}/loop/brief.md`, JSON.stringify(b))
+        if (this.options.pasted) this.put(`work/${this.slug}/source.md`, this.intakeText)
+        return { ...b, note: '' }
+      }
+      const t = task(prompt), W = label => t.writes.find(x => x.label.startsWith(label))?.path
+      for (const read of t.reads) {
+        if (/^https?:\/\//.test(read.path)) continue
+        if (/docs\/voices\/(caller|billu|rashmiji|sarika|gupta)\//.test(read.path)) continue // legitimately absent cards are reported
+        const exists = fs.existsSync(this.file(read.path)) || fs.existsSync(path.join(ROOT, read.path))
+        assert(exists, `${opts.agentType} missing input: ${read.path}`)
+      }
+      const d = `work/${this.slug}/loop`
+      if (opts.agentType === 'reel-1-research') {
+        const state = JSON.parse(this.get(`${d}/state.json`))
+        this.researchInput = state
+        this.put(W('Handoff'), 'Verified sourced facts; no story instructions')
+        this.put(W('Working file'), 'Mode: verification or targeted source/topic research; vidIQ 0')
+        this.put(W('Python file'), "print('No derived numbers')")
+        this.put(`${W('Reels folder')}index.md`, 'None required')
+        if (state.brief.source) this.put(`${W('Reels folder')}00-source.md`, 'Exact source transcript fixture')
+        return 'research written'
+      }
+      if (opts.agentType === 'reel-3-story') {
+        this.put(W('Story'), 'Short hook?\n\nEnglish story with a connected question and payoff.')
+        this.put(W('Notes'), 'Proposed, not approved')
+        return 'story written'
+      }
+      if (opts.agentType === 'reel-2-writer') {
+        const s = this.state()
+        const checkpoint = JSON.parse(this.get(`${d}/state.json`))
+        assert(checkpoint.story_approval?.digest === s.story_digest, 'Writer crossed an unapproved story gate')
+        assert(t.reads.some(x => x.path === `formats/${s.brief.format}.md`), 'Writer missing selected format')
+        assert(!fs.existsSync(this.file(W('Script'))), 'Writer overwrote a version')
+        const content = s.brief.format === 'creator' ? '**RASHMIJI**: Trust matters here.'
+          : '**PANDEY**: Who can you trust?\n**CALLER**: How does this work?\n**PANDEY**: Trust matters here.\n**BILLU**: [sleeps]'
+        this.put(W('Script'), content); this.put(W('Your note'), 'Question and payoff; source gaps None')
+        return 'script written'
+      }
+      if (opts.agentType === 'reel-4-judge') {
+        const s = this.state(), candidate = Object.values(s.candidates)[0]
+        const verdicts = this.options.verdicts || ['pass']
+        const verdict = verdicts[Math.min(this.editorCalls++, verdicts.length - 1)]
+        this.json(W('Machine-readable'), { verdict, script: candidate.path, script_sha256: candidate.sha256,
+          story_digest: s.story_digest, summary: 'Independent final review', issues: verdict === 'pass' ? [] : ['Fix the issue'],
+          claims: [{ claim: 'A sourced claim', source: 'https://example.org/primary', checked_on: '2026-10-22',
+            status: this.options.unverified ? 'unverified' : 'verified' }] })
+        this.put(W('Editorial notes'), 'Checked actual version; concrete feedback if needed')
+        return 'review written'
+      }
+      if (opts.agentType === 'reel-7-performance') {
+        const s = this.state(), dir = W('Audio folder'), script = this.get(s.script).toString()
+        assert(s.status === 'ready_for_voice', 'Voice ran before final factual check')
+        const speeches = script.split('\n').map(line => /^\*\*([A-Z]+)\*\*:\s*(.*)$/.exec(line)).filter(m => m && m[1] !== 'BILLU')
+        this.json(`${dir}lines.json`, { name: path.basename(dir.replace(/\/$/, '')), format: s.brief.format,
+          script_sha256: s.script_sha256, story_digest: s.story_digest, caller_voice: 'fixture-only',
+          lines: speeches.map((m, i) => ({ id: `L${i}`, speaker: m[1].toLowerCase(), script_text: m[2], text: m[2] })) })
+        const preflight = spawnSync('python3', ['-c', `from reel_voice_preview import prepare; prepare(${JSON.stringify(this.slug)})`], { env: this.env, encoding: 'utf8' })
+        assert(preflight.status === 0, preflight.stderr)
+        const audio = { mp3: `${dir}preview.mp3`, wav: `${dir}preview.wav`, report: `${dir}report.md` }
+        for (const [key, p] of Object.entries(audio)) this.put(p, `FAKE FIXTURE ${key}`)
+        this.json(`${d}/voice-review.json`, { ...audio, audio_sha256: Object.fromEntries(Object.entries(audio).map(([k, p]) => [k, hash(this.get(p))])),
+          script_sha256: s.script_sha256, story_digest: s.story_digest, voice_attempt: s.voice_attempt, transcript_verified: true })
+        this.put(W('Voice notes'), 'Human has not listened'); this.put(W('Working file'), 'Fake rendering only')
+        return 'voice fixture written'
+      }
+      throw new Error(`Unexpected stage ${opts.agentType}`)
+    }
+    const result = await execute(agent, fn => Promise.all(fn.map(x => x())), () => { throw new Error('No hidden pipeline') },
+      () => {}, () => {}, args, {}, () => { throw new Error('No nested workflow') })
+    assert(!calls.some(x => /recall|reel-lint|handoff/.test(x)), 'Retired reader/lint/handoff agent ran')
+    return { result, calls }
+  }
 }
-
-const SC = [
-  { name: '1. clean run: 3 writers, 6 scripts, 3 picks, 9 retells, 3 cuts',
-    brief: { slug: 'stub-clean', topic: 'Who decides the rupee-dollar rate?', format: 'sahayata_kendra', cast: 'pandey, caller, billu' },
-    picks: ['w1-1', 'w2-2', 'w3-1'],
-    expect: { scripts: 6, picks: ['w1-1', 'w2-2', 'w3-1'], retells: 9, cuts: 3 } },
-  { name: '2. a note on one pick; the writer answers OTHER',
-    brief: { slug: 'stub-other', topic: 'Who decides the rupee-dollar rate?', format: 'sahayata_kendra', cast: 'pandey, caller, billu' },
-    picks: ['w1-1', 'w2-1', 'w3-2'], notes: ['w2-1'], replies: { 'w2-1': 'OTHER' },
-    expect: { scripts: 6, picks: ['w1-1', 'w2-2', 'w3-2'], retells: 9, cuts: 3 } },
-  { name: '3. writers: 1',
-    brief: { slug: 'stub-one', topic: 'Who decides the rupee-dollar rate?', format: 'sahayata_kendra', cast: 'pandey, caller, billu', writers: 1 },
-    picks: ['w1-2', 'w1-1'],
-    expect: { scripts: 2, picks: ['w1-2', 'w1-1'], retells: 6, cuts: 2 } },
-  { name: 'extra a. a note answered REVISED (the revision is linted)',
-    brief: { slug: 'stub-revised', topic: 'x', format: 'sahayata_kendra', cast: 'pandey, caller, billu' },
-    picks: ['w1-1', 'w2-1', 'w3-1'], notes: ['w3-1'], replies: { 'w3-1': 'REVISED' },
-    expect: { scripts: 6, picks: ['w1-1', 'w2-1', 'w3-1r'], retells: 9, cuts: 3 } },
-  { name: 'extra b. OTHER refused when the other draft is already a pick',
-    brief: { slug: 'stub-refused', topic: 'x', format: 'sahayata_kendra', cast: 'pandey, caller, billu', writers: 1 },
-    picks: ['w1-1', 'w1-2'], notes: ['w1-1'], replies: { 'w1-1': 'OTHER' },
-    expect: { scripts: 2, picks: ['w1-1', 'w1-2'], retells: 6, cuts: 2 } },
-  { name: 'extra c. a reader that dies stops the run with its name',
-    brief: { slug: 'stub-dies', topic: 'x', format: 'sahayata_kendra', cast: 'pandey, caller, billu' },
-    picks: ['w1-1', 'w2-1', 'w3-1'], dies: 'Reader 2 · w2-1',
-    expectError: /Reader 2 · w2-1 did not finish/ },
-  { name: 'extra e. a brief with a source line: research saves reels/00-source.md, every writer reads it',
-    brief: { slug: 'stub-source', topic: 'How much SIP is enough to retire?' },
-    args: 'slug: stub-source\ntopic: How much SIP is enough to retire?\nformat: sahayata_kendra\ncast: pandey, caller, billu\n' +
-      'source: https://www.youtube.com/watch?v=STUB0000001',
-    picks: ['w1-1', 'w2-1', 'w3-1'],
-    expect: { scripts: 6, picks: ['w1-1', 'w2-1', 'w3-1'], retells: 9, cuts: 3,
-      source: 'https://www.youtube.com/watch?v=STUB0000001', writers: ['Writer 1', 'Writer 2', 'Writer 3'] } },
-  { name: 'free a. a YouTube link: the intake writes the brief, research saves reels/00-source.md, every writer reads it',
-    freeText: true, brief: { slug: 'stub-video-title-20261004', topic: 'Stub video title' },
-    args: 'https://www.youtube.com/watch?v=STUB0000002',
-    picks: ['w1-1', 'w2-1', 'w3-1'],
-    expect: { scripts: 6, picks: ['w1-1', 'w2-1', 'w3-1'], retells: 9, cuts: 3, intake: true, topic: 'Stub video title',
-      source: 'https://www.youtube.com/watch?v=STUB0000002', writers: ['Writer 1', 'Writer 2', 'Writer 3'] } },
-  { name: 'free b. a pasted transcript: saved as work/<slug>/source.md, which research turns into reels/00-source.md',
-    freeText: true, brief: { slug: 'stub-question-the-transcript-answers-20261004', topic: 'Stub question the transcript answers' },
-    args: "Dekho bhai, sab log bolte hain SIP karo, crorepati ban jaoge. Par sawaal yeh hai ki kitna? Maan lo tumhara kharcha aaj pachaas hazaar mahina hai. Tees saal baad mehangai ke saath wahi kharcha teen lakh ke aas paas hoga. Retirement ke baad bhi tees saal chalana hai, toh tumko lagbhag das crore chahiye. Baarah percent maan ke, aaj se SIP shuru karo toh mahina chauntees hazaar ke kareeb lagega. Paanch saal ruk gaye toh saath hazaar. Isi liye jaldi shuru karna zaroori hai, aur apna number apne kharche se nikalo, kisi aur ke crore se nahi.",
-    picks: ['w1-1', 'w2-1', 'w3-1'],
-    expect: { scripts: 6, picks: ['w1-1', 'w2-1', 'w3-1'], retells: 9, cuts: 3, intake: true,
-      topic: 'Stub question the transcript answers', source: 'work/stub-question-the-transcript-answers-20261004/source.md',
-      sourceFile: true, writers: ['Writer 1', 'Writer 2', 'Writer 3'] } },
-  { name: 'free c. a topic with "stance:" and "writers: 2": the intake, no source, the stance in the brief',
-    freeText: true, brief: { slug: 'how-much-sip-is-enough-20261004', topic: 'How much SIP is enough to retire?' },
-    args: "How much SIP is enough to retire? stance: start from the caller's own monthly spending writers: 2",
-    picks: ['w1-1', 'w2-2', 'w1-2'],
-    expect: { scripts: 4, picks: ['w1-1', 'w2-2', 'w1-2'], retells: 9, cuts: 3, intake: true,
-      topic: 'How much SIP is enough to retire?', stance: "start from the caller's own monthly spending" } },
-  { name: 'extra d. a brief with a phase is refused',
-    brief: { slug: 'stub-phase', topic: 'x', format: 'sahayata_kendra', cast: 'pandey', phase: 'blueprint' },
-    picks: [], expectError: /has none/ },
-]
 
 let bad = 0
-for (const sc of SC) {
-  const r = await runScenario(sc.name, sc)
-  const problems = []
-  if (sc.expectError) {
-    if (!r.error || !sc.expectError.test(r.error)) problems.push(`expected an error matching ${sc.expectError}, got ${r.error || 'none'}`)
-  } else {
-    if (r.error) problems.push(`error: ${r.error}`)
-    const e = sc.expect
-    const scripts = r.list.filter(f => /^w\d+-\d\.md$/.test(f))
-    const retells = r.list.filter(f => /^r-.*-\d\.md$/.test(f))
-    const cuts = r.list.filter(f => /_voice_cut\.mp3$/.test(f))
-    const finals = r.result ? r.result.picks.map(p => p.final) : []
-    if (scripts.length !== e.scripts) problems.push(`${scripts.length} scripts, expected ${e.scripts}`)
-    if (JSON.stringify(finals) !== JSON.stringify(e.picks)) problems.push(`final picks ${finals}, expected ${e.picks}`)
-    if (retells.length !== e.retells) problems.push(`${retells.length} retells, expected ${e.retells}`)
-    if (cuts.length !== e.cuts) problems.push(`${cuts.length} cuts, expected ${e.cuts}`)
-    for (const f of e.picks) {
-      if (!r.list.includes(`${f}-lint-report.md`)) problems.push(`no lint report for ${f}`)
-      for (let k = 1; k <= 3; k++) if (!r.list.includes(`r-${f}-${k}.md`)) problems.push(`no retell ${k} for ${f}`)
-    }
-    const first = r.logs[0] || ''   // the first log line names the slug, the topic and the source
-    if (!first.includes(`Slug: ${sc.brief.slug} `) || !first.includes(`Source: ${e.source || 'none'} `)) problems.push(`first log line lacks the slug or the source: ${first}`)
-    if (e.topic && !first.includes(`Topic: ${e.topic} `)) problems.push(`first log line lacks the topic: ${first}`)
-    if (e.intake) {
-      if (r.intakeText !== sc.args.trim()) problems.push(`the intake was not given the text as typed (got ${JSON.stringify(r.intakeText)})`)
-      if (!r.list.includes('brief.md')) problems.push('the intake wrote no brief.md')
-      if (!r.result || r.result.slug !== sc.brief.slug || r.result.topic !== e.topic || !r.result.intake) problems.push(`result slug/topic/intake: ${r.result && [r.result.slug, r.result.topic, r.result.intake]}`)
-      if (e.stance && !r.briefText.includes(e.stance)) problems.push('the stance is not in the brief')
-    } else if (r.intakeText !== null || (r.result && r.result.intake)) problems.push('the intake ran for a brief that already had a slug')
-    if (e.source) {
-      if (r.sourceRead !== e.source) problems.push(`research was given source ${r.sourceRead}, expected ${e.source}`)
-      if (e.sourceFile && !r.allFiles.includes(e.source)) problems.push(`no ${e.source}`)
-      if (!r.list.includes('reels/00-source.md')) problems.push('no reels/00-source.md')
-      for (const w of e.writers) if (!r.writerSaw[w]) problems.push(`${w} ran without reels/00-source.md in its reels folder`)
-    } else if (r.sourceRead || r.list.includes('reels/00-source.md')) problems.push('a source appeared in a run whose brief has none')
-    for (const f of ['s1-research.md', 's1-working.md', 's1-math.py', 's4-picks.md', 's4-working.md', 'audio/voice-notes.md', 's7-working.md', 's8-handoff.md', 's8-working.md']) {
-      if (!r.list.includes(f)) problems.push(`no ${f}`)
-    }
-  }
-  problems.push(...r.missing.map(m => `missing read: ${m}`))
-  if (problems.length) bad += 1
-  console.log(`${problems.length ? 'FAIL' : 'PASS'}  ${sc.name}`)
-  if (!QUIET || problems.length) {
-    if (r.result) console.log(`      result picks: ${r.result.picks.map(p => `${p.pick}${p.note ? ` (note: ${p.answer})` : ''} -> ${p.final}`).join(', ')}; agents ${r.result.agents}`)
-    if (r.error) console.log(`      stopped: ${r.error}`)
-    for (const l of r.logs) console.log(`      log: ${l.split('\n')[0]}`)
-    if (!sc.expectError && !QUIET) console.log(`      files (${r.list.length}): ${r.list.join('  ')}`)
-    for (const p of problems) console.log(`      ! ${p}`)
-  }
+async function check(name, fn) {
+  try { await fn(); console.log(`PASS  ${name}`) }
+  catch (e) { bad++; console.log(`FAIL  ${name}: ${e.stack}`) }
 }
+async function withScenario(slug, options, fn) {
+  const s = new Scenario(slug, options)
+  try { await fn(s) } finally { s.close() }
+}
+await check('initial run stops before scripts, editor and voice', () => withScenario('pause', {}, async s => {
+  const r = await s.invoke(s.brief)
+  assert(r.result.status === 'awaiting_story_approval', r.result.status)
+  assert(!r.calls.includes('reel-2-writer') && !r.calls.includes('reel-7-performance'), 'Crossed story gate')
+  assert(r.result.brief.writers === 1, 'Writing default is not one')
+}))
+await check('unapproved continuation does no creative or voice work', () => withScenario('unapproved', {}, async s => {
+  await s.invoke(s.brief)
+  const r = await s.invoke('continue unapproved')
+  assert(r.result.status === 'awaiting_story_approval' && r.calls.length === 1, 'Unapproved resume advanced')
+}))
+await check('approved story produces one script, final review and one human-review preview', () => withScenario('approved', {}, async s => {
+  await s.invoke(s.brief); s.approve()
+  const r = await s.invoke('continue approved')
+  assert(r.result.status === 'awaiting_voice_review', r.result.status)
+  for (const type of ['reel-2-writer', 'reel-4-judge', 'reel-7-performance']) assert(r.calls.filter(x => x === type).length === 1, `Unexpected ${type} count`)
+}))
+await check('unchanged YouTube intake preserves raw request and source', () => withScenario('video', { source: 'https://www.youtube.com/watch?v=TEST' }, async s => {
+  const input = 'https://www.youtube.com/watch?v=TEST'
+  await s.invoke(input)
+  assert(s.intakeText === input, 'Intake text changed')
+  assert(s.researchInput.brief.source === input, 'Source dropped')
+}))
+await check('unchanged pasted-source intake preserves original transcript', () => withScenario('pasted', { pasted: true, source: 'work/pasted/source.md' }, async s => {
+  const input = 'Dekho, this is the original spoken source. '.repeat(20)
+  await s.invoke(input)
+  assert(s.get('work/pasted/source.md').toString() === input.trim(), 'Pasted source changed')
+}))
+await check('supplied research path reaches verification read-only', () => withScenario('research', {}, async s => {
+  s.put('research/given.md', 'Provided facts, links and numbers')
+  const before = s.get('research/given.md')
+  await s.invoke({ ...s.brief, research: 'research/given.md' })
+  assert(s.researchInput.brief.research === 'research/given.md', 'Research path lost')
+  assert(before.equals(s.get('research/given.md')), 'Research was changed')
+}))
+await check('research filename works through unchanged intake', () => withScenario('path-input', { brief: { topic: 'research/given.md' } }, async s => {
+  s.put('research/given.md', 'Provided facts')
+  await s.invoke('research/given.md')
+  assert(s.researchInput.brief.research === 'research/given.md', 'Path intake did not enter verification')
+}))
+await check('creator selects its own cast and receives its own format', () => withScenario('creator', { brief: { format: 'creator' } }, async s => {
+  await s.invoke('Trust business format: creator')
+  assert(s.researchInput.brief.cast.join(',') === 'rashmiji', 'Creator inherited intake Kendra cast')
+  s.approve(); const r = await s.invoke('continue creator')
+  assert(r.result.status === 'awaiting_voice_review', r.result.status)
+  assert(r.result.brief.format === 'creator', 'Creator became Kendra')
+}))
+await check('one concrete revision gets a fresh trace of its new version', () => withScenario('revision', { verdicts: ['revise', 'pass'] }, async s => {
+  await s.invoke(s.brief); s.approve()
+  const r = await s.invoke('continue revision')
+  assert(r.result.status === 'awaiting_voice_review', r.result.status)
+  assert(r.result.script.endsWith('w1-v2.md'), 'Old version went to voice')
+  assert(r.calls.filter(x => x === 'reel-4-judge').length === 2, 'Revision was not independently rechecked')
+}))
+await check('persistent review issue stops after one revision without audio', () => withScenario('bounded', { verdicts: ['revise'] }, async s => {
+  await s.invoke(s.brief); s.approve()
+  const r = await s.invoke('continue bounded')
+  assert(r.result.status === 'needs_revision', r.result.status)
+  assert(r.calls.filter(x => x === 'reel-2-writer').length === 2, 'Unbounded or absent revision')
+  assert(!r.calls.includes('reel-7-performance'), 'Unresolved revision reached voice')
+}))
+await check('unverified final claim blocks voice even with a pass verdict', () => withScenario('facts', { unverified: true }, async s => {
+  await s.invoke(s.brief); s.approve(); const r = await s.invoke('continue facts')
+  assert(r.result.status === 'blocked', r.result.status)
+  assert(!r.calls.includes('reel-7-performance'), 'Unverified fact reached voice')
+}))
+await check('material story change returns to the human, never voice', () => withScenario('story-change', { verdicts: ['story_changed'] }, async s => {
+  await s.invoke(s.brief); s.approve(); const r = await s.invoke('continue story-change')
+  assert(r.result.status === 'needs_story_revision', r.result.status)
+  assert(!r.calls.includes('reel-7-performance'), 'Story deviation reached voice')
+}))
+await check('changed approved story invalidates continuation', () => withScenario('stale', {}, async s => {
+  await s.invoke(s.brief); s.approve(); s.put('work/stale/loop/s2-story.md', 'Human edited this story')
+  const r = await s.invoke('continue stale')
+  assert(r.result.status === 'awaiting_story_approval' && r.calls.length === 1, 'Stale approval accepted')
+}))
+await check('status is read-only and does not draft or render', () => withScenario('status', {}, async s => {
+  await s.invoke(s.brief)
+  const before = s.get('work/status/loop/state.json')
+  const r = await s.invoke('status status')
+  assert(r.calls.length === 1 && before.equals(s.get('work/status/loop/state.json')), 'Status mutated state')
+}))
+await check('explicit alternatives remain optional and select only one preview', () => withScenario('alternatives', {}, async s => {
+  await s.invoke({ ...s.brief, writers: 2 }); s.approve()
+  const r = await s.invoke('continue alternatives')
+  assert(r.calls.filter(x => x === 'reel-2-writer').length === 2, 'Explicit alternatives ignored')
+  assert(r.calls.filter(x => x === 'reel-7-performance').length === 1, 'Generated multiple previews')
+}))
+await check('failed editor stops the workflow before voice', () => withScenario('failure', { dies: 'reel-4-judge' }, async s => {
+  await s.invoke(s.brief); s.approve()
+  let error
+  try { await s.invoke('continue failure') } catch (e) { error = e.message }
+  assert(error?.includes('Independent editorial'), 'Editor failure not reported')
+  assert(!s.calls.includes('reel-7-performance'), 'Failed editor reached voice')
+}))
+await check('initializing an existing run cannot overwrite a manual story', () => withScenario('existing', {}, async s => {
+  await s.invoke(s.brief)
+  s.put('work/existing/loop/s2-story.md', 'Manual edits')
+  const r = await s.invoke(s.brief)
+  assert(r.result.status === 'blocked', 'Existing run restarted')
+  assert(s.get('work/existing/loop/s2-story.md').toString() === 'Manual edits', 'Manual edits overwritten')
+}))
+await check('pasted Research heading remains content rather than a bogus file path', () => withScenario('research-heading', {}, async s => {
+  const text = 'Research: \nA company reported results. Facts and source links follow. This is user-supplied research.'
+  await s.invoke(text)
+  assert(s.researchInput.input === text, 'Pasted research was changed')
+  assert(s.researchInput.brief.research === '', 'Research prose became a file path')
+}))
+await check('human text survives checkpoint shell quoting without execution', () => withScenario('quoting', {}, async s => {
+  const marker = s.file('unexpected-shell-execution')
+  const input = `Trust research: it's complicated $(touch ${marker}); a quote ' stays data.`
+  await s.invoke(input)
+  assert(s.researchInput.input === input, 'Human input did not survive quoting')
+  assert(!fs.existsSync(marker), 'Human text was executed by the shell')
+}))
+await check('human delivery feedback creates a separate take requiring new review', () => withScenario('voice-feedback', {}, async s => {
+  await s.invoke(s.brief); s.approve()
+  const first = (await s.invoke('continue voice-feedback')).result
+  assert(first.status === 'awaiting_voice_review', first.status)
+  const old = s.get(first.audio.mp3)
+  s.gate('revise-voice', s.slug, '--by', 'Akhilesh', '--quote', 'Less flat, keep the same words', '--expected-digest', first.voice_digest)
+  const second = (await s.invoke('continue voice-feedback')).result
+  assert(second.status === 'awaiting_voice_review', second.status)
+  assert(second.audio.mp3 !== first.audio.mp3, 'Previous take was overwritten')
+  assert(second.voice_digest !== first.voice_digest, 'New take reused approval identity')
+  assert(old.equals(s.get(first.audio.mp3)), 'Previous recording changed')
+}))
 console.log(bad ? `${bad} scenario(s) FAILED` : 'ALL STUB RUNS PASS')
 process.exit(bad ? 1 : 0)
