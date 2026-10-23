@@ -18,7 +18,8 @@
     "2026-10-19: anchor book 19 Oct; GMP ₹140→₹249 (2–18 Oct); proceeds mainly repay Jio debt",
     "2026-10-20: anchor book ₹2.5 lakh cr bids for ₹8,110 cr, 30x",
     "2026-10-21: 21 Oct: opens today; Reliance paid 4 lakh+ staff ~15 days early, helped open share accounts (Reuters)",
-    "2026-10-22: 22 Oct: day 1 3.2x; QIB 9.42x, retail 0.73x; closes Fri 23 Oct"
+    "2026-10-22: 22 Oct: day 1 3.2x; QIB 9.42x, retail 0.73x; closes Fri 23 Oct",
+    "2026-10-23: 23 Oct: closes today; retail 1.55x on day 2 (lottery); ~70.86 lakh retail lots; allotment Mon 26"
    ],
    "readings": [
     {
@@ -212,6 +213,19 @@
      "yt_top": "JIO IPO Review! FREE DATA to ₹10 LAKH CRORE Company | CA Rahul Malodia (1,162,146 views in 48h)",
      "google_trending": [],
      "desk_score": 9.0
+    },
+    {
+     "date": "2026-10-23",
+     "label": "HOT (saturated: everyone has it; needs a sharper angle)",
+     "news_1d": 100,
+     "news_7d": 100,
+     "momentum_pct": 100,
+     "yt_week_videos": 12,
+     "yt_week_views": 3511134,
+     "yt_best_vph": 21712,
+     "yt_top": "JIO IPO Review! FREE DATA to ₹10 LAKH CRORE Company | CA Rahul Malodia (1,563,260 views in 72h)",
+     "google_trending": [],
+     "desk_score": 9.0
     }
    ],
    "lane": "hot"
@@ -313,7 +327,7 @@
    "query": "international ETF premium|नैस्डैक ईटीएफ",
    "first_seen": "2026-10-08",
    "window_until": "2026-10-22",
-   "status": "active",
+   "status": "retired",
    "notes": [
     "First sent 8 Oct (deep lane). NSE caution 7 Oct; BSE 25 Sep."
    ],
@@ -498,9 +512,25 @@
      "yt_best_vph": 5297,
      "yt_top": "WHY THIS ETF CRASHED 46% in 2 DAYS ?? ETF MANIPULATION EXPLAINED !! (381,349 views in 72h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-23",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": null,
+     "momentum_pct": 0,
+     "yt_week_videos": 17,
+     "yt_week_views": 438146,
+     "yt_best_vph": 4086,
+     "yt_top": "WHY THIS ETF CRASHED 46% in 2 DAYS ?? ETF MANIPULATION EXPLAINED !! (392,291 views in 96h)",
+     "google_trending": []
     }
    ],
-   "lane": "deep"
+   "lane": "deep",
+   "retired": {
+    "date": "2026-10-23",
+    "reason": "past its window"
+   }
   },
   {
    "id": "epf-wage-ceiling",
@@ -1017,6 +1047,18 @@
      "yt_best_vph": 2203,
      "yt_top": "MULTISUB📢新番抢先看！《穿成农女，带崽种田爽翻天1-6季》穷苦农女带娃创业，逆袭成首富！#最新漫剧#漫剧 #玄幻 #修仙 #逆袭 (264,315 views in 120h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-23",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": null,
+     "momentum_pct": 0,
+     "yt_week_videos": 15,
+     "yt_week_views": 920354,
+     "yt_best_vph": 1990,
+     "yt_top": "MULTISUB📢新番抢先看！《穿成农女，带崽种田爽翻天1-6季》穷苦农女带娃创业，逆袭成首富！#最新漫剧#漫剧 #玄幻 #修仙 #逆袭 (286,494 views in 144h)",
+     "google_trending": []
     }
    ]
   },
@@ -1291,6 +1333,18 @@
      "yt_week_views": 740267,
      "yt_best_vph": 4654,
      "yt_top": "CHINA | Cities That Don’t Seem Real (Documentary) (670,109 views in 144h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-10-23",
+     "label": "COLD",
+     "news_1d": null,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 7,
+     "yt_week_views": 797559,
+     "yt_best_vph": 4215,
+     "yt_top": "CHINA | Cities That Don’t Seem Real (Documentary) (708,105 views in 168h)",
      "google_trending": []
     }
    ]
@@ -1663,6 +1717,18 @@
      "yt_best_vph": 3144,
      "yt_top": "Desh Ki Pathshala With Sushant Sinha | देश की पाठशाला | EP- 121 | PM M (377,220 views in 120h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-23",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 8,
+     "yt_week_views": 415976,
+     "yt_best_vph": 2625,
+     "yt_top": "Desh Ki Pathshala With Sushant Sinha | देश की पाठशाला | EP- 121 | PM M (378,052 views in 144h)",
+     "google_trending": []
     }
    ]
   },
@@ -1846,6 +1912,18 @@
      "yt_week_views": 12735,
      "yt_best_vph": 105,
      "yt_top": "TV छोड़ Rajiv क्यों गए Film Industry में? | The Kapil Sharma Show | Ce (12,620 views in 120h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-10-23",
+     "label": "HOT",
+     "news_1d": 0,
+     "news_7d": null,
+     "momentum_pct": 0,
+     "yt_week_videos": 4,
+     "yt_week_views": 101710,
+     "yt_best_vph": 3706,
+     "yt_top": "Sucherita Kukreti | NDTV's Exclusive Report from Salman Khan's house G (88,956 views in 24h)",
      "google_trending": []
     }
    ]
@@ -2311,6 +2389,18 @@
      "yt_best_vph": 10675,
      "yt_top": "AIRTEL FINANCE - BORROW (1,537,205 views in 144h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-23",
+     "label": "FLAT",
+     "news_1d": 0,
+     "news_7d": 31,
+     "momentum_pct": 0,
+     "yt_week_videos": 9,
+     "yt_week_views": 525922,
+     "yt_best_vph": 3359,
+     "yt_top": "Sent money to a wrong number? Here’s how to initiate a transaction rev (483,759 views in 144h)",
+     "google_trending": []
     }
    ]
   },
@@ -2408,7 +2498,9 @@
    "lane": "hot",
    "window_until": "2026-11-08",
    "status": "active",
-   "notes": [],
+   "notes": [
+    "2026-10-23: 23 Oct: The Core: eighth rupee-defence step, 2013 parallel"
+   ],
    "readings": [
     {
      "date": "2026-10-16",
@@ -2485,6 +2577,19 @@
      "yt_best_vph": 3290,
      "yt_top": "Govt. Banned Investment in Gold by Mutual Funds in India (315,879 views in 96h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-23",
+     "label": "FLAT",
+     "news_1d": 10,
+     "news_7d": 52,
+     "momentum_pct": 19,
+     "yt_week_videos": 18,
+     "yt_week_views": 1063327,
+     "yt_best_vph": 2781,
+     "yt_top": "Govt. Banned Investment in Gold by Mutual Funds in India (333,691 views in 120h)",
+     "google_trending": [],
+     "desk_score": 6.0
     }
    ]
   },
@@ -2575,6 +2680,18 @@
      "yt_best_vph": 564,
      "yt_top": "Tonbo IPO Final Update | Bonfiglioli IPO Final Update | Zetwerk IPO |  (40,579 views in 72h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-23",
+     "label": "COLD",
+     "news_1d": 9,
+     "news_7d": null,
+     "momentum_pct": 0,
+     "yt_week_videos": 12,
+     "yt_week_views": 112315,
+     "yt_best_vph": 226,
+     "yt_top": "Final Ranking | Bonfiglioli Transmissions IPO ,Tonbo Imaging India IPO (16,271 views in 72h)",
+     "google_trending": []
     }
    ]
   },
@@ -2652,6 +2769,18 @@
      "yt_week_views": 870533,
      "yt_best_vph": 3180,
      "yt_top": "Why Govt. Sold IDBI Bank?.. (152,647 views in 48h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-10-23",
+     "label": "COLD",
+     "news_1d": 1,
+     "news_7d": 7,
+     "momentum_pct": 14,
+     "yt_week_videos": 15,
+     "yt_week_views": 780471,
+     "yt_best_vph": 4088,
+     "yt_top": "Fairfax Buys IDBI Bank Stake for $5.56B | Is Another Indian Bank Sold? (490,516 views in 120h)",
      "google_trending": []
     }
    ]
@@ -2776,6 +2905,18 @@
      "yt_week_views": 9260,
      "yt_best_vph": 37,
      "yt_top": "Insurance Commissions Under Fire: Agents Push Back Against IRDAI Refor (5,300 views in 144h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-10-23",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": null,
+     "momentum_pct": 0,
+     "yt_week_videos": 7,
+     "yt_week_views": 4702,
+     "yt_best_vph": 88,
+     "yt_top": "New Insurance Agents: Watch This Before You Give Up (2,108 views in 24h)",
      "google_trending": []
     }
    ]
@@ -2956,6 +3097,18 @@
      "yt_top": "Why these 4 stocks corrected sharply? (40,310 views in 72h)",
      "google_trending": [],
      "desk_score": 7.0
+    },
+    {
+     "date": "2026-10-23",
+     "label": "COLD",
+     "news_1d": null,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 11,
+     "yt_week_views": 145945,
+     "yt_best_vph": 429,
+     "yt_top": "Why these 4 stocks corrected sharply? (41,183 views in 96h)",
+     "google_trending": []
     }
    ]
   },
@@ -2997,6 +3150,18 @@
      "yt_week_views": 407614,
      "yt_best_vph": 1724,
      "yt_top": "ICICI, HDFC, Axis Bank Q2 Results: Who Delivered, Who Disappointed? |  (165,475 views in 96h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-10-23",
+     "label": "RISING",
+     "news_1d": 49,
+     "news_7d": 67,
+     "momentum_pct": 73,
+     "yt_week_videos": 17,
+     "yt_week_views": 85610,
+     "yt_best_vph": 374,
+     "yt_top": "HDFC Bank NIM Drops To Record Low, Axis Bank Q2 Net Profit Jumps 38% Y (44,936 views in 120h)",
      "google_trending": []
     }
    ]
@@ -3040,6 +3205,18 @@
      "yt_best_vph": 4862,
      "yt_top": "Tesla Roadster Unveiled: Top Moments Of Elon Musk's New Flying Car (583,409 views in 120h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-23",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 10,
+     "yt_week_views": 771491,
+     "yt_best_vph": 4105,
+     "yt_top": "Tesla Roadster Unveiled: Top Moments Of Elon Musk's New Flying Car (591,172 views in 144h)",
+     "google_trending": []
     }
    ]
   },
@@ -3072,6 +3249,20 @@
      "yt_top": "Silver Is Running Out... So Why Is It Crashing? (260,582 views in 48h)",
      "google_trending": [],
      "desk_score": 7.0
+    },
+    {
+     "date": "2026-10-23",
+     "label": "HOT",
+     "news_1d": 3,
+     "news_7d": 9,
+     "momentum_pct": 33,
+     "yt_week_videos": 9,
+     "yt_week_views": 593076,
+     "yt_best_vph": 4454,
+     "yt_top": "Silver Is Running Out... So Why Is It Crashing? (320,702 views in 72h)",
+     "google_trending": [
+      "silver rate today 5000+"
+     ]
     }
    ]
   },
@@ -3102,6 +3293,18 @@
      "yt_best_vph": 303,
      "yt_top": "Stocks Crash 😱 Urban Company • Finolex • ICICI Bank • HDFC Bank • Axis (14,541 views in 48h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-23",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 9,
+     "momentum_pct": 0,
+     "yt_week_videos": 20,
+     "yt_week_views": 34800,
+     "yt_best_vph": 203,
+     "yt_top": "Stocks Crash 😱 Urban Company • Finolex • ICICI Bank • HDFC Bank • Axis (14,630 views in 72h)",
+     "google_trending": []
     }
    ]
   },
@@ -3122,6 +3325,36 @@
     {
      "date": "2026-10-22",
      "desk_score": 9.0
+    },
+    {
+     "date": "2026-10-23",
+     "label": "HOT",
+     "news_1d": 6,
+     "news_7d": 17,
+     "momentum_pct": 35,
+     "yt_week_videos": 5,
+     "yt_week_views": 158845,
+     "yt_best_vph": 3759,
+     "yt_top": "महाक्रैश😧😨 ( सरकार भी टेंशन में )| 20% Lower Circuit | कंपनी को BAN कि (90,217 views in 24h)",
+     "google_trending": []
+    }
+   ]
+  },
+  {
+   "id": "oil-slide-everything",
+   "title": "Oil at $112: shares, gold and silver fell the same day",
+   "query": "share market crash|शेयर बाजार गिरावट",
+   "first_seen": "2026-10-23",
+   "lane": "hot",
+   "window_until": "2026-10-29",
+   "status": "active",
+   "notes": [
+    "sent 23 Oct"
+   ],
+   "readings": [
+    {
+     "date": "2026-10-23",
+     "desk_score": 8.0
     }
    ]
   }
