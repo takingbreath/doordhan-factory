@@ -226,6 +226,19 @@
      "yt_top": "JIO IPO Review! FREE DATA to ₹10 LAKH CRORE Company | CA Rahul Malodia (1,563,260 views in 72h)",
      "google_trending": [],
      "desk_score": 9.0
+    },
+    {
+     "date": "2026-10-24",
+     "label": "HOT (saturated: everyone has it; needs a sharper angle)",
+     "news_1d": 100,
+     "news_7d": 100,
+     "momentum_pct": 100,
+     "yt_week_videos": 10,
+     "yt_week_views": 3759386,
+     "yt_best_vph": 40376,
+     "yt_top": "What the Headlines Don't Tell You! | What the 528-Page DRHP Reveals Ab (969,012 views in 24h)",
+     "google_trending": [],
+     "desk_score": 8.0
     }
    ],
    "lane": "hot"
@@ -883,7 +896,7 @@
    "first_seen": "2026-10-09",
    "lane": "deep",
    "window_until": "2026-10-23",
-   "status": "active",
+   "status": "retired",
    "notes": [
     "First sent 9 Oct (deep lane). Order 8 Oct; panel reports in ~2 months; hearing 29 Jan 2027."
    ],
@@ -1059,8 +1072,24 @@
      "yt_best_vph": 1990,
      "yt_top": "MULTISUB📢新番抢先看！《穿成农女，带崽种田爽翻天1-6季》穷苦农女带娃创业，逆袭成首富！#最新漫剧#漫剧 #玄幻 #修仙 #逆袭 (286,494 views in 144h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-24",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 13,
+     "yt_week_views": 445730,
+     "yt_best_vph": 1054,
+     "yt_top": "怎麼沒人告訴我這部劇這麼精彩!她拿祖傳配方陪老闆打拼15年，老闆娘卻為6800塊跟她翻臉！她當場轉帳走人，轉身把一家倒閉店做到爆滿🌶️💰#短 (126,483 views in 120h)",
+     "google_trending": []
     }
-   ]
+   ],
+   "retired": {
+    "date": "2026-10-24",
+    "reason": "past its window"
+   }
   },
   {
    "id": "upi-mdr-deferral",
@@ -1345,6 +1374,18 @@
      "yt_week_views": 797559,
      "yt_best_vph": 4215,
      "yt_top": "CHINA | Cities That Don’t Seem Real (Documentary) (708,105 views in 168h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-10-24",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 7,
+     "yt_week_views": 101347,
+     "yt_best_vph": 1003,
+     "yt_top": "Inside the Billionaire Mind: What They Really Focus On (72,193 views in 72h)",
      "google_trending": []
     }
    ]
@@ -1729,6 +1770,18 @@
      "yt_best_vph": 2625,
      "yt_top": "Desh Ki Pathshala With Sushant Sinha | देश की पाठशाला | EP- 121 | PM M (378,052 views in 144h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-24",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 5,
+     "yt_week_views": 2566,
+     "yt_best_vph": 14,
+     "yt_top": "Cancer Medicine :सस्ती होंगी Cancer की दवाएं? Dr. Shyam Agarwal ने बता (1,993 views in 144h)",
+     "google_trending": []
     }
    ]
   },
@@ -1924,6 +1977,18 @@
      "yt_week_views": 101710,
      "yt_best_vph": 3706,
      "yt_top": "Sucherita Kukreti | NDTV's Exclusive Report from Salman Khan's house G (88,956 views in 24h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-10-24",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 3,
+     "yt_week_views": 42696,
+     "yt_best_vph": 390,
+     "yt_top": "Bigg Boss 20: Gauahar Khan attacks makers over housemates' behaviour w (9,363 views in 24h)",
      "google_trending": []
     }
    ]
@@ -2401,6 +2466,18 @@
      "yt_best_vph": 3359,
      "yt_top": "Sent money to a wrong number? Here’s how to initiate a transaction rev (483,759 views in 144h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-24",
+     "label": "FLAT",
+     "news_1d": 3,
+     "news_7d": 23,
+     "momentum_pct": 13,
+     "yt_week_videos": 13,
+     "yt_week_views": 118681,
+     "yt_best_vph": 607,
+     "yt_top": "Airtel new recharge plans 2026 | Airtel calling recharge pack | Airtel (29,133 views in 48h)",
+     "google_trending": []
     }
    ]
   },
@@ -2590,6 +2667,18 @@
      "yt_top": "Govt. Banned Investment in Gold by Mutual Funds in India (333,691 views in 120h)",
      "google_trending": [],
      "desk_score": 6.0
+    },
+    {
+     "date": "2026-10-24",
+     "label": "FLAT",
+     "news_1d": 4,
+     "news_7d": 36,
+     "momentum_pct": 11,
+     "yt_week_videos": 17,
+     "yt_week_views": 518523,
+     "yt_best_vph": 2373,
+     "yt_top": "Govt. Banned Investment in Gold by Mutual Funds in India (341,721 views in 144h)",
+     "google_trending": []
     }
    ]
   },
@@ -2600,7 +2689,7 @@
    "first_seen": "2026-10-16",
    "lane": "deep",
    "window_until": "2026-10-23",
-   "status": "active",
+   "status": "retired",
    "notes": [
     "via The Ken"
    ],
@@ -2692,8 +2781,24 @@
      "yt_best_vph": 226,
      "yt_top": "Final Ranking | Bonfiglioli Transmissions IPO ,Tonbo Imaging India IPO (16,271 views in 72h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-24",
+     "label": "FLAT",
+     "news_1d": 7,
+     "news_7d": 31,
+     "momentum_pct": 23,
+     "yt_week_videos": 14,
+     "yt_week_views": 159682,
+     "yt_best_vph": 735,
+     "yt_top": "4 IPOs Hold or Sell?🤔| Fresh Buy Range?📈| bonfiglioli ipo | tonbo imag (17,651 views in 24h)",
+     "google_trending": []
     }
-   ]
+   ],
+   "retired": {
+    "date": "2026-10-24",
+    "reason": "past its window"
+   }
   },
   {
    "id": "idbi-fairfax-sale",
@@ -2702,7 +2807,7 @@
    "first_seen": "2026-10-17",
    "lane": "hot",
    "window_until": "2026-10-24",
-   "status": "active",
+   "status": "retired",
    "notes": [
     "First sent 17 Oct. ₹52,878 cr for 60.72% (govt 30.48, LIC 30.24); ₹81 vs ₹90.40 close; −7% on 15 Oct"
    ],
@@ -2782,8 +2887,24 @@
      "yt_best_vph": 4088,
      "yt_top": "Fairfax Buys IDBI Bank Stake for $5.56B | Is Another Indian Bank Sold? (490,516 views in 120h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-24",
+     "label": "COLD",
+     "news_1d": 1,
+     "news_7d": 4,
+     "momentum_pct": 25,
+     "yt_week_videos": 19,
+     "yt_week_views": 255768,
+     "yt_best_vph": 1751,
+     "yt_top": "Why Govt. Sold IDBI Bank?.. (168,113 views in 96h)",
+     "google_trending": []
     }
-   ]
+   ],
+   "retired": {
+    "date": "2026-10-24",
+    "reason": "COLD on 2 checks running"
+   }
   },
   {
    "id": "ed-whatsapp-multibagger",
@@ -2917,6 +3038,18 @@
      "yt_week_views": 4702,
      "yt_best_vph": 88,
      "yt_top": "New Insurance Agents: Watch This Before You Give Up (2,108 views in 24h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-10-24",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 10,
+     "yt_week_views": 11296,
+     "yt_best_vph": 199,
+     "yt_top": "AT1 Bonds: The Bigger Lessons (4,774 views in 24h)",
      "google_trending": []
     }
    ]
@@ -3109,6 +3242,18 @@
      "yt_best_vph": 429,
      "yt_top": "Why these 4 stocks corrected sharply? (41,183 views in 96h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-24",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 11,
+     "yt_week_views": 127928,
+     "yt_best_vph": 348,
+     "yt_top": "Why these 4 stocks corrected sharply? (41,770 views in 120h)",
+     "google_trending": []
     }
    ]
   },
@@ -3119,7 +3264,7 @@
    "first_seen": "2026-10-20",
    "lane": "hot",
    "window_until": "2026-10-23",
-   "status": "active",
+   "status": "retired",
    "notes": [
     "sent 20 Oct"
    ],
@@ -3163,8 +3308,24 @@
      "yt_best_vph": 374,
      "yt_top": "HDFC Bank NIM Drops To Record Low, Axis Bank Q2 Net Profit Jumps 38% Y (44,936 views in 120h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-24",
+     "label": "RISING",
+     "news_1d": 38,
+     "news_7d": 66,
+     "momentum_pct": 58,
+     "yt_week_videos": 18,
+     "yt_week_views": 300690,
+     "yt_best_vph": 1158,
+     "yt_top": "ICICI, HDFC, Axis Bank Q2 Results: Who Delivered, Who Disappointed? |  (166,710 views in 144h)",
+     "google_trending": []
     }
-   ]
+   ],
+   "retired": {
+    "date": "2026-10-24",
+    "reason": "past its window"
+   }
   },
   {
    "id": "air-india-loss-ken",
@@ -3217,6 +3378,18 @@
      "yt_best_vph": 4105,
      "yt_top": "Tesla Roadster Unveiled: Top Moments Of Elon Musk's New Flying Car (591,172 views in 144h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-24",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 7,
+     "yt_week_views": 117919,
+     "yt_best_vph": 507,
+     "yt_top": "Kolkata Durga Puja Stampede: At Least 17 Dead In Chorbagan Stampede; D (73,047 views in 144h)",
+     "google_trending": []
     }
    ]
   },
@@ -3263,6 +3436,18 @@
      "google_trending": [
       "silver rate today 5000+"
      ]
+    },
+    {
+     "date": "2026-10-24",
+     "label": "HOT",
+     "news_1d": 4,
+     "news_7d": 12,
+     "momentum_pct": 33,
+     "yt_week_videos": 10,
+     "yt_week_views": 1148315,
+     "yt_best_vph": 10080,
+     "yt_top": "Gold Silver Crash Reasons | What will Happen Next? (241,919 views in 24h)",
+     "google_trending": []
     }
    ]
   },
@@ -3305,6 +3490,18 @@
      "yt_best_vph": 203,
      "yt_top": "Stocks Crash 😱 Urban Company • Finolex • ICICI Bank • HDFC Bank • Axis (14,630 views in 72h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-24",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 9,
+     "momentum_pct": 0,
+     "yt_week_videos": 16,
+     "yt_week_views": 28863,
+     "yt_best_vph": 153,
+     "yt_top": "Stocks Crash 😱 Urban Company • Finolex • ICICI Bank • HDFC Bank • Axis (14,691 views in 96h)",
+     "google_trending": []
     }
    ]
   },
@@ -3337,6 +3534,18 @@
      "yt_best_vph": 3759,
      "yt_top": "महाक्रैश😧😨 ( सरकार भी टेंशन में )| 20% Lower Circuit | कंपनी को BAN कि (90,217 views in 24h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-24",
+     "label": "HOT",
+     "news_1d": 2,
+     "news_7d": 18,
+     "momentum_pct": 11,
+     "yt_week_videos": 18,
+     "yt_week_views": 312724,
+     "yt_best_vph": 3390,
+     "yt_top": "eMudhra की चूक, SBI Data Leak: गलती किसी की, खतरा आपके पैसों पर क्यों? (81,349 views in 24h)",
+     "google_trending": []
     }
    ]
   },
@@ -3355,6 +3564,54 @@
     {
      "date": "2026-10-23",
      "desk_score": 8.0
+    },
+    {
+     "date": "2026-10-24",
+     "label": "HOT",
+     "news_1d": 1,
+     "news_7d": 2,
+     "momentum_pct": 50,
+     "yt_week_videos": 7,
+     "yt_week_views": 1222246,
+     "yt_best_vph": 17999,
+     "yt_top": "Chute en bourse et licenciements massifs : pourquoi l'âge d'or de Netf (431,971 views in 24h)",
+     "google_trending": []
+    }
+   ]
+  },
+  {
+   "id": "avadhut-sathe-refund",
+   "title": "SEBI final order: Avadhut Sathe ₹546 cr refund",
+   "query": "Avadhut Sathe|अवधूत साठे",
+   "first_seen": "2026-10-24",
+   "lane": "hot",
+   "window_until": "2026-10-30",
+   "status": "active",
+   "notes": [
+    "final order 23 Oct; refund 546.17 cr + 67.87 cr interest"
+   ],
+   "readings": [
+    {
+     "date": "2026-10-24",
+     "desk_score": 9.0
+    }
+   ]
+  },
+  {
+   "id": "nse-unlisted-regret-ken",
+   "title": "NSE unlisted buyers below IPO price (The Ken)",
+   "query": "NSE share price|एनएसई शेयर",
+   "first_seen": "2026-10-24",
+   "lane": "deep",
+   "window_until": "2026-11-07",
+   "status": "active",
+   "notes": [
+    "via The Ken 23 Oct"
+   ],
+   "readings": [
+    {
+     "date": "2026-10-24",
+     "desk_score": 7.0
     }
    ]
   }
