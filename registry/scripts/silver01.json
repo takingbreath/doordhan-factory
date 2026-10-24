@@ -1,0 +1,40 @@
+{
+ "slug": "silver01",
+ "approved_by": "Akhilesh (2026-10-25)",
+ "frozen_at": "2026-10-25 04:37 IST",
+ "note": "make-reel; format sahayata_kendra, Pandey monologue, no caller; script_v2 (Kunal Saraogi replaced by 'Analysts' at Akhilesh's word); ee/oo kept as written (ई/ऊ)",
+ "lines": [
+  {
+   "id": "P1",
+   "speaker": "pandey",
+   "text": "[flat, brisk] Silver के weekly chart पर support टूट गया है, और हमको लगता है, आगे और बड़ी गिरावट आ सकती है।",
+   "spoken": "Silver के weekly chart पर support टूट गया है, और हमको लगता है, आगे और बड़ी गिरावट आ सकती है।"
+  },
+  {
+   "id": "P2",
+   "speaker": "pandey",
+   "text": "[flat, brisk] Chart पर ई pattern देखिए। Ascending triangle तो देखे होंगे, ई उसका opposite setup है। हर उछाल पिछले से नीचे रुक रहा था, लेकिन bottoms लगभग एक ही level पर बन रहे थे। [serious] अब ऊ level भी टूट गया।",
+   "spoken": "Chart पर ई pattern देखिए। Ascending triangle तो देखे होंगे, ई उसका opposite setup है। हर उछाल पिछले से नीचे रुक रहा था, लेकिन bottoms लगभग एक ही level पर बन रहे थे। अब ऊ level भी टूट गया।"
+  },
+  {
+   "id": "P3",
+   "speaker": "pandey",
+   "text": "[flat, brisk] तो गिरावट कितनी हो सकती है? ऐसे pattern में, सबसे ऊँचे point से support तक की height नापते हैं, फिर उतनी ही दूरी support के नीचे रखकर, estimated target निकालते हैं।",
+   "spoken": "तो गिरावट कितनी हो सकती है? ऐसे pattern में, सबसे ऊँचे point से support तक की height नापते हैं, फिर उतनी ही दूरी support के नीचे रखकर, estimated target निकालते हैं।"
+  },
+  {
+   "id": "P4",
+   "speaker": "pandey",
+   "text": "[flat, brisk] इसी वजह से हमको, silver में अभी और कमज़ोरी दिख रही है। Correction अगर इसी तरह चलता रहा, तो गिरावट और [slowly] गहरी हो सकती है।",
+   "spoken": "इसी वजह से हमको, silver में अभी और कमज़ोरी दिख रही है। Correction अगर इसी तरह चलता रहा, तो गिरावट और गहरी हो सकती है।"
+  },
+  {
+   "id": "P5",
+   "speaker": "pandey",
+   "text": "[flat, brisk] Analysts ई pattern को कम बनने वाला, लेकिन काफ़ी असरदार मानते हैं। इसलिए ई weekly chart ज़रूर study कीजिए, और समझिए कि ई pattern काम कैसे करता है। Pattern पहचाना? नाम comments में बताइए।",
+   "spoken": "Analysts ई pattern को कम बनने वाला, लेकिन काफ़ी असरदार मानते हैं। इसलिए ई weekly chart ज़रूर study कीजिए, और समझिए कि ई pattern काम कैसे करता है। Pattern पहचाना? नाम comments में बताइए।"
+  }
+ ],
+ "sha256": "552df0df2bb669751d502840f7c1ff48f696e0d938c2e28566b44878ae637633",
+ "history": []
+}
