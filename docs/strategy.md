@@ -50,14 +50,14 @@ Stage 1 targets are live in the block below. Stages 2 and 3 are the plan after t
 
 ## The book and where we stand
 <!-- scoreboard -->
-_Updated 2026-10-23 21:46 IST by `scoreboard.py write`._
+_Updated 2026-10-24 21:38 IST by `scoreboard.py write`._
 
 **Stage 1: Stop the scroll** (2026-09-26 to 2026-10-25): prove people stop for our reels and stay to the end
 
 - skip rate %: now 55.9, target 45 → not yet
 - watched %: now 29.5, target 45 → not yet
 - median plays at 72 h: now 242, target 500 → not yet
-- best reel's plays: now 6573, target 2000 → on target
+- best reel's plays: now 6642, target 2000 → on target
 - followers: now 286, target 100 → on target
 - strategy stop: 13/20 reels posted this stage; median plays at 72 h now 242, must reach 300
 
