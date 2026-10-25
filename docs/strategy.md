@@ -50,37 +50,38 @@ Stage 1 targets are live in the block below. Stages 2 and 3 are the plan after t
 
 ## The book and where we stand
 <!-- scoreboard -->
-_Updated 2026-10-25 08:16 IST by `scoreboard.py write`._
+_Updated 2026-10-25 21:41 IST by `scoreboard.py write`._
 
 **Stage 1: Stop the scroll** (2026-09-26 to 2026-10-25): prove people stop for our reels and stay to the end
 
-- skip rate %: now 55.9, target 45 → not yet
-- watched %: now 29.5, target 45 → not yet
-- median plays at 72 h: now 242, target 500 → not yet
-- best reel's plays: now 6642, target 2000 → on target
-- followers: now 286, target 100 → on target
-- strategy stop: 13/20 reels posted this stage; median plays at 72 h now 242, must reach 300
+- skip rate %: now 56, target 45 → not yet
+- watched %: now 29.3, target 45 → not yet
+- median plays at 72 h: now 420, target 500 → not yet
+- best reel's plays: now 6709, target 2000 → on target
+- followers: now 467, target 100 → on target
+- strategy stop: 14/20 reels posted this stage; median plays at 72 h now 420, must reach 300
 
 | Bet | Lever | Judged on | Baseline | Now | Target | Stop | Reels (judged/carried) | Verdict |
 |---|---|---|---|---|---|---|---|---|
 | B1 Hook in frame one | Frame 1: the anchor looks into the lens, already saying the viewer's stake; the hook in 6 big words or fewer on screen; nothing (Namaskar, title, logo) before it; a cut or punch-in by 1 s; cover = frame 1 | skip rate % | 60.7 | 52.4 | 45 | 58 | 3/5 (judge at 3, max 6) | **HOLD** 3 reels, between stop and target |
 | B2 Tight 20-30 s | 20-30 s total; title montage 1.5 s or less and only after the hook; payoff by 20 s; the last line echoes the hook so a replay feels natural; no dead air | watched % | 26.3 | 38.6 | 45 | 32 | 1/1 (judge at 3, max 6) | **HOLD** 1/3 reels |
 | B3 A line worth sending | Every script lands one line a viewer would forward to a specific person (a number to remember, a jab at the system, an 'I told you so'); never ask for shares | sends per 1k plays | 2.6 | 3.2 | 8 | 2 | 3/5 (judge at 4, max 6) | **HOLD** 3/4 reels |
-| W1 Glam Sarika | Sarika in the glam wardrobe (formats/samachar.md) on every Samachar reel | skip rate % | 66.9 | 55.7 | – | – | 3/3 (judge at 3, max 6) | **WATCH** tracked; judged at the monthly review |
-| W2 Famous name in frame one | Frame one shows a company, brand or person every viewer already knows (their name, logo, or a licensed photo or real footage), with the number or question it turns on | median plays at 72 h | 243 | 2392 | – | – | 4/5 (judge at 3, max 6) | **WATCH** tracked; judged at the monthly review |
+| W1 Glam Sarika | Sarika in the glam wardrobe (formats/samachar.md) on every Samachar reel | skip rate % | 66.9 | 55.8 | – | – | 3/3 (judge at 3, max 6) | **WATCH** tracked; judged at the monthly review |
+| W2 Famous name in frame one | Frame one shows a company, brand or person every viewer already knows (their name, logo, or a licensed photo or real footage), with the number or question it turns on | median plays at 72 h | 243 | 2395 | – | – | 5/5 (judge at 3, max 6) | **WATCH** tracked; judged at the monthly review |
 <!-- /scoreboard -->
 
 ## This week's plan
 _Written by the strategist every Sunday. The morning session executes it: each story option says which bets it carries, and each script says how it carries them._
 
-**Week of Mon 19 Oct (written Sun 18 Oct)**
-- **Volume first: 5 reels by Sun 25 Oct.** Zero reels went up from 10 to 18 Oct while a script was drafted every day (ten drafts in scripts/drafts/, all still "not approved"). The morning session produces any draft the same day Akhilesh or Naveen approves it; nothing else this week matters as much.
-- **Ride now: the Jio IPO, before it opens on Tue 21 Oct.** 6 of the 10 Indian money outliers this week were on it (985K to 15.5M plays, 4–50× their creators' medians). Lead with the existing Jio drafts (jio-quota, musk-jio-ipo-risk v2): Jio's name and logo in frame one, the stake said in the first second, IPO facts only, no apply/skip call. A second known-name follow-up on listing day if the first travels.
-- **Tight 20–30 s (watched %, 38.6% on 1 reel since 26 Sep):** every script is 50–75 spoken words, never over 30 s (CLAUDE.md). The current drafts aim at 30–40 s; cut before sending, as CLAUDE.md asks. Payoff by 12 s, the last line echoes the hook.
-- **Hook in frame one (skip rate, 52.4% on 3 reels):** the known name and the 6-word hook text on screen from frame one, the stake spoken inside the first second; no title before it.
-- **A line worth sending (sends per 1k, 3.2 on 3 of 4 reels):** one line inside the first 12 s a viewer would forward to a specific person; never ask for shares.
-- **Posting:** one reel a day, 7–9 pm IST. Trial Reel whenever the option shows. Every reel through `scoreboard.py add-reel` with its bets, credits and desk score before it posts.
-- **Watching:** whether the Jio reel travels like Policybazaar and Snapdeal (same shape: known name, news that day); the split-screen layout (footage on top, presenter below), seen in 8 of this week's 10 Instagram outliers; vidIQ's owner feed (down since 9 Oct, so skip, watched and sends are unknown for every reel since E9).
+**Week of Mon 26 Oct (written Sun 25 Oct)**
+- **News of the day, one reel a day.** Every breakout so far was on a story in that day's market news; every evergreen reel stayed under 310 plays. The desk leads with the day's market story; the session produces any approved script the same day and it posts the same day, morning or evening (E13 and E14 broke out on 08:15 and 09:19 posts).
+- **Ride now: Jio allotment (Mon 26 Oct) and listing (Wed 28 Oct).** 1.35 crore applications; the "allotment is a lottery" explainer did 3.7M (359× median) for @samjho.exe. Jio's logo in frame one, IPO facts only, no apply, hold or sell call. Then gold or silver before Dhanteras, following E14.
+- **Split-screen opener on every reel** (watching, not yet a bet): the story's picture, logo or B-roll on the top half with the hook in 6 words or fewer, the presenter below, from frame one. E11, E13 and E14 used it; all three broke out.
+- **Hook in frame one (skip rate, 52.4% on 3 judged reels):** the stake said inside the first second, the hook text on screen from frame one, a cut or punch-in by 1 s (E14 missed the cut).
+- **A line worth sending (sends per 1k, 3.2 on 3 of 4 reels):** one line a viewer would forward to a specific person, inside the first 12 s; never ask for shares. E13 and E14 had none.
+- **Length:** Samachar and creator reels 20–30 s as CLAUDE.md says; Sahayata Kendra 70 s at most (E13 ran 92). The tight-length test is put to Akhilesh (retire or keep).
+- **Log every reel before it posts:** `scoreboard.py add-reel` with its bets and credits; E13's production, credits and outfit are still missing from the repo.
+- **Watching:** whether the Jio listing reel travels like E11; likes per 1k on Sahayata Kendra (7–17) against the creator format (57–78); vidIQ's owner feed (dark since 9 Oct).
 
 ## Working rhythm
 | When | Who | What |
@@ -184,3 +185,11 @@ _Written by the strategist every Sunday. The morning session executes it: each s
 - 2026-10-20 (nightly): Starlink vs Jio (E11) is taking off, just over the line: 661 public plays and 34 likes at 27.5 h, against a line of about 650 (3× the ~216 median of the last 10 reels at about a day old); well below Snapdeal (2,242) and Nana Patekar (1,768) at that age. Ride-now line added to docs/learnings.md: a 20–30 s Jio IPO reel for tomorrow, the day it opens. vidIQ owner insights unavailable for a twelfth night ("Meta token is inactive"; the account list still says active), so public counts only and no bets judged. Followers not read tonight (286 last night). Every older reel within 0–20 plays of its last reading, so only E11 logged. No stop or target hit; all bets HOLD (hook in frame one 52.4% on 3 reels; tight 20–30 s 38.6% on 1; a line worth sending 3.2 per 1k on 3 of 4). 11 of 20 stage reels with 5 days left. vidIQ credits this week: 15.
 - 2026-10-21 (nightly): Starlink vs Jio (E11) is now our biggest reel: 4,055 public plays and 232 likes at about 52 h (661 last night), past Nana Patekar (3,319) before its 72 h reading; most of the jump came on Jio IPO opening day. Ride-now line updated: a 20–30 s Jio reel tomorrow while the issue is open, then listing day. No new reel posted today (11 of 20 stage reels, 4 days left). vidIQ owner insights unavailable for a thirteenth night ("Meta token is inactive"; the account list still says active), so public counts only and no bets judged. Followers not read tonight (286 on 19 Oct). Every older reel within 0–35 plays of its last reading, so only E11 logged. No stop or target hit; all bets HOLD (hook in frame one 52.4% on 3 reels; tight 20–30 s 38.6% on 1; a line worth sending 3.2 per 1k on 3 of 4). vidIQ credits this week: 20.
 - 2026-10-22 (nightly): Salman Khan: maafi ya ₹5 crore (E12, Naveen's Sahayata Kendra voice-over reel, 70 s, carries hook in frame one and a line worth sending) is taking off: 6,009 public plays and 93 likes at 21 h (posted 00:45 IST, time read from the shortcode), our biggest reel and about 28× the ~216 median at a day old. Linked to DexIwnEyUZW. Ride-now line added to docs/learnings.md: another famous-name money story told the same way. Starlink vs Jio (E11) at 4,091 public plays at 75.6 h (its 72 h reading). vidIQ owner insights unavailable for a fourteenth night ("Meta token is inactive"; the account list still says active), so public counts only and no bets judged; E12's skip, watched and sends stay unknown until it returns. Followers not read tonight (286 on 19 Oct). Every older reel within 0–40 plays of its last reading, so only E11 and E12 logged. No stop or target hit; all bets HOLD (hook in frame one 52.4% on 3 judged reels; tight 20–30 s 38.6% on 1; a line worth sending 3.2 per 1k on 3 of 4). 12 of 20 stage reels with 3 days left; median plays at 72 h 242. vidIQ credits this week: 25.
+- 2026-10-25 (weekly review):
+  - vidIQ owner insights unavailable for a 17th night ("Meta token is inactive"; the account list says active); public counts only, no bets judged. Silver (E14, posted 08:15 today, linked to De5qk8SSBLc) is taking off: 2,065 public plays at 13.4 h, against 876 for eMudhra at 12.5 h. Ride-now line added. Public readings logged for E14, E13 (5,865 at 60 h), E12 (6,709), E10 and E9. Followers 467 (public profile), +176 on the week.
+  - The week: 4 reels (E11 Starlink vs Jio, E12 Salman Khan, E13 eMudhra, E14 silver), all on that day's news, all four over the taking-off line; about 18,900 plays (about 80× the week before). Episode credits 256 on E11, E12 and E14 (about 20 per 1,000 plays); E13's credits are not logged.
+  - Stage 1 ends today: best reel (6,709) and followers (467) hit; median plays at 72 h 420 against 500, missed; skip (56%) and watched (29%) unknown since 9 Oct. Strategy stop not hit (14 of 20 reels, median 420 above 300). Last week's question (run to 20 reels or 8 Nov) had no recorded answer; put again with Stage 2's start and a follower target of 1,000 (we are at 467 against Stage 2's written 500).
+  - Book unchanged: no stop, target or time stop; no bet can be judged without the owner feed. Hook in frame one carried by E12 and E14 (unmeasured). Tight 20–30 s got no reel for a second week (the four breakouts ran 59–92 s): retiring it, and opening a split-screen-opener bet on median plays at 72 h in its slot, put to Akhilesh.
+  - Weakest stage: the stop by the last numbers (skip 56% against 45%), but the binding problem is data: 17 nights without the owner feed. Asked Akhilesh to reconnect vidIQ or send Insights screenshots for E11–E14.
+  - Evidence (one outlier scan, 5 credits): the Jio IPO was 9 of 10 Indian money outliers on Instagram (up to 3.8M, @tazakhabhar.in, 414×; @samjho.exe allotment-lottery explainer 3.7M, 359×); split screen in 6 of 10. Platform: no Instagram ranking, Shorts, SEBI or MeitY change found.
+  - vidIQ credits this week: 50 of 60 (nightly cross-checks 40, profile 5, outliers 5).
