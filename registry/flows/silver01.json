@@ -31,6 +31,10 @@
   "production": {
    "at": "2026-10-25T06:15:08+05:30",
    "value": "outputs/silver01/E14_silver_pattern.mp4"
+  },
+  "final": {
+   "at": "2026-10-25T08:15:45+05:30",
+   "by": "Akhilesh"
   }
  }
 }

@@ -368,6 +368,12 @@
     "_note": "One row per character per episode, added when the final is approved. Nobody wears the same outfit twice on air.",
     "rows": [
       {
+        "episode": "14",
+        "date": "2026-10-25",
+        "character": "pandey",
+        "outfit": "pale-grey collared shirt under a charcoal knitted waistcoat, blue ballpoint in the pocket; serious and attentive, not deadpan (Akhilesh); Kendra office with the SAHAYATA board; Billu on the desk with a silver bar (silver01)"
+      },
+      {
         "episode": "12",
         "date": "2026-10-22",
         "character": "pandey",
