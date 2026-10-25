@@ -1,0 +1,86 @@
+{
+ "slug": "silver01",
+ "format": "sahayata_kendra",
+ "final": "outputs/silver01/E14_silver_pattern.mp4",
+ "script": "registry/scripts/silver01.json",
+ "characters": {
+  "pandey": "assets/characters/pandey_sheet_v2.jpg"
+ },
+ "dialogue_stem": "work/silver01/tmp/dialogue.wav",
+ "prefinish": "work/silver01/edit_raw.mkv",
+ "length": {
+  "min": 40,
+  "max": 75,
+  "expected": 64.2
+ },
+ "loudness": {
+  "target": -14
+ },
+ "repairs_file": "work/silver01/qc_repairs.json",
+ "rebuild": "EDIT_JSON=work/silver01/edit.json QC_REPAIRS=work/silver01/qc_repairs.json bash work/silver01/make_final.sh",
+ "lines": [
+  {
+   "id": "T1",
+   "speaker": "pandey",
+   "start": 0.0,
+   "end": 3.12,
+   "source": "work/silver01/seg/T1.wav",
+   "cut_in": 0.0,
+   "segments": [
+    [
+     0.0,
+     3.3
+    ]
+   ],
+   "clip": "work/silver01/vid/T1_tx.mp4",
+   "clip_spans": [
+    [
+     0.44,
+     3.74
+    ]
+   ]
+  },
+  {
+   "id": "T3",
+   "speaker": "pandey",
+   "start": 44.35,
+   "end": 49.81,
+   "source": "work/silver01/seg/T3.wav",
+   "cut_in": 44.51,
+   "segments": [
+    [
+     44.51,
+     49.9
+    ]
+   ],
+   "clip": "work/silver01/vid/T3_tx.mp4",
+   "clip_spans": [
+    [
+     0.66,
+     6.05
+    ]
+   ]
+  },
+  {
+   "id": "T4",
+   "speaker": "pandey",
+   "start": 53.8,
+   "end": 59.156,
+   "source": "work/silver01/seg/T4.wav",
+   "cut_in": 53.88,
+   "segments": [
+    [
+     53.88,
+     59.4
+    ]
+   ],
+   "clip": "work/silver01/vid/T4_tx.mp4",
+   "clip_spans": [
+    [
+     1.48,
+     7.0
+    ]
+   ]
+  }
+ ]
+}
