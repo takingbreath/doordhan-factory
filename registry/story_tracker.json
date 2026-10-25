@@ -239,6 +239,19 @@
      "yt_top": "What the Headlines Don't Tell You! | What the 528-Page DRHP Reveals Ab (969,012 views in 24h)",
      "google_trending": [],
      "desk_score": 8.0
+    },
+    {
+     "date": "2026-10-25",
+     "label": "HOT",
+     "news_1d": 40,
+     "news_7d": 100,
+     "momentum_pct": 40,
+     "yt_week_videos": 15,
+     "yt_week_views": 5457566,
+     "yt_best_vph": 24359,
+     "yt_top": "What the Headlines Don't Tell You! | What the 528-Page DRHP Reveals Ab (1,169,243 views in 48h)",
+     "google_trending": [],
+     "desk_score": 7.0
     }
    ],
    "lane": "hot"
@@ -1211,7 +1224,7 @@
    "first_seen": "2026-10-10",
    "lane": "deep",
    "window_until": "2026-10-24",
-   "status": "active",
+   "status": "retired",
    "notes": [
     "First sent 10 Oct (via The Ken, 9 Oct). SEBI observations in abeyance."
    ],
@@ -1387,8 +1400,24 @@
      "yt_best_vph": 1003,
      "yt_top": "Inside the Billionaire Mind: What They Really Focus On (72,193 views in 72h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-25",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 4,
+     "yt_week_views": 29731,
+     "yt_best_vph": 131,
+     "yt_top": "Suzlon, IFCI, Paisalo, Inox Wind, IRFC, Delta Corp, Zeel, Pnb Gilts मे (12,559 views in 96h)",
+     "google_trending": []
     }
-   ]
+   ],
+   "retired": {
+    "date": "2026-10-25",
+    "reason": "past its window"
+   }
   },
   {
    "id": "musk-ambani-starlink",
@@ -1782,6 +1811,18 @@
      "yt_best_vph": 14,
      "yt_top": "Cancer Medicine :सस्ती होंगी Cancer की दवाएं? Dr. Shyam Agarwal ने बता (1,993 views in 144h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-25",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 6,
+     "yt_week_views": 2065,
+     "yt_best_vph": 31,
+     "yt_top": "Supreme Court में सरकार का बड़ा दावा, दवाओं और कंज्यूमेबल्स पर ऊंची MR (738 views in 24h)",
+     "google_trending": []
     }
    ]
   },
@@ -1989,6 +2030,18 @@
      "yt_week_views": 42696,
      "yt_best_vph": 390,
      "yt_top": "Bigg Boss 20: Gauahar Khan attacks makers over housemates' behaviour w (9,363 views in 24h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-10-25",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 3,
+     "yt_week_views": 44536,
+     "yt_best_vph": 235,
+     "yt_top": "😳😲 Gauhar and Kushal In Bigg Boss House hear Something😯#biggboss #bbho (33,784 views in 144h)",
      "google_trending": []
     }
    ]
@@ -2478,6 +2531,18 @@
      "yt_best_vph": 607,
      "yt_top": "Airtel new recharge plans 2026 | Airtel calling recharge pack | Airtel (29,133 views in 48h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-25",
+     "label": "FLAT",
+     "news_1d": 0,
+     "news_7d": 20,
+     "momentum_pct": 0,
+     "yt_week_videos": 10,
+     "yt_week_views": 88322,
+     "yt_best_vph": 1855,
+     "yt_top": "Pick Your Win, Choice Yo! | Winner, Ruth Nahurira (44,510 views in 24h)",
+     "google_trending": []
     }
    ]
   },
@@ -2678,6 +2743,18 @@
      "yt_week_views": 518523,
      "yt_best_vph": 2373,
      "yt_top": "Govt. Banned Investment in Gold by Mutual Funds in India (341,721 views in 144h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-10-25",
+     "label": "FLAT",
+     "news_1d": 2,
+     "news_7d": 23,
+     "momentum_pct": 9,
+     "yt_week_videos": 16,
+     "yt_week_views": 302305,
+     "yt_best_vph": 1805,
+     "yt_top": "🚨தங்கம் வாங்கலாமா? Gold Coin vs Gold ETF vs Gold Chit | Gold Investmen (216,549 views in 120h)",
      "google_trending": []
     }
    ]
@@ -3051,6 +3128,18 @@
      "yt_best_vph": 199,
      "yt_top": "AT1 Bonds: The Bigger Lessons (4,774 views in 24h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-25",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 8,
+     "yt_week_views": 12968,
+     "yt_best_vph": 140,
+     "yt_top": "Pocket Money | Insurance Mis-selling: Are you losing money on the wron (3,357 views in 24h)",
+     "google_trending": []
     }
    ]
   },
@@ -3254,6 +3343,18 @@
      "yt_best_vph": 348,
      "yt_top": "Why these 4 stocks corrected sharply? (41,770 views in 120h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-25",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 12,
+     "yt_week_views": 82761,
+     "yt_best_vph": 294,
+     "yt_top": "Why these 4 stocks corrected sharply? (42,356 views in 144h)",
+     "google_trending": []
     }
    ]
   },
@@ -3390,6 +3491,18 @@
      "yt_best_vph": 507,
      "yt_top": "Kolkata Durga Puja Stampede: At Least 17 Dead In Chorbagan Stampede; D (73,047 views in 144h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-25",
+     "label": "HOT",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 9,
+     "yt_week_views": 322897,
+     "yt_best_vph": 11383,
+     "yt_top": "AI Companies Are Worth Billions. Where’s the Real Value? | WTF is AI? (273,197 views in 24h)",
+     "google_trending": []
     }
    ]
   },
@@ -3448,6 +3561,18 @@
      "yt_best_vph": 10080,
      "yt_top": "Gold Silver Crash Reasons | What will Happen Next? (241,919 views in 24h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-25",
+     "label": "HOT",
+     "news_1d": 0,
+     "news_7d": 12,
+     "momentum_pct": 0,
+     "yt_week_videos": 13,
+     "yt_week_views": 1592030,
+     "yt_best_vph": 11600,
+     "yt_top": "Silver Price Drop: चांदी 50% सस्ती, फिर भी लोग कम खरीद रहे? AI, Trump  (278,395 views in 24h)",
+     "google_trending": []
     }
    ]
   },
@@ -3502,6 +3627,18 @@
      "yt_best_vph": 153,
      "yt_top": "Stocks Crash 😱 Urban Company • Finolex • ICICI Bank • HDFC Bank • Axis (14,691 views in 96h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-25",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 9,
+     "momentum_pct": 0,
+     "yt_week_videos": 18,
+     "yt_week_views": 44353,
+     "yt_best_vph": 209,
+     "yt_top": "HDFC Bank, Vedanta, RIL, Infosys, Urban Comp., Delta Corp, HindZinc, S (15,070 views in 72h)",
+     "google_trending": []
     }
    ]
   },
@@ -3546,6 +3683,18 @@
      "yt_best_vph": 3390,
      "yt_top": "eMudhra की चूक, SBI Data Leak: गलती किसी की, खतरा आपके पैसों पर क्यों? (81,349 views in 24h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-25",
+     "label": "FLAT",
+     "news_1d": 0,
+     "news_7d": 18,
+     "momentum_pct": 0,
+     "yt_week_videos": 17,
+     "yt_week_views": 299473,
+     "yt_best_vph": 1841,
+     "yt_top": "eMudhra की चूक, SBI Data Leak: गलती किसी की, खतरा आपके पैसों पर क्यों? (88,359 views in 48h)",
+     "google_trending": []
     }
    ]
   },
@@ -3576,6 +3725,18 @@
      "yt_best_vph": 17999,
      "yt_top": "Chute en bourse et licenciements massifs : pourquoi l'âge d'or de Netf (431,971 views in 24h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-25",
+     "label": "HOT",
+     "news_1d": 0,
+     "news_7d": 2,
+     "momentum_pct": 0,
+     "yt_week_videos": 13,
+     "yt_week_views": 2309837,
+     "yt_best_vph": 10454,
+     "yt_top": "WARNING: The Stock Market Isn't Going To Crash...It's Going To RESET (250,887 views in 24h)",
+     "google_trending": []
     }
    ]
   },
@@ -3594,6 +3755,19 @@
     {
      "date": "2026-10-24",
      "desk_score": 9.0
+    },
+    {
+     "date": "2026-10-25",
+     "label": "RISING",
+     "news_1d": 14,
+     "news_7d": 22,
+     "momentum_pct": 64,
+     "yt_week_videos": 2,
+     "yt_week_views": 2234,
+     "yt_best_vph": 43,
+     "yt_top": "સાધુ પદ – અખંડ પ્રસન્નતા, અખંડ આનંદ, અખંડ મોજ | શ્રી નવપદજી આરાધના (દિ (2,049 views in 48h)",
+     "google_trending": [],
+     "desk_score": 8.0
     }
    ]
   },
@@ -3612,6 +3786,72 @@
     {
      "date": "2026-10-24",
      "desk_score": 7.0
+    },
+    {
+     "date": "2026-10-25",
+     "label": "HOT",
+     "news_1d": 0,
+     "news_7d": 5,
+     "momentum_pct": 0,
+     "yt_week_videos": 18,
+     "yt_week_views": 368821,
+     "yt_best_vph": 3502,
+     "yt_top": "15 Favourite Stocks Down 40%–60% | SWIGGY, KPIT Tech, RVNL & More | be (84,048 views in 24h)",
+     "google_trending": []
+    }
+   ]
+  },
+  {
+   "id": "swiggy-record-low",
+   "title": "Swiggy record low, less than half its IPO price; Instamart loss ₹895 cr",
+   "query": "Swiggy share|स्विगी शेयर",
+   "first_seen": "2026-10-25",
+   "lane": "hot",
+   "window_until": "2026-10-28",
+   "status": "active",
+   "notes": [
+    "Q2 FY27; fell as much as 17% on 23 Oct"
+   ],
+   "readings": [
+    {
+     "date": "2026-10-25",
+     "desk_score": 9.0
+    }
+   ]
+  },
+  {
+   "id": "tata-sons-listing",
+   "title": "RBI Governor: upper-layer CICs like Tata Sons must list",
+   "query": "Tata Sons IPO|टाटा संस आईपीओ",
+   "first_seen": "2026-10-25",
+   "lane": "hot",
+   "window_until": "2026-11-08",
+   "status": "active",
+   "notes": [
+    "Malhotra at NDTV World Summit 23 Oct"
+   ],
+   "readings": [
+    {
+     "date": "2026-10-25",
+     "desk_score": 8.0
+    }
+   ]
+  },
+  {
+   "id": "jio-reliance-retail-ken",
+   "title": "Jio's prepaid (77% of revenue) sold only via Reliance Retail (via The Ken)",
+   "query": "Jio Reliance Retail|जियो रिलायंस रिटेल",
+   "first_seen": "2026-10-25",
+   "lane": "deep",
+   "window_until": "2026-11-04",
+   "status": "active",
+   "notes": [
+    "The Ken 22 Oct; RHP figures via Fortune India 15 Oct"
+   ],
+   "readings": [
+    {
+     "date": "2026-10-25",
+     "desk_score": 8.0
     }
    ]
   }
