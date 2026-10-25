@@ -36,3 +36,15 @@ Reading B matches the script: the support broke this week, and the target is sti
 - A measured move is a rough guide. Patterns fail, and in a trend the target can be passed or never reached.
 - MCX SILVER1! is a continuous series that rolls between contracts; a roll can add a small gap. The rupee price also carries the USD/INR rate (about 94.7 on 22 Oct, implied from Yahoo's USDINR close) and any import duty or local premium, which is why the rupee and dollar charts show different lows and highs.
 - The draw-the-pattern step is a judgement. Whatever drawing goes on screen must be the one the voice describes.
+
+## Update 2026-10-25, later: the drawing now follows Akhilesh's own lines
+Akhilesh drew the pattern in his TradingView "Claude" layout (MCX:SILVER1!, weekly) and said to use real TradingView screens, not a
+recreated chart. The reel uses his view (Aug 2025 to Nov 2026) and animates his two lines. This replaces the May-to-October drawing above.
+- **Falling resistance:** Rs 3,01,470 (week of 2 Feb 2026) to Rs 2,34,897 (2 Nov). It meets or tops the highs of 2 Mar, 25 May, 1 Jun and
+  24 Aug, and sits within 1.5% of the highs of 7, 14 and 21 Sep. The 11 May spike (Rs 3,04,891) and the 18 and 25 May highs poke above it.
+- **Flat support:** Rs 2,15,653 from 1 Dec 2025. Lows near it: 16 Mar Rs 2,14,212; 13 Jul 2,13,781; 27 Jul 2,14,426; 3 Aug 2,13,780;
+  22 Jun 2,10,043 (2.6% under).
+- **Measured move:** top 3,01,470 - support 2,15,653 = height 85,818 (Rs 86K). Target = 2,15,653 - 85,818 = **Rs 1,29,835 (about 1.30 lakh)**,
+  33.7% under the last close Rs 1,95,719. The reel shows Rs 3.01 L, Rs 2.16 L, Rs 86K and Rs 1.30 L.
+- The week of 23 Mar also had a low of Rs 1,99,643 (about 2 lakh); the break to Rs 1,92,149 is under that too.
+- Full weekly data (63 bars): work/silver01/mcx_silver1_weekly_full.csv. TradingView captures: work/silver01/tv/.
