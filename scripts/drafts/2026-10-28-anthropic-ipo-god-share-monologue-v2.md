@@ -18,7 +18,7 @@ DRAFT — SCRIPT NOT APPROVED. Story approved; creator format explicitly request
 
 **RASHMIJI**: So IPO ke baad aapko Anthropic mein financial stake mil sakta hai. Lekin company kis direction mein jaayegi, us par decisive say founders aur trust ka rahega.
 
-Planning estimate: 186 written words, roughly 58–66 seconds at an assumed conversational pace; no audio exists.
+Planning estimate: 184 written words, roughly 58–66 seconds at an assumed conversational pace; no audio exists.
 
 # Creator monologue revision — 28 October 2026
 
