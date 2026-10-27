@@ -1,0 +1,351 @@
+{
+ "date": "2026-10-27",
+ "date_label": "Tue 27 Oct 2026",
+ "session_link": "https://claude.ai/code/session_01PasrArATuWvHt2LWxT4YJv",
+ "pick": {
+  "id": "1",
+  "reason": "It's the strategist's Ride now: Jio lists tomorrow, and today the refunds land and the shares reach demat accounts (Chittorgarh). The tracker still reads Jio HOT (YouTube 1.67M views this week, best 14,413/hr), and the listing-day videos are taking off (Mrunal Patel's 'listing gain hoga ki nahi?' at 284K in about a day). The fresh number lands in two seconds. At the ₹1,119 issue price Jio is worth about ₹10.3 lakh crore (Outlook Money, Business Today). HDFC Bank, India's biggest bank, closed Monday at ₹10.62 lakh crore (Kotak Neo). So a company that wasn't listed last week opens tomorrow within about ₹32,000 crore of it, and becomes the fourth Indian company above ₹10 lakh crore (our arithmetic). Nobody has made the market-cap angle; every Jio reel is still about allotment and listing gains.",
+  "runner_up": "3, HDFC Bank (deep lane, via The Morning Context). Its new CEO starts today, the bank's first from outside. The share is about 30% down in a year and sits just above its 52-week low. Profit is still growing, and a leak probe is open. No Indian money outlier has touched it, and it pairs with story 1. Gold (story 2) stays HOT on searches with no new price turn. It can wait for a Dhanteras-week move."
+ },
+ "stories": [
+  {
+   "id": "1",
+   "tracker_id": "jio-ipo",
+   "lane": "Hot lane (tracked; IPO listing, the strategist's Ride now)",
+   "title": "Jio lists tomorrow worth about ₹10.3 lakh crore at its issue price, roughly HDFC Bank's size, and money from the rejected bids comes back today",
+   "label": "HOT",
+   "score": {
+    "total": 9,
+    "momentum": 3,
+    "stake": 1,
+    "share": 2,
+    "gap": 1,
+    "name": 2
+   },
+   "window": "Tue 27 Oct (refunds, demat credit) to Wed 28 Oct (listing); post today or before 10 am tomorrow. After listing, the story turns into where it closed.",
+   "happening": [
+    "Jio Platforms' ₹30,213 crore IPO (all fresh issue, ₹1,065–1,119, lot of 12) closed 21.36× subscribed on 23 Oct, with 1,38,65,863 applications and at most 70,86,443 retail allottees (Chittorgarh). Business Today's figure is 22.19× (QIB 70.55×, retail 2.72×), so the sources differ; Chittorgarh's is its 7:28 pm day-3 table.",
+    "Today (Tue 27 Oct): refunds and the credit of shares to demat accounts. Tomorrow: listing on NSE and BSE. Chittorgarh still marks the listing date 'tentative'. The basis of allotment was due on Mon 26 Oct. Neither page we opened has published the final retail allotment ratio.",
+    "Valuation at the ₹1,119 upper band: about ₹10.3 lakh crore (Business Today, 27 Oct; Outlook Money, 11 Oct: ₹10.30 lakh crore, $106.43 bn).",
+    "For scale: HDFC Bank closed Mon 26 Oct at ₹688.05, a market value of ₹10,61,505 crore (Kotak Neo, NSE close). On 9 Oct, BSE data had Reliance at ₹15.84 lakh crore, Bharti Airtel ₹11.27 lakh crore, HDFC Bank ₹10.90 lakh crore and ICICI Bank ₹9.72 lakh crore (Outlook Money; context, older than a week).",
+    "So at its issue price Jio would be the fourth Indian listed company above ₹10 lakh crore, ahead of ICICI Bank (Outlook Money), and about ₹32,000 crore smaller than HDFC Bank on Monday's close (our arithmetic). Any listing price about 3% above ₹1,119 would put it ahead of HDFC Bank on today's numbers (our arithmetic; both prices move).",
+    "Demand: more than ₹7.4 lakh crore in bids including anchors, of which more than ₹4.9 lakh crore came from the public book (Business Today, 27 Oct). Anchors: ₹8,109.85 crore, 48% FPI and 34% mutual funds; 50% of anchor shares unlock on 25 Nov and the rest on 24 Jan 2027 (Chittorgarh).",
+    "Grey-market premium reported at ₹247 (about 22%; Business Today). It's unofficial and a listing prediction: leave it out."
+   ],
+   "curiosity_gaps": [
+    "A company you couldn't buy last week opens tomorrow at roughly the size of HDFC Bank, India's biggest bank. How did a telecom company get that big, and what does 'worth ₹10 lakh crore' even count?",
+    "Lakhs of crores of blocked bids come back to bank accounts today. Most applicants got nothing. What happens to that money tomorrow morning?"
+   ],
+   "measured": [
+    "Tracker 'jio-ipo': RISING (fading from HOT); Google News 48 of 100 this week; YouTube this week 1,668,712 views, best 14,413 views/hr.",
+    "trends.py 'Jio IPO listing': HOT; 3 today of 14 this week; YouTube 355,322 views, best 8,234/hr ('Jio IPO par experts ki badi raay! Listing gain lein ya long term', 197,626 views in 24 h).",
+    "vidIQ keyword 'jio ipo listing' (IN): volume 0/100, competition 42, under 750 searches a month (vidIQ is behind on spike keywords).",
+    "vidIQ YouTube (IN, since 25 Oct, by views): Mrunal Patel 'Jio IPO listing gain hoga ki nahi? Stag investor' 284K (14,954/hr, 5.3× channel); Business Today allotment how-to 206K (12,872/hr); Markets with Akshay 118K (27.6× channel); FinDive CA 29 s short 77K (280× channel).",
+    "vidIQ Instagram outliers (India, since 20 Oct): still all Jio. @tazakhabhar.in 3.8M (581×), @gtcbharatonline 2.6M (89×), @sonu_vis96 2.3M (62×), @rahulmalodiaofficial 969K (6.8×), @lifewise_india 774K (360×)."
+   ],
+   "others": [
+    {
+     "who": "Mrunal Patel Unacademy (YouTube)",
+     "what": "2:46, the 'stag investor' explained with Jio: listing gains aren't guaranteed (Paytm, Physics Wallah), and selling early missed Zomato's and Airtel's later rise",
+     "views": "284K",
+     "multiple": "5.3× channel",
+     "date": "26 Oct",
+     "url": "https://www.youtube.com/watch?v=qe5ExmUhTMY"
+    },
+    {
+     "who": "@tazakhabhar.in (Instagram)",
+     "what": "Split screen, Ambani footage above a talking head: 'Jio IPO: what investors should know'",
+     "views": "3.8M",
+     "multiple": "580.7× median",
+     "date": "22 Oct",
+     "url": "https://www.instagram.com/reel/DezRgbrxDhl"
+    },
+    {
+     "who": "@gtcbharatonline (Instagram)",
+     "what": "134 s talking head with a headline card: 'Jio IPO full in 2 hours! How to make money with ₹13,428?'",
+     "views": "2.6M",
+     "multiple": "88.9× median",
+     "date": "21 Oct",
+     "url": "https://www.instagram.com/reel/DewPQmUlf4y"
+    },
+    {
+     "who": "@sonu_vis96 (Instagram)",
+     "what": "Looped infographic over a creator at a desk: 'Jio IPO struggle: luck, God and retail investors'",
+     "views": "2.3M",
+     "multiple": "61.6× median",
+     "date": "21 Oct",
+     "url": "https://www.instagram.com/reel/DewMmMLD8v7"
+    },
+    {
+     "who": "FinDive CA (YouTube Short)",
+     "what": "29 s allotment-status how-to with the key dates",
+     "views": "77K",
+     "multiple": "279.7× channel",
+     "date": "26 Oct",
+     "url": "https://www.youtube.com/watch?v=zNeHHY17UqU"
+    }
+   ],
+   "others_takeaway": "Every Jio video is about getting an allotment, checking it, or the listing gain. Nobody has shown the size: a company that was unlisted last week opening tomorrow at roughly the market value of India's biggest bank.",
+   "facts": [
+    {
+     "text": "21.36× on 23 Oct 7:28 pm; 1,38,65,863 applications; max retail allottees 70,86,443; refunds and demat credit Tue 27 Oct; listing Wed 28 Oct (tentative) on BSE, NSE; anchors ₹8,109.85 cr (FPI 48.03%, MF 34.34%); anchor lock-in ends 25 Nov (50%) and 24 Jan 2027.",
+     "source": "Chittorgarh, Jio Platforms IPO page",
+     "url": "https://www.chittorgarh.com/ipo/jio-platforms-ipo/3152/"
+    },
+    {
+     "text": "22.19× overall, QIB 70.55×, retail 2.72×; bids above ₹7.4 lakh crore incl. anchors, public book above ₹4.9 lakh crore; valuation about ₹10.3 lakh crore at the upper band; GMP ₹247 (unofficial).",
+     "source": "Business Today, 27 Oct 2026, 12:05 am",
+     "url": "https://www.businesstoday.in/personal-finance/story/jio-platforms-ipo-allotment-status-how-to-check-on-bse-nse-and-kfin-technologies-563810-2026-10-27"
+    },
+    {
+     "text": "Jio at up to ₹10.30 lakh crore ($106.43 bn) would be the fourth Indian company above ₹10 lakh crore, ahead of ICICI Bank (₹9.72 lakh crore); Reliance ₹15.84, Airtel ₹11.27, HDFC Bank ₹10.90 lakh crore (BSE, 9 Oct; context).",
+     "source": "Outlook Money, 11 Oct 2026",
+     "url": "https://www.outlookmoney.com/invest/jio-platforms-ipo-rs-10-lakh-crore-market-cap-club"
+    },
+    {
+     "text": "HDFC Bank ₹688.05 at the 26 Oct NSE close; market cap ₹10,61,505.37 crore; 52-week range ₹681.90–1,017.50.",
+     "source": "Kotak Neo, HDFC Bank quote page",
+     "url": "https://www.kotakneo.com/stocks/hdfc-bank-share-price/"
+    }
+   ],
+   "watch_out": [
+    "IPO facts only: no apply, hold, sell or listing-day call, and no grey-market premium (it's a listing-gain prediction).",
+    "The '3% above issue price passes HDFC Bank' point is arithmetic on Monday's close, not a forecast; both prices move. Recheck HDFC Bank's market cap on the morning it posts.",
+    "Subscription figures differ by source (21.36× Chittorgarh vs 22.19× Business Today). Name one source.",
+    "Jio's and HDFC Bank's official logos are fine in frame one; never have an image model draw them. Ambani agency photos are allowed; no invented lines.",
+    "Bets: B1 (Jio logo beside HDFC Bank's, with '₹10.3 lakh crore' on the top half, from frame one); B2 (one idea: it lists at the size of India's biggest bank); B3 (something to send the friend whose refund just landed); split-screen opener."
+   ]
+  },
+  {
+   "id": "2",
+   "tracker_id": "gold-dhanteras-fall",
+   "lane": "Hot lane (tracked; gold before Dhanteras, the strategist's next Ride now)",
+   "title": "Gold is holding near ₹1.43 lakh per 10 g, about ₹38,000 below January's peak, 10 days before Dhanteras",
+   "label": "HOT",
+   "score": {
+    "total": 7,
+    "momentum": 3,
+    "stake": 1,
+    "share": 1,
+    "gap": 1,
+    "name": 1
+   },
+   "window": "To Fri 6 Nov (Dhanteras). Next turns: the US Fed meeting this week and crude oil.",
+   "happening": [
+    "This morning 24K gold is ₹14,276 a gram in Mumbai, i.e. ₹1,42,760 per 10 g, and ₹14,291 in Delhi; 22K is ₹13,086 and ₹13,101 (DNA India citing Goodreturns, 27 Oct, 7:25 am). That's flat on Friday's ₹1,42,480 (Goodreturns, 23 Oct), after a ₹5,560 per 10 g fall from 20 to 23 Oct.",
+    "On Monday MCX gold edged back above ₹1,42,600 and spot gold rose 0.6% to above $4,015 an ounce, as crude fell about 2% (Brent near $114). Markets expect the Fed to hold this week, with a hike possible in December (Goodreturns, 26 Oct, 3:46 pm).",
+    "Context (older than a week): MCX gold peaked at about ₹1,80,779 per 10 g in January (Motilal Oswal), so it's still about ₹38,000 (21%) below (our arithmetic). The import duty went from 6% to 15% on 13 May (Khaleej Times).",
+    "No new turn since yesterday's desk: the price is flat. Silver is the louder search ('chandi ka bhav' is on Google India's trending list this morning), but today's silver quotes don't agree (₹1.95–1.97 lakh/kg on MCX vs ₹2.2 lakh/kg retail tickers), so we used no silver number."
+   ],
+   "curiosity_gaps": [
+    "Gold is supposed to rise before Dhanteras. This year it's ₹38,000 below January. Who bought at the top, and why does the Indian price still feel so high?",
+    "The world price fell more than India's; the rupee and a 15% duty hold it up. How much of your Dhanteras coin is tax?"
+   ],
+   "measured": [
+    "trends.py 'gold price': HOT; Google News 57 today of 100 this week (57% today); YouTube 453,148 views, best 5,053/hr.",
+    "Tracker 'gold-dhanteras-fall': HOT, new; YouTube 1,281,823 views this week, best 16,529/hr.",
+    "vidIQ Instagram outliers (India, since 20 Oct): @vistaarnewsofficial 'how much cheaper are gold and silver before Diwali?' 3.7M (197×); @hindikhabarlive 'will gold reach 98,000?' 1.7M (36×); @pukhrajjewellers_nagpur 1.2M (9×); @readnewsindia.24 1.2M; @yogifunnify 'why gold is falling before Diwali' 778K (71×)."
+   ],
+   "others": [
+    {
+     "who": "@vistaarnewsofficial (Instagram)",
+     "what": "News anchor, split screen with gold and silver: 'How much cheaper did gold and silver get before Diwali?'",
+     "views": "3.7M",
+     "multiple": "196.6× median",
+     "date": "23 Oct",
+     "url": "https://www.instagram.com/reel/De2H_zjuhVl"
+    },
+    {
+     "who": "@hindikhabarlive (Instagram)",
+     "what": "Talking head under a headline card: 'Will gold come down to 98,000?' (Bank of America analysts)",
+     "views": "1.7M",
+     "multiple": "35.5× median",
+     "date": "22 Oct",
+     "url": "https://www.instagram.com/reel/Dey3f_jvRPR"
+    },
+    {
+     "who": "@yogifunnify (Instagram)",
+     "what": "Split screen with a crash chart: why gold is falling before Diwali, against the usual pattern",
+     "views": "778K",
+     "multiple": "71.1× median",
+     "date": "25 Oct",
+     "url": "https://www.instagram.com/reel/De6lVNWOg2L"
+    },
+    {
+     "who": "@pukhrajjewellers_nagpur (Instagram)",
+     "what": "A jeweller in his shop with a rate sheet: 'a dangerous slump in gold'",
+     "views": "1.2M",
+     "multiple": "9.3× median",
+     "date": "23 Oct",
+     "url": "https://www.instagram.com/reel/De1F6bZu6X4"
+    }
+   ],
+   "others_takeaway": "Price-fall and 'will it fall more' reels are everywhere, and most end on a buy-or-wait call we can't make. The why-India-is-different angle (rupee plus a 15% duty) still has no short Hinglish reel.",
+   "facts": [
+    {
+     "text": "24K ₹14,276/g Mumbai, ₹14,291/g Delhi; 22K ₹13,086 and ₹13,101 (via Goodreturns), 27 Oct 7:25 am.",
+     "source": "DNA India, 27 Oct 2026",
+     "url": "https://www.dnaindia.com/personal-finance/report-gold-silver-prices-today-october-27-2026-check-city-wise-rates-in-delhi-mumbai-chennai-kolkata-and-more-3223051"
+    },
+    {
+     "text": "MCX gold above ₹1,42,600; spot gold +0.6% above $4,015; crude −2%, Brent near $114; Fed seen holding this week.",
+     "source": "Goodreturns, 26 Oct 2026, 15:46",
+     "url": "https://www.goodreturns.in/news/gold-rates-silver-rates-today-26-10-2026-live-spot-gold-silver-price-mcx-gold-24k-22k-18k-gold-price-1543351.html"
+    },
+    {
+     "text": "24K ₹1,42,480/10 g on 23 Oct; −₹55,600 per 100 g from 20 to 23 Oct.",
+     "source": "Goodreturns, 23 Oct 2026",
+     "url": "https://www.goodreturns.in/news/gold-rates-silver-rates-today-23-10-2026-live-mcx-gold-silver-price-crash-24k-22k-18k-gold-prices-1543007.html"
+    },
+    {
+     "text": "MCX gold peak about ₹1,80,779/10 g in January 2026 (context).",
+     "source": "Motilal Oswal, 15 Feb 2026",
+     "url": "https://www.motilaloswal.com/news/commodities/12678"
+    },
+    {
+     "text": "Gold import duty raised from 6% to 15% from 13 May 2026 (context).",
+     "source": "Khaleej Times",
+     "url": "https://www.khaleejtimes.com/business/markets/indian-gold-silver-futures-jump-import-tariffs-raised"
+    }
+   ],
+   "watch_out": [
+    "No buy, wait or sell call and no forecast or targets (SEBI price-data rule): report the move as news.",
+    "Prices differ by city and tracker; use one named source and its time.",
+    "The January peak and the duty are context; the headline number is today's price.",
+    "Bets: B1 (gold bars and the price on the top half from frame one), B2, B3 (something to send the family member planning Dhanteras shopping)."
+   ]
+  },
+  {
+   "id": "3",
+   "tracker_id": "hdfc-bank-bagchi",
+   "lane": "Deep lane (via The Morning Context, 26 Oct: 'Sashidhar Jagdishan's undoing at HDFC Bank'; news peg today)",
+   "title": "HDFC Bank gets its first outside CEO today. The share is about 30% down in a year and just above its 52-week low, while profit still grows",
+   "label": "FLAT",
+   "score": {
+    "total": 8,
+    "momentum": 1,
+    "stake": 1,
+    "share": 2,
+    "gap": 2,
+    "name": 2
+   },
+   "window": "Tue 27 Oct (Bagchi's first day) for about a week; next turns: the leak-probe findings, Kaizad Bharucha's exit on 31 Dec and the shareholder vote on Bagchi.",
+   "happening": [
+    "The Morning Context (26 Oct): 'Sashidhar Jagdishan's undoing at HDFC Bank'. We have the headline only and didn't read past the paywall; the facts below are from open sources.",
+    "Jagdishan's term ended at close of business on Mon 26 Oct. Anup Bagchi, an ICICI Group veteran since 1992 who most recently ran ICICI Prudential Life, is MD and CEO from today, 27 Oct, to 26 Oct 2029: the bank's first CEO from outside. The RBI approved him on 1 Oct; shareholders still have to vote (Elets BFSI, 26 Oct).",
+    "The share closed Monday at ₹688.05 on NSE, against a 52-week range of ₹681.90–1,017.50; market value ₹10,61,505 crore; one-year return −30.35% (Kotak Neo). Whalesbook (26 Oct) puts it at about −31% this year; Business Today (21 Oct) about −28%. Sources differ by date, so use one.",
+    "The year so far: in March the part-time chairman, Atanu Chakraborty, resigned, citing differences between his values and certain practices at the bank; a legal review the bank commissioned found his concerns weren't substantiated. On 21 Oct, Bloomberg reported that an internal probe found two senior executives had shared confidential strategy and possibly market-sensitive information with outsiders; the bank confirmed a review and said action would follow (Business Today, 21 Oct). Deputy MD Kaizad Bharucha leaves on 31 Dec, and a new CFO starts on 1 Dec (Elets BFSI).",
+    "The business hasn't shrunk: Q2 profit was ₹19,510 crore (+~5% year on year), with loans +16.3% and deposits +18.8% (TradingView weekly recap, an AI summary; confirm against the bank's filing before use). Whalesbook puts the P/E at 13.34.",
+    "Why our viewer holds it without knowing: HDFC Bank was 10.01% of the Nifty 50 on 19 Aug (Taurus MF constituent list; context), so roughly ₹10 of every ₹100 in a Nifty index fund or ETF sits in this one bank."
+   ],
+   "curiosity_gaps": [
+    "India's biggest bank made ₹19,510 crore in a quarter, and its share is still down about 30% in a year. What went wrong, if not the profits?",
+    "If you own a Nifty index fund, about a tenth of it is this one bank. Today a man from its biggest rival, ICICI, takes charge. Why did it need an outsider?"
+   ],
+   "measured": [
+    "trends.py 'HDFC Bank share': FLAT; 4 today of 17 this week (24% today); YouTube 264,755 views, best 1,074/hr (a broker-report video, 154,621 views in 6 days).",
+    "trends.py 'Anup Bagchi': FLAT; 6 today of 22 this week (27% today); YouTube 48,617 views, best 1,300/hr.",
+    "vidIQ keyword 'hdfc bank share' (IN): volume 61/100, competition 59, about 12,800 searches a month, demand +0.2%.",
+    "vidIQ Instagram outliers (India, since 13 Oct): none on HDFC Bank. The nearest bank story is @earnwithsapna 'government sold IDBI Bank for ₹53,000 crore' 1.2M (31.5×).",
+    "vidIQ YouTube (IN, since 20 Oct): the best HDFC Bank videos are small. Tech Net India 'share 28% down, new probe' 12K; CNBC-TV18's handover report 3.4K (307/hr); Blue Chip Society's 'new boss from ICICI walks into 3 problems' Short 244."
+   ],
+   "others": [
+    {
+     "who": "@earnwithsapna (Instagram)",
+     "what": "Split screen with news footage above the creator: 'Indian govt sold IDBI Bank for ₹53,000 crore' (adjacent: a bank governance story)",
+     "views": "1.2M",
+     "multiple": "31.5× median",
+     "date": "14 Oct",
+     "url": "https://www.instagram.com/reel/DefFs2FBjf6"
+    },
+    {
+     "who": "Tech Net India (YouTube)",
+     "what": "3:17 Hindi news explainer: 'Big revelation at HDFC Bank! Share down 28%, new probe'",
+     "views": "12K",
+     "multiple": "2.7× channel",
+     "date": "23 Oct",
+     "url": "https://www.youtube.com/watch?v=geuk81sTv7I"
+    },
+    {
+     "who": "CNBC-TV18 (YouTube)",
+     "what": "2:23 report on Jagdishan's legacy and Bagchi's challenges",
+     "views": "3.4K",
+     "multiple": "n/a",
+     "date": "26 Oct",
+     "url": "https://www.youtube.com/watch?v=A1jJ5sdtXlk"
+    },
+    {
+     "who": "Blue Chip Society (YouTube Short)",
+     "what": "91 s: 'HDFC Bank's new boss is from ICICI. He walks into 3 problems', ending on the index-fund stake",
+     "views": "244",
+     "multiple": "1.8× channel",
+     "date": "25 Oct",
+     "url": "https://www.youtube.com/watch?v=PnmjOxOYekg"
+    }
+   ],
+   "others_takeaway": "Almost nobody on Reels has touched it. The few YouTube videos read out the leak probe; none starts from the viewer's stake (a tenth of every Nifty fund) or the puzzle of profit up, share down 30%.",
+   "facts": [
+    {
+     "text": "Jagdishan's term ends at close of business on 26 Oct; Bagchi MD & CEO 27 Oct 2026 to 26 Oct 2029; RBI approval 1 Oct; first external CEO; ICICI since 1992; shareholder approval pending; Bharucha leaves 31 Dec; new CFO 1 Dec.",
+     "source": "Elets BFSI, 26 Oct 2026",
+     "url": "https://bfsi.eletsonline.com/hdfc-bank-anup-bagchi-md-ceo-takes-charge-sashidhar-jagdishan-retires/"
+    },
+    {
+     "text": "₹688.05 at the 26 Oct NSE close; market cap ₹10,61,505.37 crore; 52-week ₹681.90–1,017.50; 1-year −30.35%.",
+     "source": "Kotak Neo, HDFC Bank quote page",
+     "url": "https://www.kotakneo.com/stocks/hdfc-bank-share-price/"
+    },
+    {
+     "text": "₹687.90 on 26 Oct, just above the ₹681.90 52-week low; nearly 31% down year to date; P/E 13.34.",
+     "source": "Whalesbook, 26 Oct 2026",
+     "url": "https://whalesbook.com/news/English/bankingfinance/HDFC-Bank-Shares-Near-52-Week-Low-Amid-Leadership-Transition/6adf02084fc30694db4c591f"
+    },
+    {
+     "text": "Internal probe: two senior executives shared confidential strategy and possibly market-sensitive information (Bloomberg); review ongoing; Chakraborty's March resignation; shares about −28% this year; market value about $115 bn.",
+     "source": "Business Today, 21 Oct 2026",
+     "url": "https://www.businesstoday.in/latest/corporate/story/two-senior-executives-leaked-confidential-business-information-finds-hdfc-bank-probe-562779-2026-10-21"
+    },
+    {
+     "text": "HDFC Bank weight 10.01% of the Nifty 50 (constituents as on 19 Aug 2026; context).",
+     "source": "Taurus Mutual Fund, Nifty constituent list",
+     "url": "https://www.taurusmutualfund.com/sites/default/files/2026-08/nifty-index-constituent-as-on-19_08_2026.pdf"
+    },
+    {
+     "text": "Q2 net profit ₹19,510 cr (+~5% YoY), NII ₹34,620 cr, loans +16.3%, deposits +18.8% (AI-generated recap; verify against the filing).",
+     "source": "TradingView weekly recap",
+     "url": "https://tradingview.com/news/tradingview:a04b8e268a49a:0-weekly-recap-investigation-of-two-senior-execs-and-q2-profit-rise"
+    },
+    {
+     "text": "The Morning Context, 'Sashidhar Jagdishan's undoing at HDFC Bank', 26 Oct (headline only; paywalled).",
+     "source": "The Morning Context (via Google News)",
+     "url": "https://news.google.com/rss/search?q=site:themorningcontext.com+Jagdishan"
+    }
+   ],
+   "watch_out": [
+    "No buy, hold or sell call, and no 'cheap valuation' or 'turnaround' framing (that's a recommendation). Report the fall and its causes as news.",
+    "The leak probe is Bloomberg's report on unnamed executives; the bank confirms only a review. Don't name or imply anyone, and say 'reportedly'.",
+    "Chakraborty's concerns were found unsubstantiated by the bank's own review; say both halves or neither.",
+    "Confirm Q2 profit from the bank's results release before the script uses it (our source is an AI summary). The Nifty weight is from 19 Aug: say 'about a tenth'.",
+    "HDFC Bank's official logo is fine; Bagchi's and Jagdishan's agency photos are allowed; no invented lines. Credit 'via The Morning Context' if the reel uses its framing.",
+    "Bets: B1 (HDFC Bank logo and '−30%' on the top half from frame one), B2, B3 (something to send the friend whose only investment is a Nifty index fund)."
+   ]
+  }
+ ],
+ "wire": [
+  {
+   "text": "Markets, Mon 26 Oct: Sensex +482.90 to 73,606.75 (+0.66%), Nifty +153.21 to 22,753.20, ending a four-session fall, with metals and Tata Consumer's results leading (Kotak Neo; Business Standard). One Hindi outlet reported a fall; most sources say up."
+  },
+  {
+   "text": "Tata Sons: Noel Tata, chairman of Tata Trusts (about two-thirds of Tata Sons), wrote on Monday that the 17 Sep board resolution reappointing N Chandrasekaran beyond Feb 2027 is void (not on the agenda, no Trusts-nominee affirmative vote; passed 4–1), and asked for the meeting video (Business Today, 27 Oct). Famous names, but no investor stake until Tata Sons lists: COLD on trends.py, though a 'Tata group fight explained' video has 111K in 72 h. Not picked."
+  },
+  {
+   "text": "Avadhut Sathe ('avadhut-sathe-refund', HOT on YouTube: 'Avadhut Sathe to refund ₹546 crore to students', 247K in 24 h): SEBI's final order of 23 Oct, ₹546.17 crore refund within five months plus ₹67.87 crore interest, two-year ban (Business Standard, 23 Oct). Sent three mornings running and not picked; it stays on the board."
+  },
+  {
+   "text": "Ather Energy posted its first quarterly profit and the shares rose 10% (Reuters, 26 Oct): COLD on trends.py. Paytm's results were also out on 26 Oct (Business Standard): COLD. Not picked."
+  },
+  {
+   "text": "Also seen, not used: The Ken on Airtel Money in Africa (27 Oct; tracker 'airtel-money-london' RISING) and Nike in India (27 Oct); The Morning Context on SME stock mania (26 Oct); The Core on the US green-card freeze (27 Oct, COLD on trends.py)."
+  }
+ ]
+}

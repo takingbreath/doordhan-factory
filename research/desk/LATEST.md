@@ -1,161 +1,159 @@
-# Doordhan desk research — Mon 26 Oct 2026
+# Doordhan desk research — Tue 27 Oct 2026
 
-Session: https://claude.ai/code/session_013YMoShbsLMMk3n8yLVRBKZ
+Session: https://claude.ai/code/session_01PasrArATuWvHt2LWxT4YJv
 
-**Pick: story 1.** It is the strategist's Ride now for today: Jio's allotment is this morning and every applicant checks it today. Jio was 6 of the top 6 Indian money outliers this fortnight (up to 3.8M) and the tracker still reads it HOT (best 18,059 views/hr). The number lands in two seconds: 1,38,65,863 applications, the most any Indian IPO has had, for at most 70,86,443 retail lots (Chittorgarh). The lottery explainer is already made (3.7M for @samjho.exe); the result-day angle isn't: how many go home empty-handed, and what parking lakhs of crores in one IPO did to everyone else's mid- and smallcaps last week (HDFC Sky lists it as a cause). Caveat: confirm the retail application count from the registrar today before the script uses a 'X in 10 got nothing' figure.
+**Pick: story 1.** It's the strategist's Ride now: Jio lists tomorrow, and today the refunds land and the shares reach demat accounts (Chittorgarh). The tracker still reads Jio HOT (YouTube 1.67M views this week, best 14,413/hr), and the listing-day videos are taking off (Mrunal Patel's 'listing gain hoga ki nahi?' at 284K in about a day). The fresh number lands in two seconds. At the ₹1,119 issue price Jio is worth about ₹10.3 lakh crore (Outlook Money, Business Today). HDFC Bank, India's biggest bank, closed Monday at ₹10.62 lakh crore (Kotak Neo). So a company that wasn't listed last week opens tomorrow within about ₹32,000 crore of it, and becomes the fourth Indian company above ₹10 lakh crore (our arithmetic). Nobody has made the market-cap angle; every Jio reel is still about allotment and listing gains.
 
-Runner-up: 2, gold before Dhanteras: 24K at ₹1,42,480 on Fri 23 Oct, ₹5,560 per 10 g down in three days and about ₹38,000 below January's peak (our arithmetic from Goodreturns and Motilal Oswal), with Dhanteras on 6 Nov. Outliers 2M and 1.3M this week; the gap is why it has fallen less in India (the rupee and May's 15% import duty). It can go tomorrow. Story 3 is the deep lane for Wednesday's listing (via The Ken): 77% of Jio's revenue is prepaid, sold through one distributor, its sister company Reliance Retail, and RIL owns the Jio brand.
+Runner-up: 3, HDFC Bank (deep lane, via The Morning Context). Its new CEO starts today, the bank's first from outside. The share is about 30% down in a year and sits just above its 52-week low. Profit is still growing, and a leak probe is open. No Indian money outlier has touched it, and it pairs with story 1. Gold (story 2) stays HOT on searches with no new price turn. It can wait for a Dhanteras-week move.
 
-## 1. Jio allotment is today: 1.39 crore applications for at most 70.9 lakh retail lots, so millions of applicants will get nothing, and the money comes back tomorrow
+## 1. Jio lists tomorrow worth about ₹10.3 lakh crore at its issue price, roughly HDFC Bank's size, and money from the rejected bids comes back today
 
-Hot lane (tracked; IPO, the strategist's Ride now for today) · HOT · **9/10** (momentum 3/3, stake 1/1, shareability 2/2, gap 1/2, known name 2/2) · tracker id `jio-ipo`
+Hot lane (tracked; IPO listing, the strategist's Ride now) · HOT · **9/10** (momentum 3/3, stake 1/1, shareability 2/2, gap 1/2, known name 2/2) · tracker id `jio-ipo`
 
-Window: Mon 26 Oct (allotment) to Wed 28 Oct (listing). Post today; the allotment result is what every applicant checks today.
+Window: Tue 27 Oct (refunds, demat credit) to Wed 28 Oct (listing); post today or before 10 am tomorrow. After listing, the story turns into where it closed.
 
 ### What's happening
-- The Jio Platforms IPO (₹30,213 crore, all fresh issue, price ₹1,065–1,119, lot of 12 shares, minimum ₹13,428) closed on Fri 23 Oct subscribed 21.36 times (Chittorgarh, 23 Oct, 7:28 pm).
-- It drew 1,38,65,863 applications (Chittorgarh). The previous record was Waaree Energies' 97.34 lakh in October 2024 (Energetica India; context). Business Today's 7 pm count on 23 Oct was 'more than 1.35 crore', so the sources differ slightly; Chittorgarh's is the later figure.
-- Retail was 2.76 times subscribed: 23,49,11,016 shares bid for 8,50,37,326 on offer. QIBs 67.15 times, NII 13.99 times, Reliance shareholders 7.59 times, employees 2.91 times (Chittorgarh).
-- At most 70,86,443 retail applicants can get a lot (Chittorgarh: max retail allottees). Retail allotment is a lottery of one lot each when oversubscribed. Retail application count: one earlier snapshot showed about 1.02 crore (IPO Watch, via search, not confirmed on an opened page), which would mean roughly 3 in 10 retail applicants get nothing (our arithmetic). Confirm the retail count from the registrar's basis of allotment before the script uses it.
-- Anchor investors put in ₹8,109.85 crore on 19 Oct (Chittorgarh).
-- Basis of allotment today; refunds and demat credit Tue 27 Oct; listing on NSE and BSE Wed 28 Oct (Chittorgarh).
-- A twist from the week's market wrap: HDFC Sky lists the liquidity drain of the ₹30,213 crore Jio issue among the causes of last week's mid- and smallcap fall (24 Oct).
+- Jio Platforms' ₹30,213 crore IPO (all fresh issue, ₹1,065–1,119, lot of 12) closed 21.36× subscribed on 23 Oct, with 1,38,65,863 applications and at most 70,86,443 retail allottees (Chittorgarh). Business Today's figure is 22.19× (QIB 70.55×, retail 2.72×), so the sources differ; Chittorgarh's is its 7:28 pm day-3 table.
+- Today (Tue 27 Oct): refunds and the credit of shares to demat accounts. Tomorrow: listing on NSE and BSE. Chittorgarh still marks the listing date 'tentative'. The basis of allotment was due on Mon 26 Oct. Neither page we opened has published the final retail allotment ratio.
+- Valuation at the ₹1,119 upper band: about ₹10.3 lakh crore (Business Today, 27 Oct; Outlook Money, 11 Oct: ₹10.30 lakh crore, $106.43 bn).
+- For scale: HDFC Bank closed Mon 26 Oct at ₹688.05, a market value of ₹10,61,505 crore (Kotak Neo, NSE close). On 9 Oct, BSE data had Reliance at ₹15.84 lakh crore, Bharti Airtel ₹11.27 lakh crore, HDFC Bank ₹10.90 lakh crore and ICICI Bank ₹9.72 lakh crore (Outlook Money; context, older than a week).
+- So at its issue price Jio would be the fourth Indian listed company above ₹10 lakh crore, ahead of ICICI Bank (Outlook Money), and about ₹32,000 crore smaller than HDFC Bank on Monday's close (our arithmetic). Any listing price about 3% above ₹1,119 would put it ahead of HDFC Bank on today's numbers (our arithmetic; both prices move).
+- Demand: more than ₹7.4 lakh crore in bids including anchors, of which more than ₹4.9 lakh crore came from the public book (Business Today, 27 Oct). Anchors: ₹8,109.85 crore, 48% FPI and 34% mutual funds; 50% of anchor shares unlock on 25 Nov and the rest on 24 Jan 2027 (Chittorgarh).
+- Grey-market premium reported at ₹247 (about 22%; Business Today). It's unofficial and a listing prediction: leave it out.
 
 ### The curiosity gap
-- 1.39 crore applications, the most any Indian IPO has had, for at most 70.9 lakh retail lots. Did you get one, and why does applying for 14 lots not help?
-- Lakhs of crores of bids were blocked for a week. Tomorrow most of it comes back. Where was that money, and what did it do to the rest of the market while it was away?
+- A company you couldn't buy last week opens tomorrow at roughly the size of HDFC Bank, India's biggest bank. How did a telecom company get that big, and what does 'worth ₹10 lakh crore' even count?
+- Lakhs of crores of blocked bids come back to bank accounts today. Most applicants got nothing. What happens to that money tomorrow morning?
 
 ### How hot it is
-- Tracker 'jio-ipo': HOT, steady; Google News 47 of 100 this week; YouTube this week 2,469,819 views, best 18,059 views/hr.
-- trends.py 'Jio IPO allotment': FLAT before the result (5 today of 18 this week, 28% today); top video 'JIO IPO Allotment Chances' 64,350 views in 48 h.
-- vidIQ keyword 'jio ipo allotment' (IN): volume 0/100, competition 39, under 750 searches a month (a spike keyword vidIQ hasn't caught up with).
-- vidIQ Instagram/TikTok outliers (India, since 12 Oct): 6 of the top 6 Instagram outliers are on Jio: @tazakhabhar.in 3.8M (414×), @samjho.exe 3.7M (359×), @visionaryindians 1.3M, @newspin.tv 1.3M (876×), @thereal.anshi 988K (136×), @rahulmalodiaofficial 951K.
-- vidIQ YouTube Shorts (IN, since 23 Oct, by views): the allotment-chances videos run 9K–24K views; 'Sip with Anmol' 13K views at 254× its channel.
+- Tracker 'jio-ipo': RISING (fading from HOT); Google News 48 of 100 this week; YouTube this week 1,668,712 views, best 14,413 views/hr.
+- trends.py 'Jio IPO listing': HOT; 3 today of 14 this week; YouTube 355,322 views, best 8,234/hr ('Jio IPO par experts ki badi raay! Listing gain lein ya long term', 197,626 views in 24 h).
+- vidIQ keyword 'jio ipo listing' (IN): volume 0/100, competition 42, under 750 searches a month (vidIQ is behind on spike keywords).
+- vidIQ YouTube (IN, since 25 Oct, by views): Mrunal Patel 'Jio IPO listing gain hoga ki nahi? Stag investor' 284K (14,954/hr, 5.3× channel); Business Today allotment how-to 206K (12,872/hr); Markets with Akshay 118K (27.6× channel); FinDive CA 29 s short 77K (280× channel).
+- vidIQ Instagram outliers (India, since 20 Oct): still all Jio. @tazakhabhar.in 3.8M (581×), @gtcbharatonline 2.6M (89×), @sonu_vis96 2.3M (62×), @rahulmalodiaofficial 969K (6.8×), @lifewise_india 774K (360×).
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [@samjho.exe (Instagram)](https://www.instagram.com/reel/DewoJwTsdAS) | Faceless motion graphics: '14 lots or 1, you get one ticket'; the allotment lottery explained with two friends | 3.7M | 359× median | 21 Oct |
-| [@visionaryindians (Instagram)](https://www.instagram.com/reel/DewFIwzykSV) | Split-screen interview clip: Nikhil Kamath wanted ₹500 crore of Jio and got ₹25 crore | 1.3M | 9.7× median | 21 Oct |
-| [@newspin.tv (Instagram)](https://www.instagram.com/reel/DeyvdfKMog4) | News explainer opening on Mukesh Ambani's photo: subscription on day 2 | 1.3M | 876× median | 22 Oct |
-| [@thereal.anshi (Instagram)](https://www.instagram.com/reel/Deq-hgnOHuY) | 8 s loop, creator dancing under a text card: 'allotment milega, profit bhi' | 988K | 136× median | 19 Oct |
-| [Markets with Akshay (YouTube)](https://www.youtube.com/watch?v=xZsNeIAuy44) | 2:40, shareholder-quota allotment maths with an 8-lot example | 24K | 13.8× channel | 23 Oct |
+| [Mrunal Patel Unacademy (YouTube)](https://www.youtube.com/watch?v=qe5ExmUhTMY) | 2:46, the 'stag investor' explained with Jio: listing gains aren't guaranteed (Paytm, Physics Wallah), and selling early missed Zomato's and Airtel's later rise | 284K | 5.3× channel | 26 Oct |
+| [@tazakhabhar.in (Instagram)](https://www.instagram.com/reel/DezRgbrxDhl) | Split screen, Ambani footage above a talking head: 'Jio IPO: what investors should know' | 3.8M | 580.7× median | 22 Oct |
+| [@gtcbharatonline (Instagram)](https://www.instagram.com/reel/DewPQmUlf4y) | 134 s talking head with a headline card: 'Jio IPO full in 2 hours! How to make money with ₹13,428?' | 2.6M | 88.9× median | 21 Oct |
+| [@sonu_vis96 (Instagram)](https://www.instagram.com/reel/DewMmMLD8v7) | Looped infographic over a creator at a desk: 'Jio IPO struggle: luck, God and retail investors' | 2.3M | 61.6× median | 21 Oct |
+| [FinDive CA (YouTube Short)](https://www.youtube.com/watch?v=zNeHHY17UqU) | 29 s allotment-status how-to with the key dates | 77K | 279.7× channel | 26 Oct |
 
-_The lottery mechanics are covered (3.7M). Nobody has made the result-day reel: how many people walk away empty-handed today, and what a week of lakhs of crores parked in one IPO did to everyone else's portfolio._
+_Every Jio video is about getting an allotment, checking it, or the listing gain. Nobody has shown the size: a company that was unlisted last week opening tomorrow at roughly the market value of India's biggest bank._
 
 ### Facts and sources
-- Subscription 21.36× (23 Oct, 7:28 pm); 1,38,65,863 applications; retail 2.76× (23,49,11,016 shares bid, 8,50,37,326 offered); QIB 67.15×; NII 13.99×; shareholders 7.59×; max retail allottees 70,86,443; ₹30,213 cr, ₹1,065–1,119, 12 shares; anchors ₹8,109.85 cr; allotment 26 Oct, listing 28 Oct. — [Chittorgarh, Jio Platforms IPO page](https://www.chittorgarh.com/ipo/jio-platforms-ipo/3152/)
-- More than 1.35 crore applications at 7 pm on 23 Oct (earlier count). — [Business Today, 23 Oct 2026](https://www.businesstoday.in/markets/ipo-corner/story/jio-platforms-ipo-record-rs-4-90-lakh-crore-in-bids-1-35-cr-applications-check-allotment-odds-563389-2026-10-23)
-- Waaree Energies' 97.34 lakh applications, the previous record (October 2024; context). — [Energetica India](https://www.energetica-india.net/news/waaree-energies-ipo-sees-record-applications-76x-subscription)
-- Jio IPO liquidity drain listed among the causes of the week's mid- and smallcap fall. — [HDFC Sky, 24 Oct 2026](https://hdfcsky.com/news/brent-at-114-and-rupee-near-95-wipe-rs16-1-lakh-crore-sensex-sheds-1575-points-as-smallcaps-crash-7percent)
+- 21.36× on 23 Oct 7:28 pm; 1,38,65,863 applications; max retail allottees 70,86,443; refunds and demat credit Tue 27 Oct; listing Wed 28 Oct (tentative) on BSE, NSE; anchors ₹8,109.85 cr (FPI 48.03%, MF 34.34%); anchor lock-in ends 25 Nov (50%) and 24 Jan 2027. — [Chittorgarh, Jio Platforms IPO page](https://www.chittorgarh.com/ipo/jio-platforms-ipo/3152/)
+- 22.19× overall, QIB 70.55×, retail 2.72×; bids above ₹7.4 lakh crore incl. anchors, public book above ₹4.9 lakh crore; valuation about ₹10.3 lakh crore at the upper band; GMP ₹247 (unofficial). — [Business Today, 27 Oct 2026, 12:05 am](https://www.businesstoday.in/personal-finance/story/jio-platforms-ipo-allotment-status-how-to-check-on-bse-nse-and-kfin-technologies-563810-2026-10-27)
+- Jio at up to ₹10.30 lakh crore ($106.43 bn) would be the fourth Indian company above ₹10 lakh crore, ahead of ICICI Bank (₹9.72 lakh crore); Reliance ₹15.84, Airtel ₹11.27, HDFC Bank ₹10.90 lakh crore (BSE, 9 Oct; context). — [Outlook Money, 11 Oct 2026](https://www.outlookmoney.com/invest/jio-platforms-ipo-rs-10-lakh-crore-market-cap-club)
+- HDFC Bank ₹688.05 at the 26 Oct NSE close; market cap ₹10,61,505.37 crore; 52-week range ₹681.90–1,017.50. — [Kotak Neo, HDFC Bank quote page](https://www.kotakneo.com/stocks/hdfc-bank-share-price/)
 
 ### Watch out
-- IPO facts only: no apply, hold, sell or listing-day call; leave the grey-market premium out (unofficial, and a listing-gain prediction).
-- Retail application count is not confirmed on an opened page; use the registrar's (KFin) basis of allotment once it is out today, or say 'at most 70.9 lakh lots for 1.39 crore applications'.
-- Total bid value differs by source (₹4.90 lakh crore at 7 pm on 23 Oct in Business Today; ₹7.4 lakh crore in India Today, 24 Oct): check before using any figure.
-- Jio's official logo is fine in frame one; never have an image model draw it. Mukesh Ambani's agency photos are allowed; no invented lines.
-- Humour on the herd and the lottery, never on the applicants who missed out.
-- Bets: B1 (Jio logo and '1.39 crore vs 70.9 lakh' in frame one), B2 (one idea: most people get nothing today), B3 (a line to send to the friend refreshing the allotment page); split-screen opener.
+- IPO facts only: no apply, hold, sell or listing-day call, and no grey-market premium (it's a listing-gain prediction).
+- The '3% above issue price passes HDFC Bank' point is arithmetic on Monday's close, not a forecast; both prices move. Recheck HDFC Bank's market cap on the morning it posts.
+- Subscription figures differ by source (21.36× Chittorgarh vs 22.19× Business Today). Name one source.
+- Jio's and HDFC Bank's official logos are fine in frame one; never have an image model draw them. Ambani agency photos are allowed; no invented lines.
+- Bets: B1 (Jio logo beside HDFC Bank's, with '₹10.3 lakh crore' on the top half, from frame one); B2 (one idea: it lists at the size of India's biggest bank); B3 (something to send the friend whose refund just landed); split-screen opener.
 
-## 2. Gold is about ₹38,000 below its January peak and fell ₹5,560 per 10 g in three days, 11 days before Dhanteras, yet it has fallen less in India than abroad
+## 2. Gold is holding near ₹1.43 lakh per 10 g, about ₹38,000 below January's peak, 10 days before Dhanteras
 
-Hot lane (new; gold before Dhanteras, the strategist's next Ride now after E14) · HOT · **8/10** (momentum 3/3, stake 1/1, shareability 2/2, gap 1/2, known name 1/2) · tracker id `gold-dhanteras-fall`
+Hot lane (tracked; gold before Dhanteras, the strategist's next Ride now) · HOT · **7/10** (momentum 3/3, stake 1/1, shareability 1/2, gap 1/2, known name 1/2) · tracker id `gold-dhanteras-fall`
 
-Window: Mon 26 Oct to Fri 6 Nov (Dhanteras). Next turns: the US Fed meeting this week and crude oil.
+Window: To Fri 6 Nov (Dhanteras). Next turns: the US Fed meeting this week and crude oil.
 
 ### What's happening
-- On Fri 23 Oct, 24K gold was ₹1,42,480 per 10 g (down ₹1,900 that day) and 22K ₹1,30,600 (Goodreturns, updated 6:26 pm). Between 20 and 23 Oct it fell ₹55,600 per 100 g, i.e. ₹5,560 per 10 g, and more than 3.5% on the week (Goodreturns).
-- MCX December gold settled near ₹1.42 lakh per 10 g on 23 Oct; spot gold was about $4,015 an ounce, down 5.94% this month; spot silver down 14.83% this month (Goodreturns).
-- Context (older than a week): MCX gold peaked at about ₹1,80,779 per 10 g in January 2026 (Motilal Oswal, 15 Feb). At ₹1.42 lakh it is about ₹38,000, or 21%, below that peak (our arithmetic).
-- Why it is falling: crude oil (Brent near $114–115) raising inflation and rate fears, and expectations of a US Fed rate hike next week (Goodreturns, India TV, 23 Oct).
-- Why it has not fallen as much in India: a weaker rupee cushions domestic prices (Goodreturns), and the import duty on gold was raised from 6% to 15% on 13 May 2026 (Khaleej Times, Bajaj Broking; context). CA Sarthak Ahuja's 24 Oct video puts it as 'fallen 28% globally, only 19% in India'; his figures, not checked against a peak on an opened page.
-- Dhanteras is on Fri 6 Nov 2026 (allindiabullion).
-- Silver, our E14 story, is down 46.34% from its 29 Jan high of ₹4.10 lakh per kg (Goodreturns).
+- This morning 24K gold is ₹14,276 a gram in Mumbai, i.e. ₹1,42,760 per 10 g, and ₹14,291 in Delhi; 22K is ₹13,086 and ₹13,101 (DNA India citing Goodreturns, 27 Oct, 7:25 am). That's flat on Friday's ₹1,42,480 (Goodreturns, 23 Oct), after a ₹5,560 per 10 g fall from 20 to 23 Oct.
+- On Monday MCX gold edged back above ₹1,42,600 and spot gold rose 0.6% to above $4,015 an ounce, as crude fell about 2% (Brent near $114). Markets expect the Fed to hold this week, with a hike possible in December (Goodreturns, 26 Oct, 3:46 pm).
+- Context (older than a week): MCX gold peaked at about ₹1,80,779 per 10 g in January (Motilal Oswal), so it's still about ₹38,000 (21%) below (our arithmetic). The import duty went from 6% to 15% on 13 May (Khaleej Times).
+- No new turn since yesterday's desk: the price is flat. Silver is the louder search ('chandi ka bhav' is on Google India's trending list this morning), but today's silver quotes don't agree (₹1.95–1.97 lakh/kg on MCX vs ₹2.2 lakh/kg retail tickers), so we used no silver number.
 
 ### The curiosity gap
-- Gold is crashing worldwide, so why is the Dhanteras price in India still so high? The rupee and a 15% import duty are doing the holding up.
-- Everyone's mother says gold never falls. It is about ₹38,000 per 10 g below January's peak. Who bought at the top?
+- Gold is supposed to rise before Dhanteras. This year it's ₹38,000 below January. Who bought at the top, and why does the Indian price still feel so high?
+- The world price fell more than India's; the rupee and a 15% duty hold it up. How much of your Dhanteras coin is tax?
 
 ### How hot it is
-- trends.py 'gold price Dhanteras': COLD on news momentum (the phrase), but YouTube this week 14 videos, 1,449,578 views, best 6,161 views/hr ('Gold-Silver Price Crash', Sharad Kohli, 591,441 views in 96 h).
-- vidIQ YouTube Shorts (IN, since 20 Oct, by views): Kanak News 'gold falls before Dhanteras' 221K (2,546/hr) and 107K (2,608/hr, 277× channel); Sarthak Ahuja 116K in about a day (3,963/hr); Hindi Khabar 99K.
-- vidIQ keyword 'gold price today' (IN): volume 70/100, competition 72, about 46,700 searches a month, demand −30% (the festive peak is still ahead).
-- vidIQ Instagram outliers (India, since 12 Oct): @investwithkabir 'Will gold fall below ₹1 lakh?' 2M (355×); @financetalkswithaman 'Gold ₹25,000 crash, silver ₹50,000+ down' 1.3M (18×).
+- trends.py 'gold price': HOT; Google News 57 today of 100 this week (57% today); YouTube 453,148 views, best 5,053/hr.
+- Tracker 'gold-dhanteras-fall': HOT, new; YouTube 1,281,823 views this week, best 16,529/hr.
+- vidIQ Instagram outliers (India, since 20 Oct): @vistaarnewsofficial 'how much cheaper are gold and silver before Diwali?' 3.7M (197×); @hindikhabarlive 'will gold reach 98,000?' 1.7M (36×); @pukhrajjewellers_nagpur 1.2M (9×); @readnewsindia.24 1.2M; @yogifunnify 'why gold is falling before Diwali' 778K (71×).
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [@investwithkabir (Instagram)](https://www.instagram.com/reel/Deqf1fVp430) | Split screen with gold-bar animation: 'Will gold fall below ₹1,00,000?'; comment-for-advice CTA | 2M | 354.5× median | 19 Oct |
-| [@financetalkswithaman (Instagram)](https://www.instagram.com/reel/De0owayS6wb) | Talking head with crash graphics: 'Bad news for gold investors', gold ₹25,000 off, silver ₹50,000 off | 1.3M | 18.3× median | 23 Oct |
-| [Sarthak Ahuja (YouTube)](https://www.youtube.com/watch?v=fx8ov9xmQ2Y) | 2:25: gold fell 28% globally but only 19% in India; the rupee and the 15% import duty | 116K | 6.5× channel | 24 Oct |
-| [Kanak News Digital (YouTube Short)](https://www.youtube.com/watch?v=qM74N85BHe8) | 47 s news short: gold falls before Dhanteras, 18K/22K/24K rates | 107K | 277× channel | 24 Oct |
+| [@vistaarnewsofficial (Instagram)](https://www.instagram.com/reel/De2H_zjuhVl) | News anchor, split screen with gold and silver: 'How much cheaper did gold and silver get before Diwali?' | 3.7M | 196.6× median | 23 Oct |
+| [@hindikhabarlive (Instagram)](https://www.instagram.com/reel/Dey3f_jvRPR) | Talking head under a headline card: 'Will gold come down to 98,000?' (Bank of America analysts) | 1.7M | 35.5× median | 22 Oct |
+| [@yogifunnify (Instagram)](https://www.instagram.com/reel/De6lVNWOg2L) | Split screen with a crash chart: why gold is falling before Diwali, against the usual pattern | 778K | 71.1× median | 25 Oct |
+| [@pukhrajjewellers_nagpur (Instagram)](https://www.instagram.com/reel/De1F6bZu6X4) | A jeweller in his shop with a rate sheet: 'a dangerous slump in gold' | 1.2M | 9.3× median | 23 Oct |
 
-_The price-falls and 'will it fall further' angles are everywhere, and most end on a buy-or-wait call we can't make. The why-India-is-different angle (rupee plus 15% duty) has one 2.5-minute video and no short Hinglish reel._
+_Price-fall and 'will it fall more' reels are everywhere, and most end on a buy-or-wait call we can't make. The why-India-is-different angle (rupee plus a 15% duty) still has no short Hinglish reel._
 
 ### Facts and sources
-- 24K ₹1,42,480/10 g (−₹1,900), 22K ₹1,30,600 on 23 Oct; −₹55,600 per 100 g from 20 to 23 Oct; weekly fall over 3.5%; spot gold about $4,015, −5.94% month to date; silver −14.83% MTD; silver's ATH ₹4.10 lakh/kg on 29 Jan, −46.34%; causes: crude, Fed hike expectations; weaker rupee cushions. — [Goodreturns, 23 Oct 2026 (updated 18:26)](https://www.goodreturns.in/news/gold-rates-silver-rates-today-23-10-2026-live-mcx-gold-silver-price-crash-24k-22k-18k-gold-prices-1543007.html)
-- MCX gold last ₹1,41,894/10 g (−0.99%) at 10:33 am on 23 Oct; silver ₹1,93,598/kg (−3.01%); crude cited. — [India TV, 23 Oct 2026](https://www.indiatvnews.com/business/markets/gold-rate-today-silver-price-gold-mcx-rate-silver-kolkata-delhi-chennai-mumbai-check-city-wise-rates-2026-10-23-1057699)
-- MCX gold peak about ₹1,80,779/10 g in January 2026 (context, 15 Feb). — [Motilal Oswal](https://www.motilaloswal.com/news/commodities/12678)
-- Import duty on gold and silver raised from 6% to 15% from 13 May 2026 (context). — [Khaleej Times](https://www.khaleejtimes.com/business/markets/indian-gold-silver-futures-jump-import-tariffs-raised)
-- Dhanteras on Fri 6 Nov 2026 (the page refused our fetch today; date from its search listing, and consistent with Diwali on 8 Nov). — [All India Bullion](https://allindiabullion.com/gold-rate/dhanteras)
+- 24K ₹14,276/g Mumbai, ₹14,291/g Delhi; 22K ₹13,086 and ₹13,101 (via Goodreturns), 27 Oct 7:25 am. — [DNA India, 27 Oct 2026](https://www.dnaindia.com/personal-finance/report-gold-silver-prices-today-october-27-2026-check-city-wise-rates-in-delhi-mumbai-chennai-kolkata-and-more-3223051)
+- MCX gold above ₹1,42,600; spot gold +0.6% above $4,015; crude −2%, Brent near $114; Fed seen holding this week. — [Goodreturns, 26 Oct 2026, 15:46](https://www.goodreturns.in/news/gold-rates-silver-rates-today-26-10-2026-live-spot-gold-silver-price-mcx-gold-24k-22k-18k-gold-price-1543351.html)
+- 24K ₹1,42,480/10 g on 23 Oct; −₹55,600 per 100 g from 20 to 23 Oct. — [Goodreturns, 23 Oct 2026](https://www.goodreturns.in/news/gold-rates-silver-rates-today-23-10-2026-live-mcx-gold-silver-price-crash-24k-22k-18k-gold-prices-1543007.html)
+- MCX gold peak about ₹1,80,779/10 g in January 2026 (context). — [Motilal Oswal, 15 Feb 2026](https://www.motilaloswal.com/news/commodities/12678)
+- Gold import duty raised from 6% to 15% from 13 May 2026 (context). — [Khaleej Times](https://www.khaleejtimes.com/business/markets/indian-gold-silver-futures-jump-import-tariffs-raised)
 
 ### Watch out
-- No buy, wait or sell call on gold, and no price forecast or targets (SEBI price-data rule: report the move as news, no chart levels).
-- Prices differ by tracker (₹1,42,150 to ₹1,46,526 for 24K on 23–25 Oct): use one named source and its time.
-- The January peak and the 15% duty are context (older than a week); the headline number is the 23 Oct price and the three-day fall.
-- Sarthak Ahuja's 28%/19% are his figures: don't use them unless checked against the two peaks.
-- Humour on the 'gold never falls' herd and on the duty, never on people who bought.
-- Bets: B1 (gold bars and '₹38,000 neeche' style number on the B-roll half, frame one), B2, B3 (a line to send to the family member planning Dhanteras shopping).
+- No buy, wait or sell call and no forecast or targets (SEBI price-data rule): report the move as news.
+- Prices differ by city and tracker; use one named source and its time.
+- The January peak and the duty are context; the headline number is today's price.
+- Bets: B1 (gold bars and the price on the top half from frame one), B2, B3 (something to send the family member planning Dhanteras shopping).
 
-## 3. Jio lists on Wednesday. Its biggest revenue stream is sold through one distributor, its own sister company Reliance Retail, and the Jio brand belongs to RIL
+## 3. HDFC Bank gets its first outside CEO today. The share is about 30% down in a year and just above its 52-week low, while profit still grows
 
-Deep lane (via The Ken, 22 Oct; carried from yesterday for Wednesday's listing) · HOT · **8/10** (momentum 1/3, stake 1/1, shareability 2/2, gap 2/2, known name 2/2) · tracker id `jio-reliance-retail-ken`
+Deep lane (via The Morning Context, 26 Oct: 'Sashidhar Jagdishan's undoing at HDFC Bank'; news peg today) · FLAT · **8/10** (momentum 1/3, stake 1/1, shareability 2/2, gap 2/2, known name 2/2) · tracker id `hdfc-bank-bagchi`
 
-Window: Mon 26 Oct to Wed 28 Oct (listing day), then about a week.
+Window: Tue 27 Oct (Bagchi's first day) for about a week; next turns: the leak-probe findings, Kaizad Bharucha's exit on 31 Dec and the shareholder vote on Bagchi.
 
 ### What's happening
-- The Ken (22 Oct): 'Jio and Reliance Retail are tied at the hip. That's fine as long as the Ambanis are one big happy family.' Headline only; we did not read past the paywall. The facts below are from the RHP as reported in open coverage.
-- Reliance Retail is the sole distributor of Jio's prepaid service, which was 77% (₹1.13 lakh crore) of Jio's ₹1.47 lakh crore consolidated revenue in FY26 (Fortune India, from the RHP, 15 Oct; context, older than a week).
-- Airtel, by contrast, sells through 8,863 independent dealers and distributors, none owned by Airtel (Fortune India, citing Airtel's FY26 annual report).
-- Reliance Retail also signs up customers, does identity checks, collects payments and handles marketing. Jio paid ₹4,374 crore of selling and distribution expenses to group companies in FY26 (Fortune India).
-- Related parties supplied about 17.5% of Jio's FY26 capex excluding spectrum, and 36% in the June 2026 quarter. Group firms own about 1.74 lakh of the 3.6 lakh towers Jio uses and supply about 98% of its fibre (Fortune India).
-- The Jio trademark belongs to RIL, which licenses it to Jio and currently charges no royalty (Fortune India).
-- The RHP itself flags the risk: if the arrangement broke down, Jio would have to build its own distributor network across India (Fortune India).
-- New since yesterday: final tally 1,38,65,863 applications, 21.36× overall, retail 2.76× (Chittorgarh, 23 Oct, 7:28 pm). Allotment today, refunds and demat credit Tue 27 Oct, listing Wed 28 Oct.
+- The Morning Context (26 Oct): 'Sashidhar Jagdishan's undoing at HDFC Bank'. We have the headline only and didn't read past the paywall; the facts below are from open sources.
+- Jagdishan's term ended at close of business on Mon 26 Oct. Anup Bagchi, an ICICI Group veteran since 1992 who most recently ran ICICI Prudential Life, is MD and CEO from today, 27 Oct, to 26 Oct 2029: the bank's first CEO from outside. The RBI approved him on 1 Oct; shareholders still have to vote (Elets BFSI, 26 Oct).
+- The share closed Monday at ₹688.05 on NSE, against a 52-week range of ₹681.90–1,017.50; market value ₹10,61,505 crore; one-year return −30.35% (Kotak Neo). Whalesbook (26 Oct) puts it at about −31% this year; Business Today (21 Oct) about −28%. Sources differ by date, so use one.
+- The year so far: in March the part-time chairman, Atanu Chakraborty, resigned, citing differences between his values and certain practices at the bank; a legal review the bank commissioned found his concerns weren't substantiated. On 21 Oct, Bloomberg reported that an internal probe found two senior executives had shared confidential strategy and possibly market-sensitive information with outsiders; the bank confirmed a review and said action would follow (Business Today, 21 Oct). Deputy MD Kaizad Bharucha leaves on 31 Dec, and a new CFO starts on 1 Dec (Elets BFSI).
+- The business hasn't shrunk: Q2 profit was ₹19,510 crore (+~5% year on year), with loans +16.3% and deposits +18.8% (TradingView weekly recap, an AI summary; confirm against the bank's filing before use). Whalesbook puts the P/E at 13.34.
+- Why our viewer holds it without knowing: HDFC Bank was 10.01% of the Nifty 50 on 19 Aug (Taurus MF constituent list; context), so roughly ₹10 of every ₹100 in a Nifty index fund or ETF sits in this one bank.
 
 ### The curiosity gap
-- 1.35 crore people applied for Jio. How many know that 77% of its revenue comes through one shop, and that shop is owned by the same family?
-- The Jio name isn't Jio's: RIL owns the brand and charges nothing for it, for now. What happens to Jio's profits if that ever changes?
+- India's biggest bank made ₹19,510 crore in a quarter, and its share is still down about 30% in a year. What went wrong, if not the profits?
+- If you own a Nifty index fund, about a tenth of it is this one bank. Today a man from its biggest rival, ICICI, takes charge. Why did it need an outsider?
 
 ### How hot it is
-- Tracker 'jio-ipo': HOT, steady; YouTube this week 2,469,819 views, best 18,059 views/hr.
-- Tracker 'jio-reliance-retail-ken' (this angle): COLD on its first check; deep-lane stories are not hot by nature and stay until their window.
-- vidIQ Instagram/TikTok outliers on Jio (since 12 Oct, re-run today): still all about demand, the lottery and the anchor book (up to 3.8M); none on the related-party ties.
+- trends.py 'HDFC Bank share': FLAT; 4 today of 17 this week (24% today); YouTube 264,755 views, best 1,074/hr (a broker-report video, 154,621 views in 6 days).
+- trends.py 'Anup Bagchi': FLAT; 6 today of 22 this week (27% today); YouTube 48,617 views, best 1,300/hr.
+- vidIQ keyword 'hdfc bank share' (IN): volume 61/100, competition 59, about 12,800 searches a month, demand +0.2%.
+- vidIQ Instagram outliers (India, since 13 Oct): none on HDFC Bank. The nearest bank story is @earnwithsapna 'government sold IDBI Bank for ₹53,000 crore' 1.2M (31.5×).
+- vidIQ YouTube (IN, since 20 Oct): the best HDFC Bank videos are small. Tech Net India 'share 28% down, new probe' 12K; CNBC-TV18's handover report 3.4K (307/hr); Blue Chip Society's 'new boss from ICICI walks into 3 problems' Short 244.
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [@tazakhabhar.in (Instagram)](https://www.instagram.com/reel/DezRgbrxDhl) | Split screen, Ambani footage on top: 'Jio IPO: what investors should know' | 3.7M | 409.2× median | 22 Oct |
-| [@rockmehul (Instagram)](https://www.instagram.com/reel/DezRe1TpQ3k) | Talking head in a car: 'the reality of Jio Platforms IPO', the risks of hyped IPOs, with screenshots | 3M | 109.7× median | 22 Oct |
-| [@wealthboard_ (Instagram)](https://www.instagram.com/reel/Deml3FQTq9E) | Split screen: 'Ambani just changed the game', IPO summary | 1.9M | 8.3× median | 17 Oct |
-| [@vivekonpoint (Instagram)](https://www.instagram.com/reel/Deo8-CDSGyV) | Walking talking head with news screenshots: Jio's pros and cons | 1.2M | 5.6× median | 18 Oct |
+| [@earnwithsapna (Instagram)](https://www.instagram.com/reel/DefFs2FBjf6) | Split screen with news footage above the creator: 'Indian govt sold IDBI Bank for ₹53,000 crore' (adjacent: a bank governance story) | 1.2M | 31.5× median | 14 Oct |
+| [Tech Net India (YouTube)](https://www.youtube.com/watch?v=geuk81sTv7I) | 3:17 Hindi news explainer: 'Big revelation at HDFC Bank! Share down 28%, new probe' | 12K | 2.7× channel | 23 Oct |
+| [CNBC-TV18 (YouTube)](https://www.youtube.com/watch?v=A1jJ5sdtXlk) | 2:23 report on Jagdishan's legacy and Bagchi's challenges | 3.4K | n/a | 26 Oct |
+| [Blue Chip Society (YouTube Short)](https://www.youtube.com/watch?v=PnmjOxOYekg) | 91 s: 'HDFC Bank's new boss is from ICICI. He walks into 3 problems', ending on the index-fund stake | 244 | 1.8× channel | 25 Oct |
 
-_Unchanged since yesterday: Jio reels are saturated on demand, the lottery and 'should you apply'. Nobody has shown what the prospectus says about how much of Jio runs through Ambani family companies, which is the listing-day question._
+_Almost nobody on Reels has touched it. The few YouTube videos read out the leak probe; none starts from the viewer's stake (a tenth of every Nifty fund) or the puzzle of profit up, share down 30%._
 
 ### Facts and sources
-- Prepaid 77% (₹1.13 lakh cr) of ₹1.47 lakh cr FY26 revenue, sold only through Reliance Retail; Airtel 8,863 independent dealers; ₹4,374 cr selling expenses to group companies; related parties 17.5% of FY26 capex (36% in June quarter); 1.74 lakh of 3.6 lakh towers; 98% of fibre; trademark owned by RIL, no royalty now; valuation $108.3 bn, 533 mn subscribers. (15 Oct: older than a week, so context; the figures are from the RHP.) — [Fortune India, 15 Oct 2026](https://www.fortuneindia.com/business-news/jio-sells-prepaid-cards-through-just-one-distributorreliance-retail/165083)
-- The Ken's story (headline only; paywalled): 'Jio and Reliance Retail are tied at the hip. That's fine as long as the Ambanis are one big happy family', 22 Oct. — [The Ken, 22 Oct 2026 (Google News listing)](https://news.google.com/rss/search?q=site:the-ken.com+Jio+Reliance+Retail+tied+at+the+hip)
-- More than 1.35 crore applications; ₹4.90 lakh cr bids; allotment 26 Oct, listing 28 Oct. — [Business Today, 23 Oct 2026, 7:24 pm](https://www.businesstoday.in/markets/ipo-corner/story/jio-platforms-ipo-record-rs-4-90-lakh-crore-in-bids-1-35-cr-applications-check-allotment-odds-563389-2026-10-23)
+- Jagdishan's term ends at close of business on 26 Oct; Bagchi MD & CEO 27 Oct 2026 to 26 Oct 2029; RBI approval 1 Oct; first external CEO; ICICI since 1992; shareholder approval pending; Bharucha leaves 31 Dec; new CFO 1 Dec. — [Elets BFSI, 26 Oct 2026](https://bfsi.eletsonline.com/hdfc-bank-anup-bagchi-md-ceo-takes-charge-sashidhar-jagdishan-retires/)
+- ₹688.05 at the 26 Oct NSE close; market cap ₹10,61,505.37 crore; 52-week ₹681.90–1,017.50; 1-year −30.35%. — [Kotak Neo, HDFC Bank quote page](https://www.kotakneo.com/stocks/hdfc-bank-share-price/)
+- ₹687.90 on 26 Oct, just above the ₹681.90 52-week low; nearly 31% down year to date; P/E 13.34. — [Whalesbook, 26 Oct 2026](https://whalesbook.com/news/English/bankingfinance/HDFC-Bank-Shares-Near-52-Week-Low-Amid-Leadership-Transition/6adf02084fc30694db4c591f)
+- Internal probe: two senior executives shared confidential strategy and possibly market-sensitive information (Bloomberg); review ongoing; Chakraborty's March resignation; shares about −28% this year; market value about $115 bn. — [Business Today, 21 Oct 2026](https://www.businesstoday.in/latest/corporate/story/two-senior-executives-leaked-confidential-business-information-finds-hdfc-bank-probe-562779-2026-10-21)
+- HDFC Bank weight 10.01% of the Nifty 50 (constituents as on 19 Aug 2026; context). — [Taurus Mutual Fund, Nifty constituent list](https://www.taurusmutualfund.com/sites/default/files/2026-08/nifty-index-constituent-as-on-19_08_2026.pdf)
+- Q2 net profit ₹19,510 cr (+~5% YoY), NII ₹34,620 cr, loans +16.3%, deposits +18.8% (AI-generated recap; verify against the filing). — [TradingView weekly recap](https://tradingview.com/news/tradingview:a04b8e268a49a:0-weekly-recap-investigation-of-two-senior-execs-and-q2-profit-rise)
+- The Morning Context, 'Sashidhar Jagdishan's undoing at HDFC Bank', 26 Oct (headline only; paywalled). — [The Morning Context (via Google News)](https://news.google.com/rss/search?q=site:themorningcontext.com+Jagdishan)
 
 ### Watch out
-- Headline numbers: the 77% comes from the RHP via a 15 Oct article (older than a week). Before the script, confirm it in the RHP itself (Jio Platforms RHP, 14 Oct, on SEBI's and the exchanges' sites); we did not open the RHP today.
-- Credit 'via The Ken' in the caption if the reel follows their angle; never copy their paywalled text.
-- Related-party ties are disclosed and legal: frame it as 'what the prospectus says', not wrongdoing. No apply, sell or hold call; no listing-gain prediction or grey-market premium.
-- Mukesh Ambani's news-agency photos are allowed; no invented lines from him.
-- Bets: B1 (the Jio and Reliance Retail logos with '77%' in frame one), B2, B3.
+- No buy, hold or sell call, and no 'cheap valuation' or 'turnaround' framing (that's a recommendation). Report the fall and its causes as news.
+- The leak probe is Bloomberg's report on unnamed executives; the bank confirms only a review. Don't name or imply anyone, and say 'reportedly'.
+- Chakraborty's concerns were found unsubstantiated by the bank's own review; say both halves or neither.
+- Confirm Q2 profit from the bank's results release before the script uses it (our source is an AI summary). The Nifty weight is from 19 Aug: say 'about a tenth'.
+- HDFC Bank's official logo is fine; Bagchi's and Jagdishan's agency photos are allowed; no invented lines. Credit 'via The Morning Context' if the reel uses its framing.
+- Bets: B1 (HDFC Bank logo and '−30%' on the top half from frame one), B2, B3 (something to send the friend whose only investment is a Nifty index fund).
 
 ## Stories we're tracking
 
@@ -163,35 +161,34 @@ Full board: research/desk/TRACKER.md
 
 | Story | Now | Direction | Day | Status |
 |---|---|---|---|---|
-| Jio Platforms IPO (`jio-ipo`) | HOT | steady | 19 | active |
-| Gauahar Khan's Versova duplex: 88% in 12 years (`gauahar-khan-flat`) | COLD | fading | 15 | active |
-| Airtel Money lists in London at $7 bn (via The Ken) (`airtel-money-london`) | FLAT | rising | 12 | active |
-| Mutual funds halt new gold FoF SIPs and bulk gold ETF buys (`gold-fund-halt`) | FLAT | steady | 11 | active |
-| Insurance mis-selling complaints +14%; IRDAI crackdown may slip (via The Ken) (`insurance-misselling-ken`) | COLD | rising | 10 | active |
-| Groww's F&O share of revenue falls to 45%; turns to IPOs and wealth (via The Arc) (`groww-derivatives-arc`) | COLD | steady | 9 | active |
-| Air India FY26 loss ₹22,238 cr (~₹61 cr a day); SIA as saviour (via The Ken) (`air-india-loss-ken`) | COLD | fading | 7 | active |
-| Silver -46% from January record (₹3,84,632 → ₹2,08,380/kg) before Dhanteras (`silver-crash-46`) | HOT | steady | 6 | active |
-| Urban Company loss triples on InstaHelp: ₹114 booking, ₹279 loss (via The Morning Context) (`urban-company-instahelp`) | COLD | rising | 6 | active |
-| eMudhra -20% lower circuit after its certificate keys turned out to be tiny numbers (one was 4) (`emudhra-key-4`) | FLAT | fading | 5 | active |
-| Oil at $112: shares, gold and silver fell the same day (`oil-slide-everything`) | HOT | steady | 4 | active |
-| SEBI final order: Avadhut Sathe ₹546 cr refund (`avadhut-sathe-refund`) | FLAT | fading | 3 | active |
-| NSE unlisted buyers below IPO price (The Ken) (`nse-unlisted-regret-ken`) | COLD | fading | 3 | active |
-| Swiggy record low, less than half its IPO price; Instamart loss ₹895 cr (`swiggy-record-low`) | FLAT | new | 2 | active |
-| RBI Governor: upper-layer CICs like Tata Sons must list (`tata-sons-listing`) | COLD | new | 2 | active |
-| Jio's prepaid (77% of revenue) sold only via Reliance Retail (via The Ken) (`jio-reliance-retail-ken`) | COLD | new | 2 | active |
-| Gold ₹38,000 below January peak, ₹5,560/10g down in 3 days, before Dhanteras (`gold-dhanteras-fall`) | - | new | 1 | active |
+| Jio Platforms IPO (`jio-ipo`) | RISING | fading | 20 | active |
+| Airtel Money lists in London at $7 bn (via The Ken) (`airtel-money-london`) | RISING | rising | 13 | active |
+| Mutual funds halt new gold FoF SIPs and bulk gold ETF buys (`gold-fund-halt`) | FLAT | steady | 12 | active |
+| Insurance mis-selling complaints +14%; IRDAI crackdown may slip (via The Ken) (`insurance-misselling-ken`) | COLD | fading | 11 | active |
+| Groww's F&O share of revenue falls to 45%; turns to IPOs and wealth (via The Arc) (`groww-derivatives-arc`) | COLD | fading | 10 | active |
+| Air India FY26 loss ₹22,238 cr (~₹61 cr a day); SIA as saviour (via The Ken) (`air-india-loss-ken`) | COLD | fading | 8 | active |
+| Silver -46% from January record (₹3,84,632 → ₹2,08,380/kg) before Dhanteras (`silver-crash-46`) | HOT | steady | 7 | active |
+| Urban Company loss triples on InstaHelp: ₹114 booking, ₹279 loss (via The Morning Context) (`urban-company-instahelp`) | COLD | fading | 7 | active |
+| eMudhra -20% lower circuit after its certificate keys turned out to be tiny numbers (one was 4) (`emudhra-key-4`) | FLAT | steady | 6 | active |
+| Oil at $112: shares, gold and silver fell the same day (`oil-slide-everything`) | HOT | fading | 5 | active |
+| SEBI final order: Avadhut Sathe ₹546 cr refund (`avadhut-sathe-refund`) | HOT | rising | 4 | active |
+| NSE unlisted buyers below IPO price (The Ken) (`nse-unlisted-regret-ken`) | COLD | rising | 4 | active |
+| Swiggy record low, less than half its IPO price; Instamart loss ₹895 cr (`swiggy-record-low`) | FLAT | rising | 3 | active |
+| Jio's prepaid (77% of revenue) sold only via Reliance Retail (via The Ken) (`jio-reliance-retail-ken`) | COLD | steady | 3 | active |
+| Gold ₹38,000 below January peak, ₹5,560/10g down in 3 days, before Dhanteras (`gold-dhanteras-fall`) | HOT | new | 2 | active |
+| HDFC Bank's first outside CEO starts; share ~30% down in a year (via The Morning Context) (`hdfc-bank-bagchi`) | - | new | 1 | active |
 
 ## Also on the wire
-- Markets, week to Fri 23 Oct ('oil-slide-everything', HOT): Nifty Midcap 100 −5.6% (steepest week since Oct 2024), Smallcap 100 −7%+ (worst since Feb 2025); BSE market value down about ₹16.1 lakh crore (HDFC Sky, 24 Oct) or more than ₹20 lakh crore (Analytics Insight, 25 Oct); Brent $114–117; the rupee past 94.94; FIIs net sellers a ninth straight week. Sources differ on the Sensex's weekly fall (1,252 to 1,605 points). Google India's trending list has 'crude oil' this morning.
-- Swiggy ('swiggy-record-low', FLAT): led the Midcap 100 losers last week (down 10–25% per Analytics Insight; −17% on Friday per CNBC-TV18). Markets reopen today; recheck before any reel.
-- Infosys cut its FY27 revenue growth guidance to 1–2% in constant currency from 1.5–3% (IndMoney, 24 Oct); COLD on trends.py (best 214 views/hr). Kotak Bank Q2 profit +29% (Reuters, 24 Oct). Not picked.
-- Tata Sons listing ('tata-sons-listing', COLD), Avadhut Sathe refunds ('avadhut-sathe-refund', FLAT, fading) and eMudhra ('emudhra-key-4', FLAT, fading) stay on the board; no new turn found on an opened page today.
-- Also seen, not used: The Arc on Atomberg's B2B tie-up ahead of its IPO (21 Oct) and IDfy (23 Oct); The Ken on Ajio (25 Oct); The Morning Context on Swiggy vs Eternal private labels (25 Oct). No open source with a fresh number for any of them.
+- Markets, Mon 26 Oct: Sensex +482.90 to 73,606.75 (+0.66%), Nifty +153.21 to 22,753.20, ending a four-session fall, with metals and Tata Consumer's results leading (Kotak Neo; Business Standard). One Hindi outlet reported a fall; most sources say up.
+- Tata Sons: Noel Tata, chairman of Tata Trusts (about two-thirds of Tata Sons), wrote on Monday that the 17 Sep board resolution reappointing N Chandrasekaran beyond Feb 2027 is void (not on the agenda, no Trusts-nominee affirmative vote; passed 4–1), and asked for the meeting video (Business Today, 27 Oct). Famous names, but no investor stake until Tata Sons lists: COLD on trends.py, though a 'Tata group fight explained' video has 111K in 72 h. Not picked.
+- Avadhut Sathe ('avadhut-sathe-refund', HOT on YouTube: 'Avadhut Sathe to refund ₹546 crore to students', 247K in 24 h): SEBI's final order of 23 Oct, ₹546.17 crore refund within five months plus ₹67.87 crore interest, two-year ban (Business Standard, 23 Oct). Sent three mornings running and not picked; it stays on the board.
+- Ather Energy posted its first quarterly profit and the shares rose 10% (Reuters, 26 Oct): COLD on trends.py. Paytm's results were also out on 26 Oct (Business Standard): COLD. Not picked.
+- Also seen, not used: The Ken on Airtel Money in Africa (27 Oct; tracker 'airtel-money-london' RISING) and Nike in India (27 Oct); The Morning Context on SME stock mania (26 Oct); The Core on the US green-card freeze (27 Oct, COLD on trends.py).
 
 ## Where we stand
 
-467 followers (+176 this week)  
-Last reel (Silver weekly chart: support broken at Rs 2.16 lakh, descending triangle (the opposite of ascending), measured-move estimate Rs 1.30 lakh): 2065 plays so far  
+467 followers (+181 this week)  
+Last reel (Silver weekly chart: support broken at Rs 2.16 lakh, descending triangle (the opposite of ascending), measured-move estimate Rs 1.30 lakh): 2147 plays so far  
 What every reel is testing:  
 - Hook in frame one: swipe-aways in the first 3 s 52% now, target 45% (3 of 3 reels in)
 - Tight 20-30 s: average watched 39% now, target 45% (1 of 3 reels in)
