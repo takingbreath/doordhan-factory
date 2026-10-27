@@ -50,7 +50,7 @@ Stage 1 targets are live in the block below. Stages 2 and 3 are the plan after t
 
 ## The book and where we stand
 <!-- scoreboard -->
-_Updated 2026-10-26 21:39 IST by `scoreboard.py write`._
+_Updated 2026-10-27 21:59 IST by `scoreboard.py write`._
 
 **Stage 1: Stop the scroll** (2026-09-26 to 2026-10-25): prove people stop for our reels and stay to the end
 
@@ -59,7 +59,7 @@ _Updated 2026-10-26 21:39 IST by `scoreboard.py write`._
 - median plays at 72 h: now 420, target 500 → not yet
 - best reel's plays: now 6709, target 2000 → on target
 - followers: now 467, target 100 → on target
-- strategy stop: 14/20 reels posted this stage; median plays at 72 h now 420, must reach 300
+- strategy stop: 15/20 reels posted this stage; median plays at 72 h now 420, must reach 300
 
 | Bet | Lever | Judged on | Baseline | Now | Target | Stop | Reels (judged/carried) | Verdict |
 |---|---|---|---|---|---|---|---|---|
@@ -194,3 +194,4 @@ _Written by the strategist every Sunday. The morning session executes it: each s
   - Evidence (one outlier scan, 5 credits): the Jio IPO was 9 of 10 Indian money outliers on Instagram (up to 3.8M, @tazakhabhar.in, 414×; @samjho.exe allotment-lottery explainer 3.7M, 359×); split screen in 6 of 10. Platform: no Instagram ranking, Shorts, SEBI or MeitY change found.
   - vidIQ credits this week: 50 of 60 (nightly cross-checks 40, profile 5, outliers 5).
 - 2026-10-26 (nightly): An F&O losses reel (Sahayata Kendra, Pandey on the phone, 64 s: traders' losses fell from ₹1.12 lakh crore to ₹91,685 crore only because 106.2 lakh traders became 87.5 lakh) went up 25 Oct 22:12 IST outside the logged flow (time from the shortcode); added as X3 with no bets and linked to De7KYJNSdXy. 497 public plays and 14 likes at 23.5 h: above the ~230 median at a day old but under the ~690 taking-off line, and the first news-of-the-day reel this fortnight not to break out by a day. Silver (E14) slowed to 2,147 at 37.5 h (+82 since 13 h), so its breakout was a one-day burst. vidIQ owner insights unavailable for an 18th night ("Meta token is inactive"; the account list says active), so public counts only and no bets judged. Older reels within 0–18 plays of last night, so only X3 and E14 logged. Followers not read tonight (467 on 25 Oct). No stop or target hit; all bets HOLD. No reply yet to the weekly decisions (Stage 2 start, retiring the tight-length test). X3 needs its script, credits and contact sheet in the repo before it can carry any bet. vidIQ credits this week: 5.
+- 2026-10-27 (nightly): Quiet night. No new reel since X3 (25 Oct 22:12), so none on Jio allotment day (26 Oct). vidIQ owner insights unavailable for a 19th night ("Meta token is inactive"; the account list says active), so public counts only and no bets judged. X3 (F&O losses) at 509 public plays at 48 h and silver (E14) at 2,158 at 62 h, both logged; every other reel within 0–40 plays of its last reading. X3's posting time filled in on its row (it showed as not posted). Followers not read tonight (467 on 25 Oct). No stop or target hit; all bets HOLD. Still no reply to the weekly decisions. vidIQ credits this week: 10.
