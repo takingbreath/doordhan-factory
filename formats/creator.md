@@ -52,8 +52,16 @@ Human money stories: a person's choice about money, a values story, a "what woul
 ## 6. Sound
 - The voice is one continuous take (not per-line), placed 0.15 s in.
 - The film clip's own sound plays under the open and the close at 0.22.
-- Room tone: road_distant at a low level throughout; fan_loop under a recreation with a ceiling fan.
-- Soft whooshes and thuds on slams.
+- **No room tone on the voice** (Akhilesh, 2026-10-28: "we don't need to make the voice sound bad, clear is good").
+  E10 and E11 had road_distant under the voice; from anthropic01 on, the voice stays clean. A recreation's own
+  sound (fan_loop under a ceiling fan) stays with that shot only.
+- **Sound effects are made in the edit, on the on-screen graphics and transitions** (Akhilesh, 2026-10-28), never on
+  the voice cut: each sound sits on the event it belongs to (a cut-out landing, a stamp, a whip), on its word time.
+  Soft whooshes and thuds on slams.
+- **The hook has energy** (Akhilesh, 2026-10-28: "the hook is very low-sounding"). A "[casual, a little secretive]"
+  opener put anthropic01's first line 8 dB under the rest at 196 Hz. "[energetic, quick, like sharing big news with a
+  friend]" with "!" raised it to about 275 Hz and 3.5 words a second. Keep the hook about 1.5 dB over the body
+  (docs/voices/directing-tts.md).
 - **Loudness:** measure, then apply one gain and a limiter to −14 LUFS. One-pass loudnorm undershot to −16.3.
 
 ## 7. Shot pattern (E10)

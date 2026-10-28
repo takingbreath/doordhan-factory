@@ -55,6 +55,13 @@ What the experiment measured (Rashmiji, eleven_v4, 162 words; 6 full takes and 7
   and put the pauses in the edit.
 - Scribe writes "fifty point one percent" as "50.1%", so the script similarity and verify_line's must_say both miss
   it. The digits check passes, so compare the digits.
+- **The hook needs its own energy** (Akhilesh heard v2's opening as "very low-sounding"). The "[casual, a little
+  secretive]" opener made it 8 dB quieter than the body, at 196 Hz median against 247 Hz. A hook-only take tagged
+  "[energetic, quick, like sharing big news with a friend]", ending in "!", with `--next-text` set to the next line,
+  came out at 266-294 Hz, 3.4-3.5 words a second and 100% Scribe. Full takes with that opener carried the energy into
+  the body but lost its variety (tail_fall 1.9-3.9, fewer phrases), so v3 joins the hook take onto the best body take
+  in the first pause (work/anthropic01/voice/build_v3.py). Pick the hook take that ends rising into the next line
+  (+2.1 st over its last 0.3 s), and check the pitch step at the join (-1.9 st was natural).
 - The model: eleven_v4 is the latest (launched 28 Sep 2026; no newer v4 on the API or the models page, checked 28 Oct).
   tts_elevenlabs.py takes the model from the registry voice (rashmiji: eleven_v4). Sarika, Gupta and Pandey stay on
   eleven_v3 until someone tests them on v4.
