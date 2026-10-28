@@ -34,11 +34,43 @@ First episode: E10, nana01 (2026-10-09), Akhilesh's own script about Nana Pateka
   licence in ElevenLabs."). A Marketplace track needs its Social Media licence before posting; a composed ElevenLabs
   bed needs none (work/anthropic01/music/compose.py).
 
+## 1b. Talking shots that read as a real creator (Akhilesh, 2026-10-28, anthropic01: "This looks so much better")
+Full diagnosis, numbers and every failed try: docs/lab/2026-10-28-talking-realism.md. The recipe that worked:
+1. **Start frame:** the episode's approved look with her face relaxed and the mouth closed (a frame from an approved
+   clip works: anthropic01 used the old hook clip at 4.1 s). Not a laughing or grinning frame: Wan keeps the raised
+   lip and she talks through a grin.
+2. **Hair neat:** a Gemini edit of that frame that changes the hair only ("brushed and blow-dried, combed, no
+   flyaways, natural texture, not glossy or silky; keep her face, expression, skin tone and the warm light exactly").
+   Every edit changes ONE thing: an edit that also changed her expression gave a different woman.
+3. **No makeup edits:** two "add makeup" frames were rejected (one a different face, one "overdoing the makeup"); the
+   approved skin and tone came from the plain frame. No freckles.
+4. **Wan 3.0:** `shot_spec.py build ... --character rashmi --look cinema --model wan3_0` (the frame as an image
+   reference, our track as the audio reference, silent output; about 20 minutes per clip). Its lips were the most
+   natural we measured; Wan 2.7 with the same fixes was second.
+5. **Calm by default, motivated beats only:** the base is "calm, matter-of-fact and natural ... never theatrical",
+   the mouth line "lips part only a little on most syllables, the jaw moves little", and the acting note names one or
+   two moments that come from the words (a point: a small nod or brow lift; a thought: a look up, then back; the
+   payoff: a faint dry half-smile with the lips closed). Read the script's tone first: anthropic01 is a calm
+   explainer, and "bright and eager, sharing big news" made her over-excited. Never list generic movements (tilts,
+   bobs, glances, "blinks several times"): Wan did all of them, all the time ("overacting").
+6. **A calm voice:** an energetic read makes the face over-move too. Check a suspect phrase with
+   `pipeline/phrase_pitch.py` (v3's hook: +1.7 st median, +6 st peak after "jise"; the chosen retake +0.3 st and a
+   falling last word), and fit a retake into the old slot so nothing after it moves (work/anthropic01/voice/build_v4.py).
+7. **Measure, then look:** `pipeline/mouth_meter.py` and `pipeline/motion_meter.py` against a real creator clip of
+   the same framing (lip gap 3.5-3.8 % of face height, p90 7-7.5 %; upper lip 0.12-0.19; brows 0.39-0.49 / 0.30-0.32;
+   blinks 5-8 in 10 s). The lip-sync judge only checks timing.
+8. **Light skin pass only:** `pipeline/skinfix.py --forehead-only --spots` (Wan's forehead creases and dots); no
+   smoothing or glow, which read as plastic.
+9. **In the edit:** Wan 3.0 runs about -0.18 s on its track: start the clip 0.06 s earlier (anthropic01 PASS -40 ms).
+
 ## 2. When to use it
 Human money stories: a person's choice about money, a values story, a "what would you do with ₹X" moment. It suits a tribute or news-of-a-person reel where Samachar's newsreader would feel cold. Not for market moves or explainers (Samachar, Sahayata Kendra).
 
 ## 3. Characters
 - **Rashmi:** the creator. Late 20s, shoulder-length wavy dark brown hair, small gold hoops, a thin gold chain, natural makeup.
+  Her hair is always neatly brushed and combed (no flyaways, no strand across the face, natural texture, not silky),
+  her skin clear with no freckles, her makeup light; she is calm and matter-of-fact unless the line says otherwise
+  (Akhilesh, 2026-10-28).
   - Identity reference: Akhilesh's Higgsfield image `e9a78b8d-1f8b-4c82-876b-e212b7f896f8` (work/nana/kf/identity_ref.png).
   - E10 master keyframe: `20f3c2d0-b756-4d43-95b4-50851c10b26b`; it is also the face-check reference (assets/characters/rashmi_e10_master.jpg; identity image assets/characters/rashmi_identity.jpg).
   - Voice: ElevenLabs **Rashmiji** (`registry/assets.json` voices.rashmiji) on **eleven_v4**, directed per docs/voices/directing-tts.md.
@@ -46,7 +78,8 @@ Human money stories: a person's choice about money, a values story, a "what woul
   - E11 look: dusty-pink ribbed-knit tank with a high square neckline (Akhilesh: less cleavage, for serious viewers), keyframe `creator_e11_sofa_pink_levelled`; face reference assets/characters/rashmi_e11_master.jpg.
 
 ## 3a. Shot grammar
-- Talking-shot specs: `shot_spec.py build ... --character rashmi --look modern` (her base prompt and the modern tail). Exact keyframe and shot prompts: .claude/skills/produce-video/prompts.md, "Creator format"; traps: gotchas.md.
+- Talking-shot specs: `shot_spec.py build ... --character rashmi --look modern` (phone look) or `--look cinema --model wan3_0`
+  (camera look, the calm creator base and Wan 3.0; section 1b). Exact keyframe and shot prompts: .claude/skills/produce-video/prompts.md, "Creator format"; traps: gotchas.md.
 - Talking shots are selfie or propped-phone **close-ups** (face 24–28% of the frame height), straight to the lens.
 - **Head level:** preflight fails at 16° of roll. A tilted Seedream frame is levelled by rotating the whole frame locally with `pipeline/level_keyframe.py` (it reads as a casually held phone).
 - Lines of 2 s or less are voice-over, never a talking shot (E10: the 2.1 s "lekin madad…" failed lip sync twice and went over B-roll).

@@ -8,7 +8,9 @@ Every frame names:
 - **The camera block:** height, distance, lens, aperture ("slightly above eye level, about 50 cm, 24 mm front camera, f/2.2").
 - **Depth layers:** what is behind, in soft focus ("sheer curtain, a monstera, a framed print, a small bookshelf, a mug").
 - **Imperfection:** "real skin texture with pores, faint under-eye shadows, a slight asymmetry in her smile, natural makeup, slight noise in the shadows, not retouched, not glossy, not a studio portrait".
-- **A mid-moment:** "about to start talking", "one loose strand of hair across her cheek".
+- **A mid-moment:** "about to start talking". Not messy hair: "one loose strand across her cheek" and "flyaway strands"
+  made Rashmi look just out of bed, and a strong warm backlight lit every stray hair (Akhilesh, 2026-10-28). Ask for
+  neatly brushed, combed hair, no flyaways, with a natural texture (not glossy, not silky).
 - **Identity lock:** the person's identity image plus the episode's master keyframe as references, and "the same woman, identical face, hair, jewellery".
 
 Exact prompts: .claude/skills/produce-video/prompts.md, "Creator format".

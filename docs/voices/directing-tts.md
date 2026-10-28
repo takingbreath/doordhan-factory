@@ -66,6 +66,20 @@ What the experiment measured (Rashmiji, eleven_v4, 162 words; 6 full takes and 7
   tts_elevenlabs.py takes the model from the registry voice (rashmiji: eleven_v4). Sarika, Gupta and Pandey stay on
   eleven_v3 until someone tests them on v4.
 
+## An energetic hook can sound excited (anthropic01, 2026-10-28)
+Akhilesh asked for energy in the hook, then heard its second half ("jise tum kabhi khareed nahi paoge") as excited,
+"the pitch is up when it is not supposed to be", and the energy drove Rashmi's face to over-act too.
+- **Measure it:** `pipeline/phrase_pitch.py --split <first word of the phrase> AUDIO SCRIBE.json`: v3's hook sat
+  +1.7 st (median) and peaked +6.0 st above the first half, the last word level (-0.5 st).
+- **Retake calm:** "[calm, matter-of-fact] Anthropic list होने जा रही है, and एक share है, जिसे तुम कभी खरीद नहीं पाओगे."
+  (eleven_v4, Rashmiji, three seeds) gave +0.3 st and a last word falling 6.7 st; a "[matter-of-fact]" tag on the second
+  half only, with "..." before it, did worse (+2.7 st, a rising end on one seed).
+- **Keep the edit's timing:** the calm take was 0.4 s longer. work/anthropic01/voice/build_v4.py speeds the new take
+  just enough (x1.05, atempo) to fit the old slot and keeps the pause before the body, so every graphic, caption and
+  cut after it stays where it was (checked by cross-correlation: 0.0 ms). Then re-time only the hook's own cues.
+- For a calm explainer, direct "calm, matter-of-fact" and let a full stop end the line low; ask for energy in the
+  delivery's pace, not its pitch.
+
 ## Still open
 - **Pauses are still too even** (pause_cv about 0.3 against 0.78 in real speech). Next to try: generate per beat (3–4 chunks), with different lead-in silences cut in the edit.
 - **Stability.** The connector can't set it. The API (`tts_elevenlabs.py --stability 0`, "creative") needs the key in `.env`. The voice's saved default in the ElevenLabs UI also applies.

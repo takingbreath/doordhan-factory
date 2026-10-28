@@ -45,6 +45,12 @@ STILL_START = ("The person begins completely still and silent with the mouth clo
                "the voice begins.")
 ARTICULATE = ("The jaw and lower lip move clearly with every syllable in exact sync with the provided audio, from the "
               "very first word.")
+# close-ups of a creator (--look cinema): ARTICULATE made her mouth open about twice as wide as a real speaker's
+# (lip gap 8 % of face height against 3.5-3.8 %, docs/lab/2026-10-28-talking-realism.md). Real conversational
+# speech is mostly lips, little jaw
+NATURAL_MOUTH = ("She speaks in a relaxed, conversational way, in exact sync with the provided audio from the very "
+                 "first word: her lips part only a little on most syllables, the jaw moves little, and her mouth "
+                 "rests closed between phrases.")
 BASES = {
     "pandey": ("The man from the start image, a dry, tired government helpline clerk, speaks in Hindi. Deadpan but "
                "alive and human: heavy-lidded bored eyes, a faint dry smirk under his moustache."),
@@ -58,12 +64,35 @@ BASES = {
                "telling her followers a true story the way she would tell a friend: warm, natural and conversational. "
                "Her eyebrows and eyes carry the expression; small natural head movements only, a slight nod on a "
                "stressed word, no big tilts, no hair touching."),
+    # the cinema creator (--look cinema): natural and motivated, not still and not theatrical (Akhilesh, 2026-10-28;
+    # see EYES_CREATOR). Wan acts out every attitude word: "lively, expressive" gave constant motion
+    # 2026-10-28 again: "she's overexcited, there is nothing to be excited about": calm and matter-of-fact by default;
+    # the line's own feeling goes in --acting, one beat at a time
+    "rashmi_animated": ("The young woman from the start image is an Instagram creator talking straight to the camera in "
+                        "Hindi, explaining something she read to a friend: calm, matter-of-fact and natural, a relaxed "
+                        "face with relaxed brows, never theatrical. No hair touching."),
 }
 # eyeline rule (2026-09-29): talking shots are straight to camera or eyes down, with exactly one blink and one small
 # eye shift, and no objects handled; a look at something is either a cut or the thing is in frame with an end image
 EYES_TALK = ("Eyes straight to the camera, or down; exactly one blink and one small eye shift during the line, nothing "
              "more. No objects are handled.")
 EYES_LOOK = "His eyes stay on {t}, which is in the frame; exactly one blink, nothing more. No objects are handled."
+# the creator is NOT a newsreader (Akhilesh, 2026-10-28, anthropic01: "her movements don't feel real"), but generic
+# motion is worse. A list of movements (tilts, bobs, lean-ins, glances, "blinks several times") made Wan move her face
+# and eyes all the time (motion_meter.py: roll sd 7.1, eye moves 2.0/s, blinks 13.8 in 10 s against a real creator's
+# 8-10, 1.3-2.0, 5-8), and Akhilesh called it overacting: "randomly moving the face and the eyes. When people make a
+# point they make some expression; when they think, they look up." So: still between beats, and each expression is
+# motivated by one word, given in --acting (a point -> a small nod or brow lift; a thought -> a look up, then back).
+EYES_CREATOR = ("Her movements are motivated, never random: between the moments named below, her head stays still and "
+                "her eyes stay on the lens, relaxed. She blinks normally, about once every two seconds. Each expression "
+                "comes from what she is saying at that moment and settles back afterwards.")
+# Wan 3.0 (anthropic01, 2026-10-28): the most natural lips we have measured (lip gap 5.0 % of face height against 6.8 %
+# on Wan 2.7 and 3.5-3.8 % for a real creator; docs/lab/2026-10-28-talking-realism.md). It refuses a start frame
+# together with an audio track, so the keyframe goes in as an image REFERENCE; it keeps the reference's framing when
+# told to, returns a SILENT clip, and runs a constant -160..-200 ms against the track (start the edit 0.06 s earlier)
+WAN3_FRAME = ("She is framed exactly as in the reference image: the same room, outfit, hair, light and camera position, "
+              "her face at the same size and place in the frame.")
+WAN3_SHIFT = 0.06
 TAIL = "Small, subtle, natural movements only. Locked-off camera. Keep the exact analog look of the start image; no new text, no subtitles."
 TAILS = {"analog": TAIL,   # the old-TV formats
          "modern": ("Small, subtle, natural movements only. The camera holds still. Keep the exact look of the start image: "
@@ -216,20 +245,30 @@ def build(a):
         out = run([sys.executable, os.path.join(here, "make_track.py"), track, seg, "--lead", str(LEAD),
                    "--hold", str(HEADROOM), "--min", "2"])
         dur = int(out.split("clip duration ")[1].split("s")[0])
-        base = a.prompt_base or BASES.get(a.character, BASES["pandey"])
-        eyes = EYES_LOOK.format(t=a.look_at) if a.look_at else EYES_TALK
-        prompt = " ".join(x for x in [STILL_START, base, ARTICULATE, eyes, a.acting or "", TAILS[a.look]] if x)
-        medias = [{"role": "start_image", "value": start["value"]}]
-        if end_request:
-            medias.append({"role": "end_image", "value": "<job id of the checked end image>"})
+        base = (a.prompt_base or (a.look == "cinema" and BASES.get(f"{a.character}_animated"))
+                or BASES.get(a.character, BASES["pandey"]))
+        eyes = EYES_LOOK.format(t=a.look_at) if a.look_at else (EYES_CREATOR if a.look == "cinema" else EYES_TALK)
+        mouth = NATURAL_MOUTH if a.look == "cinema" else ARTICULATE
+        wan3 = a.model == "wan3_0"
+        prompt = " ".join(x for x in [STILL_START, base, WAN3_FRAME if wan3 else "", mouth, eyes, a.acting or "",
+                                      TAILS[a.look]] if x)
+        if wan3:
+            prompt = prompt.replace("the start image", "the reference image")
+            medias = [{"role": "image_references", "value": start["value"]}]
+            if end_request:
+                print("  wan3_0 takes no end image: the end-image request is ignored")
+        else:
+            medias = [{"role": "start_image", "value": start["value"]}]
+            if end_request:
+                medias.append({"role": "end_image", "value": "<job id of the checked end image>"})
         medias.append({"role": "audio_references", "value": "<media_id of the uploaded track>"})
         spec = {"id": pid, "line": a.id, "part": i + 1, "parts": len(parts), "source_line": a.line,
                 "set": a.set, "framing": a.framing, "target_side": a.target_side, "start": start, "chain": chain, "end_image_request": end_request,
                 "sheet": SHEETS.get(a.character), "keyframe": a.keyframe,
                 "source_span_s": [round(t0, 2), round(t1, 2)], "speech_s": round(speech, 2), "track": track,
                 "character": a.character, "tail_fix": tail_fix, "attempt": 0, "max_auto_retries": 1,
-                "edit_src_in_s": round(LEAD - 0.12, 2),
-                "params": {"model": "wan2_7", "resolution": "720p", "aspect_ratio": "9:16", "duration": dur,
+                "edit_src_in_s": round(LEAD - 0.12 - (WAN3_SHIFT if wan3 else 0), 2),
+                "params": {"model": a.model, "resolution": "720p", "aspect_ratio": "9:16", "duration": dur,
                            "declined_preset_id": DECLINED_PRESET,
                            "medias": medias,
                            "prompt": prompt},
@@ -239,7 +278,10 @@ def build(a):
         path = os.path.join(a.out, f"{pid}.json")
         json.dump(spec, open(path, "w"), indent=1, ensure_ascii=False)
         specs.append(path)
-        print(f"{pid}: {dur} s shot ({spec['speech_s']} s of speech) -> {path}")
+        if wan3:
+            spec["params"]["generate_audio"] = False
+            json.dump(spec, open(path, "w"), indent=1, ensure_ascii=False)
+        print(f"{pid}: {dur} s shot ({spec['speech_s']} s of speech, {a.model}) -> {path}")
     if len(parts) > 1:
         print(f"  line longer than {MAX_TALK:.0f} s: split into {len(parts)} shots at pauses; cut between them in the edit")
     if tail_fix:
@@ -281,6 +323,15 @@ def judge(a):
     if spec.get("kind") == "silent":           # no dialogue: nothing to sync; identity decides below
         L = {"verdict": "PASS (no dialogue)"}
     else:
+        has_audio = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "a", "-show_entries", "stream=index",
+                                    "-of", "csv=p=0", a.clip], capture_output=True, text=True).stdout.strip()
+        if not has_audio:                      # Wan 3.0 returns silent video: judge it with its own track laid in
+            muxed = os.path.splitext(a.clip)[0] + "_au.mp4"
+            track = spec["track"] if os.path.isabs(spec["track"]) else os.path.join(ROOT, spec["track"])
+            run([FFMPEG, "-v", "error", "-y", "-i", a.clip, "-i", track, "-map", "0:v", "-map", "1:a", "-c:v", "copy",
+                 "-c:a", "aac", "-shortest", muxed])
+            print(f"  silent clip: judged as {muxed} (the track laid in); use that file in the edit")
+            a.clip = muxed
         run([sys.executable, os.path.join(here, "lipsync_lag.py"), a.clip, "--json", lag])
         L = json.load(open(lag))
     spec.setdefault("history", []).append({"attempt": spec["attempt"], "clip": a.clip, "verdict": L["verdict"],
@@ -314,8 +365,10 @@ def judge(a):
                               f"(split this part at its pause) and regenerate both halves"}
         else:
             p = spec["params"]
+            # never on a natural-mouth (creator) prompt: it made R5's vowels exaggerated O shapes (2026-10-28)
             p["prompt"] = p["prompt"].replace(ARTICULATE, ARTICULATE + " Clear, visible mouth shapes on every "
                                               "vowel; the mouth closes fully on m, p and b.")
+            p["prompt"] = p["prompt"].replace(NATURAL_MOUTH, NATURAL_MOUTH + " The mouth closes fully on m, p and b.")
             decision = {"action": "RETRY", "why": f"{L['verdict'][:4]} ({L.get('pattern')})",
                         "do": "regenerate with the updated params in this spec (stronger articulation wording)"}
     else:
@@ -370,6 +423,9 @@ def main():
     b.add_argument("--look-at"); b.add_argument("--reach-for"); b.add_argument("--end-pose")
     b.add_argument("--target-side", choices=["left", "right", "down"])
     b.add_argument("--target-in-frame", action="store_true")
+    b.add_argument("--model", choices=["wan2_7", "wan3_0"], default="wan2_7",
+                   help="wan3_0: the keyframe as an image reference (no start frame), silent output, judged with the "
+                        "track laid in; the most natural lips so far (creator format)")
     b.add_argument("--look", choices=sorted(TAILS), default="analog",
                    help="analog (old-TV formats, default) or modern (the creator format: no 'analog look' in the prompt)")
     e = sub.add_parser("endcheck"); e.add_argument("spec"); e.add_argument("image")

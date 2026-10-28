@@ -127,7 +127,7 @@ image (`e9a78b8d…`) and, after the first, the episode's master keyframe (`20f3
 > side of her face, soft bounce fill from the cream walls; a warm table lamp glows in the background. Depth behind her:
 > the window with sheer curtains, a potted monstera, a framed print, a small bookshelf, a ceramic mug on a side table.
 > She is about to start talking: mouth closed, a relaxed natural half-smile, eyes looking straight into the lens, head
-> level, one loose strand of hair across her cheek. Real skin texture with pores, faint under-eye shadows, a slight
+> level, her hair neatly brushed and combed, no flyaways or stray strands. Real skin texture with pores, faint under-eye shadows, a slight
 > asymmetry in her smile, natural makeup only, slight front-camera noise in the shadows, not retouched, not glossy, not
 > a studio portrait. No text, no logos.
 
@@ -188,3 +188,37 @@ to the camera" and "Her head stays facing the lens".
   heavily, his head lowers a little and his shoulders sink, as if he has just heard something terrible. His face is never
   seen; he does not turn around. The blue television screen stays a flat, steady blue with nothing on it ... Locked-off
   camera on a tripod." (He rose and leaned toward the TV instead; it played well.)
+
+
+## Creator talking shot that worked (anthropic01 hook, 2026-10-28, Wan 3.0; Akhilesh: "so much better")
+Built by `shot_spec.py build --character rashmi --look cinema --model wan3_0 --acting "<note>"`. The note for a calm,
+slightly secretive fact: "The line is a plain, slightly secretive fact, not exciting news: her face stays calm and her
+brows stay relaxed for the whole line. Only two moments: on 'kabhi' one small shake of her head; on the last word a
+faint, dry half-smile with the lips closed." The prompt as sent (the builder writes the same from its parts):
+> The same young woman as in the reference image, in the same room, the same outfit, the same warm golden window light
+> and the same framing: seated against a cream sofa, framed from mid-chest up, her face in the upper middle of the
+> vertical frame, looking into the lens. Her hair stays exactly as in the reference image: neatly brushed and combed,
+> no flyaways. She is an Instagram creator talking straight to the camera in Hindi, saying exactly the words of the
+> provided audio, explaining something she read to a friend: calm, matter-of-fact and natural, a relaxed face with
+> relaxed brows, never theatrical. She begins still and silent with the mouth closed, and starts speaking only when the
+> voice begins. She speaks in a relaxed, conversational way, in exact sync with the provided audio: her lips part only
+> a little on most syllables, the jaw moves little, and her mouth rests closed between phrases. Between the two moments
+> named below her head stays still and her eyes stay on the lens, relaxed; she blinks normally. Only two moments: ...
+> The camera holds still on a tripod. A cinematic full-frame camera look with shallow depth of field, natural colour
+> and real skin texture; no music, no text, no subtitles.
+
+What made it worse (do not use): "bright and eager, sharing big news", "a surprising money story", "lively,
+expressive", "wry and amused", "warm and friendly", a list of movements ("her head tilts and bobs ... eyes glance up or
+to the side ... blinks naturally several times"), "the jaw and lower lip move clearly with every syllable", and the
+retry's "clear, visible mouth shapes on every vowel".
+
+## Gemini one-change edits of a keyframe (free; gemini-media skill, the bridge's paste route with the pane hidden)
+- **Hair only, worked** (identity 0.84 against the frame): "Edit this photo, change only her hair. Keep everything else
+  exactly as it is: her face, expression, skin tone, the warm golden window light and the warm rim of sun on her hair,
+  the outfit, pose, room and framing. Hair: the same length, colour and soft waves, but neatly groomed, as if brushed and
+  blow-dried this morning: smooth, combed, the parting tidy, no flyaways, no frizz, no stray strands across her face.
+  Real hair with a natural texture, not glossy, not silky, not plastic. Vertical 9:16, same framing."
+- **Hair and light together, worse:** asking also for "no bright orange sun behind her" made her paler and moved the face.
+- **Makeup and expression together, rejected:** "change only her makeup and expression ... lips closed in a small
+  confident smile" gave a different woman (0.70 against the master; the source frame 0.87). Makeup alone with the
+  expression locked kept her face (0.83) but Akhilesh called it "overdoing the makeup".

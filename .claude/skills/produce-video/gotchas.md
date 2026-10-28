@@ -92,6 +92,45 @@
     slower final can finish last. Make the phone copy from the final (produce-video step 9.2) before the gate.
   - The face check against one master failed a wide-mouthed hook at 0.55; a two-face sheet (the master and the clip's
     own approved keyframe, each 360 wide) is a fair reference. Tiny 240 px face crops scored lower: keep faces large.
+  - Akhilesh rejected her face as dull, "no makeup", acne-like specks and forehead lines, and her motion as unreal. Causes:
+    the keyframe prompt said "natural makeup only, not retouched", and the newsreader rules ("one blink and one small eye
+    shift", "no big tilts") were applied to a creator. A heavy skin pass made it worse (plastic). What we learned (the final recipe: formats/creator.md section 1b):
+    - Makeup edits, REJECTED in the end (see below). A Gemini edit keeps her face only with her EXACT expression locked: "keep her face exactly
+      as it is: the same face shape, eyes, nose, lips, teeth, jaw, smile and expression ... change only: kajal, mascara,
+      lip tint; remove every freckle, spot and mark; a little fairer and glowing". A first edit that also changed her
+      expression (laugh to closed smile) gave a different woman (Akhilesh: "it is not even her face"; 0.70 against the
+      master, the old frame 0.87); the expression-locked edit scored 0.80 (0.83 against the old frame). Seedream 4.5 with
+      the old frame as first reference copied the bare face and gave a wide squinting laugh (2 credits lost).
+    - No freckles on Rashmi: Akhilesh reads them as marks, even soft brown ones.
+    - Then (same day) he preferred the current final's skin and tone to both Gemini makeup frames ("overdoing the
+      makeup"), called the lips unnatural in every version, and her mood over-excited. Measured against his reference
+      creator (docs/lab/2026-10-28-talking-realism.md): her lips part about twice as wide (ARTICULATE, a grinning start
+      frame, the retry's "clear mouth shapes on every vowel") and her brows sit high (attitude words: "bright and eager,
+      sharing big news" for a calm explainer). Creator shots now use NATURAL_MOUTH and a calm base; read the script's
+      tone before writing an acting note, and start from a relaxed, closed-mouth frame.
+    - Acting: a generic list of movements (tilts, bobs, glances, "blinks several times") made Wan move her face and eyes
+      all the time; Akhilesh: "overacting ... randomly moving the face and the eyes". `shot_spec.py --look cinema` now
+      keeps her still between beats, and `--acting` names one motivated expression per beat (a point: a small nod or
+      brow lift; a thought: a look up, then back). Measure with `pipeline/motion_meter.py` against a real creator clip.
+    - Wan still creases her forehead when the brows lift, and it adds small dark dots on the nose and cheeks even from a
+      clean keyframe: `pipeline/skinfix.py --forehead-only --spots` takes out only those and keeps pores and grain. Use
+      no other skin pass on a made-up keyframe.
+    - The calm take blinked at clip 0.47-0.73 s, right where the edit starts (the reel's first frame). Held the
+      pre-blink frame with ffmpeg `freezeframes=first=13:last=23:replace=12` (the same clip as both inputs); the
+      mouth is closed there anyway.
+    - With the browser pane hidden, put a reference into Gemini with the bridge's paste route (gemini-media SKILL.md,
+      "Putting a file INTO the page"), not the Drive picker.
+
+- **Wan 3.0 for talking shots (anthropic01, 2026-10-28):** `wan3_0` refuses a start frame together with an audio
+  track ("start_image cannot be combined with reference media"): send the frame as `image_references` plus the track
+  as `audio_references`, `generate_audio: false`, and `declined_preset_id` (it suggested a preset once). It returns
+  SILENT video framed like the reference (same face size), its mouth on our track with SyncNet confidence 5-7 (Wan 2.7
+  about 3.3) and a constant -160..-200 ms: in the build shift the clip about +0.06 s (with an existing -0.03 repair).
+  Lips part closer to a real speaker's (5.3 % of face height against 6.8 % on Wan 2.7 and 3.5-3.8 % real). It took
+  about 20 minutes per 6 s clip; 1.75 credits/s at 720p (pipeline/prices.json).
+- **A new hook voice moves the hook graphics:** the Remotion hook reads its word times from
+  rm/public/data/words_scribe.json, and build.py's CAPS and FX are hand-timed. Fit a new take into the old slot
+  (voice/build_v4.py) so the body keeps its times, then update only the hook words there and re-render Hook.
 
 ## Creator + Vox collage (E11, jio01)
 - **Photos of people in frame steal the lip-sync track.** With Musk and Ambani above Rashmi in the split, MediaPipe

@@ -1,10 +1,36 @@
 {
-  "_note": "Higgsfield credits per call, read by pipeline/hooks/spend_guard.py to price a generation before it is sent. per_image: credits per image (times count). per_second: credits per requested second by resolution (video is billed per whole requested second). per_call: a flat price. Sources: CLAUDE.md, formats/creator.md, work/sk03/credits.md. A model missing here is blocked until its price is added: run the same call with get_cost true (free), then python3 pipeline/spend.py price MODEL CREDITS --per image|second|call [--resolution 720p].",
-  "gpt_image_2_5": {"per_image": 0.25},
-  "seedream_v4_5": {"per_image": 1},
-  "seedream_v5_pro": {"per_image": 2.5},
-  "wan2_7": {"per_second": {"720p": 1.5, "1080p": 2.5}},
-  "seedance_2_5": {"per_second": {"480p": 3}},
-  "gemini_omni": {"per_second": {"default": 3}},
-  "text2speech_v2": {"per_call": 0.25}
+ "_note": "Higgsfield credits per call, read by pipeline/hooks/spend_guard.py to price a generation before it is sent. per_image: credits per image (times count). per_second: credits per requested second by resolution (video is billed per whole requested second). per_call: a flat price. Sources: CLAUDE.md, formats/creator.md, work/sk03/credits.md. A model missing here is blocked until its price is added: run the same call with get_cost true (free), then python3 pipeline/spend.py price MODEL CREDITS --per image|second|call [--resolution 720p].",
+ "gpt_image_2_5": {
+  "per_image": 0.25
+ },
+ "seedream_v4_5": {
+  "per_image": 1
+ },
+ "seedream_v5_pro": {
+  "per_image": 2.5
+ },
+ "wan2_7": {
+  "per_second": {
+   "720p": 1.5,
+   "1080p": 2.5
+  }
+ },
+ "seedance_2_5": {
+  "per_second": {
+   "480p": 3
+  }
+ },
+ "gemini_omni": {
+  "per_second": {
+   "default": 3
+  }
+ },
+ "text2speech_v2": {
+  "per_call": 0.25
+ },
+ "wan3_0": {
+  "per_second": {
+   "720p": 1.75
+  }
+ }
 }
