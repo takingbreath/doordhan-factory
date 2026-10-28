@@ -85,6 +85,24 @@ pitch (parselmouth) and retune it to D minor locally, so every sound sits in one
 score. Plain foley (paper, stamp, shutter, clink) from the kit in assets/audio. No song: Akhilesh may lay one on top
 (a song in D minor or F major fits the effects).
 
+## 7a. Music bed (Akhilesh's idea, testing 28 Oct)
+Creators deliver the hook dry and bring the music in when the video starts. Two test mixes on voice v3
+(work/anthropic01/music/mix_A.mp3, mix_B.mp3; built by mix_music.py):
+- **The hook stays dry** (0-5.16 s); the bed comes in on the first beat after "paoge", stops dead 0.1 s before
+  "kaise?", comes back for the comment ask and fades out after "valuation".
+- **Level:** high-passed at 60 Hz, dipped 3 dB at 2.5 kHz and 2 dB at 250 Hz (where the voice lives), about 14 dB under
+  the voice while she speaks, ducking 5 dB with each phrase and rising in the pauses. Scribe still matches the script
+  (A 98%, B 100%).
+- **A: composed for this reel** (ElevenLabs Music, music_v1, seed 3): D minor, 96 BPM, pizzicato and a soft plucked
+  synth, sections timed to the voice (reveal and founders, a thinner question, a lift for the answer, a low drone for
+  the tease). Same key as the tonal effects. ElevenLabs paid plans include commercial use (its Music Terms); no credit
+  line; nobody else has this track.
+- **B: free library** ("Investigations", Kevin MacLeod, incompetech.com, CC BY 4.0): about 96 BPM, C major / A minor,
+  steady from its first second. Needs the credit line in the caption; widely used, so it can sound familiar; the
+  tonal effects would move to A minor.
+- **Recommendation: A.** It follows the story's turns, shares the effects' key, and needs no credit.
+- With music, the tonal effects play as part of the score: notes on the bed's beat, in its key.
+
 ## 8. Pictures and rules
 - Real: the Claude and Anthropic logos (official press kit, used as they are); the seven founders' photos (news
   agencies, official pages, conference photos; not Wikipedia). The copyright call is Akhilesh's. A founder with no good
