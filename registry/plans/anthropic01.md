@@ -100,7 +100,16 @@ Creators deliver the hook dry and bring the music in when the video starts. Two 
 - **B: free library** ("Investigations", Kevin MacLeod, incompetech.com, CC BY 4.0): about 96 BPM, C major / A minor,
   steady from its first second. Needs the credit line in the caption; widely used, so it can sound familiar; the
   tonal effects would move to A minor.
-- **Recommendation: A.** It follows the story's turns, shares the effects' key, and needs no credit.
+- **C: "Silent Pulse - Premium Tech Advertising Theme"** (Samuel, ElevenLabs Music Marketplace; Akhilesh's pick to
+  try): G minor, 119 BPM (listed), no vocals; a 16 s quiet build, then a hard drop into a dense full section. Mix C
+  enters at the end of the hook from 13.92 s into the track, so **the drop lands on "God share"** (7.24 s); the track
+  runs full under the story and fades out on "bhool jao" (about 47-50 s); the tease and the comment ask play without
+  it. Voice over music 14.6 dB; Scribe 98%; "Daniela" lost confidence (75 to 59): dip the music 3 dB under the names.
+  At 119 BPM the hook's rhythmic cuts can land on its beat (about every 0.5 s); the tonal effects would move to G minor.
+  **Licence:** Marketplace tracks are bought per use; the Social Media licence covers Instagram and monetised videos.
+  Akhilesh buys it in the app (the track's Download button); the test used the public preview, which is not a licence
+  to publish. Other creators can license the same track.
+- **Recommendation:** A if we want it free and unique; C if Akhilesh likes the drop on "God share" and buys the licence.
 - With music, the tonal effects play as part of the score: notes on the bed's beat, in its key.
 
 ## 8. Pictures and rules
