@@ -23,6 +23,42 @@ Measured creators (docs/voices/general/reference/rhythm.md) talk at about 4.3 wo
 5. **Devanagari has no capitals**, so the caps-for-emphasis trick only works on English words. In Hindi, a `—` beat before the word does the same job.
 6. **Make 4 takes, measure, transcribe the top 2–3, then listen.** v3 and v4 are non-deterministic, so the same text gives different reads.
 
+## Directing by beats (anthropic01, 2026-10-28)
+Akhilesh asked for a voice director's pass after reading three skills: ElevenLabs' text-to-speech skill
+(github.com/elevenlabs/skills), OpenAI's speech skill (github.com/openai/skills, .curated/speech) and the
+product-launch-film skill (github.com/KJ-AIML/product-launch-film). What they add to the list above:
+- **Write the direction before the text:** a short labelled spec (affect, tone, pacing, emotion, pronunciation, pauses,
+  emphasis, delivery), then a beat table with each line's intention, the emotional shift, thought groups, at most one
+  focus word per group, and where the pause or tag goes. Example: work/anthropic01/voice/direction_v2.md.
+- **Change one thing per round** and keep the rest as it was (OpenAI). Audition on one or two lines, not the whole
+  script, when only the voice is in question (KJ).
+- **v4 can read a tag as a sound cue,** because it also makes sound effects. Tags must describe the voice ("[calm,
+  matter-of-fact]"), not an event. v4 takes IPA in slashes (`/əˈmoʊdeɪ/`) for a name that comes out wrong, and STT
+  every take: a misheard name gets context in the line rather than a respelling (KJ).
+- **Request stitching** (`--previous-text/--next-text`, now in tts_elevenlabs.py) lets chunks know what is said
+  around them.
+
+What the experiment measured (Rashmiji, eleven_v4, 162 words; 6 full takes and 7 beats x 2):
+| | v1 plain text (s4) | v2 directed, stability 0.5 | v2 directed, stability 0.3 | v2 per beat, stitched |
+|---|---|---|---|---|
+| tail_fall (real speech -0.4) | 2.6 to 3.1 st | -0.6 / 5.2 / -2.7 | 6.5 / 5.6 / 3.1 | 2.8 |
+| length | 55.4 to 56.9 s | 55.2 to 55.9 s | 55.1 to 57.4 s | 62.6 s |
+| words a second | 2.9 | 2.9 | 2.9 | 2.6 |
+- Direction (thought groups, 5 tags, dashes before focus words) removed the newsreader fall in 2 of 3 takes. Pick by
+  prosody.py, then Scribe's per-word confidence.
+- Lower stability (0.3) did not help: more falls and more uncertain words. Keep the voice's saved 0.5.
+- **Nothing moved the pace.** v4 has no speed setting. If a take is too slow, speed it up in the edit (atempo 1.1).
+- **Ellipses are not reliable pauses on v4.** Two of three gave 0.04 to 0.08 s. Only the one after a question
+  ("वही होगा? ... नहीं") gave a real pause (0.48 s). Add the pause in the edit by cutting into the quietest 5 ms of
+  the gap (work/anthropic01/sfx/mix.py).
+- **Per-beat generation was worse:** each chunk read slower (+7 s) and ended on a full fall. Keep one continuous take
+  and put the pauses in the edit.
+- Scribe writes "fifty point one percent" as "50.1%", so the script similarity and verify_line's must_say both miss
+  it. The digits check passes, so compare the digits.
+- The model: eleven_v4 is the latest (launched 28 Sep 2026; no newer v4 on the API or the models page, checked 28 Oct).
+  tts_elevenlabs.py takes the model from the registry voice (rashmiji: eleven_v4). Sarika, Gupta and Pandey stay on
+  eleven_v3 until someone tests them on v4.
+
 ## Still open
 - **Pauses are still too even** (pause_cv about 0.3 against 0.78 in real speech). Next to try: generate per beat (3–4 chunks), with different lead-in silences cut in the edit.
 - **Stability.** The connector can't set it. The API (`tts_elevenlabs.py --stability 0`, "creative") needs the key in `.env`. The voice's saved default in the ElevenLabs UI also applies.

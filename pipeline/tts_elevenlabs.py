@@ -2,22 +2,29 @@
 """ElevenLabs text-to-speech. The key comes from ELEVENLABS_API_KEY or the repo's .env; it is never printed.
   tts_elevenlabs.py --check                       (is the key valid? plan quota, and is the default model current?)
   tts_elevenlabs.py --list                        (voices on the account: name, id, category)
-  tts_elevenlabs.py --voice sarika --text "..." --out raw.mp3      (voice looked up in registry/assets.json)
-  tts_elevenlabs.py --voice-id ID --text-file line.txt --out raw.mp3 [--model eleven_v3] [--language hi]
-                    [--seed 7] [--stability 0.5]
-eleven_v3 supports inline delivery tags like [dryly] [warm] [chuckles]; it has no request stitching
-(previous_text/next_text) and its stability takes 0.0 (creative), 0.5 (natural) or 1.0 (robust)."""
+  tts_elevenlabs.py --voice sarika --text "..." --out raw.mp3      (voice and its model from registry/assets.json)
+  tts_elevenlabs.py --voice-id ID --text-file line.txt --out raw.mp3 [--model eleven_v4] [--language hi]
+                    [--seed 7] [--stability 0.5] [--similarity 0.75] [--previous-text T] [--next-text T]
+The model is --model, else the registry voice's "model" (rashmiji: eleven_v4), else TTS_MODEL.
+eleven_v3 and eleven_v4 take inline delivery tags like [dryly] [warm] [chuckles]; stability takes 0.0 (creative),
+0.5 (natural) or 1.0 (robust). eleven_v4 has no style or speed setting. --previous-text/--next-text (request
+stitching) tell a chunk what is said around it, so chunks made one by one sound like one read."""
 import argparse, json, os, sys
-from elevenlabs_api import TTS_MODEL, request, error_text, voice_from_registry
+from elevenlabs_api import ROOT, TTS_MODEL, request, error_text, voice_from_registry
 
 p = argparse.ArgumentParser()
 p.add_argument("--check", action="store_true"); p.add_argument("--list", action="store_true")
 p.add_argument("--voice", help="registry voice name, e.g. sarika"); p.add_argument("--voice-id")
 p.add_argument("--text"); p.add_argument("--text-file"); p.add_argument("--out")
-p.add_argument("--model", default=TTS_MODEL)
+p.add_argument("--model")
 p.add_argument("--language", help="ISO 639-1, e.g. hi (ignored by models that don't support it)")
-p.add_argument("--seed", type=int); p.add_argument("--stability", type=float)
+p.add_argument("--seed", type=int); p.add_argument("--stability", type=float); p.add_argument("--similarity", type=float)
+p.add_argument("--previous-text"); p.add_argument("--next-text")
 a = p.parse_args()
+if not a.model and a.voice:
+    reg = json.load(open(os.path.join(ROOT, "registry", "assets.json"), encoding="utf-8")).get("voices", {})
+    a.model = (reg.get(a.voice) or {}).get("model")
+a.model = a.model or TTS_MODEL
 
 if a.check:
     st, body = request("/v1/models")
@@ -56,7 +63,10 @@ text = a.text or open(a.text_file, encoding="utf-8").read().strip()
 payload = {"text": text, "model_id": a.model}
 if a.language: payload["language_code"] = a.language
 if a.seed is not None: payload["seed"] = a.seed
-if a.stability is not None: payload["voice_settings"] = {"stability": a.stability}
+settings = {k: v for k, v in (("stability", a.stability), ("similarity_boost", a.similarity)) if v is not None}
+if settings: payload["voice_settings"] = settings
+if a.previous_text: payload["previous_text"] = a.previous_text
+if a.next_text: payload["next_text"] = a.next_text
 st, audio = request(f"/v1/text-to-speech/{voice_id}?output_format=mp3_44100_128",
                     data=json.dumps(payload).encode(), headers={"Content-Type": "application/json"}, method="POST")
 if st != 200:
