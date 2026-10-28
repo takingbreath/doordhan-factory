@@ -50,24 +50,24 @@ Stage 1 targets are live in the block below. Stages 2 and 3 are the plan after t
 
 ## The book and where we stand
 <!-- scoreboard -->
-_Updated 2026-10-27 21:59 IST by `scoreboard.py write`._
+_Updated 2026-10-28 22:00 IST by `scoreboard.py write`._
 
 **Stage 1: Stop the scroll** (2026-09-26 to 2026-10-25): prove people stop for our reels and stay to the end
 
 - skip rate %: now 56, target 45 → not yet
 - watched %: now 29.3, target 45 → not yet
-- median plays at 72 h: now 420, target 500 → not yet
+- median plays at 72 h: now 582, target 500 → on target
 - best reel's plays: now 6709, target 2000 → on target
 - followers: now 467, target 100 → on target
-- strategy stop: 15/20 reels posted this stage; median plays at 72 h now 420, must reach 300
+- strategy stop: 16/20 reels posted this stage; median plays at 72 h now 582, must reach 300
 
 | Bet | Lever | Judged on | Baseline | Now | Target | Stop | Reels (judged/carried) | Verdict |
 |---|---|---|---|---|---|---|---|---|
-| B1 Hook in frame one | Frame 1: the anchor looks into the lens, already saying the viewer's stake; the hook in 6 big words or fewer on screen; nothing (Namaskar, title, logo) before it; a cut or punch-in by 1 s; cover = frame 1 | skip rate % | 60.7 | 52.4 | 45 | 58 | 3/5 (judge at 3, max 6) | **HOLD** 3 reels, between stop and target |
+| B1 Hook in frame one | Frame 1: the anchor looks into the lens, already saying the viewer's stake; the hook in 6 big words or fewer on screen; nothing (Namaskar, title, logo) before it; a cut or punch-in by 1 s; cover = frame 1 | skip rate % | 60.7 | 52.4 | 45 | 58 | 3/6 (judge at 3, max 6) | **HOLD** 3 reels, between stop and target |
 | B2 Tight 20-30 s | 20-30 s total; title montage 1.5 s or less and only after the hook; payoff by 20 s; the last line echoes the hook so a replay feels natural; no dead air | watched % | 26.3 | 38.6 | 45 | 32 | 1/1 (judge at 3, max 6) | **HOLD** 1/3 reels |
 | B3 A line worth sending | Every script lands one line a viewer would forward to a specific person (a number to remember, a jab at the system, an 'I told you so'); never ask for shares | sends per 1k plays | 2.6 | 3.2 | 8 | 2 | 3/5 (judge at 4, max 6) | **HOLD** 3/4 reels |
 | W1 Glam Sarika | Sarika in the glam wardrobe (formats/samachar.md) on every Samachar reel | skip rate % | 66.9 | 55.8 | – | – | 3/3 (judge at 3, max 6) | **WATCH** tracked; judged at the monthly review |
-| W2 Famous name in frame one | Frame one shows a company, brand or person every viewer already knows (their name, logo, or a licensed photo or real footage), with the number or question it turns on | median plays at 72 h | 243 | 2395 | – | – | 5/5 (judge at 3, max 6) | **WATCH** tracked; judged at the monthly review |
+| W2 Famous name in frame one | Frame one shows a company, brand or person every viewer already knows (their name, logo, or a licensed photo or real footage), with the number or question it turns on | median plays at 72 h | 243 | 2395 | – | – | 5/6 (judge at 3, max 6) | **WATCH** tracked; judged at the monthly review |
 <!-- /scoreboard -->
 
 ## This week's plan
@@ -195,3 +195,4 @@ _Written by the strategist every Sunday. The morning session executes it: each s
   - vidIQ credits this week: 50 of 60 (nightly cross-checks 40, profile 5, outliers 5).
 - 2026-10-26 (nightly): An F&O losses reel (Sahayata Kendra, Pandey on the phone, 64 s: traders' losses fell from ₹1.12 lakh crore to ₹91,685 crore only because 106.2 lakh traders became 87.5 lakh) went up 25 Oct 22:12 IST outside the logged flow (time from the shortcode); added as X3 with no bets and linked to De7KYJNSdXy. 497 public plays and 14 likes at 23.5 h: above the ~230 median at a day old but under the ~690 taking-off line, and the first news-of-the-day reel this fortnight not to break out by a day. Silver (E14) slowed to 2,147 at 37.5 h (+82 since 13 h), so its breakout was a one-day burst. vidIQ owner insights unavailable for an 18th night ("Meta token is inactive"; the account list says active), so public counts only and no bets judged. Older reels within 0–18 plays of last night, so only X3 and E14 logged. Followers not read tonight (467 on 25 Oct). No stop or target hit; all bets HOLD. No reply yet to the weekly decisions (Stage 2 start, retiring the tight-length test). X3 needs its script, credits and contact sheet in the repo before it can carry any bet. vidIQ credits this week: 5.
 - 2026-10-27 (nightly): Quiet night. No new reel since X3 (25 Oct 22:12), so none on Jio allotment day (26 Oct). vidIQ owner insights unavailable for a 19th night ("Meta token is inactive"; the account list says active), so public counts only and no bets judged. X3 (F&O losses) at 509 public plays at 48 h and silver (E14) at 2,158 at 62 h, both logged; every other reel within 0–40 plays of its last reading. X3's posting time filled in on its row (it showed as not posted). Followers not read tonight (467 on 25 Oct). No stop or target hit; all bets HOLD. Still no reply to the weekly decisions. vidIQ credits this week: 10.
+- 2026-10-28 (nightly): Anthropic IPO's God share (E15, Akhilesh's script, creator format, 57 s, carries hook in frame one and the famous-name watch item) posted 15:33 IST (time from the shortcode), linked to DfCLDbOyFWj, and is taking off: 1,891 public plays, 25 likes, 6 comments at 6.5 h, about 9× our usual count at that age and faster than silver (2,065 at 13.4 h). Ride-now line added: the S-1 valuation-and-loss follow-up the reel teased. vidIQ owner insights unavailable for a 20th night ('Meta token is inactive'; the account list says active), so public counts only and no bets judged. Public readings logged for E15, X3 (523 at 72 h) and silver (2,171 at 86 h). Stage median plays at 72 h now 582 (X3 matured). No stop or target hit; all bets HOLD. vidIQ credits this week: 15.
