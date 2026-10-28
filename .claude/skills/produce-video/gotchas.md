@@ -79,6 +79,20 @@
 - **YouTube blocks cloud machines** (yt-dlp, Piped, Invidious, cobalt). Clips come from the laptop: write
   registry/clip_requests/<slug>.json, and the laptop's hourly task runs `pipeline/fetch_clips.py --push` to the `clips` branch.
 
+- **anthropic01 (cinema-camera creator, 2026-10-28):**
+  - Low angles with a 24 mm lens stretch her body and shrink her head (Akhilesh: "face and body dimensions are not
+    matching"), and Wan failed lip sync three times on that line (SyncNet 1.4-3.5). Keep talking shots near eye level;
+    after two failures at different framings, make the line voice-over instead of spending.
+  - The overhead shot (lying on the rug) passed preflight and its keyframe matched her (0.875), but the Wan clip
+    drifted (0.45 against the master, 0.50 against its own keyframe) and failed the gate's face check: voice-over.
+  - Bare white walls read as "nothing" (Akhilesh). Fix without regenerating: a one-change edit of the keyframe ("the
+    same photograph, the woman not in it, the wall dressed"), then `pipeline/bgswap.py` lays her matte over it
+    (also puts kinetic words behind her head with `--text`). A plate that reframes the room (R1's sofa) can't be used.
+  - The gate covers the `_phone` copy only if it is newer than the final; encode_finals writes both at once and the
+    slower final can finish last. Make the phone copy from the final (produce-video step 9.2) before the gate.
+  - The face check against one master failed a wide-mouthed hook at 0.55; a two-face sheet (the master and the clip's
+    own approved keyframe, each 360 wide) is a fair reference. Tiny 240 px face crops scored lower: keep faces large.
+
 ## Creator + Vox collage (E11, jio01)
 - **Photos of people in frame steal the lip-sync track.** With Musk and Ambani above Rashmi in the split, MediaPipe
   measured a photo (62 px mouth, SyncNet 0). lipsync_lag now tracks the largest face; keep the speaker the biggest face.

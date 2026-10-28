@@ -67,7 +67,11 @@ EYES_LOOK = "His eyes stay on {t}, which is in the frame; exactly one blink, not
 TAIL = "Small, subtle, natural movements only. Locked-off camera. Keep the exact analog look of the start image; no new text, no subtitles."
 TAILS = {"analog": TAIL,   # the old-TV formats
          "modern": ("Small, subtle, natural movements only. The camera holds still. Keep the exact look of the start image: "
-                    "a modern phone video with natural colour and real skin texture; no new text, no subtitles.")}  # creator
+                    "a modern phone video with natural colour and real skin texture; no new text, no subtitles."),  # creator
+         # creator shot on a full-frame camera on a tripod (Akhilesh, 2026-10-28, anthropic01)
+         "cinema": ("Natural movements only. The camera holds still on its tripod. Keep the exact look of the start "
+                    "image: a cinematic full-frame camera video with shallow depth of field, the same soft window light, "
+                    "natural colour and real skin texture; no new text, no subtitles.")}
 SHEETS = {"pandey": "assets/characters/pandey_sheet_v2.jpg", "rashmi": "assets/characters/rashmi_e10_master.jpg"}   # identity reference per character (repo-relative, tracked)
 END_IMAGE_MODEL = {"sarika": "seedream_v4_5"}                 # GPT Image blocks her wardrobe; everyone else gpt_image_2_5
 ROOT = os.path.dirname(here)

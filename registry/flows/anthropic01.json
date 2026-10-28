@@ -31,6 +31,10 @@
    "at": "2026-10-28T10:47:41+05:30",
    "by": "Akhilesh",
    "value": "B"
+  },
+  "production": {
+   "at": "2026-10-28T12:26:04+05:30",
+   "value": "outputs/anthropic01/E15_anthropic01.mp4"
   }
  }
 }
