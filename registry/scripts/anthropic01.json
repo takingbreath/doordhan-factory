@@ -1,0 +1,52 @@
+{
+ "slug": "anthropic01",
+ "approved_by": "Akhilesh (2026-10-28)",
+ "frozen_at": "2026-10-28 10:47 IST",
+ "note": "make-reel; format creator with Vox graphics (B). Akhilesh's script v2 (work/anthropic01/script_v2.txt; comment word 'valuation'); its first line 'Anthropic ke IPO ka ek share, jise tum kabhi khareed nahi paaoge' is the on-screen hook text, not spoken. Devanagari for TTS, words unchanged. Voice v3: hook take v3/H1_s32 + body v2/A_s11 (work/anthropic01/voice/build_v3.py), 56.5 s, Scribe 98%. Length 56.5 s, above the 20-30 s default: Akhilesh approved it ('All right this is approved.', 2026-10-28) after the length was flagged twice.",
+ "lines": [
+  {
+   "id": "L1",
+   "speaker": "creator",
+   "text": "[energetic, quick, like sharing big news with a friend] Anthropic list होने जा रही है, and एक share है जिसे तुम कभी खरीद नहीं पाओगे!",
+   "spoken": "Anthropic list होने जा रही है, and एक share है जिसे तुम कभी खरीद नहीं पाओगे!"
+  },
+  {
+   "id": "L2",
+   "speaker": "creator",
+   "text": "ये है Class F, यानी — God share, shareholders voting में इस अकेले share के पास होगी fifty point one percent voting power, मतलब बाकी सब मिलकर भी इसे हरा नहीं पाएंगे।",
+   "spoken": "ये है Class F, यानी — God share, shareholders voting में इस अकेले share के पास होगी fifty point one percent voting power, मतलब बाकी सब मिलकर भी इसे हरा नहीं पाएंगे।"
+  },
+  {
+   "id": "L3",
+   "speaker": "creator",
+   "text": "ये share जाएगा Anthropic Founders LLC को, Dario Amodei, उनकी बहन Daniela और बाकी पांच co-founders की company, [amused] मतलब Wall Street पर भी full family business वाली feeling।",
+   "spoken": "ये share जाएगा Anthropic Founders LLC को, Dario Amodei, उनकी बहन Daniela और बाकी पांच co-founders की company, मतलब Wall Street पर भी full family business वाली feeling।"
+  },
+  {
+   "id": "L4",
+   "speaker": "creator",
+   "text": "[skeptical] लेकिन founders को इतनी power क्यों? Anthropic के हिसाब से AI में earning के साथ safety का भी ध्यान रखना है।",
+   "spoken": "लेकिन founders को इतनी power क्यों? Anthropic के हिसाब से AI में earning के साथ safety का भी ध्यान रखना है।"
+  },
+  {
+   "id": "L5",
+   "speaker": "creator",
+   "text": "इसका मतलब जो founders चाहेंगे, वही होगा? ... [calm, matter-of-fact] नहीं, उतना भी सीधा नहीं है, board के आधे से ज़्यादा directors आम तौर पर एक अलग safety trust चुनेगा, बाकी directors founders के votes से चुने जाएंगे।",
+   "spoken": "इसका मतलब जो founders चाहेंगे, वही होगा? ... नहीं, उतना भी सीधा नहीं है, board के आधे से ज़्यादा directors आम तौर पर एक अलग safety trust चुनेगा, बाकी directors founders के votes से चुने जाएंगे।"
+  },
+  {
+   "id": "L6",
+   "speaker": "creator",
+   "text": "तो तुम company में हिस्सा तो खरीद सकते हो, लेकिन voting power — भूल जाओ।",
+   "spoken": "तो तुम company में हिस्सा तो खरीद सकते हो, लेकिन voting power — भूल जाओ।"
+  },
+  {
+   "id": "L7",
+   "speaker": "creator",
+   "text": "[curious] वैसे जानते हो, Anthropic की valuation बढ़ने से उसका loss भी बढ़ गया... कैसे? Follow कर लो और comment करो — valuation।",
+   "spoken": "वैसे जानते हो, Anthropic की valuation बढ़ने से उसका loss भी बढ़ गया... कैसे? Follow कर लो और comment करो — valuation।"
+  }
+ ],
+ "sha256": "44fd63138e814ca3c72103b3fed4af75d79096c8cd2929a731d3936e1582b4d3",
+ "history": []
+}
