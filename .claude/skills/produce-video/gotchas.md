@@ -52,6 +52,11 @@
 ## Creator format (E10, nana01)
 - **A phone in frame breaks the premise** (the phone is the camera). Seedream drew one on a shelf showing her selfie
   despite the prompt. Look for it in every frame; remove it with the one-change edit in prompts.md.
+- **"Propped on a low stool in front of her" made Seedream draw the phone on a tripod** in both variants (anthropic01).
+  Seedream 4.5 also ignored "close-up from mid-chest up" and framed her whole seated body. What worked: its frames are
+  1440x2560, so a 720x1280 crop around the face is a true close-up at Wan's size (face 23-26%) and leaves a phone at
+  the edge out. Variants of one prompt can also change the outfit (a tie-neck halter against a plain one): pick the
+  episode master first, then make every other setup with the master as the first reference.
 - **Head roll 17–23°** on Seedream selfies fails preflight (roll over 16°). `pipeline/level_keyframe.py` rotates the
   frame level for free.
 - **shot_spec's default tail said "analog look"**: use `--look modern` for this format.
