@@ -112,6 +112,11 @@ They paste a script. Save it as `work/<slug>/script_v<n>.txt` (a new file for ev
   step 3 say, directed by docs/voices/directing-tts.md (commas, one pause at the turn, few tags).
 - Check every take before sending: `pipeline/verify_line.py` (numbers, last word, no spoken tag), a Scribe transcript
   against the script (`pipeline/transcribe.py`), `pipeline/prosody.py` for flat reading. Listen-worthy words: say which.
+- **Creator (Rashmi): read the script's tone first.** An explainer is calm and matter-of-fact; an energetic read makes
+  her face over-act too (anthropic01: Akhilesh heard "jise tum kabhi khareed nahi paoge" as excited). Direct
+  "[calm, matter-of-fact]", end the line on a full stop, and check a phrase that may sound excited with
+  `pipeline/phrase_pitch.py --split <its first word> TAKE.mp3 TAKE.scribe.json` (above +1 st median or +6 st peak
+  against the line before it reads as excited). formats/creator.md section 1b, step 6.
 - Send the voice cut (mp3) with SendUserFile, its length in seconds, the transcript match, and anything to listen for.
   **Ask:** "Approve the voice, or tell me what to change (pace, a pause, how a word is said)."
 - Changes to delivery: new takes, same words. A word change: back to the script rule above.
@@ -139,6 +144,19 @@ voice cut and the chosen style:
 - **C:** `assets/edits/nana01_build.py` (captions, footage bands, labels).
 Copy a template into `work/<slug>/` and it takes its slug from that folder.
 
+- **Creator talking shots (Rashmi) follow formats/creator.md section 1b** (Akhilesh, 2026-10-28: "This looks so much
+  better"). In short:
+  - **Hair:** neat and combed, no flyaways; make it with a hair-only Gemini edit of the frame, which is free.
+  - **Face:** light makeup, no freckles; no makeup edits.
+  - **Start frame:** relaxed, with the mouth closed. Never a laughing frame.
+  - **Model:** `shot_spec.py build ... --character rashmi --look cinema --model wan3_0`.
+  - **Acting:** calm, with one or two motivated beats per line, read from the words.
+  - **Skin pass:** `skinfix.py --forehead-only --spots` only.
+  - **Measure:** `mouth_meter.py` and `motion_meter.py` against a real creator. The lip-sync judge checks timing only.
+  - **Price and time:** Wan 3.0 costs 1.75 credits a second and takes about 20 minutes a clip, so submit all the
+    talking shots together.
+  - **Show first:** let the approver see one talking shot (the hook) before the rest are made.
+
 - **References:** if a registry ID doesn't resolve from this Higgsfield workspace, upload its copy from
   `assets/references/mirror/` (index.json maps keys to files) or `assets/characters/`, and note the new IDs in
   `work/<slug>/ids.json`.
@@ -154,7 +172,8 @@ Copy a template into `work/<slug>/` and it takes its slug from that folder.
 
 ## 7. Final
 - Send the stamped phone copy and its `_qc.png` with SendUserFile. Say in plain words what you checked, what you're
-  unsure of, the length, and the credits spent against the budget.
+  unsure of, the length, and the credits spent against the budget. For a creator reel, say how her lips measured
+  against a real creator (`mouth_meter.py`), not only that lip sync passed.
   **Ask:** "Approve the reel, or tell me what to change."
 - A change: fix, rebuild, gate again, send again (stage 6 rules apply, the budget included).
 - Approved: `flow.py done <slug> final --by "<who>"`. Then produce-video step 11: the registry log, the scoreboard

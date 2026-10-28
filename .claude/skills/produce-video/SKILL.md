@@ -1,6 +1,6 @@
 ---
 name: produce-video
-description: Produce a Doordhan reel end to end from an approved, frozen script (registry/scripts/<slug>.json). Covers the voice fixes and voice cut, wardrobe, set and Billu, the graphics plan, keyframes, talking and silent shots on Higgsfield (Wan 2.7), the edit, the old-TV finish and the QC gate, and hands back a stamped final, then the registry log and posting kit after approval. Use for /produce-video <slug>, "produce the approved script", or "make the video" after the morning session froze the script. Anything else (a topic, a link, a draft or pasted script, a script not yet frozen) starts the step-by-step /make-reel flow instead, which checks and freezes the script first. Args - the slug of the frozen script, and any edits the approver asked for, word for word.
+description: Produce a Doordhan reel end to end from an approved, frozen script (registry/scripts/<slug>.json). Covers the voice fixes and voice cut, wardrobe, set and Billu, the graphics plan, keyframes, talking and silent shots on Higgsfield (Wan 2.7; Wan 3.0 for the creator), the edit, the old-TV finish and the QC gate, and hands back a stamped final, then the registry log and posting kit after approval. Use for /produce-video <slug>, "produce the approved script", or "make the video" after the morning session froze the script. Anything else (a topic, a link, a draft or pasted script, a script not yet frozen) starts the step-by-step /make-reel flow instead, which checks and freezes the script first. Args - the slug of the frozen script, and any edits the approver asked for, word for word.
 ---
 
 # /produce-video: from an approved script to a QC-stamped final
@@ -141,7 +141,7 @@ Write `work/<slug>/plan.md`, then show it at the gate together with the voice cu
 - **End images come from the start image** by an edit ("The same image as the reference, same framing ... with these
   changes only: ..."). A freshly prompted end frame changes the framing and forces a camera move.
 
-## 6. Segments and shots (Wan 2.7, 720p)
+## 6. Segments and shots (Wan 2.7, 720p; the creator on Wan 3.0)
 1. **Segments:** cut the approved voice cut into one wav per shot at its pauses. Take the boundaries from
    `python3 pipeline/speech_map.py work/<slug>/voice/<slug>_voice_cut.wav` (its `pauses`), not from Scribe's word gaps:
    Scribe put "Dues" 100 ms late on E7 and a boundary there cut the word's onset. Write `work/<slug>/seg/<ID>.wav`
@@ -153,11 +153,24 @@ Write `work/<slug>/plan.md`, then show it at the gate together with the voice cu
    `python3 pipeline/put_upload.py FILE "URL" audio/mpeg`, then media_confirm with `media_ids`), put the media ID into
    the spec's `audio_references`, and submit the spec's `params` with `generate_video_batch`, **3 at a time** (a 429
    means wait). A shot where something else in frame moves (Billu walking in) can take an `end_image` too.
+   **The creator (Rashmi):** formats/creator.md section 1b, not the Kendra notes above:
+   - **Start frame:** a relaxed, closed-mouth frame with neat, combed hair. A hair-only Gemini edit makes it for free;
+     keep the face, expression, skin and light.
+   - **Build:** `--character rashmi --look cinema --model wan3_0`. This sends the frame as `image_references` with the
+     track, because Wan 3.0 refuses a start frame together with audio. It sets `generate_audio: false` and starts the
+     edit 0.06 s earlier.
+   - **Acting:** an `--acting` note written from the line's tone, calm by default, with one or two moments named. The
+     tried wordings are in prompts.md, "Creator talking shot that worked".
+   - **Time:** a clip takes about 20 minutes, so submit the episode's talking shots together.
 3. **Silent shots:** Wan 2.7 with a start image (and an end image for a change), no audio, 2 s minimum. Prompts in
    `prompts.md`.
 4. Download each clip to `work/<slug>/vid/<name>.mp4`, record its job ID in the spec, then
    `pipeline/qcpy pipeline/shot_spec.py judge work/<slug>/specs/<T#>.json work/<slug>/vid/<T#>.mp4`.
-   ACCEPT, ACCEPT_WITH_SHIFT (an `audio_shift_ms`) or one automatic RETRY, then ask. Make contact sheets
+   ACCEPT, ACCEPT_WITH_SHIFT (an `audio_shift_ms`) or one automatic RETRY, then ask. A silent clip (Wan 3.0) is
+   judged with its track laid in (`<clip>_au.mp4`; use that file in the edit). For the creator, also run
+   `pipeline/qcpy pipeline/mouth_meter.py CLIP 0.5 <end>` and `pipeline/motion_meter.py`: lips about 3.5-5 % of face
+   height, no grin (upper lip under 0.2), brows near 0.4/0.3, a few blinks; then the light skin pass
+   `pipeline/qcpy pipeline/skinfix.py CLIP OUT --forehead-only --spots`. Make contact sheets
    (`pipeline/contact_sheet.py CLIP OUT --fps 4 --width 160`) of every silent clip and find the frames you'll use
    (when the receiver lands, when the head turn completes).
 
@@ -193,7 +206,8 @@ runs under the footer or off the frame, and no text is smaller than about 32 px 
 
 ## 10. Look yourself, then present
 - Contact sheets of the final (`pipeline/contact_sheet.py FINAL OUT --times ...`) across the whole reel, and faces at
-  full size in every talking shot (grins, wide eyes, a dead stare). The first frame must show the subject.
+  full size in every talking shot (grins, wide eyes, a dead stare; for the creator also messy hair, freckles or dots,
+  forehead lines, a raised brow held the whole line). The first frame must show the subject.
 - Send `outputs/<slug>/<stem>_phone.mp4` and `outputs/<slug>/<stem>_qc.png` with SendUserFile. Say in plain language
   what you checked, what you're unsure about (words worth a listen, any brief artefact), the length against the
   format, the credits spent against the approved budget, and what must happen before posting (e.g. a comment keyword's
@@ -215,7 +229,8 @@ runs under the footer or off the frame, and no text is smaller than about 32 px 
   strategist routine reads GitHub every night, and an unpushed episode gets logged as an unknown reel.
 
 ## Other formats
-The creator format (Rashmi at home, modern look): formats/creator.md section 1 first, then `assets/edits/nana01_build.py` (real footage, a keyed TV recreation) or `assets/edits/jio01_build.py` with `assets/edits/jio01_vox.py` (a split-screen opening, Vox-style collage from real documents and photos, AI collage clips with logo labels); both write their own QC manifest at 30 fps. `pipeline/level_keyframe.py` for tilted heads, `pipeline/cutout.py` for photo cut-outs.
+The creator format (Rashmi at home, modern look): formats/creator.md sections 1 and 1b first (1b is how her talking
+shots read as a real creator: neat hair, a relaxed start frame, calm motivated acting, a calm voice, Wan 3.0), then `assets/edits/nana01_build.py` (real footage, a keyed TV recreation) or `assets/edits/jio01_build.py` with `assets/edits/jio01_vox.py` (a split-screen opening, Vox-style collage from real documents and photos, AI collage clips with logo labels); both write their own QC manifest at 30 fps. `pipeline/level_keyframe.py` for tilted heads, `pipeline/cutout.py` for photo cut-outs.
 The templates are for Sahayata Kendra. Samachar graphics: `assets/edits/samachar_gfx.py` (Sarika's top-left box,
 the stock badge, the full-screen data card, lower thirds for Gupta; it refuses a graphic over Sarika's neckline). Every
 template copied into `work/<slug>/` takes its slug from that folder. Samachar (Sarika, Gupta) and Teleshop follow
