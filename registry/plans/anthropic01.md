@@ -1,8 +1,10 @@
 # anthropic01: final production plan (28 Oct 2026)
 
 **Status:** script v2 frozen (registry/scripts/anthropic01.json, 44fd6313); voice v3 approved (56.5 s); format Creator
-with Vox graphics (B); Rashmi's outfit approved. **Waiting for Akhilesh's go-ahead before any more credits.**
-Spent so far: 6 of 60 credits (the look).
+with Vox graphics (B); Rashmi's outfit approved. **Go-ahead given** (Akhilesh, 28 Oct: "Use Silent Pulse (mix C). I'll
+buy the Social Media licence in ElevenLabs. Go ahead with video production on the final plan."). Music: option C,
+so the tonal effects are in **G minor** (not D minor) and the hook cuts follow its 119 BPM beat.
+Spent before production: 6 of 60 credits (the look).
 
 ## 1. References and what we take
 | Reel | What it teaches | What we take |

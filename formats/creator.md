@@ -27,6 +27,12 @@ First episode: E10, nana01 (2026-10-09), Akhilesh's own script about Nana Pateka
   captions, a warm filmic grade.
 - **Tonal sound effects** (his reference instagram.com/reel/DZ5FnK9ocIM): notes and short phrases in one key on the
   transitions and reveals, over plain whooshes.
+- **Music bed, hook dry** (replaces "no song" above): creators deliver the hook with no music and bring the bed in when
+  the video starts. About 14 dB under the voice while she speaks, ducked with each phrase, high-passed and dipped
+  where the voice sits. anthropic01 uses "Silent Pulse - Premium Tech Advertising Theme" from the ElevenLabs Music
+  Marketplace with its drop timed to "God share" (Akhilesh: "Use Silent Pulse (mix C). I'll buy the Social Media
+  licence in ElevenLabs."). A Marketplace track needs its Social Media licence before posting; a composed ElevenLabs
+  bed needs none (work/anthropic01/music/compose.py).
 
 ## 2. When to use it
 Human money stories: a person's choice about money, a values story, a "what would you do with ₹X" moment. It suits a tribute or news-of-a-person reel where Samachar's newsreader would feel cold. Not for market moves or explainers (Samachar, Sahayata Kendra).
