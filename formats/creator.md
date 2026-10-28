@@ -15,6 +15,19 @@ First episode: E10, nana01 (2026-10-09), Akhilesh's own script about Nana Pateka
 - **No song:** deliver voice, room tone and effects. Akhilesh may lay a song on top. The clip's own sound may stay.
 - **She never talks while she sips:** a silent B-roll beat gets a real pause in the voice (E10, 1.2 s after "cheques mile").
 
+## 1a. Akhilesh's rulings (2026-10-28, anthropic01)
+- **A proper lighting setup in every shot:** a motivated soft key (the window, about 45 degrees, a little above the
+  eyes), a fill at about 2:1, a hair or back light for separation, and a background lit separately and kept about a
+  stop darker than her face, with warm practicals. Mix daylight and lamps as the scene needs. Plan:
+  registry/plans/anthropic01.md section 3.
+- **The camera can follow his editing reference** (instagram.com/reel/DX4XksWJlLL): a full-frame camera on a tripod,
+  self-shot, a different angle per shot (high, low, eye level, overhead), wide and normal primes. This is an exception
+  to "the phone is the camera"; the camera still never appears in frame.
+- **Editing like that reference:** cuts to rhythm and to motion, kinetic yellow type behind the speaker, small serif
+  captions, a warm filmic grade.
+- **Tonal sound effects** (his reference instagram.com/reel/DZ5FnK9ocIM): notes and short phrases in one key on the
+  transitions and reveals, over plain whooshes.
+
 ## 2. When to use it
 Human money stories: a person's choice about money, a values story, a "what would you do with ₹X" moment. It suits a tribute or news-of-a-person reel where Samachar's newsreader would feel cold. Not for market moves or explainers (Samachar, Sahayata Kendra).
 
