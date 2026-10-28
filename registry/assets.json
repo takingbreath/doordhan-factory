@@ -126,7 +126,11 @@
     "kendra_e12_listen_ecu_mustard": "d9c045f8-b612-4a38-8241-3cd842b030e6",
     "kendra_e12_overhead_hangup_cardigan_cuff": "8cabf161-bfb0-4394-a7a0-122e2ba98942",
     "kendra_e12_cold_open_end_both_look_at_phone": "8bd70f59-f74e-4eeb-a9f6-de5aac1a73ca",
-    "kendra_e12_billu_note_tray": "b3a116bc-3994-4a00-a82c-7c2aae487752"
+    "kendra_e12_billu_note_tray": "b3a116bc-3994-4a00-a82c-7c2aae487752",
+    "creator_e15_master_k2b": "8548cc2c-474a-4405-ab65-6f0740f77588",
+    "creator_e15_hook_neathair": "d4151a1f-490c-4c7b-a78a-2f95dc20835c",
+    "creator_e15_r2_neathair": "e9a2c9c2-dd6f-475d-ad01-72ac116b96f6",
+    "creator_e15_r5_neathair": "7f121d33-407d-40f3-b41f-fd735294589c"
   },
   "voices": {
     "_note": "ElevenLabs over the API is the default (2026-09-30): a voice with an elevenlabs_voice_id is generated with pipeline/tts_elevenlabs.py --voice <name>. A voice without one stays on Higgsfield. higgsfield_fallback keeps a character's old Higgsfield voice element usable (pipeline/higgsfield.py audio --voice <name>).",
@@ -362,11 +366,18 @@
     "e9": "E9 (DTB3 HUL): sarika_closeup_e9_ruby_wrap is the Seedream job 84514361 frame, cropped locally to 0.85 from the top (mouth box 480: 147,437,108,79); wider framing than E8, 80s blue studio, no bindi (it flickered). gupta_market_e9 is Higgsfield job 183eb879.",
     "creator_e10": "creator_e10_*: Rashmi's four setups (seedream_v4_5); the 'levelled' uploads were rotated with pipeline/level_keyframe.py to pass the head-roll check. recreation_2015_tv_room: blue screen for keying a bulletin; the man is only ever seen from behind. insert_car_detail_unbranded: the first car came out as a recognisable Range Rover; avoid implying a model.",
     "creator_e11": "creator_e11_*: Rashmi's E11 look (seedream_v4_5 one-change edit to a high square neckline after the first try copied the reference's deep neckline); the levelled upload is rotated -10 deg with level_keyframe.py (roll 18 -> 8). Face reference: assets/characters/rashmi_e11_master.jpg.",
-    "kendra_e12_*": "sk04 (2026-10-22), job IDs of the gpt_image_2_5 results; local copies are in work/sk04/kf (git-ignored). The 3/4 frames came with stray papers on the desk and were cleaned by an edit (those two clean job IDs were not recorded). The cold open is a 74% crop (face 17% of the frame) of kendra_e12_cold_open_billu_big_left; its end frame was edited from the crop."
+    "kendra_e12_*": "sk04 (2026-10-22), job IDs of the gpt_image_2_5 results; local copies are in work/sk04/kf (git-ignored). The 3/4 frames came with stray papers on the desk and were cleaned by an edit (those two clean job IDs were not recorded). The cold open is a 74% crop (face 17% of the frame) of kendra_e12_cold_open_billu_big_left; its end frame was edited from the crop.",
+    "creator_e15": "creator_e15_*: Rashmi's anthropic01 look (2026-10-28). k2b is the episode master (seedream_v4_5). The three *_neathair frames are the approved talking-shot references: relaxed, closed-mouth frames from approved clips, hair-only Gemini edits (neat, combed; warm light kept), used as Wan 3.0 image references (formats/creator.md section 1b). Local copies: work/anthropic01/kf/hair2_crop.png, r2_hair.png, r5_hair.png; face sheet kf/rashmi_e15_sheet_v2.jpg (git-ignored). Gemini makeup frames were rejected; no freckles."
   },
   "wardrobe_log": {
     "_note": "One row per character per episode, added when the final is approved. Nobody wears the same outfit twice on air.",
     "rows": [
+      {
+        "episode": "15",
+        "date": "2026-10-28",
+        "character": "rashmi",
+        "outfit": "plain fitted black ribbed halter crop top with a high round neckline, high-waisted cream wide-leg trousers, black belt, small gold hoops and a thin gold chain (Akhilesh's photo, clothes only); hair neatly brushed and combed, light makeup; a bright cream living room with dressed plates (anthropic01)"
+      },
       {
         "episode": "14",
         "date": "2026-10-25",

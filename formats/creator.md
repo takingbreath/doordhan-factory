@@ -167,3 +167,4 @@ Human money stories: a person's choice about money, a values story, a "what woul
 ## 10. Typical cost
 E10: 65.25 credits of an approved 80. Keyframes 6, other stills 0.75, talking shots 36 (including 9 of retries), silent shots 9 (the TV room, the chai sip). The voice cost ElevenLabs credits only.
 E11 (jio01, 59.2 s, Vox collage): 138.75 of about 185 approved. Looks 6, stills 0.75, talking shots 78 (8 shots, including 25.5 of retakes for eyes and face), gemini_omni collage clips 54 (8 s test reused + 10 s). Local collage scenes cost nothing.
+E15 (anthropic01, 56.9 s, Vox desk, cinema look): 138.5 of 147 approved. Wan 2.7 82.5 (five setups with retakes, then three hook tests), Wan 3.0 35, Seedream 21. The finished recipe costs far less: three talking shots on Wan 3.0 (about 24 at 1.75 a second), Gemini frames free. Budget about 60 for a creator reel with three talking shots and local graphics.
