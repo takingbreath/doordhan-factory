@@ -10,7 +10,7 @@ DRAFT — SCRIPT NOT APPROVED. Proposed follow-up topic included for review. Wai
 
 **RASHMIJI**: Yeh share jaayega Anthropic Founders LLC ko. Dario Amodei, unki behen Daniela aur baaki paanch co-founders ki company.
 
-**RASHMIJI**: Aur company aur shares beche, tab bhi is ek share ke paas aadhe se zyada votes rahenge.
+**RASHMIJI**: Company aur shares bech de, tab bhi is ek share ke paas aadhe se zyada votes rahenge.
 
 **RASHMIJI**: Toh founders ko itni power kyun?
 
@@ -18,13 +18,13 @@ DRAFT — SCRIPT NOT APPROVED. Proposed follow-up topic included for review. Wai
 
 **RASHMIJI**: Iska matlab, jo founders chaahenge, wahi hoga?
 
-**RASHMIJI**: Board ki aadhe se zyada seats par directors aam taur par ek alag safety trust chunega. Baaki directors founders ke votes se chune jaayenge.
+**RASHMIJI**: Board ke aadhe se zyada directors aam taur par ek alag safety trust chunega. Baaki directors founders ke votes se chune jaayenge.
 
 **RASHMIJI**: Toh tum company mein hissa khareed sakte ho. Lekin usse chalaane waala board, founders aur trust milkar chunenge.
 
 **RASHMIJI**: Agli reel mein dekhenge, Anthropic ki kamai uske kharchon ke saamne tikti bhi hai ya nahi.
 
-Planning estimate: 172 written words, roughly 54–61 seconds at an assumed pace. Not a measured take.
+Planning estimate: 170 written words, roughly 54–61 seconds at an assumed pace. Not a measured take.
 
 # v5 notes — spoken wording and two audience promises, 28 October 2026
 
