@@ -50,16 +50,16 @@ Stage 1 targets are live in the block below. Stages 2 and 3 are the plan after t
 
 ## The book and where we stand
 <!-- scoreboard -->
-_Updated 2026-10-29 22:04 IST by `scoreboard.py write`._
+_Updated 2026-10-30 22:35 IST by `scoreboard.py write`._
 
 **Stage 1: Stop the scroll** (2026-09-26 to 2026-10-25): prove people stop for our reels and stay to the end
 
 - skip rate %: now 56, target 45 → not yet
 - watched %: now 29.3, target 45 → not yet
 - median plays at 72 h: now 582, target 500 → on target
-- best reel's plays: now 6709, target 2000 → on target
+- best reel's plays: now 6768, target 2000 → on target
 - followers: now 467, target 100 → on target
-- strategy stop: 16/20 reels posted this stage; median plays at 72 h now 582, must reach 300
+- strategy stop: 18/20 reels posted this stage; median plays at 72 h now 582, must reach 300
 
 | Bet | Lever | Judged on | Baseline | Now | Target | Stop | Reels (judged/carried) | Verdict |
 |---|---|---|---|---|---|---|---|---|
@@ -197,3 +197,4 @@ _Written by the strategist every Sunday. The morning session executes it: each s
 - 2026-10-27 (nightly): Quiet night. No new reel since X3 (25 Oct 22:12), so none on Jio allotment day (26 Oct). vidIQ owner insights unavailable for a 19th night ("Meta token is inactive"; the account list says active), so public counts only and no bets judged. X3 (F&O losses) at 509 public plays at 48 h and silver (E14) at 2,158 at 62 h, both logged; every other reel within 0–40 plays of its last reading. X3's posting time filled in on its row (it showed as not posted). Followers not read tonight (467 on 25 Oct). No stop or target hit; all bets HOLD. Still no reply to the weekly decisions. vidIQ credits this week: 10.
 - 2026-10-28 (nightly): Anthropic IPO's God share (E15, Akhilesh's script, creator format, 57 s, carries hook in frame one and the famous-name watch item) posted 15:33 IST (time from the shortcode), linked to DfCLDbOyFWj, and is taking off: 1,891 public plays, 25 likes, 6 comments at 6.5 h, about 9× our usual count at that age and faster than silver (2,065 at 13.4 h). Ride-now line added: the S-1 valuation-and-loss follow-up the reel teased. vidIQ owner insights unavailable for a 20th night ('Meta token is inactive'; the account list says active), so public counts only and no bets judged. Public readings logged for E15, X3 (523 at 72 h) and silver (2,171 at 86 h). Stage median plays at 72 h now 582 (X3 matured). No stop or target hit; all bets HOLD. vidIQ credits this week: 15.
 - 2026-10-29 (nightly): Quiet. No new reel since E15. Anthropic IPO's God share (E15) at 6,062 public plays, 132 likes, 8 comments at 30.5 h (1,891 at 6.5 h), close to Salman Khan (6,709) as our biggest reel; already flagged taking off last night, with the S-1 follow-up script proposed for review. vidIQ owner insights unavailable for a 21st night ('Meta token is inactive'; the account list says active), so public counts only and no bets judged; only E15 logged (every other reel within 0–8 plays of its last reading). No stop or target hit; all bets HOLD. vidIQ credits this week: 20.
+- 2026-10-30 (nightly): The same EPFO reel (creator format, Rashmi, 37 s: EPFO to put 3% of each year's new inflows into startups and AIFs) went up twice outside the logged flow, at 20:17 and 21:11 IST (times from the shortcodes): added as X4 (DfH1I_ModED, 126 public plays at 2.3 h) and X5 (DfH7UV2I_66, 112 at 1.4 h), no bets. Two live copies split the reach and can read as reposted content; pinged Akhilesh to delete one (keep whichever is ahead by morning). Neither is near the taking-off line yet. Unlike every breakout, its cover has no split screen, no hook text and no known name or logo; Rashmi is mid-word. Both need a script, credits and contact sheet in the repo before they can carry any bet, and X5 should not count toward the stage's reel count. Anthropic God share (E15) flattened at 6,076 public plays at 55 h (+14 since 30.5 h): a one-day burst like silver. vidIQ owner insights unavailable for a 22nd night ('Meta token is inactive'; the account list says active), so public counts only and no bets judged. No stop or target hit; all bets HOLD. vidIQ credits this week: 25.
