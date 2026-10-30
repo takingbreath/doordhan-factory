@@ -1,159 +1,149 @@
-# Doordhan desk research — Thu 29 Oct 2026
+# Doordhan desk research — Fri 30 Oct 2026
 
-Session: https://claude.ai/code/session_01PasrArPqKRegJTRyqBbdpj
+Session: https://claude.ai/code/session_01PasrAsmRdP1ifddDayHsWV
 
-**Pick: story 1.** It's the strategist's Ride now: E15 (Anthropic's God share, posted yesterday 15:33) is our fastest start ever (1,891 public plays at 6.5 h) and it teased this exact follow-up, valuation up and loss up. The S-1 went public on Mon 26 Oct and 'Anthropic IPO' is HOT on trends.py (100 news stories this week, all of them today's window; 17 YouTube videos this week, 10 in the last 24 h, best 11,004 views/hr). vidIQ has 'anthropic ipo' searches up 177% with India the second-biggest market (17%). The number that doesn't add up: first-half revenue of $16.3 billion, up from $1.16 billion, an operating profit of $974 million in Q2, and still a net loss of $80.7 billion, because $72.4 billion of it is a non-cash fair-value charge on convertible notes, derivatives and SAFEs. The English videos explain it; we found no Hinglish short that does.
+**Pick: story 1.** It is the shape the strategist asked the desk to find again after eMudhra (E13, 5,865 plays): a listed company crashing on a scandal, with the fall in frame one. Equitas Small Finance Bank posted its highest-ever quarterly profit (₹218 crore) and still hit the 20% lower circuit yesterday, because its founder-CEO P N Vasudevan resigned over investors' 'perception' of a conflict of interest: his daughter co-promotes an NBFC, Unico Housing Finance. 26 of the week's 27 news stories on it landed in the last day (trends.py RISING), yet no Instagram outlier and no YouTube Short above 1,250 views covers it: the gap is wide open. Post today; it's Friday's market story.
 
-Runner-up: 2, Jio the day after listing (tracked 'jio-ipo', new turn). It listed at ₹1,358 (+21.36%) and settled at ₹1,419, a market cap of ₹13.05 lakh crore, India's second most valuable company after Reliance, and Reliance overtook the Tata Group as India's most valuable conglomerate. The ceremony clips are breaking out (Anant Ambani with his nephew, 1.9M views in about 11 hours). Story 3 (deep lane, via The Ken today) is the LTCG tax-cut debate: 14 YouTube videos on it in the last 24 h.
+Runner-up: 2, Jio's first results as a listed company, out today after the board meeting (tracked 'jio-ipo', HOT, new turn). It is still the week's biggest money story, but the numbers arrive this evening, so it suits tomorrow morning's reel. Not re-sent today: the Anthropic S-1 follow-up (HOT, 99 news stories today); Akhilesh's own hook-and-story draft for it is in scripts/drafts/ (29 Oct) awaiting his approval. Story 3 (deep lane, via The Ken today) is the eMudhra follow-up the strategist asked for: 773 government websites still serving certificates eMudhra revoked.
 
-## 1. Anthropic's S-1: revenue up 14 times, an operating profit in Q2, and still an $80.7 billion loss. $72.4 billion of it is a paper charge
+## 1. Equitas SFB's best quarter ever, then a 20% lower circuit: the founder-CEO quits over his daughter's NBFC
 
-Hot lane (new; the strategist's Ride now, the follow-up E15 teased) · HOT · **8/10** (momentum 3/3, stake 0/1, shareability 2/2, gap 1/2, known name 2/2) · tracker id `anthropic-s1`
+Hot lane (new; the strategist's 'listed company crashes on a scandal' follow-up to E13) · RISING · **8/10** (momentum 2/3, stake 1/1, shareability 2/2, gap 2/2, known name 1/2) · tracker id `equitas-ceo-exit`
 
-Window: Now to the listing. The S-1 went public Mon 26 Oct; reports put the debut around the week of 16 Nov. Best posted today or Friday while the filing is the news and E15 is still being pushed.
+Window: Today, Fri 30 Oct. It's yesterday's crash and today's follow-up news; next turn when the board names a successor (Vasudevan said it may come sooner than a month; ET BFSI headline, 29 Oct) or if the RBI says anything.
 
 ### What's happening
-- Anthropic, Claude's maker, made its S-1 public on Mon 26 Oct for a Nasdaq listing under the ticker ANT, with Goldman Sachs and Morgan Stanley leading. The price range, share count and raise size are still blank (Yahoo Finance live blog, 26 Oct; The VC Corner).
-- Revenue: $16.3 billion in the six months to 30 June 2026, against $1.16 billion a year earlier, about 14 times (Crypto Briefing, 26 Oct; our arithmetic). Q2 alone was $11.6 billion, Q1 $4.7 billion (Yahoo).
-- Profit: Q2 was the first quarter with an operating profit in the six shown, $974 million, after a $1.7 billion operating loss in Q1; the half-year operating loss narrowed to $693 million from $2.1 billion (Yahoo; Crypto Briefing; The VC Corner, S-1 p. 158).
-- The loss: net loss for the half was $80.7 billion ($80,748 million). Of that, $72,388 million is 'non-cash fair-value changes on convertible notes, derivative liabilities and SAFEs' (The VC Corner quoting S-1 p. 23; Crypto Briefing). These are instruments that turn into shares, so their book value rises when the company's value rises; that link is our reading of the accounting, check S-1 p. 23 before saying it on air.
-- Valuation: $965 billion in the May private round; reports say Wall Street expects $1.5 to 2 trillion at listing (Yahoo). Cash and short-term investments $131.7 billion at 30 June (Crypto Briefing).
-- Compute bill: Anthropic agreed to spend up to $120.5 billion with SpaceXAI through 2029, about $3.1 billion a month once capacity arrives, expected December 2026 (Yahoo).
-- Already on our channel: E15 covered the Class F 'God share' (50.1% of the vote with the founders' LLC; the Long-Term Benefit Trust elects a board majority, The VC Corner, cover page and p. 245) and teased 'valuation up, loss up'.
+- On Thu 29 Oct, Equitas Small Finance Bank's MD and CEO P N Vasudevan resigned in a letter dated that day, citing a continuing investor 'perception' of a conflict of interest (Moneylife; Business Standard; cashlesstime summary of the filing).
+- The conflict: his daughter is a co-promoter of Unico Housing Finance, an unlisted NBFC that got its RBI licence in 2023. He says the relationship was disclosed to the board and the RBI, and the only dealing between the bank and Unico was one short-term deposit about two and a half years ago, repaid at maturity; no loans (cashlesstime; Indian Opinion; Finimize).
+- The shares hit the 20% lower circuit, from a previous close of ₹65.13, and closed down 12.22% (Moneylife via search; cashlesstime). About ₹1,500 crore of market value was wiped out at the low (Indian Opinion). CNBC-TV18's headline puts the fall at 25% from the day's high.
+- The twist: the same quarter was the bank's best ever. Net profit ₹218 crore for July–September, half-year profit ₹401.6 crore against a ₹199.6 crore loss a year earlier, and total business past ₹1 lakh crore (Indian Opinion; Finimize; cashlesstime). One outlet (Sahi) headlines ₹220 crore; ₹218 crore is the figure most reports give.
+- Reports say the RBI contacted the bank's management to understand the Unico link; Vasudevan told ET BFSI there was 'no RBI nudge' to quit (Finimize; ET BFSI headline, 29 Oct). The board accepted the resignation and asked him to stay until a successor is approved by the RBI (Indian Opinion).
+- Who he is: he founded Equitas as a microfinance lender in 2007 and led it into a small finance bank in 2016 (Finimize; cashlesstime). Investors had raised the question for about three years (cashlesstime).
 
 ### The curiosity gap
-- Its revenue grew 14 times in a year and it made an operating profit last quarter, yet the filing shows an $80.7 billion loss, more than five times its revenue. Where did $72 billion of loss come from, when no cash left the bank?
-- The more the company is worth, the bigger the loss it books on paper. How can getting richer show up as losing money?
+- Record profit and a 20% crash on the same day. What spooked investors so badly that the best quarter in the bank's history didn't matter?
+- The CEO says the only link was one deposit, repaid two and a half years ago, and that he disclosed it. So why is a perception enough to make a founder walk out of the bank he built?
+- Small finance banks pull savers with higher FD rates. If your FD is with one, what does a CEO exit actually change for you, and what doesn't it?
 
 ### How hot it is
-- trends.py 'Anthropic IPO': HOT (saturated: everyone has it, needs a sharper angle); Google News 100 today of 100 this week; YouTube this week 17 videos (10 in the last 24 h), 1,049,544 views, best 11,004/hr ('Anthropic REVEALS MASSIVE LOSSES In IPO Filing', 264,095 views in 24 h).
-- vidIQ keyword research 'anthropic ipo' (IN): volume 78, competition 71, about 162,565 monthly searches, demand +177.3%; top markets US 19%, India 17%, Canada 10%.
-- vidIQ YouTube by views since 25 Oct: WSJ News 'How profitable is Anthropic?' 175K (5.7× channel); Nanalyze 'The misleading $80 billion loss' chapter, 26K; In the Loop AI 'I was wrong about the Anthropic IPO' 24K, explains the $72.4 billion paper loss. No Hindi or Hinglish Short on the loss found.
-- vidIQ Instagram/TikTok outliers (India, since 22 Oct): no Anthropic reel among the top 10 (Jio and gold took them); on TikTok, @graceblakeley0 'The Big Short: AI edition' 863K (80.5× median) is the AI-bubble angle.
-- Our own E15 on the same company: 1,891 public plays at 6.5 h (strategist, 28 Oct).
+- trends.py 'Equitas Small Finance Bank': RISING; Google News 26 of 27 stories this week came today (96%); not on Google trending; YouTube this week 2 videos, best 12 views/hr (the trends.py YouTube query missed the crash videos below).
+- vidIQ YouTube (IN, since 28 Oct, by views): MoneyControl Hindi 2:09 explainer 1,247 views; Ipo Wala 9 s Short 1,069 (12× channel); Piyush Lambat 'Bank CEO Resigns Over Daughter?!' Short 1,035 (35× channel); two long Hindi explainers under 200.
+- vidIQ Instagram/TikTok outliers (India, since 16 Oct): nothing on Equitas; the top results were Jio IPO reels.
+- vidIQ keyword research 'equitas small finance bank share' (IN): under 750 monthly searches, competition 37. Viewers will meet it in the feed, not in search.
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [WSJ News (YouTube)](https://www.youtube.com/watch?v=q1tw29SieHo) | 3:53 reporter walk-through of the S-1: growth and the risks list | 175K | 5.7× channel | 26 Oct |
-| [In the Loop AI (YouTube)](https://www.youtube.com/watch?v=6JujAGXBLgg) | 25-minute read of the filing; 'The $80 billion paper loss' chapter explains the $72.4 billion accounting charge | 24K | 1.1× channel | 27 Oct |
-| [Nanalyze (YouTube)](https://www.youtube.com/watch?v=nAlXOYHDeLM) | 11:45 'The only Anthropic IPO video you need', with a 'misleading $80 billion loss' chapter | 26K | 1.1× channel | 27 Oct |
-| [Coin Bureau (YouTube)](https://www.youtube.com/watch?v=5MXHSeYiZ6g) | 13:47 'Anthropic's $2 trillion IPO is a trap': backers are also suppliers; shareholders have no control | 28K | – | 27 Oct |
-| [@graceblakeley0 (TikTok)](https://www.tiktok.com/@graceblakeley0/video/7700205600323423521) | Talking head with 2008 archive cutaways: 'The Big Short: AI edition' | 863K | 80.5× median | 24 Oct |
+| [Piyush Lambat (YouTube Short)](https://www.youtube.com/watch?v=HTr19wJqYTs) | 1:07 Hinglish 'Bank CEO resigns over daughter?!': perception vs reality, governance drama | 1K | 35× channel | 29 Oct |
+| [MoneyControl Hindi (YouTube)](https://www.youtube.com/watch?v=r7YQVRylDlo) | 2:09 news read: CEO resigns, share crashes 20% to ₹52.11, the daughter's NBFC | 1.2K | – | 29 Oct |
+| [Ipo Wala (YouTube Short)](https://www.youtube.com/watch?v=NNcJHfoAB9g) | 9 s price card: −12.22%, 'resignation shock' | 1.1K | 12× channel | 29 Oct |
 
-_The English channels make long reads of the filing, and the headline everywhere is the $80.7 billion loss. Nobody makes it a 25-second Hinglish reel, and nobody says it plainly: most of the loss is the company's own rising price, booked as a cost._
+_Only tiny channels and news reads so far, none past 1,250 views, and nothing on Instagram. Nobody has led on the contradiction (best quarter ever, worst day in years) or answered the question every SFB depositor has._
 
 ### Facts and sources
-- S-1 public 26 Oct; Nasdaq, ticker ANT; Goldman Sachs and Morgan Stanley lead; H1 revenue $16.3 bn; Q2 $11.6 bn, Q1 $4.7 bn; Q2 operating income $974 m after a $1.7 bn Q1 operating loss; H1 net loss $80.7 bn; $965 bn May valuation, $1.5–2 tn expected; up to $120.5 bn SpaceXAI compute through 2029. — [Yahoo Finance live blog, 26 Oct 2026](https://finance.yahoo.com/technology/live/anthropic-ipo-live-updates-frontier-ai-lab-discloses-revenue-and-risks-in-highly-anticipated-s-1-filing-141702607.html)
-- H1 2026 revenue $16.3 bn vs $1.16 bn in H1 2025; net loss $80.7 bn, of which $72.4 bn non-cash fair-value changes on convertible notes, derivatives and SAFEs; H1 operating loss $693 m vs $2.1 bn; cash and short-term investments $131.7 bn. — [Crypto Briefing, 26 Oct 2026](https://cryptobriefing.com/anthropic-s1-filing-ipo-release/)
-- Net loss $80,748 m 'includes $72,388 million of non-cash fair-value changes' (S-1 p. 23); Q2 operating income $974 m, first profitable operating quarter of six shown (p. 158); Class F share with 50.1% of the vote; Trust elects a board majority. — [The VC Corner, S-1 summary with page references](https://www.thevccorner.com/p/anthropic-s1-ipo-filing)
-- The filing itself (for the p. 23 wording before the script freezes). — [SEC EDGAR, Anthropic, PBC Form S-1](https://www.sec.gov/Archives/edgar/data/0002130357/000162828026067168/anthropicpbc-sx1.htm)
+- Resignation letter dated 29 Oct 2026; daughter co-promoter of Unico Housing Finance (RBI licence 2023); one short-term deposit ~2.5 years ago, repaid; previous close ₹65.13; intraday low ₹52.11 (20% lower circuit); close ₹57.17 (−12.22%); Q2 profit ₹218 crore (highest ever); total business past ₹1 lakh crore; with Equitas since 2007, SFB in 2016; successor needs RBI approval. — [cashlesstime (summary of the filing and reports), 29 Oct 2026](https://www.cashlesstime.com/2026/10/equitas-sfb-shares-under-pressure-after.html)
+- Shares fell 20% to ₹52.11; about ₹1,500 crore of market cap wiped; Q2 profit ₹218 crore; H1 profit ₹401.6 crore vs ₹199.6 crore loss a year earlier; total income ₹2,357.5 crore vs ₹1,846.3 crore; gross NPA 2.29% from 2.92%; board accepted the resignation 29 Oct. — [Indian Opinion, 29 Oct 2026](https://indianopinion.org/equitas-sfb-ceo-resigns-stock-crashes-20-on-conflict-concern/)
+- Fell as much as 20%; record quarterly profit ₹2.18 bn; total business past ₹1 trillion; Unico unlisted, started 2023 by his daughter; one deposit transaction; RBI contacted the board (media reports); he called the questions an 'overhang'. — [Finimize, 29 Oct 2026](https://finimize.com/content/equitas-ceo-steps-down-after-conflict-questions-hit-shares)
+- Headline and search summary: 'slumps 12%'; lower circuit ₹52.04 from ₹65.13; closed −12.22% (page refused our fetch, figures from the search summary). — [Moneylife, 29 Oct 2026](https://www.moneylife.in/article/equitas-small-finance-bank-slumps-12-percentage-as-md-and-ceo-p-n-vasudevan-resigns-over-conflictofinterest-perception/82065.html)
 
 ### Watch out
-- No buy, apply or avoid call on ANT, and no view on whether the valuation is right; the $1.5–2 trillion is press reports of what Wall Street expects, say it that way.
-- The 'rising value makes a bigger paper loss' explanation is our reading of how fair-value accounting works on notes and SAFEs; the desk could not open the S-1 itself from here (too large to fetch). Check p. 23 before the script says why.
-- Revenue 'about 14 times' is our arithmetic ($16.3 bn ÷ $1.16 bn). The VC Corner quotes the S-1 at 1,300% growth for the half; both say the same thing.
-- Stake scored 0: Indian viewers can reach a US IPO only through LRS and foreign brokers; it travels on the name, not the wallet.
-- Real people: a real photo of Dario Amodei is fine (CLAUDE.md rule 4, as in E15); no invented quote from him. Anthropic's official logo is fine because the reel is about the company; never have an image model draw it.
-- Bets: B1 (the logo and the $80.7 billion loss on the top half from frame one), B2 (one idea, the paper loss, inside 30 s), B3 (for the friend who says AI is a bubble, or the one who says it prints money).
+- No buy, sell or 'is this a bargain' call, and per the SEBI price-data rule no price levels or chart on screen: say 'lower circuit' and the % fall, not ₹52 or ₹65.
+- Two sources disagree on the low (₹52.11 NSE, ₹52.04 in the Moneylife summary) and on the profit (₹218 vs ₹220 crore); both are moot if the reel uses '20%' and '₹218 crore, its best quarter ever'. BusinessLine, CNBC-TV18, NDTV Profit and Zee Business refused our fetches, so the profit's year-ago comparison is left out (reports give different bases).
+- Fairness: nobody has alleged wrongdoing. He calls it a perception; he says the link was disclosed and the one deposit repaid. Say 'conflict of interest ka sawaal' or 'perception', never 'scam'. Don't name or show his daughter; she is a private person. P N Vasudevan's real photo is fine (CLAUDE.md rule 4); no invented words in his mouth.
+- The depositor angle needs a checked number before it goes on air: DICGC deposit insurance per depositor per bank; the desk couldn't open dicgc.org.in this morning.
+- Bets: B1 (Equitas logo with '−20%' and 'record profit' on the top half from frame one), B2 (one idea, why a perception beat a record quarter, inside 30 s), B3 (for the friend who keeps his FD in a small finance bank for the extra rate).
 
-## 2. Jio listed at +21% and closed its first day worth ₹13 lakh crore, India's second most valuable company. Reliance is now bigger than the Tata Group
+## 2. Jio Platforms reports its first results as a listed company today, two days after the biggest listing India has seen
 
-Hot lane (tracked; new turn: the day after listing) · HOT · **8/10** (momentum 3/3, stake 1/1, shareability 1/2, gap 1/2, known name 2/2) · tracker id `jio-ipo`
+Hot lane (tracked since 18 Oct; new turn: first results as a listed company, today) · HOT · **8/10** (momentum 3/3, stake 1/1, shareability 1/2, gap 1/2, known name 2/2) · tracker id `jio-ipo`
 
-Window: Today and Friday. After that the story turns into where Jio settles and Nifty inclusion.
+Window: Results land this evening (Fri 30 Oct, board meeting, then an analyst meet); best as Saturday morning's reel, while the results are the news.
 
 ### What's happening
-- Jio Platforms listed on Wed 28 Oct at ₹1,358 on NSE and BSE, 21.36% over the ₹1,119 issue price, and settled at ₹1,419, up 4.49% on the day, a market cap of ₹13,05,380 crore (Upstox live blog, 10:00 and 15:47). ₹1,419 is about 26.8% over the issue price (our arithmetic).
-- At 11:05 it became India's second most valuable company after Reliance Industries (₹15.94 lakh crore at that time), and at 10:51 CNBC-TV18 reported Reliance had overtaken the Tata Group as India's most valuable conglomerate (Upstox live blog).
-- A retail lot was 12 shares for ₹13,428; at the listing price it was worth ₹16,296, a ₹2,868 gain (Upstox). At the ₹1,419 settle it was worth ₹17,028, about ₹3,600 up (our arithmetic).
-- But most retail applicants got nothing: retail bids were for 23.49 crore shares against 8.50 crore offered, so roughly 36% of retail demand was filled (Chittorgarh, sent yesterday; our arithmetic), with about 1.38 crore applications overall.
-- The ₹30,188 crore issue was all fresh shares; up to ₹27,500 crore goes to repay or prepay the debt of Reliance Jio Infocomm (DeshGujarat, quoting the listing reports).
-- Yesterday's angle still stands as context: the record Jio broke belonged to Anil Ambani's Reliance Power, which listed in 2008 at a 21% premium and closed day one 17% below its issue price (The Tribune, 12 Feb 2008). Jio didn't repeat it: it closed day one higher than it opened.
-- Sources still differ on the subscription (22.19× in the Upstox blog and Business Today; 16.36× in one listing report; Chittorgarh 21.36×): say 'over 20 times' or avoid the number.
+- Jio Platforms listed on Wed 28 Oct at ₹1,358 against an issue price of ₹1,119, a 21.4% listing gain, after a ₹30,213 crore IPO subscribed more than 22 times (QIBs 70.55×) (The Week, 28 Oct).
+- On day one its market value, about ₹12.52 lakh crore, passed Bharti Airtel's (about ₹12.12 lakh crore) (The Week, 28 Oct). On Thu 29 Oct it rose about 5% more; reports put it at about ₹13.05 lakh crore at 4 pm, India's second most valuable listed company after Reliance (search summary of the indmoney quote; Business Standard and Fortune India headlines).
+- Reliance owns more than 64% after the IPO; Mukesh Ambani was in tears during his children's speeches at the listing (CNBC via Reuters, 29 Oct; ET Markets clip 'Mukesh Ambani gets emotional during Isha speech').
+- New today: the board meets on Fri 30 Oct to approve Q2 FY27 results, its first as a listed company; an analyst meet follows (Upstox; WhalesBook, both quoting the exchange filing). Brokers expect ARPU around ₹215–220 (two previews disagree: ₹219.5 and ₹215.6).
+- Same week: Airtel reported Q2 profit down 26% (Bhaskar English headline, 29 Oct; not opened, check before use).
 
 ### The curiosity gap
-- A company you couldn't buy last week is now worth more than Airtel, HDFC Bank and TCS, after just one day of trading. How does a listing do that?
-- About 1.38 crore people applied, and most of the retail money came back as a refund. Those who got a lot made about ₹3,600. Who actually made money on India's biggest IPO?
+- Lakhs of people now own Jio shares for the first time. Tonight they get their first report card as owners: what number actually tells them whether the business is worth ₹13 lakh crore?
+- Jio is now worth more than Airtel, yet Airtel has been the one raising profits faster. Does the first results day prove the listing price right, or does the market already know?
 
 ### How hot it is
-- Tracker 'jio-ipo': HOT, rising; Google News 92 of 100; YouTube this week 527,519 views, best 5,082/hr.
-- trends.py 'Jio Platforms share': HOT; 12 news stories today of 15 this week (80% today); 3 YouTube videos, 233,568 views, best 7,724/hr.
-- vidIQ YouTube (IN, since 27 Oct, by views): DeshGujarat 'Anant Ambani with nephew Krishna at Jio IPO listing' 18 s, 1.92M (about 174,000/hr); Jagran Business 'Mukesh Ambani in tears at Anant's speech' 695K; NDTV Profit listing-moment Short 420K; CNN-News18 full ceremony 370K; Moneycontrol Hindi Anant's speech 267K (24.9× channel).
-- vidIQ Instagram outliers (India, since 22 Oct): Jio is 6 of the top 10 (@tazakhabhar.in 3.8M, 585×; @rockmehul 'the reality of Jio Platforms IPO' 3.7M, 134×; @newspin.tv 1.3M, 876×; @salary2sampatti '12 shares allotted, sell or hold?' 763K, 414×).
-- vidIQ keyword research 'jio share price' (IN): fewer than 750 monthly searches so far, competition 50 (new ticker).
+- trends.py 'Jio Platforms share': HOT; 34 of 37 news stories this week came today (92%); YouTube this week 10 videos (8 in the last 24 h), 2.6M views, best 27,400/hr (the Ambani family at NSE).
+- vidIQ trending Shorts since 28 Oct (by views/hr): 'Ambani family kids stole the spotlight' 720K (42,883/hr); Business Standard listing ceremony 643K; CNN-News18 'Business is puja' 591K; ET Markets 'Mukesh Ambani gets emotional' 259K.
+- vidIQ Instagram outliers (India, since 26 Oct): @simarfinance 'Jio listing pe becha?' 2.6M (132×); @dear_jashika allotment POV 3.2M (1,206×); @ipo.gyani '92% buy orders' 716K (6.4×); @viralbhayani bell ceremony 833K (3.1×).
+- vidIQ keyword research 'jio platforms share' (IN): under 750 monthly searches, competition 53. People watch it in the feed.
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [DeshGujarat Local (YouTube)](https://www.youtube.com/watch?v=cTcUDVbOqwA) | 18 s candid clip: Anant Ambani calming his nephew during the listing ceremony | 1.92M | – | 28 Oct |
-| [Jagran Business (YouTube)](https://www.youtube.com/watch?v=B6GXslDXpPo) | 2:56: Mukesh Ambani emotional at Anant's 'business is puja' speech | 695K | – | 28 Oct |
-| [NDTV Profit (YouTube Short)](https://www.youtube.com/watch?v=BKnZAnAuex8) | 28 s: the moment India's largest IPO listed | 420K | – | 28 Oct |
-| [@salary2sampatti (Instagram)](https://www.instagram.com/reel/De_Lil_Tlrv) | Motion graphics: 'I got 12 Jio shares, it lists tomorrow, do I sell?' | 763K | 413.7× median | 27 Oct |
-| [@rockmehul (Instagram)](https://www.instagram.com/reel/DezRe1TpQ3k) | In-car talking head with screenshots: hyped IPOs that disappointed | 3.7M | 134.3× median | 22 Oct |
+| [@simarfinance (Instagram)](https://www.instagram.com/reel/DfCQEzuPEyP) | Faceless motion graphics: 'JIO KA SHARE LISTED 1,358', sold on listing vs held | 2.6M | 132× | 28 Oct |
+| [@ipo.gyani (Instagram)](https://www.instagram.com/reel/DfBr1zPN6Oq) | 10 s: Ambani at NSE with the buy-order screenshot, 'operator kaun hai?' | 716K | 6.4× | 28 Oct |
+| [ET Markets (YouTube Short)](https://www.youtube.com/watch?v=ecn7CY1nJv8) | 55 s clip: Mukesh Ambani emotional during Isha's speech, hugs her | 259K | – | 28 Oct |
 
-_The day after is all ceremony clips (the Ambani family, Anant's speech) and per-lot gain maths. Nobody has put the scoreboard on screen: one day old and ahead of Airtel, HDFC Bank and TCS, with Reliance now ahead of the Tata Group, while most applicants got a refund._
+_Everyone has done the listing, the allotment and the Ambani family. Nobody can have the results yet: the first 'report card for new owners' reel tomorrow morning has the field to itself._
 
 ### Facts and sources
-- Listed ₹1,358 (+21.36% over ₹1,119); settled ₹1,419 (+4.49%), market cap ₹13,05,380.12 crore (15:47); second most valuable after Reliance (₹15.94 lakh crore) at 11:05; Reliance overtook the Tata Group (10:51, citing CNBC-TV18); lot 12 shares, ₹2,868 gain at listing; subscribed 22.19×. — [Upstox live blog, 28 Oct 2026](https://upstox.com/news/market-news/ipo/jio-platforms-ipo-listing-live-updates-share-price-nse-bse-reliance-industries-subsidiary-october-28-2026/liveblog-202492/)
-- Listed at ₹1,358, 21.36% premium on NSE and BSE. — [HDFC Sky, 28 Oct 2026](https://hdfcsky.com/news/jio-platforms-shares-debut-at-rs-1358-on-nse-and-bse-against-rs-1119-issue-price)
-- ₹30,188 crore all-fresh issue; up to ₹27,500 crore to repay Reliance Jio Infocomm's borrowings; 540 million customers (Akash Ambani); lot of 12 at ₹13,428. — [DeshGujarat (YouTube description of the listing report), 28 Oct 2026](https://www.youtube.com/watch?v=LvRfjn4uJB4)
-- Retail 23,49,11,016 shares bid for 8,50,37,326 offered; 1,38,65,863 applications (context, sent 28 Oct). — [Chittorgarh, Jio Platforms IPO page](https://www.chittorgarh.com/ipo/jio-platforms-ipo/3152/)
-- Reliance Power listed 11 Feb 2008 at ₹547.80, closed ₹372.50 against ₹450 issue (context). — [The Tribune, 12 Feb 2008](https://www.tribuneindia.com/2008/20080212/main1.htm)
+- Issue ₹1,119; listing ₹1,358; ₹30,213 crore raised; 22× subscribed, QIB 70.55×, NII 14×; m-cap ₹12,51,967 crore vs Airtel ₹12,11,842 crore on day one. — [The Week, 28 Oct 2026](https://www.theweek.in/news/biz-tech/2026/10/28/jio-platforms-dethrones-bharti-airtel-after-record-ipo-listing-shares-trade-flat.html)
+- Board meeting 30 Oct for Q2 FY27 results, first as a listed company; analyst meet after; trading window closed to 1 Nov. — [Upstox, 28 Oct 2026](https://upstox.com/news/market-news/earnings/jio-platforms-q2-digital-services-major-to-announce-results-on-october-30-after-wednesday-s-market-debut/article-202496/)
+- Ambani emotional at the listing; Reliance holds more than 64%; Jio India's second most valued firm (headline and search summary; the page refused our fetch). — [CNBC, 29 Oct 2026](https://www.cnbc.com/2026/10/29/ambani-billionaire-jio-ipo-india.html)
 
 ### Watch out
-- IPO and listing facts only: no hold, sell or 'buy on dips' call, no price target, no chart with price levels (docs/platform-playbook.md).
-- The ranking (second most valuable) was at 11:05 on listing day; recheck the market caps on the morning it posts, since Jio and Airtel move daily.
-- 'Reliance overtook Tata' is CNBC-TV18 via the Upstox blog, without the Tata figure; say it as reported.
-- The ceremony clips are the Ambanis' real footage; use them as footage, never with words they didn't say, and no lip-sync. Jio's official logo is fine.
-- Bets: B1 (the Jio logo with '₹13 lakh crore, day one' on the top half from frame one), B2, B3 (for the friend who didn't get an allotment).
+- IPO and results facts only: no buy, hold, sell or 'add more' call, and no price levels or chart (SEBI price-data rule); market value and % moves are fine.
+- The day-two market cap varies by source and time of day (₹13.05 to ₹13.70 lakh crore); use the closing figure from one source, dated.
+- The results aren't out until this evening; every results number must come from the exchange filing or a report of it, opened tonight or tomorrow morning.
+- Real people: real NSE-ceremony footage or a news photo of Mukesh Ambani is fine (rule 4); no invented lines.
+- Bets: B1 (Jio logo with the one results number on the top half from frame one), B2, B3 (for the friend who got the allotment).
 
-## 3. Market TV wants the LTCG tax cut. The Ken says don't. The tax nearly doubled to ₹1.29 lakh crore in a year, while foreign investors pulled ₹3.07 lakh crore
+## 3. eMudhra revoked the certificates on 19 Oct. On 24 Oct, 773 Indian government sites were still serving them, including the visa portal and NCERT
 
-Deep lane (via The Ken, 29 Oct: 'Don't cut the LTCG tax on equity, finance minister') · HOT · **7/10** (momentum 2/3, stake 1/1, shareability 2/2, gap 2/2, known name 0/2) · tracker id `ltcg-cut-debate`
+Deep lane (via The Ken, 30 Oct: 'Hundreds of government websites are running on revoked security certificates. Who's checking?'; the eMudhra follow-up the strategist asked for) · COLD · **5/10** (momentum 0/3, stake 0/1, shareability 2/2, gap 2/2, known name 1/2) · tracker id `emudhra-gov-sites`
 
-Window: Two weeks or so, while the pre-Budget campaign runs; it returns at the Budget (1 Feb 2027).
+Window: About two weeks (deep lane), or sooner if MeitY or CERT-In answers SFLC.in, publishes a list, or the count drops.
 
 ### What's happening
-- On 13 Oct the finance minister said LTCG and STT come up often with domestic and global investors and that a healthy debate is welcome, without committing to any change (Business Today, 27 Oct and 15 Oct).
-- Since then a campaign: Zee Business ran 'Is a big tax cut coming?' (209K views) and a daily 'tax relief' appeal; SBI Research proposes scrapping LTCG on equities and stretching the holding period to two or three years (Business Today, 27 Oct).
-- Today The Ken argues the other side in its headline: 'Don't cut the LTCG tax on equity, finance minister' (29 Oct; paywalled, headline only).
-- The money: LTCG on equity raised ₹1,29,158 crore in FY 2024-25, up from ₹72,249 crore the year before, nearly double (Lok Sabha reply by MoS Finance Pankaj Chaudhary, 20 Jul 2026, via KalingaTV/ANI); STT raised ₹57,522 crore in FY26 (Business Today, 27 Oct). The government told Parliament in July there is no proposal to scrap it.
-- The rate today: 12.5% on long-term equity gains above ₹1.25 lakh a year (raised from 10% and ₹1 lakh in July 2024; Business Today, 15 Oct).
-- Why now: foreign investors have sold ₹3.07 lakh crore of Indian equities this year to 23 Oct (Grant Thornton Bharat), the Nifty is down 13.1% this year to 26 Oct while Taiwan is up 59% and Korea 29.8%, and the rupee is down 5.58% (Business Today, 27 Oct).
+- Background (our E13): on 17 Oct eight eMudhra intermediate certificate authorities were found to have trivially recoverable private keys; they were revoked on 18 Oct (Nemo's blog, captnemo.in). eMudhra's stock fell 36% within a week (The Ken), and on 22 Oct it said it would exit the global SSL/TLS certificate business; it says no data was breached (eMudhra press release; Deccan Herald).
+- The new turn: on 19 Oct eMudhra also revoked 9,356 certificates on its other (RSA) hierarchy, marked 'superseded'. Many government sites never installed the replacements (Nemo; SFLC.in, 28 Oct).
+- Nemo's count: 1,366 Indian government domain names on revoked certificates; 773 were still serving the revoked certificate on 24 Oct (captnemo.in, updated 24 and 25 Oct). The Ken (30 Oct) reports it as 773 of 1,366, nearly 60%.
+- Named sites still serving revoked certificates on 24 Oct include indianvisaonline.gov.in, the National Scholarship Portal (nsp.gov.in), census, CBSE's Pariksha Sangam, NCERT textbooks, Incredible India, Mumbai Police and Maharashtra Cyber; Nemo also lists sites tied to MeitY, UIDAI and the Controller of Certifying Authorities (captnemo.in). The Ken names FSSAI, Railways, TRAI and NCRB from the first count.
+- What a visitor sees depends on the browser: Firefox refuses these sites; Chrome, Edge and Android load them anyway; Safari blocks some (captnemo.in). On 21 Oct MeitY said the impact on Indian sites was 'very limited and brief'; Nemo disputes it (captnemo.in).
+- SFLC.in wrote to MeitY, CERT-In and eMudhra on 28 Oct asking for the certificates to be replaced, a public list of affected domains and an action-taken report (SFLC.in).
 
 ### The curiosity gap
-- The first ₹1.25 lakh of long-term gains a year is already tax-free. So who is the cut really for, and who pays when ₹1.29 lakh crore a year has to come from somewhere else?
-- TV anchors are campaigning for a tax cut, a bank's research arm wants it scrapped, and The Ken says don't. Would it bring foreign money back, or just hand a gift to the biggest portfolios?
+- The government's own websites, the visa portal, the scholarship portal, NCERT's books, are still showing certificates that were cancelled 11 days ago. Who is supposed to notice, and why hasn't anyone?
+- Open the same government site in Chrome and it loads; open it in Firefox and it's blocked. Which browser is telling you the truth?
 
 ### How hot it is
-- trends.py 'LTCG tax': HOT; 8 news stories today of 32 this week (25%); YouTube this week 16 videos (14 in the last 24 h), 1,030,017 views, best 8,709/hr (Zee Business, Anil Singhvi).
-- vidIQ keyword research 'ltcg tax' (IN): under 750 monthly searches, competition 70; viewers watch it on market TV rather than search for it.
-- vidIQ YouTube (IN, since 24 Oct): Zee Business 'Is a big tax cut coming?' 209K; The Bonus 'LTCG-STT tax cut, will FIIs return?' 31K (2.7× channel); Business Today Ajay Srivastava 1:23, 5.6K (4.6× channel). No Instagram outlier on it in the last week.
+- trends.py 'government websites revoked certificates': COLD; no Google News stories this week under that phrase; YouTube this week 16 videos, best 414/hr.
+- vidIQ keyword research 'emudhra' (IN): about 53,000 monthly searches (28,000 in India; India 53% of searches), competition 43.
+- vidIQ Instagram outliers (India, since 16 Oct): @thevarunmayya 'one of the biggest security failures in India' 1.1M (11× median, 21 Oct, the original weak-key story); @bushra_rubeena 'last 72 hours' (PHP flaw plus the certificates) 2.6M (390×). Nobody covered the government-sites turn.
+- vidIQ YouTube (IN, since 18 Oct): two tiny videos on it (49 and 7 views).
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [Zee Business, Anil Singhvi (YouTube)](https://www.youtube.com/watch?v=-FoIB704pgQ) | 6:29 editor's take: what should change in STT and LTCG; should FIIs pay zero LTCG | 209K | – | 27 Oct |
-| [The Bonus (YouTube)](https://www.youtube.com/watch?v=wBIT9UPcVhw) | 9:23 explainer: LTCG vs STT, ₹1.29 lakh crore and ₹57,522 crore, will FIIs return | 31K | 2.7× channel | 27 Oct |
-| [Business Today, Ajay Srivastava (YouTube)](https://www.youtube.com/watch?v=4AeHGYg-QRE) | 1:23: the 12.5% isn't the problem; make profits first | 5.6K | 4.6× channel | 27 Oct |
+| [@thevarunmayya (Instagram)](https://www.instagram.com/reel/DexKcYsTjRv) | Split screen with animated diagrams: the weak keys, why it matters | 1.1M | 11× | 21 Oct |
+| [@bushra_rubeena (Instagram)](https://www.instagram.com/reel/De7whb0SOQm) | Talking head with screenshots: 'what happened in the last 72 hours' (PHP flaw and the certificates), how to stay safe | 2.6M | 390× | 25 Oct |
 
-_All of it is market TV asking for relief, in long panels. Nobody has made the short version from the viewer's side: the first ₹1.25 lakh is already tax-free, the tax doubled in a year, and the case against the cut that The Ken made today._
+_The weak-key story travelled (1.1M and 2.6M). Nobody has made the sequel: the cancelled certificates are still on the government's own sites 11 days later, and it's The Ken's story today._
 
 ### Facts and sources
-- LTCG ₹1.29 lakh crore FY25 (from ₹72,249 crore); STT ₹57,522 crore FY26; FPI equity outflows ₹3.07 lakh crore in 2026 to 23 Oct; Nifty −13.1% YTD (26 Oct); Taiwan +59%, KOSPI +29.8%; rupee −5.58%; SBI Research: scrap LTCG, 2–3 year holding period; FM's 13 Oct remarks. — [Business Today, 27 Oct 2026](https://www.businesstoday.in/latest/economy/story/budget-2027-can-ltcg-tax-cut-stem-fpi-outflows-and-bring-foreign-investors-back-to-indian-equities-563873-2026-10-27)
-- ₹1,29,158 crore equity LTCG in AY 2025-26 (FY 2024-25) vs ₹72,249 crore; no proposal to scrap (Lok Sabha written reply, MoS Pankaj Chaudhary). — [KalingaTV (ANI), 20 Jul 2026 (context: older than a week, the newest official figure)](https://kalingatv.com/business/no-proposal-to-scrap-ltcg-tax-on-equities-centre-collected-rs-1-29-lakh-crore-from-levy-in-fy25-govt-tells-parliament/)
-- 12.5% on gains above ₹1.25 lakh; raised from 10% and ₹1 lakh in July 2024; STCG 15% → 20%. — [Business Today, 15 Oct 2026](https://www.businesstoday.in/markets/story/ltcg-tax-rollback-what-investors-want-from-budget-2027-and-will-the-government-deliver-561649-2026-10-15)
+- 17 Oct weak keys found; 18 Oct intermediates revoked; 19 Oct 9,356 RSA certificates revoked as 'superseded'; 1,366 government names, 773 still serving on 24 Oct; named sites; browser behaviour; MeitY's 21 Oct statement. — [Nemo, captnemo.in, 23 Oct 2026 (updated 24 and 25 Oct)](https://captnemo.in/blog/2026/10/23/emsign-revoked-gov-in/)
+- 773 of 1,366 government sites (nearly 60%) on revoked certificates; eMudhra stock −36% in a week; FSSAI, Railways, TRAI, NCRB; the author's Firefox test on 28 Oct (headline and public summary only; paywalled). — [The Ken, Make India Competitive Again #81, 30 Oct 2026](https://the-ken.com/newsletter/make-india-competitive-again/hundreds-of-government-websites-are-running-on-revoked-security-certificates-whos-checking/)
+- Revoked 19 Oct; replacements not installed; still served on 28 Oct; letters to MeitY, CERT-In and eMudhra with four asks. — [SFLC.in, 28 Oct 2026](https://sflc.in/sflc-in-writes-to-meity-cert-in-and-emudhra-regarding-critical-government-websites-relying-on-revoked-certificates/)
+- eMudhra to exit the global SSL/TLS certificate business (22 Oct); no data breach; free replacements. — [eMudhra press release, 22 Oct 2026](https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business)
 
 ### Watch out
-- Credit 'via The Ken' in the caption if the reel takes The Ken's side or angle; use only the headline and the public facts above, never paywalled text.
-- No view on whether to sell before or after a Budget change; nothing is announced. Say 'debate', not 'cut coming'.
-- The ₹1.29 lakh crore is a July figure from Parliament (context date), the newest official one; Business Today repeats it on 27 Oct.
-- No known name in frame one (scored 0); the rupee number has to carry the opening. The Ken's logo would be another company's brand: don't use it as the hook image.
-- Bets: B1 ('₹1.29 lakh crore' on the top half from frame one), B2, B3 (for the friend who thinks the tax cut is for him).
+- Credit The Ken in the caption ('via The Ken'); don't use its paywalled text. The numbers come from Nemo's public blog and SFLC.in.
+- The 773 is a 24 Oct count; some sites have since moved to new certificates (Nemo's table shows fixes from 20 to 26 Oct). Say 'on 24 Oct' or 'as of last week', not 'right now'.
+- Don't say users were hacked or data leaked: nobody has shown that. The risk SFLC.in names is impersonation and captured logins; say it as risk.
+- eMudhra is listed: no buy or sell call, no price levels; the −36% in a week is The Ken's figure.
+- Bets: B1 (the visa-portal address with a red 'REVOKED' stamp on the top half from frame one), B2, B3 (for the friend who filled a visa or scholarship form this week).
 
 ## Stories we're tracking
 
@@ -161,34 +151,35 @@ Full board: research/desk/TRACKER.md
 
 | Story | Now | Direction | Day | Status |
 |---|---|---|---|---|
-| Jio Platforms IPO (`jio-ipo`) | HOT | rising | 22 | active |
-| Airtel Money lists in London at $7 bn (via The Ken) (`airtel-money-london`) | FLAT | steady | 15 | active |
-| Mutual funds halt new gold FoF SIPs and bulk gold ETF buys (`gold-fund-halt`) | RISING | steady | 14 | active |
-| Insurance mis-selling complaints +14%; IRDAI crackdown may slip (via The Ken) (`insurance-misselling-ken`) | COLD | fading | 13 | active |
-| Groww's F&O share of revenue falls to 45%; turns to IPOs and wealth (via The Arc) (`groww-derivatives-arc`) | COLD | steady | 12 | active |
-| Air India FY26 loss ₹22,238 cr (~₹61 cr a day); SIA as saviour (via The Ken) (`air-india-loss-ken`) | COLD | steady | 10 | active |
-| Silver -46% from January record (₹3,84,632 → ₹2,08,380/kg) before Dhanteras (`silver-crash-46`) | HOT | rising | 9 | active |
-| Urban Company loss triples on InstaHelp: ₹114 booking, ₹279 loss (via The Morning Context) (`urban-company-instahelp`) | COLD | steady | 9 | active |
-| Oil at $112: shares, gold and silver fell the same day (`oil-slide-everything`) | COLD | fading | 7 | active |
-| SEBI final order: Avadhut Sathe ₹546 cr refund (`avadhut-sathe-refund`) | HOT | steady | 6 | active |
-| NSE unlisted buyers below IPO price (The Ken) (`nse-unlisted-regret-ken`) | HOT | fading | 6 | active |
-| Jio's prepaid (77% of revenue) sold only via Reliance Retail (via The Ken) (`jio-reliance-retail-ken`) | HOT | fading | 5 | active |
-| Gold ₹38,000 below January peak, ₹5,560/10g down in 3 days, before Dhanteras (`gold-dhanteras-fall`) | HOT | rising | 4 | active |
-| HDFC Bank's first outside CEO starts; share ~30% down in a year (via The Morning Context) (`hdfc-bank-bagchi`) | FLAT | steady | 3 | active |
-| Jewellery makers' IPO wave: money goes to gold and debt (via The Ken) (`jewellery-ipo-ken`) | COLD | new | 2 | active |
-| Anthropic S-1: $16.3 bn H1 revenue, $80.7 bn loss ($72.4 bn paper charge) (`anthropic-s1`) | - | new | 1 | active |
-| LTCG tax-cut debate: ₹1.29 lakh crore a year; The Ken says don't cut (`ltcg-cut-debate`) | - | new | 1 | active |
+| Jio Platforms IPO (`jio-ipo`) | HOT | rising | 23 | active |
+| Mutual funds halt new gold FoF SIPs and bulk gold ETF buys (`gold-fund-halt`) | FLAT | fading | 15 | active |
+| Insurance mis-selling complaints +14%; IRDAI crackdown may slip (via The Ken) (`insurance-misselling-ken`) | COLD | rising | 14 | active |
+| Groww's F&O share of revenue falls to 45%; turns to IPOs and wealth (via The Arc) (`groww-derivatives-arc`) | COLD | rising | 13 | active |
+| Air India FY26 loss ₹22,238 cr (~₹61 cr a day); SIA as saviour (via The Ken) (`air-india-loss-ken`) | COLD | rising | 11 | active |
+| Silver -46% from January record (₹3,84,632 → ₹2,08,380/kg) before Dhanteras (`silver-crash-46`) | COLD | fading | 10 | active |
+| Urban Company loss triples on InstaHelp: ₹114 booking, ₹279 loss (via The Morning Context) (`urban-company-instahelp`) | COLD | steady | 10 | active |
+| SEBI final order: Avadhut Sathe ₹546 cr refund (`avadhut-sathe-refund`) | FLAT | fading | 7 | active |
+| NSE unlisted buyers below IPO price (The Ken) (`nse-unlisted-regret-ken`) | HOT | rising | 7 | active |
+| Jio's prepaid (77% of revenue) sold only via Reliance Retail (via The Ken) (`jio-reliance-retail-ken`) | HOT | rising | 6 | active |
+| Gold ₹38,000 below January peak, ₹5,560/10g down in 3 days, before Dhanteras (`gold-dhanteras-fall`) | HOT | steady | 5 | active |
+| HDFC Bank's first outside CEO starts; share ~30% down in a year (via The Morning Context) (`hdfc-bank-bagchi`) | FLAT | rising | 4 | active |
+| Jewellery makers' IPO wave: money goes to gold and debt (via The Ken) (`jewellery-ipo-ken`) | COLD | rising | 3 | active |
+| Anthropic S-1: $16.3 bn H1 revenue, $80.7 bn loss ($72.4 bn paper charge) (`anthropic-s1`) | HOT | new | 2 | active |
+| LTCG tax-cut debate: ₹1.29 lakh crore a year; The Ken says don't cut (`ltcg-cut-debate`) | HOT | new | 2 | active |
+| Equitas SFB: record profit, CEO quits over daughter's NBFC, 20% lower circuit (`equitas-ceo-exit`) | - | new | 1 | active |
+| 773 government sites still serving eMudhra's revoked certificates (via The Ken) (`emudhra-gov-sites`) | - | new | 1 | active |
 
 ## Also on the wire
-- Gold before Dhanteras (tracked 'gold-dhanteras-fall', HOT on YouTube, no new turn today): still 3 of the 10 Indian money outliers on Instagram since 22 Oct (@theanupamajha_ 'gold below ₹1 lakh' 3.2M, 74.7×; @the_nishibhatia 'will gold fall to 56,000?' 2.6M, 179×; @astropuneetjoshi 'buy before Diwali' 800K). The strategist's plan still wants a gold or silver reel before Dhanteras (Fri 6 Nov); the desk will send it the morning a fresh price move gives it a number.
-- Results-day movers, Wed 28 Oct (Business Today headlines, opened via search only): CarTrade Tech −18% to ₹2,307.80 after Q2 results; Vedanta Iron and Steel 5% lower circuit at ₹26.60; HUL near a 52-week low (−3%); Maruti Q2 profit −26% to ₹2,466 crore on revenue +26%. CarTrade measured COLD on trends.py.
-- Markets: Sensex and Nifty ended lower on Wed 28 Oct with crude above $114 (Moneylife headline); the Nifty is down 13.1% this year (Business Today, 27 Oct). Tracked 'oil-slide-everything' is COLD and fading.
-- Also seen, not used: 3% DA hike for central government employees and pensioners from July (Moneylife, 28 Oct; government pay only); Rahul Gandhi alleges the Tata Group is being 'criminally destroyed', the FM hits back (Moneylife, 28 Oct; political); SEBI censures Axis Capital over a guarantee disguised as underwriting in a ₹260 crore Sojo Infotel NCD (SEBI order, 28 Oct); The Ken on JioHotstar's real overseas rival, a $10-a-month pirate box (28 Oct); The Morning Context on Westside as the next Zudio (28 Oct) and Wipro's Washington problem (27 Oct).
+- Anthropic S-1 (tracked 'anthropic-s1', HOT: 99 of 100 news stories this week today; 'Steve Eisman: Here's what Anthropic isn't telling you' 410K in 24 h). Not re-sent: Akhilesh's own hook-and-story draft for the valuation-up, loss-up follow-up is in scripts/drafts/ (29 Oct) waiting for his approval.
+- Markets Thu 29 Oct: Sensex +905 points, Nifty above 22,900 as the US Fed held rates and crude eased (Rediff; ET; Moneylife headlines). Movers on results: Nilkamal +20% (Q2 profit doubled), Birlasoft +13%, eClerx −13%, Pine Labs +7% (profit up sixfold), Adani Ports +6.29% (headlines only).
+- Seen, not verified: SEBI to make direct mutual-fund plans the default on AMC apps from 1 Nov, with regular-plan buyers told the higher expense ratio (CNBC-TV18, cited in a YouTube description). A salaried-investor stake story if it checks out; the desk will open the circular tomorrow.
+- Also seen, not used: Info Edge (Naukri) founder Sanjeev Bikhchandani back as CEO as Hitesh Oberoi steps down (Moneylife headline, 29 Oct; trends.py COLD); IndiGo says fare increases are inevitable as fuel costs rise (Reuters, 29 Oct; COLD); Coal India and Ambuja Cements Q2 misses (Reuters); The Core: 'Are record IPOs behind India's stagnant secondary market?' (29 Oct), a deep-lane option if Jio's listing keeps the IPO debate alive.
+- Gold before Dhanteras (Fri 6 Nov; tracked 'gold-dhanteras-fall', HOT on YouTube, no fresh price turn today) stays on the board for the strategist's plan.
 
 ## Where we stand
 
 467 followers (+181 this week)  
-Last reel (Anthropic IPO's Class F God share: 50.1% of the shareholder vote with the founders' LLC; a safety trust usually picks most directors; buy a stake, not the vote; tease: valuation up, loss up (S-1)): 1891 plays so far  
+Last reel (Anthropic IPO's Class F God share: 50.1% of the shareholder vote with the founders' LLC; a safety trust usually picks most directors; buy a stake, not the vote; tease: valuation up, loss up (S-1)): 6062 plays so far  
 What every reel is testing:  
 - Hook in frame one: swipe-aways in the first 3 s 52% now, target 45% (3 of 3 reels in)
 - Tight 20-30 s: average watched 39% now, target 45% (1 of 3 reels in)

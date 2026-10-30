@@ -23,7 +23,8 @@
     "2026-10-26: allotment today; 1,38,65,863 applications, max 70,86,443 retail allottees",
     "2026-10-27: 27 Oct: refunds today, listing Wed 28 Oct; ₹10.3 lakh cr at issue vs HDFC Bank ₹10.62 lakh cr",
     "2026-10-28: 28 Oct: listing day; record passes from Reliance Power 2008 (closed -17% day one)",
-    "2026-10-29: listed ₹1,358, settled ₹1,419, ₹13.05 lakh crore"
+    "2026-10-29: listed ₹1,358, settled ₹1,419, ₹13.05 lakh crore",
+    "2026-10-30: first results as a listed company today"
    ],
    "readings": [
     {
@@ -306,6 +307,19 @@
      "yt_week_views": 527519,
      "yt_best_vph": 5082,
      "yt_top": "Jio IPO Listing Price Prediction | What Will It Open At Tomorrow? (121,961 views in 24h)",
+     "google_trending": [],
+     "desk_score": 8.0
+    },
+    {
+     "date": "2026-10-30",
+     "label": "HOT",
+     "news_1d": 20,
+     "news_7d": 100,
+     "momentum_pct": 20,
+     "yt_week_videos": 13,
+     "yt_week_views": 3139237,
+     "yt_best_vph": 28784,
+     "yt_top": "WATCH: Isha Ambani's nephew rushes to the stage to join her in a heart (690,828 views in 24h)",
      "google_trending": [],
      "desk_score": 8.0
     }
@@ -2515,7 +2529,7 @@
    "first_seen": "2026-10-15",
    "lane": "deep",
    "window_until": "2026-10-29",
-   "status": "active",
+   "status": "retired",
    "notes": [
     "First sent 15 Oct. £1.96, £5.3 bn; 270m shares; flat debut 9 Oct; admission 14 Oct."
    ],
@@ -2691,8 +2705,24 @@
      "yt_best_vph": 1276,
      "yt_top": "Pick Your Win, Choice Yo! | Winner, Ruth Nahurira (153,064 views in 120h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-30",
+     "label": "FLAT",
+     "news_1d": 6,
+     "news_7d": 40,
+     "momentum_pct": 15,
+     "yt_week_videos": 7,
+     "yt_week_views": 222173,
+     "yt_best_vph": 1254,
+     "yt_top": "Pick Your Win, Choice Yo! | Winner, Ruth Nahurira (180,520 views in 144h)",
+     "google_trending": []
     }
-   ]
+   ],
+   "retired": {
+    "date": "2026-10-30",
+    "reason": "past its window"
+   }
   },
   {
    "id": "yes-bank-at1-sc",
@@ -2953,6 +2983,18 @@
      "yt_week_views": 150423,
      "yt_best_vph": 487,
      "yt_top": "Gold Price गिरने पर भी खरीदारी जारी! 13 हफ्तों से आ रहा पैसा (35,090 views in 72h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-10-30",
+     "label": "FLAT",
+     "news_1d": 9,
+     "news_7d": 18,
+     "momentum_pct": 50,
+     "yt_week_videos": 17,
+     "yt_week_views": 149235,
+     "yt_best_vph": 396,
+     "yt_top": "GOLD FALLING!! (38,053 views in 96h)",
      "google_trending": []
     }
    ]
@@ -3386,6 +3428,18 @@
      "yt_best_vph": 749,
      "yt_top": "IRDAI Insurance Reforms: Insurance Commission पर बड़ा बदलाव! सस्ती होग (17,967 views in 24h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-30",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 2,
+     "momentum_pct": 0,
+     "yt_week_videos": 9,
+     "yt_week_views": 45382,
+     "yt_best_vph": 504,
+     "yt_top": "IRDAI Insurance Reforms: Insurance Commission पर बड़ा बदलाव! सस्ती होग (24,198 views in 48h)",
+     "google_trending": []
     }
    ]
   },
@@ -3649,6 +3703,18 @@
      "yt_best_vph": 1504,
      "yt_top": "Jio IPO Allotment Status,How to Check IPO Allotment | GMP Today (72,181 views in 48h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-30",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 11,
+     "yt_week_views": 321713,
+     "yt_best_vph": 2443,
+     "yt_top": "Jio IPO Allotment Status Check | KFintech, BSE और NSE पर ऐसे चेक करें  (175,896 views in 72h)",
+     "google_trending": []
     }
    ]
   },
@@ -3845,6 +3911,18 @@
      "yt_best_vph": 849,
      "yt_top": "Aviation Mystery EP.93: Air India Express Flight 1344 Crashes into a C (40,738 views in 48h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-30",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 16,
+     "yt_week_views": 690750,
+     "yt_best_vph": 4765,
+     "yt_top": "Fish fry 🔥Recipe cooking in Air Fryer #airfryer #fishfry (457,409 views in 96h)",
+     "google_trending": []
     }
    ]
   },
@@ -3967,6 +4045,18 @@
      "yt_best_vph": 4702,
      "yt_top": "Silver Price Crash Coming? Biggest Silver Market Warning & What Happen (112,858 views in 24h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-30",
+     "label": "COLD",
+     "news_1d": 1,
+     "news_7d": 8,
+     "momentum_pct": 12,
+     "yt_week_videos": 15,
+     "yt_week_views": 849479,
+     "yt_best_vph": 2803,
+     "yt_top": "Silver Price Crash Coming? Biggest Silver Market Warning & What Happen (134,542 views in 48h)",
+     "google_trending": []
     }
    ]
   },
@@ -4081,6 +4171,18 @@
      "yt_best_vph": 1902,
      "yt_top": "Vodafone Idea में 143% Upside? BSE, Sona BLW और Urban Company पर Broke (45,643 views in 24h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-30",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 1,
+     "momentum_pct": 0,
+     "yt_week_videos": 15,
+     "yt_week_views": 188163,
+     "yt_best_vph": 1214,
+     "yt_top": "Vodafone Idea में 143% Upside? BSE, Sona BLW और Urban Company पर Broke (58,260 views in 48h)",
+     "google_trending": []
     }
    ]
   },
@@ -4187,7 +4289,7 @@
    "first_seen": "2026-10-23",
    "lane": "hot",
    "window_until": "2026-10-29",
-   "status": "active",
+   "status": "retired",
    "notes": [
     "sent 23 Oct"
    ],
@@ -4267,8 +4369,24 @@
      "yt_best_vph": 3352,
      "yt_top": "WARNING: The Stock Market Isn't Going To Crash...It's Going To RESET (402,198 views in 120h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-30",
+     "label": "HOT",
+     "news_1d": 0,
+     "news_7d": 3,
+     "momentum_pct": 0,
+     "yt_week_videos": 14,
+     "yt_week_views": 1107504,
+     "yt_best_vph": 8878,
+     "yt_top": "China’s Stock Market Crashes as Economic Problems Deepen (213,069 views in 24h)",
+     "google_trending": []
     }
-   ]
+   ],
+   "retired": {
+    "date": "2026-10-30",
+    "reason": "past its window"
+   }
   },
   {
    "id": "avadhut-sathe-refund",
@@ -4348,6 +4466,18 @@
      "yt_best_vph": 4621,
      "yt_top": "Avadhut Sathe To Refund ₹546 Crore to Students | Final SEBI Order, Fak (332,705 views in 72h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-30",
+     "label": "FLAT",
+     "news_1d": 3,
+     "news_7d": 25,
+     "momentum_pct": 12,
+     "yt_week_videos": 10,
+     "yt_week_views": 551512,
+     "yt_best_vph": 3570,
+     "yt_top": "Avadhut Sathe To Refund ₹546 Crore to Students | Final SEBI Order, Fak (342,753 views in 96h)",
+     "google_trending": []
     }
    ]
   },
@@ -4425,6 +4555,18 @@
      "yt_week_views": 267835,
      "yt_best_vph": 5082,
      "yt_top": "Jio IPO Listing Price Prediction | What Will It Open At Tomorrow? (121,961 views in 24h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-10-30",
+     "label": "HOT",
+     "news_1d": 7,
+     "news_7d": 7,
+     "momentum_pct": 100,
+     "yt_week_videos": 10,
+     "yt_week_views": 1004434,
+     "yt_best_vph": 26947,
+     "yt_top": "Historic debut: Jio Platforms IPO listing ceremony | #jioipo #reliance (646,721 views in 24h)",
      "google_trending": []
     }
    ]
@@ -4610,6 +4752,18 @@
      "yt_best_vph": 7724,
      "yt_top": "JIO Platforms IPO Listing Day Strategy | JIO IPO allotment | Book or h (185,379 views in 24h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-30",
+     "label": "HOT",
+     "news_1d": 1,
+     "news_7d": 1,
+     "momentum_pct": 100,
+     "yt_week_videos": 12,
+     "yt_week_views": 631513,
+     "yt_best_vph": 3069,
+     "yt_top": "आरहा हे Reliance Retail IPO?🔥⚫ Jio IPO से Reliance Industries का Downf (73,664 views in 24h)",
+     "google_trending": []
     }
    ]
   },
@@ -4666,6 +4820,18 @@
      "yt_best_vph": 4402,
      "yt_top": "Gold Prices Fall 21%: Festive Demand Rises Ahead of Diwali, Dhanteras  (211,285 views in 48h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-30",
+     "label": "HOT",
+     "news_1d": 0,
+     "news_7d": 1,
+     "momentum_pct": 0,
+     "yt_week_videos": 17,
+     "yt_week_views": 1417913,
+     "yt_best_vph": 5587,
+     "yt_top": "RBI Big News For Market, Silver gold price fall (268,179 views in 48h)",
+     "google_trending": []
     }
    ]
   },
@@ -4708,6 +4874,18 @@
      "yt_best_vph": 1977,
      "yt_top": "For the First Time in Decades, the Top Job Went Outside? (47,445 views in 24h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-30",
+     "label": "FLAT",
+     "news_1d": 1,
+     "news_7d": 13,
+     "momentum_pct": 8,
+     "yt_week_videos": 19,
+     "yt_week_views": 230554,
+     "yt_best_vph": 1228,
+     "yt_top": "Can a New Leader Close the Gap With Peers? (58,926 views in 48h)",
+     "google_trending": []
     }
    ]
   },
@@ -4738,6 +4916,18 @@
      "yt_best_vph": 107,
      "yt_top": "📈 2 IPOs Review - SFC Environmental Technologies & MK Sons Fine Jewels (2,557 views in 24h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-10-30",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 2,
+     "momentum_pct": 0,
+     "yt_week_videos": 11,
+     "yt_week_views": 74196,
+     "yt_best_vph": 785,
+     "yt_top": "MK Sons Fine Jewels IPO & BLS Polymers IPO Review 2026 | Business, Fin (18,851 views in 24h)",
+     "google_trending": []
     }
    ]
   },
@@ -4757,6 +4947,18 @@
     {
      "date": "2026-10-29",
      "desk_score": 8.0
+    },
+    {
+     "date": "2026-10-30",
+     "label": "HOT",
+     "news_1d": 99,
+     "news_7d": 100,
+     "momentum_pct": 99,
+     "yt_week_videos": 16,
+     "yt_week_views": 1924384,
+     "yt_best_vph": 17091,
+     "yt_top": "Steve Eisman: Here's What Anthropic Isn't Telling You (410,183 views in 24h)",
+     "google_trending": []
     }
    ]
   },
@@ -4776,6 +4978,56 @@
     {
      "date": "2026-10-29",
      "desk_score": 7.0
+    },
+    {
+     "date": "2026-10-30",
+     "label": "HOT",
+     "news_1d": 20,
+     "news_7d": 52,
+     "momentum_pct": 38,
+     "yt_week_videos": 13,
+     "yt_week_views": 588950,
+     "yt_best_vph": 4522,
+     "yt_top": "Stock Market में बड़ा Tax Cut आने वाला है? STT-LTCG पर क्या बदलना चाहि (217,070 views in 48h)",
+     "google_trending": []
+    }
+   ]
+  },
+  {
+   "id": "equitas-ceo-exit",
+   "title": "Equitas SFB: record profit, CEO quits over daughter's NBFC, 20% lower circuit",
+   "query": "Equitas Small Finance Bank|इक्विटास स्मॉल फाइनेंस बैंक",
+   "first_seen": "2026-10-30",
+   "lane": "hot",
+   "window_until": "2026-11-06",
+   "status": "active",
+   "notes": [
+    "desk 30 Oct",
+    "2026-10-30: record profit, −20% lower circuit, CEO quits"
+   ],
+   "readings": [
+    {
+     "date": "2026-10-30",
+     "desk_score": 8.0
+    }
+   ]
+  },
+  {
+   "id": "emudhra-gov-sites",
+   "title": "773 government sites still serving eMudhra's revoked certificates (via The Ken)",
+   "query": "eMudhra government websites certificates|ईमुद्रा सरकारी वेबसाइट",
+   "first_seen": "2026-10-30",
+   "lane": "deep",
+   "window_until": "2026-11-13",
+   "status": "active",
+   "notes": [
+    "desk 30 Oct; The Ken 30 Oct",
+    "2026-10-30: 773 of 1,366 gov names still on revoked certs (24 Oct)"
+   ],
+   "readings": [
+    {
+     "date": "2026-10-30",
+     "desk_score": 5.0
     }
    ]
   }
