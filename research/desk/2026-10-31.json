@@ -1,0 +1,304 @@
+{
+ "date": "2026-10-31",
+ "date_label": "Sat 31 Oct 2026",
+ "session_link": "https://claude.ai/code/session_01PasrAsvgz5E2qBZYD2xWHu",
+ "pick": {
+  "id": "1",
+  "reason": "It has the hardest deadline and the widest stake of the three. From tomorrow, Sun 1 Nov, fund houses' own apps and websites must offer the direct plan of a mutual fund by default and tell anyone choosing a regular plan that it costs more (SEBI chairman Tuhin Kanta Pandey, 28 Oct). Most of our viewers run a SIP, and many don't know which plan they are in. Same fund, same manager, same portfolio; the regular plan just carries the distributor's commission inside its expense ratio. The one big reel on it so far, @abhishekkarofficial's 'Ab mutual fund industry hilegi' (735K, 5.3x his usual), proves the demand. Under it there are only news reads and Shorts under 250 views. It has to post today or tomorrow morning; after Sunday it's old news.",
+  "runner_up": "2, Jio's first results as a listed company (tracked 'jio-ipo', HOT; it scores a point higher on known name). Profit rose 13.7% to ₹8,389 crore, but each user paid only ₹7.40 a month more than a year ago (ARPU ₹218.8 against ₹211.4). The shares next trade on Mon 2 Nov, so it keeps for a Sunday or Monday-morning reel; SEBI's rule doesn't keep. Story 3 (deep lane, via The Morning Context, 30 Oct): Ola Electric's ₹1,000 crore rights issue closed yesterday, with the founder borrowing against his own shares to buy in while SoftBank sold. Not re-sent today: Equitas (yesterday's pick; your story draft is in scripts/drafts/, and the shares fell 27% in two days by Business Standard's count); the Anthropic S-1 (your draft is still in scripts/drafts/)."
+ },
+ "stories": [
+  {
+   "id": "1",
+   "tracker_id": "sebi-direct-default",
+   "lane": "Hot lane (new; a rule that changes tomorrow for every SIP investor)",
+   "title": "From tomorrow, fund-house apps must offer the direct plan first, and tell regular-plan buyers they pay more",
+   "label": "RISING",
+   "score": {
+    "total": 7,
+    "momentum": 2,
+    "stake": 1,
+    "share": 2,
+    "gap": 1,
+    "name": 1
+   },
+   "window": "Post today (Sat 31 Oct) or by Sunday morning: the default switches on Sun 1 Nov. After that it's a 'what changed' story, which keeps a day or two at most.",
+   "happening": [
+    "SEBI chairman Tuhin Kanta Pandey said at NDTV Profit IGNITE in Mumbai on Wed 28 Oct: 'Direct Plans will be the default option on digital platforms of AMCs' from 1 November (Business Today, 29 Oct; Cafemutual quoting Moneycontrol, 28 Oct; Kotak Neo, 29 Oct).",
+    "Anyone who picks a regular plan on those platforms must be told that it has a higher expense ratio (Business Today; Upstox; Kotak Neo).",
+    "Regular plans are not being discontinued, and existing regular plans and SIPs do not switch to direct automatically (Upstox, Nov 2026 changes; Kotak Neo). The rule covers the fund houses' own apps and websites; Business Today says it does not establish that every independent investment app will follow.",
+    "Why it matters: a direct and a regular plan of the same scheme hold the same portfolio under the same fund manager. The regular plan's higher expense ratio pays the distributor's commission, and it comes out of the NAV, so the investor never sees a bill (Business Today, citing an ICICI Bank explainer; Kotak Neo).",
+    "Sizes of the gap, all as reports' own illustrations, not SEBI figures. Business Today: a gap of 0.5 percentage points costs ₹2,500 a year on ₹5 lakh. Kotak Neo: a ₹10,000 monthly SIP for 20 years at an assumed 12% gives about ₹84.53 lakh direct against ₹75.06 lakh regular, a ₹9.47 lakh gap.",
+    "Switching an old regular plan isn't free: it means selling the regular units and buying direct ones, which can trigger capital gains tax and exit loads (Business Today).",
+    "Headline not opened (Mint, 30 Oct): 'Over 63% of retail mutual fund AUM is in regular plans'. If true, most small investors are still in the costlier plan. Check it before it goes on air."
+   ],
+   "curiosity_gaps": [
+    "Same fund, same manager, same shares, two prices. Which one is your SIP in, and how would you even know? The commission never shows up as a charge; it just quietly lowers the NAV.",
+    "Why does the regulator have to force fund houses to show their cheaper version first? Who earns from the default being the other way round?",
+    "If your plan is regular, does tomorrow's rule fix it? No. It only changes what new buyers see first, on the fund houses' own apps. Old SIPs stay as they are."
+   ],
+   "measured": [
+    "Google News: at least 10 stories on it on 29–30 Oct (Moneylife, ET, Business Standard, Moneycontrol, Mint, BusinessLine, Business Today, Upstox, Cafemutual, NDTV). trends.py's 'SEBI direct plan default' query read COLD with 0 news stories; that query missed the coverage, so the momentum grade rests on the headline count and the YouTube numbers.",
+    "trends.py 'direct mutual fund plan': HOT on YouTube (309,688 views this week, best 5,061/hr), but the top video was off-topic.",
+    "vidIQ YouTube (IN, since 27 Oct, by views): Money9 'Meri SIP Mera Sawal' 47-min episode 58,443 views (4,372/hr); NDTV Profit clip of the SEBI chief 13,994; every Short under 250 views (Paisa Simplified 38 s, 208; The Scalper Arena 12 s '₹9.47 lakh extra?', 169).",
+    "vidIQ Instagram outliers (India, since 17 Oct): @abhishekkarofficial 'Mutual fund industry big update!' 735K, 5.3x his median (29 Oct). The other finance outliers were evergreen SIP/SWP explainers, not this rule.",
+    "vidIQ keyword research 'direct plan vs regular plan' (IN): under 750 monthly searches, competition 39. People meet this in the feed, not in search; 'mutual fund' itself has about 82,000 monthly searches."
+   ],
+   "others": [
+    {
+     "who": "@abhishekkarofficial (Instagram)",
+     "what": "Talking head, 'Ab mutual fund industry hilegi!': what the ruling does to returns and costs, then how to choose between the two plans",
+     "views": "735K",
+     "multiple": "5.3× usual",
+     "date": "29 Oct",
+     "url": "https://www.instagram.com/reel/DfEjsvqs95i"
+    },
+    {
+     "who": "Money9 (YouTube)",
+     "what": "47-min Q&A show: direct vs regular returns, distributor commissions, with a fund-house founder",
+     "views": "58K",
+     "multiple": "–",
+     "date": "31 Oct",
+     "url": "https://www.youtube.com/watch?v=zBvGKaj2cSQ"
+    },
+    {
+     "who": "NDTV Profit (YouTube)",
+     "what": "4:46 clip of the SEBI chief announcing it at IGNITE",
+     "views": "14K",
+     "multiple": "–",
+     "date": "29 Oct",
+     "url": "https://www.youtube.com/watch?v=FZHMjzvTNyc"
+    },
+    {
+     "who": "Paisa Simplified (YouTube Short)",
+     "what": "38 s AI-voiced Hinglish explainer: '₹2,500 ka farak' on ₹5 lakh",
+     "views": "208",
+     "multiple": "17×",
+     "date": "29 Oct",
+     "url": "https://www.youtube.com/watch?v=EV9uJDqg7TM"
+    }
+   ],
+   "others_takeaway": "One big creator has explained the rule and how to choose; the rest are news clips and tiny Shorts. Nobody has shown the viewer the invisible bill: the same fund at two prices, and the commission they've been paying without ever seeing it.",
+   "facts": [
+    {
+     "text": "Pandey at NDTV Profit IGNITE, Mumbai, 28 Oct: 'Direct Plans will be the default option on digital platforms of AMCs' from 1 Nov 2026; regular-plan buyers told of the higher expense ratio; same portfolio and manager; the 0.5-point gap example (₹2,500 a year on ₹5 lakh); switching can trigger capital gains tax and exit loads; independent apps not necessarily covered.",
+     "source": "Business Today (BT Explainer), 29 Oct 2026",
+     "url": "https://www.businesstoday.in/mutual-funds/story/bt-explainer-mutual-fund-direct-plans-to-become-default-on-amc-apps-from-november-1-what-investors-need-to-know-564461-2026-10-29"
+    },
+    {
+     "text": "Default from 1 Nov on AMC digital platforms; regular plans not discontinued, existing investments not converted; illustrative ₹10,000 SIP, 20 years at an assumed 12%: about ₹84.53 lakh direct vs ₹75.06 lakh regular (gap ₹9.47 lakh); other SEBI measures (IPO framework review, AI surveillance).",
+     "source": "Kotak Neo, 29 Oct 2026",
+     "url": "https://www.kotakneo.com/news/personal-finance/sebi-makes-direct-mutual-funds-default/"
+    },
+    {
+     "text": "From 1 Nov 2026 direct plans are the default on AMC digital platforms; regular-plan buyers told of the higher expense ratio; existing regular plans and SIPs don't switch automatically. Also from 1 Nov: pensioners' life certificates due by 30 Nov; the ITR deadline for audit cases moves to 21 Nov.",
+     "source": "Upstox, 'Money updates for November 2026'",
+     "url": "https://upstox.com/news/personal-finance/latest-updates/november-2026-changes-4-important-updates-for-bank-customers-pensioners-and-taxpayers/article-202449/"
+    },
+    {
+     "text": "Announcement dated 28 Oct (via Moneycontrol): 'Direct Plans will become the default option' on AMC digital platforms from 1 Nov; regular-plan buyers told of the higher expense ratios.",
+     "source": "Cafemutual, 28 Oct 2026",
+     "url": "https://cafemutual.com/news/press-news/39170-sebi-to-make-direct-plans-default-on-amc-digital-platforms-from-november-1-says-tuhin-kanta-pandey"
+    }
+   ],
+   "watch_out": [
+    "No 'switch now' or fund-pick instruction: a switch can trigger capital gains tax and exit loads, and some people want a distributor's help. The rule makes the cost visible; it doesn't tell anyone what to do. Any rupee gap on screen comes from a worked example, said aloud as an assumption ('12% maan ke'), with its expense-ratio gap.",
+    "Don't say SEBI 'banned' regular plans or that old SIPs move automatically: neither is true.",
+    "Scope: it covers the fund houses' own apps and websites. Whether Groww, Zerodha and other apps change is not established (Business Today). No formal SEBI circular was found this morning; the sources are the chairman's public announcement. Say 'SEBI chief ne kaha', or check sebi.gov.in before the script is frozen.",
+    "The 63% regular-plan share of retail AUM is a Mint headline the desk couldn't open (Mint, NDTV and Moneycontrol refused our fetches). Use it only once checked.",
+    "Bets: B1 (the stake in frame one: two price tags on the same fund, the top half of a split screen), B2 (one idea, the invisible commission, inside 30 s), B3 (the friend whose SIP the bank RM set up). Known name is weak (SEBI, not a brand); a fund-house app screen on the top half could carry frame one, but not one real AMC's logo, since the reel isn't about that company."
+   ]
+  },
+  {
+   "id": "2",
+   "tracker_id": "jio-ipo",
+   "lane": "Hot lane (tracked since 18 Oct; new turn: its first results as a listed company, out Friday afternoon)",
+   "title": "Jio's first report card as a listed company: profit up 13.7%, but each user pays ₹7.40 a month more than a year ago",
+   "label": "HOT",
+   "score": {
+    "total": 8,
+    "momentum": 3,
+    "stake": 1,
+    "share": 1,
+    "gap": 1,
+    "name": 2
+   },
+   "window": "Sun 1 Nov or Mon 2 Nov morning: the shares trade on the results for the first time on Monday ('shares in focus on Monday 2 Nov', Mint headline).",
+   "happening": [
+    "Jio Platforms reported its first results since listing on Fri 30 Oct, for July–September (Q2 FY27). Net profit ₹8,389 crore, up 13.69% from ₹7,379 crore a year earlier and from ₹7,764 crore in April–June (Upstox results blog). Business Standard and ANI headline ₹8,387 crore (13.7%); the gap is rounding between versions.",
+    "Revenue from operations ₹40,475 crore, up 11.4%. EBITDA ₹20,901 crore, up 15.5%, margin 51.6% against 49.8% (Upstox). Business Today gives a wider revenue line of ₹47,485 crore (+11.3%) and EBITDA of ₹21,879 crore; that is a different (gross) basis, so pick one and say which.",
+    "ARPU, what each user pays a month on average: ₹218.8, against ₹211.4 a year earlier (Upstox; Business Today). That is +3.5%, while profit grew about four times as fast, on more users and more data.",
+    "Users: over 542 million in total (36 million added in 12 months, 9.1 million this quarter); 300 million on 5G; 30 million on home broadband; 44.2 GB of data per user a month; monthly churn 1.6% (Upstox).",
+    "Context: the listing on Wed 28 Oct followed a ₹30,188 crore IPO subscribed 22 times (Business Today). Market value about ₹13.18 lakh crore on Friday evening (Upstox). Upstox's own blog reports both a 2.4% intraday fall and a 0.68% gain at the close, so the day's move is left out.",
+    "Same evening, the parent: Reliance's profit rose 40.64% to ₹25,548 crore, a record quarter, on refining (Business Today). Mukesh Ambani: 'This week marked a historic moment in Reliance's value creation journey with Jio's record-setting listing.' Headlines not opened: Reliance Retail's profit fell 24.3% to ₹2,611 crore and JioStar's 13.2% to ₹1,147 crore (Business Standard)."
+   ],
+   "curiosity_gaps": [
+    "Lakhs of people became Jio shareholders this week. Their first report card says profit up 14%, while what each customer pays rose only ₹7.40 a month. Where did the growth actually come from, and what happens when it has to come from your recharge?",
+    "Reliance had its best quarter ever on the same day, yet two of its consumer businesses, Retail and JioStar, made less money. Is the Jio listing hiding which parts of the empire are slowing?"
+   ],
+   "measured": [
+    "trends.py 'Jio Platforms results': HOT; 6 of 6 news stories this week landed today; YouTube best 4,186 views/hr (the listing-day 'What should investors do?' video). The tracker's 'jio-ipo' check: HOT, rising, 40 of 100 news stories, YouTube 5.7M views this week, best 67,453/hr.",
+    "vidIQ YouTube (IN, since 30 Oct, by views): Biz Tak results live 62,107 (5,646/hr); Stock Market ka Commando 57,268 (5,206/hr); CNBC-TV18 live 42,050; CNBC Awaaz 2:20 breaking 41,738 (3,478/hr); Biz Tak 4:24 'Jio ka pehla result' 39,143.",
+    "vidIQ Instagram outliers (India, since 27 Oct): all on the listing, none on the results yet: @simarfinance '₹1,358 pe list, 21% fayda' 2.4M (76x); @thepublic.records 'Jio IPO ₹13,428 lagaya' 1.1M (7.4x); @bloombergbusiness 1.1M (6.7x); @viralbhayani bell ceremony 893K (3.3x).",
+    "vidIQ keyword research 'jio share' (IN): about 15,900 monthly searches, competition 54; 'jio ipo latest news' about 181,000 (+1,378%)."
+   ],
+   "others": [
+    {
+     "who": "Biz Tak (YouTube)",
+     "what": "4:24 Hindi 'Bumper listing ke baad Jio ka pehla result': 5G users at 300M, 44 GB per user, debt down",
+     "views": "39K",
+     "multiple": "–",
+     "date": "30 Oct",
+     "url": "https://www.youtube.com/watch?v=Fb3ycxpUDxI"
+    },
+    {
+     "who": "CNBC Awaaz (YouTube)",
+     "what": "2:20 breaking-news read of the results",
+     "views": "42K",
+     "multiple": "–",
+     "date": "30 Oct",
+     "url": "https://www.youtube.com/watch?v=HIn3pGYhWes"
+    },
+    {
+     "who": "Stock Market ka Commando (YouTube)",
+     "what": "11 min, RIL and Jio results 'pehli baar', actual vs estimates",
+     "views": "57K",
+     "multiple": "–",
+     "date": "30 Oct",
+     "url": "https://www.youtube.com/watch?v=wjPERuJMV8g"
+    },
+    {
+     "who": "@simarfinance (Instagram)",
+     "what": "Listing day (adjacent): 'JIO KA SHARE LISTED ₹1,358', why she sold on listing",
+     "views": "2.4M",
+     "multiple": "76× usual",
+     "date": "28 Oct",
+     "url": "https://www.instagram.com/reel/DfBpYIxvq6u"
+    }
+   ],
+   "others_takeaway": "The results so far are TV-style reads and long YouTube breakdowns; Instagram's Jio outliers are all listing-day reels. Nobody has turned the report card into the shareholder's one question: profit up 14%, but the price each user pays barely moved.",
+   "facts": [
+    {
+     "text": "Net profit ₹8,389 crore (+13.69% from ₹7,379 crore; Q1 ₹7,764 crore); revenue from operations ₹40,475 crore (+11.4%); EBITDA ₹20,901 crore (+15.46%), margin 51.64% vs 49.83%; ARPU ₹218.8 vs ₹211.4; 9.1M net adds, churn 1.6%, 44.2 GB per user; 542M+ subscribers, 300M on 5G, 30M fixed broadband; market cap ₹13,18,088.58 crore (18:59 IST).",
+     "source": "Upstox results blog, 30 Oct 2026",
+     "url": "https://upstox.com/news/market-news/earnings/jio-platforms-q2-results-live-updates-ril-subsidiary-to-release-first-earnings-after-listing-on-oct-30/liveblog-202694/"
+    },
+    {
+     "text": "RIL net profit ₹25,548 crore (+40.64% from ₹18,165 crore), revenue ₹3,32,861 crore (+28.57%); Jio revenue ₹47,485 crore (+11.3%), EBITDA ₹21,879 crore (+16.6%), ARPU ₹218.8, 542.4M subscribers; IPO ₹30,188 crore, 22x, completed 28 Oct; Ambani's 'historic moment' quote.",
+     "source": "Business Today, 30 Oct 2026",
+     "url": "https://www.businesstoday.in/markets/stocks/story/ril-q2-profit-jumps-41-to-rs-25548-crore-jio-arpu-rises-to-rs-218-8-564856-2026-10-30"
+    }
+   ],
+   "watch_out": [
+    "No buy, hold or sell, and per the SEBI price-data rule no share price, chart or target on screen. Results numbers are fine.",
+    "Two revenue bases are in circulation (₹40,475 crore from operations; ₹47,485 crore gross). Use one and name it, or use the profit and ARPU only.",
+    "Retail's −24.3% and JioStar's −13.2% are Business Standard headlines the desk didn't open; check them before use.",
+    "Bets: B1 (Jio's logo and the profit number on the top half from frame one), B2 (one idea, ARPU vs profit, inside 30 s), B3 (for the friend who got the allotment). It carries the famous-name watch item (W2)."
+   ]
+  },
+  {
+   "id": "3",
+   "tracker_id": "ola-rights-pledge",
+   "lane": "Deep lane (via The Morning Context, 30 Oct: 'Bhavish Aggarwal's costly debt bet could hurt Ola Electric'; facts from open sources)",
+   "title": "Ola Electric's ₹1,000 crore rights issue closed yesterday: the founder borrowed against his own shares to buy in, while SoftBank sold",
+   "label": "COLD",
+   "score": {
+    "total": 7,
+    "momentum": 0,
+    "stake": 1,
+    "share": 2,
+    "gap": 2,
+    "name": 2
+   },
+   "window": "About a week: the rights-issue result (how much was taken up) and the July–September results are the next turns. Credit The Morning Context in the caption if its angle is used.",
+   "happening": [
+    "Ola Electric ran a rights issue of up to ₹1,000 crore (₹999.74 crore if fully taken) at ₹27 a share, 2 new shares for every 25 held, from 22 to 30 Oct; partly paid: ₹16.20 on application, ₹10.80 on a later call (Angel One, 8 Oct; Inc42, 27 Oct; InvestyWise, 30 Oct).",
+    "The money: about ₹350 crore to repay or prepay borrowings, ₹400 crore for growth, the rest for general purposes (Autocar Pro, 6 Oct; Inc42, 23 Oct).",
+    "To pay for his own share of it, founder Bhavish Aggarwal pledged 20 crore Ola Electric shares, 4.32% of the company, to secure debentures raised by Krutrim Data Centre, an entity linked to him. The company says the money is 'intended solely' for his rights participation and that no shares are being sold (Autocar Pro, 6 Oct).",
+    "History: he had pledged shares from November 2024 (to raise debt for Krutrim), peaking at about 17.3 crore shares by December 2025. That month he sold part of his holding to repay about ₹260 crore and free them. The new pledge is about 16% bigger than that peak (Autocar Pro).",
+    "Meanwhile SoftBank's fund sold 5.55 crore shares, about 1.2%, between 6 Jan and 22 Oct, taking it from 12.9% to 11.7%, and sold 1.12 crore of its 4.33 crore rights entitlements, about a quarter of them (Inc42, 27 Oct).",
+    "The business: April–June revenue fell 45% to ₹455 crore and the loss narrowed to ₹336 crore; its share of e-scooter registrations was 6.5% in September, down from 7.6% in August (Inc42, 23 and 27 Oct). On 23 Oct the stock closed 61% below its ₹76 listing price (Inc42, 23 Oct)."
+   ],
+   "curiosity_gaps": [
+    "The founder took a loan against his own shares to buy more of the same shares, while his biggest early backer sold out of part of its entitlement. Who is right?",
+    "Ola Electric listed in 2024 as India's EV champion. Now it's raising money from its own shareholders at ₹27, with ₹350 crore of it going to repay loans. How did a company that raised so much end up borrowing to stay afloat?",
+    "If you own Ola shares and ignored the rights offer, your slice of the company just got smaller. Did you even know there was one?"
+   ],
+   "measured": [
+    "trends.py 'Ola Electric debt': COLD (0 news stories this week on that phrase; YouTube top result off-topic).",
+    "vidIQ YouTube (IN, since 20 Oct): Kuldeep Singh 22 s Short 'Bhavish Aggarwal ne 20 crore shares girvi rakh diye!' 366 views; Startup Wire India 'Goldman cuts Ola Electric target' 246. Nothing larger.",
+    "No Instagram outlier on it in this morning's scans."
+   ],
+   "others": [
+    {
+     "who": "Kuldeep Singh (YouTube Short)",
+     "what": "22 s Hinglish: what a promoter pledge is, and the 2025 pledge that ended in a share sale",
+     "views": "366",
+     "multiple": "1.5×",
+     "date": "25 Oct",
+     "url": "https://www.youtube.com/watch?v=Rlqe6Adeyho"
+    },
+    {
+     "who": "Startup Wire India (YouTube)",
+     "what": "1:11 English: Goldman's sell call the day after the rights issue opened",
+     "views": "246",
+     "multiple": "16×",
+     "date": "23 Oct",
+     "url": "https://www.youtube.com/watch?v=_NR9SHEf4_o"
+    }
+   ],
+   "others_takeaway": "Nobody with an audience has made it. The two sides of the trade, the founder borrowing to buy and SoftBank selling, haven't been put next to each other anywhere.",
+   "facts": [
+    {
+     "text": "20 crore shares (4.32%) pledged to CTL Trusteeship for Krutrim Data Centre debentures, 'intended solely' for his rights participation; rights issue up to ₹1,000 crore approved 28 Sep; ~₹350 crore debt repayment, ₹400 crore growth; earlier pledges from Nov 2024, peak ~17.3 crore shares (Dec 2025), ~₹260 crore repaid then; new pledge ~16% above that peak; 6.5% EV two-wheeler share in September (~13,450 registrations); ₹780 crore QIP in June 2026.",
+     "source": "Autocar Pro, 6 Oct 2026",
+     "url": "https://www.autocarpro.in/news/bhavish-aggarwal-pledges-20-crore-ola-electric-shares-months-after-clearing-earlier-pledges-135082"
+    },
+    {
+     "text": "SoftBank (SVF II Ostrich) sold 5.55 crore shares (~1.2%) 6 Jan–22 Oct, 12.9% → 11.7% (54.15 crore shares); got 4.33 crore rights entitlements, sold 1.12 crore (~25.9%); rights issue ₹999.74 crore, 22–30 Oct, ₹27 (₹16.20 now, ₹10.80 later); Q1 FY27 revenue ₹455 crore (−45%), loss ₹336 crore; share 6.5% in Sept vs 7.6% in Aug.",
+     "source": "Inc42, 27 Oct 2026",
+     "url": "https://inc42.com/buzz/softbank-sells-1-2-stake-in-ola-electric-offloads-1-12-cr-rights-entitlements/"
+    },
+    {
+     "text": "Stock 61% below its ₹76 listing price at the 23 Oct close; rights proceeds ₹350 crore debt, ₹400 crore growth; promoter-group entities' entitlements partly taken by Motilal Oswal and Calliope (2.39 crore shares).",
+     "source": "Inc42, 23 Oct 2026",
+     "url": "https://inc42.com/buzz/ola-electric-slides-over-7-after-bearish-call-from-goldman-sachs/"
+    },
+    {
+     "text": "₹27 per share (the page prints it as ₹6 face value plus ₹17 premium, which doesn't add up), ratio 2:25, record date 13 Oct, open 22 Oct, close 30 Oct (extendable by 30 days), 37,02,72,665 partly paid shares.",
+     "source": "Angel One, 8 Oct 2026",
+     "url": "https://www.angelone.in/news/stocks/ola-electric-share-price-in-focus-board-approves-1-000-crore-rights-issue"
+    },
+    {
+     "text": "Rights issue opened 22 Oct and closed 30 Oct (citing the BSE filing).",
+     "source": "InvestyWise, 30 Oct 2026",
+     "url": "https://www.investywise.com/ola-electric-mobility-rights-issue-period-closes"
+    }
+   ],
+   "watch_out": [
+    "No buy, sell or 'should you subscribe' call. Per the SEBI price-data rule: no share price levels, no chart, and no analyst ratings or targets on screen (so not Goldman's 'sell' or its ₹23). Say '61% below its listing price', not rupee levels.",
+    "Fair framing: a pledge to fund a rights subscription is legal and disclosed; the company says no shares are being sold. Say 'girvi rakh ke', never 'scam'. Bhavish Aggarwal's real photo is fine (CLAUDE.md rule 4); no words in his mouth.",
+    "The Morning Context piece is paywalled; the desk used only its headline. Every number above comes from open sources. Credit 'via The Morning Context' if the reel takes its angle.",
+    "Angel One prints ₹6 face value plus ₹17 premium, which doesn't add to ₹27; the face value is likely ₹10. Use only the ₹27 price.",
+    "Bets: B1 (Bhavish's photo with 'loan leke apne hi shares' style text on the top half), B2 (one idea: the founder buys while SoftBank sells), B3 (for the friend who holds Ola shares from the IPO). Carries W2 (famous name)."
+   ]
+  }
+ ],
+ "wire": [
+  {
+   "text": "Gold before Dhanteras (Fri 6 Nov; tracked 'gold-dhanteras-fall', HOT on YouTube). MCX gold 'crashes below ₹1.42 lakh' (Mint headline, 30 Oct); Zee News live 'Gold Silver Crash' 242,488 views at 20,183/hr; a Money9 report citing IBJA puts 24-carat gold near ₹1.41 lakh per 10 g on 27 Oct, down about ₹7,000 in October. A stronger reel midweek, closer to Dhanteras. Headlines and YouTube descriptions only, not verified."
+  },
+  {
+   "text": "US tech rout: Alphabet lost about $500 billion in a day, its worst day ever (CNBC, NBC, WSJ headlines, 29 Oct), and Intel fell about 29%, its worst day since 1974 (Yahoo Finance, Reuters headlines, 30 Oct). A stake for Indians who own US stocks through apps; trends.py 'Alphabet Google shares' HOT (best 8,962/hr). Headlines only."
+  },
+  {
+   "text": "Equitas SFB (yesterday's pick, tracked 'equitas-ceo-exit', RISING, 51 of 100 news stories today): down 27% in two days (Business Standard and Fortune India headlines, 30 Oct); 'off lows, ends with a cut of over 6%' on Friday (CNBC-TV18 video description); analyst meet on 5 Nov (scanx headline). Akhilesh's story draft is in scripts/drafts/ (30 Oct)."
+  },
+  {
+   "text": "Anthropic S-1 (tracked 'anthropic-s1', HOT but fading: 68 of 100 news stories). Akhilesh's valuation-and-loss story draft is still in scripts/drafts/ (29 Oct)."
+  },
+  {
+   "text": "Also seen, not used: AU Small Finance Bank hit by an alleged cyberattack, with hackers claiming customer PAN and Aadhaar data (Moneylife headline, 30 Oct); a Rajasthan man on a ₹10,000 salary found ₹10,000 crore in his account, later fixed (NDTV, Inshorts, 30 Oct); UPI enabled for Burj Khalifa and Singapore bookings (ET, 30 Oct); SEBI fined CDSL ₹1 crore (Moneycontrol headline); Suzlon −10% on weak Q2 (Moneycontrol headline, 30 Oct)."
+  }
+ ]
+}
