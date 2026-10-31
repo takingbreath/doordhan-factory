@@ -50,14 +50,14 @@ Stage 1 targets are live in the block below. Stages 2 and 3 are the plan after t
 
 ## The book and where we stand
 <!-- scoreboard -->
-_Updated 2026-10-30 22:35 IST by `scoreboard.py write`._
+_Updated 2026-10-31 21:47 IST by `scoreboard.py write`._
 
 **Stage 1: Stop the scroll** (2026-09-26 to 2026-10-25): prove people stop for our reels and stay to the end
 
 - skip rate %: now 56, target 45 → not yet
 - watched %: now 29.3, target 45 → not yet
 - median plays at 72 h: now 582, target 500 → on target
-- best reel's plays: now 6768, target 2000 → on target
+- best reel's plays: now 12564, target 2000 → on target
 - followers: now 467, target 100 → on target
 - strategy stop: 18/20 reels posted this stage; median plays at 72 h now 582, must reach 300
 
@@ -67,7 +67,7 @@ _Updated 2026-10-30 22:35 IST by `scoreboard.py write`._
 | B2 Tight 20-30 s | 20-30 s total; title montage 1.5 s or less and only after the hook; payoff by 20 s; the last line echoes the hook so a replay feels natural; no dead air | watched % | 26.3 | 38.6 | 45 | 32 | 1/1 (judge at 3, max 6) | **HOLD** 1/3 reels |
 | B3 A line worth sending | Every script lands one line a viewer would forward to a specific person (a number to remember, a jab at the system, an 'I told you so'); never ask for shares | sends per 1k plays | 2.6 | 3.2 | 8 | 2 | 3/5 (judge at 4, max 6) | **HOLD** 3/4 reels |
 | W1 Glam Sarika | Sarika in the glam wardrobe (formats/samachar.md) on every Samachar reel | skip rate % | 66.9 | 55.8 | – | – | 3/3 (judge at 3, max 6) | **WATCH** tracked; judged at the monthly review |
-| W2 Famous name in frame one | Frame one shows a company, brand or person every viewer already knows (their name, logo, or a licensed photo or real footage), with the number or question it turns on | median plays at 72 h | 243 | 2395 | – | – | 5/6 (judge at 3, max 6) | **WATCH** tracked; judged at the monthly review |
+| W2 Famous name in frame one | Frame one shows a company, brand or person every viewer already knows (their name, logo, or a licensed photo or real footage), with the number or question it turns on | median plays at 72 h | 243 | 2882 | – | – | 6/6 (judge at 3, max 6) | **WATCH** tracked; judged at the monthly review |
 <!-- /scoreboard -->
 
 ## This week's plan
@@ -198,3 +198,4 @@ _Written by the strategist every Sunday. The morning session executes it: each s
 - 2026-10-28 (nightly): Anthropic IPO's God share (E15, Akhilesh's script, creator format, 57 s, carries hook in frame one and the famous-name watch item) posted 15:33 IST (time from the shortcode), linked to DfCLDbOyFWj, and is taking off: 1,891 public plays, 25 likes, 6 comments at 6.5 h, about 9× our usual count at that age and faster than silver (2,065 at 13.4 h). Ride-now line added: the S-1 valuation-and-loss follow-up the reel teased. vidIQ owner insights unavailable for a 20th night ('Meta token is inactive'; the account list says active), so public counts only and no bets judged. Public readings logged for E15, X3 (523 at 72 h) and silver (2,171 at 86 h). Stage median plays at 72 h now 582 (X3 matured). No stop or target hit; all bets HOLD. vidIQ credits this week: 15.
 - 2026-10-29 (nightly): Quiet. No new reel since E15. Anthropic IPO's God share (E15) at 6,062 public plays, 132 likes, 8 comments at 30.5 h (1,891 at 6.5 h), close to Salman Khan (6,709) as our biggest reel; already flagged taking off last night, with the S-1 follow-up script proposed for review. vidIQ owner insights unavailable for a 21st night ('Meta token is inactive'; the account list says active), so public counts only and no bets judged; only E15 logged (every other reel within 0–8 plays of its last reading). No stop or target hit; all bets HOLD. vidIQ credits this week: 20.
 - 2026-10-30 (nightly): The same EPFO reel (creator format, Rashmi, 37 s: EPFO to put 3% of each year's new inflows into startups and AIFs) went up twice outside the logged flow, at 20:17 and 21:11 IST (times from the shortcodes): added as X4 (DfH1I_ModED, 126 public plays at 2.3 h) and X5 (DfH7UV2I_66, 112 at 1.4 h), no bets. Two live copies split the reach and can read as reposted content; pinged Akhilesh to delete one (keep whichever is ahead by morning). Neither is near the taking-off line yet. Unlike every breakout, its cover has no split screen, no hook text and no known name or logo; Rashmi is mid-word. Both need a script, credits and contact sheet in the repo before they can carry any bet, and X5 should not count toward the stage's reel count. Anthropic God share (E15) flattened at 6,076 public plays at 55 h (+14 since 30.5 h): a one-day burst like silver. vidIQ owner insights unavailable for a 22nd night ('Meta token is inactive'; the account list says active), so public counts only and no bets judged. No stop or target hit; all bets HOLD. vidIQ credits this week: 25.
+- 2026-10-31 (nightly): Anthropic God share (E15) took off a second time: 12,564 public plays, 277 likes, 11 comments at 78 h (6,076 at 55 h), now our biggest reel by almost 2× (Salman Khan 6,790). Ride-now line added: ship the S-1 valuation-and-loss follow-up (proposed 29 Oct, not yet approved) first. The duplicate EPFO posts are both still live: X5 (21:11 copy) at 440 public plays at 24.6 h, X4 at 143; asked Akhilesh again to delete X4. Starlink vs Jio (E11) kept gaining slowly (4,101 on 23 Oct, 5,048 now). Public readings logged for E15, X4, X5, X3, E14, E11. vidIQ owner insights unavailable for a 23rd night ('Meta token is inactive'; the account list says active), so public counts only and no bets judged. No stop or target hit; all bets HOLD. vidIQ credits this week: 30.
