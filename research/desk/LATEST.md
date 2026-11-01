@@ -1,153 +1,150 @@
-# Doordhan desk research — Sat 31 Oct 2026
+# Doordhan desk research — Sun 01 Nov 2026
 
-Session: https://claude.ai/code/session_01PasrAsvgz5E2qBZYD2xWHu
+Session: https://claude.ai/code/session_01PasrAsm43gi5EpjeSbfaDY
 
-**Pick: story 1.** It has the hardest deadline and the widest stake of the three. From tomorrow, Sun 1 Nov, fund houses' own apps and websites must offer the direct plan of a mutual fund by default and tell anyone choosing a regular plan that it costs more (SEBI chairman Tuhin Kanta Pandey, 28 Oct). Most of our viewers run a SIP, and many don't know which plan they are in. Same fund, same manager, same portfolio; the regular plan just carries the distributor's commission inside its expense ratio. The one big reel on it so far, @abhishekkarofficial's 'Ab mutual fund industry hilegi' (735K, 5.3x his usual), proves the demand. Under it there are only news reads and Shorts under 250 views. It has to post today or tomorrow morning; after Sunday it's old news.
+**Pick: story 1.** It is the strategist's 'ride now' follow-up and it has a new turn. Our Anthropic reel (E15) is our biggest ever (12,564 plays at 78 h, taking off a second time), and a reel on the same subject reaches the people it just reached. Since we last sent it, the IPO has walked into an AI selloff: the Nasdaq 100 is down about 10% in three weeks, and on Friday OpenAI cut its own fundraising target by $10 billion (to about $20 billion, at a $1.25 trillion valuation instead of $1.4 trillion), with Bloomberg linking the cut to the selloff and to Anthropic's listing competing for the same investors. Anthropic still reportedly aims for about $1.5 trillion, with marketing to investors from as soon as the week of 9 Nov. Indian reels have already done big numbers on each half separately (Anthropic IPO 1.1M at 126x; 'AI bubble' 6.5M at 18x), but nobody has put the two together. The Claude logo works in frame one, as it did on E15.
 
-Runner-up: 2, Jio's first results as a listed company (tracked 'jio-ipo', HOT; it scores a point higher on known name). Profit rose 13.7% to ₹8,389 crore, but each user paid only ₹7.40 a month more than a year ago (ARPU ₹218.8 against ₹211.4). The shares next trade on Mon 2 Nov, so it keeps for a Sunday or Monday-morning reel; SEBI's rule doesn't keep. Story 3 (deep lane, via The Morning Context, 30 Oct): Ola Electric's ₹1,000 crore rights issue closed yesterday, with the founder borrowing against his own shares to buy in while SoftBank sold. Not re-sent today: Equitas (yesterday's pick; your story draft is in scripts/drafts/, and the shares fell 27% in two days by Business Standard's count); the Anthropic S-1 (your draft is still in scripts/drafts/).
+Runner-up: 2, gold and silver before Dhanteras on Fri 6 Nov (tracked; this week's plan asks for it). Silver on MCX is about 57% below its January peak and gold about 23%, the opposite of the usual pre-Dhanteras rise. It's the widest stake of the three, but the most covered (a 7.2M and a 2.6M reel this week). Story 3 (deep lane, via BusinessWorld, 29 Oct): an internal government note on the IDBI Bank sale shows Fairfax's bid was opened first and the ₹94.42 floor price thrown out the same day; the sale went through at ₹81. Not re-sent today: SEBI's direct-plan default (live from today; your story draft is in scripts/drafts/), Jio's results (the shares trade on them Monday).
 
-## 1. From tomorrow, fund-house apps must offer the direct plan first, and tell regular-plan buyers they pay more
+## 1. The biggest IPO ever is heading into an AI selloff: OpenAI cut its fundraising target by $10 billion on Friday, and Anthropic still wants about $1.5 trillion
 
-Hot lane (new; a rule that changes tomorrow for every SIP investor) · RISING · **7/10** (momentum 2/3, stake 1/1, shareability 2/2, gap 1/2, known name 1/2) · tracker id `sebi-direct-default`
+Hot lane (tracked since 29 Oct; new turn: the IPO meets an AI selloff, and OpenAI cut its own round on Friday) · HOT · **9/10** (momentum 3/3, stake 1/1, shareability 2/2, gap 1/2, known name 2/2) · tracker id `anthropic-s1`
 
-Window: Post today (Sat 31 Oct) or by Sunday morning: the default switches on Sun 1 Nov. After that it's a 'what changed' story, which keeps a day or two at most.
+Window: Now to about 20 Nov. Marketing to investors could start as soon as the week of 9 Nov (Bloomberg, via IPOScoop); the pricing and listing are the next turns. Best this week while E15 is still being pushed.
 
 ### What's happening
-- SEBI chairman Tuhin Kanta Pandey said at NDTV Profit IGNITE in Mumbai on Wed 28 Oct: 'Direct Plans will be the default option on digital platforms of AMCs' from 1 November (Business Today, 29 Oct; Cafemutual quoting Moneycontrol, 28 Oct; Kotak Neo, 29 Oct).
-- Anyone who picks a regular plan on those platforms must be told that it has a higher expense ratio (Business Today; Upstox; Kotak Neo).
-- Regular plans are not being discontinued, and existing regular plans and SIPs do not switch to direct automatically (Upstox, Nov 2026 changes; Kotak Neo). The rule covers the fund houses' own apps and websites; Business Today says it does not establish that every independent investment app will follow.
-- Why it matters: a direct and a regular plan of the same scheme hold the same portfolio under the same fund manager. The regular plan's higher expense ratio pays the distributor's commission, and it comes out of the NAV, so the investor never sees a bill (Business Today, citing an ICICI Bank explainer; Kotak Neo).
-- Sizes of the gap, all as reports' own illustrations, not SEBI figures. Business Today: a gap of 0.5 percentage points costs ₹2,500 a year on ₹5 lakh. Kotak Neo: a ₹10,000 monthly SIP for 20 years at an assumed 12% gives about ₹84.53 lakh direct against ₹75.06 lakh regular, a ₹9.47 lakh gap.
-- Switching an old regular plan isn't free: it means selling the regular units and buying direct ones, which can trigger capital gains tax and exit loads (Business Today).
-- Headline not opened (Mint, 30 Oct): 'Over 63% of retail mutual fund AUM is in regular plans'. If true, most small investors are still in the costlier plan. Check it before it goes on air.
+- Anthropic, maker of Claude, filed its S-1 publicly on Mon 26 Oct. For the 12 months to 30 June 2026 it shows revenue of $19.7 billion and a net loss of $109.74 billion; it had raised $141.1 billion in total by 30 June (IPOScoop, 26 Oct). Lead banks: Goldman Sachs and Morgan Stanley. Proposed ticker ANT.
+- Size: IPO watchers expect about $75 billion or more (IPOScoop); CoinDesk reports Anthropic is 'reportedly aiming to raise as much as $100 billion at a $1.5 trillion valuation'. ThePrint (31 Oct) says 'at least $1.5 trillion'. Either way it would be the largest IPO ever; the sources differ on the raise, so use a range or the valuation only.
+- The turn: on Fri 30 Oct the Financial Times reported that OpenAI now seeks about $20 billion at a $1.25 trillion valuation, down from $30 billion at $1.4 trillion; some investors cut their commitments (ThePrint; CoinDesk). Bloomberg linked the cut to the AI stock selloff and to Anthropic's listing competing for the same pool of institutional money (as reported by ThePrint and others).
+- The selloff: the Nasdaq 100 has fallen about 10% in three weeks since its 6 Oct record (CoinDesk, 30 Oct). Friday's fall is 4.5% in CoinDesk and 3.5% in ThePrint (31 Oct, the newer source); use '10% in three weeks', which only CoinDesk gives, or say 'sharp fall'.
+- Context: OpenAI has pushed its own IPO plans to 2027 (CoinDesk). Our desk's 29 Oct figures were half-year ones (H1 revenue $16.3 billion, loss $80.7 billion including a $72.4 billion paper charge); IPOScoop's are for 12 months. Pick one period and name it.
 
 ### The curiosity gap
-- Same fund, same manager, same shares, two prices. Which one is your SIP in, and how would you even know? The commission never shows up as a charge; it just quietly lowers the NAV.
-- Why does the regulator have to force fund houses to show their cheaper version first? Who earns from the default being the other way round?
-- If your plan is regular, does tomorrow's rule fix it? No. It only changes what new buyers see first, on the fund houses' own apps. Old SIPs stay as they are.
+- The two biggest AI companies are now competing for the same money. One just had to cut its asking price by $10 billion. Why is the one losing $110 billion a year still asking for $1.5 trillion?
+- The market is selling AI shares at the very moment the biggest AI IPO in history is about to open. Who is going to buy it, and at what price?
+- Our own E15 viewers know the 'God share' story; this is the next chapter: the timing could not be worse, and nobody knows yet whether the IPO price will hold.
 
 ### How hot it is
-- Google News: at least 10 stories on it on 29–30 Oct (Moneylife, ET, Business Standard, Moneycontrol, Mint, BusinessLine, Business Today, Upstox, Cafemutual, NDTV). trends.py's 'SEBI direct plan default' query read COLD with 0 news stories; that query missed the coverage, so the momentum grade rests on the headline count and the YouTube numbers.
-- trends.py 'direct mutual fund plan': HOT on YouTube (309,688 views this week, best 5,061/hr), but the top video was off-topic.
-- vidIQ YouTube (IN, since 27 Oct, by views): Money9 'Meri SIP Mera Sawal' 47-min episode 58,443 views (4,372/hr); NDTV Profit clip of the SEBI chief 13,994; every Short under 250 views (Paisa Simplified 38 s, 208; The Scalper Arena 12 s '₹9.47 lakh extra?', 169).
-- vidIQ Instagram outliers (India, since 17 Oct): @abhishekkarofficial 'Mutual fund industry big update!' 735K, 5.3x his median (29 Oct). The other finance outliers were evergreen SIP/SWP explainers, not this rule.
-- vidIQ keyword research 'direct plan vs regular plan' (IN): under 750 monthly searches, competition 39. People meet this in the feed, not in search; 'mutual fund' itself has about 82,000 monthly searches.
+- trends.py 'Anthropic IPO': HOT, 43 of 100 news stories this week landed today; YouTube 14 videos this week, 1.42M views, best 6,334/hr (Steve Eisman, 'Here's What Anthropic Isn't Telling You', 456K in 72 h). Tracker: HOT, steady.
+- trends.py 'OpenAI funding': COLD on Google News phrase (3 today); 1 YouTube video (18K). The selloff angle lives in the 'AI bubble' searches instead.
+- vidIQ YouTube (IN, since 28 Oct, by views): The Tech Report, 'AI Bubble: This is bad for Anthropic on every level' (Ed Zitron), 818K at 17,045/hr; Peter Diamandis podcast on 'Anthropic's $2T' 302K; Forbes 2:25 '10 surprises in Anthropic's IPO filing' 74K (15.9x).
+- vidIQ Instagram outliers (India, since 20 Oct): @cryptokibate 1.1M (126x), @financetalkswithaman 780K (22x) on the IPO; @financebysanjay 6.5M (18x) and @anushkarathod98 747K (3.8x) on the AI bubble.
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [@abhishekkarofficial (Instagram)](https://www.instagram.com/reel/DfEjsvqs95i) | Talking head, 'Ab mutual fund industry hilegi!': what the ruling does to returns and costs, then how to choose between the two plans | 735K | 5.3× usual | 29 Oct |
-| [Money9 (YouTube)](https://www.youtube.com/watch?v=zBvGKaj2cSQ) | 47-min Q&A show: direct vs regular returns, distributor commissions, with a fund-house founder | 58K | – | 31 Oct |
-| [NDTV Profit (YouTube)](https://www.youtube.com/watch?v=FZHMjzvTNyc) | 4:46 clip of the SEBI chief announcing it at IGNITE | 14K | – | 29 Oct |
-| [Paisa Simplified (YouTube Short)](https://www.youtube.com/watch?v=EV9uJDqg7TM) | 38 s AI-voiced Hinglish explainer: '₹2,500 ka farak' on ₹5 lakh | 208 | 17× | 29 Oct |
+| [@cryptokibate (Instagram)](https://www.instagram.com/reel/DfAUHmAvtqJ) | Talking head with infographics: 'Jio ke IPO ka 10X hoga Anthropic ka IPO', revenue growth and valuation, ends 'would you invest?' | 1.1M | 126× usual | 27 Oct |
+| [@financetalkswithaman (Instagram)](https://www.instagram.com/reel/DfHet_AJDbQ) | 70 s talking head, 'World's biggest IPO is coming? Bigger than SpaceX', valuation and the key risks | 780K | 22× usual | 30 Oct |
+| [@financebysanjay (Instagram)](https://www.instagram.com/reel/DfB8SkFITJk) | Talking head in a car: 'China AI bubble burst, USD 3.5 trillion wiped out', is it the end of AI (adjacent) | 6.5M | 18× usual | 28 Oct |
+| [@anushkarathod98 (Instagram)](https://www.instagram.com/reel/DfH5HpfOhU_) | Split screen over a red market dashboard: 'Is this the beginning of the AI bubble burst? Should you buy the dip?' (adjacent) | 747K | 3.8× usual | 30 Oct |
+| [The Tech Report (YouTube)](https://www.youtube.com/watch?v=884dTvxSk4c) | 39 min, Ed Zitron: why the AI bubble is bad for Anthropic 'on every level' | 818K | 2.1× usual | 30 Oct |
 
-_One big creator has explained the rule and how to choose; the rest are news clips and tiny Shorts. Nobody has shown the viewer the invisible bill: the same fund at two prices, and the commission they've been paying without ever seeing it._
+_Indian reels have done the IPO (how big) and, separately, the AI bubble (is it bursting). Nobody has joined them: the biggest IPO in history arriving in the middle of the selloff, with its rival cutting its price the same week._
 
 ### Facts and sources
-- Pandey at NDTV Profit IGNITE, Mumbai, 28 Oct: 'Direct Plans will be the default option on digital platforms of AMCs' from 1 Nov 2026; regular-plan buyers told of the higher expense ratio; same portfolio and manager; the 0.5-point gap example (₹2,500 a year on ₹5 lakh); switching can trigger capital gains tax and exit loads; independent apps not necessarily covered. — [Business Today (BT Explainer), 29 Oct 2026](https://www.businesstoday.in/mutual-funds/story/bt-explainer-mutual-fund-direct-plans-to-become-default-on-amc-apps-from-november-1-what-investors-need-to-know-564461-2026-10-29)
-- Default from 1 Nov on AMC digital platforms; regular plans not discontinued, existing investments not converted; illustrative ₹10,000 SIP, 20 years at an assumed 12%: about ₹84.53 lakh direct vs ₹75.06 lakh regular (gap ₹9.47 lakh); other SEBI measures (IPO framework review, AI surveillance). — [Kotak Neo, 29 Oct 2026](https://www.kotakneo.com/news/personal-finance/sebi-makes-direct-mutual-funds-default/)
-- From 1 Nov 2026 direct plans are the default on AMC digital platforms; regular-plan buyers told of the higher expense ratio; existing regular plans and SIPs don't switch automatically. Also from 1 Nov: pensioners' life certificates due by 30 Nov; the ITR deadline for audit cases moves to 21 Nov. — [Upstox, 'Money updates for November 2026'](https://upstox.com/news/personal-finance/latest-updates/november-2026-changes-4-important-updates-for-bank-customers-pensioners-and-taxpayers/article-202449/)
-- Announcement dated 28 Oct (via Moneycontrol): 'Direct Plans will become the default option' on AMC digital platforms from 1 Nov; regular-plan buyers told of the higher expense ratios. — [Cafemutual, 28 Oct 2026](https://cafemutual.com/news/press-news/39170-sebi-to-make-direct-plans-default-on-amc-digital-platforms-from-november-1-says-tuhin-kanta-pandey)
+- S-1 filed Mon 26 Oct; revenue $19.7 bn and net loss $109.74 bn for the 12 months to 30 June 2026; $141.1 bn raised to date; expected raise about $75 bn or more; Reuters: market cap around $1.5 trn; marketing could start the week of 9 Nov (Bloomberg); lead banks Goldman Sachs and Morgan Stanley; ticker ANT (proposed). — [IPOScoop, 26 Oct 2026](https://www.iposcoop.com/the-ipo-buzz-anthropic-ant-proposed-files-its-s-1/)
+- OpenAI now seeks about $20 bn at a $1.25 trn valuation, down from $30 bn at $1.4 trn (FT); some investors cut commitments; Nasdaq 100 down about 10% in three weeks since its 6 Oct record, including 4.5% on Friday; Anthropic reportedly aiming to raise as much as $100 bn at $1.5 trn, going public in November; OpenAI IPO postponed to 2027. — [CoinDesk, 30 Oct 2026](https://www.coindesk.com/business/2026/10/30/openai-reportedly-cuts-fundraising-target-amid-ai-jitters)
+- OpenAI seeking about $20 bn at $1.25 trn, down from $30 bn at $1.4 trn; Nasdaq 100 fell 3.5% on Friday; Anthropic preparing to go public next month at 'at least $1.5 trillion'; OpenAI raised $122 bn in March. — [ThePrint (Bloomberg), 31 Oct 2026](https://theprint.in/world/openai-cuts-fundraising-target-by-10-billion-amid-ai-market-selloff/3087045/)
 
 ### Watch out
-- No 'switch now' or fund-pick instruction: a switch can trigger capital gains tax and exit loads, and some people want a distributor's help. The rule makes the cost visible; it doesn't tell anyone what to do. Any rupee gap on screen comes from a worked example, said aloud as an assumption ('12% maan ke'), with its expense-ratio gap.
-- Don't say SEBI 'banned' regular plans or that old SIPs move automatically: neither is true.
-- Scope: it covers the fund houses' own apps and websites. Whether Groww, Zerodha and other apps change is not established (Business Today). No formal SEBI circular was found this morning; the sources are the chairman's public announcement. Say 'SEBI chief ne kaha', or check sebi.gov.in before the script is frozen.
-- The 63% regular-plan share of retail AUM is a Mint headline the desk couldn't open (Mint, NDTV and Moneycontrol refused our fetches). Use it only once checked.
-- Bets: B1 (the stake in frame one: two price tags on the same fund, the top half of a split screen), B2 (one idea, the invisible commission, inside 30 s), B3 (the friend whose SIP the bank RM set up). Known name is weak (SEBI, not a brand); a fund-house app screen on the top half could carry frame one, but not one real AMC's logo, since the reel isn't about that company.
+- No apply, buy, skip or 'should you invest' call; IPO facts only. Don't call it a bubble as our claim: say who says so (Ed Zitron, the outliers) or keep to the numbers.
+- Friday's Nasdaq fall differs between sources (4.5% vs 3.5%); the raise differs ($75 bn vs $100 bn). Use '10% in three weeks' and '$1.5 trillion', or name the source.
+- OpenAI's cut is the FT's report via secondary outlets (paywalled); OpenAI has not confirmed it. Say 'report ke mutabik'-style attribution in the script.
+- Real people: Dario Amodei's or Sam Altman's real photos are fine (CLAUDE.md rule 4); no invented words. Logos: Claude/Anthropic and OpenAI are the subject, so the official logos are fine; never have an image model draw them.
+- Bets: B1 (the Claude logo with the $1.5 trn number on the top half from frame one, as on E15), B2 (one idea: rival cuts its price, Anthropic doesn't, inside 30 s), B3 (for the friend who sent them E15). Famous-name watch item.
 
-## 2. Jio's first report card as a listed company: profit up 13.7%, but each user pays ₹7.40 a month more than a year ago
+## 2. Five days to Dhanteras: silver is 57% below its January peak and gold 23%, the reverse of the usual festive rise
 
-Hot lane (tracked since 18 Oct; new turn: its first results as a listed company, out Friday afternoon) · HOT · **8/10** (momentum 3/3, stake 1/1, shareability 1/2, gap 1/2, known name 2/2) · tracker id `jio-ipo`
+Hot lane (tracked since 21 Oct and 26 Oct; new turn: silver now more than half below its peak, with Dhanteras on Friday) · HOT · **7/10** (momentum 3/3, stake 1/1, shareability 1/2, gap 1/2, known name 1/2) · tracker id `silver-crash-46`
 
-Window: Sun 1 Nov or Mon 2 Nov morning: the shares trade on the results for the first time on Monday ('shares in focus on Monday 2 Nov', Mint headline).
+Window: Post by Thu 5 Nov; Dhanteras is Fri 6 Nov and Diwali Sun 8 Nov. After Dhanteras it's old news.
 
 ### What's happening
-- Jio Platforms reported its first results since listing on Fri 30 Oct, for July–September (Q2 FY27). Net profit ₹8,389 crore, up 13.69% from ₹7,379 crore a year earlier and from ₹7,764 crore in April–June (Upstox results blog). Business Standard and ANI headline ₹8,387 crore (13.7%); the gap is rounding between versions.
-- Revenue from operations ₹40,475 crore, up 11.4%. EBITDA ₹20,901 crore, up 15.5%, margin 51.6% against 49.8% (Upstox). Business Today gives a wider revenue line of ₹47,485 crore (+11.3%) and EBITDA of ₹21,879 crore; that is a different (gross) basis, so pick one and say which.
-- ARPU, what each user pays a month on average: ₹218.8, against ₹211.4 a year earlier (Upstox; Business Today). That is +3.5%, while profit grew about four times as fast, on more users and more data.
-- Users: over 542 million in total (36 million added in 12 months, 9.1 million this quarter); 300 million on 5G; 30 million on home broadband; 44.2 GB of data per user a month; monthly churn 1.6% (Upstox).
-- Context: the listing on Wed 28 Oct followed a ₹30,188 crore IPO subscribed 22 times (Business Today). Market value about ₹13.18 lakh crore on Friday evening (Upstox). Upstox's own blog reports both a 2.4% intraday fall and a 0.68% gain at the close, so the day's move is left out.
-- Same evening, the parent: Reliance's profit rose 40.64% to ₹25,548 crore, a record quarter, on refining (Business Today). Mukesh Ambani: 'This week marked a historic moment in Reliance's value creation journey with Jio's record-setting listing.' Headlines not opened: Reliance Retail's profit fell 24.3% to ₹2,611 crore and JioStar's 13.2% to ₹1,147 crore (Business Standard).
+- Dhanteras is Friday 6 November 2026, with Diwali on Sunday 8 November (several panchang and jewellery sites agree; e.g. allindiabullion, devaastha).
+- MCX futures at Friday's close: silver ₹1,78,900 a kg (down ₹10,577 on the day) against a January peak of ₹4,20,048, a fall of about 57%; gold ₹1,38,419 per 10 g (down ₹4,347) against a January peak of ₹1,80,779, about ₹42,321 or 23% lower (Sunday Guardian, updated 1 Nov 03:41 IST; percentages are the desk's arithmetic).
+- International: spot silver $50.95 an ounce on Fri 30 Oct, its lowest since November 2025 and about 58% below its record of $121.64 on 29 Jan 2026; down about 15.8% in October (Yahoo Finance, 30 Oct).
+- Why (Yahoo Finance; Sunday Guardian): rising odds of another US rate hike (the Fed held at 3.75–4.00% on 28 Oct with two members wanting a hike; CME puts a December hike near 75%), hot US inflation data, higher oil reviving inflation fears, JPMorgan expecting solar demand for silver to fall about 30% this year, and leveraged buyers forced out after COMEX and MCX raised margins in February and March.
+- The usual pattern is the opposite: prices tend to rise in the weeks before Dhanteras on festive buying (Zee News report, 31 Oct, 546K views).
+- Our numbers differ from the tracker's 21 Oct figure (₹3,84,632 → ₹2,08,380 a kg), which used a spot/IBJA basis, not MCX futures. Pick one basis and name it.
 
 ### The curiosity gap
-- Lakhs of people became Jio shareholders this week. Their first report card says profit up 14%, while what each customer pays rose only ₹7.40 a month. Where did the growth actually come from, and what happens when it has to come from your recharge?
-- Reliance had its best quarter ever on the same day, yet two of its consumer businesses, Retail and JioStar, made less money. Is the Jio listing hiding which parts of the empire are slowing?
+- Every year gold and silver climb into Dhanteras. This year silver has lost more than half its price since January. What broke?
+- Someone who bought silver coins at the January peak and someone buying this Friday will pay less than half for the same kilo. Why did it fall this far, this fast?
+- Gold is down 23% but silver 57%: why did the 'poor man's gold' fall more than twice as hard?
 
 ### How hot it is
-- trends.py 'Jio Platforms results': HOT; 6 of 6 news stories this week landed today; YouTube best 4,186 views/hr (the listing-day 'What should investors do?' video). The tracker's 'jio-ipo' check: HOT, rising, 40 of 100 news stories, YouTube 5.7M views this week, best 67,453/hr.
-- vidIQ YouTube (IN, since 30 Oct, by views): Biz Tak results live 62,107 (5,646/hr); Stock Market ka Commando 57,268 (5,206/hr); CNBC-TV18 live 42,050; CNBC Awaaz 2:20 breaking 41,738 (3,478/hr); Biz Tak 4:24 'Jio ka pehla result' 39,143.
-- vidIQ Instagram outliers (India, since 27 Oct): all on the listing, none on the results yet: @simarfinance '₹1,358 pe list, 21% fayda' 2.4M (76x); @thepublic.records 'Jio IPO ₹13,428 lagaya' 1.1M (7.4x); @bloombergbusiness 1.1M (6.7x); @viralbhayani bell ceremony 893K (3.3x).
-- vidIQ keyword research 'jio share' (IN): about 15,900 monthly searches, competition 54; 'jio ipo latest news' about 181,000 (+1,378%).
+- trends.py 'silver price crash': HOT, 9 news stories this week; YouTube 10 videos, 666K views, best 8,501/hr. 'Dhanteras gold price': HOT on YouTube (957K views, best 6,343/hr; Kishore Ajwani podcast 152K in 24 h).
+- vidIQ YouTube (IN, since 29 Oct): Zee News 'Gold-Silver Price Crash Big Breaking' 546K at 19,489/hr; CA Bhagyashree Thakkar 'Silver crashes 55%: buy this Dhanteras or wait?' 2,147.
+- vidIQ Instagram outliers (India, since 20 Oct): five gold/silver Diwali reels at 800K–7.2M (below).
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [Biz Tak (YouTube)](https://www.youtube.com/watch?v=Fb3ycxpUDxI) | 4:24 Hindi 'Bumper listing ke baad Jio ka pehla result': 5G users at 300M, 44 GB per user, debt down | 39K | – | 30 Oct |
-| [CNBC Awaaz (YouTube)](https://www.youtube.com/watch?v=HIn3pGYhWes) | 2:20 breaking-news read of the results | 42K | – | 30 Oct |
-| [Stock Market ka Commando (YouTube)](https://www.youtube.com/watch?v=wjPERuJMV8g) | 11 min, RIL and Jio results 'pehli baar', actual vs estimates | 57K | – | 30 Oct |
-| [@simarfinance (Instagram)](https://www.instagram.com/reel/DfBpYIxvq6u) | Listing day (adjacent): 'JIO KA SHARE LISTED ₹1,358', why she sold on listing | 2.4M | 76× usual | 28 Oct |
+| [@syyed.suhail (Instagram)](https://www.instagram.com/reel/De-3Yy1iNTe) | News anchor with big headline text: 'Gold cheaper before Diwali, silver down 50% in 9 months', expert outlook | 7.2M | 6.7× usual | 27 Oct |
+| [@the_nishibhatia (Instagram)](https://www.instagram.com/reel/DfAZUu7xW4o) | Stacked news clip: 'Will gold fall to 56,000?' prediction | 2.6M | 179× usual | 27 Oct |
+| [@yogifunnify (Instagram)](https://www.instagram.com/reel/De6lVNWOg2L) | Split screen with a falling chart: 'Don't buy gold', why prices fall before Diwali this year | 1.2M | 108× usual | 25 Oct |
+| [@theanupamajha_ (Instagram)](https://www.instagram.com/reel/DfB1OLiBVw8) | Split screen, silver images above: 'Silver down 50% in 6 months, buy now or wait?' | 823K | 15.5× usual | 28 Oct |
+| [Zee News (YouTube)](https://www.youtube.com/watch?v=cfiCEIGtKCY) | Live 'Gold-Silver price crash' special: the pre-Dhanteras rise that didn't happen | 546K | – | 31 Oct |
 
-_The results so far are TV-style reads and long YouTube breakdowns; Instagram's Jio outliers are all listing-day reels. Nobody has turned the report card into the shareholder's one question: profit up 14%, but the price each user pays barely moved._
+_Heavily covered, and almost all of it asks 'buy now or wait?' or predicts a price. Nobody has explained in one line why silver fell more than twice as hard as gold._
 
 ### Facts and sources
-- Net profit ₹8,389 crore (+13.69% from ₹7,379 crore; Q1 ₹7,764 crore); revenue from operations ₹40,475 crore (+11.4%); EBITDA ₹20,901 crore (+15.46%), margin 51.64% vs 49.83%; ARPU ₹218.8 vs ₹211.4; 9.1M net adds, churn 1.6%, 44.2 GB per user; 542M+ subscribers, 300M on 5G, 30M fixed broadband; market cap ₹13,18,088.58 crore (18:59 IST). — [Upstox results blog, 30 Oct 2026](https://upstox.com/news/market-news/earnings/jio-platforms-q2-results-live-updates-ril-subsidiary-to-release-first-earnings-after-listing-on-oct-30/liveblog-202694/)
-- RIL net profit ₹25,548 crore (+40.64% from ₹18,165 crore), revenue ₹3,32,861 crore (+28.57%); Jio revenue ₹47,485 crore (+11.3%), EBITDA ₹21,879 crore (+16.6%), ARPU ₹218.8, 542.4M subscribers; IPO ₹30,188 crore, 22x, completed 28 Oct; Ambani's 'historic moment' quote. — [Business Today, 30 Oct 2026](https://www.businesstoday.in/markets/stocks/story/ril-q2-profit-jumps-41-to-rs-25548-crore-jio-arpu-rises-to-rs-218-8-564856-2026-10-30)
+- MCX gold ₹1,38,419/10 g (−₹4,347), silver ₹1,78,900/kg (−₹10,577); January highs ₹1,80,779/10 g and ₹4,20,048/kg; gold down ₹42,321 from its peak; silver 'beyond 50 percent' below its peak; causes: oil reviving inflation concerns, hawkish policy signals, investors selling to raise cash. — [Sunday Guardian live blog, updated 1 Nov 2026 03:41 IST](https://sundayguardianlive.com/business/live-gold-price-today-mcx-gold-falls-138-lakh-silver-crashes-10000-as-oil-surge-118-trump-iran-war-fed-rate-check-latest-24k-22k-18k-gold-rate-in-delhi-mumbai-kerala-chennai-more-315024)
+- Spot silver $50.95 on Fri 30 Oct (−2.29%), lowest since Nov 2025; record $121.64 on 29 Jan 2026; about 58% below; −15.8% in October; Fed held at 3.75–4.00% on 28 Oct with two dissenters for a hike; ~75% odds of a December hike; JPMorgan sees solar silver demand −30%; COMEX and MCX margin hikes in Feb–Mar forced selling. — [Yahoo Finance, 30 Oct 2026](https://finance.yahoo.com/markets/commodities/articles/silver-lost-more-half-value-134813458.html)
+- Dhanteras 2026: Friday 6 November; Diwali Sunday 8 November. — [Devaastha (festival calendar)](https://www.devaastha.com/blogs/festivals/dhanteras-significance-puja-muhurat)
 
 ### Watch out
-- No buy, hold or sell, and per the SEBI price-data rule no share price, chart or target on screen. Results numbers are fine.
-- Two revenue bases are in circulation (₹40,475 crore from operations; ₹47,485 crore gross). Use one and name it, or use the profit and ARPU only.
-- Retail's −24.3% and JioStar's −13.2% are Business Standard headlines the desk didn't open; check them before use.
-- Bets: B1 (Jio's logo and the profit number on the top half from frame one), B2 (one idea, ARPU vs profit, inside 30 s), B3 (for the friend who got the allotment). It carries the famous-name watch item (W2).
+- No buy, wait or sell call and no price prediction: that is exactly what every other reel does, and it's off-limits for us. Per the SEBI price-data rule, report the move as news; no chart, no targets.
+- Basis: MCX futures, IBJA and city jewellers' rates all differ (a Mumbai bullion page showed silver ₹1,79,100/kg on 31 Oct). Name the basis, or use only the percentages.
+- Topic already made: E14 (silver, 25 Oct). The new turn is 'more than half' plus Dhanteras on Friday; say what's new, don't remake E14.
+- Bets: B1 (silver bars with '−57%' on the top half from frame one), B2 (one idea, why silver fell twice as hard, inside 30 s), B3 (the relative buying coins on Friday).
 
-## 3. Ola Electric's ₹1,000 crore rights issue closed yesterday: the founder borrowed against his own shares to buy in, while SoftBank sold
+## 3. IDBI Bank's sale: an internal government note shows Fairfax's bid was opened first, and the ₹94.42 floor price thrown out the same day; the deal went through at ₹81
 
-Deep lane (via The Morning Context, 30 Oct: 'Bhavish Aggarwal's costly debt bet could hurt Ola Electric'; facts from open sources) · COLD · **7/10** (momentum 0/3, stake 1/1, shareability 2/2, gap 2/2, known name 2/2) · tracker id `ola-rights-pledge`
+Deep lane (via BusinessWorld, Palak Shah, 29 Oct: 'First they saw the bid. Then they set the price.'; facts from The Pioneer, 30 Oct) · FLAT · **7/10** (momentum 1/3, stake 0/1, shareability 2/2, gap 2/2, known name 2/2) · tracker id `idbi-note-reserve`
 
-Window: About a week: the rights-issue result (how much was taken up) and the July–September results are the next turns. Credit The Morning Context in the caption if its angle is used.
+Window: About a week: the next turns are RBI's approval of the sale, any court petition, or a CAG or parliamentary demand. Credit BusinessWorld in the caption if its angle is used.
 
 ### What's happening
-- Ola Electric ran a rights issue of up to ₹1,000 crore (₹999.74 crore if fully taken) at ₹27 a share, 2 new shares for every 25 held, from 22 to 30 Oct; partly paid: ₹16.20 on application, ₹10.80 on a later call (Angel One, 8 Oct; Inc42, 27 Oct; InvestyWise, 30 Oct).
-- The money: about ₹350 crore to repay or prepay borrowings, ₹400 crore for growth, the rest for general purposes (Autocar Pro, 6 Oct; Inc42, 23 Oct).
-- To pay for his own share of it, founder Bhavish Aggarwal pledged 20 crore Ola Electric shares, 4.32% of the company, to secure debentures raised by Krutrim Data Centre, an entity linked to him. The company says the money is 'intended solely' for his rights participation and that no shares are being sold (Autocar Pro, 6 Oct).
-- History: he had pledged shares from November 2024 (to raise debt for Krutrim), peaking at about 17.3 crore shares by December 2025. That month he sold part of his holding to repay about ₹260 crore and free them. The new pledge is about 16% bigger than that peak (Autocar Pro).
-- Meanwhile SoftBank's fund sold 5.55 crore shares, about 1.2%, between 6 Jan and 22 Oct, taking it from 12.9% to 11.7%, and sold 1.12 crore of its 4.33 crore rights entitlements, about a quarter of them (Inc42, 27 Oct).
-- The business: April–June revenue fell 45% to ₹455 crore and the loss narrowed to ₹336 crore; its share of e-scooter registrations was 6.5% in September, down from 7.6% in August (Inc42, 23 and 27 Oct). On 23 Oct the stock closed 61% below its ₹76 listing price (Inc42, 23 Oct).
+- On 14 Oct the Cabinet approved selling 60.72% of IDBI Bank (the government's and LIC's stakes) to Canada's Fairfax for ₹52,878 crore, ₹81 a share (Moneylife summary; Pioneer).
+- BusinessWorld reported on 29 Oct on a 10-page internal DIPAM note dated 13 Aug 2026, signed by Secretary Arunish Chawla (Pioneer, 30 Oct). As reported: first-round bids opened on 12 Mar were both below the ₹94.42 reserve price, and both bidders refused to match it. Fairfax put in a revised sealed bid on 1 June. It was opened on 13 July and ranked first, and the same day the core group discarded the old minimum price and ordered fresh valuations.
+- The new valuation rules, as reported: IDBI's market share price was set aside (citing swings of 'almost 100%'); private banks were dropped from the comparison, though RBI has treated IDBI as a private bank since 2019; valuers were asked for point estimates. The new benchmark came out at ₹75.99, so ₹81 cleared it.
+- Fairfax called its revised bid its 'final offer' and said it would walk away if asked to rebid. The note relied on rules for disposing of goods and the Railway Stores Code's scrap-auction provisions, since the General Financial Rules have no specific provision for selling shares (Pioneer).
+- The government's side: DIPAM says its practices are 'indicative guidelines', cites a 2017 Cabinet decision and maintains the reserve price was neither decreased nor increased. On 29 Oct it put the tax indemnity it gave Fairfax at ₹627 crore of potential liability, against a ₹3,917 crore rise in the bid (Pioneer).
 
 ### The curiosity gap
-- The founder took a loan against his own shares to buy more of the same shares, while his biggest early backer sold out of part of its entitlement. Who is right?
-- Ola Electric listed in 2024 as India's EV champion. Now it's raising money from its own shareholders at ₹27, with ₹350 crore of it going to repay loans. How did a company that raised so much end up borrowing to stay afloat?
-- If you own Ola shares and ignored the rights offer, your slice of the company just got smaller. Did you even know there was one?
+- A floor price is the one number a seller fixes before seeing the bids. Here, as reported, the bid was opened first and the floor thrown out the same day. Why would a seller do that?
+- The rulebook used to sell a bank's shares was, by this account, the Railways' rule for auctioning scrap. How did a bank end up sold like scrap?
+- LIC policyholders' and taxpayers' stakes were in this sale. Did they get ₹94 or ₹81, and who decided?
 
 ### How hot it is
-- trends.py 'Ola Electric debt': COLD (0 news stories this week on that phrase; YouTube top result off-topic).
-- vidIQ YouTube (IN, since 20 Oct): Kuldeep Singh 22 s Short 'Bhavish Aggarwal ne 20 crore shares girvi rakh diye!' 366 views; Startup Wire India 'Goldman cuts Ola Electric target' 246. Nothing larger.
-- No Instagram outlier on it in this morning's scans.
+- trends.py 'IDBI Bank Fairfax': COLD on news (1 today, 7 this week), but YouTube is busy: 15 videos this week, 9 in the last 24 h, 261K views, best 2,497/hr ('IDBI Bank sale mystery explained: did Modi govt bend rules for Fairfax', 59,931 in 24 h).
+- vidIQ YouTube (IN, since 27 Oct): Y Shivam 16-min documentary on the note, 14,567 at 1,324/hr; Market Jargon 80 s Short 'Sale at ₹81, reserve was ₹94' 655; a 3-min explainer 36.
+- vidIQ Instagram outliers (India, since 15 Oct): the sale itself broke out (@cryptowalaindia 2.3M at 7.8x; @salman_reports 793K at 10.9x, both 15–16 Oct); none yet on the internal note.
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [Kuldeep Singh (YouTube Short)](https://www.youtube.com/watch?v=Rlqe6Adeyho) | 22 s Hinglish: what a promoter pledge is, and the 2025 pledge that ended in a share sale | 366 | 1.5× | 25 Oct |
-| [Startup Wire India (YouTube)](https://www.youtube.com/watch?v=_NR9SHEf4_o) | 1:11 English: Goldman's sell call the day after the rights issue opened | 246 | 16× | 23 Oct |
+| [@cryptowalaindia (Instagram)](https://www.instagram.com/reel/DeiT-DChwpU) | Talking head with screenshots: 'Govt sold IDBI Bank for ₹52,878 crore', what it means for depositors (the sale, before the note) | 2.3M | 7.8× usual | 16 Oct |
+| [@salman_reports (Instagram)](https://www.instagram.com/reel/DegtG0qMO4T) | Marathi news update for IDBI account holders, split screen with B-roll (the sale) | 793K | 10.9× usual | 15 Oct |
+| [Y Shivam (YouTube)](https://www.youtube.com/watch?v=gTxIa57eJjo) | 16-min Hindi documentary joining the DIPAM note, the ₹94.42 → ₹75.99 reset and ex-officials on Fairfax boards | 15K | – | 31 Oct |
 
-_Nobody with an audience has made it. The two sides of the trade, the founder borrowing to buy and SoftBank selling, haven't been put next to each other anywhere._
+_The sale broke out two weeks ago; the note that explains how its price was set has only long YouTube videos and one tiny Short. Nobody has told it in 30 seconds as 'the floor price that disappeared'._
 
 ### Facts and sources
-- 20 crore shares (4.32%) pledged to CTL Trusteeship for Krutrim Data Centre debentures, 'intended solely' for his rights participation; rights issue up to ₹1,000 crore approved 28 Sep; ~₹350 crore debt repayment, ₹400 crore growth; earlier pledges from Nov 2024, peak ~17.3 crore shares (Dec 2025), ~₹260 crore repaid then; new pledge ~16% above that peak; 6.5% EV two-wheeler share in September (~13,450 registrations); ₹780 crore QIP in June 2026. — [Autocar Pro, 6 Oct 2026](https://www.autocarpro.in/news/bhavish-aggarwal-pledges-20-crore-ola-electric-shares-months-after-clearing-earlier-pledges-135082)
-- SoftBank (SVF II Ostrich) sold 5.55 crore shares (~1.2%) 6 Jan–22 Oct, 12.9% → 11.7% (54.15 crore shares); got 4.33 crore rights entitlements, sold 1.12 crore (~25.9%); rights issue ₹999.74 crore, 22–30 Oct, ₹27 (₹16.20 now, ₹10.80 later); Q1 FY27 revenue ₹455 crore (−45%), loss ₹336 crore; share 6.5% in Sept vs 7.6% in Aug. — [Inc42, 27 Oct 2026](https://inc42.com/buzz/softbank-sells-1-2-stake-in-ola-electric-offloads-1-12-cr-rights-entitlements/)
-- Stock 61% below its ₹76 listing price at the 23 Oct close; rights proceeds ₹350 crore debt, ₹400 crore growth; promoter-group entities' entitlements partly taken by Motilal Oswal and Calliope (2.39 crore shares). — [Inc42, 23 Oct 2026](https://inc42.com/buzz/ola-electric-slides-over-7-after-bearish-call-from-goldman-sachs/)
-- ₹27 per share (the page prints it as ₹6 face value plus ₹17 premium, which doesn't add up), ratio 2:25, record date 13 Oct, open 22 Oct, close 30 Oct (extendable by 30 days), 37,02,72,665 partly paid shares. — [Angel One, 8 Oct 2026](https://www.angelone.in/news/stocks/ola-electric-share-price-in-focus-board-approves-1-000-crore-rights-issue)
-- Rights issue opened 22 Oct and closed 30 Oct (citing the BSE filing). — [InvestyWise, 30 Oct 2026](https://www.investywise.com/ola-electric-mobility-rights-issue-period-closes)
+- Internal DIPAM note dated 13 Aug 2026 (Arunish Chawla); ₹81 approved vs benchmark ₹75.99; first-round reserve ₹94.42; 12 Mar bids below the floor; 1 June revised Fairfax bid, opened 13 July, floor discarded and fresh valuations ordered; market price set aside ('almost 100%' swings); private banks dropped from comparables; 'final offer'; Railway Stores Code scrap-auction provisions; KPMG transaction adviser; tax indemnity ₹627 cr vs ₹3,917 cr bid enhancement (DIPAM, 29 Oct); DIPAM: 'indicative guidelines', reserve neither decreased nor increased. — [The Pioneer, 30 Oct 2026](https://dailypioneer.com/business/idbi-sale-note-shows-reserve-price-reset-after-fairfax-bid-fell-short-of-earlier-floor)
+- Original report (desk could not open it, 403): 'Sensational details of IDBI-Fairfax deal: first they saw the bid, then they set the price'. — [BusinessWorld, 29 Oct 2026](https://www.businessworld.in/article/sensational-details-of-idbi-fairfax-deal-first-they-saw-the-bid-then-they-set-the-price-631066)
+- CCEA on 14 Oct approved the sale of a 60.72% stake (government and LIC) in IDBI Bank to a Fairfax subsidiary for ₹52,878 crore, ₹81 a share. — [Moneylife, 'IDBI Bank: Of Fair Price, Fair Play and Fairfax'](https://www.moneylife.in/article/idbi-bank-of-fair-price-fair-play-and-fairfax/81953.html)
 
 ### Watch out
-- No buy, sell or 'should you subscribe' call. Per the SEBI price-data rule: no share price levels, no chart, and no analyst ratings or targets on screen (so not Goldman's 'sell' or its ₹23). Say '61% below its listing price', not rupee levels.
-- Fair framing: a pledge to fund a rights subscription is legal and disclosed; the company says no shares are being sold. Say 'girvi rakh ke', never 'scam'. Bhavish Aggarwal's real photo is fine (CLAUDE.md rule 4); no words in his mouth.
-- The Morning Context piece is paywalled; the desk used only its headline. Every number above comes from open sources. Credit 'via The Morning Context' if the reel takes its angle.
-- Angel One prints ₹6 face value plus ₹17 premium, which doesn't add to ₹27; the face value is likely ₹10. Use only the ₹27 price.
-- Bets: B1 (Bhavish's photo with 'loan leke apne hi shares' style text on the top half), B2 (one idea: the founder buys while SoftBank sells), B3 (for the friend who holds Ola shares from the IPO). Carries W2 (famous name).
+- Everything about the note is 'as reported': BusinessWorld says it has seen it; DIPAM disputes the reading, not (per reports) the note. Say 'report ke mutabik' and give the government's answer in the same reel.
+- It has turned political (opposition leaders and the Finance Minister on X). Humour lands on the process, not on a party or a person; no words in anyone's mouth. Don't say 'scam' or 'sold cheap' as our verdict.
+- No buy or sell call on IDBI shares; no share price levels on screen.
+- Ex-officials on Fairfax boards (in the Y Shivam video) are not verified by the desk; leave them out.
+- Bets: B1 ('₹94 → ₹81' on the top half over the IDBI tower or LIC logo from frame one), B2 (one idea: the floor price that vanished after the bid was seen), B3 (the friend with an LIC policy).
 
 ## Stories we're tracking
 
@@ -155,36 +152,35 @@ Full board: research/desk/TRACKER.md
 
 | Story | Now | Direction | Day | Status |
 |---|---|---|---|---|
-| Jio Platforms IPO (`jio-ipo`) | HOT | rising | 24 | active |
-| Mutual funds halt new gold FoF SIPs and bulk gold ETF buys (`gold-fund-halt`) | HOT | rising | 16 | active |
-| Insurance mis-selling complaints +14%; IRDAI crackdown may slip (via The Ken) (`insurance-misselling-ken`) | COLD | steady | 15 | active |
-| Groww's F&O share of revenue falls to 45%; turns to IPOs and wealth (via The Arc) (`groww-derivatives-arc`) | COLD | steady | 14 | active |
-| Air India FY26 loss ₹22,238 cr (~₹61 cr a day); SIA as saviour (via The Ken) (`air-india-loss-ken`) | HOT | rising | 12 | active |
-| Silver -46% from January record (₹3,84,632 → ₹2,08,380/kg) before Dhanteras (`silver-crash-46`) | HOT | rising | 11 | active |
-| Urban Company loss triples on InstaHelp: ₹114 booking, ₹279 loss (via The Morning Context) (`urban-company-instahelp`) | COLD | steady | 11 | active |
-| NSE unlisted buyers below IPO price (The Ken) (`nse-unlisted-regret-ken`) | HOT | steady | 8 | active |
-| Jio's prepaid (77% of revenue) sold only via Reliance Retail (via The Ken) (`jio-reliance-retail-ken`) | COLD | fading | 7 | active |
-| Gold ₹38,000 below January peak, ₹5,560/10g down in 3 days, before Dhanteras (`gold-dhanteras-fall`) | HOT | fading | 6 | active |
-| HDFC Bank's first outside CEO starts; share ~30% down in a year (via The Morning Context) (`hdfc-bank-bagchi`) | FLAT | fading | 5 | active |
-| Jewellery makers' IPO wave: money goes to gold and debt (via The Ken) (`jewellery-ipo-ken`) | COLD | rising | 4 | active |
-| Anthropic S-1: $16.3 bn H1 revenue, $80.7 bn loss ($72.4 bn paper charge) (`anthropic-s1`) | HOT | fading | 3 | active |
-| LTCG tax-cut debate: ₹1.29 lakh crore a year; The Ken says don't cut (`ltcg-cut-debate`) | FLAT | fading | 3 | active |
-| Equitas SFB: record profit, CEO quits over daughter's NBFC, 20% lower circuit (`equitas-ceo-exit`) | RISING | new | 2 | active |
-| 773 government sites still serving eMudhra's revoked certificates (via The Ken) (`emudhra-gov-sites`) | COLD | new | 2 | active |
-| SEBI makes direct mutual fund plans the default on AMC apps from 1 Nov (`sebi-direct-default`) | - | new | 1 | active |
-| Ola Electric rights issue: founder pledges shares to buy in, SoftBank sells (`ola-rights-pledge`) | - | new | 1 | active |
+| Jio Platforms IPO (`jio-ipo`) | HOT | fading | 25 | active |
+| Mutual funds halt new gold FoF SIPs and bulk gold ETF buys (`gold-fund-halt`) | FLAT | fading | 17 | active |
+| Groww's F&O share of revenue falls to 45%; turns to IPOs and wealth (via The Arc) (`groww-derivatives-arc`) | COLD | fading | 15 | active |
+| Air India FY26 loss ₹22,238 cr (~₹61 cr a day); SIA as saviour (via The Ken) (`air-india-loss-ken`) | HOT | steady | 13 | active |
+| Silver -46% from January record (₹3,84,632 → ₹2,08,380/kg) before Dhanteras (`silver-crash-46`) | HOT | rising | 12 | active |
+| Urban Company loss triples on InstaHelp: ₹114 booking, ₹279 loss (via The Morning Context) (`urban-company-instahelp`) | COLD | steady | 12 | active |
+| NSE unlisted buyers below IPO price (The Ken) (`nse-unlisted-regret-ken`) | HOT | steady | 9 | active |
+| Jio's prepaid (77% of revenue) sold only via Reliance Retail (via The Ken) (`jio-reliance-retail-ken`) | HOT | rising | 8 | active |
+| Gold ₹38,000 below January peak, ₹5,560/10g down in 3 days, before Dhanteras (`gold-dhanteras-fall`) | HOT | steady | 7 | active |
+| HDFC Bank's first outside CEO starts; share ~30% down in a year (via The Morning Context) (`hdfc-bank-bagchi`) | FLAT | rising | 6 | active |
+| Jewellery makers' IPO wave: money goes to gold and debt (via The Ken) (`jewellery-ipo-ken`) | COLD | steady | 5 | active |
+| Anthropic S-1: $16.3 bn H1 revenue, $80.7 bn loss ($72.4 bn paper charge) (`anthropic-s1`) | HOT | steady | 4 | active |
+| LTCG tax-cut debate: ₹1.29 lakh crore a year; The Ken says don't cut (`ltcg-cut-debate`) | FLAT | steady | 4 | active |
+| Equitas SFB: record profit, CEO quits over daughter's NBFC, 20% lower circuit (`equitas-ceo-exit`) | FLAT | fading | 3 | active |
+| 773 government sites still serving eMudhra's revoked certificates (via The Ken) (`emudhra-gov-sites`) | COLD | steady | 3 | active |
+| SEBI makes direct mutual fund plans the default on AMC apps from 1 Nov (`sebi-direct-default`) | COLD | new | 2 | active |
+| Ola Electric rights issue: founder pledges shares to buy in, SoftBank sells (`ola-rights-pledge`) | COLD | new | 2 | active |
+| IDBI sale: Fairfax bid opened, then ₹94.42 floor discarded; sold at ₹81 (via BusinessWorld) (`idbi-note-reserve`) | - | new | 1 | active |
 
 ## Also on the wire
-- Gold before Dhanteras (Fri 6 Nov; tracked 'gold-dhanteras-fall', HOT on YouTube). MCX gold 'crashes below ₹1.42 lakh' (Mint headline, 30 Oct); Zee News live 'Gold Silver Crash' 242,488 views at 20,183/hr; a Money9 report citing IBJA puts 24-carat gold near ₹1.41 lakh per 10 g on 27 Oct, down about ₹7,000 in October. A stronger reel midweek, closer to Dhanteras. Headlines and YouTube descriptions only, not verified.
-- US tech rout: Alphabet lost about $500 billion in a day, its worst day ever (CNBC, NBC, WSJ headlines, 29 Oct), and Intel fell about 29%, its worst day since 1974 (Yahoo Finance, Reuters headlines, 30 Oct). A stake for Indians who own US stocks through apps; trends.py 'Alphabet Google shares' HOT (best 8,962/hr). Headlines only.
-- Equitas SFB (yesterday's pick, tracked 'equitas-ceo-exit', RISING, 51 of 100 news stories today): down 27% in two days (Business Standard and Fortune India headlines, 30 Oct); 'off lows, ends with a cut of over 6%' on Friday (CNBC-TV18 video description); analyst meet on 5 Nov (scanx headline). Akhilesh's story draft is in scripts/drafts/ (30 Oct).
-- Anthropic S-1 (tracked 'anthropic-s1', HOT but fading: 68 of 100 news stories). Akhilesh's valuation-and-loss story draft is still in scripts/drafts/ (29 Oct).
-- Also seen, not used: AU Small Finance Bank hit by an alleged cyberattack, with hackers claiming customer PAN and Aadhaar data (Moneylife headline, 30 Oct); a Rajasthan man on a ₹10,000 salary found ₹10,000 crore in his account, later fixed (NDTV, Inshorts, 30 Oct); UPI enabled for Burj Khalifa and Singapore bookings (ET, 30 Oct); SEBI fined CDSL ₹1 crore (Moneycontrol headline); Suzlon −10% on weak Q2 (Moneycontrol headline, 30 Oct).
+- SEBI's direct-plan default starts today (tracked 'sebi-direct-default', yesterday's pick, now COLD on news). Your story draft is in scripts/drafts/ (31 Oct). It's now a 'what changed today' reel and keeps a day or two.
+- Jio Platforms (tracked 'jio-ipo', HOT, fading): the shares trade on the first results on Mon 2 Nov (profit ₹8,389 crore, +13.7%; ARPU ₹218.8 vs ₹211.4, from yesterday's desk). A Monday-morning reel still works.
+- AU Small Finance Bank: a group called ScarlettGroup claims KYC, PAN and Aadhaar data, loan records and statements (posted 29 Oct); the bank says it is investigating a possible leak on a Salesforce-hosted platform holding 'limited data' of its vehicle-loan customers and that its own systems are unaffected; no count of customers (Digit; StartupTalky, 30 Oct). Salesforce says no vulnerability at its end (NDTV Profit headline). trends.py COLD but 5 of 7 YouTube videos landed in the last 24 h. Claims unverified, so not sent as a story. Same week: SBI found 3,897 customer records with personal data in a dark-web sample of 375,000+ (StartupTalky).
+- Also seen, not used: OpenAI's cut is folded into story 1; Muthoot Finance Q2 profit up (two figures in Business Standard headlines, 27% and 36%, not checked); NTPC Q2 profit +14%; PNB suspended about 20 branch heads after finding outsiders handling banking work (Moneylife headline); Intellect Design −14% on a Q2 miss (Business Today headline); The Ken on hundreds of government websites still on revoked eMudhra certificates (tracked 'emudhra-gov-sites', COLD).
 
 ## Where we stand
 
 467 followers (+181 this week)  
-Last reel (EPFO startups/AIFs 3%: duplicate post of X4 (same caption, 37 s)): 112 plays so far  
+Last reel (EPFO startups/AIFs 3%: duplicate post of X4 (same caption, 37 s)): 440 plays so far  
 What every reel is testing:  
 - Hook in frame one: swipe-aways in the first 3 s 52% now, target 45% (3 of 3 reels in)
 - Tight 20-30 s: average watched 39% now, target 45% (1 of 3 reels in)
