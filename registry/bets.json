@@ -1,54 +1,155 @@
 {
   "_doc": "The strategy book. One bet = one lever, judged on one metric against the baseline it opened at. Verdicts come from pipeline/scoreboard.py. Status: open, won, stopped, no-edge, watch. Rules in docs/strategy.md.",
   "campaign": {
-    "name": "Stage 1: Stop the scroll",
-    "started": "2026-09-26",
-    "ends": "2026-10-25",
-    "goal": "prove people stop for our reels and stay to the end",
+    "name": "Stage 2: Make it travel",
+    "started": "2026-10-26",
+    "ends": "2026-11-15",
+    "goal": "reels that get forwarded and reach well beyond our followers",
     "targets": [
-      {"metric": "skip_rate", "target": 45},
-      {"metric": "watched_pct", "target": 45},
-      {"metric": "views", "target": 500},
-      {"metric": "best_views", "target": 2000},
-      {"metric": "followers", "target": 100}
+      {
+        "metric": "sends_per_1k",
+        "target": 10
+      },
+      {
+        "metric": "best_views",
+        "target": 10000
+      },
+      {
+        "metric": "followers",
+        "target": 500
+      }
     ],
-    "stop": {
-      "after_reels": 20,
-      "metric": "views",
-      "level": 300,
-      "means": "The current strategy isn't stopping the scroll. Check Account Status and the AI-profile label first (a restricted account looks exactly like this), then the Sunday review brings 2-3 alternative strategies, each with its own target and stop, for Akhilesh to pick. No more tweaking the same approach."
-    }
+    "_note": "Targets as written in docs/strategy.md (Stage 2 dates agreed by Akhilesh 2026-10-04). Raising followers to 1,200 and adding a strategy stop were put to Akhilesh on 2026-11-01; until he answers, no strategy stop is set for this stage."
   },
   "bets": [
     {
-      "id": "B1", "name": "Hook in frame one", "status": "open", "opened": "2026-09-26", "applies": "every reel",
+      "id": "B1",
+      "name": "Hook in frame one",
+      "status": "open",
+      "opened": "2026-09-26",
+      "applies": "every reel",
       "lever": "Frame 1: the anchor looks into the lens, already saying the viewer's stake; the hook in 6 big words or fewer on screen; nothing (Namaskar, title, logo) before it; a cut or punch-in by 1 s; cover = frame 1",
       "thesis": "54-67% skipped in the first 3 s: E2 opened on Sarika looking down with no hook text, E1 on a teleshop set with no stake",
-      "metric": "skip_rate", "baseline": 60.7, "target": 45, "stop": 58, "min_reels": 3, "max_reels": 6
+      "metric": "skip_rate",
+      "baseline": 60.7,
+      "target": 45,
+      "stop": 58,
+      "min_reels": 3,
+      "max_reels": 6
     },
     {
-      "id": "B2", "name": "Tight 20-30 s", "status": "open", "opened": "2026-09-26", "applies": "every reel",
+      "id": "B2",
+      "name": "Tight 20-30 s",
+      "status": "no-edge",
+      "opened": "2026-09-26",
+      "applies": "every reel",
       "lever": "20-30 s total; title montage 1.5 s or less and only after the hook; payoff by 20 s; the last line echoes the hook so a replay feels natural; no dead air",
       "thesis": "The 56 s and 33 s reels were watched about 25% of the way; shorter and tighter should lift completion, which Instagram ranks on",
-      "metric": "watched_pct", "baseline": 26.3, "target": 45, "stop": 32, "min_reels": 3, "max_reels": 6
+      "metric": "watched_pct",
+      "baseline": 26.3,
+      "target": 45,
+      "stop": 32,
+      "min_reels": 3,
+      "max_reels": 6,
+      "closed": "2026-11-01",
+      "result": "Closed as no edge, starved: 1 judged reel in 36 days (E3, 38.6% watched); the six breakouts since 9 Oct ran 57-92 s. Akhilesh's 30 s rule in CLAUDE.md stands as a writing rule; it is no longer traded as a bet. Reopen as a new bet if owner data shows long reels watched under 20% while 30 s reels sit above 35%."
     },
     {
-      "id": "B3", "name": "A line worth sending", "status": "open", "opened": "2026-09-26", "applies": "every reel",
+      "id": "B3",
+      "name": "A line worth sending",
+      "status": "open",
+      "opened": "2026-09-26",
+      "applies": "every reel",
       "lever": "Every script lands one line a viewer would forward to a specific person (a number to remember, a jab at the system, an 'I told you so'); never ask for shares",
       "thesis": "Sends per reach is the signal Instagram weighs most for reaching non-followers; the comedy reel got the only send so far",
-      "metric": "sends_per_1k", "baseline": 2.6, "target": 8, "stop": 2, "min_reels": 4, "max_reels": 6
+      "metric": "sends_per_1k",
+      "baseline": 2.6,
+      "target": 8,
+      "stop": 2,
+      "min_reels": 4,
+      "max_reels": 6
     },
     {
-      "id": "W1", "name": "Glam Sarika", "status": "watch", "opened": "2026-09-26", "applies": "Samachar reels",
+      "id": "B4",
+      "name": "Split-screen opener",
+      "status": "open",
+      "opened": "2026-11-01",
+      "applies": "every reel",
+      "lever": "Frame one is a split screen: the story's picture, logo, real footage or B-roll on the top half with the hook in 6 words or fewer (the number or the known name), our presenter on the bottom half; from the very first frame; the cover is frame one",
+      "thesis": "Every split-screen opener so far broke out: E11 Starlink vs Jio 4,091 at 72 h, E13 eMudhra 5,865, E14 silver 2,171, E15 Anthropic 12,564. The two news reels since without one stayed low: X3 F&O 562, EPFO (X4+X5) 589. 4 of 10 Indian money outliers this week used it, 6 of 10 last week, 8 of 10 the week before. Confounded with topic, so judged on 4 reels, all news of the day",
+      "metric": "views",
+      "baseline": 582,
+      "target": 2000,
+      "stop": 500,
+      "min_reels": 4,
+      "max_reels": 6
+    },
+    {
+      "id": "W1",
+      "name": "Glam Sarika",
+      "status": "watch",
+      "opened": "2026-09-26",
+      "applies": "Samachar reels",
       "lever": "Sarika in the glam wardrobe (formats/samachar.md) on every Samachar reel",
       "thesis": "Akhilesh: a glamorous anchor is a hook for this audience. Confounded with B1 on skip rate while both run, so it is compared with the other formats at the monthly review",
-      "metric": "skip_rate", "baseline": 66.9, "target": null, "stop": null, "min_reels": 3, "max_reels": 6
+      "metric": "skip_rate",
+      "baseline": 66.9,
+      "target": null,
+      "stop": null,
+      "min_reels": 3,
+      "max_reels": 6
     },
     {
-      "id": "W2", "name": "Famous name in frame one", "status": "watch", "opened": "2026-10-11", "applies": "reels whose frame one names or shows a company, brand or person every viewer knows",
+      "id": "W2",
+      "name": "Famous name in frame one",
+      "status": "watch",
+      "opened": "2026-10-11",
+      "applies": "reels whose frame one names or shows a company, brand or person every viewer knows",
       "lever": "Frame one shows a company, brand or person every viewer already knows (their name, logo, or a licensed photo or real footage), with the number or question it turns on",
       "thesis": "All four reels that opened on a known name (Policybazaar, Snapdeal/Kunal Bahl, HUL, Nana Patekar) reached 582-3,224 plays; all eight that didn't stayed at 94-303. Their skip rates (54-64%) were no better, so it works through distribution, not the opening. Confounded with topic choice, so tracked, not traded",
-      "metric": "views", "baseline": 243, "target": null, "stop": null, "min_reels": 3, "max_reels": 6
+      "metric": "views",
+      "baseline": 243,
+      "target": null,
+      "stop": null,
+      "min_reels": 3,
+      "max_reels": 6
+    }
+  ],
+  "previous_campaigns": [
+    {
+      "name": "Stage 1: Stop the scroll",
+      "started": "2026-09-26",
+      "ends": "2026-10-25",
+      "goal": "prove people stop for our reels and stay to the end",
+      "targets": [
+        {
+          "metric": "skip_rate",
+          "target": 45
+        },
+        {
+          "metric": "watched_pct",
+          "target": 45
+        },
+        {
+          "metric": "views",
+          "target": 500
+        },
+        {
+          "metric": "best_views",
+          "target": 2000
+        },
+        {
+          "metric": "followers",
+          "target": 100
+        }
+      ],
+      "stop": {
+        "after_reels": 20,
+        "metric": "views",
+        "level": 300,
+        "means": "The current strategy isn't stopping the scroll. Check Account Status and the AI-profile label first (a restricted account looks exactly like this), then the Sunday review brings 2-3 alternative strategies, each with its own target and stop, for Akhilesh to pick. No more tweaking the same approach."
+      },
+      "result": "Closed 2026-11-01 (monthly review). Hit: best reel 12,564 (target 2,000), followers 709 (target 100), median plays at 72 h 582 (target 500). Unknown since 9 Oct (owner feed down): skip 56% and watched 29.3% at the last reading, both short of 45. Strategy stop not hit (18 reels, median 582 vs 300)."
     }
   ]
 }
