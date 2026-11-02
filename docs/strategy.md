@@ -50,12 +50,12 @@ Stage 1 targets are live in the block below. Stages 2 and 3 are the plan after t
 
 ## The book and where we stand
 <!-- scoreboard -->
-_Updated 2026-11-01 21:50 IST by `scoreboard.py write`._
+_Updated 2026-11-02 23:06 IST by `scoreboard.py write`._
 
 **Stage 2: Make it travel** (2026-10-26 to 2026-11-15): reels that get forwarded and reach well beyond our followers
 
 - sends per 1k plays: now –, target 10 → not yet
-- best reel's plays: now 12564, target 10000 → on target
+- best reel's plays: now 12580, target 10000 → on target
 - followers: now 709, target 500 → on target
 
 | Bet | Lever | Judged on | Baseline | Now | Target | Stop | Reels (judged/carried) | Verdict |
@@ -64,7 +64,7 @@ _Updated 2026-11-01 21:50 IST by `scoreboard.py write`._
 | B2 Tight 20-30 s | 20-30 s total; title montage 1.5 s or less and only after the hook; payoff by 20 s; the last line echoes the hook so a replay feels natural; no dead air | watched % | 26.3 | 38.6 | 45 | 32 | 1/1 (judge at 3, max 6) | **NO-EDGE** Closed as no edge, starved: 1 judged reel in 36 days (E3, 38.6% watched); the six breakouts since 9 Oct ran 57-92 s. Akhilesh's 30 s rule in CLAUDE.md stands as a writing rule; it is no longer traded as a bet. Reopen as a new bet if owner data shows long reels watched under 20% while 30 s reels sit above 35%. |
 | B3 A line worth sending | Every script lands one line a viewer would forward to a specific person (a number to remember, a jab at the system, an 'I told you so'); never ask for shares | sends per 1k plays | 2.6 | 3.2 | 8 | 2 | 3/5 (judge at 4, max 6) | **HOLD** 3/4 reels |
 | B4 Split-screen opener | Frame one is a split screen: the story's picture, logo, real footage or B-roll on the top half with the hook in 6 words or fewer (the number or the known name), our presenter on the bottom half; from the very first frame; the cover is frame one | median plays at 72 h | 582 | – | 2000 | 500 | 0/0 (judge at 4, max 6) | **WAITING** no reel with readings yet |
-| W1 Glam Sarika | Sarika in the glam wardrobe (formats/samachar.md) on every Samachar reel | skip rate % | 66.9 | 55.8 | – | – | 3/3 (judge at 3, max 6) | **WATCH** tracked; judged at the monthly review |
+| W1 Glam Sarika | Sarika in the glam wardrobe (formats/samachar.md) on every Samachar reel | skip rate % | 66.9 | 54.2 | – | – | 1/3 (judge at 3, max 6) | **WATCH** tracked; judged at the monthly review |
 | W2 Famous name in frame one | Frame one shows a company, brand or person every viewer already knows (their name, logo, or a licensed photo or real footage), with the number or question it turns on | median plays at 72 h | 243 | 2882 | – | – | 6/6 (judge at 3, max 6) | **WATCH** tracked; judged at the monthly review |
 <!-- /scoreboard -->
 
