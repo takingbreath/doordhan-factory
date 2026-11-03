@@ -601,6 +601,9 @@ def first_frame_and_graphics():
     assert byid["g5"][1] and "sourced" in byid["g5"][2], res                           # checked by a person
     assert byid["g6"][1] is False and "under 1" in byid["g6"][2], res                  # too short to read
     assert "g7" not in byid, "a logo is exempt"
+    e10 = {"lines": [{"spoken": "उन्होंने एक car ख़रीदने के लिए डेढ़ करोड़ रुपये जोड़ रखे थे। पंद्रह-पंद्रह हज़ार के cheques"}]}
+    assert all(r[1] for r in onscreen.check([g("₹1.5 CRORE"), g("₹15,000 per family"), g("Ab Tak Chhappan 2  (2015)", kind="film")], e10)), \
+        "E10's real labels match its real script (डेढ़ करोड़ = 1.5 crore)"
     assert onscreen.check(None, script)[0][1] is None, "no graphics listed = NOT CHECKED, not PASS"
     return "no-motion, black and late/long/small hooks caught; cut passes; 50.1% = fifty point one, 91,685 Cr = words; a number nobody said, a 0.5 s figure fail; undeclared = NOT CHECKED"
 

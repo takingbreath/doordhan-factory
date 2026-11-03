@@ -21,7 +21,7 @@ import verify_line as vl  # noqa: E402
 
 MIN_VISIBLE_S = 1.0
 TOL = 0.005
-EXEMPT_KINDS = {"logo", "label", "ticker", "marker"}
+EXEMPT_KINDS = {"logo", "label", "ticker", "marker", "film", "credit"}   # names and credits, not claims
 UNITS = {"lakh": 1e5, "lakhs": 1e5, "लाख": 1e5, "crore": 1e7, "crores": 1e7, "cr": 1e7, "करोड़": 1e7, "करोड": 1e7,
          "thousand": 1e3, "हज़ार": 1e3, "हजार": 1e3, "million": 1e6, "mn": 1e6, "billion": 1e9, "bn": 1e9,
          "trillion": 1e12, "trn": 1e12, "k": 1e3, "%": 1.0, "percent": 1.0, "प्रतिशत": 1.0}
@@ -31,6 +31,11 @@ EN = {"zero": 0, "one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6,
       "ten": 10, "eleven": 11, "twelve": 12, "thirteen": 13, "fourteen": 14, "fifteen": 15, "sixteen": 16,
       "seventeen": 17, "eighteen": 18, "nineteen": 19, "twenty": 20, "thirty": 30, "forty": 40, "fifty": 50,
       "sixty": 60, "seventy": 70, "eighty": 80, "ninety": 90, "शून्य": 0, "ज़ीरो": 0, "zero": 0}
+HALF = {"डेढ़": 1.5, "ढाई": 2.5}          # one and a half, two and a half
+BEFORE = {"साढ़े": 0.5, "सवा": 0.25, "पौने": -0.25}   # sadhe/sava/paune N: N + 0.5 / + 0.25 / - 0.25
+_nfc = lambda d: {vl.unicodedata.normalize("NFC", k): v for k, v in d.items()}
+UNITS, EN, HALF, BEFORE = _nfc(UNITS), _nfc(EN), _nfc(HALF), _nfc(BEFORE)
+NUMW = _nfc(vl.NUM_WORDS)
 DIGIT = re.compile(r"\d[\d,]*(?:\.\d+)?")
 MARK = "§"
 
@@ -61,14 +66,20 @@ def values(text):
         if re.fullmatch(r"\d+", t):
             return float(t), i + 1
         lo = t.lower()
-        if lo in EN or lo in vl.NUM_WORDS:
-            v = EN.get(lo, vl.NUM_WORDS.get(lo)); i += 1
+        if lo in HALF:
+            return HALF[lo], i + 1
+        if lo in BEFORE and i + 1 < len(toks):
+            n = num_at(i + 1)
+            if n:
+                return n[0] + BEFORE[lo], n[1]
+        if lo in EN or lo in NUMW:
+            v = EN.get(lo, NUMW.get(lo)); i += 1
             if lo in EN and v >= 20 and v % 10 == 0 and i < len(toks) and EN.get(toks[i].lower(), 0) in range(1, 10):
                 v += EN[toks[i].lower()]; i += 1                      # twenty one
             if i < len(toks) and toks[i].lower() == "hundred" and lo != "hundred":
                 v *= 100; i += 1
-                if i < len(toks) and (EN.get(toks[i].lower(), 0) >= 1 or toks[i].lower() in vl.NUM_WORDS):
-                    v += EN.get(toks[i].lower(), vl.NUM_WORDS.get(toks[i].lower(), 0)); i += 1
+                if i < len(toks) and (EN.get(toks[i].lower(), 0) >= 1 or toks[i].lower() in NUMW):
+                    v += EN.get(toks[i].lower(), NUMW.get(toks[i].lower(), 0)); i += 1
             return float(v), i
         return None
     out, i = [], 0
