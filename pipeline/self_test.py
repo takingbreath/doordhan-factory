@@ -478,6 +478,27 @@ def guard_hooks():
     assert abs(sum(e["credits"] for e in led["entries"]) - 61.5) < 1e-6, led
     return "posting and voice cloning blocked; no script, unknown price, over budget and Naveen's raise blocked; ledger 61.5"
 step("guard hooks (never post, spend guard)", guard_hooks)
+here_dir = os.path.dirname(os.path.abspath(__file__))
+
+
+def model_registry():
+    import subprocess, os
+    env = dict(os.environ); env.pop("MODEL_UNAVAILABLE", None)
+    r = subprocess.run([sys.executable, os.path.join(here_dir, "models.py"), "check"], capture_output=True, text=True, env=env)
+    assert r.returncode == 0, r.stdout + r.stderr
+    env["MODEL_UNAVAILABLE"] = "wan3_0"
+    r = subprocess.run([sys.executable, os.path.join(here_dir, "models.py"), "resolve", "talking_shot_creator"],
+                       capture_output=True, text=True, env=env)
+    assert r.stdout.startswith("wan2_7") and "skipped wan3_0" in r.stderr, r.stdout + r.stderr
+    env["MODEL_UNAVAILABLE"] = "wan2_7,wan3_0"
+    r = subprocess.run([sys.executable, os.path.join(here_dir, "models.py"), "resolve", "talking_shot"],
+                       capture_output=True, text=True, env=env)
+    assert r.returncode != 0 and "no usable model" in r.stderr, r.stdout + r.stderr
+    return "every role resolves, no unregistered ids; a pulled model falls back loudly; no candidate fails closed"
+
+
+step("model registry (roles, fallback, drift)", model_registry)
+
 
 
 def flow_order():

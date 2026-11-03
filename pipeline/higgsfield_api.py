@@ -46,12 +46,15 @@ def _ssl_ctx():
     return None
 
 # Model ids as used in the registry/playbooks (single source of truth for callers).
+# Resolved from pipeline/models.json (role -> first usable model), so a retired model is one edit there.
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from models import resolve as _resolve  # noqa: E402
 MODELS = {
-    "tts": "text2speech_v2",       # variant elevenlabs, voice_type element
-    "talking": "wan2_7",           # 720p talking shots from start_image + audio_references
-    "bframe": "seedance_2_5",      # non-talking motion, 480p
-    "wardrobe": "seedream_v4_5",   # Sarika wardrobe keyframes
-    "keyframe": "gpt_image_2_5",   # general keyframes
+    "tts": _resolve("voice_fallback"),        # variant elevenlabs, voice_type element
+    "talking": _resolve("talking_shot"),      # 720p talking shots from start_image + audio_references
+    "bframe": _resolve("silent_motion"),      # non-talking motion, 480p
+    "wardrobe": _resolve("keyframe_glam"),    # Sarika wardrobe keyframes
+    "keyframe": _resolve("keyframe"),         # general keyframes
 }
 
 

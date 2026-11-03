@@ -66,3 +66,7 @@ Frames: the edit runs at 720x1280, 25 fps (Wan 720p delivers 718x1282); the 80sâ
 | look.py | The old-TV picture (presets broadcast, vhs, kendra, clean). `look.py CLIP OUT --preset vhs` previews it on one clip and writes a before/after frame. |
 
 `fixtures/` holds a real 3-second Sarika line that the self-test uses; synthetic tones hid a levelling bug that real speech exposed.
+
+
+## Models by role (pipeline/models.json, models.py)
+Scripts ask for a role (`resolve("talking_shot")`), never a model id. To retire or swap a model: change its `status` or order in `pipeline/models.json`, add its price (`spend.py price`), run `python3 pipeline/models.py check` (also flags model ids hard-coded in scripts). `MODEL_UNAVAILABLE=id,id` skips pulled models for one run; a skipped first choice is printed. The spend guard is unchanged: it still prices from prices.json and blocks an unknown model.
