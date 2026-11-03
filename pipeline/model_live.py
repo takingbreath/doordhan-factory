@@ -2,13 +2,16 @@
 """Live check of the Higgsfield models in pipeline/models.json, using only the free cost preflight (get_cost true).
 It never generates anything and never spends a credit.
 
-  model_live.py refresh [--apply]     for each model with a "probe" in models.json: ask what it would cost.
+  model_live.py refresh [--report-only]  for each model with a "probe" in models.json: ask what it would cost.
                                       Records availability in registry/model_state.json (models.py then skips a model the
-                                      vendor rejected, for STATE_TTL_DAYS) and shows price drift against prices.json.
-                                      With --apply, prices.json is updated to the vendor's quote. The spend guard stays
-                                      as it is: it still prices every call from prices.json and blocks an unknown model;
-                                      this only keeps that table true, in the safe direction (a stale low price is what
-                                      could let a call overspend the 60-credit cap).
+                                      vendor rejected, for STATE_TTL_DAYS) and compares the quote with prices.json.
+                                      A live price is applied automatically (Naveen, 2026-11-03), and every change is
+                                      logged to registry/price_changes.jsonl. Two safeguards, because a misread reply
+                                      must never set a price: a quote of 0 or below, or one that moves a price by more than
+                                      MAX_MOVE (2x either way), is NOT applied and is flagged for a person. --report-only
+                                      applies nothing. The spend guard is unchanged: it still prices every call from
+                                      prices.json and blocks an unknown model; this keeps that table true (a stale low
+                                      price is what could let a call overspend the 60-credit cap).
   model_live.py state                 what the last refresh found
 
 Reading the answer: a 'model not found / not supported' style 4xx marks the model unavailable; 401/403 stop the run
@@ -22,6 +25,8 @@ HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE)
 import models  # noqa: E402
 
 STATE = models.STATE
+MAX_MOVE = 2.0
+CHANGES = os.environ.get("MODEL_PRICE_LOG") or os.path.join(os.path.dirname(HERE), "registry", "price_changes.jsonl")
 COST_KEYS = ("cost", "credits", "total_cost", "price", "credit_cost")
 GONE_WORDS = ("not found", "unknown model", "not supported", "unsupported", "deprecated", "no longer", "invalid model", "retired")
 
@@ -73,7 +78,7 @@ def unit_price(spec, cost):
     return {"per_call": cost}
 
 
-def refresh(fetch, apply=False, state_path=None, prices_path=None, registry=None):
+def refresh(fetch, apply=True, state_path=None, prices_path=None, registry=None):
     reg = registry or models._load(models.REGISTRY)
     prices_path = prices_path or models.PRICES
     prices = models._load(prices_path)
@@ -103,9 +108,16 @@ def refresh(fetch, apply=False, state_path=None, prices_path=None, registry=None
                 entry["quote"] = new
                 old = prices.get(model)
                 if old != new and _differs(old, new):
-                    report.append(f"{model}: price drift {json.dumps(old)} -> {json.dumps(new)}" + ("  (applied)" if apply else "  (run with --apply)"))
-                    if apply:
+                    sane, why = _sane(old, new)
+                    if not sane:
+                        report.append(f"{model}: price drift {json.dumps(old)} -> {json.dumps(new)} NOT applied ({why}); a person should check")
+                    elif apply:
                         prices[model] = _merge(old, new); changed = True
+                        with open(CHANGES, "a", encoding="utf-8") as lg:
+                            lg.write(json.dumps({"at": entry["checked_at"], "model": model, "old": old, "new": new}) + "\n")
+                        report.append(f"{model}: price drift {json.dumps(old)} -> {json.dumps(new)}  (applied)")
+                    else:
+                        report.append(f"{model}: price drift {json.dumps(old)} -> {json.dumps(new)}  (report only, not applied)")
                 else:
                     report.append(f"{model}: available, price {json.dumps(new)} matches")
         else:
@@ -135,6 +147,27 @@ def _differs(old, new):
     return False
 
 
+def _flat(p):
+    out = {}
+    for k, v in (p or {}).items():
+        if isinstance(v, dict):
+            out.update({f"{k}.{r}": x for r, x in v.items()})
+        else:
+            out[k] = v
+    return out
+
+
+def _sane(old, new):
+    """A new price is believed only if every figure is positive and within MAX_MOVE of the old one (a new model has no old)."""
+    o = _flat(old)
+    for k, v in _flat(new).items():
+        if not isinstance(v, (int, float)) or v <= 0:
+            return False, f"{k} came back as {v}"
+        if k in o and o[k] > 0 and not (1 / MAX_MOVE <= v / o[k] <= MAX_MOVE):
+            return False, f"{k} moved {o[k]:g} -> {v:g}, more than {MAX_MOVE:g}x"
+    return True, ""
+
+
 def _merge(old, new):
     out = json.loads(json.dumps(old or {}))
     for k, v in new.items():
@@ -147,12 +180,12 @@ def _merge(old, new):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("cmd", choices=["refresh", "state"]); ap.add_argument("--apply", action="store_true")
+    ap.add_argument("cmd", choices=["refresh", "state"]); ap.add_argument("--report-only", action="store_true")
     a = ap.parse_args()
     if a.cmd == "state":
         print(json.dumps(load_state(), indent=1)); return
     from higgsfield_api import request
-    print("\n".join(refresh(lambda path, payload: request(path, payload), a.apply)) or "no probes configured in models.json")
+    print("\n".join(refresh(lambda path, payload: request(path, payload), not a.report_only)) or "no probes configured in models.json")
 
 
 if __name__ == "__main__":

@@ -526,11 +526,16 @@ def model_dynamics():
         if payload["model"] == "m_gone":
             return 404, b'{"detail": "model not found"}'
         return 200, b'{"job": {"total_cost": 0.5}}'
+    model_live.CHANGES = os.path.join(d, "changes.jsonl")
     rep = model_live.refresh(fetch, apply=False, state_path=env["MODEL_STATE_FILE"], prices_path=prices, registry=reg)
-    assert any("UNAVAILABLE" in x for x in rep) and any("price drift" in x for x in rep), rep
-    assert json.load(open(prices))["m_ok"] == {"per_image": 0.25}, "no --apply, no price change"
-    model_live.refresh(fetch, apply=True, state_path=env["MODEL_STATE_FILE"], prices_path=prices, registry=reg)
-    assert json.load(open(prices))["m_ok"] == {"per_image": 0.5}
+    assert any("UNAVAILABLE" in x for x in rep) and any("report only" in x for x in rep), rep
+    assert json.load(open(prices))["m_ok"] == {"per_image": 0.25}, "--report-only changes no price"
+    rep = model_live.refresh(fetch, state_path=env["MODEL_STATE_FILE"], prices_path=prices, registry=reg)
+    assert json.load(open(prices))["m_ok"] == {"per_image": 0.5} and any("(applied)" in x for x in rep), rep
+    assert json.loads(open(model_live.CHANGES).read().splitlines()[-1])["new"] == {"per_image": 0.5}, "every change is logged"
+    for bad in (b'{"total_cost": 0}', b'{"total_cost": 40}'):   # a misread reply must never set a price
+        rep = model_live.refresh(lambda p, q: (200, bad), state_path=env["MODEL_STATE_FILE"], prices_path=prices, registry=reg)
+        assert json.load(open(prices))["m_ok"] == {"per_image": 0.5} and any("NOT applied" in x for x in rep), rep
     try:
         model_live.refresh(lambda p, q: (403, b"no"), state_path=env["MODEL_STATE_FILE"], prices_path=prices, registry=reg)
         raise AssertionError("auth error must stop the run")
@@ -545,7 +550,7 @@ def model_dynamics():
     import models
     ok = models._provider_problem({"provider": "newvendor"}, {"providers": {"newvendor": {"enabled": True, "ledgered": False}}})
     assert ok and "ledger" in ok and models._provider_problem({"provider": "higgsfield"}, models._load(models.REGISTRY)) is None
-    return "scores promote only on evidence; a vendor-rejected model is skipped; price drift shown, applied only on --apply; auth stops; unledgered vendor refused"
+    return "scores promote only on evidence; a vendor-rejected model is skipped; live price applied and logged, absurd quotes refused; auth stops; unledgered vendor refused"
 
 
 step("model dynamics (QC ranking, live check, provider gate)", model_dynamics)
