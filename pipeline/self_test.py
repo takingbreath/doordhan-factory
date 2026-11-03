@@ -35,6 +35,26 @@ def make_raw():
     run([FFMPEG, "-y", "-v", "error", "-f", "lavfi", "-i", "anullsrc=r=48000:cl=mono", "-t", "0.9", s])
     open(os.path.join(T, "l.txt"), "w").write(f"file '{s}'\nfile '{a}'\nfile '{s}'\nfile '{b}'\nfile '{s}'\n")
     run([FFMPEG, "-y", "-v", "error", "-f", "concat", "-safe", "0", "-i", os.path.join(T, "l.txt"), raw])
+def python_environment():
+    import importlib
+    v = sys.version_info
+    need = ["numpy", "PIL", "scipy", "cv2", "mediapipe", "onnxruntime", "fontTools", "parselmouth", "python_speech_features", "torch"]
+    missing = []
+    for m in need:
+        try:
+            importlib.import_module(m)
+        except Exception:
+            missing.append(m)
+    msg = []
+    if (v.major, v.minor) not in ((3, 11), (3, 12)):
+        msg.append(f"Python {v.major}.{v.minor} runs this: requirements.txt is pinned for 3.11/3.12 (numpy 1.26.4, torch 2.2.2, MediaPipe 0.10.21 have no 3.13 wheels)")
+    if missing:
+        msg.append("missing packages: " + ", ".join(missing))
+    assert not msg, "; ".join(msg) + ". Run: bash pipeline/fetch_models.sh, then pipeline/qcpy pipeline/self_test.py"
+    return f"Python {v.major}.{v.minor}, all {len(need)} QC packages import"
+
+
+step("python environment (3.11/3.12 and the QC packages)", python_environment)
 step("synthetic voice line", make_raw)
 line = os.path.join(T, "line.wav")
 step("prep_line (trim, tighten pauses, level, tempo)", lambda: tool("prep_line.py", raw, line, "--tempo", "1.15"))
@@ -601,6 +621,9 @@ def first_frame_and_graphics():
     assert byid["g5"][1] and "sourced" in byid["g5"][2], res                           # checked by a person
     assert byid["g6"][1] is False and "under 1" in byid["g6"][2], res                  # too short to read
     assert "g7" not in byid, "a logo is exempt"
+    for t, want in (("सवा दो सौ", 225), ("डेढ़ सौ", 150), ("साढ़े तीन सौ", 350), ("पौने दो सौ", 175), ("सवा दो हज़ार", 2250),
+                    ("साढ़े तीन लाख", 350000), ("डेढ़ करोड़", 15000000)):
+        assert [v for v, _, _ in onscreen.values(t)] == [want], (t, onscreen.values(t))
     e10 = {"lines": [{"spoken": "उन्होंने एक car ख़रीदने के लिए डेढ़ करोड़ रुपये जोड़ रखे थे। पंद्रह-पंद्रह हज़ार के cheques"}]}
     assert all(r[1] for r in onscreen.check([g("₹1.5 CRORE"), g("₹15,000 per family"), g("Ab Tak Chhappan 2  (2015)", kind="film")], e10)), \
         "E10's real labels match its real script (डेढ़ करोड़ = 1.5 crore)"

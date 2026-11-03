@@ -4,4 +4,5 @@
 # installs the QC packages into python3). Usage: pipeline/qcpy pipeline/qc_gate.py work/<slug>/qc_manifest.json
 Q="$HOME/.venvs/doordhan-qc/bin/python"
 [ -x "$Q" ] && exec "$Q" "$@"
+python3 -c "import numpy, scipy, cv2" >/dev/null 2>&1 || echo "qcpy: no QC environment here (python3 lacks the QC packages and ~/.venvs/doordhan-qc does not exist). Run: bash pipeline/fetch_models.sh" >&2
 exec python3 "$@"

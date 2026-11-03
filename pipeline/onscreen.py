@@ -47,6 +47,27 @@ def _float(tok):
         return None
 
 
+def _hundreds(toks):
+    """sava / sadhe / paune / dedh + a number + sau or hazaar, before compose() merges them: सवा दो सौ = 225,
+    डेढ़ सौ = 150, सवा सौ = 125, साढ़े तीन सौ = 350, सवा दो हज़ार = 2250 (after lakh or crore, num_at multiplies instead)"""
+    mult = {"सौ": 100, "hundred": 100, "हज़ार": 1000, "हजार": 1000, "thousand": 1000}
+    delta = {**BEFORE, "डेढ़": 0.5}
+    def base(t):
+        t = t.lower()
+        return EN.get(t, NUMW.get(t))
+    out, i = [], 0
+    while i < len(toks):
+        t = toks[i].lower()
+        if t in delta and i + 1 < len(toks):
+            if toks[i + 1].lower() in mult:                                   # सवा सौ, डेढ़ सौ, डेढ़ हज़ार: 1 + delta
+                out.append(str(int(round((1 + delta[t]) * mult[toks[i + 1].lower()])))); i += 2; continue
+            b = base(toks[i + 1])
+            if b is not None and t != "डेढ़" and i + 2 < len(toks) and toks[i + 2].lower() in mult:
+                out.append(str(int(round((b + delta[t]) * mult[toks[i + 2].lower()])))); i += 3; continue
+        out.append(toks[i]); i += 1
+    return out
+
+
 def values(text):
     """[(absolute value, is_percent, snippet)] for every number in the text, digits or words"""
     text = vl.unicodedata.normalize("NFC", text).translate(vl.DEV_DIGITS)
@@ -56,7 +77,7 @@ def values(text):
         nums.append(m.group())                       # as written, comma and all: 2,000 is money, 2000 may be a year
         return f" {MARK}{len(nums) - 1}{MARK} "
     text = DIGIT.sub(hold, text)
-    toks = vl.compose(vl.tokens(text))
+    toks = vl.compose(_hundreds(vl.tokens(text)))
     ph = re.compile(MARK + r"(\d+)" + MARK)
     def num_at(i):
         """(value, next index) for a number starting at toks[i], or None"""

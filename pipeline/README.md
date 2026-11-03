@@ -75,3 +75,7 @@ Scripts ask for a role (`resolve("talking_shot")`), never a model id. To retire 
 - `model_live.py refresh [--report-only]`: free `get_cost` check of each probed model; marks a vendor-rejected model unavailable (registry/model_state.json, 7 days) and applies a live price change to prices.json automatically, logging it to registry/price_changes.jsonl. A quote of 0 or one that moves a price more than 2x is flagged, not applied. The spend guard itself is unchanged. Not yet run against the live API.
 - `model_scores.py`: qc_gate.py records, per reel, whether each role's model passed clean (the manifest names them: `"models": {"talking_shot": "wan2_7"}`). Roles marked `adaptive` in models.json promote a fallback only after 5 reels each and a 15-point lead; `models.py explore` lists untried fallbacks for the weekly experiments budget.
 - Other vendors: pipeline/providers.md. A provider is used only if `ledgered` in models.json; none besides Higgsfield and ElevenLabs is.
+
+
+### Python environment
+Run everything through `pipeline/qcpy` (it prefers `~/.venvs/doordhan-qc`, Python 3.11/3.12, built from the pinned `requirements.txt`). The system `python3` on the cloud image is 3.13, which the pins don't support; do not `pip install -r requirements.txt` into it. `bash pipeline/fetch_models.sh` builds both venvs (QC, and the rembg cut-out one from `requirements-cut.txt`) and fetches the models; the cloud session hook runs it. `onnx` (pipeline/lab/ff_swap.py only) is deliberately not pinned.
