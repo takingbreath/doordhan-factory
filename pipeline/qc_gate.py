@@ -15,6 +15,11 @@ Checks, in order (each row ends pass, repaired or failed):
   5 loudness  integrated loudness within 1 LU of the target, true peak <= -1 dBTP
   6 length    duration within the format's bounds and the build's expected length, 1080x1920, 25 fps, audio as
               long as the picture
+  7 firstframe  the opening second (first_frame.py): frame 1 visible, a cut or punch-in by 1 s, the manifest's "hook"
+              (<= 6 words, in frame 1, big, nothing before it) and its subject; "hook": {"text","subject","t0","font_px"}
+  8 graphics  every figure on a card is a number the script says (onscreen.py); the manifest's "graphics":
+              [{"t0","t1","text","kind","sourced"?}]. Rows 7 and 8 say NOT CHECKED, never PASS, when the manifest does
+              not declare what they need; NOT CHECKED does not block
 Known repairs are applied automatically, once: a constant lip-sync offset (the clip's src_in moves, or a part's
 audio_shift_ms in edit.json), a hard-cut or truncated line end
 (the line re-ends at its last word; if the file itself stops hot but the word is heard, an 80 ms fade) and a
@@ -384,6 +389,28 @@ def check_length(M, final):
                 else "; ".join(problems), fix=None if ok else "cut the script or fix the render so the final fits")]
 
 
+# ---------------------------------------------------------------- 7 first frame, 8 graphics
+def _rows(check, items):
+    """(id, ok|None, detail, fix) -> gate rows; None is 'not checked': shown, never counted as a pass, not blocking"""
+    out = []
+    for rid, ok, detail, fix in items:
+        r = row(check, rid, bool(ok), detail, fix=fix)
+        if ok is None:
+            r["status"] = "skipped"
+        out.append(r)
+    return out
+
+
+def check_firstframe(M, final):
+    import first_frame
+    return _rows("firstframe", first_frame.check(M, P(final), M.get("graphics")))
+
+
+def check_graphics(M, final):
+    import onscreen
+    return _rows("graphics", onscreen.check(M.get("graphics"), json.load(open(P(M["script"])))))
+
+
 # ---------------------------------------------------------------- the gate
 def run_checks(M, work):
     final = M["final"]
@@ -392,7 +419,8 @@ def run_checks(M, work):
     rows = []
     for name, fn in (("script", lambda: check_script(M, final)), ("lipsync", lambda: check_lipsync(M, final, work)),
                      ("face", lambda: check_face(M, final)), ("mix", lambda: check_mix(M, final, work, [r["id"] for r in rows if r["check"] == "script" and r["status"] == "failed"])),
-                     ("loudness", lambda: check_loudness(M, final)), ("length", lambda: check_length(M, final))):
+                     ("loudness", lambda: check_loudness(M, final)), ("length", lambda: check_length(M, final)),
+                     ("firstframe", lambda: check_firstframe(M, final)), ("graphics", lambda: check_graphics(M, final))):
         print(f"[qc_gate] {name} ...", flush=True)
         try:
             rows += fn()
@@ -449,9 +477,9 @@ def covers(final):
     return c
 
 
-MARK = {"pass": "PASS", "repaired": "REPAIRED", "failed": "FAILED", "waived": "WAIVED"}
+MARK = {"pass": "PASS", "repaired": "REPAIRED", "failed": "FAILED", "waived": "WAIVED", "skipped": "NOT CHECKED"}
 LABEL = {"script": "1 script", "lipsync": "2 lip-sync", "face": "3 face", "mix": "4 mix", "loudness": "5 loudness",
-         "length": "6 length", "final": "0 final"}
+         "length": "6 length", "firstframe": "7 1st frame", "graphics": "8 graphics", "final": "0 final"}
 
 
 def summary_text(doc):
@@ -490,7 +518,7 @@ def summary_png(doc, path):
             return ImageFont.truetype("/System/Library/Fonts/Menlo.ttc", size, index=1 if heavy else 0)
         return ImageFont.load_default(size)
     f, fb, fh, fs = font(False, 22), font(True, 22), font(True, 34), font(False, 18)
-    col = {"pass": (70, 200, 110), "repaired": (240, 180, 40), "failed": (235, 70, 60), "waived": (170, 140, 240)}
+    col = {"pass": (70, 200, 110), "repaired": (240, 180, 40), "failed": (235, 70, 60), "waived": (170, 140, 240), "skipped": (150, 150, 150)}
     W = 1080; wrap = 56
 
     def lines_of(r):
@@ -591,7 +619,7 @@ def gate(a):
             by = waived(final_sha, final, r)
             if by:
                 r["status"], r["waived_by"] = "waived", by
-    verdict = "PASS" if all(r["status"] in ("pass", "repaired", "waived") for r in rows) else "BLOCKED"
+    verdict = "PASS" if all(r["status"] in ("pass", "repaired", "waived", "skipped") for r in rows) else "BLOCKED"
     doc = {"final": rel(P(final)), "verdict": verdict, "at": now(), "sha256": final_sha,
            "length_s": duration(P(final)) if final_sha else 0.0, "manifest": rel(os.path.abspath(a.manifest)),
            "covers": covers(final) if verdict == "PASS" else {}, "rows": rows, "history": history,

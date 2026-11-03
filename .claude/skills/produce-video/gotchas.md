@@ -149,3 +149,10 @@
   shifted every later cut (render local scenes a little long).
 - **Real screenshots of posts are hard to verify:** use a quote card with the verbatim words and the date unless the
   screenshot's source is clean.
+
+## QC manifest: declare the opening and every card (2026-11-03)
+The gate's rows 7 and 8 can only judge what the build declares; without it they say NOT CHECKED (shown on the summary, not a pass, not blocking). Write both into `qc_manifest.json`:
+- `"hook": {"text": "...", "subject": "face|logo|photo|footage|number", "t0": 0.0, "font_px": 96}`: the line in frame 1. Rules (bet B1): 6 words or fewer, on screen from frame 1, big, no title/Namaskar/intro before it, a cut or punch-in inside the first second. `subject: "face"` also checks a face looking at the lens (needs MediaPipe).
+- `"graphics": [{"t0", "t1", "text", "kind", "sourced"?}]`: every card, stat and lower third. Every figure in `text` must be a number the approved script says (50.1% = "fifty point one percent"; ₹91,685 Cr = the words), and stay up at least 1 s. A figure the script does not say needs `"sourced": "where a person checked it"`, or goes into the script at Akhilesh's gate. Kinds `logo`, `label`, `ticker`, `marker` and years are exempt.
+- Before spending on video, try the opening cheaply: `python3 pipeline/first_frame.py variants --slug S --prompt-file P` writes three first-frame keyframe requests (to camera / split with the story's picture / the number) and the cost (0.75 credits); send them through the spend guard and pick one by eye.
+- `first_frame.py check FINAL --manifest M` prints the measured numbers. The motion thresholds (CUT 8, MOVE 5) are first guesses; tune them from a few reels rated good and bad.
