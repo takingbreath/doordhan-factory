@@ -597,6 +597,11 @@ def gate(a):
            "covers": covers(final) if verdict == "PASS" else {}, "rows": rows, "history": history,
            "repaired_shas": repaired_shas, "applied": carried}
     json.dump(doc, open(stamp_path, "w"), indent=1, ensure_ascii=False)
+    try:   # which model made which role, and how it fared: models.py ranks adaptive roles from this
+        import model_scores
+        model_scores.record_from_stamp(doc, M)
+    except Exception as e:   # the memory never blocks a stamp
+        print(f"  (model scores not recorded: {e})")
     txt = summary_text(doc)
     open(stem(final) + "_qc.txt", "w").write(txt + "\n")
     summary_png(doc, stem(final) + "_qc.png")

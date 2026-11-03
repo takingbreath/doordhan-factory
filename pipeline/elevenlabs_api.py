@@ -4,8 +4,10 @@ import json, os, sys, urllib.request, urllib.error
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 API = "https://api.elevenlabs.io"
-TTS_MODEL = "eleven_v3"      # GA since Feb 2026; still the flagship with Hindi + audio tags (checked 2026-09-25)
-STT_MODEL = "scribe_v2"      # scribe_v1 was removed on 2026-07-09
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from models import resolve as _resolve  # noqa: E402
+TTS_MODEL = _resolve("tts")      # pipeline/models.json (eleven_v3: GA since Feb 2026, Hindi + audio tags, checked 2026-09-25)
+STT_MODEL = _resolve("stt")      # scribe_v1 was removed on 2026-07-09
 
 
 def key():

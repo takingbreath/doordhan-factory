@@ -478,6 +478,84 @@ def guard_hooks():
     assert abs(sum(e["credits"] for e in led["entries"]) - 61.5) < 1e-6, led
     return "posting and voice cloning blocked; no script, unknown price, over budget and Naveen's raise blocked; ledger 61.5"
 step("guard hooks (never post, spend guard)", guard_hooks)
+here_dir = os.path.dirname(os.path.abspath(__file__))
+
+
+def model_registry():
+    import subprocess, os
+    env = dict(os.environ); env.pop("MODEL_UNAVAILABLE", None)
+    r = subprocess.run([sys.executable, os.path.join(here_dir, "models.py"), "check"], capture_output=True, text=True, env=env)
+    assert r.returncode == 0, r.stdout + r.stderr
+    env["MODEL_UNAVAILABLE"] = "wan3_0"
+    r = subprocess.run([sys.executable, os.path.join(here_dir, "models.py"), "resolve", "talking_shot_creator"],
+                       capture_output=True, text=True, env=env)
+    assert r.stdout.startswith("wan2_7") and "skipped wan3_0" in r.stderr, r.stdout + r.stderr
+    env["MODEL_UNAVAILABLE"] = "wan2_7,wan3_0"
+    r = subprocess.run([sys.executable, os.path.join(here_dir, "models.py"), "resolve", "talking_shot"],
+                       capture_output=True, text=True, env=env)
+    assert r.returncode != 0 and "no usable model" in r.stderr, r.stdout + r.stderr
+    return "every role resolves, no unregistered ids; a pulled model falls back loudly; no candidate fails closed"
+
+
+step("model registry (roles, fallback, drift)", model_registry)
+def model_dynamics():
+    import json, tempfile, importlib
+    d = tempfile.mkdtemp(prefix="models_")
+    env = dict(os.environ, MODEL_SCORES_FILE=os.path.join(d, "s.jsonl"), MODEL_STATE_FILE=os.path.join(d, "st.json"))
+    env.pop("MODEL_UNAVAILABLE", None)
+    def run(*a):
+        return subprocess.run([sys.executable, os.path.join(here_dir, *a[:1])] + list(a[1:]), capture_output=True, text=True, env=env)
+    # 1. quality ranking: no data keeps the listed order; a challenger needs MIN_N reels for both and the margin
+    assert run("models.py", "resolve", "talking_shot_creator").stdout.startswith("wan3_0")
+    for i in range(5):
+        run("model_scores.py", "record", "--reel", f"a{i}", "--role", "talking_shot_creator", "--model", "wan3_0", "--failed", "lipsync")
+    assert run("models.py", "resolve", "talking_shot_creator").stdout.startswith("wan3_0"), "one model's data must not promote an untested one"
+    for i in range(5):
+        run("model_scores.py", "record", "--reel", f"b{i}", "--role", "talking_shot_creator", "--model", "wan2_7")
+    r = run("models.py", "resolve", "talking_shot_creator")
+    assert r.stdout.startswith("wan2_7") and "QC evidence" in r.stderr, r.stdout + r.stderr
+    # 2. live check with a stub vendor: gone, ok with a drifted price, auth stops the run
+    probe = lambda: {"path": "/v1/x", "payload": {}, "units": {"per_image": 1}}
+    reg = {"roles": {"r": {"candidates": [
+        {"model": "m_gone", "provider": "higgsfield", "probe": probe()},
+        {"model": "m_ok", "provider": "higgsfield", "probe": probe()}]}}}
+    prices = os.path.join(d, "p.json"); json.dump({"m_ok": {"per_image": 0.25}}, open(prices, "w"))
+    sys.path.insert(0, here_dir)
+    import model_live
+    def fetch(path, payload):
+        if payload["model"] == "m_gone":
+            return 404, b'{"detail": "model not found"}'
+        return 200, b'{"job": {"total_cost": 0.5}}'
+    model_live.CHANGES = os.path.join(d, "changes.jsonl")
+    rep = model_live.refresh(fetch, apply=False, state_path=env["MODEL_STATE_FILE"], prices_path=prices, registry=reg)
+    assert any("UNAVAILABLE" in x for x in rep) and any("report only" in x for x in rep), rep
+    assert json.load(open(prices))["m_ok"] == {"per_image": 0.25}, "--report-only changes no price"
+    rep = model_live.refresh(fetch, state_path=env["MODEL_STATE_FILE"], prices_path=prices, registry=reg)
+    assert json.load(open(prices))["m_ok"] == {"per_image": 0.5} and any("(applied)" in x for x in rep), rep
+    assert json.loads(open(model_live.CHANGES).read().splitlines()[-1])["new"] == {"per_image": 0.5}, "every change is logged"
+    for bad in (b'{"total_cost": 0}', b'{"total_cost": 40}'):   # a misread reply must never set a price
+        rep = model_live.refresh(lambda p, q: (200, bad), state_path=env["MODEL_STATE_FILE"], prices_path=prices, registry=reg)
+        assert json.load(open(prices))["m_ok"] == {"per_image": 0.5} and any("NOT applied" in x for x in rep), rep
+    try:
+        model_live.refresh(lambda p, q: (403, b"no"), state_path=env["MODEL_STATE_FILE"], prices_path=prices, registry=reg)
+        raise AssertionError("auth error must stop the run")
+    except SystemExit:
+        pass
+    assert model_live.classify(429, b"slow down")[0] == "unknown" and model_live.classify(500, b"")[0] == "unknown"
+    json.dump({"gpt_image_2_5": {"available": False, "checked_at": __import__("datetime").datetime.now().astimezone().isoformat()}},
+              open(env["MODEL_STATE_FILE"], "w"))
+    r = run("models.py", "resolve", "keyframe")
+    assert r.stdout.startswith("seedream_v4_5") and "rejected" in r.stderr, r.stdout + r.stderr
+    # 3. an unledgered provider is never used
+    import models
+    ok = models._provider_problem({"provider": "newvendor"}, {"providers": {"newvendor": {"enabled": True, "ledgered": False}}})
+    assert ok and "ledger" in ok and models._provider_problem({"provider": "higgsfield"}, models._load(models.REGISTRY)) is None
+    return "scores promote only on evidence; a vendor-rejected model is skipped; live price applied and logged, absurd quotes refused; auth stops; unledgered vendor refused"
+
+
+step("model dynamics (QC ranking, live check, provider gate)", model_dynamics)
+
+
 
 
 def flow_order():

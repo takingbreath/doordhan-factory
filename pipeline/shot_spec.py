@@ -38,6 +38,7 @@ import argparse, json, math, os, subprocess, sys
 
 here = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, here)
 from common import FFMPEG, duration, speech_map  # noqa: E402
+from models import resolve, candidates, roles  # noqa: E402
 
 LEAD = 0.5; HEADROOM = 0.3; MAX_TALK = 6.0
 DECLINED_PRESET = "24bae836-2c4a-48e0-89b6-49fcc0b21612"
@@ -102,7 +103,7 @@ TAILS = {"analog": TAIL,   # the old-TV formats
                     "image: a cinematic full-frame camera video with shallow depth of field, the same soft window light, "
                     "natural colour and real skin texture; no new text, no subtitles.")}
 SHEETS = {"pandey": "assets/characters/pandey_sheet_v2.jpg", "rashmi": "assets/characters/rashmi_e10_master.jpg"}   # identity reference per character (repo-relative, tracked)
-END_IMAGE_MODEL = {"sarika": "seedream_v4_5"}                 # GPT Image blocks her wardrobe; everyone else gpt_image_2_5
+END_IMAGE_ROLE = {"sarika": "keyframe_glam"}                  # GPT Image blocks her wardrobe; everyone else the general keyframe role
 ROOT = os.path.dirname(here)
 
 
@@ -221,7 +222,7 @@ def build(a):
         what = (f"his eyes on {target}" if a.look_at else f"his hand on {target}") if target else a.end_pose
         side = {"left": "to the left of the frame", "right": "to the right of the frame", "down": "down"}.get(a.target_side, "")
         end_request = {
-            "model": END_IMAGE_MODEL.get(a.character, "gpt_image_2_5"), "aspect_ratio": "9:16",
+            "model": resolve(END_IMAGE_ROLE.get(a.character, "keyframe")), "aspect_ratio": "9:16",
             "medias": [{"role": "image_references", "value": start["value"]}],
             "prompt": ("Exactly the same photograph: same person, face, hair, clothes, room, framing, lighting and analog "
                        f"look. The only change: {what}" + (f" ({side})" if side else "") + ". "
@@ -249,7 +250,7 @@ def build(a):
                 or BASES.get(a.character, BASES["pandey"]))
         eyes = EYES_LOOK.format(t=a.look_at) if a.look_at else (EYES_CREATOR if a.look == "cinema" else EYES_TALK)
         mouth = NATURAL_MOUTH if a.look == "cinema" else ARTICULATE
-        wan3 = a.model == "wan3_0"
+        wan3 = any(c["model"] == a.model and c.get("shape") == "image_reference_silent" for c in roles()["talking_shot_creator"]["candidates"])
         prompt = " ".join(x for x in [STILL_START, base, WAN3_FRAME if wan3 else "", mouth, eyes, a.acting or "",
                                       TAILS[a.look]] if x)
         if wan3:
@@ -304,7 +305,7 @@ def build_silent(a, start, chain, end_request):
     spec = {"id": a.id, "kind": "silent", "character": a.character, "set": a.set, "framing": a.framing,
             "target_side": a.target_side, "start": start, "chain": chain, "end_image_request": end_request,
             "sheet": SHEETS.get(a.character), "keyframe": a.keyframe, "attempt": 0, "max_auto_retries": 1,
-            "params": {"model": "wan2_7", "resolution": "720p", "aspect_ratio": "9:16", "duration": dur,
+            "params": {"model": resolve("talking_shot"), "resolution": "720p", "aspect_ratio": "9:16", "duration": dur,
                        "declined_preset_id": DECLINED_PRESET, "medias": medias, "prompt": prompt},
             "qc": [f"python3 pipeline/face_consistency.py {SHEETS.get(a.character, '<character sheet>')} <clip>"]}
     path = os.path.join(a.out, f"{a.id}.json")
@@ -423,7 +424,8 @@ def main():
     b.add_argument("--look-at"); b.add_argument("--reach-for"); b.add_argument("--end-pose")
     b.add_argument("--target-side", choices=["left", "right", "down"])
     b.add_argument("--target-in-frame", action="store_true")
-    b.add_argument("--model", choices=["wan2_7", "wan3_0"], default="wan2_7",
+    b.add_argument("--model", choices=sorted(set(candidates("talking_shot")) | set(candidates("talking_shot_creator"))),
+                   default=resolve("talking_shot"),
                    help="wan3_0: the keyframe as an image reference (no start frame), silent output, judged with the "
                         "track laid in; the most natural lips so far (creator format)")
     b.add_argument("--look", choices=sorted(TAILS), default="analog",
