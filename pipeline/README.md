@@ -70,3 +70,8 @@ Frames: the edit runs at 720x1280, 25 fps (Wan 720p delivers 718x1282); the 80sâ
 
 ## Models by role (pipeline/models.json, models.py)
 Scripts ask for a role (`resolve("talking_shot")`), never a model id. To retire or swap a model: change its `status` or order in `pipeline/models.json`, add its price (`spend.py price`), run `python3 pipeline/models.py check` (also flags model ids hard-coded in scripts). `MODEL_UNAVAILABLE=id,id` skips pulled models for one run; a skipped first choice is printed. The spend guard is unchanged: it still prices from prices.json and blocks an unknown model.
+
+### Dynamic model choice
+- `model_live.py refresh [--apply]`: free `get_cost` check of each probed model; marks a vendor-rejected model unavailable (registry/model_state.json, 7 days) and shows price drift against prices.json (`--apply` updates it; the spend guard itself is unchanged). Not yet run against the live API.
+- `model_scores.py`: qc_gate.py records, per reel, whether each role's model passed clean (the manifest names them: `"models": {"talking_shot": "wan2_7"}`). Roles marked `adaptive` in models.json promote a fallback only after 5 reels each and a 15-point lead; `models.py explore` lists untried fallbacks for the weekly experiments budget.
+- Other vendors: pipeline/providers.md. A provider is used only if `ledgered` in models.json; none besides Higgsfield and ElevenLabs is.

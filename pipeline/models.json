@@ -1,70 +1,272 @@
 {
- "_note": "Which model does which job. Code asks for a ROLE (talking_shot, keyframe...) and models.py resolves it to the first usable candidate; no script should name a model id itself. A candidate is usable when status is 'active' and it is priced in pipeline/prices.json (or billing is 'free'). To swap or retire a model: change status here, add its price (spend.py price MODEL CREDITS --per ...), run `python3 pipeline/models.py check`. 'shape' marks candidates whose request differs (a caller that only knows one shape passes shape=...). Env: MODEL_<ROLE>=id forces a model; MODEL_UNAVAILABLE=id,id skips models a vendor has pulled.",
+ "_note": "Which model does which job. Code asks for a ROLE (talking_shot, keyframe...) and models.py resolves it to the first usable candidate; no script should name a model id itself. A candidate is usable when status is 'active' and it is priced in pipeline/prices.json (or billing is 'free'). To swap or retire a model: change status here, add its price (spend.py price MODEL CREDITS --per ...), run `python3 pipeline/models.py check`. 'shape' marks candidates whose request differs (a caller that only knows one shape passes shape=...). Env: MODEL_<ROLE>=id forces a model; MODEL_UNAVAILABLE=id,id skips models a vendor has pulled. 'adaptive' roles may reorder candidates from QC evidence (model_scores.py). 'probe' is the free get_cost request model_live.py uses to check a model is still offered and what it costs.",
  "roles": {
   "keyframe": {
    "about": "General keyframes, 9:16, with style and character references.",
    "candidates": [
-    {"model": "gpt_image_2_5", "provider": "higgsfield", "status": "active"},
-    {"model": "seedream_v4_5", "provider": "higgsfield", "status": "active", "why": "fallback when GPT Image is retired or blocks a prompt"}
-   ]
+    {
+     "model": "gpt_image_2_5",
+     "provider": "higgsfield",
+     "status": "active",
+     "probe": {
+      "path": "/v1/generate/image",
+      "payload": {
+       "prompt": "cost probe",
+       "aspect_ratio": "9:16",
+       "count": 1
+      },
+      "units": {
+       "per_image": 1
+      }
+     }
+    },
+    {
+     "model": "seedream_v4_5",
+     "provider": "higgsfield",
+     "status": "active",
+     "why": "fallback when GPT Image is retired or blocks a prompt",
+     "probe": {
+      "path": "/v1/generate/image",
+      "payload": {
+       "prompt": "cost probe",
+       "aspect_ratio": "9:16",
+       "count": 1
+      },
+      "units": {
+       "per_image": 1
+      }
+     }
+    }
+   ],
+   "adaptive": true
   },
   "keyframe_glam": {
    "about": "Sarika's low-cut wardrobe keyframes; GPT Image blocks them.",
    "candidates": [
-    {"model": "seedream_v4_5", "provider": "higgsfield", "status": "active"},
-    {"model": "seedream_v5_pro", "provider": "higgsfield", "status": "active", "why": "fallback, 2.5 credits"}
+    {
+     "model": "seedream_v4_5",
+     "provider": "higgsfield",
+     "status": "active",
+     "probe": {
+      "path": "/v1/generate/image",
+      "payload": {
+       "prompt": "cost probe",
+       "aspect_ratio": "9:16",
+       "count": 1
+      },
+      "units": {
+       "per_image": 1
+      }
+     }
+    },
+    {
+     "model": "seedream_v5_pro",
+     "provider": "higgsfield",
+     "status": "active",
+     "why": "fallback, 2.5 credits",
+     "probe": {
+      "path": "/v1/generate/image",
+      "payload": {
+       "prompt": "cost probe",
+       "aspect_ratio": "9:16",
+       "count": 1
+      },
+      "units": {
+       "per_image": 1
+      }
+     }
+    }
    ]
   },
   "character_sheet": {
    "about": "Character sheets, 2k, 1:1.",
    "candidates": [
-    {"model": "seedream_v5_pro", "provider": "higgsfield", "status": "active"}
+    {
+     "model": "seedream_v5_pro",
+     "provider": "higgsfield",
+     "status": "active",
+     "probe": {
+      "path": "/v1/generate/image",
+      "payload": {
+       "prompt": "cost probe",
+       "aspect_ratio": "9:16",
+       "count": 1
+      },
+      "units": {
+       "per_image": 1
+      }
+     }
+    }
    ]
   },
   "talking_shot": {
    "about": "Talking shot driven by our own audio (old-TV formats).",
    "candidates": [
-    {"model": "wan2_7", "provider": "higgsfield", "status": "active", "shape": "start_image_audio"}
+    {
+     "model": "wan2_7",
+     "provider": "higgsfield",
+     "status": "active",
+     "shape": "start_image_audio",
+     "probe": {
+      "path": "/v1/generate/video",
+      "payload": {
+       "prompt": "cost probe",
+       "aspect_ratio": "9:16",
+       "duration": 5,
+       "resolution": "720p"
+      },
+      "units": {
+       "per_second": {
+        "resolution": "720p",
+        "seconds": 5
+       }
+      }
+     }
+    }
    ]
   },
   "talking_shot_creator": {
    "about": "Talking shot for a face that must read as a real person (creator format).",
    "candidates": [
-    {"model": "wan3_0", "provider": "higgsfield", "status": "active", "shape": "image_reference_silent"},
-    {"model": "wan2_7", "provider": "higgsfield", "status": "active", "shape": "start_image_audio", "why": "fallback; lips less natural"}
-   ]
+    {
+     "model": "wan3_0",
+     "provider": "higgsfield",
+     "status": "active",
+     "shape": "image_reference_silent",
+     "probe": {
+      "path": "/v1/generate/video",
+      "payload": {
+       "prompt": "cost probe",
+       "aspect_ratio": "9:16",
+       "duration": 5,
+       "resolution": "720p"
+      },
+      "units": {
+       "per_second": {
+        "resolution": "720p",
+        "seconds": 5
+       }
+      }
+     }
+    },
+    {
+     "model": "wan2_7",
+     "provider": "higgsfield",
+     "status": "active",
+     "shape": "start_image_audio",
+     "why": "fallback; lips less natural",
+     "probe": {
+      "path": "/v1/generate/video",
+      "payload": {
+       "prompt": "cost probe",
+       "aspect_ratio": "9:16",
+       "duration": 5,
+       "resolution": "720p"
+      },
+      "units": {
+       "per_second": {
+        "resolution": "720p",
+        "seconds": 5
+       }
+      }
+     }
+    }
+   ],
+   "adaptive": true
   },
   "silent_motion": {
    "about": "Scenes without dialogue.",
    "candidates": [
-    {"model": "seedance_2_5", "provider": "higgsfield", "status": "active"},
-    {"model": "wan2_7", "provider": "higgsfield", "status": "active", "why": "fallback; silent clip"}
-   ]
+    {
+     "model": "seedance_2_5",
+     "provider": "higgsfield",
+     "status": "active"
+    },
+    {
+     "model": "wan2_7",
+     "provider": "higgsfield",
+     "status": "active",
+     "why": "fallback; silent clip",
+     "probe": {
+      "path": "/v1/generate/video",
+      "payload": {
+       "prompt": "cost probe",
+       "aspect_ratio": "9:16",
+       "duration": 5,
+       "resolution": "720p"
+      },
+      "units": {
+       "per_second": {
+        "resolution": "720p",
+        "seconds": 5
+       }
+      }
+     }
+    }
+   ],
+   "adaptive": true
   },
   "voice_fallback": {
    "about": "Higgsfield TTS, only for a character with no ElevenLabs voice.",
    "candidates": [
-    {"model": "text2speech_v2", "provider": "higgsfield", "status": "active"}
+    {
+     "model": "text2speech_v2",
+     "provider": "higgsfield",
+     "status": "active"
+    }
    ]
   },
   "tts": {
    "about": "Voices (ElevenLabs API, no credits).",
    "candidates": [
-    {"model": "eleven_v3", "provider": "elevenlabs", "status": "active", "billing": "free"}
+    {
+     "model": "eleven_v3",
+     "provider": "elevenlabs",
+     "status": "active",
+     "billing": "free"
+    }
    ]
   },
   "tts_clone": {
    "about": "Cloned voices, flat read-aloud direction.",
    "candidates": [
-    {"model": "eleven_v4", "provider": "elevenlabs", "status": "active", "billing": "free"},
-    {"model": "eleven_v3", "provider": "elevenlabs", "status": "active", "billing": "free"}
+    {
+     "model": "eleven_v4",
+     "provider": "elevenlabs",
+     "status": "active",
+     "billing": "free"
+    },
+    {
+     "model": "eleven_v3",
+     "provider": "elevenlabs",
+     "status": "active",
+     "billing": "free"
+    }
    ]
   },
   "stt": {
    "about": "Transcripts for the script gate.",
    "candidates": [
-    {"model": "scribe_v2", "provider": "elevenlabs", "status": "active", "billing": "free"}
+    {
+     "model": "scribe_v2",
+     "provider": "elevenlabs",
+     "status": "active",
+     "billing": "free"
+    }
    ]
   }
- }
+ },
+ "providers": {
+  "higgsfield": {
+   "enabled": true,
+   "ledgered": true,
+   "about": "paid in credits; every call is priced and written to the ledger by hooks/spend_guard.py"
+  },
+  "elevenlabs": {
+   "enabled": true,
+   "ledgered": true,
+   "about": "API plan, no credits"
+  }
+ },
+ "_providers_note": "A provider can be enabled only if ledgered is true: its spend goes through the ledger and the budget caps (hard rule 2). A new paid vendor needs its own pricing and ledger hook and Akhilesh's yes before it is enabled; until then its candidates are skipped, however good they look. See pipeline/providers.md."
 }
