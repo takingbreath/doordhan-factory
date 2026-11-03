@@ -1,6 +1,9 @@
 # Python packages for the QC tools and edit templates (the pipeline/qcpy environment).
-# Mac: uv venv -p 3.11 ~/.venvs/doordhan-qc && VIRTUAL_ENV=~/.venvs/doordhan-qc uv pip install -r requirements.txt
-# (MediaPipe has no wheel for Python 3.12+ on macOS; it needs numpy 1.x). pipeline/fetch_models.sh also fetches the models.
+# PYTHON 3.11 OR 3.12 ONLY: numpy 1.26.4, torch 2.2.2 and MediaPipe 0.10.21 have no wheels for 3.13+ (the cloud image's python3 is 3.13).
+# Do not pip install this into the system python3. `bash pipeline/fetch_models.sh` builds the venv on any machine (Mac and cloud) and
+# the cloud session hook runs it; by hand: uv venv -p 3.12 ~/.venvs/doordhan-qc && VIRTUAL_ENV=~/.venvs/doordhan-qc uv pip install -r requirements.txt
+# Not here, by design: rembg (requirements-cut.txt, its own venv); onnx (only pipeline/lab/ff_swap.py, an experiment); SyncNet (cloned by fetch_models.sh).
+# (macOS: use 3.11, MediaPipe has no wheel for 3.12+ there; it needs numpy 1.x). pipeline/fetch_models.sh also fetches the models.
 # Not here: rembg[cpu] (cut-outs) lives in its own environment, ~/.venvs/doordhan-cut, so it can't move the pinned numpy.
 # System tools pip can't install: tesseract (+ Hindi data), poppler. ffmpeg and ffprobe come from static-ffmpeg below.
 numpy==1.26.4

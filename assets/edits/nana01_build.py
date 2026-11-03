@@ -75,6 +75,9 @@ LABELS = [(-V0, 2.35, "Ab Tak Chhappan 2  (2015)", "film"),
 
 # ---- the silent chai beat (Akhilesh, 2026-10-09: "while she's sipping tea, her voice is there"): the voice pauses
 # GAP s at GAP_AT (inside the pause after "cheques mile") and she sips in silence. Everything after moves by GAP.
+# The line on screen in frame 1, for the QC gate (pipeline/first_frame.py; bet B1: 6 words or fewer, in frame 1, big, nothing
+# before it). EDIT for the episode, e.g. {"text": "Anthropic ka God share", "subject": "face", "t0": 0.0, "font_px": 120}.
+HOOK = None
 GAP_AT, GAP = 22.65, 1.20
 
 
@@ -367,7 +370,13 @@ def write_manifest(total, final):
          "dialogue_stem": f"{WREL}/build/dialogue.wav", "length": {"min": 20, "max": 45, "expected": total},
          "loudness": {"target": -14}, "fps": FPS, "repairs_file": f"{WREL}/qc_repairs.json",
          "rebuild": f"pipeline/qcpy {WREL}/build.py", "lines": lines}
-    json.dump(M, open(f"{HERE}/qc_manifest.json", "w"), indent=1)
+    M["graphics"] = [{"t0": round(max(0.0, a + V0), 3), "t1": round(b + V0, 3), "text": t, "kind": k}
+                     for a, b, t, k in LABELS]      # the labels and slams; captions are the spoken words, so not listed
+    if HOOK:
+        M["hook"] = HOOK
+    else:
+        print("  (no HOOK set: the QC gate will say NOT CHECKED for the first frame. Set HOOK near LABELS.)")
+    json.dump(M, open(f"{HERE}/qc_manifest.json", "w"), indent=1, ensure_ascii=False)
 
 
 def main():

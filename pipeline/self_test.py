@@ -35,6 +35,26 @@ def make_raw():
     run([FFMPEG, "-y", "-v", "error", "-f", "lavfi", "-i", "anullsrc=r=48000:cl=mono", "-t", "0.9", s])
     open(os.path.join(T, "l.txt"), "w").write(f"file '{s}'\nfile '{a}'\nfile '{s}'\nfile '{b}'\nfile '{s}'\n")
     run([FFMPEG, "-y", "-v", "error", "-f", "concat", "-safe", "0", "-i", os.path.join(T, "l.txt"), raw])
+def python_environment():
+    import importlib
+    v = sys.version_info
+    need = ["numpy", "PIL", "scipy", "cv2", "mediapipe", "onnxruntime", "fontTools", "parselmouth", "python_speech_features", "torch"]
+    missing = []
+    for m in need:
+        try:
+            importlib.import_module(m)
+        except Exception:
+            missing.append(m)
+    msg = []
+    if (v.major, v.minor) not in ((3, 11), (3, 12)):
+        msg.append(f"Python {v.major}.{v.minor} runs this: requirements.txt is pinned for 3.11/3.12 (numpy 1.26.4, torch 2.2.2, MediaPipe 0.10.21 have no 3.13 wheels)")
+    if missing:
+        msg.append("missing packages: " + ", ".join(missing))
+    assert not msg, "; ".join(msg) + ". Run: bash pipeline/fetch_models.sh, then pipeline/qcpy pipeline/self_test.py"
+    return f"Python {v.major}.{v.minor}, all {len(need)} QC packages import"
+
+
+step("python environment (3.11/3.12 and the QC packages)", python_environment)
 step("synthetic voice line", make_raw)
 line = os.path.join(T, "line.wav")
 step("prep_line (trim, tighten pauses, level, tempo)", lambda: tool("prep_line.py", raw, line, "--tempo", "1.15"))
@@ -554,6 +574,65 @@ def model_dynamics():
 
 
 step("model dynamics (QC ranking, live check, provider gate)", model_dynamics)
+def first_frame_and_graphics():
+    import json, tempfile
+    from PIL import Image, ImageDraw
+    sys.path.insert(0, here_dir)
+    import first_frame, onscreen
+    d = tempfile.mkdtemp(prefix="ff_")
+    def img(name, seed):
+        y, x = np.mgrid[0:640, 0:360]
+        a = np.zeros((640, 360, 3), np.uint8); a[..., 0] = x * 255 // 360; a[..., 1] = y * 255 // 640; a[..., 2] = 90 + seed * 40
+        im = Image.fromarray(a); dr = ImageDraw.Draw(im)
+        for i in range(6):
+            dr.rectangle([40 + i * 30, 100 + i * 70, 120 + i * 30, 160 + i * 70], fill=(30 + seed * 50 + i * 20, 200 - i * 25, 60 + i * 30))
+        im.save(f"{d}/{name}.png")
+    img("a", 1); img("b", 3)
+    ff = lambda *a: subprocess.run([FFMPEG, "-y", "-v", "error", *a], check=True)
+    ff("-loop", "1", "-t", "2", "-i", f"{d}/a.png", "-r", "25", "-pix_fmt", "yuv420p", f"{d}/static.mp4")
+    ff("-loop", "1", "-t", "0.6", "-i", f"{d}/a.png", "-loop", "1", "-t", "2", "-i", f"{d}/b.png", "-filter_complex",
+       "[0][1]concat=n=2:v=1:a=0,fps=25", "-pix_fmt", "yuv420p", f"{d}/cut.mp4")
+    ff("-f", "lavfi", "-i", "color=black:s=360x640:r=25:d=0.5", "-loop", "1", "-t", "2", "-i", f"{d}/a.png", "-filter_complex",
+       "[0][1]concat=n=2:v=1:a=0,fps=25", "-pix_fmt", "yuv420p", f"{d}/black.mp4")
+    hook = {"text": "Anthropic ka God share", "subject": "logo", "t0": 0.0, "font_px": 120}
+    ok = lambda rows: {r[0]: r[1] for r in rows}
+    assert all(ok(first_frame.check({"hook": hook}, f"{d}/cut.mp4")).values()), first_frame.check({"hook": hook}, f"{d}/cut.mp4")
+    r = ok(first_frame.check({"hook": hook}, f"{d}/static.mp4")); assert r["motion"] is False and r["visible"] and r["hook"], r
+    assert ok(first_frame.check({"hook": hook}, f"{d}/black.mp4"))["visible"] is False
+    long_late = dict(hook, text="one two three four five six seven", t0=0.8, font_px=40)
+    msg = [x for x in first_frame.check({"hook": long_late}, f"{d}/cut.mp4") if x[0] == "hook"][0][2]
+    assert "7 words" in msg and "not in frame 1" in msg and "40 px" in msg, msg
+    early = first_frame.check({"hook": hook}, f"{d}/cut.mp4", [{"kind": "namaskar", "t0": 0.0}])
+    assert [x for x in early if x[0] == "hook"][0][1] is False
+    nohook = first_frame.check({}, f"{d}/cut.mp4"); assert nohook[0][1] is None and "luma" in nohook[0][2], "no hook declared = NOT CHECKED, with numbers"
+    # on-screen numbers against the script
+    script = {"lines": [{"spoken": "Share ke paas fifty point one percent voting power hai, aur company ka loss ek point one lakh crore, "
+                                   "इक्यानवे हज़ार छह सौ पचासी करोड़ का घाटा, 2026 mein"}]}
+    g = lambda text, **kw: dict({"t0": 3.0, "t1": 6.0, "text": text, "kind": "stat"}, **kw)
+    assert onscreen.check([g("Budget 2045 plan")], script)[0][1] is False and onscreen.check([g("Budget 1995 plan")], script)[0][1], \
+        "a year is exempt only inside 1900-2039"
+    assert onscreen.check([g("Rs 2,000 fee")], script)[0][1] is False and onscreen.check([g("₹2000")], script)[0][1] is False, \
+        "money that looks like a year is still money"
+    res = onscreen.check([g("50.1%"), g("₹91,685 Cr"), g("2026 IPO"), g("12%"), g("73%", sourced="S-1 p.4"),
+                          g("50.1%", t0=5.0, t1=5.5), g("Nifty 50", kind="logo")], script)
+    byid = {r[0]: r for r in res}
+    assert byid["g1"][1] and byid["g2"][1] and "g3" not in byid, res               # spoken as words, as 91,685 crore; a year needs no row
+    assert byid["g4"][1] is False and "never says it" in byid["g4"][2], res            # a number nobody said
+    assert byid["g5"][1] and "sourced" in byid["g5"][2], res                           # checked by a person
+    assert byid["g6"][1] is False and "under 1" in byid["g6"][2], res                  # too short to read
+    assert "g7" not in byid, "a logo is exempt"
+    for t, want in (("सवा दो सौ", 225), ("डेढ़ सौ", 150), ("साढ़े तीन सौ", 350), ("पौने दो सौ", 175), ("सवा दो हज़ार", 2250),
+                    ("साढ़े तीन लाख", 350000), ("डेढ़ करोड़", 15000000)):
+        assert [v for v, _, _ in onscreen.values(t)] == [want], (t, onscreen.values(t))
+    e10 = {"lines": [{"spoken": "उन्होंने एक car ख़रीदने के लिए डेढ़ करोड़ रुपये जोड़ रखे थे। पंद्रह-पंद्रह हज़ार के cheques"}]}
+    assert all(r[1] for r in onscreen.check([g("₹1.5 CRORE"), g("₹15,000 per family"), g("Ab Tak Chhappan 2  (2015)", kind="film")], e10)), \
+        "E10's real labels match its real script (डेढ़ करोड़ = 1.5 crore)"
+    assert onscreen.check(None, script)[0][1] is None, "no graphics listed = NOT CHECKED, not PASS"
+    return "no-motion, black and late/long/small hooks caught; cut passes; 50.1% = fifty point one, 91,685 Cr = words; a number nobody said, a 0.5 s figure fail; undeclared = NOT CHECKED"
+
+
+step("first frame + on-screen numbers", first_frame_and_graphics)
+
 
 
 

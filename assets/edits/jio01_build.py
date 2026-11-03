@@ -80,6 +80,9 @@ CAPS = [(0.16, 1.14, "Jio ke *IPO* se"), (1.18, 2.30, "bas kuch din pehle"), (2.
 # labels on the collage clips: (v_in, v_out, image key, x, y, rot)
 LOGOS = [(33.00, 35.25, f"{G}/lab_airfiber.png", 520, 860, 0), (34.10, 35.25, f"{G}/lab_starlink.png", 590, 330, 0),
          (41.00, 49.60, f"{G}/lab_starlink.png", 150, 340, 0), (41.00, 49.60, f"{G}/lab_jio.png", 600, 615, 0)]
+# The line on screen in frame 1, for the QC gate (pipeline/first_frame.py; bet B1). EDIT for the episode, e.g.
+# {"text": "Jio IPO vs Starlink", "subject": "photo", "t0": 0.0, "font_px": 120}.
+HOOK = None
 YEL = (255, 214, 10)
 
 
@@ -318,7 +321,13 @@ def write_manifest(total, final):
          "dialogue_stem": f"{WREL}/build/dialogue.wav", "length": {"min": 20, "max": 70, "expected": total},
          "loudness": {"target": -14}, "fps": FPS, "repairs_file": f"{WREL}/qc_repairs.json",
          "rebuild": f"pipeline/qcpy {WREL}/build.py", "lines": lines}
-    json.dump(M, open(f"{HERE}/qc_manifest.json", "w"), indent=1)
+    M["graphics"] = [{"t0": round(a + V0, 3), "t1": round(b + V0, 3), "text": os.path.basename(key), "kind": "logo"}
+                     for a, b, key, x, y, rot in LOGOS]      # logos are exempt from the number check; add cards and stats here
+    if HOOK:
+        M["hook"] = HOOK
+    else:
+        print("  (no HOOK set: the QC gate will say NOT CHECKED for the first frame. Set HOOK near LOGOS.)")
+    json.dump(M, open(f"{HERE}/qc_manifest.json", "w"), indent=1, ensure_ascii=False)
 
 
 def main():

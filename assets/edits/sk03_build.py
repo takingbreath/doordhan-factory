@@ -179,6 +179,7 @@ def paste(frame, sp, cx, cy, scale=1.0, alpha=1.0, angle=0):
 
 
 EVENTS = []   # (start, end, drawer(frame, t))
+GRAPHICS = []     # every card, caption and the hook, for the QC gate's first-frame and on-screen-number rows (pipeline/onscreen.py)
 
 
 def text_event(t0, t1, text, name="Baloo2-Latin-ExtraBold.ttf", size=64, fill=WHT, cx=W / 2, cy=1010,
@@ -211,6 +212,7 @@ def stack(text, name, size, maxw, **kw):
 
 def caption(t0, t1, text, fill=WHT, cy=1015):
     sp = stack(text, "Baloo2-Latin-ExtraBold.ttf", 66, 610, fill=fill, stroke=6)
+    GRAPHICS.append({"t0": round(t0, 3), "t1": round(t1, 3), "text": text, "kind": "caption"})
 
     def draw(fr, t):
         al = min(1.0, (t1 - t) / 0.08) if t1 - t < 0.08 else 1.0
@@ -220,6 +222,7 @@ def caption(t0, t1, text, fill=WHT, cy=1015):
 
 def item_card(t0, t1, n, label, detail, tick_at=None, cy=1060):
     """a running checklist card in the lower third: number badge, label, detail, and a tick that pops in"""
+    GRAPHICS.append({"t0": round(t0, 3), "t1": round(t1, 3), "text": f"{label} {detail}", "kind": "card"})
     plate = Image.new("RGBA", (650, 190), (0, 0, 0, 0)); d = ImageDraw.Draw(plate)
     d.rounded_rectangle([6, 6, 643, 183], 22, fill=NAVY + (236,), outline=WHT + (255,), width=6)
     d.rounded_rectangle([18, 18, 631, 171], 14, outline=YEL + (255,), width=3)
@@ -384,6 +387,11 @@ SHAKES = [(HANGUP1, 0.25, 14), (27.68, 0.25, 10), (38.20, 0.35, 16), (40.52, 0.2
 hook1 = fit("NOIDA MEIN FLAT", "TitanOne.ttf", 68, 620, fill=WHT, stroke=7)
 hook1b = fit("LENE SE PEHLE", "TitanOne.ttf", 68, 620, fill=WHT, stroke=7)
 hook2 = fit("KYA DEKHEIN?", "TitanOne.ttf", 104, 640, fill=YEL, stroke=9)
+HOOK_TEXT = "NOIDA MEIN FLAT LENE SE PEHLE KYA DEKHEIN?"      # keep in step with hook1, hook1b, hook2 above
+# QC manifest "hook" (pipeline/first_frame.py): 8 words here, over the 6-word limit (bet B1), so a copy of this template
+# fails the first-frame row until the hook is shortened; font_px is the smallest line, scaled to the 1080-wide frame.
+HOOK = {"text": HOOK_TEXT, "subject": "face", "t0": 0.0, "font_px": round(68 * 1080 / W)}
+GRAPHICS.append({"t0": 0.0, "t1": 0.0, "text": HOOK_TEXT, "kind": "hook"})
 HOOK_Y = 572   # the band sits on his chest: Billu walks in along the desk below it and must stay visible
 
 
@@ -726,7 +734,7 @@ def write_qc_manifest():
            "loudness": {"target": edit.get("target_lufs", -14)},
            "repairs_file": rel(REPAIRS),
            "rebuild": f"{env} {py} {rel(SK)}/build.py && {py} pipeline/assemble.py {rel(EDIT_JSON)}",
-           "lines": lines}
+           "hook": HOOK, "graphics": GRAPHICS, "lines": lines}
     path = os.path.join(os.path.dirname(EDIT_JSON), "qc_manifest.json")
     json.dump(man, open(path, "w"), indent=1, ensure_ascii=False)
     return path

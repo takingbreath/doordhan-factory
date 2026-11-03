@@ -44,8 +44,9 @@ def record(reel, role, model, failed=(), repaired=(), credits=None, path=None):
 def record_from_stamp(doc, manifest, path=None):
     """After qc_gate stamps: one row per role the manifest names. Rows that failed or were repaired count against the model."""
     models = (manifest or {}).get("models") or {}
-    failed = [r["check"] for r in doc.get("rows", []) if r.get("status") in ("failed",)]
-    repaired = [r["check"] for r in doc.get("rows", []) if r.get("status") == "repaired"]
+    mine = ("lipsync", "face")     # what a video model can be blamed for; a wrong hook, card or loudness is not its fault
+    failed = [r["check"] for r in doc.get("rows", []) if r.get("status") in ("failed",) and r["check"] in mine]
+    repaired = [r["check"] for r in doc.get("rows", []) if r.get("status") == "repaired" and r["check"] in mine]
     reel = os.path.splitext(os.path.basename(doc.get("final", "")))[0]
     # dedupe: re-running the gate on the same final must not count the reel twice
     seen = {(r["reel"], r["role"], r["model"]) for r in rows(path)}
