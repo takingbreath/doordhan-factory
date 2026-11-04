@@ -3098,6 +3098,18 @@
      "yt_best_vph": 1617,
      "yt_top": "Top ETFs for 2027 | Smart Investing for Long-Term Returns (155,209 views in 96h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-04",
+     "label": "FLAT",
+     "news_1d": 13,
+     "news_7d": 39,
+     "momentum_pct": 33,
+     "yt_week_videos": 15,
+     "yt_week_views": 194361,
+     "yt_best_vph": 684,
+     "yt_top": "Gold ETF Market Reality: क्या खतरे में हैं छोटे Gold ETFs? 80% AUM पर  (32,824 views in 48h)",
+     "google_trending": []
     }
    ]
   },
@@ -3893,6 +3905,20 @@
      "yt_best_vph": 1637,
      "yt_top": "How to Build a Trading Strategy Using Claude AI (Step-by-Step) (78,598 views in 48h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-04",
+     "label": "HOT",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 9,
+     "yt_week_views": 262464,
+     "yt_best_vph": 1536,
+     "yt_top": "How to Build a Trading Strategy Using Claude AI (Step-by-Step) (110,596 views in 72h)",
+     "google_trending": [
+      "2026 united states senate elections results 200+"
+     ]
     }
    ]
   },
@@ -4337,6 +4363,18 @@
      "yt_best_vph": 7403,
      "yt_top": "Stock Market Crash 2026: Why are Gold, Silver, and Bitcoin all falling (355,345 views in 48h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-04",
+     "label": "HOT",
+     "news_1d": 3,
+     "news_7d": null,
+     "momentum_pct": 0,
+     "yt_week_videos": 16,
+     "yt_week_views": 1467684,
+     "yt_best_vph": 5891,
+     "yt_top": "Dealer Reveals How STACKERS Responded to the SILVER PRICE CRASH (141,379 views in 24h)",
+     "google_trending": []
     }
    ]
   },
@@ -4347,7 +4385,7 @@
    "first_seen": "2026-10-21",
    "lane": "deep",
    "window_until": "2026-11-03",
-   "status": "active",
+   "status": "retired",
    "notes": [
     "sent 21 Oct"
    ],
@@ -4511,8 +4549,24 @@
      "yt_best_vph": 467,
      "yt_top": "Vodafone Idea में 143% Upside? BSE, Sona BLW और Urban Company पर Broke (67,183 views in 144h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-04",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 16,
+     "yt_week_views": 113063,
+     "yt_best_vph": 1695,
+     "yt_top": "Suzlon, Vodafone, IREDA, NSE, BSE, NSDL, Hero Motors, SJVN, Titagarh,  (40,671 views in 24h)",
+     "google_trending": []
     }
-   ]
+   ],
+   "retired": {
+    "date": "2026-11-04",
+    "reason": "past its window"
+   }
   },
   {
    "id": "emudhra-key-4",
@@ -4960,6 +5014,18 @@
      "yt_best_vph": 8275,
      "yt_top": "Historic debut: Jio Platforms IPO listing ceremony | #jioipo #reliance (992,977 views in 120h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-04",
+     "label": "FLAT",
+     "news_1d": 8,
+     "news_7d": 30,
+     "momentum_pct": 27,
+     "yt_week_videos": 7,
+     "yt_week_views": 1126057,
+     "yt_best_vph": 7252,
+     "yt_top": "Historic debut: Jio Platforms IPO listing ceremony | #jioipo #reliance (1,044,352 views in 144h)",
+     "google_trending": []
     }
    ]
   },
@@ -5204,6 +5270,18 @@
      "yt_best_vph": 4935,
      "yt_top": "Jio’s Historic Stock Market Debut: FULL LISTING CEREMONY | Ambani Fami (592,144 views in 120h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-04",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": null,
+     "momentum_pct": 0,
+     "yt_week_videos": 7,
+     "yt_week_views": 258869,
+     "yt_best_vph": 1053,
+     "yt_top": "Reliance Q2 Results ⚫ Jio Platforms Q2 Results ( पहली बार😲)⚫ Mukesh Am (101,130 views in 96h)",
+     "google_trending": []
     }
    ]
   },
@@ -5219,7 +5297,8 @@
     "sent 26 Oct",
     "2026-10-27: 27 Oct: flat at ₹1,42,760/10g Mumbai; no new turn",
     "2026-11-02: 2 Nov: Delhi Sarafa 10-month low ₹1,42,000/10g; leads 3 Nov",
-    "2026-11-03: 3 Nov: Dhanteras-to-Dhanteras IBJA: +175% since 2022, +6.3% since 2025"
+    "2026-11-03: 3 Nov: Dhanteras-to-Dhanteras IBJA: +175% since 2022, +6.3% since 2025",
+    "2026-11-04: 4 Nov: new turn, WGC Q3: -29% tonnes, +3% rupees; pick"
    ],
    "readings": [
     {
@@ -5324,6 +5403,19 @@
      "yt_top": "Gold Price Crash! Will Gold Fall Below ₹1 Lakh? | Gold Market Analysis (542,177 views in 72h)",
      "google_trending": [],
      "desk_score": 8.0
+    },
+    {
+     "date": "2026-11-04",
+     "label": "HOT",
+     "news_1d": null,
+     "news_7d": 1,
+     "momentum_pct": 0,
+     "yt_week_videos": 17,
+     "yt_week_views": 1798977,
+     "yt_best_vph": 8956,
+     "yt_top": "Gold price Silver price BIG Fall explained (214,943 views in 24h)",
+     "google_trending": [],
+     "desk_score": 9.0
     }
    ]
   },
@@ -5334,7 +5426,7 @@
    "first_seen": "2026-10-27",
    "lane": "deep",
    "window_until": "2026-11-03",
-   "status": "active",
+   "status": "retired",
    "notes": [
     "sent 27 Oct; Bagchi from 27 Oct; ₹688.05 close 26 Oct, 52w low ₹681.90"
    ],
@@ -5426,8 +5518,24 @@
      "yt_best_vph": 496,
      "yt_top": "HDFC Bank, Union Bank, Wipro, Premier Energies, Indo-MIM Share में क्य (11,898 views in 24h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-04",
+     "label": "FLAT",
+     "news_1d": 5,
+     "news_7d": 19,
+     "momentum_pct": 26,
+     "yt_week_videos": 12,
+     "yt_week_views": 64397,
+     "yt_best_vph": 517,
+     "yt_top": "HDFC Bank, JK Tyre, Borosil, ONGC, Grasim, Godrej Properties के शेयरों (12,408 views in 24h)",
+     "google_trending": []
     }
-   ]
+   ],
+   "retired": {
+    "date": "2026-11-04",
+    "reason": "past its window"
+   }
   },
   {
    "id": "jewellery-ipo-ken",
@@ -5516,6 +5624,18 @@
      "yt_best_vph": 879,
      "yt_top": "MK Sons IPO review | MK sons fine jewels IPO GMP | Upcoming IPO #ipo # (105,458 views in 120h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-04",
+     "label": "COLD",
+     "news_1d": 1,
+     "news_7d": 1,
+     "momentum_pct": 100,
+     "yt_week_videos": 12,
+     "yt_week_views": 201432,
+     "yt_best_vph": 737,
+     "yt_top": "MK Sons IPO review | MK sons fine jewels IPO GMP | Upcoming IPO #ipo # (106,166 views in 144h)",
+     "google_trending": []
     }
    ]
   },
@@ -5531,7 +5651,8 @@
     "S-1 public 26 Oct; E15 follow-up",
     "2026-10-29: S-1 public 26 Oct",
     "2026-11-01: 1 Nov: new turn, AI selloff and OpenAI cut its round $10bn; pick",
-    "2026-11-02: 2 Nov: new turn, Alphabet -12.6%/-$500bn on AI spend (29 Oct); pick"
+    "2026-11-02: 2 Nov: new turn, Alphabet -12.6%/-$500bn on AI spend (29 Oct); pick",
+    "2026-11-04: 4 Nov: new turn, amended S-1 2 Nov: $33.2bn 9M revenue, $895.4bn commitments"
    ],
    "readings": [
     {
@@ -5599,6 +5720,19 @@
      "yt_best_vph": 22738,
      "yt_top": "Anthropic Opened Its Books. What Is It Really Worth? (1,091,440 views in 48h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-04",
+     "label": "HOT",
+     "news_1d": 57,
+     "news_7d": 100,
+     "momentum_pct": 57,
+     "yt_week_videos": 12,
+     "yt_week_views": 1404937,
+     "yt_best_vph": 5242,
+     "yt_top": "Anthropic IPO: The Con Of The Century (251,633 views in 48h)",
+     "google_trending": [],
+     "desk_score": 9.0
     }
    ]
   },
@@ -5680,6 +5814,18 @@
      "yt_top": "Investors को मिलेगी Tax राहत? LTCG Exemption पर बड़ा सवाल! (53,795 views in 24h)",
      "google_trending": [],
      "desk_score": 8.0
+    },
+    {
+     "date": "2026-11-04",
+     "label": "HOT",
+     "news_1d": 49,
+     "news_7d": 100,
+     "momentum_pct": 49,
+     "yt_week_videos": 5,
+     "yt_week_views": 285609,
+     "yt_best_vph": 4370,
+     "yt_top": "Fii ko ltcg tax se mukti ? #shorts (104,878 views in 24h)",
+     "google_trending": []
     }
    ]
   },
@@ -5747,6 +5893,18 @@
      "yt_best_vph": 243,
      "yt_top": "PN Vasudevan Breaks Silence On Equitas Bank Exit | Governance And Succ (17,480 views in 72h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-04",
+     "label": "COLD",
+     "news_1d": null,
+     "news_7d": null,
+     "momentum_pct": 0,
+     "yt_week_videos": 19,
+     "yt_week_views": 104369,
+     "yt_best_vph": 464,
+     "yt_top": "Equitas CEO Resignation: बैंक का शेयर चढ़ाने के लिए Equitas CEO ने छोड (22,261 views in 48h)",
+     "google_trending": []
     }
    ]
   },
@@ -5813,6 +5971,18 @@
      "yt_week_views": 1607,
      "yt_best_vph": 5,
      "yt_top": "AI Is Getting Beyond Our Control. Learning AI Is Now Mandatory (457 views in 96h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-11-04",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 14,
+     "yt_week_views": 5672,
+     "yt_best_vph": 43,
+     "yt_top": "Corea del Norte ROBA 6.300M$ a Binance, PHP2Shell y un fallo UEFI de 1 (2,068 views in 48h)",
      "google_trending": []
     }
    ]
@@ -5916,6 +6086,18 @@
      "yt_best_vph": 299,
      "yt_top": "Ola Electric right issue. PP Allotment date? Ola electric share news.  (7,168 views in 24h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-04",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 5,
+     "momentum_pct": 0,
+     "yt_week_videos": 17,
+     "yt_week_views": 84551,
+     "yt_best_vph": 330,
+     "yt_top": "Goldman Sachs Big Warning on Ola Electric | Ola के शेयर में आएगी 23% क (23,762 views in 72h)",
+     "google_trending": []
     }
    ]
   },
@@ -5959,6 +6141,18 @@
      "yt_best_vph": 1127,
      "yt_top": "IDBI Bank Sale Mystery Explained: Did Modi Govt Bend Rules For Fairfax (81,179 views in 72h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-04",
+     "label": "HOT",
+     "news_1d": 1,
+     "news_7d": 5,
+     "momentum_pct": 20,
+     "yt_week_videos": 14,
+     "yt_week_views": 327535,
+     "yt_best_vph": 4953,
+     "yt_top": "IDBI Bank Sale- LIC अधिकारी कुणासाठी काम करत होते? विक्रीदरम्यानच्या S (118,868 views in 24h)",
+     "google_trending": []
     }
    ]
   },
@@ -5988,6 +6182,18 @@
      "yt_week_views": 4827078,
      "yt_best_vph": 20811,
      "yt_top": "$6.3B crypto heist: Experts react to the biggest theft in history (1,498,371 views in 72h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-11-04",
+     "label": "RISING (saturated: everyone has it; needs a sharper angle)",
+     "news_1d": 100,
+     "news_7d": 100,
+     "momentum_pct": 100,
+     "yt_week_videos": 13,
+     "yt_week_views": 6284926,
+     "yt_best_vph": 26288,
+     "yt_top": "the largest hack. ever. (2,523,609 views in 96h)",
      "google_trending": []
     }
    ]
@@ -6019,6 +6225,18 @@
      "yt_best_vph": 635,
      "yt_top": "Full video: A young couple accidentally uncovers a terrifying secret—w (76,227 views in 120h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-04",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 1,
+     "momentum_pct": 0,
+     "yt_week_videos": 14,
+     "yt_week_views": 184956,
+     "yt_best_vph": 551,
+     "yt_top": "Full video: A young couple accidentally uncovers a terrifying secret—w (79,373 views in 144h)",
+     "google_trending": []
     }
    ]
   },
@@ -6037,6 +6255,36 @@
     {
      "date": "2026-11-03",
      "desk_score": 9.0
+    },
+    {
+     "date": "2026-11-04",
+     "label": "HOT",
+     "news_1d": 2,
+     "news_7d": 16,
+     "momentum_pct": 12,
+     "yt_week_videos": 14,
+     "yt_week_views": 434146,
+     "yt_best_vph": 3743,
+     "yt_top": "Reliance is a Holding Company Now – What’s Next? (179,682 views in 48h)",
+     "google_trending": []
+    }
+   ]
+  },
+  {
+   "id": "axis-mf-frontrun",
+   "title": "Axis MF front-running: Dubai AnyDesk trades, brokers fined ₹10 lakh each",
+   "query": "Axis mutual fund front running|एक्सिस म्यूचुअल फंड",
+   "first_seen": "2026-11-04",
+   "lane": "deep",
+   "window_until": "2026-11-17",
+   "status": "active",
+   "notes": [
+    "SEBI AO order 3 Nov; sent 4 Nov, 7/10"
+   ],
+   "readings": [
+    {
+     "date": "2026-11-04",
+     "desk_score": 7.0
     }
    ]
   }

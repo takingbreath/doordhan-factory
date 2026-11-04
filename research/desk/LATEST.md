@@ -1,138 +1,136 @@
-# Doordhan desk research — Tue 03 Nov 2026
+# Doordhan desk research — Wed 04 Nov 2026
 
-Session: https://claude.ai/code/session_01PasrArB38rtt62hY4ewWup
+Session: https://claude.ai/code/session_01PasrAs7f1HdypeofLKB3fM
 
-**Pick: story 1.** Fresh today, a name every viewer knows, and almost nobody has made it yet. On Monday Reliance, India's most widely held stock, jumped almost 12%, its best day since April 2020 and (per Bloomberg) the biggest one-day gain in market value for any Indian company ever: more than $19 billion. Mukesh Ambani got about $6.3 billion richer in a day and passed Gautam Adani again (Forbes). It also carries the strategist's Jio follow-up: Reliance owns 64.5% of the newly listed Jio Platforms, and Avendus says the market had been valuing that stake at about an 80% discount. The Indian Shorts on the rally have under 1,500 views and no Instagram outlier has it yet: the gap is open today and will close by Thursday.
+**Pick: story 1.** Gold before Dhanteras is the week's plan's deadline story (by Thu 5 Nov; Dhanteras is Fri 6 Nov), and today it has a number nobody has used yet. The World Gold Council's Q3 report (published Tue 3 Nov) says Indians bought 29% less gold by weight in July-September, but paid 3% more for it in rupees. Jewellery: 20% fewer tonnes, 16% more money. The 'gold le ya nahi' reels are crowded (3.5M-7.7M); this number has one Hindi YouTube video (4,024 views). A script approved by noon can still post tonight or Thursday.
 
-Runner-up: 2, gold before Dhanteras (Fri 6 Nov), which the week's plan wants by Thu 5 Nov: make it tomorrow at the latest. New angle since the 26 Oct email: from Dhanteras 2022 to now, ₹1 lakh of gold became about ₹2.75 lakh, but since last Dhanteras it has made only about 6.3% (IBJA, via Goodreturns). The 'gold le ya nahi' reels are crowded (6M, 5M, 1.2M); this number isn't. Story 3 (Reuters, 2 Nov): SEBI asked the government to scrap the 12.5% long-term capital gains tax for foreign investors only, after a record $31 billion of foreign selling this year; nothing for Indian investors' own shares.
+Runner-up: 2, Anthropic's amended S-1 (Mon 2 Nov): $33.2 billion of revenue in nine months against about $895.4 billion of compute and infrastructure promises, and a $104 billion net loss that is mostly paper. HOT (65 of 100 news items today), ride-now #1 since Monday, and the listing may come as soon as the week of 9 Nov, so it also works as the listing-week reel. Story 3 (deep lane, SEBI order of 3 Nov): Axis Mutual Fund's chief dealer allegedly leaked the fund's orders; trades were punched from Dubai on terminals two brokers installed by AnyDesk; one account made about ₹14.5 crore; the brokers were fined ₹10 lakh each.
 
-## 1. Reliance jumped almost 12% on Monday, its best day since April 2020 and the biggest one-day gain in value for any Indian company: more than $19 billion
+## 1. Gold before Dhanteras: Indians bought 29% less gold in July-September, but paid 3% more for it
 
-Hot lane (new; also the strategist's Jio-results follow-up from 2 Nov) · HOT · **9/10** (momentum 3/3, stake 1/1, shareability 1/2, gap 2/2, known name 2/2) · tracker id `reliance-record-day`
+Hot lane (tracked since 26 Oct; new turn: the World Gold Council's Q3 India numbers, out Tue 3 Nov) · HOT · **9/10** (momentum 3/3, stake 1/1, shareability 2/2, gap 2/2, known name 1/2) · tracker id `gold-dhanteras-fall`
 
-Window: About 3 days (to Thu 5 Nov). The rally is Monday's news; the next turns are whether it holds this week and Jio Platforms' own share move. Best today or tomorrow.
+Window: To Fri 6 Nov (Dhanteras). The week's plan wants it by Thu 5 Nov: today or tomorrow.
 
 ### What's happening
-- Mon 2 Nov: Reliance Industries closed almost 12% higher at ₹1,300, adding more than $19 billion in market value: a record one-day gain for an Indian company and the steepest rally since April 2020. The stock had fallen more than 20% this year before Monday (Bloomberg via Yahoo Finance, 2 Nov).
-- Why: September-quarter net income rose more than 40% to ₹25,550 crore, beating the ₹21,367 crore analysts expected, because diesel refining margins were near historic highs on tight supply and the Middle East war. Retail revenue grew just 1.3% and trailed expectations (Bloomberg). Other outlets give the consolidated profit including minority holders, ₹29,550 crore (+34%); Upstox gives ₹25,548 crore attributable to owners (+41%). Use one and say which.
-- The Jio link: Reliance owns 64.5% of Jio Platforms, which listed last week (the largest listing ever for an Indian company) and whose profit rose 14%. Avendus said the slide before Monday implied the market was valuing Reliance's Jio stake at about an 80% discount (Bloomberg). Jio Platforms' Q2 profit was ₹8,387-8,389 crore, +13.7% (Devdiscourse; Upstox).
-- The famous-name turn: Forbes' real-time list put Mukesh Ambani about $6.3 billion (7.85%) richer on the day, at $88.8 billion, ahead of Gautam Adani at $79.12 billion, reclaiming India's richest spot (Daily Jagran, 2 Nov). Some Shorts say $8.5 billion; use Forbes via Jagran's $6.3 billion or skip the figure.
-- It led the market: Sensex +1,233 points (1.66%) to 75,692.78, Nifty +387.70 to 23,440.80, as crude eased to about $108 a barrel from $117 last week (Upstox market wrap, 2 Nov).
+- World Gold Council, Q3 2026 Gold Demand Trends (released Tue 3 Nov): India's gold demand fell 29% to 162.5 tonnes in July-September, from 229.8 tonnes a year earlier. In rupees it rose 3%, to ₹2,41,900 crore from ₹2,35,090 crore (Millennium Post, 3 Nov).
+- Jewellery: 99.9 tonnes, down 20% from 125 tonnes, but ₹1,48,700 crore, up 16%. Bars and coins: 55 tonnes, down 40%. Gold ETFs: 5.3 tonnes, down 50%. The RBI bought none. Net imports fell 46% to 114.1 tonnes (Millennium Post).
+- Why: the average price in the quarter was ₹1,48,891 per 10 g, against ₹1,02,287 a year earlier (about 46% higher), plus a higher import duty and the Prime Minister's appeal to curb gold purchases. WGC India CEO Sachin Jain: 'elevated prices influenced consumer purchasing behaviour'; a late-quarter pullback in prices brought some deferred jewellery buying back. WGC sees 2026 demand at 625-675 tonnes, against 875.7 tonnes in 2025 (Millennium Post; Deccan Herald via search).
+- This week: 24K ₹1,39,530 per 10 g in Delhi on Tue 3 Nov (15:03 IST); MCX gold futures -1.17% to ₹1,38,552 and silver -3.2% that day (Upstox, 3 Nov). So gold is now below the quarter's average price, three days before Dhanteras.
+- Context carried from the 3 Nov desk (Goodreturns/IBJA, 2 Nov): ₹1 lakh of gold bought on Dhanteras 2022 is about ₹2.75 lakh now; since last Dhanteras it has made about 6.3%.
 
 ### The curiosity gap
-- India's biggest company had been falling all year, then added more than $19 billion in a single day, more than any Indian company ever. What changed in one quarter?
-- The money came from the oldest, dullest business, refining diesel, not from Jio or retail. A war far away made Reliance's refineries a fortune.
-- Ambani got about $6.3 billion richer between breakfast and the closing bell. Almost every Indian with an index fund or SIP owns a slice of this stock.
+- Indians bought almost a third less gold, and still spent more money on it than last year. The weight fell; the bill didn't.
+- The bride's family bought 20% less jewellery and paid 16% more for it. The jeweller's year is fine; the buyer's isn't.
+- Gold is now cheaper than its average over the summer quarter, on the eve of the one day India is told to buy it.
 
 ### How hot it is
-- trends.py 'Reliance share': HOT, 10 of 21 news items this week landed today (48%); YouTube 3 videos this week, 218,752 views, best 7,128/hr ('Reliance is a Holding Company Now – What's Next?', 171,078 views in 24 h).
-- trends.py 'Mukesh Ambani richest': COLD on news, but YouTube 10 videos this week, 3.78M views, best 13,881/hr (Anant Ambani's speech, 1.67M in 120 h): the Ambani name itself is drawing views this week.
-- vidIQ YouTube Shorts (IN, since 1 Nov, by views): the best on the rally is a Tamil Short at 1,362 views; Hindi ones are at 3-42 views. No Instagram or TikTok outlier on the rally yet; the Ambani-family outliers are all Jio-IPO and speech clips.
+- Tracker: HOT, steady (YouTube 1.80M views this week, best 8,956/hr). trends.py 'dhanteras gold': HOT, 5 of 10 news items today (50%); YouTube 11 videos this week (5 in 24 h), 1.47M views, best 6,442/hr ('Dhanteras पर Gold-Silver मत खरीदो', 309,201 in 48 h). 'gold price today': HOT, 14 of 64 today; YouTube best 4,864/hr.
+- trends.py 'gold demand': COLD on news phrasing; YouTube 254,108 views this week, best 1,406/hr. vidIQ YouTube (IN, since 2 Nov): the only video on the WGC 29% number is The News Frontline, 4,024 views (4 min, Hindi). No Instagram or TikTok outlier on it.
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [@tazakhabhar.in (Instagram)](https://www.instagram.com/reel/DezRgbrxDhl) | Split screen: Mukesh Ambani archive footage on top, creator below, 'Jio IPO Alert ₹30,188 crore issue' (the nearest topic: Jio, not the rally) | 5.5M | 835× usual | 22 Oct |
-| [@moneycontrol_hindi (Instagram)](https://www.instagram.com/reel/DfBvPglADOB) | Split screen, expert on top and Jio 5G graphic below: 'book or hold after Jio's listing?' (Jio, not the rally) | 1.3M | 28× usual | 28 Oct |
-| [@ipo.gyani (Instagram)](https://www.instagram.com/reel/DfBr1zPN6Oq) | 10 s: Ambani at the NSE listing with the Jio market-depth screenshot on top, 'operator kaun hai?' | 716K | 6× usual | 28 Oct |
-| [Nagaraj Balasubramaniam (YouTube Short, Tamil)](https://www.youtube.com/watch?v=Fx-Vurg3zp0) | 'Why did Reliance shares jump 12% today?', 60 s explainer: the best Short on the rally itself | 1,362 | 1.1× usual | 2 Nov |
+| [@syyed.suhail (Instagram)](https://www.instagram.com/reel/De-3Yy1iNTe) | News anchor in a studio with big text on top: 'Diwali se pehle sasta hua sona, 9 mahine mein 50% giri chandi' | 7.7M | 7× usual | 27 Oct |
+| [@abhishekkarofficial (Instagram)](https://www.instagram.com/reel/DfERYJaveGM) | Single-shot talking head, 'Gold le ya nahi in Diwali?': the binary stake question | 3.5M | 40× usual | 29 Oct |
+| [@pvtrehan295 (Instagram)](https://www.instagram.com/reel/De6KeuPKjh9) | Talking head, 'Gold rate crash: achanak itna sasta kaise hua sona?' | 1.8M | 5× usual | 25 Oct |
+| [@yogifunnify (Instagram)](https://www.instagram.com/reel/De6lVNWOg2L) | Split screen, falling chart on top, creator below: 'Sona mat khareedna' | 1.2M | 108× usual | 25 Oct |
+| [@chahalvermaa (Instagram)](https://www.instagram.com/reel/DfH_E-MTEPE) | 'Silver crashed 55%, gold down 22%: where to invest this Dhanteras?' with a news clipping overlay | 976K | 5× usual | 30 Oct |
+| [The News Frontline (YouTube, Hindi)](https://www.youtube.com/watch?v=mjUTBbzP6OE) | 4-minute news read of the WGC report: '29% giri sone ki demand, kya aur tootega bhav?' | 4,024 | new | 3 Nov |
 
-_Ambani and Jio reels did 0.7M-5.5M last week, all split screens with Ambani or the Jio logo on top; the rally itself has no breakout yet. Missing: why a refinery, not Jio, made India's biggest company its biggest day, and what that means for everyone who holds it through an index fund._
+_Every big gold reel this fortnight is 'buy or not' or 'it crashed' (0.98M-7.7M, two split screens). Missing: what Indians actually did. They bought far less gold and paid more for it, which turns the price story into the viewer's own bill._
 
 ### Facts and sources
-- Almost 12% to the close on 2 Nov; more than $19 bn added, a record one-day gain for an Indian company; steepest since April 2020; down 20%+ this year before Monday; net income +40% to ₹25,550 crore (estimate ₹21,367 crore); diesel margins; retail revenue +1.3%; 64.5% of Jio Platforms; Avendus: about 80% discount on the Jio stake. — [Bloomberg via Yahoo Finance, 2 Nov 2026](https://finance.yahoo.com/markets/stocks/articles/reliance-adds-record-19-billion-111336617.html)
-- RIL +11.6% at close; Q2 profit attributable to owners ₹25,548 crore, +41%; Sensex +1,233.25 to 75,692.78; Nifty +387.70 to 23,440.80; crude about $108 vs $117. — [Upstox market wrap, 2 Nov 2026 (16:24 IST)](https://upstox.com/news/market-news/stocks/market-wrap-nov-2-sensex-zooms-1-233-pts-nifty-50-ends-at-23-441-as-crude-oil-prices-ease-reliance-industries-soars-12/article-202833/)
-- Forbes real-time: Mukesh Ambani +$6.3 bn (7.85%) to $88.8 bn; Gautam Adani $79.12 bn; Ambani back as India's richest. — [Daily Jagran, 2 Nov 2026 (citing Forbes)](https://www.thedailyjagran.com/business/news/mukesh-ambani-adds-record-usd6-billion-in-a-day-beats-adani-to-reclaim-indias-richest-spot-10334896)
-- Jio Platforms Q2 FY27 profit ₹8,389 crore, nearly +14% y/y; revenue +11%. — [Upstox, 30 Oct 2026](https://upstox.com/news/market-news/earnings/jio-platforms-q2-results-profit-rises-nearly-14-yo-y-to-8-389-crore-revenue-up-11-ebitda-margin-improves-181-bps/article-202741/)
+- Q3 2026 India demand 162.5 t (-29% from 229.8 t); value ₹2,41,900 crore (+3% from ₹2,35,090 crore); average price ₹1,48,891/10 g vs ₹1,02,287; jewellery 99.9 t (-20%), ₹1,48,700 crore (+16%); bars and coins 55 t (-40%); ETFs 5.3 t (-50%); RBI none; net imports 114.1 t (-46%); 2026 outlook 625-675 t; reasons: import duty, prices, PM's appeal. — [Millennium Post (PTI), 3 Nov 2026, citing WGC Q3 Gold Demand Trends](https://www.millenniumpost.in/business/indias-gold-demand-declines-29-in-july-september-at-1625-tonnes-wgc-682019)
+- 24K ₹1,39,530/10 g (Delhi, 3 Nov, 15:03 IST); MCX gold Dec futures -₹1,634 (-1.17%) to ₹1,38,552; MCX silver -3.2% to ₹1,77,901/kg. — [Upstox, 3 Nov 2026](https://upstox.com/news/personal-finance/commodities/gold-silver-rates-today-november-3-prices-fall-ahead-of-dhanteras-diwali-check-22-k-24-k-gold-rates-in-your-city/article-202896/)
+- 2025 full-year India demand 875.7 t (for the 625-675 t comparison). — [Deccan Herald (PTI), 3 Nov 2026 (seen in search; the page refused a direct open)](https://www.deccanherald.com/business/indias-gold-demand-down-29-in-jul-sep-at-1625-tonnes-full-year-seen-625-675-tonnes-wgc-4205439)
 
 ### Watch out
-- News only: no price chart, price levels, targets or analyst ratings (SEBI price-data rule, docs/platform-playbook.md), and no buy, hold or sell. The ₹1,300 close and the 32 buy ratings stay out of the reel.
-- Profit has two versions (₹25,550 crore attributable to owners, +40-41%; ₹29,550 crore consolidated, +34%). Pick one and say which; don't mix the number from one with the growth from the other.
-- Ambani's gain: Forbes via Jagran says $6.3 bn; some Shorts say $8.5 bn. Use $6.3 bn (Forbes) or the company's $19 bn instead. It is paper wealth, not cash.
-- Real photos of Mukesh Ambani and Reliance's official logo are fine (hard rule 4); no invented words in his mouth.
-- Bets: B1 (stake in the first second), B3 (a line worth sending inside 12 s), B4 (split-screen: Ambani's photo or the Reliance logo with '+12%' or '$19 billion' on top).
+- No buy or sell call, no price target and no 'will it fall further'. The story is what buyers did, told as the WGC's numbers.
+- Keep weight and value apart: -29% is tonnes, +3% is rupees. 'Paid more' means the country's total bill, not each buyer's.
+- The 875.7 t full-year 2025 figure came from a page that refused a direct open; use the 29% and the quarter's numbers, which are on the page we opened.
+- Bets: B1 (stake in the first second), B3 (a line worth sending inside 12 s), B4 (split screen: gold jewellery or bars with '-29% sona, +3% bill' on top).
 
-## 2. Gold before Dhanteras: ₹1 lakh put in on Dhanteras 2022 is about ₹2.75 lakh now, but since last Dhanteras it has made only about 6%
+## 2. Anthropic's new IPO filing: $33.2 billion of revenue in nine months, and about $895 billion promised for computing
 
-Hot lane (tracked since 26 Oct; new turn: the Dhanteras-to-Dhanteras numbers, and a rebound three days out) · HOT · **8/10** (momentum 3/3, stake 1/1, shareability 2/2, gap 1/2, known name 1/2) · tracker id `gold-dhanteras-fall`
+Hot lane (tracked since 26 Oct; ride-now #1; new turn: the amended S-1 of Mon 2 Nov with the third quarter) · HOT · **9/10** (momentum 3/3, stake 1/1, shareability 2/2, gap 1/2, known name 2/2) · tracker id `anthropic-s1`
 
-Window: To Fri 6 Nov (Dhanteras). The week's plan wants it by Thu 5 Nov: tomorrow at the latest.
+Window: To about 20 Nov. The listing may come as soon as the week of 9 Nov (Yahoo Finance; unconfirmed, no price range yet), so this also works as the listing-week reel.
 
 ### What's happening
-- IBJA's 24K rate on each Dhanteras: ₹50,062 per 10 g (2022), ₹60,240 (2023, +20.3%), ₹78,745 (2024, +30.7%), ₹1,29,584 (2025, +64.6%), and ₹1,37,770 on 2 Nov 2026 (+6.3% on last Dhanteras). From Dhanteras 2022, +175%: ₹1 lakh would be about ₹2.75 lakh. Silver: ₹1 lakh would be about ₹3.24 lakh (Goodreturns, 2 Nov, 14:57 IST).
-- This week: retail 24K ₹13,937 a gram (₹1,39,370 per 10 g) on Mon 2 Nov, up ₹490 per 10 g on the day as prices rebounded before Dhanteras; 24K fell ₹10,360 per 10 g in October; spot gold near a 12-month low (Goodreturns, 2 Nov, 11:02 IST).
-- Dhanteras is Fri 6 Nov; 'धनतेरस कब की है' is in Google's trending searches in India this morning (trends.py).
+- Mon 2 Nov: Anthropic filed an amended S-1 adding July-September. Revenue in the quarter was about $17 billion, up about 1,127% from a year earlier; $33.24 billion for the first nine months of 2026, up about 1,200% (CNBC, 2 Nov).
+- Net loss: $23.29 billion in the quarter and $104 billion over nine months, mostly from changes in the fair value of convertible notes and derivative liabilities, an accounting charge as its valuation rose (CNBC). The operating loss for nine months was only $1.3 billion, against $5.2 billion a year earlier (Yahoo Finance, 2 Nov).
+- The bill: about $895.4 billion of purchase commitments and leases, substantially all compute and infrastructure; $447.5 billion due before 31 Dec 2030; $69.8 billion in the next 12 months (Yahoo Finance; CNBC).
+- Growth is slowing: about 47% in Q3 against 144% in Q2 and 132% in Q1, as CNBC reported. Ticker ANT on Nasdaq; no price range or date yet; it is preparing its roadshow (CNBC).
+- Our own E15 (Anthropic's God share) is our biggest reel (12,564+ plays) and teased 'valuation up, loss up'.
 
 ### The curiosity gap
-- Everyone who bought gold on Dhanteras 2022 nearly tripled their money. Everyone who bought last Dhanteras, after a 65% year, has made about 6%. Which Dhanteras is this one?
-- The festival tells you to buy on one particular day. The returns depend entirely on which year that day falls in.
+- Anthropic made $33 billion in nine months and has promised to spend about $895 billion on computers. That is about 27 times what it sold in those nine months, already committed.
+- A $104 billion loss on paper, while the business nearly broke even. Which number will the IPO price believe?
 
 ### How hot it is
-- Tracker: HOT, rising (news 1/1; YouTube 1.72M views this week, best 7,530/hr). trends.py 'gold rate Dhanteras': HOT, YouTube 13 videos this week (6 in 24 h), 1.32M views, best 7,530/hr ('Gold Price Crash! Will Gold Fall Below ₹1 Lakh?', 542K in 72 h). Google trending: 'धनतेरस कब की है' 100+.
-- vidIQ outliers (Instagram, India, since 20 Oct): five gold reels at 0.8M-6M, 8-117× usual, all 'buy or not' or 'will fall'. YouTube Shorts since 31 Oct: mostly muhurat and puja.
+- Tracker: HOT, steady (57/100 news). trends.py 'Anthropic IPO': HOT, 65 of 100 news items this week landed today (65%, saturated feed); YouTube 12 videos this week, 1.40M views, best 5,242/hr ('Anthropic IPO: The Con Of The Century', 251,633 in 48 h).
+- vidIQ YouTube (since 2 Nov) on the amended filing: only small English channels, 0-133 views (TEKTHRILL Short 34; 'The Earning Game' 0). No Indian reel on the new numbers yet.
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [@abhishekkarofficial (Instagram)](https://www.instagram.com/reel/DfERYJaveGM) | Single-shot talking head, 'Gold le ya nahi in Diwali?': the binary stake question | 6M | 69× usual | 29 Oct |
-| [@theanupamajha_ (Instagram)](https://www.instagram.com/reel/De1VH3yBz_u) | Talking head with an image strip: 'gold will go below ₹1 lakh, the right time to buy' | 5M | 117× usual | 23 Oct |
-| [@tarunmalikx (Instagram)](https://www.instagram.com/reel/De4f29bTFWv) | Talking head with infographic: 'gold falls again before Diwali, 22K = ₹1,31,000' and the macro reasons | 1.9M | 8.5× usual | 24 Oct |
-| [@yogifunnify (Instagram)](https://www.instagram.com/reel/De6lVNWOg2L) | Split screen, chart on top: 'सोना मत खरीदना', why gold fell before Diwali | 1.2M | 108× usual | 25 Oct |
+| [@cryptokibate (Instagram)](https://www.instagram.com/reel/DfAUHmAvtqJ) | 'Jio ke IPO ka 10X hoga Anthropic ka IPO': talking head with revenue and valuation graphics | 1.1M | 129× usual | 27 Oct |
+| [@financetalkswithaman (Instagram)](https://www.instagram.com/reel/DfHet_AJDbQ) | 'World's biggest IPO is coming? Bigger than Jio or SpaceX?' with key risks | 916K | 23× usual | 30 Oct |
+| [@financebysanjay (Instagram)](https://www.instagram.com/reel/DfB8SkFITJk) | Adjacent: 'China AI bubble pops, $3.5 trillion wiped out', talking head | 6.8M | 16× usual | 28 Oct |
+| [@anushkarathod98 (Instagram)](https://www.instagram.com/reel/DfH5HpfOhU_) | Adjacent: 'Is this the beginning of the AI bubble burst?', split screen with a red market dashboard | 1.1M | 6× usual | 30 Oct |
 
-_The 'buy or not' and 'it will fall' angles are done to death (0.8M-6M each), and several tell viewers to buy. Missing: the Dhanteras-to-Dhanteras record, which answers the question with what actually happened each year, without telling anyone to buy._
+_Indian reels sold the size ('bigger than Jio') before the amended filing; AI-bubble reels did 1-6.8M. Missing: the amended numbers, the $895 billion bill against $33 billion of sales, which ties the IPO to the bubble question._
 
 ### Facts and sources
-- IBJA 24K on each Dhanteras 2022-2025 and on 2 Nov 2026 (₹50,062 → ₹1,37,770); +175% since 2022; ₹1 lakh → about ₹2,75,204 (gold), ₹3,24,146 (silver). — [Goodreturns, 2 Nov 2026, 14:57 IST](https://www.goodreturns.in/personal-finance/dhanteras-to-dhanteras-ibja-gold-rates-175-returns-in-5-yrs-how-rs-100000-turns-rs-275190-buy-gold-1544639.html)
-- 24K ₹1,39,370 per 10 g on 2 Nov, +₹490; down ₹10,360 in October; spot near a 12-month low. — [Goodreturns, 2 Nov 2026, 11:02 IST](https://www.goodreturns.in/news/gold-rates-today-november-2-2026-24k-22k-18k-gold-prices-rises-chennai-mumbai-delhi-cities-dhanteras-1544583.html)
+- Q3 revenue about $17 bn (+1,127%); nine months $33.24 bn (+~1,200%); Q3 net loss $23.29 bn; nine-month net loss $104 bn, mostly fair-value changes; about $895.4 bn of commitments; growth 47% in Q3 vs 144% Q2 and 132% Q1; preparing roadshow. — [CNBC, 2 Nov 2026](https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html)
+- Nine-month operating loss $1.3 bn vs $5.2 bn; $895.4 bn committed; $447.5 bn before 31 Dec 2030; $69.8 bn in the next 12 months; Q3 $5 bn short-term compute charge and $2 bn non-cash donation-matching charge. — [Yahoo Finance (Daniel Howley), 2 Nov 2026](https://finance.yahoo.com/technology/article/anthropic-reveals-amended-s-1-outlining-huge-spending-commitments-rising-sales-153635825.html)
 
 ### Watch out
-- Rates differ by source by up to about ₹2,000 per 10 g (IBJA ₹1,37,770; Goodreturns retail ₹1,39,370; Delhi Sarafa ₹1,42,000 on 1 Nov, with taxes). Name the source on screen and use one series throughout (IBJA for the Dhanteras table).
-- Past returns, not a forecast: no buy or sell call, no price target. If a return is used in a worked example, it's said as what happened, not what will.
-- The 2026 figure is 2 Nov's rate standing in for Dhanteras; say 'this week', not 'this Dhanteras'.
-- Silver's rupee rate conflicts (IBJA ₹1,80,080/kg vs a ₹2,00,000 site ticker); leave silver out or use IBJA only.
-- Bets: B1, B3, B4 (gold bars or a jeweller's counter on top with '₹1 lakh → ₹2.75 lakh' or '+6%').
+- IPO facts only: no apply, buy or skip call, no price or valuation guess (none is filed yet).
+- Say the $104 bn loss is mostly an accounting charge on the rising valuation, or the reel misleads; the operating loss was $1.3 bn.
+- 'About 27 times' is our arithmetic ($895.4 bn / $33.2 bn of nine-month sales); the commitments run to 2045, so it is a comparison, not a deficit.
+- Disclosure: this research was done with Claude, made by Anthropic. Dario Amodei's real photo and the Claude/Anthropic logo are fine (hard rule 4); no invented words.
+- Bets: B1, B3, B4 (Claude logo and '$895 billion' on top).
 
-## 3. SEBI wants the 12.5% long-term capital gains tax scrapped for foreign investors only, after a record $31 billion of foreign selling. Indian investors would keep paying it
+## 3. Axis Mutual Fund's orders were allegedly leaked and traded from Dubai over AnyDesk; one account made about ₹14.5 crore; SEBI fined the two brokers ₹10 lakh each
 
-Deep lane (Reuters, 2 Nov, via The Federal; tracked since 29 Oct; new turn: SEBI's pre-budget proposal) · RISING · **8/10** (momentum 2/3, stake 1/1, shareability 2/2, gap 2/2, known name 1/2) · tracker id `ltcg-cut-debate`
+Deep lane (SEBI adjudication order, Tue 3 Nov, 81 pages) · COLD · **7/10** (momentum 0/3, stake 1/1, shareability 2/2, gap 2/2, known name 2/2) · tracker id `axis-mf-frontrun`
 
-Window: About 10 days (to Thu 12 Nov) as news; the decision is in the Union Budget in February 2027. Next turns: a government response or a SEBI statement.
+Window: Deep lane: about two weeks (to Tue 17 Nov). It is fresh from SEBI and nobody has made it.
 
 ### What's happening
-- Reuters reported on Mon 2 Nov that SEBI, in its pre-budget recommendations, asked the government to scrap the 12.5% LTCG tax on listed shares held more than a year by foreign portfolio investors (FPIs). Domestic investors get no such cut in the proposal; for mutual fund investors it suggests that switching between schemes after a year should not count as a taxable sale (The Federal, citing Reuters, 2 Nov, 15:46 IST).
-- Why: FPIs sold a record $31 billion of Indian shares in 2026. Over two years the Nifty 50 fell 4.8% while the MSCI emerging markets index rose 40%. IIFL estimates scrapping the tax could add about 2.3 percentage points to foreigners' returns (The Federal).
-- Non-binding: the Finance Ministry decides in the Budget. Today FPIs pay 12.5% LTCG and 20% short-term, plus STT and dividend withholding tax (The Federal).
-- The tracker's earlier turn (29 Oct, The Ken): the LTCG tax-cut debate, worth about ₹1.29 lakh crore a year, with The Ken arguing against a cut.
+- SEBI's order of Tue 3 Nov closes one strand of the Axis Mutual Fund front-running case (investigation period April 2021 to March 2022). Per SEBI's investigation findings quoted in the order, the information provider was Viresh Joshi, then Axis MF's chief dealer; the trades were placed by Prijesh Kurani from Dubai.
+- How it allegedly worked: the IT staff of two Mumbai brokers (Woodstock Broking and Marfatia Stock Broking) installed the ODIN trading terminal on Kurani's computer in Dubai over AnyDesk; he traded ahead of the fund's big orders in other people's accounts; profits from one group were passed in cash to an arranger and on to Joshi (allegations as recorded in the order).
+- Money: a director of Woodstock told SEBI the trades in one account (Visa Capital Partners) made about ₹14.50 crore, with a 70:30 profit split. SEBI impounded ₹14,09,35,492 by an interim order of 28 Feb 2023.
+- The penalty: ₹10 lakh each on Woodstock Broking, its director Suresh Jajoo, Marfatia Stock Broking and its director Nishil Marfatia, ₹40 lakh in all; the six other noticees were let off. The main front-running proceedings ended in a separate final order dated 24 Jul 2026 (mentioned in this order).
 
 ### The curiosity gap
-- The regulator of India's stock market wants foreigners to pay 0% on their long-term gains. You'd still pay 12.5%.
-- Foreigners pulled a record $31 billion out of Indian shares this year. Indian SIP money kept buying what they sold. Who is the market being designed for?
+- The man who placed your mutual fund's orders allegedly told someone in Dubai first, and they bought before your fund did. Your fund paid the higher price.
+- One account made about ₹14.5 crore. The brokers who set up the terminal were fined ₹10 lakh each. A remote-desktop app was the whole heist.
 
 ### How hot it is
-- trends.py 'LTCG tax': RISING, 61 of 94 news items this week landed today (65%); YouTube 4 videos, 122,724 views, best 2,241/hr. 'LTCG foreign investors': COLD on news phrasing, YouTube best 868/hr (Shankar Sharma on LTCG, 41,660 in 48 h).
-- vidIQ YouTube (IN, since 1 Nov): Enrichwise 'NO LTCG TAX: SEBI's proposal' 12,188 views (2.2× usual); NDTV Profit 9,979; Business Today 3,282; CNBC Awaaz 1,630. No Instagram or TikTok outlier on it yet.
+- Deep lane: no momentum. vidIQ Instagram/TikTok outliers since 1 Aug on 'mutual fund front running': none on this case; the nearest MF reel is @abhishekkarofficial on SEBI's default-plan ruling (601K, 7×).
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [Enrichwise, Kapil Jain (YouTube Short)](https://www.youtube.com/watch?v=S-eqtNEKJYk) | 81 s explainer: SEBI's two proposals and what they mean for HNI portfolios; 'it's still a proposal' | 12,188 | 2.2× usual | 2 Nov |
-| [NDTV Profit (YouTube)](https://www.youtube.com/watch?v=E3TRj9O2830) | 3:50 news segment: 'Big relief for foreign investors soon? SEBI wants LTCG scrapped for FPIs: sources' | 9,979 | about usual | 2 Nov |
-| [Investing with Harsh & Apoorva (YouTube)](https://www.youtube.com/watch?v=cR1cz7AMx2M) | Asks viewers to vote: LTCG gone for everyone, only for foreigners, or nothing changes | 917 | 1.3× usual | 2 Nov |
+| [@abhishekkarofficial (Instagram)](https://www.instagram.com/reel/DfEjsvqs95i) | Adjacent: 'Ab mutual fund industry hilegi!' on a SEBI mutual fund ruling, talking head | 601K | 7× usual | 29 Oct |
+| [@think.bits (TikTok)](https://www.tiktok.com/@think.bits/video/7687248045745917206) | Adjacent: split screen with Amitabh Bachchan on top, 'Is photo pe zoom karo', a famous name's tax case explained from documents | 990K | 13× usual | 19 Sep |
 
-_Covered so far as 'relief for investors' by news channels and advisers, under 13K views each. Missing: the unfairness, that the proposal cuts the tax for foreigners and not for the Indian retail investor who kept buying while they sold._
+_Nobody has made this order. The famous-scandal-from-documents shape (think.bits, our eMudhra reel) is the template. Missing: how front-running costs an ordinary SIP investor, told with the AnyDesk detail._
 
 ### Facts and sources
-- SEBI proposal (FPIs 0% LTCG; MF switches after a year not a sale); non-binding; record $31 bn FPI selling in 2026; Nifty -4.8% in two years vs MSCI EM +40%; IIFL +2.3 pp. — [The Federal, citing Reuters, 2 Nov 2026, 15:46 IST](https://thefederal.com/category/business/sebi-seeks-125-per-cent-ltcg-tax-exemptions-fpis-mutual-fund-261571)
+- Order of 3 Nov 2026: investigation period 1 Apr 2021-31 Mar 2022; Viresh Joshi, chief dealer of Axis MF, named as information provider in the investigation findings; ODIN installed in Dubai via AnyDesk by the brokers' IT staff; Visa Capital Partners account profit about ₹14.50 crore (director's statement); ₹14,09,35,492 impounded by the interim order of 28 Feb 2023; final order in the main matter 24 Jul 2026; penalties ₹10 lakh each on Noticees 1, 2, 7 and 8; others disposed of without penalty. — [SEBI adjudication order, 3 Nov 2026 (PDF)](https://www.sebi.gov.in/enforcement/orders/nov-2026/adjudication-order-in-the-matter-of-front-running-of-the-trades-of-axis-mutual-fund_105574.html)
 
 ### Watch out
-- It is a recommendation reported by Reuters from sources, not a decision; SEBI has not published it. Say 'SEBI has reportedly proposed' and 'the government decides in the Budget'.
-- Business Standard's own article (2 Nov) was paywalled (403); the numbers come from The Federal's write-up of the Reuters report. I couldn't open Reuters' original.
-- Humour on the system, not the viewer; no buy or sell; no claim about what the Budget will do.
-- Not a household name: the opener needs the number (0% vs 12.5%) and the SEBI logo. Credit Reuters in the caption.
-- Bets: B1, B3 (the 0% vs 12.5% line is the one people forward), B4 (SEBI logo with '0% vs 12.5%' on top).
+- Most of the scheme is allegation as recorded in this order; the proven part here is the penalty on the brokers for facilitating it. Say 'SEBI says' or 'according to SEBI's order', and don't call Joshi guilty from this order alone.
+- No call on Axis MF funds (no 'exit your Axis fund').
+- Real names and the Axis Mutual Fund logo are fine (hard rule 4); no invented words.
+- Bets: B1, B3, B4 (the Axis Mutual Fund logo with '₹14.5 crore vs ₹10 lakh' on top).
 
 ## Stories we're tracking
 
@@ -140,29 +138,29 @@ Full board: research/desk/TRACKER.md
 
 | Story | Now | Direction | Day | Status |
 |---|---|---|---|---|
-| Mutual funds halt new gold FoF SIPs and bulk gold ETF buys (`gold-fund-halt`) | FLAT | rising | 19 | active |
-| Groww's F&O share of revenue falls to 45%; turns to IPOs and wealth (via The Arc) (`groww-derivatives-arc`) | COLD | steady | 17 | active |
-| Silver -46% from January record (₹3,84,632 → ₹2,08,380/kg) before Dhanteras (`silver-crash-46`) | HOT | rising | 14 | active |
-| Urban Company loss triples on InstaHelp: ₹114 booking, ₹279 loss (via The Morning Context) (`urban-company-instahelp`) | COLD | fading | 14 | active |
-| NSE unlisted buyers below IPO price (The Ken) (`nse-unlisted-regret-ken`) | FLAT | rising | 11 | active |
-| Jio's prepaid (77% of revenue) sold only via Reliance Retail (via The Ken) (`jio-reliance-retail-ken`) | COLD | fading | 10 | active |
-| Gold ₹38,000 below January peak, ₹5,560/10g down in 3 days, before Dhanteras (`gold-dhanteras-fall`) | HOT | rising | 9 | active |
-| HDFC Bank's first outside CEO starts; share ~30% down in a year (via The Morning Context) (`hdfc-bank-bagchi`) | FLAT | fading | 8 | active |
-| Jewellery makers' IPO wave: money goes to gold and debt (via The Ken) (`jewellery-ipo-ken`) | COLD | rising | 7 | active |
-| Anthropic S-1: $16.3 bn H1 revenue, $80.7 bn loss ($72.4 bn paper charge) (`anthropic-s1`) | HOT | rising | 6 | active |
-| LTCG tax-cut debate: ₹1.29 lakh crore a year; The Ken says don't cut (`ltcg-cut-debate`) | RISING | rising | 6 | active |
-| Equitas SFB: record profit, CEO quits over daughter's NBFC, 20% lower circuit (`equitas-ceo-exit`) | FLAT | rising | 5 | active |
-| 773 government sites still serving eMudhra's revoked certificates (via The Ken) (`emudhra-gov-sites`) | COLD | fading | 5 | active |
-| Ola Electric rights issue: founder pledges shares to buy in, SoftBank sells (`ola-rights-pledge`) | COLD | fading | 4 | active |
-| IDBI sale: Fairfax bid opened, then ₹94.42 floor discarded; sold at ₹81 (via BusinessWorld) (`idbi-note-reserve`) | COLD | steady | 3 | active |
-| Binance $6.3 bn hack: users don't pay; WazirX users did (`binance-hack-wazirx`) | HOT | new | 2 | active |
-| SEBI order on EKI Energy: ₹197 cr revenue early, ₹88 lakh fines (`eki-sebi-order`) | COLD | new | 2 | active |
-| Reliance +12% record day, $19 bn added; Jio stake at 80% discount (`reliance-record-day`) | - | new | 1 | active |
+| Mutual funds halt new gold FoF SIPs and bulk gold ETF buys (`gold-fund-halt`) | FLAT | rising | 20 | active |
+| Groww's F&O share of revenue falls to 45%; turns to IPOs and wealth (via The Arc) (`groww-derivatives-arc`) | HOT | rising | 18 | active |
+| Silver -46% from January record (₹3,84,632 → ₹2,08,380/kg) before Dhanteras (`silver-crash-46`) | HOT | rising | 15 | active |
+| NSE unlisted buyers below IPO price (The Ken) (`nse-unlisted-regret-ken`) | FLAT | steady | 12 | active |
+| Jio's prepaid (77% of revenue) sold only via Reliance Retail (via The Ken) (`jio-reliance-retail-ken`) | COLD | fading | 11 | active |
+| Gold ₹38,000 below January peak, ₹5,560/10g down in 3 days, before Dhanteras (`gold-dhanteras-fall`) | HOT | steady | 10 | active |
+| Jewellery makers' IPO wave: money goes to gold and debt (via The Ken) (`jewellery-ipo-ken`) | COLD | steady | 8 | active |
+| Anthropic S-1: $16.3 bn H1 revenue, $80.7 bn loss ($72.4 bn paper charge) (`anthropic-s1`) | HOT | steady | 7 | active |
+| LTCG tax-cut debate: ₹1.29 lakh crore a year; The Ken says don't cut (`ltcg-cut-debate`) | HOT | rising | 7 | active |
+| Equitas SFB: record profit, CEO quits over daughter's NBFC, 20% lower circuit (`equitas-ceo-exit`) | COLD | fading | 6 | active |
+| 773 government sites still serving eMudhra's revoked certificates (via The Ken) (`emudhra-gov-sites`) | COLD | rising | 6 | active |
+| Ola Electric rights issue: founder pledges shares to buy in, SoftBank sells (`ola-rights-pledge`) | COLD | steady | 5 | active |
+| IDBI sale: Fairfax bid opened, then ₹94.42 floor discarded; sold at ₹81 (via BusinessWorld) (`idbi-note-reserve`) | HOT | rising | 4 | active |
+| Binance $6.3 bn hack: users don't pay; WazirX users did (`binance-hack-wazirx`) | RISING | fading | 3 | active |
+| SEBI order on EKI Energy: ₹197 cr revenue early, ₹88 lakh fines (`eki-sebi-order`) | COLD | steady | 3 | active |
+| Reliance +12% record day, $19 bn added; Jio stake at 80% discount (`reliance-record-day`) | HOT | new | 2 | active |
+| Axis MF front-running: Dubai AnyDesk trades, brokers fined ₹10 lakh each (`axis-mf-frontrun`) | - | new | 1 | active |
 
 ## Also on the wire
-- Also seen, not used: Darius Khambata quit Tata Trusts, saying Tata Sons' reputation has been sullied (Moneylife headline, 3 Nov; couldn't open it; Tata Trusts rift is long-running and COLD on trends); The Ken: PhonePe's trading app lost 40% of active users since March 2025 (2 Nov, paywalled, COLD); The Morning Context on small-cap funds' churn and IPO bets (2 Nov); CDSL fined ₹1 crore for compliance and cybersecurity lapses (Moneylife, 2 Nov); Vodafone Idea in Google's trending searches (CCI cleared Xavier Niel's stake in Vodafone Group; shares +1.6%, small).
-- Markets: Sensex +1,233 to 75,692.78 and Nifty +387.70 to 23,440.80 on Mon 2 Nov, a third straight day up, on easing crude (about $108) and Reliance (Upstox). Infosys was the top Nifty loser (-2.03%). Muhurat trading Sun 8 Nov.
-- Tracked stories not in today's three: Anthropic S-1 (HOT, 56 of 100 news items today; ride-now #1 since Monday; still waiting on the script), Binance hack (HOT, saturated), silver crash (HOT on YouTube; folded into gold as context).
+- Markets: Sensex +1,225.07 to 76,917.85 and Nifty +370.05 to 23,810.85 on Tue 3 Nov, a fourth straight day up, on FMCG, crude near $105 and FII buying (₹3,114.68 crore on Monday); NSE firms added about ₹4.71 lakh crore. SBI's Q2 profit +14.28% to ₹23,037.95 crore, yet SBI fell 1.7%. Trident +13% on a 93% profit jump; defence shipbuilders up to 9% on a ₹32,000 crore Navy order (Upstox).
+- Also seen, not used: The Ken, 'HDFC, Kotak banks find out what happens when AI goes rogue' (3 Nov; paywalled, single source, the incidents can't be verified from open pages); SBI Research's five proposed LTCG changes (2 Nov; folds into the LTCG story); NSE IX launches 23.5-hour trading; Coal India filed to list South Eastern Coalfields (10% OFS); US midterm elections today.
+- Tracked stories not in today's three: LTCG debate (HOT, rising: 'FII ko LTCG se mukti?' Short at 104,882 views in 24 h), Reliance's record day (HOT, sent yesterday, no script yet), silver crash (HOT on YouTube; folded into gold), IDBI (HOT on YouTube), Binance hack (RISING, fading). Urban Company and HDFC Bank's Bagchi retired today (cold).
+- Tool changes: Higgsfield keys aren't set on this cloud machine, so the model_live.py price check was skipped today.
 
 ## Where we stand
 
