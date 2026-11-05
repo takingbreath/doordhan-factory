@@ -50,7 +50,7 @@ Stage 1 targets are live in the block below. Stages 2 and 3 are the plan after t
 
 ## The book and where we stand
 <!-- scoreboard -->
-_Updated 2026-11-04 21:41 IST by `scoreboard.py write`._
+_Updated 2026-11-05 21:43 IST by `scoreboard.py write`._
 
 **Stage 2: Make it travel** (2026-10-26 to 2026-11-15): reels that get forwarded and reach well beyond our followers
 
@@ -210,3 +210,4 @@ _Written by the strategist every Sunday. The morning session executes it: each s
   - vidIQ credits this week: 45 of 60 (nightly cross-checks 35, profile 5, outliers 5).
 - 2026-11-03 (nightly): Quiet. No new reel since EPFO (30 Oct), four days with nothing posted. Every reel within 0–5 plays of its last reading (Starlink vs Jio 15,150, flat after its second wave; Anthropic God share 12,585; X5 463, X4 143, both EPFO copies still live), so no public reading logged. vidIQ owner insights unavailable for a 26th night ('Meta token is inactive'; the account list says active), so no bets judged. No stop or target hit; all bets HOLD, split-screen opener still waiting for its first reel. vidIQ credits this week: 10 of 60.
 - 2026-11-04 (nightly): Quiet. No new reel since EPFO (30 Oct), five days with nothing posted; the gold-before-Dhanteras story (due by Thu 5 Nov per the plan) is at script review. Every reel within 0–6 plays of its last reading (Starlink vs Jio 15,150; Anthropic God share 12,587; X5 464, X4 143), so no public reading logged. vidIQ owner insights unavailable for a 27th night ('Meta token is inactive'; the account list says active), so no bets judged. No stop or target hit; all bets HOLD, split-screen opener still waiting for its first reel. vidIQ credits this week: 15 of 60.
+- 2026-11-05 (nightly): Quiet. No new reel since EPFO (30 Oct), six days with nothing posted; the gold-before-Dhanteras story (due today per the plan; Dhanteras is tomorrow) is still at script review, and the desk made it today's pick again. Every reel within 0–1 plays of its last reading (Starlink vs Jio 15,150; Anthropic God share 12,587; X5 465, X4 143), so no public reading logged. vidIQ owner insights unavailable for a 28th night (connected_accounts now reports 'token_inactive', public fallback only), so no bets judged. No stop or target hit; all bets HOLD, split-screen opener still waiting for its first reel. vidIQ credits this week: 20 of 60.
