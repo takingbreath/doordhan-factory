@@ -3134,6 +3134,18 @@
      "yt_best_vph": 6272,
      "yt_top": "FD vs Mutual Fund vs Gold ETF: 2026 में कहाँ निवेश करना समझदारी? | पूर (301,051 views in 48h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-07",
+     "label": "HOT",
+     "news_1d": 13,
+     "news_7d": 29,
+     "momentum_pct": 45,
+     "yt_week_videos": 16,
+     "yt_week_views": 450134,
+     "yt_best_vph": 4340,
+     "yt_top": "FD vs Mutual Fund vs Gold ETF: 2026 में कहाँ निवेश करना समझदारी? | पूर (312,465 views in 72h)",
+     "google_trending": []
     }
    ]
   },
@@ -3967,6 +3979,18 @@
      "yt_best_vph": 1636,
      "yt_top": "Smart Money is Quietly Buying these 5 Stocks (39,271 views in 24h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-07",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 10,
+     "yt_week_views": 328928,
+     "yt_best_vph": 1128,
+     "yt_top": "How to Build a Trading Strategy Using Claude AI (Step-by-Step) (162,474 views in 144h)",
+     "google_trending": []
     }
    ]
   },
@@ -4446,6 +4470,18 @@
      "yt_week_views": 1348033,
      "yt_best_vph": 2516,
      "yt_top": "Dealer Reveals How STACKERS Responded to the SILVER PRICE CRASH (181,167 views in 72h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-11-07",
+     "label": "COLD",
+     "news_1d": 1,
+     "news_7d": 7,
+     "momentum_pct": 14,
+     "yt_week_videos": 14,
+     "yt_week_views": 955164,
+     "yt_best_vph": 1940,
+     "yt_top": "Gold & Silver Prices CRASH During a Coin Show! (46,556 views in 24h)",
      "google_trending": []
     }
    ]
@@ -5122,6 +5158,18 @@
      "yt_best_vph": 1445,
      "yt_top": "NSE Share: कमाई में उछाल, खर्च में भारी गिरावट! जानिए 23.5 घंटे ट्रेडि (34,671 views in 24h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-07",
+     "label": "COLD",
+     "news_1d": 4,
+     "news_7d": 8,
+     "momentum_pct": 50,
+     "yt_week_videos": 17,
+     "yt_week_views": 203218,
+     "yt_best_vph": 833,
+     "yt_top": "NSE Share: कमाई में उछाल, खर्च में भारी गिरावट! जानिए 23.5 घंटे ट्रेडि (39,979 views in 48h)",
+     "google_trending": []
     }
    ]
   },
@@ -5686,7 +5734,7 @@
    "first_seen": "2026-10-28",
    "lane": "deep",
    "window_until": "2026-11-06",
-   "status": "active",
+   "status": "retired",
    "notes": [
     "sent 28 Oct; 8 mainboard IPOs in 2026; Deepa 86% of fresh issue to inventory"
    ],
@@ -5802,8 +5850,24 @@
      "yt_best_vph": 189,
      "yt_top": "BLS IPO Allotment Out | SFC IPO | MK Jewels IPO Allotment | Upcoming I (27,189 views in 144h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-07",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 2,
+     "momentum_pct": 0,
+     "yt_week_videos": 12,
+     "yt_week_views": 28092,
+     "yt_best_vph": 74,
+     "yt_top": "MK Sons Fine Jewels IPO Listing Day Strategy I M K Sons Fine Jewels IP (5,326 views in 72h)",
+     "google_trending": []
     }
-   ]
+   ],
+   "retired": {
+    "date": "2026-11-07",
+    "reason": "past its window"
+   }
   },
   {
    "id": "anthropic-s1",
@@ -5923,6 +5987,18 @@
      "yt_best_vph": 2823,
      "yt_top": "Anthropic IPO: The Con Of The Century (271,018 views in 96h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-07",
+     "label": "RISING",
+     "news_1d": 97,
+     "news_7d": 100,
+     "momentum_pct": 97,
+     "yt_week_videos": 13,
+     "yt_week_views": 515559,
+     "yt_best_vph": 2319,
+     "yt_top": "Anthropic IPO: The Con Of The Century (278,328 views in 120h)",
+     "google_trending": []
     }
    ]
   },
@@ -6040,6 +6116,18 @@
      "yt_best_vph": 4497,
      "yt_top": "LTCG STT TAX REMOVAL BREAKING NEWS | NO LTCG Tax After 3 Years, STT Hi (107,935 views in 24h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-07",
+     "label": "FLAT",
+     "news_1d": 17,
+     "news_7d": 100,
+     "momentum_pct": 17,
+     "yt_week_videos": 18,
+     "yt_week_views": 516220,
+     "yt_best_vph": 2281,
+     "yt_top": "LTCG STT TAX REMOVAL BREAKING NEWS | NO LTCG Tax After 3 Years, STT Hi (109,504 views in 48h)",
+     "google_trending": []
     }
    ]
   },
@@ -6050,7 +6138,7 @@
    "first_seen": "2026-10-30",
    "lane": "hot",
    "window_until": "2026-11-06",
-   "status": "active",
+   "status": "retired",
    "notes": [
     "desk 30 Oct",
     "2026-10-30: record profit, −20% lower circuit, CEO quits"
@@ -6143,8 +6231,24 @@
      "yt_best_vph": 127,
      "yt_top": "PN Vasudevan Breaks Silence On Equitas Bank Exit | Governance And Succ (18,334 views in 144h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-07",
+     "label": "FLAT",
+     "news_1d": 10,
+     "news_7d": 47,
+     "momentum_pct": 21,
+     "yt_week_videos": 17,
+     "yt_week_views": 63640,
+     "yt_best_vph": 302,
+     "yt_top": "Equitas SFB CEO Vasudevan quits | HDFC, Kotak, Axis, एक के बाद एक बैंक (36,249 views in 120h)",
+     "google_trending": []
     }
-   ]
+   ],
+   "retired": {
+    "date": "2026-11-07",
+    "reason": "past its window"
+   }
   },
   {
    "id": "emudhra-gov-sites",
@@ -6245,6 +6349,18 @@
      "yt_week_views": 7307,
      "yt_best_vph": 144,
      "yt_top": "你知道嗎？TWCA 六天要換 9,772 張憑證：用古代門衛看懂網站憑證 (3,452 views in 24h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-11-07",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 17,
+     "yt_week_views": 8058,
+     "yt_best_vph": 78,
+     "yt_top": "你知道嗎？TWCA 六天要換 9,772 張憑證：用古代門衛看懂網站憑證 (3,727 views in 48h)",
      "google_trending": []
     }
    ]
@@ -6384,6 +6500,18 @@
      "yt_best_vph": 365,
      "yt_top": "Ola Electric. OLAPP लिस्टिंग डेट आ गया? Ola electric share news.  ola  (8,755 views in 24h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-07",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 1,
+     "momentum_pct": 0,
+     "yt_week_videos": 18,
+     "yt_week_views": 113369,
+     "yt_best_vph": 201,
+     "yt_top": "Ola Electric. OLAPP लिस्टिंग डेट आ गया? Ola electric share news.  ola  (9,637 views in 48h)",
+     "google_trending": []
     }
    ]
   },
@@ -6463,6 +6591,18 @@
      "yt_best_vph": 10611,
      "yt_top": "Case study idbi bank #casestudy #money #viralvideo #trending #trending (254,653 views in 24h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-07",
+     "label": "HOT",
+     "news_1d": 0,
+     "news_7d": 2,
+     "momentum_pct": 0,
+     "yt_week_videos": 16,
+     "yt_week_views": 819427,
+     "yt_best_vph": 8173,
+     "yt_top": "Case study idbi bank #casestudy #money #viralvideo #trending #trending (392,319 views in 48h)",
+     "google_trending": []
     }
    ]
   },
@@ -6529,6 +6669,18 @@
      "yt_best_vph": 15552,
      "yt_top": "How Binance Lost $6,300,000,000 in One Night (2,239,446 views in 144h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-07",
+     "label": "HOT",
+     "news_1d": 45,
+     "news_7d": 100,
+     "momentum_pct": 45,
+     "yt_week_videos": 15,
+     "yt_week_views": 622678,
+     "yt_best_vph": 8849,
+     "yt_top": "BINANCE DIBOBOL! RP113 TRILIUN RAIB DALAM 20 MENIT! JUTAAN PENJUDI KRI (212,378 views in 24h)",
+     "google_trending": []
     }
    ]
   },
@@ -6594,6 +6746,18 @@
      "yt_week_views": 35104,
      "yt_best_vph": 287,
      "yt_top": "Full Video Veteran Zhao Yun Rescues Ducklings and a Dog, Building a Ho (20,662 views in 72h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-11-07",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 1,
+     "momentum_pct": 0,
+     "yt_week_videos": 9,
+     "yt_week_views": 86953,
+     "yt_best_vph": 405,
+     "yt_top": "🔔 The Bell in the Fog and Other Stories ✨📚 (48,583 views in 120h)",
      "google_trending": []
     }
    ]
@@ -6695,6 +6859,18 @@
      "yt_best_vph": 5570,
      "yt_top": "If UPI Is Free, Who Pays for It? | PhonePe, Razorpay & NPCI | WTF is P (802,073 views in 144h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-07",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 2,
+     "momentum_pct": 0,
+     "yt_week_videos": 14,
+     "yt_week_views": 60648,
+     "yt_best_vph": 993,
+     "yt_top": "¡Vuelvo a 2004! Salvo a mi familia de la quiebra y creo un imperio emp (47,672 views in 48h)",
+     "google_trending": []
     }
    ]
   },
@@ -6708,7 +6884,8 @@
    "status": "active",
    "notes": [
     "sent 5 Nov, 9/10",
-    "2026-11-06: DriveWealth blames Stockal interface; Bengaluru complaint"
+    "2026-11-06: DriveWealth blames Stockal interface; Bengaluru complaint",
+    "2026-11-07: police summon executives (headline)"
    ],
    "readings": [
     {
@@ -6727,6 +6904,19 @@
      "yt_top": "This AI Stock Crash is a Gift. Here's How I'm Investing. (151,815 views in 24h)",
      "google_trending": [],
      "desk_score": 8.0
+    },
+    {
+     "date": "2026-11-07",
+     "label": "HOT",
+     "news_1d": 9,
+     "news_7d": 72,
+     "momentum_pct": 12,
+     "yt_week_videos": 14,
+     "yt_week_views": 1525290,
+     "yt_best_vph": 32561,
+     "yt_top": "Panic ERUPTS Over Tech Stock Drop (781,459 views in 24h)",
+     "google_trending": [],
+     "desk_score": 8.0
     }
    ]
   },
@@ -6740,7 +6930,8 @@
    "status": "active",
    "notes": [
     "sent 5 Nov, 8/10",
-    "2026-11-06: rally halved the loss to ~-6%"
+    "2026-11-06: rally halved the loss to ~-6%",
+    "2026-11-07: best week since Feb 2021; Samvat loss now about -4%"
    ],
    "readings": [
     {
@@ -6757,6 +6948,19 @@
      "yt_week_views": 255849,
      "yt_best_vph": 2175,
      "yt_top": "Stock Brokerages Are Betting On These 10 Stocks This Diwali | Samvat 2 (156,618 views in 72h)",
+     "google_trending": [],
+     "desk_score": 8.0
+    },
+    {
+     "date": "2026-11-07",
+     "label": "RISING",
+     "news_1d": 35,
+     "news_7d": 100,
+     "momentum_pct": 35,
+     "yt_week_videos": 11,
+     "yt_week_views": 398993,
+     "yt_best_vph": 2305,
+     "yt_top": "Vikas Khemani’s Samvat 2083 Outlook: “Build This Vintage, It Won’t Com (55,316 views in 24h)",
      "google_trending": [],
      "desk_score": 8.0
     }
@@ -6776,6 +6980,37 @@
    "readings": [
     {
      "date": "2026-11-06",
+     "desk_score": 9.0
+    },
+    {
+     "date": "2026-11-07",
+     "label": "HOT",
+     "news_1d": 9,
+     "news_7d": 14,
+     "momentum_pct": 64,
+     "yt_week_videos": 8,
+     "yt_week_views": 787862,
+     "yt_best_vph": 8696,
+     "yt_top": "Stock Market Crash! AI Bubble Has Burst As Investors Panic, Buy Signal (208,698 views in 24h)",
+     "google_trending": []
+    }
+   ]
+  },
+  {
+   "id": "videocon-dhoot-bankrupt",
+   "title": "Videocon's Venugopal Dhoot declared personally bankrupt over ₹12,668 crore SBI dues",
+   "query": "videocon dhoot|वीडियोकॉन धूत",
+   "first_seen": "2026-11-07",
+   "lane": "hot",
+   "window_until": "2026-11-10",
+   "status": "active",
+   "notes": [
+    "NCLT order 5 Nov; Google trending 7 Nov",
+    "2026-11-07: Google trending; no Hinglish short"
+   ],
+   "readings": [
+    {
+     "date": "2026-11-07",
      "desk_score": 9.0
     }
    ]

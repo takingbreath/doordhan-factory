@@ -1,6 +1,6 @@
 # Story tracker
 
-_Written 2026-11-06 by `pipeline/story_tracker.py md`. Data: registry/story_tracker.json._
+_Written 2026-11-07 by `pipeline/story_tracker.py md`. Data: registry/story_tracker.json._
 
 Every story the desk has sent stays here until it leaves the news cycle (COLD on two checks running, or past its window). Each morning `story_tracker.py check` measures them all again.
 
@@ -8,65 +8,66 @@ Label history reads oldest to newest: H hot, R rising, F flat, C cold.
 
 | Story | Status | Now | Direction | Day | History | News today/week | YouTube views this week | Best views/hr | Desk score | Window |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Mutual funds halt new gold FoF SIPs and bulk gold ETF buys (`gold-fund-halt`) | active | HOT | rising | 22 | H F F F F H H | 19/21 | 493,110 | 6,272 | 9 | 2026-11-08 |
-| Groww's F&O share of revenue falls to 45%; turns to IPOs and wealth (via The Arc) (`groww-derivatives-arc`) | active | COLD | steady | 20 | C C C C H C C | 0/0 | 331,303 | 1,636 | 7 | to about Fri 23 Oct |
-| Silver -46% from January record (₹3,84,632 → ₹2,08,380/kg) before Dhanteras (`silver-crash-46`) | active | FLAT | fading | 17 | H H H H H H F | 0/10 | 1,348,033 | 2,516 | 7 | 2026-11-08 |
-| NSE unlisted buyers below IPO price (The Ken) (`nse-unlisted-regret-ken`) | active | COLD | fading | 14 | H H C F F F C | 1/6 | 272,938 | 1,445 | 7 | 2026-11-07 |
-| Jewellery makers' IPO wave: money goes to gold and debt (via The Ken) (`jewellery-ipo-ken`) | active | COLD | steady | 10 | C C C C C C C | 0/1 | 107,966 | 189 | 5 | 2026-11-06 |
-| Anthropic S-1: $16.3 bn H1 revenue, $80.7 bn loss ($72.4 bn paper charge) (`anthropic-s1`) | active | RISING | rising | 9 | H H H H H F R | 51/100 | 701,335 | 2,823 | 9 | 2026-11-20 |
-| LTCG tax-cut debate: ₹1.29 lakh crore a year; The Ken says don't cut (`ltcg-cut-debate`) | active | HOT | rising | 9 | F F F R H H H | 11/100 | 773,006 | 4,497 | 8 | 2026-11-12 |
-| Equitas SFB: record profit, CEO quits over daughter's NBFC, 20% lower circuit (`equitas-ceo-exit`) | active | FLAT | fading | 8 | R F F F C F F | 10/55 | 55,583 | 127 | 8 | 2026-11-06 |
-| 773 government sites still serving eMudhra's revoked certificates (via The Ken) (`emudhra-gov-sites`) | active | COLD | rising | 8 | C C C C C C C | 0/0 | 7,307 | 144 | 5 | 2026-11-13 |
-| Ola Electric rights issue: founder pledges shares to buy in, SoftBank sells (`ola-rights-pledge`) | active | COLD | steady | 7 | C C C C C C | -/- | 122,320 | 365 | 7 | 2026-11-07 |
-| IDBI sale: Fairfax bid opened, then ₹94.42 floor discarded; sold at ₹81 (via BusinessWorld) (`idbi-note-reserve`) | active | HOT | rising | 6 | C C H C H | 1/6 | 725,706 | 10,611 | 7 | 2026-11-08 |
-| Binance $6.3 bn hack: users don't pay; WazirX users did (`binance-hack-wazirx`) | active | RISING | steady | 5 | H R R R | 74/100 | 3,570,716 | 15,552 | 9 | 2026-11-07 |
-| SEBI order on EKI Energy: ₹197 cr revenue early, ₹88 lakh fines (`eki-sebi-order`) | active | COLD | fading | 5 | C C C C | 0/1 | 35,104 | 287 | 6 | 2026-11-08 |
-| Axis MF front-running: Dubai AnyDesk trades, brokers fined ₹10 lakh each (`axis-mf-frontrun`) | active | COLD | steady | 3 | C C | 0/2 | 854,103 | 5,570 | 7 | 2026-11-17 |
-| Stockal: US shares sold without consent, swapped for Chinese microcaps; ₹100 cr+ alleged (`stockal-unauthorised-trades`) | active | HOT | new | 2 | H | 12/62 | 298,937 | 6,326 | 8 | 2026-11-12 |
-| Samvat 2082: Sensex -11.9%, Nifty -11%, worst in 15 years (`samvat-2082-worst`) | active | RISING | new | 2 | R | 49/100 | 255,849 | 2,175 | 8 | 2026-11-08 |
-| AI trade cracks: Nvidia -$450 bn, Nasdaq -5.5%; FIIs buy ₹14,975 cr of India the same day (`ai-crash-india-inflow`) | active | - | new | 1 |  | -/- | 0 | 0 | 9 | 2026-11-08 |
-| Jio Platforms IPO (`jio-ipo`) | retired: past its window | FLAT | rising | 30 | H H H H H F F | 23/100 | 2,342,949 | 4,935 | 8 | 2026-11-02 |
-| Ramayana producer's Prime Focus searched by Income Tax (`prime-focus-ramayana`) | retired: COLD on 2 checks running | COLD | steady | 30 | H H H H C C | 0/0 | 1,056,196 | 7,548 | 8 | 2026-11-10 |
-| International ETFs trading far above NAV (NSE warning) (`intl-etf-premium`) | retired: past its window | COLD | fading | 30 | C C C H H H C | 0/- | 438,146 | 4,086 | 6 | 2026-10-22 |
-| EPF wage ceiling raised to ₹25,000 (`epf-wage-ceiling`) | retired: COLD on 2 checks running | COLD | fading | 30 | F F C C | 0/7 | 20,051 | 152 | - | - |
-| Snapdeal (AceVector) after listing (`snapdeal-acevector`) | retired (E8): COLD on 2 checks running | COLD | steady | 30 | C C | 0/1 | 100,780 | 770 | - | - |
-| Nana Patekar dies; the Rs 1.5 crore car he gave up for farmers (`nana-patekar`) | retired (E10): past its window | HOT | rising | 30 | R H H H | 100/100 | 27,305,534 | 110,559 | 7 | 2026-10-11 |
-| Sensex -1,045 on 8 Oct: ₹10.23 lakh crore wiped off (`market-crash-oct8`) | retired: past its window | HOT | rising | 29 | H H C H | 9/17 | 3,239,882 | 14,656 | 9 | 2026-10-12 |
-| TCS: profit +15%, share -35% in 2026 (`tcs-q2-profit-share`) | retired: past its window | HOT | rising | 29 | H F F F F H | 7/48 | 464,093 | 10,346 | 8 | 2026-10-14 |
-| SC orders panel on pharma freebies to doctors (`pharma-freebies-sc`) | retired: past its window | COLD | fading | 29 | H H H C C C C | 0/0 | 445,730 | 1,054 | 6 | 2026-10-23 |
-| UPI merchant fee (0.4% MDR) may be deferred to 1 Jan (`upi-mdr-deferral`) | retired: past its window | HOT | rising | 28 | H F H H H H H | 2/41 | 910,815 | 4,784 | 6 | 2026-10-16 |
-| Inox Clean: revenue 43X, debt 45X, IPO on hold (`inox-clean-ipo`) | retired: past its window | COLD | fading | 28 | H C C C C C C | 0/0 | 29,731 | 131 | 6 | 2026-10-24 |
-| Musk calls Ambani 'Prime Minister Ambani' over Starlink (`musk-ambani-starlink`) | retired: past its window | FLAT | fading | 27 | F F H H H H F | 1/10 | 4,347,306 | 14,666 | 8 | 2026-10-21 |
-| US suspends TCS, Infosys, Wipro from green-card PERM; IT shares rise (`us-perm-indian-it`) | retired: COLD on 2 checks running | COLD | steady | 27 | H C C | 0/1 | 1,195,114 | 3,721 | 8 | 2026-10-17 |
-| SC on hospital drug markups: Rs 2,700 drug sold at Rs 27,000 (`hospital-drug-markup-sc`) | retired: past its window | HOT | rising | 27 | H C C C C C H | 0/0 | 168,581 | 6,896 | 6 | 2026-10-25 |
-| HDFC Bank's new CEO ₹35.9 cr vs SBI chairman ₹43 lakh (`hdfc-ceo-pay-sbi`) | retired: COLD on 2 checks running | COLD | fading | 26 | C C | 0/1 | 8,051 | 55 | 9 | 2026-10-27 |
-| Gauahar Khan's Versova duplex: 88% in 12 years (`gauahar-khan-flat`) | retired: past its window | COLD | fading | 26 | C C H C C C C | 0/0 | 0 | 0 | 6 | 2026-10-26 |
-| Kohli and Anushka's ₹44 crore: three Versova flats, ready 2031 (`kohli-anushka-versova-flats`) | retired: COLD on 2 checks running | COLD | fading | 25 | C C | 0/0 | 598 | 25 | 8 | 2026-10-20 |
-| Rupee near ₹97: RBI hike, then four emergency measures (`rbi-rupee-rescue`) | retired: COLD on 2 checks running | COLD | rising | 25 | H H H C C | 0/9 | 1,516,191 | 14,931 | 7 | 2026-10-20 |
-| Zoho freezes pay rises over AI and server costs (`zoho-pay-freeze`) | retired: COLD on 2 checks running | COLD | rising | 24 | H C C | 0/2 | 287,736 | 1,847 | 9 | 2026-10-20 |
-| Sensex +1,109 partly on FM's LTCG remark (`ltcg-remark-rally`) | retired: COLD on 2 checks running | COLD | fading | 24 | H H H H C C | 0/1 | 1,266,936 | 3,079 | 8 | 2026-10-20 |
-| Gold ₹3,600 cheaper in four sessions on a stronger rupee (`gold-slide-rupee`) | retired: past its window | RISING | rising | 23 | H R R F R | 31/85 | 175,924 | 2,637 | 8 | 2026-10-19 |
-| Airtel Money lists in London at $7 bn (via The Ken) (`airtel-money-london`) | retired: past its window | FLAT | steady | 23 | F F F R F F F | 6/40 | 222,173 | 1,254 | 6 | 2026-10-29 |
-| Yes Bank -14.5% after SC voids AT-1 write-off (`yes-bank-at1-sc`) | retired: past its window | FLAT | steady | 22 | R H F F F | 2/36 | 452,328 | 1,618 | 8 | 2026-10-20 |
-| Zetwerk IPO: 54% of Q1 revenue from metal sales (`zetwerk-ipo-metals`) | retired: past its window | FLAT | rising | 22 | F F R F F C F | 7/31 | 159,682 | 735 | 7 | 2026-10-23 |
-| IDBI Bank sold to Fairfax at ₹81 vs ₹90 market (`idbi-fairfax-sale`) | retired: COLD on 2 checks running | COLD | fading | 21 | H H H F H C C | 1/4 | 255,768 | 1,751 | 9 | 2026-10-24 |
-| ED raids WhatsApp 'Multibagger' pump-and-dump (RM Drip, R&B Denims) (`ed-whatsapp-multibagger`) | retired: COLD on 2 checks running | COLD | rising | 21 | C C | 0/3 | 230 | 5 | 7 | 2026-10-22 |
-| Insurance mis-selling complaints +14%; IRDAI crackdown may slip (via The Ken) (`insurance-misselling-ken`) | retired: past its window | COLD | steady | 21 | C C H C C C C | 0/2 | 36,261 | 278 | 6 | 2026-10-31 |
-| Green-card freeze 'bloodbath' reels, then Indian IT's best week since 2008 (`it-rally-green-card`) | retired: COLD on 2 checks running | COLD | steady | 20 | C H C C | 1/3 | 38,873 | 1,467 | 9 | to about Wed 21 Oct |
-| Expired food allegedly back on sale: FIR names Reliance, Blinkit directors (`expired-food-reliance-blinkit`) | retired: COLD on 2 checks running | COLD | rising | 20 | C C | 0/0 | 27,744 | 247 | 8 | to about Tue 20 Oct |
-| Axis Bank: profit +38%, shares -5% (base effect of last year's ₹1,231 cr provision) (`axis-bank-q2-fall`) | retired: past its window | RISING | rising | 18 | R R R R | 38/66 | 300,690 | 1,158 | 8 | 2026-10-23 |
-| Air India FY26 loss ₹22,238 cr (~₹61 cr a day); SIA as saviour (via The Ken) (`air-india-loss-ken`) | retired: past its window | COLD | rising | 18 | C C C H H C C | 0/0 | 827,897 | 2,207 | 6 | 2026-11-02 |
-| Urban Company loss triples on InstaHelp: ₹114 booking, ₹279 loss (via The Morning Context) (`urban-company-instahelp`) | retired: past its window | COLD | steady | 17 | C C C C H C C | 0/0 | 113,063 | 1,695 | 7 | 2026-11-03 |
-| eMudhra -20% lower circuit after its certificate keys turned out to be tiny numbers (one was 4) (`emudhra-key-4`) | retired: past its window | FLAT | rising | 16 | H H F F F F | 0/12 | 191,204 | 552 | 9 | 2026-10-27 |
-| Oil at $112: shares, gold and silver fell the same day (`oil-slide-everything`) | retired: past its window | HOT | rising | 15 | H H H H H C H | 0/3 | 1,107,504 | 8,878 | 8 | 2026-10-29 |
-| SEBI final order: Avadhut Sathe ₹546 cr refund (`avadhut-sathe-refund`) | retired: past its window | HOT | rising | 14 | R F H H H F H | 1/20 | 526,055 | 3,209 | 6 | 2026-10-30 |
-| Swiggy record low, less than half its IPO price; Instamart loss ₹895 cr (`swiggy-record-low`) | retired: past its window | FLAT | steady | 13 | F F F F | 0/32 | 170,029 | 627 | 9 | 2026-10-28 |
-| RBI Governor: upper-layer CICs like Tata Sons must list (`tata-sons-listing`) | retired: COLD on 2 checks running | COLD | steady | 13 | C C | 0/2 | 135,201 | 1,538 | 8 | 2026-11-08 |
-| Jio's prepaid (77% of revenue) sold only via Reliance Retail (via The Ken) (`jio-reliance-retail-ken`) | retired: past its window | HOT | rising | 13 | H C H C C C H | 0/1 | 513,481 | 13,105 | 8 | 2026-11-04 |
-| Gold ₹38,000 below January peak, ₹5,560/10g down in 3 days, before Dhanteras (`gold-dhanteras-fall`) | retired: COLD on 2 checks running | COLD | fading | 12 | H H H H H C C | 0/2 | 808,081 | 2,117 | 8 | 2026-11-06 |
-| HDFC Bank's first outside CEO starts; share ~30% down in a year (via The Morning Context) (`hdfc-bank-bagchi`) | retired: past its window | FLAT | rising | 11 | F F F F F F F | 5/19 | 64,397 | 517 | 8 | 2026-11-03 |
-| SEBI makes direct mutual fund plans the default on AMC apps from 1 Nov (`sebi-direct-default`) | retired: past its window | COLD | steady | 7 | C C | 0/0 | 28,685 | 213 | 7 | 2026-11-01 |
-| Reliance +12% record day, $19 bn added; Jio stake at 80% discount (`reliance-record-day`) | retired: past its window | FLAT | steady | 4 | H F F | 0/13 | 433,825 | 1,908 | 9 | 2026-11-05 |
+| Mutual funds halt new gold FoF SIPs and bulk gold ETF buys (`gold-fund-halt`) | active | HOT | steady | 23 | F F F F H H H | 13/29 | 450,134 | 4,340 | 9 | 2026-11-08 |
+| Groww's F&O share of revenue falls to 45%; turns to IPOs and wealth (via The Arc) (`groww-derivatives-arc`) | active | COLD | steady | 21 | C C C H C C C | 0/0 | 328,928 | 1,128 | 7 | to about Fri 23 Oct |
+| Silver -46% from January record (₹3,84,632 → ₹2,08,380/kg) before Dhanteras (`silver-crash-46`) | active | COLD | fading | 18 | H H H H H F C | 1/7 | 955,164 | 1,940 | 7 | 2026-11-08 |
+| NSE unlisted buyers below IPO price (The Ken) (`nse-unlisted-regret-ken`) | active | COLD | rising | 15 | H C F F F C C | 4/8 | 203,218 | 833 | 7 | 2026-11-07 |
+| Anthropic S-1: $16.3 bn H1 revenue, $80.7 bn loss ($72.4 bn paper charge) (`anthropic-s1`) | active | RISING | rising | 10 | H H H H F R R | 97/100 | 515,559 | 2,319 | 9 | 2026-11-20 |
+| LTCG tax-cut debate: ₹1.29 lakh crore a year; The Ken says don't cut (`ltcg-cut-debate`) | active | FLAT | fading | 10 | F F R H H H F | 17/100 | 516,220 | 2,281 | 8 | 2026-11-12 |
+| 773 government sites still serving eMudhra's revoked certificates (via The Ken) (`emudhra-gov-sites`) | active | COLD | steady | 9 | C C C C C C C | 0/0 | 8,058 | 78 | 5 | 2026-11-13 |
+| Ola Electric rights issue: founder pledges shares to buy in, SoftBank sells (`ola-rights-pledge`) | active | COLD | steady | 8 | C C C C C C C | 0/1 | 113,369 | 201 | 7 | 2026-11-07 |
+| IDBI sale: Fairfax bid opened, then ₹94.42 floor discarded; sold at ₹81 (via BusinessWorld) (`idbi-note-reserve`) | active | HOT | steady | 7 | C C H C H H | 0/2 | 819,427 | 8,173 | 7 | 2026-11-08 |
+| Binance $6.3 bn hack: users don't pay; WazirX users did (`binance-hack-wazirx`) | active | HOT | rising | 6 | H R R R H | 45/100 | 622,678 | 8,849 | 9 | 2026-11-07 |
+| SEBI order on EKI Energy: ₹197 cr revenue early, ₹88 lakh fines (`eki-sebi-order`) | active | COLD | rising | 6 | C C C C C | 0/1 | 86,953 | 405 | 6 | 2026-11-08 |
+| Axis MF front-running: Dubai AnyDesk trades, brokers fined ₹10 lakh each (`axis-mf-frontrun`) | active | COLD | fading | 4 | C C C | 0/2 | 60,648 | 993 | 7 | 2026-11-17 |
+| Stockal: US shares sold without consent, swapped for Chinese microcaps; ₹100 cr+ alleged (`stockal-unauthorised-trades`) | active | HOT | rising | 3 | H H | 9/72 | 1,525,290 | 32,561 | 8 | 2026-11-12 |
+| Samvat 2082: Sensex -11.9%, Nifty -11%, worst in 15 years (`samvat-2082-worst`) | active | RISING | rising | 3 | R R | 35/100 | 398,993 | 2,305 | 8 | 2026-11-08 |
+| AI trade cracks: Nvidia -$450 bn, Nasdaq -5.5%; FIIs buy ₹14,975 cr of India the same day (`ai-crash-india-inflow`) | active | HOT | new | 2 | H | 9/14 | 787,862 | 8,696 | 9 | 2026-11-08 |
+| Videocon's Venugopal Dhoot declared personally bankrupt over ₹12,668 crore SBI dues (`videocon-dhoot-bankrupt`) | active | - | new | 1 |  | -/- | 0 | 0 | 9 | 2026-11-10 |
+| Jio Platforms IPO (`jio-ipo`) | retired: past its window | FLAT | rising | 31 | H H H H H F F | 23/100 | 2,342,949 | 4,935 | 8 | 2026-11-02 |
+| Ramayana producer's Prime Focus searched by Income Tax (`prime-focus-ramayana`) | retired: COLD on 2 checks running | COLD | steady | 31 | H H H H C C | 0/0 | 1,056,196 | 7,548 | 8 | 2026-11-10 |
+| International ETFs trading far above NAV (NSE warning) (`intl-etf-premium`) | retired: past its window | COLD | fading | 31 | C C C H H H C | 0/- | 438,146 | 4,086 | 6 | 2026-10-22 |
+| EPF wage ceiling raised to ₹25,000 (`epf-wage-ceiling`) | retired: COLD on 2 checks running | COLD | fading | 31 | F F C C | 0/7 | 20,051 | 152 | - | - |
+| Snapdeal (AceVector) after listing (`snapdeal-acevector`) | retired (E8): COLD on 2 checks running | COLD | steady | 31 | C C | 0/1 | 100,780 | 770 | - | - |
+| Nana Patekar dies; the Rs 1.5 crore car he gave up for farmers (`nana-patekar`) | retired (E10): past its window | HOT | rising | 31 | R H H H | 100/100 | 27,305,534 | 110,559 | 7 | 2026-10-11 |
+| Sensex -1,045 on 8 Oct: ₹10.23 lakh crore wiped off (`market-crash-oct8`) | retired: past its window | HOT | rising | 30 | H H C H | 9/17 | 3,239,882 | 14,656 | 9 | 2026-10-12 |
+| TCS: profit +15%, share -35% in 2026 (`tcs-q2-profit-share`) | retired: past its window | HOT | rising | 30 | H F F F F H | 7/48 | 464,093 | 10,346 | 8 | 2026-10-14 |
+| SC orders panel on pharma freebies to doctors (`pharma-freebies-sc`) | retired: past its window | COLD | fading | 30 | H H H C C C C | 0/0 | 445,730 | 1,054 | 6 | 2026-10-23 |
+| UPI merchant fee (0.4% MDR) may be deferred to 1 Jan (`upi-mdr-deferral`) | retired: past its window | HOT | rising | 29 | H F H H H H H | 2/41 | 910,815 | 4,784 | 6 | 2026-10-16 |
+| Inox Clean: revenue 43X, debt 45X, IPO on hold (`inox-clean-ipo`) | retired: past its window | COLD | fading | 29 | H C C C C C C | 0/0 | 29,731 | 131 | 6 | 2026-10-24 |
+| Musk calls Ambani 'Prime Minister Ambani' over Starlink (`musk-ambani-starlink`) | retired: past its window | FLAT | fading | 28 | F F H H H H F | 1/10 | 4,347,306 | 14,666 | 8 | 2026-10-21 |
+| US suspends TCS, Infosys, Wipro from green-card PERM; IT shares rise (`us-perm-indian-it`) | retired: COLD on 2 checks running | COLD | steady | 28 | H C C | 0/1 | 1,195,114 | 3,721 | 8 | 2026-10-17 |
+| SC on hospital drug markups: Rs 2,700 drug sold at Rs 27,000 (`hospital-drug-markup-sc`) | retired: past its window | HOT | rising | 28 | H C C C C C H | 0/0 | 168,581 | 6,896 | 6 | 2026-10-25 |
+| HDFC Bank's new CEO ₹35.9 cr vs SBI chairman ₹43 lakh (`hdfc-ceo-pay-sbi`) | retired: COLD on 2 checks running | COLD | fading | 27 | C C | 0/1 | 8,051 | 55 | 9 | 2026-10-27 |
+| Gauahar Khan's Versova duplex: 88% in 12 years (`gauahar-khan-flat`) | retired: past its window | COLD | fading | 27 | C C H C C C C | 0/0 | 0 | 0 | 6 | 2026-10-26 |
+| Kohli and Anushka's ₹44 crore: three Versova flats, ready 2031 (`kohli-anushka-versova-flats`) | retired: COLD on 2 checks running | COLD | fading | 26 | C C | 0/0 | 598 | 25 | 8 | 2026-10-20 |
+| Rupee near ₹97: RBI hike, then four emergency measures (`rbi-rupee-rescue`) | retired: COLD on 2 checks running | COLD | rising | 26 | H H H C C | 0/9 | 1,516,191 | 14,931 | 7 | 2026-10-20 |
+| Zoho freezes pay rises over AI and server costs (`zoho-pay-freeze`) | retired: COLD on 2 checks running | COLD | rising | 25 | H C C | 0/2 | 287,736 | 1,847 | 9 | 2026-10-20 |
+| Sensex +1,109 partly on FM's LTCG remark (`ltcg-remark-rally`) | retired: COLD on 2 checks running | COLD | fading | 25 | H H H H C C | 0/1 | 1,266,936 | 3,079 | 8 | 2026-10-20 |
+| Gold ₹3,600 cheaper in four sessions on a stronger rupee (`gold-slide-rupee`) | retired: past its window | RISING | rising | 24 | H R R F R | 31/85 | 175,924 | 2,637 | 8 | 2026-10-19 |
+| Airtel Money lists in London at $7 bn (via The Ken) (`airtel-money-london`) | retired: past its window | FLAT | steady | 24 | F F F R F F F | 6/40 | 222,173 | 1,254 | 6 | 2026-10-29 |
+| Yes Bank -14.5% after SC voids AT-1 write-off (`yes-bank-at1-sc`) | retired: past its window | FLAT | steady | 23 | R H F F F | 2/36 | 452,328 | 1,618 | 8 | 2026-10-20 |
+| Zetwerk IPO: 54% of Q1 revenue from metal sales (`zetwerk-ipo-metals`) | retired: past its window | FLAT | rising | 23 | F F R F F C F | 7/31 | 159,682 | 735 | 7 | 2026-10-23 |
+| IDBI Bank sold to Fairfax at ₹81 vs ₹90 market (`idbi-fairfax-sale`) | retired: COLD on 2 checks running | COLD | fading | 22 | H H H F H C C | 1/4 | 255,768 | 1,751 | 9 | 2026-10-24 |
+| ED raids WhatsApp 'Multibagger' pump-and-dump (RM Drip, R&B Denims) (`ed-whatsapp-multibagger`) | retired: COLD on 2 checks running | COLD | rising | 22 | C C | 0/3 | 230 | 5 | 7 | 2026-10-22 |
+| Insurance mis-selling complaints +14%; IRDAI crackdown may slip (via The Ken) (`insurance-misselling-ken`) | retired: past its window | COLD | steady | 22 | C C H C C C C | 0/2 | 36,261 | 278 | 6 | 2026-10-31 |
+| Green-card freeze 'bloodbath' reels, then Indian IT's best week since 2008 (`it-rally-green-card`) | retired: COLD on 2 checks running | COLD | steady | 21 | C H C C | 1/3 | 38,873 | 1,467 | 9 | to about Wed 21 Oct |
+| Expired food allegedly back on sale: FIR names Reliance, Blinkit directors (`expired-food-reliance-blinkit`) | retired: COLD on 2 checks running | COLD | rising | 21 | C C | 0/0 | 27,744 | 247 | 8 | to about Tue 20 Oct |
+| Axis Bank: profit +38%, shares -5% (base effect of last year's ₹1,231 cr provision) (`axis-bank-q2-fall`) | retired: past its window | RISING | rising | 19 | R R R R | 38/66 | 300,690 | 1,158 | 8 | 2026-10-23 |
+| Air India FY26 loss ₹22,238 cr (~₹61 cr a day); SIA as saviour (via The Ken) (`air-india-loss-ken`) | retired: past its window | COLD | rising | 19 | C C C H H C C | 0/0 | 827,897 | 2,207 | 6 | 2026-11-02 |
+| Urban Company loss triples on InstaHelp: ₹114 booking, ₹279 loss (via The Morning Context) (`urban-company-instahelp`) | retired: past its window | COLD | steady | 18 | C C C C H C C | 0/0 | 113,063 | 1,695 | 7 | 2026-11-03 |
+| eMudhra -20% lower circuit after its certificate keys turned out to be tiny numbers (one was 4) (`emudhra-key-4`) | retired: past its window | FLAT | rising | 17 | H H F F F F | 0/12 | 191,204 | 552 | 9 | 2026-10-27 |
+| Oil at $112: shares, gold and silver fell the same day (`oil-slide-everything`) | retired: past its window | HOT | rising | 16 | H H H H H C H | 0/3 | 1,107,504 | 8,878 | 8 | 2026-10-29 |
+| SEBI final order: Avadhut Sathe ₹546 cr refund (`avadhut-sathe-refund`) | retired: past its window | HOT | rising | 15 | R F H H H F H | 1/20 | 526,055 | 3,209 | 6 | 2026-10-30 |
+| Swiggy record low, less than half its IPO price; Instamart loss ₹895 cr (`swiggy-record-low`) | retired: past its window | FLAT | steady | 14 | F F F F | 0/32 | 170,029 | 627 | 9 | 2026-10-28 |
+| RBI Governor: upper-layer CICs like Tata Sons must list (`tata-sons-listing`) | retired: COLD on 2 checks running | COLD | steady | 14 | C C | 0/2 | 135,201 | 1,538 | 8 | 2026-11-08 |
+| Jio's prepaid (77% of revenue) sold only via Reliance Retail (via The Ken) (`jio-reliance-retail-ken`) | retired: past its window | HOT | rising | 14 | H C H C C C H | 0/1 | 513,481 | 13,105 | 8 | 2026-11-04 |
+| Gold ₹38,000 below January peak, ₹5,560/10g down in 3 days, before Dhanteras (`gold-dhanteras-fall`) | retired: COLD on 2 checks running | COLD | fading | 13 | H H H H H C C | 0/2 | 808,081 | 2,117 | 8 | 2026-11-06 |
+| HDFC Bank's first outside CEO starts; share ~30% down in a year (via The Morning Context) (`hdfc-bank-bagchi`) | retired: past its window | FLAT | rising | 12 | F F F F F F F | 5/19 | 64,397 | 517 | 8 | 2026-11-03 |
+| Jewellery makers' IPO wave: money goes to gold and debt (via The Ken) (`jewellery-ipo-ken`) | retired: past its window | COLD | fading | 11 | C C C C C C C | 0/2 | 28,092 | 74 | 5 | 2026-11-06 |
+| Equitas SFB: record profit, CEO quits over daughter's NBFC, 20% lower circuit (`equitas-ceo-exit`) | retired: past its window | FLAT | steady | 9 | F F F C F F F | 10/47 | 63,640 | 302 | 8 | 2026-11-06 |
+| SEBI makes direct mutual fund plans the default on AMC apps from 1 Nov (`sebi-direct-default`) | retired: past its window | COLD | steady | 8 | C C | 0/0 | 28,685 | 213 | 7 | 2026-11-01 |
+| Reliance +12% record day, $19 bn added; Jio stake at 80% discount (`reliance-record-day`) | retired: past its window | FLAT | steady | 5 | H F F | 0/13 | 433,825 | 1,908 | 9 | 2026-11-05 |
 
 ## Latest notes
 - **Mutual funds halt new gold FoF SIPs and bulk gold ETF buys:** 2026-10-23: 23 Oct: The Core: eighth rupee-defence step, 2013 parallel
@@ -75,13 +76,10 @@ Label history reads oldest to newest: H hot, R rising, F flat, C cold.
 - **Silver -46% from January record (₹3,84,632 → ₹2,08,380/kg) before Dhanteras:** 2026-10-22: 22 Oct: no new turn; still HOT on YouTube
 - **Silver -46% from January record (₹3,84,632 → ₹2,08,380/kg) before Dhanteras:** 2026-11-01: 1 Nov: MCX silver -57% from Jan peak, gold -23%; Dhanteras Fri 6 Nov
 - **NSE unlisted buyers below IPO price (The Ken):** via The Ken 23 Oct
-- **Jewellery makers' IPO wave: money goes to gold and debt (via The Ken):** sent 28 Oct; 8 mainboard IPOs in 2026; Deepa 86% of fresh issue to inventory
 - **Anthropic S-1: $16.3 bn H1 revenue, $80.7 bn loss ($72.4 bn paper charge):** 2026-11-02: 2 Nov: new turn, Alphabet -12.6%/-$500bn on AI spend (29 Oct); pick
 - **Anthropic S-1: $16.3 bn H1 revenue, $80.7 bn loss ($72.4 bn paper charge):** 2026-11-04: 4 Nov: new turn, amended S-1 2 Nov: $33.2bn 9M revenue, $895.4bn commitments
 - **LTCG tax-cut debate: ₹1.29 lakh crore a year; The Ken says don't cut:** 2026-10-29: The Ken 29 Oct
 - **LTCG tax-cut debate: ₹1.29 lakh crore a year; The Ken says don't cut:** 2026-11-03: 3 Nov: new turn, SEBI proposes 0% LTCG for FPIs only (Reuters 2 Nov)
-- **Equitas SFB: record profit, CEO quits over daughter's NBFC, 20% lower circuit:** desk 30 Oct
-- **Equitas SFB: record profit, CEO quits over daughter's NBFC, 20% lower circuit:** 2026-10-30: record profit, −20% lower circuit, CEO quits
 - **773 government sites still serving eMudhra's revoked certificates (via The Ken):** desk 30 Oct; The Ken 30 Oct
 - **773 government sites still serving eMudhra's revoked certificates (via The Ken):** 2026-10-30: 773 of 1,366 gov names still on revoked certs (24 Oct)
 - **Ola Electric rights issue: founder pledges shares to buy in, SoftBank sells:** sent 31 Oct, 7/10, via The Morning Context
@@ -91,8 +89,10 @@ Label history reads oldest to newest: H hot, R rising, F flat, C cold.
 - **Binance $6.3 bn hack: users don't pay; WazirX users did:** sent 2 Nov, 9/10
 - **SEBI order on EKI Energy: ₹197 cr revenue early, ₹88 lakh fines:** sent 2 Nov, 6/10, SEBI order 30 Oct
 - **Axis MF front-running: Dubai AnyDesk trades, brokers fined ₹10 lakh each:** SEBI AO order 3 Nov; sent 4 Nov, 7/10
-- **Stockal: US shares sold without consent, swapped for Chinese microcaps; ₹100 cr+ alleged:** sent 5 Nov, 9/10
 - **Stockal: US shares sold without consent, swapped for Chinese microcaps; ₹100 cr+ alleged:** 2026-11-06: DriveWealth blames Stockal interface; Bengaluru complaint
-- **Samvat 2082: Sensex -11.9%, Nifty -11%, worst in 15 years:** sent 5 Nov, 8/10
+- **Stockal: US shares sold without consent, swapped for Chinese microcaps; ₹100 cr+ alleged:** 2026-11-07: police summon executives (headline)
 - **Samvat 2082: Sensex -11.9%, Nifty -11%, worst in 15 years:** 2026-11-06: rally halved the loss to ~-6%
+- **Samvat 2082: Sensex -11.9%, Nifty -11%, worst in 15 years:** 2026-11-07: best week since Feb 2021; Samvat loss now about -4%
 - **AI trade cracks: Nvidia -$450 bn, Nasdaq -5.5%; FIIs buy ₹14,975 cr of India the same day:** desk 6 Nov, story 1
+- **Videocon's Venugopal Dhoot declared personally bankrupt over ₹12,668 crore SBI dues:** NCLT order 5 Nov; Google trending 7 Nov
+- **Videocon's Venugopal Dhoot declared personally bankrupt over ₹12,668 crore SBI dues:** 2026-11-07: Google trending; no Hinglish short
