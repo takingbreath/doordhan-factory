@@ -50,13 +50,13 @@ Stage 1 targets are live in the block below. Stages 2 and 3 are the plan after t
 
 ## The book and where we stand
 <!-- scoreboard -->
-_Updated 2026-11-07 21:39 IST by `scoreboard.py write`._
+_Updated 2026-11-08 21:40 IST by `scoreboard.py write`._
 
 **Stage 2: Make it travel** (2026-10-26 to 2026-11-15): reels that get forwarded and reach well beyond our followers
 
 - sends per 1k plays: now –, target 10 → not yet
 - best reel's plays: now 12580, target 10000 → on target
-- followers: now 709, target 500 → on target
+- followers: now 796, target 500 → on target
 
 | Bet | Lever | Judged on | Baseline | Now | Target | Stop | Reels (judged/carried) | Verdict |
 |---|---|---|---|---|---|---|---|---|
@@ -71,15 +71,15 @@ _Updated 2026-11-07 21:39 IST by `scoreboard.py write`._
 ## This week's plan
 _Written by the strategist every Sunday. The morning session executes it: each story option says which bets it carries, and each script says how it carries them._
 
-**Week of Mon 2 Nov (written Sun 1 Nov)**
-- **News of the day, one reel a day, shipped the same day.** Last week 5 stories went to script review and 1 shipped (E15); the Jio allotment and listing reels never got made, and three Jio explainers did 0.8M–2.4M for others. When a script isn't approved by noon, the desk's next story goes to review rather than waiting a day.
-- **Ride now, in this order:** (1) Mon: the Anthropic S-1 follow-up (valuation up, loss up; tracker HOT, 38 of 100 news items today; window to 20 Nov), the tease E15 already made to 12.6K viewers; Claude logo and the loss number on the top half, IPO facts only. (2) By Thu 5 Nov, before Dhanteras (Fri 6 Nov): gold or silver before Dhanteras, as a stake question ("gold le ya nahi?" shape, seen 3 times in this week's outliers up to 7.2M); index or price facts only, no buy or sell call, no price target.
-- **Split-screen opener on every reel (new bet, median plays at 72 h, baseline 582, target 2,000 over 4 reels, stop under 500):** frame one is the story's picture, logo, real footage or B-roll on the top half with the hook in 6 words or fewer, the presenter below, from the first frame; the cover is frame one. EPFO (no split, no name, Rashmi mid-word on the cover) did 589 across two posts.
-- **Hook in frame one (skip rate, 52.4% on 3 judged of 6 carried; judged when the owner feed returns):** the stake said inside the first second, a cut or punch-in by 1 s.
-- **A line worth sending (sends per 1k, 3.2 on 3 of 4 judged):** one line inside the first 12 s a viewer would forward to a specific person; never ask for shares. Stage 2 is judged on sends, so this is the one that matters most this stage.
-- **Length:** Akhilesh's 30 s rule stands as a writing rule (Samachar and creator 20–30 s, Sahayata Kendra 70 s at most); it is no longer a bet.
-- **Log every reel before it posts** (`scoreboard.py add-reel` with bets and credits) and post each reel once: X3 and EPFO have no script or credits in the repo, and EPFO went up twice.
-- **Watching:** the owner feed (dark since 9 Oct); followers per reel now that E15 brought +242 in a week; whether boosts are used (one was rejected on 25 Oct), so paid plays stay out of the book.
+**Week of Mon 9 Nov (written Sun 8 Nov)**
+- **One news reel a day, Mon to Fri, posted the day it's ready.** Nothing on the news went up for 9 days (30 Oct to 8 Nov) while five stories sat at script review. A story whose script isn't approved by 14:00 IST gives way to the next one. On a day Akhilesh hasn't sent a script, Naveen can bring his own story and script through /make-reel (he picks the story himself when he brings the script; Akhilesh or Naveen approves the script and the final). Proposed in this week's email.
+- **Ride, in this order:** (1) The Anthropic follow-up while the S-1 is RISING on the tracker (52 of 100 news items; window to 20 Nov): this week's valuation cut from the $2 trillion talk, plus the S-1 loss. The Claude logo and the number go on the top half. IPO facts only, the follow-up E15 promised its 12.6K viewers. (2) Lost and found shares: Reliance certificates found during Diwali cleaning went to 3.9M and 1.1M for others this week. The angle is the viewer's own stake: old certificates or folios at home, and how unclaimed shares are claimed back. The rupee number goes in frame one, facts only. (3) A Jio or Starlink follow-up whenever either is in the news: E11 doubled to 15,148 on Jio's results day.
+- **Split-screen opener on every reel (median plays at 72 h; baseline 582; target 2,000 over 4 reels; stop under 500):** frame one shows the story's picture, logo, real footage or B-roll on the top half with the hook in 6 words or fewer, the presenter below, from the first frame. The cover is frame one. Still no reel carrying it on a money story; the Diwali greeting doesn't count.
+- **Hook in frame one (skip rate; 52.4% on 3 judged of 6 carried; judged when the owner feed returns):** the stake is said inside the first second, with a cut or punch-in by 1 s, and a hard number in the hook where the story has one ("20 MINUTES, ₹1.75 CR" was the week's biggest outlier).
+- **A line worth sending (sends per 1k; 3.2 on 3 of 4 judged):** one line inside the first 12 s that a viewer would forward to a specific person; never ask for shares. Stage 2 is judged on sends.
+- **Length:** Akhilesh's 30 s rule stands as a writing rule (Samachar and creator 20–30 s, Sahayata Kendra 70 s at most).
+- **Log every reel before it posts** (`scoreboard.py add-reel` with its bets and credits) and post each one once. The Diwali greeting went up outside the flow (X6), and the duplicate EPFO copy (X4, 143 plays) is still live.
+- **Watching:** the owner feed (dark 31 nights); second waves on E11 and E15; Stage 2 ends Sun 15 Nov, and the followers target is put to Akhilesh this week.
 
 ## Working rhythm
 | When | Who | What |
@@ -213,3 +213,11 @@ _Written by the strategist every Sunday. The morning session executes it: each s
 - 2026-11-05 (nightly): Quiet. No new reel since EPFO (30 Oct), six days with nothing posted; the gold-before-Dhanteras story (due today per the plan; Dhanteras is tomorrow) is still at script review, and the desk made it today's pick again. Every reel within 0–1 plays of its last reading (Starlink vs Jio 15,150; Anthropic God share 12,587; X5 465, X4 143), so no public reading logged. vidIQ owner insights unavailable for a 28th night (connected_accounts now reports 'token_inactive', public fallback only), so no bets judged. No stop or target hit; all bets HOLD, split-screen opener still waiting for its first reel. vidIQ credits this week: 20 of 60.
 - 2026-11-06 (nightly): Quiet. No new reel since EPFO (30 Oct), seven days with nothing posted; Dhanteras was today and the gold story never left script review (the desk drafted an AI-vs-India capital-rotation story instead). Every reel at 0 plays' change from its last reading (Starlink vs Jio 15,150; Anthropic God share 12,587; X5 465, X4 143), so no public reading logged. vidIQ owner insights unavailable for a 29th night (connected_accounts 'token_inactive', public fallback only), so no bets judged. No stop or target hit; all bets HOLD, split-screen opener still waiting for its first reel. vidIQ credits this week: 25 of 60.
 - 2026-11-07 (nightly): Quiet. No new reel since EPFO (30 Oct), eight days with nothing posted; the desk drafted a Videocon repayment-promise story for review today. Every reel within 0–1 plays of its last reading (Starlink vs Jio 15,150; Anthropic God share 12,588; X5 466, X4 143), so no public reading logged. vidIQ owner insights unavailable for a 30th night (connected_accounts 'token_inactive', public fallback only), so no bets judged. No stop or target hit; all bets HOLD, split-screen opener still waiting for its first reel. vidIQ credits this week: 30 of 60.
+- 2026-11-08 (weekly review):
+  - Nightly: vidIQ owner insights unavailable for a 31st night (connected_accounts 'token_inactive', public fallback only), so no bets judged. A Diwali greeting reel (36 s, Sarika under a fireworks split screen, 'AAJ KHABAR NAHI, DIWALI HAI!') went up at 16:34 IST outside the logged flow (time from the shortcode). Added as X6 with no bets and linked to Dfemz0JTShl. It had 82 public plays at 5 h, well under the taking-off line. Every other reel was within 0–63 plays of its last reading, so no other public reading was logged. Followers 796 (public profile).
+  - The week (2–8 Nov): 1 reel and no news reel (the last was EPFO on 30 Oct). Five stories went to script review (gold before Dhanteras, Stockal, AI vs India, Videocon, IndiGo fares) and none shipped. About 10,500 plays, of which about 10,100 were Starlink vs Jio's second wave on 2 Nov (Jio's first results as a listed company). Followers 709 → 796 (+87, against +242 the week before). Higgsfield credits logged this week: 0 (X6 not logged).
+  - Stage 2 (to 15 Nov): best reel above 10,000 (E15 12,593; E11 15,152) and followers above 500 (796) both hit; sends per 1k unknown, so the stage's main target can't be judged. Last week's proposal to raise the followers target to 1,200 got no answer; it is put again with an extension to 29 Nov.
+  - Book unchanged: no stop, no target and no time stop. Hook in frame one HOLD (52.4% on 3 judged; 6 carried, its maximum), held until the owner feed returns. A line worth sending HOLD (3.2 on 3 of 4). Split-screen opener still waiting for its first money reel. X6 is a greeting, not a test of the lever, so it carries no bets. No new bet: the book holds 3 open.
+  - Weakest stage: the stop by the last numbers (skip 56% against 45%), already covered by the hook bet. The binding constraint this week was volume (no news reel in 9 days), with data second (no owner feed for 31 nights).
+  - Evidence (one outlier scan, 5 credits): Reliance share certificates found during Diwali cleaning (@kiddaan 3.9M, 163×; @indiabusinesscom 1.1M, 28×); the SIP reality check 3 times (@abhishekkarofficial 4.9M, @moneyandmeet 1.1M at 199×, @iamnehanagar 1M); gold twice (@manifest__fx 2.1M at 440×, @chakradhar__reddy_ 921K); a trader's ₹1.75 crore brokerage glitch (@noidawalatrader_ 6.9M at 2,213×, one only). Split screen appeared in 2 of 10 (down from 4–8). Comments (Instagram counts only): Starlink vs Jio 14, Anthropic 11; no YouTube channel yet. Platform: no Instagram ranking, YouTube Shorts, SEBI finfluencer or MeitY AI-label change found this week.
+  - vidIQ credits this week: 45 of 60 (nightly cross-checks 35, profile 5, outliers 5).
