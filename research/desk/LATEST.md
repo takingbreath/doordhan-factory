@@ -1,140 +1,138 @@
-# Doordhan desk research — Sat 07 Nov 2026
+# Doordhan desk research — Sun 08 Nov 2026
 
-Session: https://claude.ai/code/session_01PasrArfxS3xRkAX2FDk7gL
+Session: https://claude.ai/code/session_01PasrAtAt1XJ89CWtdqQSVr
 
-**Pick: story 1.** Videocon's founder Venugopal Dhoot was declared personally bankrupt by the NCLT on Thu 5 Nov over ₹12,668 crore owed to SBI. It is on Google Trends India this morning ('videocon venugopal dhoot', 500+), and no Hindi or Hinglish short on it has broken out: the best is a 7-minute Marathi explainer at 15.5K views. Videocon is the brand on the TV set in half of our viewers' childhood homes, which is exactly the old-TV world our channel already lives in. It scores highest (9) and needs no stake in the viewer's portfolio to travel: our biggest reels (Nana Patekar, Salman Khan) had none either.
+**Pick: story 1.** Anthropic is the strategist's Ride-now follow-up to E15, our biggest reel (12.6K plays), and it has a new turn: the price buyers will pay for it is falling. The WSJ reports investors want $1.5 trillion, not the $2 trillion floated earlier, and one of them suggests about $1 trillion after Thursday's tech crash. The roadshow could start this week (from 9 Nov), with a listing aimed at the week before Thanksgiving. 'Anthropic ipo' searches in India are up 249% on vidIQ, and India is joint top market with the US. The window runs to about 20 Nov, so it can be made today or tomorrow.
 
-Runner-up: 3, Samvat 2082: it ends at tomorrow's Muhurat session (Sun 8 Nov, 2:20 to 3:30 pm), so it is today or never. New since yesterday: Friday closed the best week since February 2021 (Sensex +8.8%, Nifty +8.6%), and a year that was down about 11.9% on 30 Oct now ends about 4.1% down on the Sensex. Story 2, Stockal, has your draft at review and a new turn (Bengaluru police summoning executives), and stays live to about 12 Nov.
+Runner-up: 2, Samvat 2082 ends today at the Muhurat session (2:20 to 3:30 pm). It is today or never: the year that was down 11.9% a week ago ends about 4% down. Pick it only if a reel can ship tonight. Story 3 (airfares) is open until the Supreme Court hearing on 16 Nov. Your Videocon hook and story (7 Nov) is still at review.
 
-## 1. Videocon's founder declared personally bankrupt: ₹12,668 crore owed to SBI, and he offered ₹600 crore
+## 1. Anthropic's IPO price is falling before it even lists: $2 trillion talk, $1.5 trillion asked, and one big investor says about $1 trillion
 
-Hot lane (new; NCLT Mumbai order dated Thu 5 Nov, reported Fri 6 Nov; on Google Trends India this morning) · HOT · **9/10** (momentum 3/3, stake 0/1, shareability 2/2, gap 2/2, known name 2/2) · tracker id `videocon-dhoot-bankrupt`
+Hot lane (tracked since 29 Oct; Ride-now follow-up to E15; new turn: investors are pushing the IPO valuation down, and the roadshow could start this week) · RISING · **8/10** (momentum 2/3, stake 1/1, shareability 2/2, gap 1/2, known name 2/2) · tracker id `anthropic-s1`
 
-Window: Sat 7 to about Tue 10 Nov; a one-news-cycle story. Post today or tomorrow.
+Window: To about 20 Nov: the roadshow could start in the week of 9 Nov, and the listing is aimed at the week before Thanksgiving (26 Nov). Each step (a price range in an amended S-1, a delay) is a new turn.
 
 ### What's happening
-- The NCLT's Mumbai bench declared Venugopal Dhoot, Videocon's former promoter, bankrupt on SBI's petition under Section 123 of the Insolvency and Bankruptcy Code. The order is dated 5 Nov (Neo Politico). This is personal bankruptcy: he had personally guaranteed loans to Videocon group companies.
-- SBI's claim, including interest and penalties, is ₹12,668.06 crore as of 30 September (National Herald). SBI invoked his guarantees in February 2018, after the group defaulted.
-- Before this, a personal insolvency resolution process ran from April. Dhoot offered ₹600 crore over three years with no upfront payment, dependent on a planned real-estate project in Siliguri. Creditors rejected it; the tribunal ended that process in July and SBI filed for bankruptcy (National Herald).
-- What changes for him: his estate now vests in a bankruptcy trustee (Asish Narayan) for distribution to creditors; he is disqualified from being a company director or managing any company, can't borrow or create a charge on his assets without the trustee's sanction, and needs the tribunal's permission to travel abroad (Neo Politico, citing Sections 140 and 141).
-- Context, older than a week: the Videocon group's own insolvency ended with a plan from Vedanta's Twin Star of about ₹2,962 crore against about ₹64,838 crore of admitted claims, a haircut of about 96% (Business Standard, June 2021); the NCLAT later set that plan aside. Dhoot is also an accused in the CBI's ICICI Bank–Chanda Kochhar loan case (arrested Dec 2022, later bailed).
+- On 2 Nov the Wall Street Journal reported that institutional investors told Anthropic its Nasdaq IPO should price at $1.5 trillion to $1.6 trillion, below the roughly $2 trillion floated in recent months. They cited the tech selloff and wanting room for a first-day gain. Anthropic hasn't set its price range or share count (AI News Weekly, republishing the WSJ).
+- On 5 Nov the Journal reported three large investors saying even $1.5 trillion will likely need to come down, and one suggested closer to $1 trillion. Anthropic had aimed to raise up to $100 billion; one investor said it might raise less, perhaps about $80 billion. Some investors wonder whether it delays the listing (Decrypt, 6 Nov).
+- The trigger was Thursday 5 Nov: the S&P 500 fell 4.4%, the Nasdaq 100 fell 6.3% (its worst day since April 2025), and Nvidia fell 9.2% (Decrypt).
+- The company itself: annualised revenue above $80 billion at the end of October; $146.6 billion of cash at 30 September; ticker 'ANT' on Nasdaq (Decrypt). Q3 revenue $16.8 billion, up 45% on Q2 (AI News Weekly).
+- Betting markets on Friday: Polymarket 43% that it lists by 20 Nov, 71% by year-end (Decrypt).
 
 ### The curiosity gap
-- The name on every family's TV in the 90s now belongs, legally, to a bankruptcy trustee. Most viewers never heard what happened to Videocon after the ads stopped.
-- He owes SBI ₹12,668 crore and offered ₹600 crore over three years, about 5 paise on the rupee, with nothing up front. The banks said no.
-- Who actually pays when a tycoon's loans go bad: SBI is a public sector bank, and the group's lenders already took a haircut of about 96% once.
+- The company has not changed in a week; its price tag may have halved. Why would the same business be worth $2 trillion one month and $1 trillion the next?
+- Last month E15 told viewers about a share they could never buy. Now the people who can buy it are haggling, and the haggling is over a trillion dollars.
+- It might not list in November at all. A company with $146 billion in the bank waiting for a better price is a story about who sets the price.
 
 ### How hot it is
-- Google Trends India, this morning: 'videocon venugopal dhoot' 500+ searches, in the top trending list (trends.py). News: 15+ outlets on 6 Nov (Indian Express, ET, Moneycontrol, BusinessLine, TOI, New Indian Express).
-- YouTube since 4 Nov (vidIQ, region IN, by views): Lokmat (Marathi, 7 min) 15,476 views at 1,548/hr; V6 News Telugu 6,872 at 859/hr; CNBC-TV18 835. Nothing in Hindi or Hinglish above a few hundred views.
-- Instagram/TikTok outliers (vidIQ): nothing on Videocon itself. Adjacent 90s-nostalgia business stories are breaking out: @thebharatinc 'How Lalit Modi brought Disney to India' (90s kids hook) 973K, 9.8×; @fincoracybysakshi Harshad Mehta clip hook 3.4M, 781×.
+- trends.py: tracker 'anthropic-s1' RISING (52 of 100 news items today); 'anthropic ipo valuation' FLAT (13 today of 47 this week). YouTube this week: 17 videos, 534K views; best 'Anthropic IPO: The Con Of The Century' at 282,755 views in 144 h.
+- vidIQ keyword 'anthropic ipo': volume 82, competition 68, about 299K monthly searches, +249% growth; India 21% and the US 21% of searches.
+- vidIQ Instagram outliers since 25 Oct: @cryptokibate 'Jio ke IPO ka 10X hoga Anthropic ka IPO' 1.2M (134×); @financetalkswithaman 'World's biggest IPO, bigger than SpaceX?' 966K (24×). Both are from before the valuation cut; nobody has made the price-cut angle yet.
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [Lokmat (YouTube, Marathi)](https://www.youtube.com/watch?v=208raY2nuFI) | 7-minute case study: how Videocon went from every home's TV to its founder's bankruptcy (2G, ICICI–Kochhar, Vedanta bid) | 15,476 | new, 1,548/hr | 6 Nov |
-| [V6 News Telugu (YouTube)](https://www.youtube.com/watch?v=ypgI6UUwtv8) | TV news bulletin: NCLT declares Dhoot bankrupt, ₹12,668 crore | 6,872 | new, 859/hr | 6 Nov |
-| [@thebharatinc (Instagram)](https://www.instagram.com/reel/DewVGSAMl5J) | Adjacent: 'How Lalit Modi brought Disney to India', 90s-kids nostalgia hook with archival footage | 973K | 9.8× usual | 21 Oct |
-| [@fincoracybysakshi (Instagram)](https://www.instagram.com/reel/Ded6voaiQKC) | Adjacent: a Scam 1992 Harshad Mehta clip as the hook, then a modern money lesson | 3.4M | 781× usual | 14 Oct |
+| [@cryptokibate (Instagram)](https://www.instagram.com/reel/DfAUHmAvtqJ) | Talking head + infographics: Anthropic's revenue growth and valuation, 'Jio ka 10X' | 1.2M | 134× usual | 27 Oct |
+| [@financetalkswithaman (Instagram)](https://www.instagram.com/reel/DfHet_AJDbQ) | Talking head with a yellow headline bar: 'World's biggest IPO, bigger than SpaceX?', with the risks | 966K | 24× usual | 30 Oct |
+| [@financebysanjay (Instagram)](https://www.instagram.com/reel/DfB8SkFITJk) | Adjacent: 'China AI bubble burst, USD 3.5 trillion wiped out', talking head in a car | 4.4M | 10× usual | 28 Oct |
 
-_Only regional TV and one long Marathi explainer so far; no Reel. Missing: the 90s brand everyone remembers, set against the ₹600 crore offer on a ₹12,668 crore debt, and who ends up paying._
+_Every breakout so far sold the size ('biggest IPO ever'). Missing: the same IPO getting cheaper by the day, and why._
 
 ### Facts and sources
-- NCLT Mumbai declared Dhoot bankrupt on SBI's petition (Section 123, IBC); dues ₹12,668.06 crore incl. interest and penalties as of 30 Sep; guarantees invoked Feb 2018; offered ₹600 crore over three years, no upfront payment, tied to a Siliguri real-estate project; creditors rejected it; resolution process ended in July; trustee Asish Narayan, preliminary report within 90 days. — [National Herald, 6 Nov 2026](https://www.nationalheraldindia.com/business/nclt-declares-venugopal-dhoot-bankrupt-on-sbi-plea-over-rs-12668-crore-dues)
-- Order dated 5 Nov; disqualified as a company director; no new debt or charge on his estate without the trustee's sanction; tribunal's permission needed to travel abroad; discharge can be sought after one year. — [Neo Politico, 6 Nov 2026](https://neopolitico.com/business/nclt-declares-former-videocon-promoter-venugopal-dhoot-bankrupt-over-rs-12668-crore-sbi-dues/)
-- Context (2021): Twin Star's plan of about ₹2,962 crore against ₹64,838.63 crore admitted claims, a total haircut of 95.85%. — [Business Standard, 16 Jun 2021 (context, older than a week)](https://www.business-standard.com/amp/article/companies/total-haircut-of-95-85-to-all-the-creditors-in-videocon-resolution-plan-121061600573_1.html)
+- WSJ via AI News Weekly, 2 Nov: investors say price at $1.5–1.6 trillion vs about $2 trillion floated; range and share count not set; roadshow could start week of 9 Nov; listing targeted the week before Thanksgiving; Q3 revenue $16.8 bn, +45% on Q2. — [AI News Weekly (WSJ report), 2 Nov 2026](https://aiweekly.co/alerts/anthropic-ipo-buyers-push-valuation-to-15t-after-tech-selloff)
+- WSJ via Decrypt, 6 Nov: $1.5 trillion likely too high, one investor suggests about $1 trillion; aimed to raise up to $100 bn, perhaps about $80 bn; run-rate above $80 bn; cash $146.6 bn at 30 Sep; ticker ANT; 5 Nov S&P 500 -4.4%, Nasdaq 100 -6.3%, Nvidia -9.2%; Polymarket 43% by 20 Nov. — [Decrypt, 6 Nov 2026](https://decrypt.co/382716/anthropic-ipo-valuation-could-fall-to-1-trillion-after-ai-stock-rout-report)
 
 ### Watch out
-- Personal bankruptcy as a guarantor, not a fraud verdict. The ICICI–Kochhar case is an ongoing CBI case: say 'accused', never 'guilty'.
-- ₹12,668 crore is SBI's claim (with interest and penalties) as of 30 Sep, not the principal lent. Say whose number it is.
-- '5 paise on the rupee' is our arithmetic (600 / 12,668 = 4.7%); say 'about 5%'.
-- Real photos of Dhoot are fine (CLAUDE.md rule 4, news agency pictures); no invented words in his mouth. The official Videocon logo is fine since the reel is about the company; never have an image model draw it.
-- Bets: B1 (the stake said in second one: the brand on your old TV, and ₹12,668 crore), B3 (the ₹600 crore offer is the forwardable line), B4 (split screen: the Videocon logo or an old Videocon TV ad still on top, Dhoot's photo and the number).
+- These are investors' views reported by the WSJ, not Anthropic's price range. Say 'investors want' or 'reportedly', never 'Anthropic cut its price'.
+- 'Halved' only if the reel says it is from $2 trillion talk to one investor's $1 trillion suggestion. $1.5 trillion is the mainstream number.
+- IPO facts only: no 'apply', 'buy' or 'skip', no listing-gain guesses. Indian retail can't apply directly anyway; don't explain how to.
+- Claude's logo is fine (the reel is about the company); use Dario Amodei's real photo, no invented words.
+- Bets: B1 (the stake in second one: '$2 trillion → $1 trillion?'), B3 (the line: the same company, half the price, in a week), B4 (split screen: Claude logo and '$2T → $1T?' on top).
 
-## 2. Stockal: police summon executives as the app and the US broker blame each other; nearly 30 investors, ₹100 crore+ alleged
+## 2. Samvat 2082 ends today: down 11.9% a week ago, about 4% down now, after the best week since February 2021
 
-Hot lane (tracked since 5 Nov; new turn: Bengaluru police open a probe and summon executives; your hook and story draft is at review) · HOT · **8/10** (momentum 2/3, stake 1/1, shareability 2/2, gap 2/2, known name 1/2) · tracker id `stockal-unauthorised-trades`
+Hot lane (tracked since 5 Nov; the Samvat ends today at the Muhurat session, 2:20 to 3:30 pm IST) · HOT · **8/10** (momentum 3/3, stake 1/1, shareability 2/2, gap 1/2, known name 1/2) · tracker id `samvat-2082-worst`
 
-Window: About 12 Nov: the police probe, DriveWealth's review and any SEBI or IFSCA step will keep turning it.
+Window: Today only, Sun 8 Nov. The Muhurat hour sets the closing number at 3:30 pm; post tonight.
 
 ### What's happening
-- New since yesterday: Moneycontrol reports Bengaluru police have begun a probe and summoned Stockal's top executives (headline, 6 Nov; page not opened). NDTV Profit headline: 'Stockal says two more platforms have affected investors after DriveWealth breach' (6 Nov; not opened, not confirmed elsewhere). Livemint ran 'how to file a complaint and can you recover the money?' (6 Nov).
-- Recap: on 15 Oct someone logged into 26 Stockal accounts with valid credentials; in 13, large-cap US holdings were sold and the money put into thinly traded microcaps; no funds were withdrawn (Borderless, Stockal's parent). DriveWealth, the US broker, says the activity came through Stockal's interface and that it froze the accounts on Stockal's instructions.
-- Two investor cases: about $335,768 of 10 US holdings sold and the proceeds put into 300,000 Zhibao Technology shares at about $1.05, an estimated loss of about $450,000 (₹4.26 crore); another investor's portfolio of about $3.1 million (₹29 crore) sold within two minutes. Zhibao fell nearly 60%, to $0.42 on 23 Oct (FinanceFeeds).
+- Samvat 2082 opened with the Sensex at 84,484.67 and the Nifty at 25,901.20. By Fri 30 Oct they were at 74,459.53 and 23,053.10, about -11.9% and -11%, heading for the worst Samvat in 15 years (ET Now, Business Standard).
+- Then seven straight up days. Fri 6 Nov close: Sensex 81,028.02, Nifty 25,030.35. For the week, Sensex +8.8% and Nifty +8.6%, the strongest since February 2021; FIIs bought about ₹15,000 crore on Thursday, their biggest day in nearly six years (Reuters via Business Recorder).
+- Against the opening level that's about -4.1% on the Sensex and -3.4% on the Nifty (our calculation): two-thirds of the year's loss came back in one week.
+- Today: the Muhurat session, pre-open 2:05 to 2:20 pm, trading 2:20 to 3:30 pm IST, opens Samvat 2083 (Univest, Tickertape). Last year's Muhurat hour closed the Sensex +0.07% and the Nifty +0.10% (Business Today, Oct 2025, context).
 
 ### The curiosity gap
-- Nobody withdrew a rupee, yet the money is mostly gone: it was turned into a Chinese microcap that then fell 60%.
-- The Indian app and the American broker each say the hole was on the other side; now the police are asking. When it's your account, who answers?
+- Anyone who sold in October sold at the bottom of the year: one week gave back two-thirds of the loss.
+- Last Diwali's forecasts said Nifty 30,000 by this Diwali. It ends the year near 25,000, and today the same desks publish new Diwali picks.
 
 ### How hot it is
-- trends.py 'stockal': HOT, rising on the tracker; news 9 today of 72 this week (12% today, so the news wave has peaked). YouTube this week: 12 videos, 1.13M views.
-- vidIQ Instagram/TikTok outliers since 2 Nov: still no Reel on Stockal. Adjacent: @noidawalatrader_ 'Bank vs Trader: 20 minutes, ₹1.75 crore' (a brokerage glitch and the court's verdict) 2.2M, 703× usual, 5 Nov.
+- trends.py 'muhurat trading 2026': HOT, 29 of 70 news items this week came today (41%); on Google Trends India 'बाज़ार' 200+; YouTube best 8,108/hr ('Muhurat Trading Explained', 194,596 views in 24 h).
+- vidIQ keyword 'muhurat trading' (India): volume 71, competition 59, about 55,600 monthly searches, all from India.
+- vidIQ outliers: the Diwali Reels breaking out are seasonal stake questions and finds (@kiddaan, old Reliance share certificates found in Diwali cleaning, 3.9M, 163×; @abhishekkarofficial 'Gold le ya nahi in Diwali?' 6.4M, 69×). Nobody has scored the year that just ended.
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [@noidawalatrader_ (Instagram)](https://www.instagram.com/reel/DfYNex8zRql) | Adjacent: talking head with a news strip, '20 MINUTES, ₹1.75 CR', a trader, a brokerage glitch and who keeps the money | 2.2M | 703× usual | 5 Nov |
-| [NDTV Profit (YouTube)](https://www.youtube.com/watch?v=1WOcjJfsZYM) | Exclusive interview with an investor who says she and her husband lost about $3.2 million | 70,507 | new, 2,835/hr | 4 Nov |
-| [Khabargaon (YouTube, Hindi)](https://www.youtube.com/watch?v=_BAKRIunl1I) | 8-minute explainer: 'Indian investors ke ₹100 crore kaise doob gaye?' | 34,271 | new, 3,116/hr | 4 Nov |
+| [@kiddaan (Instagram)](https://www.instagram.com/reel/DfXay1oqPk5) | POV voice-over: a son finds old Reliance share certificates during Diwali cleaning | 3.9M | 163× usual | 5 Nov |
+| [@abhishekkarofficial (Instagram)](https://www.instagram.com/reel/DfERYJaveGM) | Single-shot talking head: 'Gold le ya nahi in Diwali?' | 6.4M | 69× usual | 29 Oct |
 
-_Still TV and long YouTube only, nothing on Reels, while a broker-glitch story did 2.2M this week. Missing: the blame game told on one investor's statement._
+_Everyone does 'what is Muhurat trading' or 'picks for 2083'. Missing: the scorecard of the year that ends today, set against last Diwali's forecast._
 
 ### Facts and sources
-- Nearly 30 investors; ₹100 crore+ (preliminary); 26 accounts accessed, 13 with large-cap sales and microcap buys; no funds withdrawn; $335,768 → 300,000 Zhibao at about $1.05, loss about $450,000 (₹4.26 crore); about $3.1 mn (₹29 crore) sold in two minutes; Zhibao down nearly 60% to $0.42 on 23 Oct; Bengaluru complaint names Stockal, Borderless, DriveWealth, HDFC Securities; HDFC Securities' partnership ended July 2024. — [FinanceFeeds, 4 Nov 2026](https://financefeeds.com/nearly-30-indian-investors-allege-%E2%82%B9100-crore-stockal-trading-fraud-after-unauthorised-us-stock-sales/)
-- Borderless: valid credentials used; no breach of its own systems found; possible social engineering (unconfirmed). — [BusinessLine, 4 Nov 2026](https://www.thehindubusinessline.com/markets/borderless-finds-no-evidence-of-breach-in-stockal-trading-incident/article71666259.ece)
-- One investor: 10 holdings incl. 150 Apple, 234.8 Tesla, 400 Nvidia sold on 15 Oct. — [India Today, 4 Nov 2026](https://www.indiatoday.in/business/story/indian-investor-stockal-us-stocks-sold-without-consent-securities-trade-fraud-3031975-2026-11-04)
+- 6 Nov: Nifty 25,030.35, Sensex 81,028.02; week Nifty +8.6%, Sensex +8.8%, strongest since Feb 2021; FIIs about ₹15,000 crore on Thursday. — [Reuters via Business Recorder, 6 Nov 2026](https://www.brecorder.com/news/40447766/indian-stocks-buck-global-tech-rout-post-best-week-in-6-years)
+- Samvat 2082: Sensex 84,484.67 → 74,459.53, Nifty 25,901.20 → 23,053.10 to 30 Oct. — [ET Now, 2 Nov 2026](https://www.etnownews.com/markets/samvat-2082-sees-a-year-of-losses-for-dalal-street-sensex-nifty-fall-up-to-12-is-the-worst-over-article-156450519)
+- Muhurat session 8 Nov: pre-open 2:05–2:20 pm, trading 2:20–3:30 pm IST. — [Univest blog](https://univest.in/blogs/muhurat-trading-timing-diwali-2026)
 
 ### Watch out
-- Allegations under investigation: 'investors allege', 'DriveWealth says', 'police have summoned'. Don't call it a scam by Stockal, and don't say who did it.
-- The police-summons and 'two more platforms' turns are headlines we couldn't open; one search result also reported '13 investors, $6.26 million' from a single source. Don't put any of them on screen until opened.
-- Counts: 13 accounts traded (company), nearly 30 complainants (Moneycontrol). ₹100 crore is a preliminary estimate. The Zhibao fall is to 23 Oct.
-- Bets: B1 (stake: 'your US shares'), B3 (app vs broker blame), B4 (split screen: the sell list against '3 lakh shares, Zhibao').
+- 'Worst in 15 years' was the 30 Oct call; at about -4% it no longer holds. Say 'was heading for'.
+- -4.1% and -3.4% are our sums from Friday's closes; today's hour moves them. Fill the final number after 3:30 pm.
+- Index levels only: no picks, targets or 'will 2083 be good'.
+- Bets: B1 ('your SIP since last Diwali'), B3 (the 'sold in October' line), B4 (split screen: last Diwali's 'Nifty 30,000' headline on top).
 
-## 3. Samvat 2082 ends tomorrow: down 11.9% a week ago, now down about 4%, after the best week since February 2021
+## 3. Airlines are flying fewer people and earning more per seat: IndiGo's passengers -4.7%, its yield +34%, and a judge said 'Don't travel by air'
 
-Deep lane (Business Standard's Samvat analysis, tracked since 5 Nov; new turn: Friday closed the best week since Feb 2021, and the Samvat ends at tomorrow's Muhurat session) · RISING · **8/10** (momentum 2/3, stake 1/1, shareability 2/2, gap 2/2, known name 1/2) · tracker id `samvat-2082-worst`
+Deep lane (The Ken, 6 Nov: 'Why India's airlines are flying less and charging you more'; public facts verified elsewhere; a Supreme Court hearing on fares is reported for 16 Nov) · FLAT · **7/10** (momentum 1/3, stake 0/1, shareability 2/2, gap 2/2, known name 2/2) · tracker id `airfares-fly-less-pay-more`
 
-Window: To Sun 8 Nov (Muhurat trading, 2:20 to 3:30 pm IST, when Samvat 2082 ends). Post today or tomorrow morning.
+Window: To Mon 16 Nov, the reported Supreme Court hearing on airfare regulation; Diwali return travel keeps it live this week.
 
 ### What's happening
-- Samvat 2082 opened with the Sensex at 84,484.67 and the Nifty at 25,901.20. By Fri 30 Oct they were at 74,459.53 and 23,053.10, about -11.9% and -11%, heading for the worst Samvat in 15 years (ET Now; Business Standard).
-- Then seven straight up days. Fri 6 Nov close: Sensex 81,028.02 (+2.17%), Nifty 25,030.35 (+2.01%), both at eight-month highs. For the week, Sensex +8.8% and Nifty +8.6%, the strongest since February 2021; all 16 major sectors up (Reuters via Business Recorder).
-- Against the Samvat's opening level that's now about -4.1% on the Sensex and -3.4% on the Nifty (our calculation): two-thirds of the year's loss came back in one week. For calendar 2026 the Nifty is still -4.2% and the Sensex -4.9% (Reuters).
-- FIIs bought about ₹15,000 crore of shares on Thursday alone, their biggest single-day purchase in nearly six years (Reuters), as money left the AI trade after Wall Street's 5.5% Nasdaq fall.
-- Muhurat trading is Sun 8 Nov, 2:20 to 3:30 pm IST, on NSE and BSE (Moneycontrol, Indian Awaaz). Last Diwali, analysts suggested the Nifty could reach 30,000 by this Diwali (Analytics Insight, Oct 2025, context).
+- Fewer flights for Diwali: airlines scheduled 22,306 weekly domestic flights this November, 606 fewer (about 2.6%) than in October 2025. IndiGo 13,697 (-2.7%), Air India 3,101 (-14.9%). Patna's weekly departures fell from 377 to 302. Reported causes: higher jet fuel costs and a weaker rupee (Free Press Journal, citing Cirium data via Business Standard, 2 Nov).
+- Fewer flyers: DGCA data shows domestic passengers in September fell more than 6% year on year. IndiGo's Q2 passengers fell 4.7%, yet its yield (fare earned per passenger-km) rose more than 34% to ₹6.3. IndiGo and Air India carry over 90% of domestic flyers. Chennai–Mumbai return is about ₹13,000 against about ₹4,000 one-way months earlier (The Week, 2 Nov).
+- On 2 Nov a Supreme Court bench led by Justice Vikram Nath refused an urgent hearing of a plea alleging a nearly 700% Diwali fare rise: 'Don't travel by air,' the bench said. A separate plea for an aviation regulator and fare guidelines is reported for hearing on 16 Nov (National Herald, 2 Nov).
+- The Ken's 6 Nov story makes the same case (headline only; paywalled, not used).
 
 ### The curiosity gap
-- Anyone who sold in October sold at the bottom of the year: in one week the market gave back two-thirds of the Samvat's loss.
-- Last Diwali's forecast was Nifty 30,000. It ends the year near 25,000, and the same brokers have 25 new Diwali picks out this morning.
+- Fewer people are flying and the airlines are earning more: a smaller, pricier market can pay them better than a full one.
+- Two airlines carry nine in ten flyers. When both trim flights at Diwali, who is left to undercut them?
+- A judge's answer to a 700% fare plea was 'don't fly'. The question nobody answered is why fares can rise that far.
 
 ### How hot it is
-- trends.py 'muhurat trading': HOT, 31 of 86 news items this week came today (36%); YouTube best 15,171/hr (Motilal Oswal's campaign ad). 'samvat-2082-worst' on the tracker: RISING, 35 of 100 news items today. 'Nifty best week': COLD on that phrasing (the news ran yesterday).
-- vidIQ: the Diwali money Reels breaking out are seasonal stake questions (@abhishekkarofficial 'Gold le ya nahi in Diwali?' 6.4M, 69×; @yogifunnify 'Sona mat khareedna' 1.2M, 108×; @onetrade_ai 'Diwali for kids vs traders' 965K, 126×). Nobody has scored the Samvat that just ended.
+- trends.py: 'airfare hike india' and 'supreme court airfare' COLD on news (0 today), but YouTube this week has 20 videos and 1.14M views; best '"Don't travel by air. Next case." — A SC judge's responses' 607,508 views in 120 h; a 'Don't Travel' Short 51,883 views in 24 h.
+- vidIQ YouTube Shorts (IN, since 25 Oct): Hindi explainers on Diwali fares at 21 to 2,184 views; none broke out.
+- vidIQ Instagram outliers: nothing on fares. Adjacent: @bluntboard_ 'Real reason behind SpiceJet staff rudeness' (unpaid salaries) 1.2M, 213×.
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [@onetrade_ai (Instagram)](https://www.instagram.com/reel/DfScgT3vpAH) | POV, B-roll over voice-over: regular people's Diwali vs a trader's Diwali | 964.8K | 126× usual | 3 Nov |
-| [@abhishekkarofficial (Instagram)](https://www.instagram.com/reel/DfERYJaveGM) | Single-shot talking head: 'Gold le ya nahi in Diwali?', a binary seasonal stake question | 6.4M | 69× usual | 29 Oct |
-| [@prachalitt (Instagram)](https://www.instagram.com/reel/DfXZO0dM7MT) | Adjacent: Diwali cleaning finds old Reliance share certificates, 'saved from being sold at ₹14/kg' | 4.5M | 97× usual | 5 Nov |
+| [@bluntboard_ (Instagram)](https://www.instagram.com/reel/DfHspLhob6o) | Adjacent: split screen, creator + clips, 'Real reason behind SpiceJet staff rudeness and delays' | 1.2M | 213× usual | 30 Oct |
+| [Harsh prajapati (YouTube Short)](https://www.youtube.com/watch?v=J_vWIB_13pI) | 'Supreme Court on Diwali flight tickets?', talking head | 2,184 | 1.6× usual | 28 Oct |
 
-_Everyone is doing 'picks for Samvat 2083' or 'will the rally continue'. Nobody has scored the year that just ended, or the forecast it started with._
+_Others explain dynamic pricing or the court case. Missing: the airline's side of the ledger, fewer flyers but more money per flyer._
 
 ### Facts and sources
-- 6 Nov: Nifty 25,030.35 (+2.01%), Sensex 81,028.02 (+2.17%), eight-month highs, seventh straight gain; week Nifty +8.6%, Sensex +8.8%, strongest since Feb 2021; FIIs bought about ₹15,000 crore on Thursday, biggest single day in nearly six years; 2026 so far Nifty -4.2%, Sensex -4.9%. — [Reuters via Business Recorder, 6 Nov 2026](https://www.brecorder.com/news/40447766/indian-stocks-buck-global-tech-rout-post-best-week-in-6-years)
-- Samvat 2082: Sensex 84,484.67 → 74,459.53 (about -11.9%), Nifty 25,901.20 → 23,053.10 (about -11%) to Fri 30 Oct. — [ET Now, 2 Nov 2026](https://www.etnownews.com/markets/samvat-2082-sees-a-year-of-losses-for-dalal-street-sensex-nifty-fall-up-to-12-is-the-worst-over-article-156450519)
-- 'Samvat 2082: Sensex, Nifty set to post worst show in 15 years' (headline; body paywalled). — [Business Standard, 5 Nov 2026](https://www.business-standard.com/markets/news/samvat-2082-sensex-nifty-set-to-post-worst-show-in-15-years-126110401954_1.html)
-- Context (Oct 2025): analysts suggested Nifty 30,000 and Sensex 95,000 by next Diwali. — [Analytics Insight, 21 Oct 2025 (context, older than a week)](https://www.analyticsinsight.net/news/samvat-2082-diwali-muhurat-trading-recap-key-levels-sector-moves-and-expert-forecasts)
+- Nov 2026 22,306 weekly domestic flights vs 22,912 in Oct 2025 (-606, about 2.6%); IndiGo 13,697 (-2.7%); Air India 3,101 (-14.9%); Patna 377 → 302; causes: jet fuel costs, rupee. — [Free Press Journal (Cirium via Business Standard), 2 Nov 2026](https://www.freepressjournal.in/business/airlines-schedule-26-fewer-flights-this-diwali-season-as-high-airfares-hit-demand)
+- September domestic passengers down more than 6% YoY (DGCA); IndiGo Q2 passengers -4.7%, capacity -1%, yield +34% to ₹6.3; IndiGo 65.4%, Air India 26.8% share; Chennai–Mumbai about ₹13,000 return. — [The Week, 2 Nov 2026](https://www.theweek.in/news/biz-tech/2026/11/02/indigo-airline-challenges-and-rising-fares.html)
+- 'Don't travel by air': bench of Justices Vikram Nath, Sandeep Mehta, Aparesh Kumar Singh refused urgent listing of a plea alleging a nearly 700% fare rise; separate plea reported for 16 Nov. — [National Herald, 2 Nov 2026](https://www.nationalheraldindia.com/national/dont-travel-by-air-sc-refuses-urgent-hearing-on-plea-alleging-700-pc-airfare-hike)
 
 ### Watch out
-- 'Worst in 15 years' was the call at the 30 Oct levels; at -4% it almost certainly no longer holds. Say 'was heading for the worst in 15 years'.
-- -4.1% and -3.4% are our calculation from Friday's closes; Sunday's Muhurat hour will move them slightly. Say 'about 4%'.
-- The market-cap figure differs by outlet (Zee Business ₹28.70 lakh crore for the week; CNBC-TV18 'nearly ₹30 lakh crore'): avoid it or say 'about ₹29 lakh crore'.
-- Index levels only: no stock names, no Diwali picks, no targets, no 'will it rise in 2083'.
-- Bets: B1 (stake: 'your SIP since last Diwali'), B3 (the 'sold in October' line), B4 (split screen: 'Nifty 30,000' forecast headline on top vs today's level).
+- The 700% is the petitioner's advocate's claim, not a measured fare. Don't put it on screen as fact.
+- The 2.6% compares November 2026 with October 2025 (sources describe the baseline differently); say 'about 600 fewer flights a week than last Diwali season'.
+- IndiGo's '+34% yield' is from one outlet (The Week); confirm in IndiGo's Q2 release before it goes on screen.
+- Quote the judge exactly and fairly; humour on the system, not the judge personally. IndiGo's and Air India's logos are fine; no stock call on IndiGo.
+- Stake for investors is thin (0): the travel pain carries it. Bets: B1 (the fare number), B3 ('Don't travel by air'), B4 (split screen: the IndiGo logo and the fare on top).
 
 ## Stories we're tracking
 
@@ -142,28 +140,24 @@ Full board: research/desk/TRACKER.md
 
 | Story | Now | Direction | Day | Status |
 |---|---|---|---|---|
-| Mutual funds halt new gold FoF SIPs and bulk gold ETF buys (`gold-fund-halt`) | HOT | steady | 23 | active |
-| Groww's F&O share of revenue falls to 45%; turns to IPOs and wealth (via The Arc) (`groww-derivatives-arc`) | COLD | steady | 21 | active |
-| Silver -46% from January record (₹3,84,632 → ₹2,08,380/kg) before Dhanteras (`silver-crash-46`) | COLD | fading | 18 | active |
-| NSE unlisted buyers below IPO price (The Ken) (`nse-unlisted-regret-ken`) | COLD | rising | 15 | active |
-| Anthropic S-1: $16.3 bn H1 revenue, $80.7 bn loss ($72.4 bn paper charge) (`anthropic-s1`) | RISING | rising | 10 | active |
-| LTCG tax-cut debate: ₹1.29 lakh crore a year; The Ken says don't cut (`ltcg-cut-debate`) | FLAT | fading | 10 | active |
-| 773 government sites still serving eMudhra's revoked certificates (via The Ken) (`emudhra-gov-sites`) | COLD | steady | 9 | active |
-| Ola Electric rights issue: founder pledges shares to buy in, SoftBank sells (`ola-rights-pledge`) | COLD | steady | 8 | active |
-| IDBI sale: Fairfax bid opened, then ₹94.42 floor discarded; sold at ₹81 (via BusinessWorld) (`idbi-note-reserve`) | HOT | steady | 7 | active |
-| Binance $6.3 bn hack: users don't pay; WazirX users did (`binance-hack-wazirx`) | HOT | rising | 6 | active |
-| SEBI order on EKI Energy: ₹197 cr revenue early, ₹88 lakh fines (`eki-sebi-order`) | COLD | rising | 6 | active |
-| Axis MF front-running: Dubai AnyDesk trades, brokers fined ₹10 lakh each (`axis-mf-frontrun`) | COLD | fading | 4 | active |
-| Stockal: US shares sold without consent, swapped for Chinese microcaps; ₹100 cr+ alleged (`stockal-unauthorised-trades`) | HOT | rising | 3 | active |
-| Samvat 2082: Sensex -11.9%, Nifty -11%, worst in 15 years (`samvat-2082-worst`) | RISING | rising | 3 | active |
-| AI trade cracks: Nvidia -$450 bn, Nasdaq -5.5%; FIIs buy ₹14,975 cr of India the same day (`ai-crash-india-inflow`) | HOT | new | 2 | active |
-| Videocon's Venugopal Dhoot declared personally bankrupt over ₹12,668 crore SBI dues (`videocon-dhoot-bankrupt`) | - | new | 1 | active |
+| Mutual funds halt new gold FoF SIPs and bulk gold ETF buys (`gold-fund-halt`) | FLAT | fading | 24 | active |
+| Groww's F&O share of revenue falls to 45%; turns to IPOs and wealth (via The Arc) (`groww-derivatives-arc`) | COLD | fading | 22 | active |
+| Anthropic S-1: $16.3 bn H1 revenue, $80.7 bn loss ($72.4 bn paper charge) (`anthropic-s1`) | RISING | steady | 11 | active |
+| LTCG tax-cut debate: ₹1.29 lakh crore a year; The Ken says don't cut (`ltcg-cut-debate`) | FLAT | rising | 11 | active |
+| 773 government sites still serving eMudhra's revoked certificates (via The Ken) (`emudhra-gov-sites`) | COLD | steady | 10 | active |
+| IDBI sale: Fairfax bid opened, then ₹94.42 floor discarded; sold at ₹81 (via BusinessWorld) (`idbi-note-reserve`) | HOT | rising | 8 | active |
+| SEBI order on EKI Energy: ₹197 cr revenue early, ₹88 lakh fines (`eki-sebi-order`) | COLD | rising | 7 | active |
+| Axis MF front-running: Dubai AnyDesk trades, brokers fined ₹10 lakh each (`axis-mf-frontrun`) | COLD | steady | 5 | active |
+| Stockal: US shares sold without consent, swapped for Chinese microcaps; ₹100 cr+ alleged (`stockal-unauthorised-trades`) | HOT | fading | 4 | active |
+| Samvat 2082: Sensex -11.9%, Nifty -11%, worst in 15 years (`samvat-2082-worst`) | FLAT | fading | 4 | active |
+| AI trade cracks: Nvidia -$450 bn, Nasdaq -5.5%; FIIs buy ₹14,975 cr of India the same day (`ai-crash-india-inflow`) | HOT | steady | 3 | active |
+| Videocon's Venugopal Dhoot declared personally bankrupt over ₹12,668 crore SBI dues (`videocon-dhoot-bankrupt`) | COLD | new | 2 | active |
+| Airlines fly fewer, charge more: IndiGo passengers -4.7%, yield +34%; SC 'Don't travel by air' (via The Ken) (`airfares-fly-less-pay-more`) | - | new | 1 | active |
 
 ## Also on the wire
-- AI-trade story (yesterday's pick, `ai-crash-india-inflow`): its window closes today. Nvidia rebounded about 7% on Fri 6 Nov after its biggest one-day fall in nearly two years (Livemint headline); India's side of it is now folded into story 3. Your 6 Nov draft is at review.
-- Tesla is winding down the Cybertruck (Reuters, WSJ, 6 Nov); news is saturated (100 of 100 items today) and India's stake is thin. Tata Sons listing: a Bombay HC plea asks the RBI to direct the listing; hearing 2 Dec (Business Standard, CNBC-TV18). RBI: record ₹2.87 lakh crore dividend to the Centre for FY26 (DD News, 5 Nov; not opened). MobiKwik got an RBI NBFC licence (CNBC-TV18).
-- Movers (headlines, not opened): Astral -10 to 12% on a Q2 miss (Moneycontrol, CNBC-TV18, 6 Nov); Coffee Day: SAT set aside SEBI's ₹26 crore penalty and ordered a fresh probe into the ₹3,535 crore diversion (ETLegal, LiveLaw). Salaries: Aon projects 9.1% raises in India for 2027 (Aon, 6 Nov); foundit: 7 in 10 professionals plan a job switch, half want 31%+ (India Today).
-- Deep-lane feed (deep_leads.py): ET Prime, 'Junk bonds are cracking at the bottom' (5 Nov); The Arc, 'UPI effect: Visa looks to win back debit-card spending' (4 Nov); The Core podcast on Kotak Neo (7 Nov). None opened past the paywall; none beat story 3 for today.
+- Your Videocon hook and story (7 Nov, 'repayment promise') is at review; the Dhoot story is COLD on the tracker today (3 of 5 news items), so it needs to go out in the next day or two if at all. Same-shape lead: the CBI booked Future Retail, Kishore Biyani and Rakesh Biyani in an alleged ₹904.32 crore SBI fraud (FIR 4 Nov, searches 6 Nov; Big Bazaar's parent) (Deccan Chronicle; The 420.in). An allegation, not a finding. COLD on news, YouTube best 9,515 views in 24 h.
+- Coca-Cola's Indian bottler Hindustan Coca-Cola Holdings filed for an IPO (Reuters headline, 7 Nov; not opened); earlier reports put it near $1 billion at about a $10 billion valuation. COLD today (YouTube best 550/hr); worth sending when the DRHP numbers are public.
+- Google Trends India this morning: 'बोनस शेयर' 1000+, 'टाटा स्टील' 100+, 'canva' 1000+; no clear single cause found for any of them. Tracker: Stockal HOT but fading; IDBI sale and the AI-crash story HOT on YouTube; LTCG debate FLAT; gold-fund halt FLAT.
 - Tool changes: none. HIGGSFIELD_API_KEY isn't set on this cloud machine, so model_live.py refresh was skipped.
 
 ## Where we stand
