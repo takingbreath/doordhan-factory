@@ -27,19 +27,15 @@
     "Bloomberg reported on 6 Nov, citing people familiar with the matter, that potential IPO buyers are now discussing a valuation of $1.2 trillion to $1.3 trillion, some as low as $1.1 trillion. In early October some investors thought it could reach $2 trillion. After the company's latest financial briefing that fell to about $1.4 to 1.5 trillion. HSBC's Max Kettner said about $1 trillion may be a more reassuring level. Anthropic declined to comment (ABAB News, republishing Bloomberg).",
     "The same week, three large investors told the WSJ that $1.5 trillion would likely need to come down, and one raised a delay. Anthropic is aiming at the week of 16 Nov, but four people familiar with investor discussions said buyers doubt the roadshow can happen in time. A smaller offering is the third option. Executives and advisers were due to meet 'in the coming days' (24/7 Wall St via Yahoo Finance, 6 Nov).",
     "The price range and share count are still blank. The amended S-1 of 2 Nov shows Q3 revenue of about $17 billion (up from $1.4 billion a year earlier), a Q3 operating loss of $567 million and $146.6 billion of cash. It plans to raise up to $100 billion, which would be the biggest IPO ever, with Goldman Sachs and Morgan Stanley leading 22 banks (24/7 Wall St; FinanceFeeds).",
-    "Anthropic's last private round (Series H, May 2026) valued it at $965 billion (FinanceFeeds). At $1.1 trillion, the IPO would price only about 14% above that private round (our calculation).",
-    "The trigger was the post-midterm tech rout: the Nasdaq 100 fell 6.4% on Thu 5 Nov, wiping out about $2.3 trillion in one day (ABAB/Bloomberg)."
+    "Anthropic's last private round (Series H, May 2026) valued it at $965 billion (FinanceFeeds). At $1.1 trillion, the IPO would price only about 14% above that private round (our calculation)."
    ],
    "curiosity_gaps": [
     "In five weeks the same company's price tag has gone from $2 trillion to $1.1 trillion of talk. Nothing about the business changed; the buyers' mood did. Who actually sets an IPO price?",
-    "The biggest IPO in history might list at barely more than its last private round. The people who bought in privately in May at $965 billion are the ones sweating, not the public.",
-    "It has $146.6 billion in cash and doesn't need the money tomorrow. Does it list cheap this month, or walk away and wait?"
+    "The biggest IPO in history might list at barely more than its last private round. The people who bought in privately in May at $965 billion are the ones sweating, not the public."
    ],
    "measured": [
     "trends.py 'anthropic ipo': HOT, 20 of 100 news items this week came today. YouTube this week: 17 videos, 538K views; best 'Anthropic's IPO Delay, Midterms' Impact on AI…' at 150,097 views in 24 h (6,254/hr). 'anthropic ipo valuation': FLAT (3 today of 48 this week).",
-    "Tracker 'anthropic-s1': HOT, rising (20 of 100 news items today).",
-    "vidIQ keyword 'anthropic ipo' (8 Nov): volume 82, competition 68, about 299K monthly searches, +249%; India and the US 21% each.",
-    "vidIQ Instagram outliers since 1 Nov, Indian audience: no Anthropic reel broke out this week. The adjacent AI-crash reels did: @anushkarathod98 'US stock market crashes $2.5 trillion' 1.4M (3.4×, 6 Nov)."
+    "vidIQ keyword 'anthropic ipo' (8 Nov): volume 82, competition 68, about 299K monthly searches, +249%; India and the US 21% each."
    ],
    "others": [
     {
@@ -57,14 +53,6 @@
      "multiple": "134× usual",
      "date": "27 Oct",
      "url": "https://www.instagram.com/reel/DfAUHmAvtqJ"
-    },
-    {
-     "who": "@financetalkswithaman (Instagram)",
-     "what": "'World's biggest IPO, bigger than SpaceX?', yellow headline bar (before the price talk fell)",
-     "views": "966K",
-     "multiple": "24× usual",
-     "date": "30 Oct",
-     "url": "https://www.instagram.com/reel/DfHet_AJDbQ"
     }
    ],
    "others_takeaway": "The Indian breakouts all sold the size ('biggest IPO ever', 'Jio ka 10X'). Still missing: the same IPO getting cheaper every few days, and that it may now list near its last private price.",
@@ -117,13 +105,11 @@
    ],
    "curiosity_gaps": [
     "₹499 crore in four days is a record-breaking Diwali, and it still covers about an eighth of the ₹4,000 crore bill. How does a film this expensive ever break even?",
-    "The ticket count is 93 lakh, but the ticket window is only one of the ways the money comes back (streaming, satellite, music, overseas). Which one carries a ₹4,000 crore bet?",
-    "The film's producer runs a listed company that the tax department searched a month before release. The audience saw the film; few know the company behind it."
+    "The ticket count is 93 lakh, but the ticket window is only one of the ways the money comes back (streaming, satellite, music, overseas). Which one carries a ₹4,000 crore bet?"
    ],
    "measured": [
     "trends.py 'ramayana box office': HOT, 51 of 100 news items this week came today. YouTube this week: 1.79M views; best 'Why is This happening? Ramayana Day 2 Box Office report' 1,188,911 views in 24 h (49,538/hr).",
-    "vidIQ keyword 'ramayana box office collection' (IN): volume 73, competition 57, about 77,400 monthly searches; India 54% of searches.",
-    "vidIQ Instagram outliers (Indian audience, since 26 Oct): five money-angle Ramayana reels at 1–2.2M, almost all on 'how will it recover ₹4,000 crore', mostly made before release."
+    "vidIQ keyword 'ramayana box office collection' (IN): volume 73, competition 57, about 77,400 monthly searches; India 54% of searches."
    ],
    "others": [
     {
@@ -149,14 +135,6 @@
      "multiple": "14.4× usual",
      "date": "1 Nov",
      "url": "https://www.instagram.com/reel/DfL7xmHIrfq"
-    },
-    {
-     "who": "@devgautam0052 (Instagram)",
-     "what": "Split screen: box-office revenue split, actor pay vs producer's share",
-     "views": "980K",
-     "multiple": "28.9× usual",
-     "date": "7 Nov",
-     "url": "https://www.instagram.com/reel/DfcGhksTKMb"
     }
    ],
    "others_takeaway": "The 'how will it recover ₹4,000 crore' angle is taken (four reels at 1–2.2M). Missing: the scorecard now the weekend is in, ₹499 crore of ₹4,000 crore, and how much of that ₹499 crore reaches the producer at all.",
@@ -209,13 +187,11 @@
    ],
    "curiosity_gaps": [
     "Millions watched a family find Reliance certificates in the raddi. The bigger find is that about ₹13,900 crore of Reliance shares nobody has claimed are already sitting with the government.",
-    "₹89,000 crore of shares belong to someone. Grandparents' folios, dead relatives' certificates, a dividend that went to an old address seven years running: whose money is it, and how many families even know?",
-    "In two years only 75,417 claims were approved, against shares worth tens of thousands of crores. Why is getting your own shares back so hard?"
+    "₹89,000 crore of shares belong to someone. Grandparents' folios, dead relatives' certificates, a dividend that went to an old address seven years running: whose money is it, and how many families even know?"
    ],
    "measured": [
     "trends.py 'unclaimed shares' and 'reliance share certificate': COLD on news (0 today). YouTube: 214K–251K views this week, nothing breaking out.",
-    "vidIQ keyword 'unclaimed shares' (IN): volume 0, competition 31, under 750 monthly searches. People don't search it; they share the reel.",
-    "vidIQ Instagram outliers (5–6 Nov): four 'Diwali cleaning' Reliance-certificate reels at 1.1M–8.8M, 28× to 547× their usual. None gives the ₹89,000 crore or what happens to unclaimed shares."
+    "vidIQ keyword 'unclaimed shares' (IN): volume 0, competition 31, under 750 monthly searches. People don't search it; they share the reel."
    ],
    "others": [
     {
@@ -241,14 +217,6 @@
      "multiple": "547× usual",
      "date": "6 Nov",
      "url": "https://www.instagram.com/reel/DfYnLHIRteU"
-    },
-    {
-     "who": "@indiabusinesscom (Instagram)",
-     "what": "POV storytelling: '₹18 lakh worth of Reliance share certificates found'",
-     "views": "1.1M",
-     "multiple": "28× usual",
-     "date": "6 Nov",
-     "url": "https://www.instagram.com/reel/DfZORUCSmUC"
     }
    ],
    "others_takeaway": "Everyone posted the find. Nobody posted the scale (₹89,000 crore, Reliance the biggest slice) or what happens to shares nobody claims.",
