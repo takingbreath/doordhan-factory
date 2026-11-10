@@ -1,136 +1,136 @@
-# Doordhan desk research — Mon 09 Nov 2026
+# Doordhan desk research — Tue 10 Nov 2026
 
-Session: https://claude.ai/code/session_01PasrAuWgAKgo73fEv2HLaV
+Session: https://claude.ai/code/session_01PasrAs7sA7BUrKC2aUQ16t
 
-**Pick: story 1.** Anthropic is still the first ride on this week's plan, a follow-up to E15 (12.6K plays), and the story moved again over the weekend. Bloomberg (6 Nov) says buyers are now talking about $1.2 to 1.3 trillion, some as low as $1.1 trillion. That is down from $1.5 to 2 trillion a week earlier, and close to the $965 billion of its last private round in May. People familiar with the talks say buyers doubt the roadshow can start in time for a 16 Nov week listing. No price range is filed yet. Each step this week (a range, a delay) is a new turn, and the window runs to about 20 Nov.
+**Pick: story 1.** Anthropic is the first ride on this week's plan, a follow-up to E15 (12.6K plays), and the story turned overnight. Reuters, citing a filing, reports a price range of $70 to $80 a share for about 867 million new shares, raising up to about $69 billion. Google, Nvidia, AMD, Broadcom, Micron, Microsoft and TSMC are to put another $26 billion in at the IPO price. Nasdaq ticker ANT, trading as soon as Thu 19 or Fri 20 Nov (WSJ). The implied valuation isn't public yet, and the range wasn't on EDGAR when we checked at about 07:50 IST. Window to about 20 Nov.
 
-Runner-up: 2, Ramayana: ₹499 crore worldwide in four days, against a budget its producer put at over ₹4,000 crore for both parts. It is the hottest money-adjacent story in India today (a Day 2 box-office video did 1.19M views in 24 h), but the window is this week while the daily numbers come in. Story 3 (₹89,000 crore of unclaimed shares, after the Reliance certificates went viral) is open to about 23 Nov. Your IndiGo hook and story (8 Nov) and Videocon (7 Nov) are still at review.
+Runner-up: 2, India's best week since February 2021: Nifty +8.6% while the AI sell-off hit the US, Korea and Japan. Foreign investors bought about ₹46,000 crore in five sessions, about what they had pulled out in all of October. It's the hottest market story on YouTube this week, but '@tarunmalikx' already took 'world crashed, India rallied' to 5.4M. Story 3 (deep lane, via The Ken): Novartis India, the 79-year-old company behind Voveran and Calcium Sandoz, has about 50 staff and no factory. A PE fund paid about ₹1,446 crore for 71% of it, and when public shareholders were offered the same price, 40 shares out of 64 lakh were tendered.
 
-## 1. Anthropic's IPO price talk keeps falling: $2 trillion hoped, $1.5 trillion asked, now $1.2–1.3 trillion, close to its last private price
+## 1. Anthropic puts a price on it: $70–80 a share, up to $69 billion raised, plus $26 billion from Nvidia, Google, Microsoft and its other suppliers
 
-Hot lane (tracked since 29 Oct; Ride-now follow-up to E15; new turn since Sunday's desk: Bloomberg's $1.1–1.3 trillion and doubts about the roadshow) · HOT · **9/10** (momentum 3/3, stake 1/1, shareability 2/2, gap 1/2, known name 2/2) · tracker id `anthropic-s1`
+Hot lane (tracked since 29 Oct; Ride-now follow-up to E15; new since yesterday's desk: the price range, the $26 billion from its suppliers and a listing date) · HOT · **9/10** (momentum 3/3, stake 1/1, shareability 2/2, gap 1/2, known name 2/2) · tracker id `anthropic-s1`
 
-Window: To about 20 Nov. Anthropic is aiming at the week of 16 Nov. A price range filed on EDGAR, or a delay, is the next turn, probably this week.
+Window: To about Fri 20 Nov. Trading could start Thu 19 or Fri 20 Nov (WSJ). Next turns: the range on EDGAR, the roadshow, the final price.
 
 ### What's happening
-- Bloomberg reported on 6 Nov, citing people familiar with the matter, that potential IPO buyers are now discussing a valuation of $1.2 trillion to $1.3 trillion, some as low as $1.1 trillion. In early October some investors thought it could reach $2 trillion. After the company's latest financial briefing that fell to about $1.4 to 1.5 trillion. HSBC's Max Kettner said about $1 trillion may be a more reassuring level. Anthropic declined to comment (ABAB News, republishing Bloomberg).
-- The same week, three large investors told the WSJ that $1.5 trillion would likely need to come down, and one raised a delay. Anthropic is aiming at the week of 16 Nov, but four people familiar with investor discussions said buyers doubt the roadshow can happen in time. A smaller offering is the third option. Executives and advisers were due to meet 'in the coming days' (24/7 Wall St via Yahoo Finance, 6 Nov).
-- The price range and share count are still blank. The amended S-1 of 2 Nov shows Q3 revenue of about $17 billion (up from $1.4 billion a year earlier), a Q3 operating loss of $567 million and $146.6 billion of cash. It plans to raise up to $100 billion, which would be the biggest IPO ever, with Goldman Sachs and Morgan Stanley leading 22 banks (24/7 Wall St; FinanceFeeds).
-- Anthropic's last private round (Series H, May 2026) valued it at $965 billion (FinanceFeeds). At $1.1 trillion, the IPO would price only about 14% above that private round (our calculation).
+- Reuters, citing a filing, reports that Anthropic plans to sell about 867 million new Class A shares at $70 to $80 each, raising up to about $69 billion (investingLive, 10 Nov). The flash reports give the exact count as 866,666,664 shares and the raise as $69.3 billion (BlockBeats via KuCoin, 10 Nov). 866.7 million × $80 = $69.3 billion, so the headline raise is the top of the range (our calculation).
+- Google, Nvidia, AMD, Broadcom, Micron, Microsoft and TSMC are to invest a combined $26 billion through a private placement at the IPO price. With it, the total raised would be about $87 to $95 billion. The IPO alone is short of SpaceX's roughly $75 billion record from June; with the placement it passes it (investingLive, 10 Nov).
+- Shares would list on Nasdaq under ANT, trading as soon as Thursday or Friday next week, i.e. 19 or 20 Nov (WSJ, via investingLive). Goldman Sachs and Morgan Stanley lead the deal.
+- The implied valuation isn't public: the total shares outstanding after the offering weren't reported. Buyers had been talking about $1.2 to 1.3 trillion, some as low as $1.1 trillion, down from $2 trillion hoped for in October (Bloomberg, 6 Nov, in yesterday's desk). One report citing the FT puts the target at $1.25 to 1.75 trillion (Crypto Briefing, 9 Nov). Its last private round in May valued it at $965 billion.
 
 ### The curiosity gap
-- In five weeks the same company's price tag has gone from $2 trillion to $1.1 trillion of talk. Nothing about the business changed; the buyers' mood did. Who actually sets an IPO price?
-- The biggest IPO in history might list at barely more than its last private round. The people who bought in privately in May at $965 billion are the ones sweating, not the public.
+- The companies that sell Anthropic its chips and cloud (Nvidia, Google, Microsoft, TSMC) are putting $26 billion into its IPO. Without that money, it isn't the biggest IPO in history.
+- A price tag of $70–80 a share, but nobody has said what that makes the whole company worth. Is it the $2 trillion people talked about in October, or closer to the $965 billion of May's private round?
 
 ### How hot it is
-- trends.py 'anthropic ipo': HOT, 20 of 100 news items this week came today. YouTube this week: 17 videos, 538K views; best 'Anthropic's IPO Delay, Midterms' Impact on AI…' at 150,097 views in 24 h (6,254/hr). 'anthropic ipo valuation': FLAT (3 today of 48 this week).
+- Tracker check today: HOT, steady. 32 of 100 news items this week came today. YouTube this week: 712,899 views, best 3,904 views/hr.
+- trends.py 'anthropic ipo price range': YouTube this week 19 videos, 304,806 views. The best was 'Anthropic's $2T Valuation Slashed By 50% to $1T in Just 30 Days' (48,648 views in 72 h). Nothing on the range yet: it broke overnight.
 - vidIQ keyword 'anthropic ipo' (8 Nov): volume 82, competition 68, about 299K monthly searches, +249%; India and the US 21% each.
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [@anushkarathod98 (Instagram)](https://www.instagram.com/reel/DfZvmpAS1Xw) | Adjacent: split screen with a red heat map, 'US STOCK MARKET CRASHES $2.5 TRILLION!', AI bubble or repricing? | 1.4M | 3.4× usual | 6 Nov |
+| [Your Rich BFF (YouTube Short)](https://www.youtube.com/watch?v=1Wg8HWNrYhE) | 'Is Anthropic's IPO getting delayed??? Is AI cooked?!': talking head on the valuation doubts | 178K | 13.8× usual | 6 Nov |
 | [@cryptokibate (Instagram)](https://www.instagram.com/reel/DfAUHmAvtqJ) | Talking head + infographics, 'Jio ka 10X hoga Anthropic ka IPO' (before the price talk fell) | 1.2M | 134× usual | 27 Oct |
+| [@anushkarathod98 (Instagram)](https://www.instagram.com/reel/DfZvmpAS1Xw) | Adjacent: split screen with a red heat map, 'US STOCK MARKET CRASHES $2.5 TRILLION!', AI bubble or repricing? | 1.4M | 3.3× usual | 6 Nov |
 
-_The Indian breakouts all sold the size ('biggest IPO ever', 'Jio ka 10X'). Still missing: the same IPO getting cheaper every few days, and that it may now list near its last private price._
+_Nobody has posted the price range yet; it came out overnight. Still missing: Anthropic's own suppliers (Nvidia, Google, Microsoft) are buying $26 billion of its IPO, and the per-share price still doesn't say what the company is worth._
 
 ### Facts and sources
-- Bloomberg (people familiar): buyers discussing $1.2–1.3 trillion, some as low as $1.1 trillion; early Oct some saw $2 trillion; after the latest briefing ~$1.4–1.5 trillion; HSBC's Kettner: ~$1 trillion more reassuring; Nasdaq 100 -6.4% Thursday, ~$2.3 trillion wiped; roadshow planned next week; delay an option; Anthropic declined to comment. — [ABAB News (Bloomberg report), 6 Nov 2026](https://www.ababnews.com/en/news/9fa74dc2-b4ec-4ca2-a859-d030a3e514d9)
-- Three large investors: ~$1.5 trillion will likely need to come down, one says closer to $1 trillion; aiming at week of 16 Nov; four people say buyers doubt the roadshow can happen in time; delay or smaller offering possible; up to $100 bn raise; 22 banks led by Goldman Sachs and Morgan Stanley; Q3 revenue $17.0 bn vs $1.4 bn a year earlier; Q3 operating loss $567 mn; cash $146.6 bn at 30 Sep. — [24/7 Wall St via Yahoo Finance, 6 Nov 2026](https://finance.yahoo.com/markets/stocks/articles/big-investors-now-doubt-anthropic-133505249.html)
-- No price-range amendment on EDGAR as of 5 Nov; S-1/A of 2 Nov; Q3 operating loss $567 mn; last private valuation $965 bn (Series H, May 2026); ~$895.4 bn purchase commitments and leases. — [FinanceFeeds, 5 Nov 2026](https://financefeeds.com/anthropic-ipo-roadshow-looms-with-no-price-range/)
+- $70–80 range; ~867M new shares; up to ~$69bn (Reuters, citing a filing); $26bn placement from Google, Nvidia, AMD, Broadcom, Micron, Microsoft, TSMC; total $87–95bn; SpaceX ~$75bn record; Nasdaq 'ANT' as soon as Thu/Fri next week (WSJ); valuation not disclosed. — [investingLive (Reuters, WSJ), 10 Nov 2026](https://investinglive.com/stocks/anthropic-lines-up-26-billion-from-nvidia-google-others-as-ipo-priced-at-70-to-80/)
+- 866,666,664 Class A shares; up to $69.3 billion; $70–80 per share (unnamed sources; KuCoin republishes BlockBeats with a disclaimer). — [KuCoin / BlockBeats flash, 10 Nov 2026](https://www.kucoin.com/news/flash/anthropic-plans-ipo-to-raise-up-to-69-3-billion-at-70-80-per-share)
+- Valuation talk $1.1–1.75 trillion (was $1.5–2 trillion); listing 19 or 20 Nov; last private round $965bn (May 2026). — [Crypto Briefing, 9 Nov 2026](https://cryptobriefing.com/anthropic-nasdaq-ipo-november-valuation-range/)
+- EDGAR, Anthropic PBC (CIK 2130357): latest filing is the S-1/A of 2 Nov 2026; no price-range amendment listed when checked at about 07:50 IST on 10 Nov. — [SEC EDGAR filing index](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2130357&type=&dateb=&owner=include&count=10)
 
 ### Watch out
-- Every valuation figure is press reporting of what buyers are discussing, not an Anthropic price range. Say 'buyers are talking about' or 'reportedly', never 'Anthropic cut its price'.
-- Quarterly revenue is given as $16.8 bn (AI News Weekly, Sunday's desk) and $17.0 bn (24/7 Wall St). Say 'about $17 billion'.
-- The '14% above the private round' is our calculation from $1.1 trillion (the lowest reported talk) and $965 billion. At $1.25 trillion it is about 30% above.
-- IPO facts only: no apply, buy or skip, and no listing-gain guesses. Claude's logo is fine; use Dario Amodei's real photo and put no invented words in his mouth.
-- Bets: B1 (the stake in second one: '$2T → $1.1T'), B3 (the line: the biggest IPO ever may list at barely above its private price), B4 (split screen: Claude logo and '$2T → $1.1T?' on top).
+- The range is reported by Reuters 'citing a filing', but no new filing was on EDGAR when we checked. Say 'reportedly' until it's on EDGAR, and check again before the script is frozen.
+- Don't put a trillion-dollar valuation on screen as if it came from the range: the share count after the IPO isn't public. Any valuation is press reporting of buyers' talk.
+- 'Biggest IPO ever' needs the qualifier: the IPO alone (up to ~$69 billion) is below SpaceX's ~$75 billion; only with the $26 billion placement does it pass it.
+- IPO facts only: no apply, buy or skip, and no listing-gain guesses (Indian investors can't apply directly anyway). The Claude logo is fine; use Dario Amodei's real photo with no invented words.
+- Bets: B1 (a number in second one, e.g. '$70–80 a share'), B3 (the line: its own chip and cloud sellers are buying $26 billion of it), B4 (split screen: Claude logo and the range on top).
 
-## 2. Ramayana makes ₹499 crore worldwide in four days, but its producer put the bill at over ₹4,000 crore for the two films
+## 2. India's best week since February 2021: Nifty +8.6% while AI stocks crashed abroad, and foreigners bought back about what they'd pulled out in October
 
-Hot lane (new: Ramayana Part 1 opened 5 Nov; Diwali weekend numbers out last night) · HOT · **8/10** (momentum 3/3, stake 0/1, shareability 2/2, gap 1/2, known name 2/2) · tracker id `ramayana-box-office`
+Hot lane (new; it grew out of 'AI trade cracks, FIIs buy India', which the desk sent on 6 Nov and retired yesterday. New since then: the week's totals and Monday's close) · HOT · **8/10** (momentum 3/3, stake 1/1, shareability 2/2, gap 1/2, known name 1/2) · tracker id `india-best-week-fii`
 
-Window: This week: the weekday numbers (and whether it holds after Diwali) come in daily. Part 1 opens in Hong Kong on 12 Nov. Best posted by Wed 11 Nov.
+Window: This week. Markets are shut today (Balipratipada). The story fades once the rally pauses; each day's FII number is a new turn.
 
 ### What's happening
-- Ramayana: Part One (Ranbir Kapoor, Yash, Sai Pallavi; directed by Nitesh Tiwari; produced by Namit Malhotra) made ₹499.20 crore gross worldwide in four days to Sun 8 Nov, just short of ₹500 crore, by the box-office tracker Sacnilk (The Week, 8 Nov).
-- India: ₹238.85 crore net (₹285.20 crore gross) in four days. Day 3 (Sat) was the biggest at ₹69.80 crore net; Day 4 (Diwali Sunday) ₹56.15 crore, a 19.6% drop. Overseas ₹214 crore gross. About 93.41 lakh tickets sold so far (The Week, citing Sacnilk).
-- The bill: in an interview with Prakhar Gupta in July 2025, Malhotra said the two films would cost 'about 500 million dollars by the time we are done on both films put together', over ₹4,000 crore (Free Press Journal, 15 Jul 2025, context).
-- The money story behind it: Malhotra's Prime Focus is a listed company. The Income Tax department searched its Mumbai offices on 7 Oct, reportedly over foreign remittances, and the shares fell about 8%. The specific transactions haven't been disclosed. About 92% of Prime Focus's revenue comes from outside India (IBTimes, 7 Oct, context).
-- ₹499 crore is worldwide gross at the ticket window. A producer gets only part of that after tax, cinema and distributor shares, so it is not the money the makers get back.
+- The Nifty 50 rose 8.6% in the week to Fri 6 Nov, its strongest week since February 2021; the Sensex rose 8.8%. 46 of the 50 Nifty stocks rose (Kotak Neo, 8 Nov; JournalArta, 9 Nov).
+- Foreign institutional investors bought a net ₹45,960 crore that week on exchange data (₹38,971 crore on NSDL's count), including ₹14,975 crore on Thursday and ₹13,750 crore on Friday, their 14th straight session of buying. In all of October they had pulled out ₹45,162 crore. Domestic funds sold ₹24,197 crore, ending an 11-week buying streak (Kotak Neo).
+- Meanwhile the AI trade cracked abroad. On 5 Nov the Nasdaq 100 fell 6.3% and the US chip index 12.3%, and Nvidia fell 9.2%. On 6 Nov Korea's KOSPI fell 8% at one point and tripped its circuit breaker. That same day India's few AI-linked stocks fell hard: GNG Electronics −19.9%, Thermax −17.3%, Rashi Peripherals −14.8%, while the Nifty rose 2% (Dhruv Madia, 9 Nov).
+- Crude helped: Brent fell 13–16% on the week to about $98 (sources differ, below). On Monday 9 Nov the Nifty closed 0.23% higher at 25,044.65 (Angel One).
 
 ### The curiosity gap
-- ₹499 crore in four days is a record-breaking Diwali, and it still covers about an eighth of the ₹4,000 crore bill. How does a film this expensive ever break even?
-- The ticket count is 93 lakh, but the ticket window is only one of the ways the money comes back (streaming, satellite, music, overseas). Which one carries a ₹4,000 crore bet?
+- In October foreign investors pulled ₹45,162 crore out of India. In one week of November they put ₹45,960 crore back. What changed in a month?
+- India rallied because it has hardly any AI companies. The few AI-linked Indian stocks fell up to 20% on the same day the Nifty rose 2%.
 
 ### How hot it is
-- trends.py 'ramayana box office': HOT, 51 of 100 news items this week came today. YouTube this week: 1.79M views; best 'Why is This happening? Ramayana Day 2 Box Office report' 1,188,911 views in 24 h (49,538/hr).
-- vidIQ keyword 'ramayana box office collection' (IN): volume 73, competition 57, about 77,400 monthly searches; India 54% of searches.
+- trends.py 'FII buying India': HOT. YouTube this week: 17 videos, 1,137,771 views, best 6,802/hr ('Shankar Sharma On FII Inflows, DII Selling…', 163,256 views in 24 h). 'FII inflow week': HOT, best 'FIIs Panic Buying का Secret Exposed' 264,412 views in 72 h.
+- Google News reads 0 on these phrases (the news feed matched nothing today), so the heat comes from YouTube. 'nifty best week': COLD as a phrase.
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [@legitfinancials (Instagram)](https://www.instagram.com/reel/DfaK3HcSP1V) | Talking head with picture-in-picture: '153 CRORE', how the film's hype links to the producer company's valuation | 2.2M | 5× usual | 6 Nov |
-| [@pushkarrajthakur (Instagram)](https://www.instagram.com/reel/DfcHj0JC3Px) | 'How will Ramayana recover its ₹4,000 crore budget?', talking head + B-roll | 2M | 5.5× usual | 7 Nov |
-| [@v.i.s.h.ai (Instagram)](https://www.instagram.com/reel/DfL7xmHIrfq) | Split screen, film footage on top: 'HOW ON EARTH IS RAMAYANA GOING TO GET ITS 4,000 CRORES BACK?' | 1.4M | 14.4× usual | 1 Nov |
+| [@tarunmalikx (Instagram)](https://www.instagram.com/reel/Dfcf7eIpUZY) | Talking head with a big infographic: 'US, China, Japan, South Korea & Taiwan crash, but India's Sensex jumps +7%. What's the reason?' | 5.4M | 19.9× usual | 7 Nov |
+| [@vivekonpoint (Instagram)](https://www.instagram.com/reel/DfYFVE_ulU5) | 'AI earthquake': the US panic and how it compares with India, with news screenshots | 1.4M | 3.1× usual | 5 Nov |
+| [@aditiminglani (Instagram)](https://www.instagram.com/reel/DfZo8dGzCNC) | Split screen with headlines: 'Nifty at all-time high soon? Crazy move in the last 10 days' | 705K | 8.3× usual | 6 Nov |
 
-_The 'how will it recover ₹4,000 crore' angle is taken (four reels at 1–2.2M). Missing: the scorecard now the weekend is in, ₹499 crore of ₹4,000 crore, and how much of that ₹499 crore reaches the producer at all._
+_'World crashed, India rallied' is taken (5.4M). Still missing: the round trip (October's ₹45,000 crore exit came back in five days) and that India's own AI stocks crashed while the index flew._
 
 ### Facts and sources
-- Day 3 ₹69.80 cr net; Day 4 ₹56.15 cr net; India net ₹238.85 cr, gross ₹285.20 cr; overseas ₹45 cr Day 4, ₹214 cr total; worldwide ₹499.20 cr gross through Day 4 (₹387.25 cr through Day 3); 23.53 lakh tickets on Day 4, about 93.41 lakh total; Hong Kong release 12 Nov. Source: Sacnilk. — [The Week, 8 Nov 2026](https://www.theweek.in/news/entertainment/2026/11/08/ramayana-day-four-box-office-collection-500-crore.html)
-- Namit Malhotra: 'about 500 million dollars by the time we are done on both films put together', over ₹4,000 crore (interview with Prakhar Gupta). — [Free Press Journal, 15 Jul 2025 (context)](https://www.freepressjournal.in/entertainment/ramayana-budget-over-4000-crore-being-invested-in-ranbir-kapoor-sai-pallavi-yash-starrer)
-- IT searches at Prime Focus's Mumbai offices on 7 Oct, reportedly linked to foreign remittances (CNBC-TV18); shares fell about 8%; ~92% of revenue from outside India. — [IBTimes India, 7 Oct 2026 (context)](https://www.ibtimes.co.in/ramayana-producer-namit-malhotras-prime-focus-faces-income-tax-raid-mumbai-shares-fall-8-907132)
+- FII net buy week to 6 Nov ₹45,960 cr (exchange; NSDL ₹38,971 cr); Thu ₹14,975 cr, Fri ₹13,750 cr; 14 straight sessions; October outflow ₹45,162 cr; DIIs sold ₹24,197 cr; Nifty +8.6%, Sensex +8.8%; Brent −16% to $97.75. — [Kotak Neo, 8 Nov 2026](https://www.kotakneo.com/news/market-news/fii-inflows-surge-45960-crore-nifty-rally-86-percent-november-2026/)
+- Nifty +8.6%, best week since Feb 2021; FPI ₹45,970 cr over five sessions; Korea and Japan about −6% Friday; Brent −13% to about $98. — [JournalArta, 9 Nov 2026](https://journalarta.com/en/2026/11/09/global-sell-off-turns-indias-rally-nifty-50-fpi-inflows/)
+- 6 Nov: Nifty +2%; GNG Electronics −19.9%, Thermax −17.3%, Rashi −14.8%; 5 Nov: Nasdaq 100 −6.3%, Nvidia −9.2%; KOSPI −8% intraday, circuit breaker. Thermax and Rashi had results the night before. — [Dhruv Madia (Substack), 9 Nov 2026](https://dhruvmadia.substack.com/p/the-nifty-rose-2-and-indias-ai-stocks)
+- 9 Nov close: Nifty 50 25,044.65, +58.25 (+0.23%); SBI +2.56%, Trent +2.02%; Tata Steel −2.81%. — [Angel One, 9 Nov 2026](https://angelone.in/news/market-updates/top-gainers-and-losers-on-november-9-2026-sbi-and-trent-gain-while-tata-steel-drops-over-2)
 
 ### Watch out
-- Box-office numbers are tracker estimates (Sacnilk), not the producer's figures; trackers differ (DNA India has ₹500.20 crore worldwide). Say 'about ₹500 crore'. Overseas is a rough estimate.
-- ₹4,000 crore is for BOTH films and is the producer's own 2025 estimate ('by the time we are done'), more than a year old. Say 'two films', and don't compare ₹499 crore against it as if Part 1 alone cost that.
-- Gross is not what the producer gets. Don't put a 'recovered %' on screen without a source for the producer's share.
-- Prime Focus is listed: company facts only, no buy or sell call, no price chart. The IT search is a search, not a finding.
-- Real people: real photos and footage of Ranbir, Yash and Malhotra are fine (Akhilesh's copyright call on trailer clips); no invented words. Stake for investors is thin (0); the famous name and the number carry it.
-- Bets: B1 ('₹500 CR IN 4 DAYS. BILL: ₹4,000 CR'), B3 (the line about the ticket money that never reaches the producer), B4 (split screen: the film's poster or footage and the number on top).
+- FII totals differ by source: ₹45,960 crore (exchange data), ₹45,970 crore (JournalArta) and ₹38,971 crore (NSDL). Use 'about ₹46,000 crore, exchange data'.
+- Brent's weekly fall is 16% in one source and 13% in another. Use 'oil fell sharply' or give the source.
+- The SEBI price-data rule: no index chart, no levels or targets on screen. Use the percentage and 'best week since 2021'. No buy call on India or on any stock, and the AI stocks are named as news, not as picks.
+- The weekly KOSPI and Nikkei totals (−12%, −9%) appear only in search summaries we couldn't open. Use the opened figure: KOSPI −8% intraday on 6 Nov, circuit breaker.
+- Bets: B1 ('₹45,000 crore out, ₹46,000 crore back'), B3 (India rallied because it has no AI stocks), B4 (split screen: the Nifty's week against the Nasdaq's on top).
 
-## 3. ₹89,000 crore of shares sit unclaimed with the government, and Reliance is the biggest slice, while 'Diwali cleaning' certificate reels top 8.8M
+## 3. Novartis India has about 50 staff and no factory, and a PE fund paid about ₹1,446 crore for 71% of it. When the public was offered the same price, 40 shares were tendered out of 64 lakh
 
-Deep lane (a 1 Finance study reported by Business Today; Moneylife covered the duplicate-certificate procedure on 6 Nov. The hook is this week's viral Reliance certificates found in Diwali cleaning) · COLD · **8/10** (momentum 1/3, stake 1/1, shareability 2/2, gap 2/2, known name 2/2) · tracker id `unclaimed-shares-iepf`
+Deep lane (via The Ken, 9 Nov: 'Novartis India's headcount: 57. ChrysCapital's price for it: Rs 1,400 cr'; public facts verified from open sources) · COLD · **6/10** (momentum 0/3, stake 1/1, shareability 2/2, gap 2/2, known name 1/2) · tracker id `novartis-india-ken`
 
-Window: To about Mon 23 Nov: the Diwali-cleaning wave (5–6 Nov) is fading on news but still circulating. The underlying story doesn't date.
+Window: Deep lane, to about Tue 24 Nov. The story doesn't date. The next turn is the new owners' first acquisition.
 
 ### What's happening
-- This week's biggest Indian money outliers were Diwali-cleaning finds: old Reliance share certificates a mother nearly threw away. @edge.stream 8.8M (260×), @kiddaan 3.9M (163×), @deshonenews 3M (547×), @indiabusinesscom 1.1M ('reportedly worth ₹18 lakh'), all posted 5–6 Nov (vidIQ).
-- When shares go unclaimed long enough, they don't vanish: they move to the government's Investor Education and Protection Fund (IEPF). A 1 Finance study put the shares held by the IEPF Authority at about ₹89,004 crore across 1,671 listed companies as of November 2025. Reliance Industries is the biggest at 15.6% of the value, ahead of HDFC Bank 2.4%, L&T 2.3%, HUL 2.2% and JSW Steel 2.2% (Business Today, 12 Apr 2026).
-- 15.6% of ₹89,004 crore is roughly ₹13,900 crore of Reliance shares (our calculation, at November 2025 prices). The value has grown about 26% a year since 2018 and the number of shares about 17% a year. Unpaid dividends and other cash balances were ₹8,237 crore as of March 2024, and unclaimed financial assets of all kinds exceed ₹2.2 lakh crore (Business Today).
-- It can be claimed back, but few people do. In the two years to July 2026 the IEPF got 1,32,545 applications and approved 75,417, returning 4.36 crore shares and ₹77.82 crore of dividends (Lok Sabha reply of 27 Jul 2026, via Outlook Money). Claims can be made at any time; after verification the shares go back to the claimant's demat account (Business Today).
+- Novartis AG sold its 70.68% stake in Novartis India (1,74,50,680 shares) to a consortium led by ChrysCapital. The deal was signed on 19 Feb 2026 at ₹1,445.89 crore (₹1,376.8 crore after closing adjustments) and closed on 29 Jul 2026 (Kautilya, 28 Aug).
+- The company is 79 years old and listed, with about 50 employees and no factories of its own. Its brands include Voveran, Calcium Sandoz and Tegrital. Novartis kept its unlisted Hyderabad R&D and innovative-medicines business (Kautilya). The Ken's 9 Nov headline puts the headcount at 57.
+- The takeover triggered a mandatory open offer: 26% at ₹860.64 a share, a 3.64% premium to the previous close. By the tender window the share was trading more than 72% higher, so only 40 of 64,19,608 shares were tendered (Kautilya; Medical Dialogues).
+- There were two prices: the offshore buyer, WaveRise (Mauritius), paid ₹860.64 and the onshore buyers ₹701.25. The rules made the open offer match the highest price paid (Kautilya). FY26 profit was ₹93.18 crore, down 6.8%.
 
 ### The curiosity gap
-- Millions watched a family find Reliance certificates in the raddi. The bigger find is that about ₹13,900 crore of Reliance shares nobody has claimed are already sitting with the government.
-- ₹89,000 crore of shares belong to someone. Grandparents' folios, dead relatives' certificates, a dividend that went to an old address seven years running: whose money is it, and how many families even know?
+- Everyone has had Voveran or Calcium Sandoz. The listed company behind them has about 50 employees, roughly the staff of a mid-size office, and a PE fund paid about ₹1,446 crore for 71% of it.
+- Public shareholders were offered the same ₹860 a share. Out of 64 lakh shares, 40 were tendered. Why would almost nobody take a takeover offer?
 
 ### How hot it is
-- trends.py 'unclaimed shares' and 'reliance share certificate': COLD on news (0 today). YouTube: 214K–251K views this week, nothing breaking out.
-- vidIQ keyword 'unclaimed shares' (IN): volume 0, competition 31, under 750 monthly searches. People don't search it; they share the reel.
+- trends.py 'Novartis India': COLD. 2 news items today of 9 this week (22% today). YouTube this week: 11 videos, none on the deal.
+- vidIQ: no Shorts or reels on the deal surfaced in this week's searches.
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [@edge.stream (Instagram)](https://www.instagram.com/reel/DfXQrkBu5JE) | POV: a man finds Reliance share certificates in a trash pile his mother was about to scrap | 8.8M | 260× usual | 5 Nov |
-| [@kiddaan (Instagram)](https://www.instagram.com/reel/DfXay1oqPk5) | POV voice-over: a son's reaction to finding old Reliance certificates in Diwali cleaning | 3.9M | 163× usual | 5 Nov |
-| [@deshonenews (Instagram)](https://www.instagram.com/reel/DfYnLHIRteU) | Hand holding crumpled certificates: 'Diwali ki safai mein mila khazana' | 3M | 547× usual | 6 Nov |
 
-_Everyone posted the find. Nobody posted the scale (₹89,000 crore, Reliance the biggest slice) or what happens to shares nobody claims._
+_Nobody has made this. The open-offer flop (40 shares) and the 50-person company behind household medicines are untouched._
 
 ### Facts and sources
-- 1 Finance study: IEPF Authority holds shares worth about ₹89,004 crore across 1,671 listed companies (Nov 2025); Reliance 15.6% of value; HDFC Bank 2.4%, L&T 2.3%, HUL 2.2%, JSW Steel 2.2%; shares +17%/yr and value +26%/yr since 2018; unpaid dividends and cash ₹8,237 crore (Mar 2024); unclaimed financial assets > ₹2.2 lakh crore; claims can be made any time. — [Business Today, 12 Apr 2026 (context: the latest full count found)](https://www.businesstoday.in/personal-finance/investment/story/reliance-industries-tops-iepf-unclaimed-shares-rs89000-crore-stuck-across-1671-companies-report-525182-2026-04-12)
-- Lok Sabha reply, 27 Jul 2026 (MoS Corporate Affairs Harsh Malhotra): in two years 1,32,545 applications, 75,417 approved, 4.36 crore shares returned, ₹77.82 crore dividends refunded; about ₹9,000 crore unclaimed dividends lie with the fund. — [Outlook Money, 29 Jul 2026 (context)](https://www.outlookmoney.com/personal-finance/unclaimed-funds-in-iepf-over-75000-claims-approved-in-two-years-rs-7782-crore-dividend-refunded)
+- 70.68% for ₹1,445.89 cr (₹1,376.8 cr after adjustments); signed 19 Feb, closed 29 Jul 2026; ~50 employees, no factories; Voveran, Calcium Sandoz, Tegrital; offer 26% at ₹860.64; 40 of 64,19,608 shares tendered; FY26 profit ₹93.18 cr (−6.8%). — [Kautilya (newsletter), 28 Aug 2026](https://www.kautilya-pe.com/newsletter/chryscapital-novartis-india-acquisition-explained)
+- Novartis AG to exit India arm in ₹1,446 crore deal; ChrysCapital-led consortium buys 70.68%; open offer for 26% at ₹860.64 (context, Feb 2026). — [Medical Dialogues (context, older than a week)](https://medicaldialogues.in/amp/news/industry/pharma/novartis-ag-to-exit-india-arm-in-rs-1446-cr-deal-chryscapital-led-consortium-buys-7068-stake-165084)
+- The Ken, 9 Nov 2026 (headline only; paywalled, not copied): 'Novartis India's headcount: 57. Chryscapital's price for it: Rs 1,400 cr. Investors after the deal: We love it'. — [The Ken, 9 Nov 2026](https://the-ken.com/)
 
 ### Watch out
-- The ₹89,004 crore is as of November 2025 (a study published in April), the latest full count found, older than a week. Say 'about ₹89,000 crore, last count' on screen, and present it as the scale behind this week's viral find, not as today's news.
-- The viral reels name no family and I couldn't confirm the 2026 find or its '₹18 lakh'. The documented case is March 2025 (a Chandigarh man, about ₹11–12 lakh, per several outlets). Don't put the ₹18 lakh on screen as fact.
-- Unpaid dividends: Business Today has ₹8,237 crore (Mar 2024); the Lok Sabha reply via Outlook Money has about ₹9,000 crore with no date. Use 'about ₹9,000 crore' only with 'per the government'.
-- No buy or sell call on Reliance; the logo is fine since the story is about its shares. How to claim: one line at most ('IEPF portal, Form IEPF-5'). The form name comes from secondary guides; confirm on iepf.gov.in before it goes on screen.
-- Bets: B1 ('₹89,000 CRORE. KISKA HAI?' with the certificate image), B3 (the line a viewer would send to a parent: check the old folios), B4 (split screen: an old certificate or the Reliance logo on top).
+- Headcount: The Ken's headline says 57 and Kautilya says about 50. Use 'about 50' (or '57, per The Ken') and credit The Ken in the caption ('via The Ken').
+- Deal value: ₹1,446 crore at signing and ₹1,376.8 crore after adjustments; The Ken rounds it to ₹1,400 crore. Use 'about ₹1,400 crore'.
+- The deal is months old; the news is The Ken's 9 Nov story on it. Present it as a story, not breaking news. No current share price on screen (SEBI price-data rule), and no buy or sell call.
+- The Novartis logo is fine, since the story is about the company. Brand packs (Voveran, Calcium Sandoz) should be real photos, never drawn by an image model.
+- Bets: B1 ('40 shares' in frame one), B3 (the 50-person company behind Voveran), B4 (split screen: the Novartis logo and '40 / 64,00,000' on top).
 
 ## Stories we're tracking
 
@@ -138,27 +138,28 @@ Full board: research/desk/TRACKER.md
 
 | Story | Now | Direction | Day | Status |
 |---|---|---|---|---|
-| Groww's F&O share of revenue falls to 45%; turns to IPOs and wealth (via The Arc) (`groww-derivatives-arc`) | COLD | rising | 23 | active |
-| Anthropic S-1: $16.3 bn H1 revenue, $80.7 bn loss ($72.4 bn paper charge) (`anthropic-s1`) | HOT | rising | 12 | active |
-| LTCG tax-cut debate: ₹1.29 lakh crore a year; The Ken says don't cut (`ltcg-cut-debate`) | FLAT | steady | 12 | active |
-| 773 government sites still serving eMudhra's revoked certificates (via The Ken) (`emudhra-gov-sites`) | COLD | fading | 11 | active |
-| Axis MF front-running: Dubai AnyDesk trades, brokers fined ₹10 lakh each (`axis-mf-frontrun`) | COLD | steady | 6 | active |
-| Stockal: US shares sold without consent, swapped for Chinese microcaps; ₹100 cr+ alleged (`stockal-unauthorised-trades`) | HOT | rising | 5 | active |
-| Videocon's Venugopal Dhoot declared personally bankrupt over ₹12,668 crore SBI dues (`videocon-dhoot-bankrupt`) | HOT | rising | 3 | active |
-| Airlines fly fewer, charge more: IndiGo passengers -4.7%, yield +34%; SC 'Don't travel by air' (via The Ken) (`airfares-fly-less-pay-more`) | FLAT | new | 2 | active |
-| Ramayana: ₹499 cr worldwide in 4 days vs ₹4,000 cr bill for two films (`ramayana-box-office`) | - | new | 1 | active |
-| ₹89,000 cr of unclaimed shares with IEPF; Reliance biggest slice (Diwali-cleaning certificate reels) (`unclaimed-shares-iepf`) | - | new | 1 | active |
+| Groww's F&O share of revenue falls to 45%; turns to IPOs and wealth (via The Arc) (`groww-derivatives-arc`) | COLD | steady | 24 | active |
+| Anthropic S-1: $16.3 bn H1 revenue, $80.7 bn loss ($72.4 bn paper charge) (`anthropic-s1`) | HOT | steady | 13 | active |
+| LTCG tax-cut debate: ₹1.29 lakh crore a year; The Ken says don't cut (`ltcg-cut-debate`) | FLAT | rising | 13 | active |
+| 773 government sites still serving eMudhra's revoked certificates (via The Ken) (`emudhra-gov-sites`) | COLD | fading | 12 | active |
+| Axis MF front-running: Dubai AnyDesk trades, brokers fined ₹10 lakh each (`axis-mf-frontrun`) | HOT | rising | 7 | active |
+| Stockal: US shares sold without consent, swapped for Chinese microcaps; ₹100 cr+ alleged (`stockal-unauthorised-trades`) | FLAT | fading | 6 | active |
+| Videocon's Venugopal Dhoot declared personally bankrupt over ₹12,668 crore SBI dues (`videocon-dhoot-bankrupt`) | HOT | rising | 4 | active |
+| Airlines fly fewer, charge more: IndiGo passengers -4.7%, yield +34%; SC 'Don't travel by air' (via The Ken) (`airfares-fly-less-pay-more`) | COLD | fading | 3 | active |
+| Ramayana: ₹499 cr worldwide in 4 days vs ₹4,000 cr bill for two films (`ramayana-box-office`) | HOT | new | 2 | active |
+| ₹89,000 cr of unclaimed shares with IEPF; Reliance biggest slice (Diwali-cleaning certificate reels) (`unclaimed-shares-iepf`) | HOT | new | 2 | active |
+| India's best week since Feb 2021: Nifty +8.6%, FIIs buy ~₹46,000 cr back after ₹45,162 cr October exit (`india-best-week-fii`) | - | new | 1 | active |
+| Novartis India: ~50 staff, ₹1,446 cr for 71%; open offer got 40 shares (via The Ken) (`novartis-india-ken`) | - | new | 1 | active |
 
 ## Also on the wire
-- Your IndiGo hook and story (8 Nov) is at review; airfares are FLAT on the tracker and the Supreme Court hearing on fare rules is Mon 16 Nov. Videocon (7 Nov) is at review too, and its window closes tomorrow (Dhoot's story is HOT on YouTube, best 12,153/hr, but COLD on news).
-- Also seen this week, not sent: 'New 5 PSU IPOs with shareholder quota' (@ankitwealthmanager 1.2M, 62.8×); 'Global markets crash, India rallies +7%' (@tarunmalikx 4.3M, 16.7×); Canva layoffs package (@anmolgarg101 5.6M). Muhurat trading is saturated (100 of 100 news items today), and the closing levels hadn't been reported by 7:40 am. Google Trends India: 'nvidia share price' 500+. Markets are shut Tue 10 Nov for Balipratipada (Univest).
-- Tracker: Stockal HOT (window 12 Nov); LTCG debate FLAT; gold-fund halt, IDBI, AI-crash inflow, Samvat 2082 and EKI SEBI retired today.
+- Tracker: Ramayana HOT. ₹507 crore worldwide in four days (India TV; Koimoi), against a budget its producer put at over ₹4,000 crore for both parts. The money angle is crowded: @notjuststoriees 2.1M, @shubhirajthakur '4000 crore ki bani' 1.8M, @devgautam0052 979K (29×). Unclaimed shares HOT on YouTube but with no new turn, and no fresh number since yesterday. Axis MF front-running HOT/rising: SEBI's 6 Nov adjudication order (Inventure client). Videocon HOT/rising on YouTube, window closing. Stockal and airfares fading, eMudhra and Groww cold.
+- Also seen, not sent: @tarun.shrivastav__ 'Alvida FD' (RBI Retail Direct vs bank FDs) 5.3M, 42×. Reuters 9 Nov headline: 'Anthropic must face lawsuit over Claude subscription marketing' (not opened). SEBI's new settlement rules took effect 7 Nov. Markets shut today (Balipratipada).
 - Tool changes: none. HIGGSFIELD_API_KEY isn't set on this cloud machine, so model_live.py refresh was skipped.
 
 ## Where we stand
 
 796 followers (+87 this week)  
-Last reel (Diwali greeting: 'Aaj khabar nahi, Diwali hai!' (fireworks above Sarika), no money story): 82 plays so far  
+Last reel (Diwali greeting: 'Aaj khabar nahi, Diwali hai!' (fireworks above Sarika), no money story): 120 plays so far  
 What every reel is testing:  
 - Hook in frame one: swipe-aways in the first 3 s 52% now, target 45% (3 of 3 reels in)
 - A line worth sending: shares per 1,000 plays 3.2 now, target 8 (3 of 4 reels in)
