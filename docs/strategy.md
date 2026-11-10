@@ -50,7 +50,7 @@ Stage 1 targets are live in the block below. Stages 2 and 3 are the plan after t
 
 ## The book and where we stand
 <!-- scoreboard -->
-_Updated 2026-11-09 21:40 IST by `scoreboard.py write`._
+_Updated 2026-11-10 21:40 IST by `scoreboard.py write`._
 
 **Stage 2: Make it travel** (2026-10-26 to 2026-11-15): reels that get forwarded and reach well beyond our followers
 
@@ -222,3 +222,4 @@ _Written by the strategist every Sunday. The morning session executes it: each s
   - Evidence (one outlier scan, 5 credits): Reliance share certificates found during Diwali cleaning (@kiddaan 3.9M, 163×; @indiabusinesscom 1.1M, 28×); the SIP reality check 3 times (@abhishekkarofficial 4.9M, @moneyandmeet 1.1M at 199×, @iamnehanagar 1M); gold twice (@manifest__fx 2.1M at 440×, @chakradhar__reddy_ 921K); a trader's ₹1.75 crore brokerage glitch (@noidawalatrader_ 6.9M at 2,213×, one only). Split screen appeared in 2 of 10 (down from 4–8). Comments (Instagram counts only): Starlink vs Jio 14, Anthropic 11; no YouTube channel yet. Platform: no Instagram ranking, YouTube Shorts, SEBI finfluencer or MeitY AI-label change found this week.
   - vidIQ credits this week: 45 of 60 (nightly cross-checks 35, profile 5, outliers 5).
 - 2026-11-09 (nightly): Quiet. Still no news reel since EPFO (30 Oct), ten days; the desk drafted an unclaimed-shares family-claim story for review today (the plan's second ride). Diwali greeting (X6) at 120 plays at 29 h (82 at 5 h), under the ~200 typical reel, as expected for a greeting; public reading logged. Every other reel within 0–11 plays of its last reading (Starlink vs Jio 15,153; Anthropic God share 12,596; X5 477), so nothing taking off. vidIQ owner insights unavailable for a 32nd night (connected_accounts 'token_inactive', public fallback only), so no bets judged. No stop or target hit; all bets HOLD, split-screen opener still waiting for its first money reel. vidIQ credits this week: 5 of 60.
+- 2026-11-10 (nightly): Quiet. No new reel; still no news reel since EPFO (30 Oct), eleven days (the desk drafted an Anthropic supplier-investor story for review today). Diwali greeting (X6) at 123 plays at 53 h, flat (120 at 29 h); public reading logged. Every other reel within 0–110 plays of its last reading (Starlink vs Jio 15,261; Anthropic God share 12,690; X5 477), so nothing taking off. vidIQ owner insights unavailable for a 33rd night ('owner_token_inactive', public fallback only), so no bets judged. No stop or target hit; all bets HOLD, split-screen opener still waiting for its first money reel. vidIQ credits this week: 10 of 60.
