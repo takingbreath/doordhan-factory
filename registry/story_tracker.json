@@ -4055,6 +4055,18 @@
      "yt_best_vph": 1977,
      "yt_top": "Are You Entering NIFTY Breakouts Too Early? | ORB Backtested Over 6 Ye (94,913 views in 48h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-11",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 13,
+     "yt_week_views": 353894,
+     "yt_best_vph": 1663,
+     "yt_top": "Are You Entering NIFTY Breakouts Too Early? | ORB Backtested Over 6 Ye (119,761 views in 72h)",
+     "google_trending": []
     }
    ]
   },
@@ -5981,7 +5993,8 @@
     "2026-11-04: 4 Nov: new turn, amended S-1 2 Nov: $33.2bn 9M revenue, $895.4bn commitments",
     "2026-11-08: 8 Nov: new turn, WSJ: investors push valuation to 1.5T, one says ~1T",
     "2026-11-09: 9 Nov: new turn, Bloomberg $1.1-1.3T talk; roadshow in doubt",
-    "2026-11-10: price range $70-80, 867M shares, $26bn placement from suppliers, Nasdaq ANT 19/20 Nov"
+    "2026-11-10: price range $70-80, 867M shares, $26bn placement from suppliers, Nasdaq ANT 19/20 Nov",
+    "2026-11-11: filed range $70-78, $1.4T diluted, $104bn 9-month loss, trading 19 Nov"
    ],
    "readings": [
     {
@@ -6135,6 +6148,19 @@
      "yt_week_views": 712899,
      "yt_best_vph": 3904,
      "yt_top": "Anthropic’s IPO in Question,  Midterms Hit AI, Nasdaq Drops 5%, and RS (187,388 views in 48h)",
+     "google_trending": [],
+     "desk_score": 9.0
+    },
+    {
+     "date": "2026-11-11",
+     "label": "RISING (saturated: everyone has it; needs a sharper angle)",
+     "news_1d": 100,
+     "news_7d": 100,
+     "momentum_pct": 100,
+     "yt_week_videos": 5,
+     "yt_week_views": 273706,
+     "yt_best_vph": 1435,
+     "yt_top": "Anthropic AI IPO Crashing to $1 TRILLION - OpenAI is DEAD (103,347 views in 72h)",
      "google_trending": [],
      "desk_score": 9.0
     }
@@ -6301,6 +6327,18 @@
      "yt_week_views": 372820,
      "yt_best_vph": 927,
      "yt_top": "LTCG STT TAX REMOVAL BREAKING NEWS | NO LTCG Tax After 3 Years, STT Hi (111,231 views in 120h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-11-11",
+     "label": "FLAT",
+     "news_1d": 8,
+     "news_7d": 44,
+     "momentum_pct": 18,
+     "yt_week_videos": 17,
+     "yt_week_views": 162091,
+     "yt_best_vph": 775,
+     "yt_top": "LTCG STT TAX REMOVAL BREAKING NEWS | NO LTCG Tax After 3 Years, STT Hi (111,622 views in 144h)",
      "google_trending": []
     }
    ]
@@ -6571,6 +6609,18 @@
      "yt_week_views": 4599,
      "yt_best_vph": 32,
      "yt_top": "你知道嗎？TWCA 六天要換 9,772 張憑證：用古代門衛看懂網站憑證 (3,881 views in 120h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-11-11",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 9,
+     "yt_week_views": 4422,
+     "yt_best_vph": 27,
+     "yt_top": "你知道嗎？TWCA 六天要換 9,772 張憑證：用古代門衛看懂網站憑證 (3,889 views in 144h)",
      "google_trending": []
     }
    ]
@@ -7205,6 +7255,18 @@
      "yt_best_vph": 9787,
      "yt_top": "This Diwali, light the diya of togetherness and spread happiness with  (704,650 views in 72h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-11",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 17,
+     "yt_week_views": 73498,
+     "yt_best_vph": 1801,
+     "yt_top": "金融天才意外覺醒讀心術，從白手起家到商界傳奇！ (43,234 views in 24h)",
+     "google_trending": []
     }
    ]
   },
@@ -7286,6 +7348,18 @@
      "yt_week_views": 1691400,
      "yt_best_vph": 8734,
      "yt_top": "Panic ERUPTS Over Tech Stock Drop (838,423 views in 96h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-11-11",
+     "label": "HOT",
+     "news_1d": 0,
+     "news_7d": 57,
+     "momentum_pct": 0,
+     "yt_week_videos": 11,
+     "yt_week_views": 510438,
+     "yt_best_vph": 6502,
+     "yt_top": "Prepare for Tomorrow: VIOLENT Stock Market (156,053 views in 24h)",
      "google_trending": []
     }
    ]
@@ -7433,7 +7507,7 @@
    "first_seen": "2026-11-07",
    "lane": "hot",
    "window_until": "2026-11-10",
-   "status": "active",
+   "status": "retired",
    "notes": [
     "NCLT order 5 Nov; Google trending 7 Nov",
     "2026-11-07: Google trending; no Hinglish short"
@@ -7478,8 +7552,24 @@
      "yt_best_vph": 8590,
      "yt_top": "१२ हजार कोटींचं कर्ज, दिवाळखोरीचा शिक्का; व्हिडिओकॉनचे मालक वेणुगोपाल  (206,162 views in 24h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-11",
+     "label": "HOT",
+     "news_1d": 0,
+     "news_7d": 4,
+     "momentum_pct": 0,
+     "yt_week_videos": 20,
+     "yt_week_views": 1177231,
+     "yt_best_vph": 8133,
+     "yt_top": "How Videocon's Owner Went BANKRUPT Over ₹12,668 Crore!! #information (195,194 views in 24h)",
+     "google_trending": []
     }
-   ]
+   ],
+   "retired": {
+    "date": "2026-11-11",
+    "reason": "past its window"
+   }
   },
   {
    "id": "airfares-fly-less-pay-more",
@@ -7520,6 +7610,18 @@
      "yt_best_vph": 1761,
      "yt_top": "Saurav Das on Airfare Hike: Questions SC's Remark, Says - The System H (253,525 views in 144h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-11",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 2,
+     "momentum_pct": 0,
+     "yt_week_videos": 15,
+     "yt_week_views": 106152,
+     "yt_best_vph": 333,
+     "yt_top": "Flight Fare Hike | Deepavali | Breaking News | Massive Surge in Flight (8,003 views in 24h)",
+     "google_trending": []
     }
    ]
   },
@@ -7549,6 +7651,18 @@
      "yt_week_views": 2147844,
      "yt_best_vph": 23610,
      "yt_top": "This is NOT good: Ramayana Day 1 Box office explained (1,699,952 views in 72h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-11-11",
+     "label": "HOT",
+     "news_1d": 66,
+     "news_7d": 100,
+     "momentum_pct": 66,
+     "yt_week_videos": 4,
+     "yt_week_views": 3665992,
+     "yt_best_vph": 63059,
+     "yt_top": "Jeet liya America? Ramayana Day 4 Global box office explained (1,513,413 views in 24h)",
      "google_trending": []
     }
    ]
@@ -7580,6 +7694,18 @@
      "yt_best_vph": 5013,
      "yt_top": "Родня Путина на лекарствах | Кабаева за нефть | Признание Бастрыкина | (120,322 views in 24h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-11",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 2,
+     "momentum_pct": 0,
+     "yt_week_videos": 7,
+     "yt_week_views": 85312,
+     "yt_best_vph": 1434,
+     "yt_top": "Thousands of SNAP benefit cards remain unclaimed (34,415 views in 24h)",
+     "google_trending": []
     }
    ]
   },
@@ -7596,6 +7722,18 @@
     {
      "date": "2026-11-10",
      "desk_score": 8.0
+    },
+    {
+     "date": "2026-11-11",
+     "label": "HOT",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 15,
+     "yt_week_views": 1033354,
+     "yt_best_vph": 4466,
+     "yt_top": "Shankar Sharma On FII Inflows, DII Selling & What The Market Rally Rea (214,377 views in 48h)",
+     "google_trending": []
     }
    ]
   },
@@ -7612,6 +7750,54 @@
     {
      "date": "2026-11-10",
      "desk_score": 6.0
+    },
+    {
+     "date": "2026-11-11",
+     "label": "COLD",
+     "news_1d": 1,
+     "news_7d": 7,
+     "momentum_pct": 14,
+     "yt_week_videos": 14,
+     "yt_week_views": 22632,
+     "yt_best_vph": 201,
+     "yt_top": "Stock Selloff Eases After $3 Trillion Rout (19,302 views in 96h)",
+     "google_trending": []
+    }
+   ]
+  },
+  {
+   "id": "coindcx-ed-raid",
+   "title": "ED raids CoinDCX and Delta: tokenised 'Apple, Tesla' routed abroad, alleged; $16M wallet loss two weeks earlier",
+   "query": "CoinDCX ED|कॉइनडीसीएक्स ईडी",
+   "first_seen": "2026-11-11",
+   "lane": "hot",
+   "window_until": "2026-11-18",
+   "status": "active",
+   "notes": [
+    "sent 11 Nov"
+   ],
+   "readings": [
+    {
+     "date": "2026-11-11",
+     "desk_score": 8.0
+    }
+   ]
+  },
+  {
+   "id": "br-shetty-nmc",
+   "title": "B.R. Shetty liable in $5.4 bn NMC fraud; sold Finablr for $1; BoB paid $600M (via The Morning Context)",
+   "query": "BR Shetty|बीआर शेट्टी",
+   "first_seen": "2026-11-11",
+   "lane": "deep",
+   "window_until": "2026-11-25",
+   "status": "active",
+   "notes": [
+    "sent 11 Nov"
+   ],
+   "readings": [
+    {
+     "date": "2026-11-11",
+     "desk_score": 7.0
     }
    ]
   }
