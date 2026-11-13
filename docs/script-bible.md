@@ -15,6 +15,7 @@ real options, and a Hinglish draft he can punch up in two minutes. Clarity beats
 
 ## The first 3 seconds (from the first Instagram data, 2026-09-25)
 54–67% of viewers swiped away within 3 seconds, and the reel that opened on Sarika looking down at her papers lost the most. So:
+- **Standard on every reel since 2026-11-13** (the hook-in-frame-one bet won: skip rate 42.5% pooled over its 5 judged reels against a 60.7% baseline; target 45%). Frame 1: the presenter looks into the lens, already saying the viewer's stake; the hook in 6 big words or fewer on screen; no title or logo sting before it; a cut or punch-in by 1 s; the cover is frame 1. It combines with the split-screen opener: the hook text sits on the picture half.
 - The first words are the stake. The Samachar can still open like a news reading: "नमस्कार — <hook question>" in one breath, with no pause after नमस्कार.
 - Frame 1: eye contact, the subject visible (logo inset), and the hook as big bold on-screen text in Roman Hinglish, e.g. "NSE IPO: galat faisla?" Use a 90s-TV lower-third headline strip, built locally.
 - Something changes inside the first second: a cut, a push-in or a caption slam.

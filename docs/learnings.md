@@ -93,5 +93,6 @@ _(stories or formats taking off right now that deserve a follow-up; each dated)_
 - **Posting time.** One reel went up at 00:22 IST. Test evenings (7–9 pm IST) and the morning commute (8–9 am).
 
 ## Standing lessons
+- 2026-11-13: **Hook in frame one is standard** (bet won: skip rate 42.5% pooled over 5 reels against a 60.7% baseline): the presenter looks into the lens saying the viewer's stake, the hook in 6 big words or fewer on screen, nothing before it, a cut or punch-in by 1 s, the cover is frame one. Salman Khan (21.6% skip) carries the pool; the other four sit near 52%, so the story and the known name in frame one still decide most of the stop.
 - Hooks that landed were plain statements of the viewer's own stake; clever-but-unclear ones didn't (Episodes 1–2).
 - A glamorous but classy anchor, steady head, knowing half-smile. Head wobble reads cheap (Akhilesh, 2026-09-25).

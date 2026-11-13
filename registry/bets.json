@@ -25,7 +25,7 @@
     {
       "id": "B1",
       "name": "Hook in frame one",
-      "status": "open",
+      "status": "won",
       "opened": "2026-09-26",
       "applies": "every reel",
       "lever": "Frame 1: the anchor looks into the lens, already saying the viewer's stake; the hook in 6 big words or fewer on screen; nothing (Namaskar, title, logo) before it; a cut or punch-in by 1 s; cover = frame 1",
@@ -35,7 +35,9 @@
       "target": 45,
       "stop": 58,
       "min_reels": 3,
-      "max_reels": 6
+      "max_reels": 6,
+      "closed": "2026-11-13",
+      "result": "Won: skip rate 42.5% pooled over 5 judged reels (E3 54.2, E6 46.3, E7 38.2, E12 21.6, E15 51.5) against a 60.7% baseline and a 45% target, read on the owner feed's return after 35 nights. E14 taken off as an execution miss (no cut by 1 s). Caveat: Salman Khan (E12, 21.6%) carries the pool; without it the other four pool near 52%, so the lever is standard but the next stop-stage gain has to come from the story and the picture in frame one, not the hook text alone. Now standard in docs/script-bible.md."
     },
     {
       "id": "B2",
