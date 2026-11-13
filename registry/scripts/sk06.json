@@ -1,0 +1,58 @@
+{
+ "slug": "sk06",
+ "approved_by": "Akhilesh (2026-11-13)",
+ "frozen_at": "2026-11-13 23:09 IST",
+ "note": "make-reel; format sahayata_kendra (bus monologue variant); on-screen end text, not spoken: 'Investments in securities market are subject to market risks. Read all the related documents carefully before investing.'",
+ "lines": [
+  {
+   "id": "P1",
+   "speaker": "pandey",
+   "text": "[flat, brisk] Long-term investing करते हैं? ई दो sectors को ignore मत कीजिए। एक है space, दूसरा semiconductors।",
+   "spoken": "Long-term investing करते हैं? ई दो sectors को ignore मत कीजिए। एक है space, दूसरा semiconductors।"
+  },
+  {
+   "id": "P2",
+   "speaker": "pandey",
+   "text": "[flat, brisk] Space में Agnikul, Skyroot, Pixxel जैसे नाम हैं। लेकिन ई startups listed नहीं हैं, तो space से जुड़ी listed companies देखते हैं।",
+   "spoken": "Space में Agnikul, Skyroot, Pixxel जैसे नाम हैं। लेकिन ई startups listed नहीं हैं, तो space से जुड़ी listed companies देखते हैं।"
+  },
+  {
+   "id": "P3",
+   "speaker": "pandey",
+   "text": "[flat, brisk] पहला नाम है Centum Electronics। ई space applications के लिए electronics बनाती है, तो sector में activity बढ़ने से इसके लिए business के मौके बन सकते हैं। अब इसके chart पर support और resistance mark करके देखिए कि breakout का setup और momentum बन रहा है या नहीं।",
+   "spoken": "पहला नाम है Centum Electronics। ई space applications के लिए electronics बनाती है, तो sector में activity बढ़ने से इसके लिए business के मौके बन सकते हैं। अब इसके chart पर support और resistance mark करके देखिए कि breakout का setup और momentum बन रहा है या नहीं।"
+  },
+  {
+   "id": "P4",
+   "speaker": "pandey",
+   "text": "[flat, brisk] दूसरा नाम है MTAR Technologies। ई space programmes के लिए engines और critical assemblies बनाती है। इसके chart में recent बड़े run-up के बाद consolidation हो, तो उसकी range और अगला breakout समझिए।",
+   "spoken": "दूसरा नाम है MTAR Technologies। ई space programmes के लिए engines और critical assemblies बनाती है। इसके chart में recent बड़े run-up के बाद consolidation हो, तो उसकी range और अगला breakout समझिए।"
+  },
+  {
+   "id": "P5",
+   "speaker": "pandey",
+   "text": "[flat, brisk] अब semiconductors पर आइए। India में chips बनाने और उनकी packaging और testing के नए plants लग रहे हैं, लेकिन यहाँ भी कई बड़े नाम unlisted हैं। फिर भी कुछ listed companies आपके watchlist में होनी चाहिए।",
+   "spoken": "अब semiconductors पर आइए। India में chips बनाने और उनकी packaging और testing के नए plants लग रहे हैं, लेकिन यहाँ भी कई बड़े नाम unlisted हैं। फिर भी कुछ listed companies आपके watchlist में होनी चाहिए।"
+  },
+  {
+   "id": "P6",
+   "speaker": "pandey",
+   "text": "[flat, brisk] पहला नाम है CG Power। इसकी CG Semi chip assembly, packaging और testing में काम करती है।",
+   "spoken": "पहला नाम है CG Power। इसकी CG Semi chip assembly, packaging और testing में काम करती है।"
+  },
+  {
+   "id": "P7",
+   "speaker": "pandey",
+   "text": "[flat, brisk] फिर आती है Kaynes Technology। इसकी Kaynes Semicon भी semiconductor packaging और testing में काम करती है। तो chip industry को समझते वक़्त chips बनाने के साथ ई businesses भी आपके radar पर होने चाहिए।",
+   "spoken": "फिर आती है Kaynes Technology। इसकी Kaynes Semicon भी semiconductor packaging और testing में काम करती है। तो chip industry को समझते वक़्त chips बनाने के साथ ई businesses भी आपके radar पर होने चाहिए।"
+  },
+  {
+   "id": "P8",
+   "speaker": "pandey",
+   "text": "[flat, brisk] अब ई चारों companies के charts को technically evaluate कीजिए, क्योंकि सिर्फ़ अच्छा stock और अच्छा sector देखकर बात पूरी नहीं होती। Entry के वक़्त chart का setup भी देखिए।",
+   "spoken": "अब ई चारों companies के charts को technically evaluate कीजिए, क्योंकि सिर्फ़ अच्छा stock और अच्छा sector देखकर बात पूरी नहीं होती। Entry के वक़्त chart का setup भी देखिए।"
+  }
+ ],
+ "sha256": "d8ca6be55907186033f4ae995b3e06fb75d3fb3349b951ce8a60e95bea59d875",
+ "history": []
+}
