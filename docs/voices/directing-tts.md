@@ -80,6 +80,26 @@ Akhilesh asked for energy in the hook, then heard its second half ("jise tum kab
 - For a calm explainer, direct "calm, matter-of-fact" and let a full stop end the line low; ask for energy in the
   delivery's pace, not its pitch.
 
+## Pandey on eleven_v4, breaths removed (sk06, 2026-11-14)
+Akhilesh on the first sk06 cut (eleven_v3, flat tags, voice_cut's even 0.24 s pauses): "Remove that. Breath sounds.
+He's not sitting in a studio", and apply the pause and emphasis lessons above; he preferred the slower takes.
+- **v4 follows the direction on Pandey too.** Same words with commas, one dash before each focus word and four tags:
+  v4 made 38 phrase groups against 18 for the v3 cut, phrase_sd 2.48 against 1.45, more pitch movement, and it reads
+  slower (about 2.5 words a second against 2.7). All 24 takes passed Scribe (22 at 100%). work/sk06/voice2/.
+- **Request stitching works only on v4.** v3 answers 400 unsupported_model to --previous-text/--next-text.
+- **voice_cut.py's prep shortens every pause over 0.3 s to 0.24 s.** For a directed take that flattens the rhythm;
+  build the cut from the raw takes and place the pauses by hand (work/sk06/voice2/build_cut.py: a beat after the hook
+  question, 0.32 s before each name, a 1.4 s brake gap, 0.85 s before the payoff).
+- **Breaths: pipeline/debreath.py** (run with pipeline/qcpy). It classes every 10 ms frame by voicing and spectrum and
+  silences breathy, unvoiced sound away from any voicing. Two traps found on the way:
+  - Scribe stretches a word over the breath beside it ("आइए" ran 0.9 s), so word edges cannot mark the breaths;
+  - Pandey ends phrases in creak (65-70 Hz). The default pitch tracker (70 Hz floor, 0.45 threshold) calls that
+    unvoiced, and a first version cut the whole "हैं" after "unlisted". A 40 Hz floor and a 0.30 threshold keep it.
+  Check every cleaned take with Scribe against its own transcript (same words, no confidence drop). Fill the silence
+  with the scene's ambience in the mix; the cut itself has digital silence between phrases on purpose.
+- Scene sound from ElevenLabs sound generation (no Higgsfield credits): a bus bed (three 22 s takes crossfaded), a hard
+  brake and a conductor's bell (work/sk06/sfx/make_bus_sfx.py). Scribe found no speech in the beds.
+
 ## Still open
 - **Pauses are still too even** (pause_cv about 0.3 against 0.78 in real speech). Next to try: generate per beat (3–4 chunks), with different lead-in silences cut in the edit.
 - **Stability.** The connector can't set it. The API (`tts_elevenlabs.py --stability 0`, "creative") needs the key in `.env`. The voice's saved default in the ElevenLabs UI also applies.
