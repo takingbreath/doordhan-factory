@@ -97,6 +97,13 @@ He's not sitting in a studio", and apply the pause and emphasis lessons above; h
     unvoiced, and a first version cut the whole "हैं" after "unlisted". A 40 Hz floor and a 0.30 threshold keep it.
   Check every cleaned take with Scribe against its own transcript (same words, no confidence drop). Fill the silence
   with the scene's ambience in the mix; the cut itself has digital silence between phrases on purpose.
+- **A tag change on one line changes the voice, not only the mood.** P8's "[quietly firm]" came out at a 107 Hz median
+  against 129-170 Hz for the lines before it, 4 dB quieter and narrower; Akhilesh heard it as "not part of the video".
+  The same text with the body's tag ("[calm, unhurried]") gave 136 Hz and the body's level. Compare each line's median
+  pitch and level with its neighbours before building the cut.
+- **A bus brake is not a car brake** (Akhilesh, sk06): an ElevenLabs prompt with "tyres skidding" gave squeals at 0.9 and
+  1.5 kHz and no air, which he heard as a car. "Heavy truck-style air brakes groaning ... a long hiss of compressed air
+  ... no tyres squealing, no car" gave the groan and then the "pssshh" (hf share 0.7-0.9). work/sk06/sfx/.
 - Scene sound from ElevenLabs sound generation (no Higgsfield credits): a bus bed (three 22 s takes crossfaded), a hard
   brake and a conductor's bell (work/sk06/sfx/make_bus_sfx.py). Scribe found no speech in the beds.
 
