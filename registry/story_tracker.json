@@ -4079,6 +4079,18 @@
      "yt_best_vph": 3482,
      "yt_top": "Your ₹57 Ticket Actually Costs Railways ₹100? (167,132 views in 48h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-13",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 10,
+     "yt_week_views": 333528,
+     "yt_best_vph": 2443,
+     "yt_top": "Why Indian Railways Doesn’t Make Money Even on Diwali Rush? (175,894 views in 72h)",
+     "google_trending": []
     }
    ]
   },
@@ -6007,7 +6019,8 @@
     "2026-11-09: 9 Nov: new turn, Bloomberg $1.1-1.3T talk; roadshow in doubt",
     "2026-11-10: price range $70-80, 867M shares, $26bn placement from suppliers, Nasdaq ANT 19/20 Nov",
     "2026-11-11: filed range $70-78, $1.4T diluted, $104bn 9-month loss, trading 19 Nov",
-    "2026-11-12: 12 Nov: new turn, book several times oversubscribed; FT: bankers may price above $78, target $1.5T+"
+    "2026-11-12: 12 Nov: new turn, book several times oversubscribed; FT: bankers may price above $78, target $1.5T+",
+    "2026-11-13: several times oversubscribed; may beat SpaceX record; Nvidia CEO out"
    ],
    "readings": [
     {
@@ -6189,6 +6202,19 @@
      "yt_top": "Did Anthropic just save its $1 trillion IPO? (1,390,784 views in 24h)",
      "google_trending": [],
      "desk_score": 9.0
+    },
+    {
+     "date": "2026-11-13",
+     "label": "HOT (saturated: everyone has it; needs a sharper angle)",
+     "news_1d": 100,
+     "news_7d": 100,
+     "momentum_pct": 100,
+     "yt_week_videos": 12,
+     "yt_week_views": 483132,
+     "yt_best_vph": 4908,
+     "yt_top": "Rubenstein on the Anthropic IPO, Nvidia CEO Scandal, GTA VI (117,782 views in 24h)",
+     "google_trending": [],
+     "desk_score": 8.0
     }
    ]
   },
@@ -6199,7 +6225,7 @@
    "first_seen": "2026-10-29",
    "lane": "hot",
    "window_until": "2026-11-12",
-   "status": "active",
+   "status": "retired",
    "notes": [
     "via The Ken, 29 Oct",
     "2026-10-29: The Ken 29 Oct",
@@ -6378,8 +6404,24 @@
      "yt_best_vph": 5970,
      "yt_top": "IRS Releases 2027 Tax Brackets + Capital Gains Update — Here’s What Yo (859,650 views in 144h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-13",
+     "label": "FLAT",
+     "news_1d": 6,
+     "news_7d": 27,
+     "momentum_pct": 22,
+     "yt_week_videos": 17,
+     "yt_week_views": 960328,
+     "yt_best_vph": 5490,
+     "yt_top": "IRS Releases 2027 Tax Brackets + Capital Gains Update — Here’s What Yo (922,309 views in 168h)",
+     "google_trending": []
     }
-   ]
+   ],
+   "retired": {
+    "date": "2026-11-13",
+    "reason": "past its window"
+   }
   },
   {
    "id": "equitas-ceo-exit",
@@ -6671,6 +6713,18 @@
      "yt_week_views": 388,
      "yt_best_vph": 2,
      "yt_top": "HOW AI ATTACK SEVERAL WEBSITE'S ON INTERNET  (101 views in 48h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-11-13",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 7,
+     "yt_week_views": 6328,
+     "yt_best_vph": 50,
+     "yt_top": "SBI E Mudra Loan Online Apply 2026 | ₹50,000 तक का लोन घर बैठे कैसे ले (6,013 views in 120h)",
      "google_trending": []
     }
    ]
@@ -7329,6 +7383,18 @@
      "yt_best_vph": 3567,
      "yt_top": "जमीन खरीदकर अमीर बनने का सपना? पहले ये सच्चाई जान लो! (85,617 views in 24h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-13",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 17,
+     "yt_week_views": 1242686,
+     "yt_best_vph": 6864,
+     "yt_top": "This Diwali, light the diya of togetherness and spread happiness with  (988,396 views in 144h)",
+     "google_trending": []
     }
    ]
   },
@@ -7339,7 +7405,7 @@
    "first_seen": "2026-11-05",
    "lane": "hot",
    "window_until": "2026-11-12",
-   "status": "active",
+   "status": "retired",
    "notes": [
     "sent 5 Nov, 9/10",
     "2026-11-06: DriveWealth blames Stockal interface; Bengaluru complaint",
@@ -7435,8 +7501,24 @@
      "yt_best_vph": 2594,
      "yt_top": "CNBC On NVIDIA Stock, Micron Stock, Jensen Huang - NVDA Update (62,260 views in 24h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-13",
+     "label": "HOT",
+     "news_1d": 1,
+     "news_7d": 8,
+     "momentum_pct": 12,
+     "yt_week_videos": 3,
+     "yt_week_views": 250324,
+     "yt_best_vph": 5423,
+     "yt_top": "Second Affair? Jensen Out? Time to buy NVDA Stock? (130,141 views in 24h)",
+     "google_trending": []
     }
-   ]
+   ],
+   "retired": {
+    "date": "2026-11-13",
+    "reason": "past its window"
+   }
   },
   {
    "id": "samvat-2082-worst",
@@ -7708,6 +7790,18 @@
      "yt_best_vph": 1109,
      "yt_top": "Why are flight tickets so expensive now? The truth behind rising airfa (106,451 views in 96h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-13",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 1,
+     "momentum_pct": 0,
+     "yt_week_videos": 14,
+     "yt_week_views": 223298,
+     "yt_best_vph": 1013,
+     "yt_top": "Why are flight tickets so expensive now? The truth behind rising airfa (121,582 views in 120h)",
+     "google_trending": []
     }
    ]
   },
@@ -7764,6 +7858,18 @@
      "yt_top": "Full Power Dikha diya: Ramayana Day 5 Highest box office explained (1,448,243 views in 24h)",
      "google_trending": [],
      "desk_score": 8.0
+    },
+    {
+     "date": "2026-11-13",
+     "label": "HOT",
+     "news_1d": 61,
+     "news_7d": 100,
+     "momentum_pct": 61,
+     "yt_week_videos": 7,
+     "yt_week_views": 3143927,
+     "yt_best_vph": 65347,
+     "yt_top": "First time in INDIAN CINEMA: Ramayana Day 6 box office explained (1,568,317 views in 24h)",
+     "google_trending": []
     }
    ]
   },
@@ -7818,6 +7924,18 @@
      "yt_best_vph": 739,
      "yt_top": "Thousands of SNAP benefit cards remain unclaimed (35,463 views in 48h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-13",
+     "label": "COLD",
+     "news_1d": 1,
+     "news_7d": 2,
+     "momentum_pct": 50,
+     "yt_week_videos": 6,
+     "yt_week_views": 36594,
+     "yt_best_vph": 500,
+     "yt_top": "Thousands of SNAP benefit cards remain unclaimed (36,028 views in 72h)",
+     "google_trending": []
     }
    ]
   },
@@ -7857,6 +7975,18 @@
      "yt_week_views": 787281,
      "yt_best_vph": 8292,
      "yt_top": "FIIs Ki Wapsi: $12 Billion Inflows & Nifty Outlook (199,017 views in 24h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-11-13",
+     "label": "HOT",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 13,
+     "yt_week_views": 915273,
+     "yt_best_vph": 4315,
+     "yt_top": "FIIs Ki Wapsi: $12 Billion Inflows & Nifty Outlook (207,139 views in 48h)",
      "google_trending": []
     }
    ]
@@ -7898,6 +8028,18 @@
      "yt_best_vph": 162,
      "yt_top": "Stock Selloff Eases After $3 Trillion Rout (19,421 views in 120h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-13",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 5,
+     "momentum_pct": 0,
+     "yt_week_videos": 12,
+     "yt_week_views": 3432,
+     "yt_best_vph": 23,
+     "yt_top": "Tata Steel Share + Dividend Stocks Equity Right Issue BHEL Taparia Too (2,802 views in 120h)",
+     "google_trending": []
     }
    ]
   },
@@ -7908,7 +8050,7 @@
    "first_seen": "2026-11-11",
    "lane": "hot",
    "window_until": "2026-11-18",
-   "status": "active",
+   "status": "retired",
    "notes": [
     "sent 11 Nov"
    ],
@@ -7928,8 +8070,24 @@
      "yt_best_vph": 8684,
      "yt_top": "CoinDCX और Delta Exchange पर ED की Raid, पूरा मामला समझो | SAGAR SINHA (833,645 views in 96h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-13",
+     "label": "COLD",
+     "news_1d": 1,
+     "news_7d": 1,
+     "momentum_pct": 100,
+     "yt_week_videos": 11,
+     "yt_week_views": 1342333,
+     "yt_best_vph": 7024,
+     "yt_top": "CoinDCX और Delta Exchange पर ED की Raid, पूरा मामला समझो | SAGAR SINHA (842,928 views in 120h)",
+     "google_trending": []
     }
-   ]
+   ],
+   "retired": {
+    "date": "2026-11-13",
+    "reason": "COLD on 2 checks running"
+   }
   },
   {
    "id": "br-shetty-nmc",
@@ -7958,6 +8116,18 @@
      "yt_best_vph": 9799,
      "yt_top": "'We were advised to not be alone with Russell Brand': Shappi Khorsandi (1,175,862 views in 120h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-13",
+     "label": "FLAT",
+     "news_1d": 2,
+     "news_7d": 23,
+     "momentum_pct": 9,
+     "yt_week_videos": 20,
+     "yt_week_views": 188690,
+     "yt_best_vph": 982,
+     "yt_top": "BR Shetty Held Liable in $5.4 Billion NMC Fraud Case | UAE Court Deliv (70,671 views in 72h)",
+     "google_trending": []
     }
    ]
   },
@@ -7975,6 +8145,52 @@
    "readings": [
     {
      "date": "2026-11-12",
+     "desk_score": 7.0
+    },
+    {
+     "date": "2026-11-13",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 2,
+     "momentum_pct": 0,
+     "yt_week_videos": 9,
+     "yt_week_views": 177559,
+     "yt_best_vph": 800,
+     "yt_top": "JioFiber vs Airtel Xstream Box 🔥 Live TV, OTT Apps, Pricing & Real Tes (96,054 views in 120h)",
+     "google_trending": []
+    }
+   ]
+  },
+  {
+   "id": "nvidia-huang-resigns",
+   "title": "Jensen Huang quits Nvidia; ~$1.7 tn off since Oct peak; top Nasdaq 100 fund holding",
+   "query": "Jensen Huang resign|जेंसन हुआंग",
+   "first_seen": "2026-11-13",
+   "lane": "hot",
+   "window_until": "2026-11-17",
+   "status": "active",
+   "notes": [
+    "2026-11-13: resigned 12 Nov"
+   ],
+   "readings": [
+    {
+     "date": "2026-11-13",
+     "desk_score": 9.0
+    }
+   ]
+  },
+  {
+   "id": "nse-augmont-digital-gold",
+   "title": "NSE banned brokers' digital gold, then picked Augmont for EGRs (via The Ken)",
+   "query": "NSE Augmont gold|एनएसई डिजिटल गोल्ड",
+   "first_seen": "2026-11-13",
+   "lane": "deep",
+   "window_until": "2026-11-26",
+   "status": "active",
+   "notes": [],
+   "readings": [
+    {
+     "date": "2026-11-13",
      "desk_score": 7.0
     }
    ]

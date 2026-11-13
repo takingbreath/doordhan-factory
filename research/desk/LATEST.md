@@ -1,143 +1,141 @@
-# Doordhan desk research — Thu 12 Nov 2026
+# Doordhan desk research — Fri 13 Nov 2026
 
-Session: https://claude.ai/code/session_01PasrAr4WUJVmCybpU79rDs
+Session: https://claude.ai/code/session_01PasrAuxYuYAapgKrAC816V
 
-**Pick: story 1.** Anthropic is still the first ride on this week's plan, and it has a new turn since yesterday's email. One day after filing $70 to $78, the order book is several times oversubscribed (Bloomberg), and the FT reports the bankers may raise the price above $78, aiming for a valuation of $1.5 trillion or more. A company that lost $104 billion in nine months is now too popular for its own price tag. Fireship's video on it ran to 1.36 million views in a day, and no Indian Short has posted the oversubscription yet. Pricing is Wed 18 Nov and trading starts Thu 19 Nov. E15's viewers were promised this follow-up.
+**Pick: story 1.** Jensen Huang resigned as Nvidia's CEO on Thu 12 Nov, effective immediately, after reports of affairs including one with a suspected Chinese intelligence asset. He is the most famous face in AI, and Nvidia has lost about $1.7 trillion (about 30%) from its 6 Oct record of $5.78 trillion; about $500 billion of that went this week. It is the biggest money story on Indian Reels this week (7M, 3.6M and 2.5M views), but every Indian reel so far tells the honey-trap story. Nobody has done the viewer's own stake: Nvidia is the biggest holding (8.4%) in the Nasdaq 100 fund many Indian SIP investors own. This challenges this week's plan, which puts Anthropic first: Anthropic has no filed change since Tuesday, and its window runs to Thu 19 Nov, so it can still go Mon or Tue.
 
-Runner-up: 2, Ramayana's money. ₹828.57 crore worldwide gross in six days and the best Monday in Indian cinema history, against a ₹4,000 crore budget that covers both films plus release and promotion. A 3.5M reel called it a flop on 8 Nov; the numbers since say otherwise. Story 3 (deep lane, via The Morning Context, 11 Nov): 'Airtel is pulling away from Jio'. Jio has more customers (54.24 crore against 49.8 crore), but Airtel earns ₹271 a month per user against Jio's ₹218.8, and its quarterly profit was higher. It's the Jio follow-up the plan asks for, while analysts talk of a 12 to 20% recharge hike.
+Runner-up: 2, Anthropic. Bloomberg says the book is several times oversubscribed, the bankers may price above $78, and the total raise could top SpaceX's $85.7 billion record. Nvidia, one of the suppliers buying $26 billion of stock at the IPO price, lost its CEO six days before pricing. Pricing is Wed 18 Nov and trading starts Thu 19 Nov. Story 3 (deep lane, via The Ken, 12 Nov): in 2021 NSE ordered brokers to stop selling digital gold. Now it has picked Augmont, the biggest digital-gold seller, with no bidding and no published terms, to drive its exchange gold product.
 
-## 1. Anthropic's IPO is several times oversubscribed a day after filing, and bankers may price it above $78, aiming for $1.5 trillion
+## 1. Jensen Huang quits Nvidia: about $1.7 trillion wiped off since its October peak, and Nvidia is the biggest stock in India's Nasdaq 100 funds
 
-Hot lane (tracked since 29 Oct; Ride-now follow-up to E15; new since yesterday: the book is several times oversubscribed and bankers may raise the price above the $70-78 range) · HOT · **9/10** (momentum 3/3, stake 1/1, shareability 2/2, gap 1/2, known name 2/2) · tracker id `anthropic-s1`
+Hot lane (new: Huang resigned Thu 12 Nov) · HOT · **9/10** (momentum 3/3, stake 1/1, shareability 2/2, gap 1/2, known name 2/2) · tracker id `nvidia-huang-resigns`
 
-Window: To Thu 19 Nov, the first trading day (pricing Wed 18 Nov). If the range is raised, the amended filing is a turn of its own; the first-day move is the next.
+Window: To Tue 17 Nov, when Nvidia reports quarterly earnings under its interim CEO, which is the next turn. Huang's testimony to Congress is another.
 
 ### What's happening
-- The roadshow started on Wed 11 Nov. Bloomberg reports the deal has drawn orders for several times the 825 million shares on offer (cited by Syz Group and ZeroHedge, 11 Nov). No exact multiple has been reported.
-- The Financial Times reports that underwriters led by Goldman Sachs and Morgan Stanley may price above the filed $70 to $78 range, with a valuation of '$1.5 trillion or more'. No new range has been filed. A raised range would need an amended filing before pricing (Syz; TradingView/Seeking Alpha).
-- The filed range implies about $1.02 trillion on shares outstanding and $1.40 trillion fully diluted at the top. The IPO raises up to $64.4 billion, plus an over-allotment option of nearly $10 billion, plus the $26 billion placement to Google, Nvidia, Microsoft and other suppliers. Bankers want total fundraising well above $100 billion (ZeroHedge, 11 Nov).
-- About 20% of the shares are aimed at retail investors, against a usual 5 to 10% (Syz).
-- Not everyone is cheering: Jack Selby of Copper Sky (Peter Thiel's family office) said a weak Anthropic debut could mark the top of the AI bubble. ZeroHedge notes Klarna and StubHub were also oversubscribed and then traded below their IPO prices (ZeroHedge, 11 Nov).
-- Context from yesterday's email: $33.2 billion of revenue in nine months to 30 Sep, with a $104 billion net loss, mostly a paper charge on convertible notes (TechCrunch; CNBC, 10 Nov).
+- Nvidia's board announced on Thu 12 Nov that Jensen Huang, 63, had resigned as CEO, effective immediately. He co-founded Nvidia in 1993. CFO Colette Kress is interim CEO, and Harvey C. Jones becomes the company's first board chair. Nvidia gave no reason (Al Jazeera; NBC).
+- Reports tie the exit to affairs: one with a former executive of Megaspeed, a Singapore firm that buys Nvidia hardware, whom US officials suspect of working for Chinese intelligence (Beijing denies it), and one with a Nvidia executive who reported to him. The FBI, Congress and Nvidia's own board committee are investigating, and shareholders have filed a class action. These are reports and allegations, not findings (Al Jazeera; Motley Fool).
+- Money: the stock fell as much as 16% on Thursday and closed down 4.3%. Nvidia's value dipped below $4 trillion for the first time since 2025, and about $500 billion has gone this week (NBC). From its 6 Oct record of about $5.78 trillion, it is down about $1.7 trillion, or about 30%, in five weeks (Motley Fool, 10 Nov).
+- Huang owns about 3.6% of Nvidia (Al Jazeera). Earnings come Tue 17 Nov.
+- India stake: Nvidia is the largest holding in the Motilal Oswal Nasdaq 100 ETF, at 8.36% (StockAnalysis, holdings as of 30 Sep). The ETF and its fund of funds are the usual way Indian SIP investors own US tech.
 
 ### The curiosity gap
-- Two days ago the story was 'the price fell from $2 trillion to $1 trillion'. Now there are too many buyers and the price may go up again. What changed in 48 hours?
-- A company that lost $104 billion in nine months has more orders than shares. Who is buying, and why does a Thiel investor say a weak debut would end the AI boom?
+- The man in the leather jacket who built the world's most valuable company is out in a week, over his private life. How does a love affair wipe out more money than India's biggest companies are worth?
+- Many Indian investors own Nvidia without knowing it, through a Nasdaq 100 fund. What happened to their money this week?
 
 ### How hot it is
-- Tracker check today: HOT, rising. 100 of 100 news items this week came today. YouTube this week: 1,585,954 views, best 57,949 views/hr.
-- trends.py 'Anthropic oversubscribed': RISING. 11 of 11 news items this week came today.
-- vidIQ trending since 10 Nov: Fireship 'Did Anthropic just save its $1 trillion IPO?' 1.36M views in about a day (46,568/hr). No Hindi or Indian Short on the oversubscription found (vidIQ YouTube search, region IN, Shorts, since 10 Nov: none).
+- trends.py 'Jensen Huang resign': RISING. 25 of 25 news items this week came today. The YouTube probe found no Hindi-titled videos.
+- vidIQ YouTube (since 8 Nov, by views): CNN 'Nvidia CEO Jensen Huang resigns' 1.47M in under a day (76,548/hr); BBC 500K (62,795/hr); Varun Mayya 'Jensen Huang just resigned' 249K (27,696/hr, 7.8x his usual).
+- Indian Reels on the scandal are huge, but they all tell the affair: 7M, 3.6M, 2.5M, 1.4M and 1.1M (below).
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [Fireship (YouTube, 4.3M subs)](https://www.youtube.com/watch?v=1FurWDiK9A4) | Did Anthropic just save its $1 trillion IPO? Explainer on the range and demand | 1.36M | 46,568 views/hr | 10 Nov |
-| [DW News (YouTube)](https://www.youtube.com/watch?v=8Pilo9moTbg) | Anthropic seeks $1.3 trillion valuation amid AI bubble fears | 67K | 4,530 views/hr | 11 Nov |
-| [Mint (YouTube, India)](https://www.youtube.com/watch?v=uR8PAspM7qQ) | Anthropic launches AI office tools ahead of IPO (the only Indian outlet in the top list) | 29K | 2,030 views/hr | 11 Nov |
-| [@cryptokibate (Instagram)](https://www.instagram.com/reel/DfAUHmAvtqJ) | Talking head + infographics, 'Jio ka 10X hoga Anthropic ka IPO' (before the range fell) | 1.2M | 134× usual | 27 Oct |
+| [@insiderpankaj (Instagram, 7.2K followers)](https://www.instagram.com/reel/DfkF1_VxUt4) | Talking head with a picture-in-picture: 'Sirf is ladki ke chakkar mein 18 lakh crore doob gaye' | 7M | 678x usual | 10 Nov |
+| [@itsmeshubhamm (Instagram)](https://www.instagram.com/reel/DfixrbXRjVz) | Split screen: 'Jensen Huang cheated on his wife', honeypot or cheating? | 3.6M | 16x usual | 10 Nov |
+| [@earnwithsapna (Instagram)](https://www.instagram.com/reel/DfhXWeAB8Wu) | Split screen with news clips: 'Nvidia CEO caught in a Chinese honey trap?' | 2.5M | 23x usual | 9 Nov |
+| [@abhishekkarofficial (Instagram)](https://www.instagram.com/reel/DfeiMouvNbF) | Talking head: 'AI stocks may fall because Jensen babu is in love' | 1.8M | 1.5x usual | 8 Nov |
+| [CNN (YouTube)](https://www.youtube.com/watch?v=gCwpCPZeIGQ) | Resignation news, who replaces him | 1.47M | 13x usual | 12 Nov |
 
-_Global channels have the oversubscription; Indian creators are still on the October '$2 trillion' angle. Missing: the U-turn in two days, from 'price cut' to 'price may go up', with the $104 billion loss next to it._
+_Every Indian reel ran between 8 and 10 Nov and tells the honey-trap story. Missing: the resignation itself (12 Nov) and the viewer's stake: the money gone, and Nvidia as the biggest stock in their Nasdaq 100 SIP._
 
 ### Facts and sources
-- Book 'several times oversubscribed' (Bloomberg, via Syz); FT: bankers expect to price above $78, target $1.5tn or more; filed range $70-78 for 825M shares; ~20% aimed at retail vs usual 5-10%; up to $64.4bn IPO plus $26bn placement. — [Syz Group, 11 Nov 2026](https://blog.syzgroup.com/fast-food-for-thought/anthropic-ipo-priced-on-tuesday-repriced-by-wednesday)
-- Orders 'multiple times' the shares available (Bloomberg); pricing next Wednesday, trading Thursday; over-allotment of almost $10bn; bankers want total raise well above $100bn; Jack Selby (Copper Sky) warning; Klarna and StubHub traded below IPO price after oversubscribed deals. — [ZeroHedge, 11 Nov 2026](https://www.zerohedge.com/markets/anthropic-bankers-push-higher-ipo-valuation-thiel-capitals-jack-selby-warns-weak-debut)
-- FT: bankers weigh a range above $70-78; '$1.5T or higher'; filing implies $1.26T to $1.41T fully diluted; IPO up to $64.4bn. — [TradingView / Seeking Alpha (FT report)](https://www.tradingview.com/news/seekingalpha:0229a7b9b094b:0-anthropic-bankers-weigh-higher-ipo-price-range-as-investor-demand-surges-ft/)
-- $33.2bn nine-month revenue; $104bn nine-month net loss; $26bn Class N placement (Google, Nvidia $10bn each). — [TechCrunch, 10 Nov 2026 (context, from yesterday)](https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/)
+- Huang resigned; Kress interim CEO; Harvey C. Jones first board chair; value below $4tn for the first time since July 2025; Huang 63, co-founded Nvidia in 1993, owns about 3.6%; FBI, Congress and board probes; class action; earnings Tuesday. — [Al Jazeera, 12 Nov 2026](https://www.aljazeera.com/news/2026/11/12/ai-titan-jensen-huang-out-as-nvidia-ceo)
+- Stock closed down 4.3% after falling as much as 16% intraday; about $500bn erased this week; resigned effective immediately; Anthropic relies heavily on Nvidia chips. — [NBC News, 12 Nov 2026](https://www.nbcnews.com/business/markets/nvidia-stock-huang-resigns-rcna608958)
+- Record about $5.78tn on 6 Oct; about $4.04tn by Tue 10 Nov, a loss of about $1.7tn (about 30%) in five weeks; Megaspeed executive; board probe; class action. — [The Motley Fool, 10 Nov 2026](https://www.fool.com/investing/2026/11/10/nvidia-stock-has-wiped-out-usd1-7-trillion-in-value-since-october-what-could-happen-if-jensen-huang-steps-down/)
+- Nvidia 8.36% of the Motilal Oswal Nasdaq 100 ETF, its top holding (Apple 7.38%, Microsoft 5.78%); holdings as of 30 Sep 2026. — [StockAnalysis (MON100 holdings)](https://stockanalysis.com/quote/nse/MON100/holdings/)
 
 ### Watch out
-- 'Several times oversubscribed' and 'may price above $78' are reports (Bloomberg, FT), not filed. Say 'reports say'. No new range exists yet; don't give one.
-- $1.5 trillion is the bankers' target as reported, fully diluted. On the shares that trade, the filed top is about $1.02 trillion.
-- The $104 billion loss is mostly a non-cash charge; say so in a few words or it misleads.
-- IPO facts only: no apply, buy or skip, and no listing-gain guesses. Oversubscription doesn't promise a first-day gain (Klarna, StubHub). Indians can't apply in the US IPO directly. Claude logo is fine; Dario Amodei's real photo with no invented words.
-- Bets: B1 (the number in second one: 'several times oversubscribed' or '$1.5 trillion'), B3 (a line on the two-day U-turn), B4 (split screen: Claude logo and the number on top).
+- The affairs and the spy suspicion are reports and allegations. Nvidia gave no reason. Say 'reports say', never that she is a spy. No invented words for Huang or Alice Huang. Real photos and footage are fine, with no lip-synced lines.
+- Loss numbers depend on the start date: $500bn this week (NBC), $1.7tn from the 6 Oct peak (Fool, as of 10 Nov). Name the window with the number. The viral '18 lakh crore' is roughly the $200bn one-day fall; don't reuse it.
+- Fund weight: 8.36% is as of 30 Sep and moves with the index. Say 'about 8%'. No buy, sell or 'stop your SIP' call.
+- Bets: B1 (the number in second one), B3 (a line about the viewer's own Nasdaq SIP), B4 (split screen: Huang's photo or the Nvidia logo and the number on top).
 
-## 2. Ramayana: ₹828.57 crore worldwide in six days against a ₹4,000 crore bill for two films
+## 2. Anthropic: book several times oversubscribed, may beat SpaceX's $85.7 billion record, and Nvidia, a buyer at the IPO price, just lost its CEO
 
-Hot lane (tracked since 9 Nov; new since then: ₹828.57 crore worldwide in six days, India's best Monday ever, and a viral 'flop' reel the numbers contradict) · HOT · **8/10** (momentum 3/3, stake 0/1, shareability 2/2, gap 1/2, known name 2/2) · tracker id `ramayana-box-office`
+Hot lane (tracked since 29 Oct; Ride-now follow-up to E15; new since yesterday: talk of beating SpaceX's IPO record, and its chip supplier-investor Nvidia lost its CEO) · HOT · **8/10** (momentum 3/3, stake 1/1, shareability 1/2, gap 1/2, known name 2/2) · tracker id `anthropic-s1`
 
-Window: To Sun 15 Nov (the second weekend's numbers). The ₹1,000 crore worldwide mark is the next turn.
+Window: To Thu 19 Nov, the first trading day (pricing Wed 18 Nov). A raised range in an amended filing would be a turn of its own.
 
 ### What's happening
-- Ramayana: Rise of a Legend (Ranbir Kapoor, Yash, Sai Pallavi) released worldwide on 5 Nov. After six days: ₹450.38 crore India net, ₹531.44 crore India gross, ₹297.13 crore overseas, ₹828.57 crore worldwide gross (Koimoi, 11 Nov). Business Today gives ₹823.50 crore worldwide; the sources differ by a few crore.
-- Its Monday was described as the best Monday in Indian cinema history. It had a record first-Monday North America gross of $1.37 million for an Indian film, and BookMyShow sold about 1.40 lakh tickets an hour at noon on Monday, its highest post-pandemic (Business Today, 11 Nov).
-- The budget: ₹4,000 crore, about $500 million, as producer Namit Malhotra put it. Co-producer Yash said in August that it covers both parts, including release and promotion (Free Press Journal, 16 Aug, context). Part 2 is due Diwali 2028 (Business Today).
-- It's produced by Namit Malhotra's Prime Focus Studios with DNEG and Yash's Monster Mind Creations. Prime Focus is a listed company; no clear share move this week was found.
+- Filed terms are unchanged since Tue 10 Nov: $70 to $78 a share, 825 million shares, up to $64.4 billion, Nasdaq ticker ANT, pricing Wed 18 Nov, trading Thu 19 Nov. About $1.405 trillion fully diluted at the top, up from $965 billion in May (CNBC).
+- Demand: Bloomberg reports orders several times the shares on offer, mostly large institutional orders. CNBC's sources say institutional demand is stronger than SpaceX's was at the same stage. The FT says underwriters expect to price above the range, which would mean more than $1.5 trillion fully diluted (Seoul Economic Daily).
+- Record: with the $26 billion private placement the raise is up to $90.4 billion, and above $100 billion if priced above the range. That would beat SpaceX's $85.7 billion IPO in June (Seoul Economic Daily).
+- The Nvidia link: Nvidia is one of seven suppliers (with AMD, Broadcom, Google, Micron, Microsoft and TSMC) buying the $26 billion placement at the IPO price (CNBC); Nvidia's part is about $10 billion (Seoul Economic Daily). Anthropic relies heavily on Nvidia chips (NBC). Nvidia lost its CEO on Thursday, six days before pricing.
 
 ### The curiosity gap
-- A 3.5M-view reel on 8 Nov said Ramayana 'flopped'. Two days later it had the best Monday in Indian cinema. Which is it, in rupees?
-- ₹828 crore in six days sounds huge. Against a ₹4,000 crore bill, and with cinemas keeping part of every ticket, how far is the producer from getting its money back?
+- The world's most valuable chip company is in crisis, and the AI company that runs on its chips has more orders than shares. Is the AI money still flowing, and who is buying?
+- If Anthropic beats SpaceX, it becomes the biggest IPO in history, from a company that lost $104 billion in nine months.
 
 ### How hot it is
-- Tracker check today: HOT, rising. 63 of 100 news items this week came today. YouTube this week: 7.25M views, best 60,343 views/hr.
-- trends.py 'Ramayana budget': FLAT, 7 of 11 news items today; YouTube this week 11.4M views across 15 videos.
-- Google Trends India today: 'scene movie collection worldwide' in the top searches.
+- trends.py 'Anthropic IPO': HOT but saturated. 100 of 100 news items this week came today. YouTube this week: 10 videos, 2.11M views; Fireship 1.57M in 48 h.
+- vidIQ outliers (Instagram/TikTok since 8 Nov): CNBC TikTok on the range, 189K (30x usual). No Indian reel on the oversubscription or the SpaceX record found.
+- Tracker: picked yesterday; no script yet.
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [@ranafilmy (Instagram)](https://www.instagram.com/reel/Dfe4lhoD249) | 'Why Ranbir's Ramayana failed at the box office': B-roll and talking head, a list of reasons | 3.5M | 17.8× usual | 8 Nov |
-| [@pushkarrajthakur (Instagram)](https://www.instagram.com/reel/DfcHj0JC3Px) | 'How will Ramayana recover its ₹4,000 crore budget?': film clips, talking head, a finance-app plug | 2.8M | 7.7× usual | 7 Nov |
-| [@v.i.s.h.ai (Instagram)](https://www.instagram.com/reel/DfL7xmHIrfq) | Split screen, film footage on top: 'How on earth is Ramayana going to get its 4,000 crores back?' | 1.6M | 16.3× usual | 1 Nov |
-| [@vlognview (Instagram)](https://www.instagram.com/reel/DffYc4dhiV5) | Talking head over a box-office card: '500 crore in just 4 days?' | 981K | 5.5× usual | 8 Nov |
+| [Fireship (YouTube)](https://www.youtube.com/watch?v=1FurWDiK9A4) | Did Anthropic just save its $1 trillion IPO? | 1.57M | 32,637 views/hr | 10 Nov |
+| [@cnbc (TikTok)](https://www.tiktok.com/@cnbc/video/7706561491138268429) | Anchor read: range $70 to $78, trading 19 Nov | 189K | 30x usual | 10 Nov |
+| [@cryptokibate (Instagram)](https://www.instagram.com/reel/DfAUHmAvtqJ) | 'Jio ka 10X hoga Anthropic ka IPO' (before the range) | 1.2M | 134x usual | 27 Oct |
 
-_The budget question has been asked, before release and in the first weekend. Missing: the answer with this week's real numbers, the 'flop' reel against the record Monday._
+_Indian creators haven't posted the oversubscription, the SpaceX record or the Nvidia link. Missing: 'biggest IPO ever, in the week its chip supplier lost its CEO'._
 
 ### Facts and sources
-- Day-wise net; ₹450.38 cr India net, ₹531.44 cr India gross, ₹297.13 cr overseas, ₹828.57 cr worldwide gross after 6 days; two-part franchise listed at ₹4,000 cr. Updated 11 Nov, 2:10 PM IST. — [Koimoi, 11 Nov 2026](https://www.koimoi.com/box-office/daily-breakdown/ramayana-day-wise-box-office-collection/)
-- Day 6 ₹94.10 cr net; ₹440.45 cr India net; ₹297 cr overseas; ₹823.50 cr worldwide; best Monday in Indian cinema history; $1.37M first-Monday North America record; ~1.40 lakh tickets/hour on BookMyShow; released 5 Nov; Part 2 Diwali 2028; Prime Focus Studios, DNEG, Monster Mind. — [Business Today, 11 Nov 2026](https://www.businesstoday.in/trending/entertainment/story/ramayana-box-office-day-6-ranbir-kapoor-sai-pallavi-and-yashs-film-continues-its-rs823-crore-dream-run-566774-2026-11-11)
-- Yash: 'Rs 4,000 crore is the budget for the two-part film, including release and promotion'; Malhotra earlier put it at $500 million. — [Free Press Journal, 16 Aug 2026 (context, older than a week)](https://www.freepressjournal.in/entertainment/yash-clarifies-ramayanas-4000-crore-budget-thats-a-misconception-it-covers-both-parts)
+- $70-78; 825M shares; up to $1.405tn fully diluted vs $965bn in May; pricing 18 Nov, trading 19 Nov, ANT; demand stronger than SpaceX at a similar stage; book covered in the range; Nvidia among seven companies in the $26bn Class N placement. — [CNBC, 10 Nov 2026](https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html)
+- Demand several times the shares (Bloomberg); up to $64.4bn IPO plus $26bn placement; max $90.4bn; could pass $100bn; SpaceX raised $85.7bn in June; FT: price above range, over $1.5tn; Nvidia about $10bn. — [Seoul Economic Daily, 12 Nov 2026](https://en.sedaily.com/world/2026/11/12/anthropic-ipo-demand-swamps-order-book-may-top-spacex-record)
+- Anthropic relies heavily on Nvidia chips; IPO next week. — [NBC News, 12 Nov 2026](https://www.nbcnews.com/business/markets/nvidia-stock-huang-resigns-rcna608958)
+- $104bn nine-month net loss, mostly a paper charge (context). — [TechCrunch, 10 Nov 2026](https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/)
 
 ### Watch out
-- Box-office figures differ by source (Koimoi ₹828.57 cr, Business Today ₹823.50 cr, Sacnilk lower). Name the source and use 'about ₹825 crore' if in doubt.
-- Gross collections are not the producer's income: cinemas and distributors keep a share. No source gives Part 1's own cost or the producer's share, so don't compute a 'recovered %'.
-- The ₹4,000 crore covers both films plus release and promotion (Yash). Don't set it against Part 1 alone without saying so.
-- Stake for our viewers is weak (no investor angle unless Prime Focus moves on it; no buy/sell on Prime Focus). Film clips and the cast's real photos are fine; no invented words.
-- Bets: B1 ('₹828 crore' or '₹4,000 crore' in second one), B3 (the 'flop' reel against the record Monday), B4 (poster or footage and the number on top).
+- Some aggregators (Futu, ChainCatcher) say 'about six times oversubscribed'. No page I could open confirms an exact multiple; say 'several times'.
+- The 'biggest IPO ever' is conditional: it needs pricing above the range. Only Nvidia's part (~$10bn) is reported, not filed.
+- No apply, buy or skip call and no listing-gain guess. Indians can't apply in the US IPO directly. Claude logo fine.
+- Bets: B1 (the record number in second one), B3, B4 (Claude logo above).
 
-## 3. Jio has more customers, Airtel makes more money: ₹271 a user against ₹218.8, and a higher quarterly profit
+## 3. NSE banned brokers from selling digital gold in 2021, then picked digital-gold seller Augmont, with no bidding, to drive its exchange gold
 
-Deep lane (The Morning Context, 11 Nov: 'Airtel is pulling away from Jio, but how far can it go?'; Jio follow-up per this week's plan) · COLD · **7/10** (momentum 1/3, stake 1/1, shareability 1/2, gap 2/2, known name 2/2) · tracker id `airtel-vs-jio-arpu`
+Deep lane (via The Ken, 12 Nov: 'NSE told brokers to drop digital gold. Then it hired the biggest digital-gold seller') · DEEP · **7/10** (momentum 0/3, stake 1/1, shareability 2/2, gap 2/2, known name 2/2) · tracker id `nse-augmont-digital-gold`
 
-Window: About two weeks (to Thu 26 Nov). The next turn is a tariff hike announcement, which analysts expect around Nov-Dec.
+Window: To Thu 26 Nov (deep lane, two weeks).
 
 ### What's happening
-- In the July-September quarter, Jio Platforms had 54.24 crore connectivity customers and added 91 lakh. Airtel had 49.8 crore customers in India (Upstox, 6 Nov).
-- But each Airtel mobile user paid ₹271 a month on average (ARPU, up 5.9%), against ₹218.8 at Jio (up 3.5%) (Upstox, 6 Nov).
-- Airtel's net profit was ₹8,888 crore (up 30.8%) against Jio Platforms' ₹8,389 crore (up 13.7%). Airtel's figure is consolidated and includes Africa; Jio's margin is higher (20.7% against 14.8%) and its net debt far lower (₹8,822 crore against Airtel's ₹1.67 lakh crore) (Upstox, 6 Nov).
-- It's Jio's first full quarter as a listed company. The Morning Context's 11 Nov piece argues that Airtel is pulling away (paywalled; we use the headline and public facts only).
-- Recharge prices: no hike has been announced. Analysts forecast 12 to 20% (Trak.in; Business Today, 10 Nov). Airtel raised its ₹859 plan to ₹899 and Jio cut the ₹195 plan's validity from 90 to 30 days, quiet hikes without a headline (Business Today).
+- In August 2021, NSE's circular 73/2021 (10 Aug), sent after a SEBI letter of 3 Aug, told its member brokers to stop selling digital gold by 10 Sep 2021, because it isn't a security under SEBI's rules. Groww, Upstox and Motilal Oswal wound it down. Unregulated apps (Google Pay, PhonePe) kept selling it (Moneylife; context).
+- On 26 Sep 2026, NSE empanelled Augmont Gold Tech, a subsidiary of Augmont Enterprises, which calls itself India's no.1 gold platform, as its key partner to promote Electronic Gold Receipts (EGRs). EGRs are SEBI-regulated, demat units backed by gold in vaults, with T+1 settlement and 3% GST when withdrawn as physical gold (BusinessToday).
+- The Ken (12 Nov): NSE won't say how Augmont was chosen or on what terms. There was no bidding process, and neither company's IPO papers (Augmont listed in August, NSE in September) mention the tie-up. NSE announced record EGR volumes on Dhanteras (about 228,000 units), but the unit had shrunk from 10 g to 0.1 g; on the old basis that is 2,277 units (The Ken, public excerpt).
+- We use only The Ken's headline and public facts. The rest is paywalled; credit 'via The Ken'.
 
 ### The curiosity gap
-- Jio has about 4 crore more customers than Airtel, yet Airtel made more profit last quarter. How does the smaller one earn more?
-- Every Airtel user pays about ₹52 a month more than a Jio user. If a recharge hike is coming, who gains the most from it?
+- The exchange told brokers digital gold was off-limits. Now it is pushing gold through the biggest digital-gold seller. What changed?
+- 'Record volume' on Dhanteras came after NSE cut the unit size 100 times. How big was it, really?
 
 ### How hot it is
-- trends.py 'Airtel vs Jio': COLD. 2 news items this week, none today. YouTube this week: 159,504 views, best 936/hr.
-- Adjacent outlier: @arshmaheshwarii 'Jio Airtel price hike might come soon' 1.1M, 117× usual (10 Nov), so the tariff angle is warm on Reels.
+- Deep lane: momentum 0 by nature.
+- vidIQ outliers (Instagram/TikTok since 15 Oct): gold-price reels are everywhere (@aditya_vine.s 5M, 26x; @tarunmalikx 3.4M, 14x), but none on EGRs, NSE or Augmont.
+- Gold is in the Indian money outliers for a fourth week running (strategist, 8 Nov).
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [@arshmaheshwarii (Instagram)](https://www.instagram.com/reel/DfhXxHBssti) | Split screen, 'BREAKING NEWS' card with the Jio logo on top, talking head below: a price hike may come soon | 1.1M | 117× usual | 10 Nov |
-| [@investoruncleindia (Instagram)](https://www.instagram.com/reel/De9CATTO-9M) | Jio IPO lock-ins: who holds the rest and when can they sell; text cards | 779K | 520× usual | 26 Oct |
-| [@adwait.rises (Instagram)](https://www.instagram.com/reel/De9cFAxSEsQ) | Split screen on Jio's rise around the IPO | 880K | 6.5× usual | 26 Oct |
+| [@aditya_vine.s (Instagram)](https://www.instagram.com/reel/DfPmSeNpJno) | Chalkboard: 'Gold dhadaam se gira' | 5M | 26x usual | 2 Nov |
+| [@tarunmalikx (Instagram)](https://www.instagram.com/reel/DfIJPeuTvKA) | Gold falls Rs 28,000: how much lower? | 3.4M | 14x usual | 30 Oct |
+| [@roshnideshmukhh (Instagram)](https://www.instagram.com/reel/DemjwWmxWA8) | Split screen: never exchange your old gold (tax) | 2M | 731x usual | 18 Oct |
 
-_Jio reels are about the IPO or the recharge price. Nobody has posted the comparison: more customers, less money per customer, and the smaller rival out-earning it._
+_Gold reels travel, but nobody has touched who sells you 'safe' digital gold, or the exchange's U-turn. Missing: the rule-maker who banned it, now partnering with its biggest seller._
 
 ### Facts and sources
-- Airtel: revenue ₹60,878 cr, PAT ₹8,888 cr (+30.8%), ARPU ₹271 (+5.9%), 49.8 cr India customers, net debt ₹1,66,580.5 cr. Jio Platforms: revenue ₹40,475 cr, PAT ₹8,389 cr (+13.7%), ARPU ₹218.8 (from ₹211.4), 54.24 cr customers, 91 lakh added, net debt ₹8,822 cr. — [Upstox, updated 6 Nov 2026](https://upstox.com/news/market-news/stocks/airtel-vs-jio-platforms-which-telecom-company-leads-on-q2-revenue-profit-and-arpu/article-203105/)
-- No tariff hike announced; analysts forecast increases; 20% scenario: Jio ₹349 plan to about ₹405-419. — [Business Today, 10 Nov 2026](https://www.businesstoday.in/latest/trends/photo/if-jio-airtel-and-vi-raise-tariffs-20-here-is-what-your-recharge-would-cost-566726-2026-11-10)
-- Airtel ARPU growth beat estimates; net profit ₹9,015 cr (+32.7%) missed estimates (a different profit line from Upstox's). — [The Week, 5 Nov 2026](https://www.theweek.in/news/biz-tech/2026/11/05/bharti-airtel-q2-results-2024.amp.html)
+- Headline and subheading; 7 Nov record EGR volume; about 228,000 units on Dhanteras; unit 10 g until 5 Nov, then 0.1 g (2,277 units on a 10 g basis); Augmont listed August 2026, NSE September 2026; Augmont: 1,60,357 units in the first hours. — [The Ken, 12 Nov 2026 (public excerpt)](https://the-ken.com/story/why-nses-tie-up-with-augmont-doesnt-add-up/)
+- NSE empanels Augmont Gold Tech as key EGR partner (26 Sep 2026); EGRs SEBI-regulated, vault-backed, T+1, 3% GST on physical withdrawal. — [BusinessToday, 26 Sep 2026 (context)](https://www.businesstoday.in/personal-finance/story/nse-empanels-augmont-as-key-partner-to-promote-electronic-gold-receipts-558031-2026-09-26)
+- NSE circular 10 Aug 2021 after SEBI letter of 3 Aug: members stop digital gold by 10 Sep 2021. — [Moneylife, Aug 2021 (context)](https://moneylife.in/article/nse-bars-members-from-selling-digital-gold-after-sebi-raises-concerns/64952.html)
 
 ### Watch out
-- Airtel's profit is reported as ₹8,888 crore (Upstox) or ₹9,015 crore (The Week): different lines of the same results. Pick one and name it. Both include Africa, so 'Airtel group' not 'Airtel India'.
-- Tariff hikes are forecasts, not announcements. No buy, hold or sell on Jio Platforms or Airtel.
-- The Morning Context piece is paywalled: use the headline and credit 'via The Morning Context' only if the reel follows its argument.
-- Bets: B1 ('₹271 vs ₹218' in second one), B3 (the line: the smaller one earns more), B4 (both logos and the two numbers on top). Rides on E11 (Starlink vs Jio).
+- Not a scandal finding: The Ken questions the process, and there is no allegation of wrongdoing. Keep it to 'no bidding, terms not disclosed'.
+- Don't call EGRs unsafe. They are regulated; digital gold on apps is not. No buy or sell call on gold or on NSE or Augmont shares.
+- The headline facts beyond the public excerpt are paywalled. Use the headline, the public numbers and open sources only.
+- Bets: B1 (the 'record' number with its 100x unit cut), B3, B4 (NSE logo and gold bars on top).
 
 ## Stories we're tracking
 
@@ -145,25 +143,24 @@ Full board: research/desk/TRACKER.md
 
 | Story | Now | Direction | Day | Status |
 |---|---|---|---|---|
-| Groww's F&O share of revenue falls to 45%; turns to IPOs and wealth (via The Arc) (`groww-derivatives-arc`) | HOT | rising | 26 | active |
-| Anthropic S-1: $16.3 bn H1 revenue, $80.7 bn loss ($72.4 bn paper charge) (`anthropic-s1`) | HOT | rising | 15 | active |
-| LTCG tax-cut debate: ₹1.29 lakh crore a year; The Ken says don't cut (`ltcg-cut-debate`) | FLAT | rising | 15 | active |
-| 773 government sites still serving eMudhra's revoked certificates (via The Ken) (`emudhra-gov-sites`) | COLD | fading | 14 | active |
-| Axis MF front-running: Dubai AnyDesk trades, brokers fined ₹10 lakh each (`axis-mf-frontrun`) | HOT | rising | 9 | active |
-| Stockal: US shares sold without consent, swapped for Chinese microcaps; ₹100 cr+ alleged (`stockal-unauthorised-trades`) | FLAT | fading | 8 | active |
-| Airlines fly fewer, charge more: IndiGo passengers -4.7%, yield +34%; SC 'Don't travel by air' (via The Ken) (`airfares-fly-less-pay-more`) | COLD | rising | 5 | active |
-| Ramayana: ₹499 cr worldwide in 4 days vs ₹4,000 cr bill for two films (`ramayana-box-office`) | HOT | rising | 4 | active |
-| ₹89,000 cr of unclaimed shares with IEPF; Reliance biggest slice (Diwali-cleaning certificate reels) (`unclaimed-shares-iepf`) | COLD | rising | 4 | active |
-| India's best week since Feb 2021: Nifty +8.6%, FIIs buy ~₹46,000 cr back after ₹45,162 cr October exit (`india-best-week-fii`) | HOT | fading | 3 | active |
-| Novartis India: ~50 staff, ₹1,446 cr for 71%; open offer got 40 shares (via The Ken) (`novartis-india-ken`) | COLD | steady | 3 | active |
-| ED raids CoinDCX and Delta: tokenised 'Apple, Tesla' routed abroad, alleged; $16M wallet loss two weeks earlier (`coindcx-ed-raid`) | COLD | new | 2 | active |
-| B.R. Shetty liable in $5.4 bn NMC fraud; sold Finablr for $1; BoB paid $600M (via The Morning Context) (`br-shetty-nmc`) | FLAT | new | 2 | active |
-| Jio more customers, Airtel more money: ARPU ₹271 vs ₹218.8 (`airtel-vs-jio-arpu`) | - | new | 1 | active |
+| Groww's F&O share of revenue falls to 45%; turns to IPOs and wealth (via The Arc) (`groww-derivatives-arc`) | COLD | fading | 27 | active |
+| Anthropic S-1: $16.3 bn H1 revenue, $80.7 bn loss ($72.4 bn paper charge) (`anthropic-s1`) | HOT | fading | 16 | active |
+| 773 government sites still serving eMudhra's revoked certificates (via The Ken) (`emudhra-gov-sites`) | COLD | rising | 15 | active |
+| Axis MF front-running: Dubai AnyDesk trades, brokers fined ₹10 lakh each (`axis-mf-frontrun`) | COLD | fading | 10 | active |
+| Airlines fly fewer, charge more: IndiGo passengers -4.7%, yield +34%; SC 'Don't travel by air' (via The Ken) (`airfares-fly-less-pay-more`) | COLD | steady | 6 | active |
+| Ramayana: ₹499 cr worldwide in 4 days vs ₹4,000 cr bill for two films (`ramayana-box-office`) | HOT | fading | 5 | active |
+| ₹89,000 cr of unclaimed shares with IEPF; Reliance biggest slice (Diwali-cleaning certificate reels) (`unclaimed-shares-iepf`) | COLD | steady | 5 | active |
+| India's best week since Feb 2021: Nifty +8.6%, FIIs buy ~₹46,000 cr back after ₹45,162 cr October exit (`india-best-week-fii`) | HOT | steady | 4 | active |
+| Novartis India: ~50 staff, ₹1,446 cr for 71%; open offer got 40 shares (via The Ken) (`novartis-india-ken`) | COLD | fading | 4 | active |
+| B.R. Shetty liable in $5.4 bn NMC fraud; sold Finablr for $1; BoB paid $600M (via The Morning Context) (`br-shetty-nmc`) | FLAT | fading | 3 | active |
+| Jio more customers, Airtel more money: ARPU ₹271 vs ₹218.8 (`airtel-vs-jio-arpu`) | COLD | new | 2 | active |
+| Jensen Huang quits Nvidia; ~$1.7 tn off since Oct peak; top Nasdaq 100 fund holding (`nvidia-huang-resigns`) | - | new | 1 | active |
+| NSE banned brokers' digital gold, then picked Augmont for EGRs (via The Ken) (`nse-augmont-digital-gold`) | - | new | 1 | active |
 
 ## Also on the wire
-- Tracker: Anthropic HOT/rising (picked again). Ramayana HOT/rising. Groww derivatives and Axis MF front-running HOT on YouTube with no news today. India's best week (FII buying) HOT but fading. LTCG debate flat. Stockal flat and fading. CoinDCX ED raid cold on news (no new turn since 7 Nov). B.R. Shetty/NMC flat. Unclaimed shares, airfares, eMudhra and Novartis cold.
-- Also seen, not sent: @harshitt_sh 'India's dead economy on Dhanteras: 50 tonnes of gold, ₹66,000 crore' 8.5M (542×, 9 Nov; not checked); @tarunmalikx 'world crashed, India rallied' 5.6M; Blinkit down across Delhi NCR on Diwali 492K (139×). The Ken: jewellers IPO-ing to pay for gold (11 Nov), Hero Group's ₹1,900 crore chip-testing stake (11 Nov), Lenskart's old investors exiting (11 Nov). The Morning Context: Muthoot and gold loans (loans are rested).
-- Tool changes: none. HIGGSFIELD_API_KEY isn't set on this cloud machine, so model_live.py refresh was skipped. vidIQ credits used by the desk today: 25.
+- Tracker: Anthropic HOT but saturated (100 of 100 news items today; Fireship 1.57M in 48 h). Ramayana HOT and fading (61% of the week's news today; the Day 6 explainer did 1.57M in 24 h; no official Day 7 worldwide figure yet). India's best week (FII buying) HOT on YouTube, no news. LTCG debate retired. Stockal and CoinDCX retired. Groww derivatives, Axis MF front-running, eMudhra government sites, airfares, unclaimed shares, Novartis and Airtel vs Jio cold. B.R. Shetty/NMC flat and fading.
+- Also seen, not sent: @bhaprath '1 share, 6 IPOs' on Coal India's shareholder quota for the Mahanadi Coalfields and other subsidiary IPOs, 374K (418x, 11 Nov). It would need a 'buy one share' call, so it's out. MakeMyTrip India got SEBI's IPO nod (cold, no dates yet). Ola Electric Q2 revenue fell 39% to Rs 421 crore, but the shares rose 3.8%. The RBI rejected Tata Sons' surrender plea back on 11 Sep (flat).
+- Tool changes: none checked. HIGGSFIELD_API_KEY isn't set on this machine, so model_live.py refresh was skipped.
 
 ## Where we stand
 
