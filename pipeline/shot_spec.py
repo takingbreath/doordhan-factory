@@ -34,7 +34,7 @@ Usage:
   shot_spec.py build ... --look-at "the ginger cat" --target-side left --target-in-frame
   shot_spec.py endcheck SPEC.json END.png
   shot_spec.py judge SPEC.json CLIP.mp4"""
-import argparse, json, math, os, subprocess, sys
+import argparse, json, math, os, re, subprocess, sys
 
 here = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, here)
 from common import FFMPEG, duration, speech_map  # noqa: E402
@@ -72,7 +72,14 @@ BASES = {
     "rashmi_animated": ("The young woman from the start image is an Instagram creator talking straight to the camera in "
                         "Hindi, explaining something she read to a friend: calm, matter-of-fact and natural, a relaxed "
                         "face with relaxed brows, never theatrical. No hair touching."),
+    # Pandey in the cinema look (sk06, 2026-11-14: a commuter in a Mumbai bus, not the helpline desk; Akhilesh asked
+    # for "attentive, not deadpan" on silver01 and approved this calm, knowing face in the stills)
+    "pandey_animated": ("The man from the start image speaks in Hindi straight to the camera, as if to the person next "
+                        "to him: calm, dry and matter-of-fact, alert eyes, a faint knowing half-smile under his "
+                        "moustache, never theatrical. No hair touching."),
 }
+# the cinema texts below were written for Rashmi; a male character gets them with his pronouns
+MALE = {"pandey", "gupta", "rahul", "sachdev"}
 # eyeline rule (2026-09-29): talking shots are straight to camera or eyes down, with exactly one blink and one small
 # eye shift, and no objects handled; a look at something is either a cut or the thing is in frame with an end image
 EYES_TALK = ("Eyes straight to the camera, or down; exactly one blink and one small eye shift during the line, nothing "
@@ -253,6 +260,9 @@ def build(a):
         wan3 = any(c["model"] == a.model and c.get("shape") == "image_reference_silent" for c in roles()["talking_shot_creator"]["candidates"])
         prompt = " ".join(x for x in [STILL_START, base, WAN3_FRAME if wan3 else "", mouth, eyes, a.acting or "",
                                       TAILS[a.look]] if x)
+        if a.character in MALE:
+            prompt = re.sub(r"\b(She|she|Her|her)\b",
+                            lambda m: {"She": "He", "she": "he", "Her": "His", "her": "his"}[m.group(1)], prompt)
         if wan3:
             prompt = prompt.replace("the start image", "the reference image")
             medias = [{"role": "image_references", "value": start["value"]}]
