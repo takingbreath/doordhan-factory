@@ -156,3 +156,12 @@ The gate's rows 7 and 8 can only judge what the build declares; without it they 
 - `"graphics": [{"t0", "t1", "text", "kind", "sourced"?}]`: every card, stat and lower third. Every figure in `text` must be a number the approved script says (50.1% = "fifty point one percent"; ₹91,685 Cr = the words), and stay up at least 1 s. A figure the script does not say needs `"sourced": "where a person checked it"`, or goes into the script at Akhilesh's gate. Kinds `logo`, `label`, `ticker`, `marker` and years are exempt.
 - Before spending on video, try the opening cheaply: `python3 pipeline/first_frame.py variants --slug S --prompt-file P` writes three first-frame keyframe requests (to camera / split with the story's picture / the number) and the cost (0.75 credits); send them through the spend guard and pick one by eye.
 - `first_frame.py check FINAL --manifest M` prints the measured numbers. The motion thresholds (CUT 8, MOVE 5) are first guesses; tune them from a few reels rated good and bad.
+
+## The judge's shift in a custom build (sk06, 2026-11-14)
+- **`ACCEPT_WITH_SHIFT audio_shift_ms: -160` means take the clip 0.16 s EARLIER**: at reel time r, use clip time
+  `c = (r - voice_start_in_reel + lead) - 0.16`. sk06's first opening cuts added it instead; the lips ran ~360 ms late and
+  only lipsync_lag on the finished cut caught it (FAIL -360 ms -> PASS 0 ms after the flip). Measure every cut you build
+  by hand: `pipeline/qcpy pipeline/lipsync_lag.py CUT.mp4 --audio VOICE.wav --start A --end B`.
+- **A talking shot with a camera move (Wan 3.0):** the push-in from the aisle to a very close shot (sk06 T1p) moved well,
+  but the judge failed it as "weak lips": the far-away first second read -560 ms and the rest a steady -280..-320 ms.
+  Judge the part you will use (`lipsync_lag --start`), not the whole clip, and correct that part's constant offset.
