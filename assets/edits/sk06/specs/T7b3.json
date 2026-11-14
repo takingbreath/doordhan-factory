@@ -1,0 +1,87 @@
+{
+ "id": "T7b3",
+ "line": "T7b",
+ "part": 1,
+ "parts": 1,
+ "source_line": "work/sk06/seg/T7b.wav",
+ "set": "",
+ "framing": "front",
+ "target_side": null,
+ "start": {
+  "kind": "keyframe",
+  "value": "1079015b-00d0-42cd-8bff-87d72597a602"
+ },
+ "chain": null,
+ "end_image_request": null,
+ "sheet": "assets/characters/pandey_sheet_v2.jpg",
+ "keyframe": "1079015b-00d0-42cd-8bff-87d72597a602",
+ "source_span_s": [
+  0.0,
+  6.17
+ ],
+ "speech_s": 6.15,
+ "track": "work/sk06/specs/T7b_track.mp3",
+ "character": "pandey",
+ "tail_fix": null,
+ "attempt": 1,
+ "max_auto_retries": 1,
+ "edit_src_in_s": 0.32,
+ "params": {
+  "model": "wan3_0",
+  "resolution": "720p",
+  "aspect_ratio": "9:16",
+  "duration": 7,
+  "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+  "medias": [
+   {
+    "role": "image_references",
+    "value": "1079015b-00d0-42cd-8bff-87d72597a602"
+   },
+   {
+    "role": "audio_references",
+    "value": "a57f37a9-29d1-4fb8-bd1a-a627a77fbcb7"
+   }
+  ],
+  "prompt": "The person begins completely still and silent with the mouth closed, and starts speaking only when the voice begins. The man from the reference image, a calm office commuter standing in a moving old Mumbai city bus and holding the overhead rail, speaks in Hindi straight to the camera, as if to the person next to him: dry and matter-of-fact, alert eyes, a faint knowing half-smile under his moustache, never theatrical. No hair touching. He is framed exactly as in the reference image: the same room, outfit, hair, light and camera position, his face at the same size and place in the frame. He speaks in a relaxed, conversational way, in exact sync with the provided audio from the very first word: he articulates every syllable clearly, his lips and jaw moving visibly with each word the way a real person's do when talking at a normal pace, never exaggerated, and his mouth rests closed between phrases. His movements are motivated, never random: between the moments named below, his head stays still and his eyes stay on the lens, relaxed. He blinks normally, about once every two seconds. Each expression comes from what he is saying at that moment and settles back afterwards. A small nod on 'radar'. Natural movements only. The camera holds still on its tripod. Keep the exact look of the reference image: a cinematic full-frame camera video with shallow depth of field, the same soft window light, natural colour and real skin texture; no new text, no subtitles.",
+  "generate_audio": false
+ },
+ "qc": [
+  "python3 pipeline/lipsync_lag.py <clip> --json <clip>_lag.json",
+  "python3 pipeline/check_match.py <clip> work/sk06/specs/T7b_track.mp3",
+  "python3 pipeline/face_consistency.py assets/characters/pandey_sheet_v2.jpg <clip>"
+ ],
+ "job_id": "004ca1a1-e666-46f4-980f-cc2898287b34",
+ "history": [
+  {
+   "attempt": 0,
+   "clip": "work/sk06/vid/T7b_au.mp4",
+   "verdict": "UNSURE (no confident window: no face, no speech, or no correlation)",
+   "pattern": null,
+   "drift": 0.0,
+   "failing_windows": [],
+   "face": {
+    "verdict": "PASS",
+    "min": 0.595,
+    "mean": 0.622
+   }
+  },
+  {
+   "attempt": 1,
+   "clip": "work/sk06/vid/T7b3_au.mp4",
+   "verdict": "PASS",
+   "pattern": "constant",
+   "drift": -10.7,
+   "failing_windows": [],
+   "face": {
+    "verdict": "WARN",
+    "min": 0.54,
+    "mean": 0.593
+   },
+   "accepted": true
+  }
+ ],
+ "decision": {
+  "action": "ACCEPT"
+ },
+ "clip": "work/sk06/vid/T7b3_au.mp4"
+}

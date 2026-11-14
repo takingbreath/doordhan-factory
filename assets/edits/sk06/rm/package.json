@@ -1,0 +1,20 @@
+{
+  "name": "sk06-remotion",
+  "private": true,
+  "version": "0.0.1",
+  "description": "sk05 Vox-style scene compositions (Remotion). Local to this project; no global install.",
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render"
+  },
+  "dependencies": {
+    "@remotion/bundler": "^4.0.538",
+    "@remotion/cli": "^4.0.538",
+    "@remotion/renderer": "^4.0.538",
+    "@types/react": "^19.3.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "^4.0.538",
+    "typescript": "^7.0.2"
+  }
+}

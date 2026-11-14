@@ -1,0 +1,60 @@
+{
+ "id": "A1",
+ "line": "T1p",
+ "part": 1,
+ "parts": 1,
+ "source_line": "work/sk06/seg/T1p.wav",
+ "set": "",
+ "framing": "front",
+ "target_side": null,
+ "start": {
+  "kind": "keyframe",
+  "value": "1079015b-00d0-42cd-8bff-87d72597a602"
+ },
+ "chain": null,
+ "end_image_request": null,
+ "sheet": "assets/characters/pandey_sheet_v2.jpg",
+ "keyframe": "1079015b-00d0-42cd-8bff-87d72597a602",
+ "source_span_s": [
+  0.0,
+  6.97
+ ],
+ "speech_s": 6.95,
+ "track": "work/sk06/specs/A1_track.mp3",
+ "character": "pandey",
+ "tail_fix": null,
+ "attempt": 1,
+ "max_auto_retries": 1,
+ "edit_src_in_s": 0.32,
+ "params": {
+  "model": "wan3_0",
+  "resolution": "720p",
+  "aspect_ratio": "9:16",
+  "duration": 5,
+  "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+  "medias": [
+   {
+    "role": "image_references",
+    "value": "1079015b-00d0-42cd-8bff-87d72597a602"
+   },
+   {
+    "role": "audio_references",
+    "value": "31b0d806-df72-4c16-8ac7-04cf4a018f6e"
+   }
+  ],
+  "prompt": "The person begins completely still and silent with the mouth closed, and starts speaking only when the voice begins. The man from the reference image, a calm office commuter standing in a moving old Mumbai city bus and holding the overhead rail, speaks in Hindi straight to the camera, as if to the person next to him: dry and matter-of-fact, alert eyes, a faint knowing half-smile under his moustache, never theatrical. No hair touching. Camera: the shot begins at the front of the bus looking down the aisle, with him standing far down the aisle, small in the frame (a full-length view, seated commuters on both sides); the camera glides slowly, smoothly and steadily forward up the aisle toward him for the first three and a half seconds, with no shake, ending in a very close shot where his face fills the frame exactly as in the reference image; then it holds still. His face stays sharp and natural the whole way in. He keeps his eyes on the lens the whole time. He speaks in a relaxed, conversational way, in exact sync with the provided audio from the very first word: he articulates every syllable clearly, his lips and jaw moving visibly with each word the way a real person's do when talking at a normal pace, never exaggerated, and his mouth rests closed between phrases. His head stays still and his eyes stay on the lens, relaxed; he blinks normally. On 'ignore' a small, firm nod; on 'space' his eyebrows lift slightly, then settle. Keep the exact look of the reference image: a cinematic full-frame camera video with shallow depth of field, the same soft window light, natural colour and real skin texture; no new text, no subtitles.",
+  "generate_audio": false
+ },
+ "qc": [
+  "python3 pipeline/lipsync_lag.py <clip> --json <clip>_lag.json",
+  "python3 pipeline/check_match.py <clip> work/sk06/specs/T1p_track.mp3",
+  "python3 pipeline/face_consistency.py assets/characters/pandey_sheet_v2.jpg <clip>"
+ ],
+ "history": [],
+ "decision": {
+  "action": "RETRY",
+  "why": "FAIL (weak lips)",
+  "do": "regenerate with the updated params in this spec (stronger articulation wording)"
+ },
+ "job_id": "7b441671-bb6e-4e2a-baaa-ccfe4658a4de"
+}

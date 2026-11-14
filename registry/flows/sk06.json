@@ -33,6 +33,15 @@
    "value": "C",
    "experiment": true,
    "note": "Reference reel instagram.com/p/DX4XksWJlLL: yellow Anton caps + white Caveat word (behind his head where it fits, bgswap.py --text), gold Playfair captions, official logos on names, UNLISTED stamp, full-screen charts held ~5 s with support/resistance marked by Claude from clear swing highs/lows (silver01 marks), no split, no phone; edit ~2 s cuts on words, whips into charts, matched SFX; cinema look"
+  },
+  "production": {
+   "at": "2026-11-14T12:56:22+05:30",
+   "value": "outputs/sk06/E16_space_semis.mp4",
+   "note": "QC-stamped v3 final, 111.77 s; waivers by Akhilesh 2026-11-14 'Waive and send both'"
+  },
+  "final": {
+   "at": "2026-11-14T12:56:22+05:30",
+   "by": "Akhilesh"
   }
  }
 }

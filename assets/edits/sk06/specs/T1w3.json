@@ -1,0 +1,82 @@
+{
+ "id": "T1w3",
+ "line": "T1w3",
+ "part": 1,
+ "parts": 1,
+ "source_line": "work/sk06/seg/T1.wav",
+ "set": "",
+ "framing": "front",
+ "target_side": null,
+ "start": {
+  "kind": "keyframe",
+  "value": "1079015b-00d0-42cd-8bff-87d72597a602"
+ },
+ "chain": null,
+ "end_image_request": null,
+ "sheet": "assets/characters/pandey_sheet_v2.jpg",
+ "keyframe": "1079015b-00d0-42cd-8bff-87d72597a602",
+ "source_span_s": [
+  0.0,
+  5.15
+ ],
+ "speech_s": 5.05,
+ "track": "work/sk06/specs/T1w3_track.mp3",
+ "character": "pandey",
+ "tail_fix": null,
+ "attempt": 0,
+ "max_auto_retries": 1,
+ "edit_src_in_s": 0.32,
+ "params": {
+  "model": "wan3_0",
+  "resolution": "720p",
+  "aspect_ratio": "9:16",
+  "duration": 6,
+  "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+  "medias": [
+   {
+    "role": "image_references",
+    "value": "1079015b-00d0-42cd-8bff-87d72597a602"
+   },
+   {
+    "role": "audio_references",
+    "value": "2b6562c8-1476-4ea5-b54b-c60eac9a4fca"
+   }
+  ],
+  "prompt": "The person begins completely still and silent with the mouth closed, and starts speaking only when the voice begins. The man from the reference image, a calm office commuter standing in a moving Mumbai bus, speaks in Hindi straight to the camera, as if to the person next to him: dry and matter-of-fact, alert eyes, a faint knowing half-smile under his moustache, never theatrical. No hair touching. He is framed exactly as in the reference image: the same room, outfit, hair, light and camera position, his face at the same size and place in the frame. He speaks in a relaxed, conversational way, in exact sync with the provided audio from the very first word: his lips part only a little on most syllables, the jaw moves little, and his mouth rests closed between phrases. His movements are motivated, never random: between the moments named below, his head stays still and his eyes stay on the lens, relaxed. He blinks normally, about once every two seconds. Each expression comes from what he is saying at that moment and settles back afterwards. On 'ignore' a small, firm nod; on 'space' and 'semiconductors' his eyebrows lift slightly, then settle. Eyes open and on the lens, head steady and level between those moments. Natural movements only. The camera holds still on its tripod. Keep the exact look of the reference image: a cinematic full-frame camera video with shallow depth of field, the same soft window light, natural colour and real skin texture; no new text, no subtitles.",
+  "generate_audio": false
+ },
+ "qc": [
+  "python3 pipeline/lipsync_lag.py <clip> --json <clip>_lag.json",
+  "python3 pipeline/check_match.py <clip> work/sk06/specs/T1w3_track.mp3",
+  "python3 pipeline/face_consistency.py assets/characters/pandey_sheet_v2.jpg <clip>"
+ ],
+ "job_id": "729a31c1-6c83-4b3d-8cf9-e777248bb54b",
+ "history": [
+  {
+   "attempt": 0,
+   "clip": "work/sk06/vid/T1w3_au.mp4",
+   "verdict": "FAIL",
+   "pattern": "constant",
+   "drift": -4.6,
+   "failing_windows": [
+    0.0,
+    1.0,
+    2.0,
+    3.0,
+    3.76
+   ],
+   "face": {
+    "verdict": "WARN",
+    "min": 0.539,
+    "mean": 0.604
+   },
+   "accepted": true
+  }
+ ],
+ "clip": "work/sk06/vid/T1w3_au.mp4",
+ "decision": {
+  "action": "ACCEPT_WITH_SHIFT",
+  "audio_shift_ms": -160,
+  "why": "offset -240..-160 ms: set \"audio_shift_ms\": -160 on this part in edit.json (pulls the audio earlier by 160 ms; lands near -40 ms). In a custom edit (build.py) move the clip's source start (src_in) by -0.160 s instead."
+ }
+}

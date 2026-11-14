@@ -1,0 +1,45 @@
+{
+ "song": "Zindagi Ek Safar Hai Suhana (Andaz, 1971), Kishore Kumar, Saregama: add it in Instagram Edits",
+ "reel_length": "1:51.77",
+ "levels": "'full' = as loud as Pandey's voice; 'low' = about 19 dB under 'full' (in Edits start near 15-20% and set it by ear)",
+ "clips": [
+  {
+   "clip": "S1",
+   "reel": "0:00.00-0:01.30",
+   "song_from": "0:25.98",
+   "level": "full",
+   "why": "the drone dives to the bus; the song where C ended, so the loop is seamless"
+  },
+  {
+   "clip": "S2",
+   "reel": "0:01.30-0:52.55",
+   "song_from": "0:27.28",
+   "level": "low",
+   "why": "split S1 where the camera passes the windscreen; low under his voice"
+  },
+  {
+   "clip": "mute",
+   "reel": "0:52.55-0:54.10",
+   "why": "the brake"
+  },
+  {
+   "clip": "B",
+   "reel": "0:54.10-1:44.86",
+   "song_from": "2:06.00",
+   "level": "low",
+   "why": "second verse from 2:06, low under the semiconductor half and the payoff"
+  },
+  {
+   "clip": "mute",
+   "reel": "1:44.86-1:45.76",
+   "why": "the outro brake"
+  },
+  {
+   "clip": "C",
+   "reel": "1:45.76-1:51.77",
+   "song_from": "0:19.97",
+   "level": "full",
+   "why": "the chorus over the pull-back and the drone rise; ends at song 0:25.98, which runs into S1 when the reel loops"
+  }
+ ]
+}

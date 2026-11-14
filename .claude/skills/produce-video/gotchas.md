@@ -165,3 +165,15 @@ The gate's rows 7 and 8 can only judge what the build declares; without it they 
 - **A talking shot with a camera move (Wan 3.0):** the push-in from the aisle to a very close shot (sk06 T1p) moved well,
   but the judge failed it as "weak lips": the far-away first second read -560 ms and the rest a steady -280..-320 ms.
   Judge the part you will use (`lipsync_lag --start`), not the whole clip, and correct that part's constant offset.
+
+- **Pandey's moustache: Wan 2.7 for his talking shots (sk06, 2026-11-14).** Of eleven Wan 3.0 shots, SyncNet had no
+  confident opinion on nine ("weak lips"), two barely moved (T5c 0.7 %, T7b 0.4 % of face height) and two did not follow
+  the voice at all (T3a, T7a: still on the first words, ~1 s late). The Wan 2.7 retakes of the same lines from the same
+  keyframe passed at 0 and -40 ms with SyncNet confidence 2.8-3.0. Wan 3.0 also mouths on after the line ends, so cut at
+  the last word. To read lips under a moustache, look at the closures on p/b/m words (work/sk06/bilabial_check.py) and
+  plot lip gap against loudness (work/sk06/gap_plot.py); the lip-sync judge alone was not enough.
+- **Real TradingView charts without a download (sk06):** in the built-in browser, `TradingViewApi.takeClientScreenshot()`
+  gives a canvas; `toBlob` it and send it with the gemini-media bridge. `activeChart().setVisibleRange` is "Not
+  implemented" on the public chart: use `_activeChartWidgetWV.value()._chartWidget.model().timeScale().zoomToBarsRange(i0, i1)`.
+  Marks go on TradingView's own coordinates (`priceScale().priceToCoordinate`, `timeScale().indexToCoordinate`) plus
+  the screenshot's header (26.9 px) and pane offset (9.9 px), measured on the highest wick (work/sk06/tv/calib.py).

@@ -222,3 +222,6 @@ retry's "clear, visible mouth shapes on every vowel".
 - **Makeup and expression together, rejected:** "change only her makeup and expression ... lips closed in a small
   confident smile" gave a different woman (0.70 against the master; the source frame 0.87). Makeup alone with the
   expression locked kept her face (0.83) but Akhilesh called it "overdoing the makeup".
+
+## Cinematic monologue outside the office (E16, sk06, 2026-11-14)
+Pandey in a Mumbai bus with a drone dive, a brake, real footage and TradingView charts: every prompt that worked (Gemini look frames, eleven_v4 direction, Wan 2.7 camera moves, Wan 3.0 talking shots with the approach and inertia-brake variants, footage and chart briefs, edit grammar, cover) is in assets/edits/sk06/PROMPTS.md.

@@ -352,6 +352,11 @@
       "overhead_hangup_cardigan_cuff": "a97681e0-5796-48a1-b447-242ff9ea3b2c",
       "billu_sniffs_note_paws_at_tray": "c93b278a-6d65-4704-9519-0699a5e34937",
       "pandey_talk_T1b_opening_line_cat_beside": "6e910b70-a1b0-40c1-aa8c-5d00ddade6ed"
+    },
+    "kendra_reusable_e16": {
+      "what": "sk06 bus clips: S1 top-shot dive through the windscreen (vid/S1_wan27_gt.mp4, roof text LONG-TERM), the outro exit (vid/S3_outro_gt.mp4), the brake with passengers lurching forward (B1b), real-footage montages cut to 2-3 s (rm/public/f, sources in footage_in/sources.md)",
+      "local": "work/sk06/vid, work/sk06/rm/public/f (git-ignored)",
+      "edit": "work/sk06/rm (Remotion: src/Reel.tsx, src/fx.tsx)"
     }
   },
   "keyframes_notes": {
@@ -367,11 +372,19 @@
     "creator_e10": "creator_e10_*: Rashmi's four setups (seedream_v4_5); the 'levelled' uploads were rotated with pipeline/level_keyframe.py to pass the head-roll check. recreation_2015_tv_room: blue screen for keying a bulletin; the man is only ever seen from behind. insert_car_detail_unbranded: the first car came out as a recognisable Range Rover; avoid implying a model.",
     "creator_e11": "creator_e11_*: Rashmi's E11 look (seedream_v4_5 one-change edit to a high square neckline after the first try copied the reference's deep neckline); the levelled upload is rotated -10 deg with level_keyframe.py (roll 18 -> 8). Face reference: assets/characters/rashmi_e11_master.jpg.",
     "kendra_e12_*": "sk04 (2026-10-22), job IDs of the gpt_image_2_5 results; local copies are in work/sk04/kf (git-ignored). The 3/4 frames came with stray papers on the desk and were cleaned by an edit (those two clean job IDs were not recorded). The cold open is a 74% crop (face 17% of the frame) of kendra_e12_cold_open_billu_big_left; its end frame was edited from the crop.",
-    "creator_e15": "creator_e15_*: Rashmi's anthropic01 look (2026-10-28). k2b is the episode master (seedream_v4_5). The three *_neathair frames are the approved talking-shot references: relaxed, closed-mouth frames from approved clips, hair-only Gemini edits (neat, combed; warm light kept), used as Wan 3.0 image references (formats/creator.md section 1b). Local copies: work/anthropic01/kf/hair2_crop.png, r2_hair.png, r5_hair.png; face sheet kf/rashmi_e15_sheet_v2.jpg (git-ignored). Gemini makeup frames were rejected; no freckles."
+    "kendra_e13_*": "sk05 (2026-10-23): Pandey frames F1 front, F2 3/4 left, F3 low, F4 3/4 right and FC forehead (the beep beat), plus Billu KB_billu; local copies in work/sk05/kf (git-ignored); job IDs are in the Higgsfield history of 22-23 Oct. Wan clips: work/sk05/vid2 (T1n, T2..T5, B_shock, B_turn); the textured copies are *_tx.mp4.",
+    "creator_e15": "creator_e15_*: Rashmi's anthropic01 look (2026-10-28). k2b is the episode master (seedream_v4_5). The three *_neathair frames are the approved talking-shot references: relaxed, closed-mouth frames from approved clips, hair-only Gemini edits (neat, combed; warm light kept), used as Wan 3.0 image references (formats/creator.md section 1b). Local copies: work/anthropic01/kf/hair2_crop.png, r2_hair.png, r5_hair.png; face sheet kf/rashmi_e15_sheet_v2.jpg (git-ignored). Gemini makeup frames were rejected; no freckles.",
+    "kendra_e16_*": "sk06 (2026-11-14): Pandey in the bus. Every face shot is Wan 3.0 with the V1 image reference (1079015b) and our track ('the Pandey after doosra', Akhilesh); local frames in work/sk06/kf, specs in work/sk06/specs, job IDs in work/sk06/ids.json (git-ignored). The dive and the outro are Wan 2.7 with LONG-TERM painted on the roof locally (work/sk06/roof_text.py: a seeded colour region plus a homography tracker)."
   },
   "wardrobe_log": {
     "_note": "One row per character per episode, added when the final is approved. Nobody wears the same outfit twice on air.",
     "rows": [
+      {
+        "episode": "16",
+        "date": "2026-11-14",
+        "character": "pandey",
+        "outfit": "faded sky-blue checked shirt, sleeves rolled, black office backpack worn on the chest, steel tiffin in the wide; standing in a packed older Mumbai red bus (Dil Se film look), not the Kendra office (sk06)"
+      },
       {
         "episode": "15",
         "date": "2026-10-28",
@@ -383,6 +396,12 @@
         "date": "2026-10-25",
         "character": "pandey",
         "outfit": "pale-grey collared shirt under a charcoal knitted waistcoat, blue ballpoint in the pocket; serious and attentive, not deadpan (Akhilesh); Kendra office with the SAHAYATA board; Billu on the desk with a silver bar (silver01)"
+      },
+      {
+        "episode": "13",
+        "date": "2026-10-23",
+        "character": "pandey",
+        "outfit": "soft ivory half-sleeve shirt buttoned to the collar, blue ID lanyard with a card, blue ballpoint in the chest pocket; no tie, no sweater vest (v1's navy shirt and tie were rejected as 'angry and odd'); Kendra office with the SAHAYATA board; Billu on the counter (sk05)"
       },
       {
         "episode": "12",

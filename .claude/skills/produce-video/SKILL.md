@@ -190,7 +190,7 @@ runs under the footer or off the frame, and no text is smaller than about 32 px 
 - `PLAN_ONLY=1 pipeline/qcpy work/<slug>/build.py` prints the timeline, the talking share (≤ 55%)
   and each shot's source span ("runs past the clip" means fix it). Then the full build (about 30 s), then contact
   sheets of `work/<slug>/edit_raw.mkv` at 25–30 moments. Fix anything that covers a face or Billu's action, text off
-  the frame, a jump at a cut, and look at the first frame (it is the cover).
+  the frame, a jump at a cut, and look at the first frame (it opens the reel; the grid shows the designed cover, docs/covers.md).
 
 ## 9. Finish and the QC gate
 1. `pipeline/qcpy pipeline/assemble.py work/<slug>/edit.json` (about 3 minutes for 66 s).
@@ -220,7 +220,7 @@ runs under the footer or off the frame, and no text is smaller than about 32 px 
   `keyframes_notes` line, the reusable clips as `clips.kendra_reusable_e<N>`.
 - `python3 pipeline/scoreboard.py add-reel --id E<N> --format <format> --story "..." --bets <what it carried> --length <s> --outfit "..." --credits <spent> --notes "..."`.
 - The format file: the cost line in section 10 and any lesson that changes how the next episode is made.
-- The posting kit, in the message itself, following `playbooks/post-kit.md` (caption, cover frame, settings, poll,
+- The posting kit, in the message itself, following `playbooks/post-kit.md` (caption, the designed cover from docs/covers.md and pipeline/cover.py, settings, poll,
   linked reel, audio name, slot, YouTube Shorts title and settings); also save it as `work/<slug>/post_kit.md` and run
   `python3 pipeline/compliance_check.py registry/scripts/<slug>.json --caption work/<slug>/post_kit.md` (exit 2 = the
   caption lacks "Not investment advice").

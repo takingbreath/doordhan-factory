@@ -1,0 +1,17 @@
+{
+ "out": "outputs/sk06/E16_cover_alt.jpg",
+ "scene": "work/sk06/cover/gem/busrocket_a3_chip_clean.png",
+ "scene_zoom": 1.12,
+ "scene_shift": [
+  0,
+  70
+ ],
+ "hook": "AGLA\nBOOM?",
+ "kicker": "SPACE & CHIPS",
+ "hook_at": [
+  798,
+  478
+ ],
+ "tilt": -4,
+ "hook_size": 136
+}

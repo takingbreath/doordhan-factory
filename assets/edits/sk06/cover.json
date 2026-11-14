@@ -1,0 +1,17 @@
+{
+ "out": "outputs/sk06/E16_cover.jpg",
+ "scene": "work/sk06/cover/gem/chiprocket_b1_clean.png",
+ "scene_zoom": 1.06,
+ "scene_shift": [
+  0,
+  60
+ ],
+ "hook": "AGLA BOOM?",
+ "kicker": "SPACE & CHIPS",
+ "hook_at": [
+  540,
+  402
+ ],
+ "tilt": -3,
+ "hook_size": 132
+}

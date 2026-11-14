@@ -1,0 +1,55 @@
+{
+ "name": "sk06",
+ "billu_s": 0,
+ "model": "eleven_v4",
+ "lines": [
+  {
+   "id": "P1",
+   "speaker": "pandey",
+   "text": "[direct, conversational] Long-term investing करते हैं? ई दो sectors को — ignore मत कीजिए, एक है space, दूसरा semiconductors।",
+   "monologue": true
+  },
+  {
+   "id": "P2",
+   "speaker": "pandey",
+   "text": "[dry, matter-of-fact] Space में Agnikul, Skyroot, Pixxel जैसे नाम हैं, लेकिन ई startups — listed नहीं हैं, तो space से जुड़ी listed companies देखते हैं।",
+   "monologue": true
+  },
+  {
+   "id": "P3",
+   "speaker": "pandey",
+   "text": "[calm, unhurried] पहला नाम है — Centum Electronics। ई space applications के लिए electronics बनाती है, तो sector में activity बढ़ने से, इसके लिए business के मौके बन सकते हैं। अब इसके chart पर support और resistance mark करके देखिए, कि breakout का setup और momentum बन रहा है, या नहीं।",
+   "monologue": true
+  },
+  {
+   "id": "P4",
+   "speaker": "pandey",
+   "text": "[calm, unhurried] दूसरा नाम है — MTAR Technologies। ई space programmes के लिए engines और critical assemblies बनाती है। इसके chart में recent बड़े run-up के बाद consolidation हो, तो उसकी range, और अगला breakout समझिए।",
+   "monologue": true
+  },
+  {
+   "id": "P5",
+   "speaker": "pandey",
+   "text": "[calm, matter-of-fact] अब semiconductors पर आइए। India में chips बनाने, और उनकी packaging और testing के नए plants लग रहे हैं, लेकिन यहाँ भी कई बड़े नाम — unlisted हैं। फिर भी कुछ listed companies, आपके watchlist में होनी चाहिए।",
+   "monologue": true
+  },
+  {
+   "id": "P6",
+   "speaker": "pandey",
+   "text": "[calm, unhurried] पहला नाम है — CG Power। इसकी CG Semi, chip assembly, packaging और testing में काम करती है।",
+   "monologue": true
+  },
+  {
+   "id": "P7",
+   "speaker": "pandey",
+   "text": "[calm, unhurried] फिर आती है — Kaynes Technology। इसकी Kaynes Semicon भी semiconductor packaging और testing में काम करती है, तो chip industry को समझते वक़्त, chips बनाने के साथ ई businesses भी, आपके radar पर होने चाहिए।",
+   "monologue": true
+  },
+  {
+   "id": "P8",
+   "speaker": "pandey",
+   "text": "[quietly firm] अब ई चारों companies के charts को technically evaluate कीजिए, क्योंकि सिर्फ़ अच्छा stock और अच्छा sector देखकर, बात पूरी नहीं होती। Entry के वक़्त — chart का setup भी देखिए।",
+   "monologue": true
+  }
+ ]
+}

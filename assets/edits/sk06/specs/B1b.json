@@ -1,0 +1,60 @@
+{
+ "id": "B1b",
+ "line": "T1p",
+ "part": 1,
+ "parts": 1,
+ "source_line": "work/sk06/seg/T1p.wav",
+ "set": "",
+ "framing": "front",
+ "target_side": null,
+ "start": {
+  "kind": "keyframe",
+  "value": "1079015b-00d0-42cd-8bff-87d72597a602"
+ },
+ "chain": null,
+ "end_image_request": null,
+ "sheet": "assets/characters/pandey_sheet_v2.jpg",
+ "keyframe": "1079015b-00d0-42cd-8bff-87d72597a602",
+ "source_span_s": [
+  0.0,
+  6.97
+ ],
+ "speech_s": 6.95,
+ "track": "work/sk06/specs/B1_track.mp3",
+ "character": "pandey",
+ "tail_fix": null,
+ "attempt": 1,
+ "max_auto_retries": 1,
+ "edit_src_in_s": 0.32,
+ "params": {
+  "model": "wan3_0",
+  "resolution": "720p",
+  "aspect_ratio": "9:16",
+  "duration": 4,
+  "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+  "medias": [
+   {
+    "role": "image_references",
+    "value": "1079015b-00d0-42cd-8bff-87d72597a602"
+   },
+   {
+    "role": "audio_references",
+    "value": "de041f55-68da-4c7c-9c16-ad9060ebe910"
+   }
+  ],
+  "prompt": "The man from the reference image, a calm office commuter standing in a moving old Mumbai city bus and holding the overhead rail, very close on his face exactly as in the reference image, silent with his mouth closed. At about half a second the bus brakes hard: the camera is jolted backward away from him, a quick pull back to a medium shot that shows the seated passengers behind him lurching forward in their seats and staying seated, bags and tiffins swinging; he stays perfectly steady, holding the rail, unbothered. After the jolt the camera moves smoothly back in to the very close shot of his face, and as it arrives he speaks in Hindi straight to the camera, dry and matter-of-fact, in exact sync with the provided audio from the very first word: he articulates every syllable clearly, his lips and jaw moving visibly with each word the way a real person's do when talking at a normal pace, never exaggerated, and his mouth rests closed between phrases. He keeps his eyes on the lens, a faint knowing half-smile under his moustache; he blinks normally. Keep the exact look of the reference image: a cinematic full-frame camera video with shallow depth of field, the same soft window light, natural colour and real skin texture; no new text, no subtitles.",
+  "generate_audio": false
+ },
+ "qc": [
+  "python3 pipeline/lipsync_lag.py <clip> --json <clip>_lag.json",
+  "python3 pipeline/check_match.py <clip> work/sk06/specs/T1p_track.mp3",
+  "python3 pipeline/face_consistency.py assets/characters/pandey_sheet_v2.jpg <clip>"
+ ],
+ "history": [],
+ "decision": {
+  "action": "RETRY",
+  "why": "FAIL (weak lips)",
+  "do": "regenerate with the updated params in this spec (stronger articulation wording)"
+ },
+ "job_id": "b58f3d93-c375-44fb-af95-32c9be2e8702"
+}

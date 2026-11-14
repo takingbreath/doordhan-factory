@@ -1,0 +1,1 @@
+Playfair Display (Claus Eggers Sørensen), SIL Open Font License 1.1. Fetched 2026-10-23 from https://cdn.jsdelivr.net/fontsource/fonts/playfair-display@latest/ (latin subset, woff -> ttf) for the sk05 graphics, with the owner's OK.
