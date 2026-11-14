@@ -10,7 +10,7 @@ import { AbsoluteFill, Img, Sequence, staticFile, useCurrentFrame } from "remoti
 import charts from "../public/data/charts.json";
 import media from "../public/data/media.json";
 import {
-  Bug, Captions, ChartView, Clip, Disclaimer, DrawArrow, DrawBox, DrawLine, F, FONTS, Label, LogoCard, Moving, BigWord,
+  Bug, Captions, ChartView, LogoBadge, Clip, Disclaimer, DrawArrow, DrawBox, DrawLine, F, FONTS, Label, LogoCard, Moving, BigWord,
   Montage, Item, KineticDisclaimer, cam, clamp, smooth, punchAt, whip, shake, Dir, Punch, Cap, HW,
 } from "./fx";
 
@@ -35,6 +35,7 @@ const chartScene = (key: string, keys: { t: number; z: number; cx: number; cy: n
 };
 const card = () => <AbsoluteFill style={{ background: "radial-gradient(circle at 50% 45%, #fbfaf6 0%, #e9e6dd 100%)" }} />;
 
+const LOGO: Record<string, string> = { centum: "logos/centum.png", mtar: "logos/mtar_badge.png", cgpower: "logos/cgpower.png", kaynes: "logos/kaynes.png" };
 const MC = C.centum.marks, MM = C.mtar.marks, MG = C.cgpower.marks, MK = C.kaynes.marks;
 
 const SCENES: Scene[] = [
@@ -76,10 +77,10 @@ const SCENES: Scene[] = [
     draw: chartScene("centum", [{ t: 29.4, z: 1, cx: 362, cy: 453 }, { t: 30.4, z: 1, cx: 362, cy: 453 }, { t: 31.0, z: 1.45, cx: 470, cy: 300 }, { t: 33.0, z: 1.45, cx: 470, cy: 300 }, { t: 33.6, z: 1.9, cx: 530, cy: 230 }],
       (t) => <>
         <DrawLine t={t} t0={30.72} x1={MC.sup.x1 - 150} x2={MC.sup.x2} y1={MC.sup.y} color="#d62828" />
-        <Label t={t} t0={30.80} x={MC.sup.x1 - 150} y={MC.sup.y + 34} text="SUPPORT" size={26} />
+        <Label t={t} t0={30.80} x={Math.max(MC.sup.x1 - 150, 356)} y={MC.sup.y + 34} text="Support" size={21} color="#d62828" />
         <DrawLine t={t} t0={31.30} x1={MC.res.x1 - 200} x2={MC.res.x2} y1={MC.res.y} color="#2a5bd7" />
-        <Label t={t} t0={31.38} x={MC.res.x1 - 200} y={MC.res.y + 34} text="RESISTANCE" size={26} />
-        <Label t={t} t0={33.30} x={MC.res.x2 - 4} y={MC.res.y - 12} text="BREAKOUT?" anchor="end" size={26} />
+        <Label t={t} t0={31.38} x={MC.res.x1 - 200} y={MC.res.y + 34} text="Resistance" size={21} color="#2a5bd7" />
+        <Label t={t} t0={33.30} x={MC.res.x2 - 4} y={MC.res.y - 12} text="Breakout?" anchor="end" size={21} />
         <DrawArrow t={t} t0={34.52} x1={MC.res.x2 - 14} y1={C.centum.lastY - 8} x2={MC.res.x2 - 14} y2={MC.res.y + 12} w={6} />
       </>) },
   // 7 "Doosra naam hai, MTAR Technologies": fast cuts, NO. 2, the logo on its name
@@ -94,10 +95,10 @@ const SCENES: Scene[] = [
     draw: chartScene("mtar", [{ t: 45.8, z: 1, cx: 362, cy: 453 }, { t: 47.4, z: 1, cx: 362, cy: 453 }, { t: 47.9, z: 1.4, cx: 470, cy: 340 }, { t: 51.3, z: 1.4, cx: 470, cy: 340 }, { t: 51.9, z: 1.85, cx: 540, cy: 250 }],
       (t) => <>
         <DrawArrow t={t} t0={47.78} x1={MM.run.x1 - 8} y1={MM.run.y1 + 18} x2={MM.run.x2 - 14} y2={MM.run.y2 + 20} w={7} />
-        <Label t={t} t0={47.95} t1={51.2} x={MM.run.x1 - 18} y={(MM.run.y1 + MM.run.y2) / 2 + 30} text="RUN-UP" anchor="end" size={26} />
+        <Label t={t} t0={47.95} t1={51.2} x={MM.run.x1 - 18} y={(MM.run.y1 + MM.run.y2) / 2 + 30} text="Run-up" anchor="end" size={21} />
         <DrawBox t={t} t0={48.52} x1={MM.box.x1} x2={MM.box.x2} y1={MM.box.y1} y2={MM.box.y2} />
-        <Label t={t} t0={50.50} x={(MM.box.x1 + MM.box.x2) / 2} y={MM.box.y2 + 34} text="RANGE" anchor="middle" size={26} />
-        <Label t={t} t0={51.74} x={MM.box.x2 - 4} y={MM.box.y1 - 10} text="BREAKOUT?" anchor="end" size={26} />
+        <Label t={t} t0={50.50} x={(MM.box.x1 + MM.box.x2) / 2} y={MM.box.y2 + 34} text="Range" anchor="middle" size={21} />
+        <Label t={t} t0={51.74} x={MM.box.x2 - 4} y={MM.box.y1 - 10} text="Breakout?" anchor="end" size={21} />
       </>) },
   // 10 the brake (hard cut on the sound): the camera is thrown back, the seated passengers lurch, he stays put, the
   //    camera returns and HE says "Ab semiconductors par aaiye"
@@ -120,9 +121,9 @@ const SCENES: Scene[] = [
   { a: 71.25, b: 77.25, inDir: "left", draw: chartScene("cgpower", [{ t: 71.25, z: 1, cx: 362, cy: 453 }, { t: 72.3, z: 1, cx: 362, cy: 453 }, { t: 73.0, z: 1.45, cx: 470, cy: 270 }, { t: 75.4, z: 1.45, cx: 470, cy: 270 }, { t: 76.2, z: 1.8, cx: 540, cy: 300 }],
       (t) => <>
         <DrawLine t={t} t0={73.76} x1={MG.res.x1 - 150} x2={MG.res.x2} y1={MG.res.y} color="#2a5bd7" />
-        <Label t={t} t0={73.84} x={MG.res.x1 - 150} y={MG.res.y + 34} text="RESISTANCE" size={26} />
+        <Label t={t} t0={73.84} x={MG.res.x1 - 150} y={MG.res.y + 34} text="Resistance" size={21} color="#2a5bd7" />
         <DrawLine t={t} t0={74.72} x1={MG.sup.x1 - 260} x2={MG.sup.x2} y1={MG.sup.y} color="#d62828" />
-        <Label t={t} t0={74.80} x={MG.sup.x1 - 260} y={MG.sup.y + 34} text="SUPPORT" size={26} />
+        <Label t={t} t0={74.80} x={MG.sup.x1 - 260} y={MG.sup.y + 34} text="Support" size={21} color="#d62828" />
       </>),
     over: (t) => <LogoCard src="logos/cgsemi.png" t={t} t0={72.58} y={190} x={600} w={170} h={200} /> },
   // 16 "Phir aati hai, Kaynes Technology": NO. 2, the logo on its name
@@ -134,9 +135,9 @@ const SCENES: Scene[] = [
   { a: 80.30, b: 85.30, outDir: "right", draw: chartScene("kaynes", [{ t: 80.3, z: 1, cx: 362, cy: 453 }, { t: 81.3, z: 1, cx: 362, cy: 453 }, { t: 82.0, z: 1.5, cx: 480, cy: 650 }, { t: 84.2, z: 1.5, cx: 480, cy: 650 }, { t: 85.0, z: 1.75, cx: 540, cy: 680 }],
       (t) => <>
         <DrawLine t={t} t0={82.16} x1={MK.res.x1 - 150} x2={MK.res.x2} y1={MK.res.y} color="#2a5bd7" />
-        <Label t={t} t0={82.24} x={MK.res.x1 - 150} y={MK.res.y - 12} text="RESISTANCE" size={26} />
+        <Label t={t} t0={82.24} x={MK.res.x1 - 150} y={MK.res.y - 12} text="Resistance" size={21} color="#2a5bd7" />
         <DrawLine t={t} t0={82.94} x1={MK.sup.x1 - 60} x2={MK.sup.x2} y1={MK.sup.y} color="#d62828" />
-        <Label t={t} t0={83.02} x={MK.sup.x1 - 60} y={MK.sup.y + 34} text="SUPPORT" size={26} />
+        <Label t={t} t0={83.02} x={MK.sup.x1 - 60} y={MK.sup.y + 34} text="Support" size={21} color="#d62828" />
       </>),
     over: (t) => <LogoCard src="logos/kaynessemicon.png" t={t} t0={80.80} y={190} w={420} h={120} /> },
   // 18 T7b (Wan 3.0) "toh chip industry ko samajhte waqt ... radar par hone chahiye": punch-in on "ye businesses"
@@ -147,7 +148,8 @@ const SCENES: Scene[] = [
       if (t < 94.98) {
         let k = "centum", s0 = 91.90; for (const [s, n] of seq) if (t >= s) { k = n; s0 = s; }
         const pz = 1 + 0.06 * (1 - clamp((t - s0) / 0.14));
-        return <AbsoluteFill style={{ transform: `scale(${pz})` }}><ChartView def={C[k]} z={1.3} cx={470} cy={453} /></AbsoluteFill>;
+        return <AbsoluteFill style={{ transform: `scale(${pz})` }}><ChartView def={C[k]} z={1.3} cx={470} cy={453} />
+          <LogoBadge src={LOGO[k]} x={34} y={196} w={290} h={100} t={t} t0={s0} /></AbsoluteFill>;
       }
       const u = clamp((t - 94.98) / 0.25);
       return (
@@ -156,6 +158,7 @@ const SCENES: Scene[] = [
             <div key={n} style={{ position: "absolute", left: (i % 2) * 360 + 4, top: 150 + Math.floor(i / 2) * 520, width: 352, height: 510, overflow: "hidden",
               border: "2px solid #e6e6e6", transform: `scale(${0.92 + 0.08 * u})`, opacity: clamp(u * 1.6 - i * 0.15) }}>
               <Img src={staticFile(C[n].img)} style={{ position: "absolute", left: 0, top: 0, width: 352, height: 352 * C[n].h / C[n].w }} />
+              <LogoBadge src={LOGO[n]} x={14} y={46} w={196} h={68} />
             </div>))}
         </AbsoluteFill>);
     } },
@@ -170,24 +173,15 @@ const SCENES: Scene[] = [
 
 // captions: Roman Hinglish, phrase by phrase, on the words; none on the full-screen marked charts
 const CAPS: Cap[] = [
-  { t0: 0.22, t1: 1.95, text: "Long-term investing karte hain?", hi: "Long-term" },
+  { t0: 0.22, t1: 1.95, text: "Long-term investing karte hain?" },
   { t0: 2.16, t1: 4.55, text: "Ye do sectors ko ignore mat kijiye.", hi: "ignore mat kijiye" },
-  { t0: 4.66, t1: 5.80, text: "Ek hai space,", hi: "space" },
-  { t0: 5.84, t1: 6.34, text: "doosra..." },
-  { t0: 7.94, t1: 9.72, text: "Space mein Agnikul,", hi: "Agnikul" },
-  { t0: 9.72, t1: 11.04, text: "Skyroot, Pixxel", hi: "Skyroot, Pixxel" },
-  { t0: 11.04, t1: 11.95, text: "jaise naam hain." },
   { t0: 12.20, t1: 14.95, text: "Lekin ye startups listed nahi hain,", hi: "listed nahi" },
   { t0: 15.00, t1: 16.12, text: "toh space se judi" },
   { t0: 16.14, t1: 17.60, text: "listed companies dekhte hain.", hi: "listed companies" },
-  { t0: 18.06, t1: 19.56, text: "Pehla naam hai,", pill: true },
-  { t0: 19.58, t1: 21.40, text: "Centum Electronics.", hi: "Centum Electronics", pill: true },
   { t0: 21.42, t1: 23.14, text: "Ye space applications ke liye", hi: "space applications" },
   { t0: 23.16, t1: 24.70, text: "electronics banati hai,", hi: "electronics" },
   { t0: 24.74, t1: 27.02, text: "toh sector mein activity badhne se", hi: "activity" },
   { t0: 27.04, t1: 29.40, text: "iske liye business ke mauke ban sakte hain.", hi: "business ke mauke" },
-  { t0: 37.20, t1: 38.70, text: "Doosra naam hai,", pill: true },
-  { t0: 38.72, t1: 40.70, text: "MTAR Technologies.", hi: "MTAR Technologies", pill: true },
   { t0: 41.14, t1: 43.06, text: "Ye space programs ke liye", hi: "space programs" },
   { t0: 43.08, t1: 45.80, text: "engines aur critical assemblies banati hai.", hi: "engines" },
   { t0: 54.10, t1: 54.46, text: "Ab..." },
@@ -199,27 +193,14 @@ const CAPS: Cap[] = [
   { t0: 63.42, t1: 64.55, text: "unlisted hain.", hi: "unlisted" },
   { t0: 64.66, t1: 66.78, text: "Phir bhi kuch listed companies", hi: "listed companies" },
   { t0: 66.80, t1: 68.75, text: "aapki watchlist mein honi chahiye.", hi: "watchlist" },
-  { t0: 68.94, t1: 70.46, text: "Pehla naam hai,", pill: true },
-  { t0: 70.48, t1: 71.88, text: "CG Power.", hi: "CG Power", pill: true },
-  { t0: 71.90, t1: 73.72, text: "Iski CG Semi", hi: "CG Semi", pill: true, y: 1170 },
-  { t0: 73.74, t1: 75.34, text: "chip assembly, packaging", pill: true, y: 1170 },
-  { t0: 75.36, t1: 77.25, text: "aur testing mein kaam karti hai.", pill: true, y: 1170 },
-  { t0: 77.36, t1: 78.66, text: "Phir aati hai,", pill: true },
-  { t0: 78.68, t1: 80.30, text: "Kaynes Technology.", hi: "Kaynes Technology", pill: true },
-  { t0: 80.34, t1: 82.12, text: "Iski Kaynes Semicon bhi", hi: "Kaynes Semicon", pill: true, y: 1170 },
-  { t0: 82.14, t1: 84.12, text: "semiconductor packaging aur testing", pill: true, y: 1170 },
-  { t0: 84.14, t1: 85.40, text: "mein kaam karti hai.", pill: true, y: 1170 },
   { t0: 85.42, t1: 87.50, text: "Toh chip industry ko samajhte waqt", hi: "chip industry" },
   { t0: 87.52, t1: 88.88, text: "chips banane ke saath" },
   { t0: 88.90, t1: 90.04, text: "ye businesses bhi", hi: "businesses" },
   { t0: 90.06, t1: 91.90, text: "aapke radar par hone chahiye.", hi: "radar" },
-  { t0: 92.54, t1: 94.94, text: "Ab ye chaaron companies ke charts ko", hi: "charts", pill: true },
-  { t0: 94.96, t1: 96.65, text: "technically evaluate kijiye,", hi: "technically evaluate", pill: true, y: 1150 },
   { t0: 96.82, t1: 98.44, text: "kyunki sirf achha stock", hi: "achha stock" },
   { t0: 98.46, t1: 100.22, text: "aur achha sector dekhkar", hi: "achha sector" },
   { t0: 100.24, t1: 101.80, text: "baat poori nahi hoti." },
   { t0: 102.04, t1: 103.18, text: "Entry ke waqt,", hi: "Entry" },
-  { t0: 103.20, t1: OUT0, text: "chart ka setup bhi dekhiye.", hi: "chart ka setup" },
 ];
 
 const SceneLayer: React.FC<{ s: Scene }> = ({ s }) => {

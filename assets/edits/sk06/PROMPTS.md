@@ -200,13 +200,20 @@ fresh or wait 8 s after setSymbol.
 
 Type (v4, Akhilesh 2026-11-14: "apply the style that we used in the thumbnail to the rest of the text"): one design
 language for the cover and the reel. Doordhan lime `#C1FE06`, ink `#0C1E14`, Anton caps (fx.tsx `LIME`, `INK`).
+- **Text is for attention and context, never repeated** (Akhilesh, v5): no caption while a logo, a slam (NO. 1),
+  a big word or a word behind the head already shows the same thing (E16 v5 dropped 22 such captions, e.g. "Space
+  mein Agnikul, Skyroot, Pixxel" under the three logos, "Ek hai space" with SPACE behind his head, "Pehla naam hai"
+  with NO. 1). The hook caption keeps no highlight while LONG-TERM is on the bus roof.
+- **Charts: simple, readable text only** (Akhilesh, v5): no captions on a chart (as silver01). Labels are small plain
+  bold sans in the line's colour (Resistance blue, Support red, others ink) with a thin white halo, no boxes. Keep a
+  label inside the frame through every camera move (clamp x, or fade it with `t1` before a push).
+- **A recap of several charts shows each company's logo** on its chart (LogoBadge), so the names come back.
 - Captions are white Anton caps with a 9 px ink outline. The key word of each caption sits in a lime box with ink text
   (`hi` in CAPS). On charts and cards the line sits on an ink pill.
 - Slammed words (NO. 1, SEMICONDUCTORS) sit in the lime box with an ink frame, a hard ink shadow and a -3 degree tilt. A
   kicker word above is white with an ink outline.
 - Logo cards are white with a 6 px ink frame and a hard ink shadow, tilted -2 degrees.
-- Chart labels sit in lime boxes. Arrows are lime with an ink edge. The range box has a lime tint. Support and
-  resistance lines keep red and blue.
+- Arrows are lime with an ink edge. The range box has a lime tint. Support and resistance lines keep red and blue.
 - Words behind the head are lime with an ink outline and a hard shadow (`bgswap.py --text` with `color`, `stroke`,
   `hard_shadow`).
 - The disclaimer is the whole sentence on one screen: eight lines fitted to 590 px (clear of Instagram's buttons), white

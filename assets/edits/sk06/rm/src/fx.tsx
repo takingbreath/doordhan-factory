@@ -226,20 +226,28 @@ export const DrawLine: React.FC<{ t: number; t0: number; x1: number; x2: number;
   );
 };
 
-/** a chart label in the lime box (ink text, ink frame, hard ink shadow), popping in on its word. Widths are Anton's
- *  advance per 1 px of font size, measured with PIL. */
-const AW: Record<string, number> = { "SUPPORT": 3.2378, "RESISTANCE": 4.2894, "BREAKOUT?": 4.1719, "RUN-UP": 2.7052, "RANGE": 2.3564 };
-export const Label: React.FC<{ t: number; t0: number; t1?: number; x: number; y: number; text: string; size?: number; anchor?: "start" | "middle" | "end"; color?: string }> = ({ t, t0, t1, x, y, text, size = 34, anchor = "start" }) => {
+/** a chart label (v5, Akhilesh 2026-11-14: "on charts keep the text simple so that it is readable"): small, plain bold
+ *  sans in the line's colour with a thin white halo, no box; it pops in on its word and can fade out (t1) */
+export const Label: React.FC<{ t: number; t0: number; t1?: number; x: number; y: number; text: string; size?: number; anchor?: "start" | "middle" | "end"; color?: string }> = ({ t, t0, t1, x, y, text, size = 21, anchor = "start", color = INK }) => {
   if (t < t0 || (t1 !== undefined && t > t1 + 0.2)) return null;
-  const k = back(clamp((t - t0) / 0.18)); const fade = t1 !== undefined ? 1 - clamp((t - t1) / 0.2) : 1;
-  const pad = size * 0.32, w = (AW[text] ?? text.length * 0.47) * size + 2 * pad, h = size * 1.22;
-  const x0 = anchor === "start" ? 0 : anchor === "middle" ? -w / 2 : -w;
+  const k = easeOut3(clamp((t - t0) / 0.18)); const fade = t1 !== undefined ? 1 - clamp((t - t1) / 0.2) : 1;
   return (
-    <g transform={`translate(${x} ${y}) scale(${0.6 + 0.4 * k}) rotate(-2)`} opacity={fade}>
-      <rect x={x0 + 5} y={-size * 1.0 + 5} width={w} height={h} fill={INK} />
-      <rect x={x0} y={-size * 1.0} width={w} height={h} fill={LIME} stroke={INK} strokeWidth={3} />
-      <text x={x0 + pad} y={0} fontFamily="Anton" fontSize={size} fill={INK} letterSpacing={0.5}>{text}</text>
+    <g transform={`translate(${x} ${y - (1 - k) * 6})`} opacity={k * fade}>
+      <text x={0} y={0} textAnchor={anchor} fontFamily="Helvetica Neue, Helvetica, Arial, sans-serif" fontWeight={700} fontSize={size}
+        fill={color} stroke="#fff" strokeWidth={4} paintOrder="stroke" strokeLinejoin="round">{text}</text>
     </g>
+  );
+};
+
+/** a company logo on a small white badge with an ink frame (the four-chart recap: which chart is which) */
+export const LogoBadge: React.FC<{ src: string; x: number; y: number; w: number; h: number; t?: number; t0?: number }> = ({ src, x, y, w, h, t, t0 }) => {
+  const k = t !== undefined && t0 !== undefined ? back(clamp((t - t0) / 0.18)) : 1;
+  return (
+    <div style={{ position: "absolute", left: x, top: y, width: w, height: h, background: "#fff", borderRadius: 8, border: `3px solid ${INK}`,
+      boxShadow: `5px 5px 0 ${INK}`, boxSizing: "border-box", display: "flex", alignItems: "center", justifyContent: "center",
+      transform: `scale(${0.7 + 0.3 * k})`, transformOrigin: "left top", opacity: clamp(k * 3) }}>
+      <Img src={staticFile(src)} style={{ maxWidth: w - 26, maxHeight: h - 18, objectFit: "contain" }} />
+    </div>
   );
 };
 
