@@ -1,8 +1,9 @@
 # E16 posting kit (sk06, approved by Akhilesh 2026-11-14: "alright this is okay. Give me proper video to post.")
 
 ## File
-- Post this file: `outputs/sk06/E16_space_semis.mp4` (1080x1920, 30 fps, 111.8 s, 93 MB, QC-stamped, no song).
-  Copy on Google Drive: `My Drive/Doordhan finals/E16_space_semis_POST.mp4` (same file, same sha256).
+- **Repost (v4, 2026-11-14):** post `outputs/sk06/E16_space_semis_v4.mp4` (1080x1920, 30 fps, 111.8 s, 90 MB, QC-stamped with Akhilesh's waivers, no song).
+  Copy on Google Drive: `My Drive/Doordhan finals/E16_space_semis_v4_POST.mp4` (same sha256). v4 has no PM footage (v3 was made unavailable in India for it) and the cover's type style.
+  The old v3 post: archive or delete it (Akhilesh's call); its Drive copy is renamed E16_space_semis_v3_BLOCKED_IN_INDIA.mp4.
 - The song (Zindagi Ek Safar Hai Suhana) goes on in Instagram Edits with the cue sheet `work/sk06/sfx/cues.json`.
 - Cover: upload `outputs/sk06/E16_cover.jpg` (chosen by Akhilesh 2026-11-14, "I like the B version": a rocket lifting off from a giant chip, Pandey in front, "SPACE & CHIPS / AGLA BOOM?"; also in Drive `Doordhan finals/E16_cover.jpg`) as the cover ("Edit cover" → "Add from camera roll"). Check the profile-grid crop (3:4) in the cover screen.
 

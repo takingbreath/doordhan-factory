@@ -198,6 +198,21 @@ fresh or wait 8 s after setSymbol.
 
 ## 8. The edit (Remotion; rm/src/Reel.tsx and fx.tsx)
 
+Type (v4, Akhilesh 2026-11-14: "apply the style that we used in the thumbnail to the rest of the text"): one design
+language for the cover and the reel. Doordhan lime `#C1FE06`, ink `#0C1E14`, Anton caps (fx.tsx `LIME`, `INK`).
+- Captions are white Anton caps with a 9 px ink outline. The key word of each caption sits in a lime box with ink text
+  (`hi` in CAPS). On charts and cards the line sits on an ink pill.
+- Slammed words (NO. 1, SEMICONDUCTORS) sit in the lime box with an ink frame, a hard ink shadow and a -3 degree tilt. A
+  kicker word above is white with an ink outline.
+- Logo cards are white with a 6 px ink frame and a hard ink shadow, tilted -2 degrees.
+- Chart labels sit in lime boxes. Arrows are lime with an ink edge. The range box has a lime tint. Support and
+  resistance lines keep red and blue.
+- Words behind the head are lime with an ink outline and a hard shadow (`bgswap.py --text` with `color`, `stroke`,
+  `hard_shadow`).
+- The disclaimer is the whole sentence on one screen: eight lines fitted to 590 px (clear of Instagram's buttons), white
+  with an ink outline, MARKET RISKS in the lime box. The lines slam in, hold, and fly out.
+- Check every text moment as a still (`node stills.mjs <seconds>...`) before the full render.
+
 Cut grammar that Akhilesh approved on E16:
 - Cut on words. Measure on the clip itself, not on the track.
 - Punch-ins are instant 1.18-1.2x with a 3-frame settle, on stressed words.

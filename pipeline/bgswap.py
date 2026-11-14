@@ -45,7 +45,12 @@ def text_layer(t):
         shadow = Image.new("RGBA", (W, H), (0, 0, 0, 0)); ds = ImageDraw.Draw(shadow)
         ds.text((x - bw / 2, y - size * 0.55 + 6), e["big"], font=fb, fill=(0, 0, 0, 120))
         im.alpha_composite(shadow.filter(ImageFilter.GaussianBlur(9)))
-        d.text((x - bw / 2, y - size * 0.55), e["big"], font=fb, fill=tuple(e.get("color", (245, 217, 10))) + (255,))
+        sw_, sc_ = int(e.get("stroke", 0)), tuple(e.get("stroke_color", (12, 30, 20)))   # cover style (2026-11-14):
+        if e.get("hard_shadow"):                                                         # ink outline, hard ink shadow
+            o = int(e["hard_shadow"])
+            d.text((x - bw / 2 + o, y - size * 0.55 + o), e["big"], font=fb, fill=sc_ + (255,), stroke_width=sw_, stroke_fill=sc_ + (255,))
+        d.text((x - bw / 2, y - size * 0.55), e["big"], font=fb, fill=tuple(e.get("color", (245, 217, 10))) + (255,),
+               stroke_width=sw_, stroke_fill=sc_ + (255,))
         if e.get("small"):
             q = min(1.0, max(0.0, (t - e["t0"] - 0.08) / 0.2)); fs = ImageFont.truetype(HAND, int(size * 0.42))
             sw = d.textlength(e["small"], font=fs)

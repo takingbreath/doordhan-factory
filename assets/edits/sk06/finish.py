@@ -5,7 +5,9 @@ light film grain so the photos, charts and footage sit in one picture (the Dil S
 and the phone copy. Also writes the dialogue stem and qc_manifest.json.
 Run from the repository root: python3 work/sk06/finish.py [--video edit/sk06_v.mp4]"""
 import json, os, subprocess, sys
-SK = "work/sk06"; OUT = "outputs/sk06"; STEM = "E16_space_semis"; TOTAL = 111.77
+SK = "work/sk06"; OUT = "outputs/sk06"; TOTAL = 111.77
+import sys as _s
+STEM = _s.argv[_s.argv.index("--stem") + 1] if "--stem" in _s.argv else "E16_space_semis"   # v4 (re-cut, 2026-11-14): E16_space_semis_v4
 T5C_CLIP, T5C_OFF = "T5c4_au", 64.23          # the T5c take in the edit and its c = r - off
 video = sys.argv[sys.argv.index("--video") + 1] if "--video" in sys.argv else f"{SK}/edit/sk06_v.mp4"
 os.makedirs(OUT, exist_ok=True)
@@ -50,7 +52,7 @@ for i, s, e, cut, segs, clips, spans in B:
 M = {"slug": "sk06", "format": "sahayata_kendra", "final": final, "script": "registry/scripts/sk06.json",
      "characters": {"pandey": f"{SK}/kf/ref_sheet.jpg"}, "prefinish": f"{SK}/edit_raw.mp4", "dialogue_stem": f"{SK}/mix/dialogue.wav",
      "length": {"min": 20, "max": 115, "expected": TOTAL, "why": "Akhilesh approved the length (flow sk06 format gate: 'It's okay on length')"},
-     "loudness": {"target": -14}, "fps": 30, "repairs_file": f"{SK}/qc_repairs.json", "rebuild": f"python3 {SK}/finish.py",
+     "loudness": {"target": -14}, "fps": 30, "repairs_file": f"{SK}/qc_repairs.json", "rebuild": f"python3 {SK}/finish.py --video {video} --stem {STEM}",
      "lines": lines}
 json.dump(M, open(f"{SK}/qc_manifest.json", "w"), indent=1)
 print(final, f"{OUT}/{STEM}_phone.mp4", f"{SK}/qc_manifest.json")

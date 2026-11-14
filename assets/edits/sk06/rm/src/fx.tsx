@@ -97,46 +97,69 @@ export const Photo: React.FC<{ src: string; t: number; t0: number; t1: number; z
 
 // ---------------------------------------------------------------- type
 export const YEL = "#F5D90A";
-/** the official logo on a white card, slammed in on its word (never over a face) */
+/** v4 (2026-11-14): the cover's design language for all type: Doordhan lime box, ink text, ink outline, hard ink
+ *  shadow, a slight tilt (docs/covers.md). LIME/INK are the cover's colours. */
+export const LIME = "#C1FE06";
+export const INK = "#0C1E14";
+
+/** the official logo on a white card with an ink frame and a hard ink shadow, slammed in on its word (never over a face) */
 export const LogoCard: React.FC<{ src: string; t: number; t0: number; t1?: number; x?: number; y?: number; w?: number; h?: number }> = ({ src, t, t0, t1, x = 360, y = 300, w = 470, h = 170 }) => {
   if (t < t0 || (t1 !== undefined && t > t1 + 0.15)) return null;
   const k = back(clamp((t - t0) / 0.2)); const o = t1 !== undefined && t > t1 ? 1 - (t - t1) / 0.15 : 1;
   const blur = (1 - clamp((t - t0) / 0.1)) * 6;
   return (
-    <div style={{ position: "absolute", left: x - w / 2, top: y - h / 2, width: w, height: h, background: "#fff", borderRadius: 22,
-      boxShadow: "0 14px 34px rgba(0,0,0,0.45)", transform: `scale(${0.55 + 0.45 * k}) rotate(${(1 - k) * -4}deg)`, opacity: clamp(o) * clamp((t - t0) / 0.06),
+    <div style={{ position: "absolute", left: x - w / 2, top: y - h / 2, width: w, height: h, background: "#fff", borderRadius: 8,
+      border: `6px solid ${INK}`, boxShadow: `12px 12px 0 ${INK}, 0 16px 36px rgba(0,0,0,0.35)`, boxSizing: "border-box",
+      transform: `scale(${0.55 + 0.45 * k}) rotate(${-2 + (1 - k) * -4}deg)`, opacity: clamp(o) * clamp((t - t0) / 0.06),
       filter: `blur(${blur}px)`, display: "flex", alignItems: "center", justifyContent: "center" }}>
-      <Img src={staticFile(src)} style={{ maxWidth: w - 56, maxHeight: h - 44, objectFit: "contain" }} />
+      <Img src={staticFile(src)} style={{ maxWidth: w - 64, maxHeight: h - 52, objectFit: "contain" }} />
     </div>
   );
 };
 
-/** a big yellow condensed word slammed in front (when it cannot go behind the head), with an optional handwritten word */
-export const BigWord: React.FC<{ text: string; small?: string; t: number; t0: number; t1: number; y: number; size: number; color?: string }> = ({ text, small, t, t0, t1, y, size, color = YEL }) => {
+/** the kicker: white Anton caps with a thick ink outline (the cover's "SPACE & CHIPS") */
+const kickerStyle = (size: number): React.CSSProperties => ({ fontFamily: "Anton", fontSize: size, lineHeight: 1.05, color: "#fff",
+  letterSpacing: 1, WebkitTextStroke: `${Math.max(6, size * 0.16)}px ${INK}`, paintOrder: "stroke fill", textShadow: "0 5px 14px rgba(0,0,0,0.5)" });
+
+/** a word slammed in the lime box (the cover's "AGLA BOOM?"), with an optional kicker word above it */
+export const BigWord: React.FC<{ text: string; small?: string; t: number; t0: number; t1: number; y: number; size: number; color?: string; tilt?: number }> = ({ text, small, t, t0, t1, y, size, tilt = -3 }) => {
   if (t < t0 || t > t1 + 0.12) return null;
   const k = easeOut3(clamp((t - t0) / 0.12)); const o = t > t1 ? 1 - (t - t1) / 0.12 : 1;
+  const bw = Math.max(5, Math.round(size * 0.045)), sh = Math.round(size * 0.09);
   return (
-    <div style={{ position: "absolute", left: 0, width: 720, top: y - size * 0.62, textAlign: "center", opacity: clamp(o) }}>
-      {small && <div style={{ fontFamily: "Caveat", fontSize: size * 0.45, color: "#fff", lineHeight: 1, textShadow: "0 3px 10px rgba(0,0,0,0.7)", opacity: clamp((t - t0 - 0.06) / 0.15) }}>{small}</div>}
-      <div style={{ fontFamily: "Anton", fontSize: size, lineHeight: 1.05, color, letterSpacing: 1,
-        transform: `scale(${1.25 - 0.25 * k}) translateY(${(1 - k) * 20}px)`, filter: `blur(${(1 - k) * 8}px)`,
-        textShadow: "0 6px 18px rgba(0,0,0,0.55), 0 2px 0 rgba(0,0,0,0.35)" }}>{text}</div>
+    <div style={{ position: "absolute", left: 0, width: 720, top: y - size * 0.62 - (small ? size * 0.5 : 0), display: "flex", flexDirection: "column",
+      alignItems: "center", gap: size * 0.08, opacity: clamp(o) }}>
+      {small && <div style={{ ...kickerStyle(size * 0.42), textTransform: "uppercase", opacity: clamp((t - t0 - 0.04) / 0.12) }}>{small}</div>}
+      <div style={{ fontFamily: "Anton", fontSize: size, lineHeight: 1.04, color: INK, background: LIME, letterSpacing: 1,
+        padding: `${size * 0.05}px ${size * 0.17}px ${size * 0.02}px`, border: `${bw}px solid ${INK}`,
+        boxShadow: `${sh}px ${sh}px 0 ${INK}, 0 18px 40px rgba(0,0,0,0.4)`,
+        transform: `rotate(${tilt}deg) scale(${1.25 - 0.25 * k}) translateY(${(1 - k) * 20}px)`, filter: `blur(${(1 - k) * 8}px)` }}>{text}</div>
     </div>
   );
 };
 
-export type Cap = { t0: number; t1: number; text: string; y?: number; pill?: boolean };
+/** captions: white Anton caps with a thick ink outline; the key word ("hi") in a lime box; "pill" = an ink box behind
+ *  the line for busy or white backgrounds (charts, logo cards) */
+export type Cap = { t0: number; t1: number; text: string; y?: number; pill?: boolean; hi?: string };
 export const Captions: React.FC<{ t: number; caps: Cap[] }> = ({ t, caps }) => {
   const c = caps.find((c) => t >= c.t0 && t < c.t1);
   if (!c) return null;
   const k = easeOut3(clamp((t - c.t0) / 0.1));
+  const text = c.text.toUpperCase(), hi = c.hi?.toUpperCase();
+  let parts: [string, boolean][] = [[text, false]];
+  if (hi && text.includes(hi)) { const i = text.indexOf(hi); parts = [[text.slice(0, i), false], [hi, true], [text.slice(i + hi.length), false]]; }
+  const hk = easeOut3(clamp((t - c.t0 - 0.05) / 0.14));
   return (
-    <div style={{ position: "absolute", left: 70, width: 580, top: (c.y ?? 960) - 40, textAlign: "center", opacity: k, transform: `translateY(${(1 - k) * 8}px)` }}>
-      <span style={{ fontFamily: "Playfair", fontWeight: 700, fontSize: 40, lineHeight: 1.18, color: "#F1CB62",
-        textShadow: c.pill ? "none" : "0 2px 3px rgba(0,0,0,0.95), 0 0 14px rgba(0,0,0,0.65)",
-        WebkitTextStroke: c.pill ? undefined : "2.5px rgba(0,0,0,0.9)", paintOrder: "stroke fill",
-        background: c.pill ? "rgba(12,12,16,0.82)" : "none", padding: c.pill ? "4px 14px" : 0, borderRadius: 10,
-        boxDecorationBreak: "clone", WebkitBoxDecorationBreak: "clone" }}>{c.text}</span>
+    <div style={{ position: "absolute", left: 50, width: 620, top: (c.y ?? 960) - 44, textAlign: "center", opacity: k, transform: `translateY(${(1 - k) * 8}px)` }}>
+      <span style={{ fontFamily: "Anton", fontSize: 42, lineHeight: 1.42, letterSpacing: 0.6, color: "#fff",
+        ...(c.pill ? { background: "rgba(12,30,20,0.92)", padding: "4px 14px", borderRadius: 4 } : { WebkitTextStroke: `9px ${INK}`, paintOrder: "stroke fill", textShadow: "0 4px 12px rgba(0,0,0,0.55)" }),
+        boxDecorationBreak: "clone", WebkitBoxDecorationBreak: "clone" }}>
+        {parts.map(([s, h], i) => h
+          ? <span key={i} style={{ display: "inline-block", background: LIME, color: INK, WebkitTextStroke: "0px transparent", textShadow: "none",
+              padding: "0 9px", margin: "0 3px", border: `3px solid ${INK}`, boxShadow: `5px 5px 0 ${INK}`, lineHeight: 1.12,
+              transform: `rotate(-2deg) scale(${1.15 - 0.15 * hk})` }}>{s}</span>
+          : <React.Fragment key={i}>{s}</React.Fragment>)}
+      </span>
     </div>
   );
 };
@@ -203,26 +226,32 @@ export const DrawLine: React.FC<{ t: number; t0: number; x1: number; x2: number;
   );
 };
 
-/** a label in yellow condensed caps with a black outline, popping in on its word */
-export const Label: React.FC<{ t: number; t0: number; x: number; y: number; text: string; size?: number; anchor?: "start" | "middle" | "end"; color?: string }> = ({ t, t0, x, y, text, size = 34, anchor = "start", color = "#FFE14D" }) => {
-  if (t < t0) return null;
-  const k = back(clamp((t - t0) / 0.18));
+/** a chart label in the lime box (ink text, ink frame, hard ink shadow), popping in on its word. Widths are Anton's
+ *  advance per 1 px of font size, measured with PIL. */
+const AW: Record<string, number> = { "SUPPORT": 3.2378, "RESISTANCE": 4.2894, "BREAKOUT?": 4.1719, "RUN-UP": 2.7052, "RANGE": 2.3564 };
+export const Label: React.FC<{ t: number; t0: number; t1?: number; x: number; y: number; text: string; size?: number; anchor?: "start" | "middle" | "end"; color?: string }> = ({ t, t0, t1, x, y, text, size = 34, anchor = "start" }) => {
+  if (t < t0 || (t1 !== undefined && t > t1 + 0.2)) return null;
+  const k = back(clamp((t - t0) / 0.18)); const fade = t1 !== undefined ? 1 - clamp((t - t1) / 0.2) : 1;
+  const pad = size * 0.32, w = (AW[text] ?? text.length * 0.47) * size + 2 * pad, h = size * 1.22;
+  const x0 = anchor === "start" ? 0 : anchor === "middle" ? -w / 2 : -w;
   return (
-    <g transform={`translate(${x} ${y}) scale(${0.6 + 0.4 * k})`}>
-      <text x={0} y={0} textAnchor={anchor} fontFamily="Anton" fontSize={size} fill={color} stroke="#111" strokeWidth={6} paintOrder="stroke" strokeLinejoin="round" letterSpacing={0.5}>{text}</text>
+    <g transform={`translate(${x} ${y}) scale(${0.6 + 0.4 * k}) rotate(-2)`} opacity={fade}>
+      <rect x={x0 + 5} y={-size * 1.0 + 5} width={w} height={h} fill={INK} />
+      <rect x={x0} y={-size * 1.0} width={w} height={h} fill={LIME} stroke={INK} strokeWidth={3} />
+      <text x={x0 + pad} y={0} fontFamily="Anton" fontSize={size} fill={INK} letterSpacing={0.5}>{text}</text>
     </g>
   );
 };
 
 /** a thick arrow drawn from (x1, y1) to (x2, y2) */
-export const DrawArrow: React.FC<{ t: number; t0: number; x1: number; y1: number; x2: number; y2: number; color?: string; dur?: number; w?: number }> = ({ t, t0, x1, y1, x2, y2, color = "#FFD400", dur = 0.45, w = 9 }) => {
+export const DrawArrow: React.FC<{ t: number; t0: number; x1: number; y1: number; x2: number; y2: number; color?: string; dur?: number; w?: number }> = ({ t, t0, x1, y1, x2, y2, color = LIME, dur = 0.45, w = 9 }) => {
   if (t < t0) return null;
   const u = easeOut3((t - t0) / dur); const ex = x1 + (x2 - x1) * u, ey = y1 + (y2 - y1) * u;
   const a = Math.atan2(ey - y1, ex - x1), L = 26;
   const head = `${ex},${ey} ${ex - L * Math.cos(a - 0.45)},${ey - L * Math.sin(a - 0.45)} ${ex - L * Math.cos(a + 0.45)},${ey - L * Math.sin(a + 0.45)}`;
   return (
     <g>
-      <line x1={x1} y1={y1} x2={ex} y2={ey} stroke="#111" strokeWidth={w + 5} strokeLinecap="round" />
+      <line x1={x1} y1={y1} x2={ex} y2={ey} stroke={INK} strokeWidth={w + 6} strokeLinecap="round" />
       <line x1={x1} y1={y1} x2={ex} y2={ey} stroke={color} strokeWidth={w} strokeLinecap="round" />
       {u > 0.6 && <polygon points={head} fill={color} stroke="#111" strokeWidth={3} strokeLinejoin="round" />}
     </g>
@@ -235,7 +264,7 @@ export const DrawBox: React.FC<{ t: number; t0: number; x1: number; x2: number; 
   const u = easeOut3((t - t0) / dur); const w = (x2 - x1) * u;
   return (
     <g>
-      <rect x={x1} y={y1} width={w} height={y2 - y1} fill="rgba(255,212,0,0.18)" />
+      <rect x={x1} y={y1} width={w} height={y2 - y1} fill="rgba(193,254,6,0.20)" />
       <rect x={x1} y={y1} width={w} height={y2 - y1} fill="none" stroke="#111" strokeWidth={4} strokeDasharray="12 8" />
     </g>
   );
@@ -277,31 +306,34 @@ export function shake(t: number, t0: number, dur = 0.35, amp = 12) {
   return { x: Math.sin(t * 91) * a, y: Math.cos(t * 73) * a * 0.8, r: Math.sin(t * 57) * 0.06 * a };
 }
 
-/** v3 disclaimer (Akhilesh: "show it in large font, filling up the screen as it moves out"): two groups of four lines,
- *  each line fitted to the frame width (sizes measured with PIL on Anton for 620 px), slammed in one after another,
- *  then the group flies out past the camera. The last frame is clean so the loop joins on the top shot. */
-const DISC: [string, number, boolean][][] = [
-  [["INVESTMENTS IN", 104, false], ["SECURITIES MARKET", 86, false], ["ARE SUBJECT TO", 105, true], ["MARKET RISKS.", 112, true]],
-  [["READ ALL THE", 126, false], ["RELATED DOCUMENTS", 80, false], ["CAREFULLY BEFORE", 91, true], ["INVESTING.", 159, true]],
+/** v4 disclaimer (Akhilesh, 2026-11-14: the whole line on one screen, a smaller font that fills the screen, in the
+ *  cover's style): eight lines, each fitted to 640 px wide (sizes measured with PIL on Anton), 891 px tall in all,
+ *  white with a thick ink outline; MARKET RISKS in the lime box. The lines slam in one after another, hold, and the
+ *  block flies out past the camera at the end, so the last frame is clean for the loop. */
+// sizes fit 590 px (x 50..640: clear of Instagram's action buttons on the right)
+const DISC: [string, number, boolean][] = [
+  ["INVESTMENTS IN", 100, false], ["SECURITIES MARKET", 81, false], ["ARE SUBJECT TO", 100, false], ["MARKET RISKS.", 90, true],
+  ["READ ALL THE", 120, false], ["RELATED DOCUMENTS", 77, false], ["CAREFULLY BEFORE", 87, false], ["INVESTING.", 151, false],
 ];
 export const KineticDisclaimer: React.FC<{ t: number; t0: number; t1: number }> = ({ t, t0, t1 }) => {
   if (t < t0 || t > t1) return null;
-  const half = (t1 - t0) / 2;
-  const g = t < t0 + half ? 0 : 1, gs = t0 + g * half, ge = gs + half;
-  const out = clamp((t - (ge - 0.32)) / 0.32);               // fly out: scale up past the camera, fade
-  const lines = DISC[g];
-  const totalH = lines.reduce((s, [, sz]) => s + sz * 1.02, 0); let y = 640 - totalH / 2 - 40;
+  const out = clamp((t - (t1 - 0.32)) / 0.32);
+  const totalH = DISC.reduce((s, [, sz, hi]) => s + sz * 1.0 + (hi ? 26 : 0), 0); let y = 640 - totalH / 2 - 20;
   return (
     <AbsoluteFill style={{ pointerEvents: "none" }}>
-      <AbsoluteFill style={{ background: `rgba(0,0,0,${0.38 * (1 - out) * clamp((t - gs) / 0.15)})` }} />
+      <AbsoluteFill style={{ background: `rgba(12,30,20,${0.5 * (1 - out) * clamp((t - t0) / 0.2)})` }} />
       <AbsoluteFill style={{ transform: `scale(${1 + 0.9 * easeIn3(out)})`, transformOrigin: "50% 45%", opacity: 1 - out, filter: `blur(${6 * out}px)` }}>
-        {lines.map(([txt, sz, hi], i) => {
-          const ti = gs + 0.1 + i * 0.13; const k = easeOut3(clamp((t - ti) / 0.14));
-          const top = y; y += sz * 1.02;
+        {DISC.map(([txt, sz, hi], i) => {
+          const ti = t0 + 0.08 + i * 0.075; const k = easeOut3(clamp((t - ti) / 0.13));
+          const top = y + (hi ? 13 : 0); y += sz * 1.0 + (hi ? 26 : 0);
           if (t < ti) return null;
-          return <div key={i} style={{ position: "absolute", left: 0, width: 720, top, textAlign: "center", fontFamily: "Anton", fontSize: sz, lineHeight: 1,
-            color: hi ? YEL : "#fff", letterSpacing: 0.5, transform: `scale(${1.35 - 0.35 * k})`, opacity: k, filter: `blur(${(1 - k) * 8}px)`,
-            textShadow: "0 6px 22px rgba(0,0,0,0.6), 0 2px 0 rgba(0,0,0,0.4)" }}>{txt}</div>;
+          const common: React.CSSProperties = { fontFamily: "Anton", fontSize: sz, lineHeight: 1, letterSpacing: 0.5 };
+          return <div key={i} style={{ position: "absolute", left: 0, width: 690, top, display: "flex", justifyContent: "center",
+            transform: `scale(${1.3 - 0.3 * k})`, opacity: k, filter: `blur(${(1 - k) * 8}px)` }}>
+            {hi
+              ? <span style={{ ...common, color: INK, background: LIME, padding: "6px 22px 0", border: `5px solid ${INK}`, boxShadow: `10px 10px 0 ${INK}`, transform: "rotate(-2deg)" }}>{txt}</span>
+              : <span style={{ ...common, color: "#fff", WebkitTextStroke: `${Math.round(sz * 0.12)}px ${INK}`, paintOrder: "stroke fill", textShadow: "0 6px 18px rgba(0,0,0,0.5)" }}>{txt}</span>}
+          </div>;
         })}
       </AbsoluteFill>
     </AbsoluteFill>

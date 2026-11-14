@@ -94,7 +94,7 @@ const SCENES: Scene[] = [
     draw: chartScene("mtar", [{ t: 45.8, z: 1, cx: 362, cy: 453 }, { t: 47.4, z: 1, cx: 362, cy: 453 }, { t: 47.9, z: 1.4, cx: 470, cy: 340 }, { t: 51.3, z: 1.4, cx: 470, cy: 340 }, { t: 51.9, z: 1.85, cx: 540, cy: 250 }],
       (t) => <>
         <DrawArrow t={t} t0={47.78} x1={MM.run.x1 - 8} y1={MM.run.y1 + 18} x2={MM.run.x2 - 14} y2={MM.run.y2 + 20} w={7} />
-        <Label t={t} t0={47.95} x={MM.run.x1 - 18} y={(MM.run.y1 + MM.run.y2) / 2 + 30} text="RUN-UP" anchor="end" size={26} />
+        <Label t={t} t0={47.95} t1={51.2} x={MM.run.x1 - 18} y={(MM.run.y1 + MM.run.y2) / 2 + 30} text="RUN-UP" anchor="end" size={26} />
         <DrawBox t={t} t0={48.52} x1={MM.box.x1} x2={MM.box.x2} y1={MM.box.y1} y2={MM.box.y2} />
         <Label t={t} t0={50.50} x={(MM.box.x1 + MM.box.x2) / 2} y={MM.box.y2 + 34} text="RANGE" anchor="middle" size={26} />
         <Label t={t} t0={51.74} x={MM.box.x2 - 4} y={MM.box.y1 - 10} text="BREAKOUT?" anchor="end" size={26} />
@@ -113,7 +113,7 @@ const SCENES: Scene[] = [
   { a: 64.55, b: 68.75, draw: talk("T5c4.mp4", 64.55, 64.23) },
   // 14 "Pehla naam hai, CG Power": NO. 1, the logo slammed on its name
   { a: 68.75, b: 71.25, outDir: "left", draw: card,
-    over: (t) => <><BigWord text="NO. 1" t={t} t0={68.94} t1={70.44} y={560} size={190} color="#c8202a" />
+    over: (t) => <><BigWord text="NO. 1" t={t} t0={68.94} t1={70.44} y={560} size={190} />
       <LogoCard src="logos/cgpower.png" t={t} t0={70.50} y={560} w={620} h={160} /></>,
     shakes: [[68.94, 0.3, 14], [70.50, 0.3, 14]] },
   // 15 "Iski CG Semi chip assembly, packaging aur testing mein kaam karti hai": the CG Power chart, its levels marked
@@ -127,7 +127,7 @@ const SCENES: Scene[] = [
     over: (t) => <LogoCard src="logos/cgsemi.png" t={t} t0={72.58} y={190} x={600} w={170} h={200} /> },
   // 16 "Phir aati hai, Kaynes Technology": NO. 2, the logo on its name
   { a: 77.25, b: 80.30, draw: card,
-    over: (t) => <><BigWord text="NO. 2" t={t} t0={77.30} t1={78.62} y={560} size={190} color="#c8202a" />
+    over: (t) => <><BigWord text="NO. 2" t={t} t0={77.30} t1={78.62} y={560} size={190} />
       <LogoCard src="logos/kaynes.png" t={t} t0={78.70} y={560} w={560} h={150} /></>,
     shakes: [[77.38, 0.3, 14], [78.70, 0.3, 14]] },
   // 17 "Iski Kaynes Semicon bhi semiconductor packaging aur testing mein kaam karti hai": the Kaynes chart, its range marked
@@ -170,56 +170,56 @@ const SCENES: Scene[] = [
 
 // captions: Roman Hinglish, phrase by phrase, on the words; none on the full-screen marked charts
 const CAPS: Cap[] = [
-  { t0: 0.22, t1: 1.95, text: "Long-term investing karte hain?" },
-  { t0: 2.16, t1: 4.55, text: "Ye do sectors ko ignore mat kijiye." },
-  { t0: 4.66, t1: 5.80, text: "Ek hai space," },
+  { t0: 0.22, t1: 1.95, text: "Long-term investing karte hain?", hi: "Long-term" },
+  { t0: 2.16, t1: 4.55, text: "Ye do sectors ko ignore mat kijiye.", hi: "ignore mat kijiye" },
+  { t0: 4.66, t1: 5.80, text: "Ek hai space,", hi: "space" },
   { t0: 5.84, t1: 6.34, text: "doosra..." },
-  { t0: 7.94, t1: 9.72, text: "Space mein Agnikul," },
-  { t0: 9.72, t1: 11.04, text: "Skyroot, Pixxel" },
+  { t0: 7.94, t1: 9.72, text: "Space mein Agnikul,", hi: "Agnikul" },
+  { t0: 9.72, t1: 11.04, text: "Skyroot, Pixxel", hi: "Skyroot, Pixxel" },
   { t0: 11.04, t1: 11.95, text: "jaise naam hain." },
-  { t0: 12.20, t1: 14.95, text: "Lekin ye startups listed nahi hain," },
+  { t0: 12.20, t1: 14.95, text: "Lekin ye startups listed nahi hain,", hi: "listed nahi" },
   { t0: 15.00, t1: 16.12, text: "toh space se judi" },
-  { t0: 16.14, t1: 17.60, text: "listed companies dekhte hain." },
+  { t0: 16.14, t1: 17.60, text: "listed companies dekhte hain.", hi: "listed companies" },
   { t0: 18.06, t1: 19.56, text: "Pehla naam hai,", pill: true },
-  { t0: 19.58, t1: 21.40, text: "Centum Electronics.", pill: true },
-  { t0: 21.42, t1: 23.14, text: "Ye space applications ke liye" },
-  { t0: 23.16, t1: 24.70, text: "electronics banati hai," },
-  { t0: 24.74, t1: 27.02, text: "toh sector mein activity badhne se" },
-  { t0: 27.04, t1: 29.40, text: "iske liye business ke mauke ban sakte hain." },
+  { t0: 19.58, t1: 21.40, text: "Centum Electronics.", hi: "Centum Electronics", pill: true },
+  { t0: 21.42, t1: 23.14, text: "Ye space applications ke liye", hi: "space applications" },
+  { t0: 23.16, t1: 24.70, text: "electronics banati hai,", hi: "electronics" },
+  { t0: 24.74, t1: 27.02, text: "toh sector mein activity badhne se", hi: "activity" },
+  { t0: 27.04, t1: 29.40, text: "iske liye business ke mauke ban sakte hain.", hi: "business ke mauke" },
   { t0: 37.20, t1: 38.70, text: "Doosra naam hai,", pill: true },
-  { t0: 38.72, t1: 40.70, text: "MTAR Technologies.", pill: true },
-  { t0: 41.14, t1: 43.06, text: "Ye space programs ke liye" },
-  { t0: 43.08, t1: 45.80, text: "engines aur critical assemblies banati hai." },
+  { t0: 38.72, t1: 40.70, text: "MTAR Technologies.", hi: "MTAR Technologies", pill: true },
+  { t0: 41.14, t1: 43.06, text: "Ye space programs ke liye", hi: "space programs" },
+  { t0: 43.08, t1: 45.80, text: "engines aur critical assemblies banati hai.", hi: "engines" },
   { t0: 54.10, t1: 54.46, text: "Ab..." },
   { t0: 55.38, t1: 55.92, text: "par aaiye." },
-  { t0: 56.34, t1: 57.96, text: "India mein chips banane aur" },
-  { t0: 57.98, t1: 59.70, text: "unki packaging aur testing ke" },
-  { t0: 59.72, t1: 61.20, text: "naye plants lag rahe hain." },
+  { t0: 56.34, t1: 57.96, text: "India mein chips banane aur", hi: "chips" },
+  { t0: 57.98, t1: 59.70, text: "unki packaging aur testing ke", hi: "packaging aur testing" },
+  { t0: 59.72, t1: 61.20, text: "naye plants lag rahe hain.", hi: "naye plants" },
   { t0: 61.32, t1: 63.40, text: "Lekin yahan bhi kai bade naam" },
-  { t0: 63.42, t1: 64.55, text: "unlisted hain." },
-  { t0: 64.66, t1: 66.78, text: "Phir bhi kuch listed companies" },
-  { t0: 66.80, t1: 68.75, text: "aapki watchlist mein honi chahiye." },
+  { t0: 63.42, t1: 64.55, text: "unlisted hain.", hi: "unlisted" },
+  { t0: 64.66, t1: 66.78, text: "Phir bhi kuch listed companies", hi: "listed companies" },
+  { t0: 66.80, t1: 68.75, text: "aapki watchlist mein honi chahiye.", hi: "watchlist" },
   { t0: 68.94, t1: 70.46, text: "Pehla naam hai,", pill: true },
-  { t0: 70.48, t1: 71.88, text: "CG Power.", pill: true },
-  { t0: 71.90, t1: 73.72, text: "Iski CG Semi", pill: true, y: 1170 },
+  { t0: 70.48, t1: 71.88, text: "CG Power.", hi: "CG Power", pill: true },
+  { t0: 71.90, t1: 73.72, text: "Iski CG Semi", hi: "CG Semi", pill: true, y: 1170 },
   { t0: 73.74, t1: 75.34, text: "chip assembly, packaging", pill: true, y: 1170 },
   { t0: 75.36, t1: 77.25, text: "aur testing mein kaam karti hai.", pill: true, y: 1170 },
   { t0: 77.36, t1: 78.66, text: "Phir aati hai,", pill: true },
-  { t0: 78.68, t1: 80.30, text: "Kaynes Technology.", pill: true },
-  { t0: 80.34, t1: 82.12, text: "Iski Kaynes Semicon bhi", pill: true, y: 1170 },
+  { t0: 78.68, t1: 80.30, text: "Kaynes Technology.", hi: "Kaynes Technology", pill: true },
+  { t0: 80.34, t1: 82.12, text: "Iski Kaynes Semicon bhi", hi: "Kaynes Semicon", pill: true, y: 1170 },
   { t0: 82.14, t1: 84.12, text: "semiconductor packaging aur testing", pill: true, y: 1170 },
   { t0: 84.14, t1: 85.40, text: "mein kaam karti hai.", pill: true, y: 1170 },
-  { t0: 85.42, t1: 87.50, text: "Toh chip industry ko samajhte waqt" },
+  { t0: 85.42, t1: 87.50, text: "Toh chip industry ko samajhte waqt", hi: "chip industry" },
   { t0: 87.52, t1: 88.88, text: "chips banane ke saath" },
-  { t0: 88.90, t1: 90.04, text: "ye businesses bhi" },
-  { t0: 90.06, t1: 91.90, text: "aapke radar par hone chahiye." },
-  { t0: 92.54, t1: 94.94, text: "Ab ye chaaron companies ke charts ko", pill: true },
-  { t0: 94.96, t1: 96.65, text: "technically evaluate kijiye,", pill: true, y: 1150 },
-  { t0: 96.82, t1: 98.44, text: "kyunki sirf achha stock" },
-  { t0: 98.46, t1: 100.22, text: "aur achha sector dekhkar" },
+  { t0: 88.90, t1: 90.04, text: "ye businesses bhi", hi: "businesses" },
+  { t0: 90.06, t1: 91.90, text: "aapke radar par hone chahiye.", hi: "radar" },
+  { t0: 92.54, t1: 94.94, text: "Ab ye chaaron companies ke charts ko", hi: "charts", pill: true },
+  { t0: 94.96, t1: 96.65, text: "technically evaluate kijiye,", hi: "technically evaluate", pill: true, y: 1150 },
+  { t0: 96.82, t1: 98.44, text: "kyunki sirf achha stock", hi: "achha stock" },
+  { t0: 98.46, t1: 100.22, text: "aur achha sector dekhkar", hi: "achha sector" },
   { t0: 100.24, t1: 101.80, text: "baat poori nahi hoti." },
-  { t0: 102.04, t1: 103.18, text: "Entry ke waqt," },
-  { t0: 103.20, t1: OUT0, text: "chart ka setup bhi dekhiye." },
+  { t0: 102.04, t1: 103.18, text: "Entry ke waqt,", hi: "Entry" },
+  { t0: 103.20, t1: OUT0, text: "chart ka setup bhi dekhiye.", hi: "chart ka setup" },
 ];
 
 const SceneLayer: React.FC<{ s: Scene }> = ({ s }) => {

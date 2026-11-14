@@ -54,6 +54,9 @@ Later the same day, on the first two drafts (a collage of footage stills with a 
 | Arrow | Optional: one white hand-drawn arrow (`arrow` in the spec) at the thing that makes the viewer curious. |
 | Not on a cover | Real politicians (an AI-labelled post showing the PM was blocked in India, E16), text inside the generated scene, the DOORDHAN bug, small text, a drawn logo, a buy or sell call (hard rule 3). |
 
+The reel's own type uses the same language since E16 v4: captions, slammed words, logo cards, chart labels and the
+disclaimer (assets/edits/sk06/PROMPTS.md, "Type").
+
 ## Posting
 - Instagram: "Edit cover", then "Add from camera roll", then check the profile-grid crop.
 - YouTube Shorts: the app takes a custom thumbnail from the gallery.
