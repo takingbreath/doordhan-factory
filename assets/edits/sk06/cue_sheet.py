@@ -21,3 +21,26 @@ out = {"song": "Zindagi Ek Safar Hai Suhana (Andaz, 1971), Kishore Kumar, Sarega
 json.dump(out, open("work/sk06/sfx/cues.json", "w"), indent=1, ensure_ascii=False)
 for c in out["clips"]:
     print(f"{c['clip']:5} reel {c['reel']:17} " + (f"song from {c['song_from']:8} {c['level']:5}" if "song_from" in c else "silent".ljust(26)) + f"  {c['why']}")
+
+# ---- the guide for Instagram Edits in WHOLE seconds (Akhilesh, 2026-11-14: "there is no decimal on Instagram").
+# One music clip per stretch of song: S1 and S2 are one clip with a volume change. Ends before a brake round DOWN (the
+# song stops just before the hit, never over it); starts round to the nearest second; C keeps a whole number of seconds
+# so it still ends exactly where clip 1 starts in the song, and the loop stays seamless.
+import math
+ms = lambda s: f"{int(s // 60)}:{int(round(s)) % 60:02d}" if s % 60 < 59.5 else f"{int(s // 60) + 1}:00"
+e_end = math.ceil(END); c_in = round(C_IN); seam = round(SEAM)
+steps = [
+    ("1", round(0), math.floor(BRAKE1), seam, f"FULL for 0:00-0:{round(GLASS):02d}, then LOW to the end of the clip (split it at 0:{round(GLASS):02d})"),
+    ("2", round(VOICE2), round(BRAKE2), round(126.0), "LOW"),
+    ("3", c_in, e_end, seam - (e_end - c_in), "FULL to the end of the reel"),
+]
+lines = ["# E16 song guide for Instagram Edits (whole seconds)", "",
+         "Song: Zindagi Ek Safar Hai Suhana (Andaz, 1971), Kishore Kumar. Add the song three times, one clip per row.", "",
+         "| Clip | Put it on the reel at | Ends on the reel at | Start the song at | Volume |", "|---|---|---|---|---|"]
+for n, a, b, s, v in steps:
+    lines.append(f"| {n} | {ms(a)} | {ms(b)} | {ms(s)} | {v} |")
+lines += ["", f"Silence (no song): {ms(math.floor(BRAKE1))}-{ms(round(VOICE2))} (the brake) and {ms(round(BRAKE2))}-{ms(c_in)} (the outro brake).",
+          "Volume: FULL = as loud as Pandey's voice (start near 60% and match by ear); LOW = well under his voice (start near 15%).",
+          f"Loop: clip 3 ends at song {ms(seam)} and clip 1 starts at song {ms(seam)}, so the song runs on when the reel loops."]
+open("work/sk06/sfx/edits_guide.md", "w").write("\n".join(lines) + "\n")
+print("\n".join(lines))

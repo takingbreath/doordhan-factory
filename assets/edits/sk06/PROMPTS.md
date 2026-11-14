@@ -245,7 +245,7 @@ Cut grammar that Akhilesh approved on E16:
 - A glass whoosh at the windscreen. Whooshes only on the four big whips, thuds on the key words, pops on logos,
   marker sounds on chart marks. No sound on the montage cuts.
 - Two-pass loudnorm to -14 LUFS.
-- For a song that Akhilesh adds in Edits, write a cue sheet (cue_sheet.py): song in-points, full or low, mutes at the
+- For a song that Akhilesh adds in Edits, give him the guide in **whole seconds** (Edits has no decimals; cue_sheet.py writes sfx/edits_guide.md): one music clip per stretch of song with its volume split, ends before a brake rounded down, the loop clip a whole number of seconds. The exact cue sheet (cue_sheet.py) is for our own preview mix: song in-points, full or low, mutes at the
   brakes, the end joining the start for the loop. Send a song preview for review only (mix_song.py).
 
 ---

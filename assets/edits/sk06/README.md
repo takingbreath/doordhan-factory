@@ -22,7 +22,7 @@ them as the scripts say. The paths inside the scripts say `work/sk06`, so change
 | grade_match.py, grade_apply.py | Measure and apply one Lab colour transfer, so that Wan 2.7, Wan 3.0 and Seedance clips read as one camera. |
 | mix.py | The sound: the voice at 0.12 s, the bus bed (lower in "away" scenes), the street outside, brakes, a glass whoosh, whooshes only on big whips, thuds on words, logo pops, marker sounds on chart marks. Two-pass loudnorm to -14 LUFS. |
 | finish.py | The prefinish edit, the dialogue stem, the 1080x1920 final, the phone copy and qc_manifest.json for the QC gate. |
-| cue_sheet.py, song_cues.json | The cue sheet for the song that Akhilesh lays in Instagram Edits (clip, reel time, song in-point, level). |
+| cue_sheet.py, song_cues.json, song_guide_edits.md | The cue sheet for the song that Akhilesh lays in Instagram Edits (clip, reel time, song in-point, level). |
 | mix_song.py, finish_song.py | A song preview for review only (never posted): the song on the cue sheet over the reel's own mix. |
 | bilabial_check.py, gap_plot.py, mouth_strip.py | Lip checks for a moustached face where SyncNet is unreliable: p/b/m closures, lip gap against loudness, a mouth strip. |
 | specs/*.json | The Wan 3.0 talking-shot specs that worked: the keyframe as an image reference with our track, and "articulates every syllable clearly, his lips and jaw moving visibly" (a wording of "lips part only a little" gave still lips). |
