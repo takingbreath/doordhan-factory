@@ -4091,6 +4091,18 @@
      "yt_best_vph": 2443,
      "yt_top": "Why Indian Railways Doesn’t Make Money Even on Diwali Rush? (175,894 views in 72h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-14",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 12,
+     "yt_week_views": 383563,
+     "yt_best_vph": 1885,
+     "yt_top": "Why Indian Railways Doesn’t Make Money Even on Diwali Rush? (180,923 views in 96h)",
+     "google_trending": []
     }
    ]
   },
@@ -6020,7 +6032,8 @@
     "2026-11-10: price range $70-80, 867M shares, $26bn placement from suppliers, Nasdaq ANT 19/20 Nov",
     "2026-11-11: filed range $70-78, $1.4T diluted, $104bn 9-month loss, trading 19 Nov",
     "2026-11-12: 12 Nov: new turn, book several times oversubscribed; FT: bankers may price above $78, target $1.5T+",
-    "2026-11-13: several times oversubscribed; may beat SpaceX record; Nvidia CEO out"
+    "2026-11-13: several times oversubscribed; may beat SpaceX record; Nvidia CEO out",
+    "2026-11-14: 14 Nov: no filed change; pricing Wed 18 Nov"
    ],
    "readings": [
     {
@@ -6213,6 +6226,19 @@
      "yt_week_views": 483132,
      "yt_best_vph": 4908,
      "yt_top": "Rubenstein on the Anthropic IPO, Nvidia CEO Scandal, GTA VI (117,782 views in 24h)",
+     "google_trending": [],
+     "desk_score": 8.0
+    },
+    {
+     "date": "2026-11-14",
+     "label": "HOT (saturated: everyone has it; needs a sharper angle)",
+     "news_1d": 100,
+     "news_7d": 100,
+     "momentum_pct": 100,
+     "yt_week_videos": 16,
+     "yt_week_views": 1554700,
+     "yt_best_vph": 9890,
+     "yt_top": "Fable 5.2 just revealed how shady Anthropic really is (237,370 views in 24h)",
      "google_trending": [],
      "desk_score": 8.0
     }
@@ -6549,7 +6575,7 @@
    "first_seen": "2026-10-30",
    "lane": "deep",
    "window_until": "2026-11-13",
-   "status": "active",
+   "status": "retired",
    "notes": [
     "desk 30 Oct; The Ken 30 Oct",
     "2026-10-30: 773 of 1,366 gov names still on revoked certs (24 Oct)"
@@ -6726,8 +6752,24 @@
      "yt_best_vph": 50,
      "yt_top": "SBI E Mudra Loan Online Apply 2026 | ₹50,000 तक का लोन घर बैठे कैसे ले (6,013 views in 120h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-14",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 3,
+     "yt_week_views": 221,
+     "yt_best_vph": 1,
+     "yt_top": "HOW AI ATTACK SEVERAL WEBSITE'S ON INTERNET  (134 views in 96h)",
+     "google_trending": []
     }
-   ]
+   ],
+   "retired": {
+    "date": "2026-11-14",
+    "reason": "past its window"
+   }
   },
   {
    "id": "sebi-direct-default",
@@ -7395,6 +7437,18 @@
      "yt_best_vph": 6864,
      "yt_top": "This Diwali, light the diya of togetherness and spread happiness with  (988,396 views in 144h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-14",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 11,
+     "yt_week_views": 290838,
+     "yt_best_vph": 2467,
+     "yt_top": "जमीन खरीदकर अमीर बनने का सपना? पहले ये सच्चाई जान लो! (177,639 views in 72h)",
+     "google_trending": []
     }
    ]
   },
@@ -7802,6 +7856,18 @@
      "yt_best_vph": 1013,
      "yt_top": "Why are flight tickets so expensive now? The truth behind rising airfa (121,582 views in 120h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-14",
+     "label": "COLD",
+     "news_1d": null,
+     "news_7d": null,
+     "momentum_pct": 0,
+     "yt_week_videos": 20,
+     "yt_week_views": 159488,
+     "yt_best_vph": 915,
+     "yt_top": "Why are flight tickets so expensive now? The truth behind rising airfa (131,726 views in 144h)",
+     "google_trending": []
     }
    ]
   },
@@ -7870,6 +7936,18 @@
      "yt_best_vph": 65347,
      "yt_top": "First time in INDIAN CINEMA: Ramayana Day 6 box office explained (1,568,317 views in 24h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-14",
+     "label": "HOT",
+     "news_1d": 74,
+     "news_7d": 100,
+     "momentum_pct": 74,
+     "yt_week_videos": 5,
+     "yt_week_views": 4114650,
+     "yt_best_vph": 72044,
+     "yt_top": "Budget recover kar liya? Ramayana day 7 box office explained (1,729,067 views in 24h)",
+     "google_trending": []
     }
    ]
   },
@@ -7936,6 +8014,18 @@
      "yt_best_vph": 500,
      "yt_top": "Thousands of SNAP benefit cards remain unclaimed (36,028 views in 72h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-14",
+     "label": "COLD",
+     "news_1d": 3,
+     "news_7d": 6,
+     "momentum_pct": 50,
+     "yt_week_videos": 4,
+     "yt_week_views": 47158,
+     "yt_best_vph": 376,
+     "yt_top": "Thousands of SNAP benefit cards remain unclaimed (36,120 views in 96h)",
+     "google_trending": []
     }
    ]
   },
@@ -7988,6 +8078,18 @@
      "yt_best_vph": 4315,
      "yt_top": "FIIs Ki Wapsi: $12 Billion Inflows & Nifty Outlook (207,139 views in 48h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-14",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 9,
+     "yt_week_views": 143102,
+     "yt_best_vph": 648,
+     "yt_top": "Nifty 40,000 Target? FIIs Buy ₹7,212 Cr | Citi's 28,000 Forecast & $12 (46,645 views in 72h)",
+     "google_trending": []
     }
    ]
   },
@@ -8039,6 +8141,18 @@
      "yt_week_views": 3432,
      "yt_best_vph": 23,
      "yt_top": "Tata Steel Share + Dividend Stocks Equity Right Issue BHEL Taparia Too (2,802 views in 120h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-11-14",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 3,
+     "momentum_pct": 0,
+     "yt_week_videos": 14,
+     "yt_week_views": 3648,
+     "yt_best_vph": 20,
+     "yt_top": "Tata Steel Share + Dividend Stocks Equity Right Issue BHEL Taparia Too (2,832 views in 144h)",
      "google_trending": []
     }
    ]
@@ -8128,6 +8242,18 @@
      "yt_best_vph": 982,
      "yt_top": "BR Shetty Held Liable in $5.4 Billion NMC Fraud Case | UAE Court Deliv (70,671 views in 72h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-14",
+     "label": "FLAT",
+     "news_1d": 0,
+     "news_7d": 22,
+     "momentum_pct": 0,
+     "yt_week_videos": 20,
+     "yt_week_views": 248360,
+     "yt_best_vph": 746,
+     "yt_top": "BR Shetty Held Liable in $5.4 Billion NMC Fraud Case | UAE Court Deliv (71,604 views in 96h)",
+     "google_trending": []
     }
    ]
   },
@@ -8158,6 +8284,18 @@
      "yt_best_vph": 800,
      "yt_top": "JioFiber vs Airtel Xstream Box 🔥 Live TV, OTT Apps, Pricing & Real Tes (96,054 views in 120h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-14",
+     "label": "HOT",
+     "news_1d": 1,
+     "news_7d": 2,
+     "momentum_pct": 50,
+     "yt_week_videos": 9,
+     "yt_week_views": 421209,
+     "yt_best_vph": 5623,
+     "yt_top": "Airtel Big Good News😍,iPhone 20 Pro 200MP,POCO X9 Pro 185Hz,Jio Big Ne (269,891 views in 48h)",
+     "google_trending": []
     }
    ]
   },
@@ -8170,11 +8308,25 @@
    "window_until": "2026-11-17",
    "status": "active",
    "notes": [
-    "2026-11-13: resigned 12 Nov"
+    "2026-11-13: resigned 12 Nov",
+    "2026-11-14: 14 Nov: new turn, board approached Arm CEO Haas (FT); employee petition, Musk signing; testimony before Thanksgiving; -$585bn week"
    ],
    "readings": [
     {
      "date": "2026-11-13",
+     "desk_score": 9.0
+    },
+    {
+     "date": "2026-11-14",
+     "label": "HOT",
+     "news_1d": 7,
+     "news_7d": 26,
+     "momentum_pct": 27,
+     "yt_week_videos": 15,
+     "yt_week_views": 4153687,
+     "yt_best_vph": 73292,
+     "yt_top": "Nvidia CEO Jensen Huang resigns, Nvidia stock plunges (1,759,006 views in 24h)",
+     "google_trending": [],
      "desk_score": 9.0
     }
    ]
@@ -8187,10 +8339,25 @@
    "lane": "deep",
    "window_until": "2026-11-26",
    "status": "active",
-   "notes": [],
+   "notes": [
+    "2026-11-14: 14 Nov: carried, no new turn"
+   ],
    "readings": [
     {
      "date": "2026-11-13",
+     "desk_score": 7.0
+    },
+    {
+     "date": "2026-11-14",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": null,
+     "momentum_pct": 0,
+     "yt_week_videos": 2,
+     "yt_week_views": 54,
+     "yt_best_vph": 1,
+     "yt_top": "Augmont Enterprises Ltd | Q2 FY27 Earnings Concall (27 views in 48h)",
+     "google_trending": [],
      "desk_score": 7.0
     }
    ]
