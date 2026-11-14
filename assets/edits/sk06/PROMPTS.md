@@ -177,6 +177,8 @@ Brief for the search (a sub-agent can do it):
 > said in the script. Crop out channel logos, tickers and burned captions (`cropdetect`; check every clip across its
 > whole span, not one frame). Write every source in footage_sources.md for the credits line.
 
+**Never use footage or photos of the PM, ministers or party leaders.** E16 used four DD India clips of PM Modi at the Micron plant and Instagram made the reel unavailable in India within hours (an AI-labelled post showing the PM; see gotchas). Skip the dignitaries at openings; take the product, plant and people-at-work shots.
+
 Official logos come from the companies' own sites. An image model never draws a real logo.
 
 ---

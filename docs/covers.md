@@ -52,7 +52,7 @@ Later the same day, on the first two drafts (a collage of footage stills with a 
 | Kicker | Optional: the topic in white Anton with a thick ink outline, above the hook ("SPACE & CHIPS"). Use it when the picture does not say the topic by itself. At most 5 words on the cover in all. |
 | Finish | A light vignette and film grain, so the type sits in the picture. |
 | Arrow | Optional: one white hand-drawn arrow (`arrow` in the spec) at the thing that makes the viewer curious. |
-| Not on a cover | Text inside the generated scene, the DOORDHAN bug, small text, a drawn logo, a buy or sell call (hard rule 3). |
+| Not on a cover | Real politicians (an AI-labelled post showing the PM was blocked in India, E16), text inside the generated scene, the DOORDHAN bug, small text, a drawn logo, a buy or sell call (hard rule 3). |
 
 ## Posting
 - Instagram: "Edit cover", then "Add from camera roll", then check the profile-grid crop.
