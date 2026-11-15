@@ -1,25 +1,21 @@
 {
   "_doc": "The strategy book. One bet = one lever, judged on one metric against the baseline it opened at. Verdicts come from pipeline/scoreboard.py. Status: open, won, stopped, no-edge, watch. Rules in docs/strategy.md.",
   "campaign": {
-    "name": "Stage 2: Make it travel",
-    "started": "2026-10-26",
-    "ends": "2026-11-15",
-    "goal": "reels that get forwarded and reach well beyond our followers",
+    "name": "Stage 3: Build the habit",
+    "started": "2026-11-16",
+    "ends": "2026-12-31",
+    "goal": "enough reels, often enough, that viewers follow and come back: 2,000 followers by 31 Dec, and YouTube Shorts live",
     "targets": [
+      {
+        "metric": "followers",
+        "target": 2000
+      },
       {
         "metric": "sends_per_1k",
         "target": 10
-      },
-      {
-        "metric": "best_views",
-        "target": 10000
-      },
-      {
-        "metric": "followers",
-        "target": 500
       }
     ],
-    "_note": "Targets as written in docs/strategy.md (Stage 2 dates agreed by Akhilesh 2026-10-04). Raising followers to 1,200 and adding a strategy stop were put to Akhilesh on 2026-11-01; until he answers, no strategy stop is set for this stage."
+    "_note": "Opened 2026-11-15 as written in docs/strategy.md (2,000 followers by 31 Dec). Sends per 1k carried over unmet from Stage 2. Proposed to Akhilesh 2026-11-15: a strategy stop (followers under 1,100 on 13 Dec) and YouTube Shorts; until he answers, no strategy stop is set."
   },
   "bets": [
     {
@@ -152,6 +148,27 @@
         "means": "The current strategy isn't stopping the scroll. Check Account Status and the AI-profile label first (a restricted account looks exactly like this), then the Sunday review brings 2-3 alternative strategies, each with its own target and stop, for Akhilesh to pick. No more tweaking the same approach."
       },
       "result": "Closed 2026-11-01 (monthly review). Hit: best reel 12,564 (target 2,000), followers 709 (target 100), median plays at 72 h 582 (target 500). Unknown since 9 Oct (owner feed down): skip 56% and watched 29.3% at the last reading, both short of 45. Strategy stop not hit (18 reels, median 582 vs 300)."
+    },
+    {
+      "name": "Stage 2: Make it travel",
+      "started": "2026-10-26",
+      "ends": "2026-11-15",
+      "goal": "reels that get forwarded and reach well beyond our followers",
+      "targets": [
+        {
+          "metric": "sends_per_1k",
+          "target": 10
+        },
+        {
+          "metric": "best_views",
+          "target": 10000
+        },
+        {
+          "metric": "followers",
+          "target": 500
+        }
+      ],
+      "result": "Closed 2026-11-15 (end of stage, weekly review). Hit: best reel 15,300 (Starlink vs Jio's second wave; E15 12,700 inside the stage) against 10,000, and followers 799 against 500. Missed: sends per 1,000 plays 4.0 pooled against 10. Behind on volume, not thesis: 6 posts in 3 weeks (X3, E15, EPFO twice, a Diwali greeting, E16 posted twice) against a plan of one a day, and the owner feed dark for the first 18 of the stage's 21 days. No strategy stop was ever set (proposals of 1 and 8 Nov unanswered)."
     }
   ]
 }

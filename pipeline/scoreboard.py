@@ -175,7 +175,7 @@ def followers(d, platform="instagram", days=7, now=None):
         return None, None
     a.sort(key=lambda r: r["taken_ist"])
     last = a[-1]
-    cutoff = ((now or now_ist()) - timedelta(days=days)).strftime("%Y-%m-%d %H:%M")
+    cutoff = ((now or now_ist()) - timedelta(days=days) + timedelta(hours=2)).strftime("%Y-%m-%d %H:%M")  # 2 h slack: a nightly reading a minute late still counts as "a week ago"
     before = [r for r in a if r["taken_ist"] <= cutoff] or a[:1]
     return int(num(last["followers"])), int(num(last["followers"]) - num(before[-1]["followers"]))
 
