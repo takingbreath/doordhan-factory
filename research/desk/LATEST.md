@@ -1,149 +1,155 @@
-# Doordhan desk research — Sat 14 Nov 2026
+# Doordhan desk research — Sun 15 Nov 2026
 
-Session: https://claude.ai/code/session_01PasrAr175xxLduajaVaYZX
+Session: https://claude.ai/code/session_01PasrAsPJMVAnyiFxLN13jp
 
-**Pick: story 1.** Nvidia again, with a new turn since yesterday: Nvidia's board has approached Arm's CEO Rene Haas to replace Jensen Huang (FT, via ANI on 14 Nov), while employees push to bring Huang back and Elon Musk says he is signing the petition. Huang has agreed to testify to Congress before Thanksgiving, and Nvidia reports earnings under its interim CEO on Tue 17 Nov. Nvidia lost $585 billion in value this week (NBC). Indian Reels on the resignation ran to 2.5M, 2M and 1.2M views on 12 Nov, but all tell the scandal; nobody has done the succession fight or the viewer's own Nasdaq 100 fund. A story draft for this already exists (13 Nov, awaiting hook and story approval).
+**Pick: story 1.** Nvidia again, with a new turn since yesterday, and earnings on Tuesday give it a date. The petition to reinstate Jensen Huang passed 108,000 signatures by Saturday afternoon. Organisers say that includes more than 5,600 current Nvidia employees and more than 58,000 shareholders, and Elon Musk and Y Combinator's Garry Tan are among the signers (Yahoo Finance, 14 Nov). Investors Brad Gerstner (Altimeter) and Gavin Baker (Atreides) wrote to the board asking it not to rush a replacement. Nvidia reports after the US close on Tue 17 Nov (Wed morning in India), its first results without Huang, against guidance of $108 billion. The employee-revolt angle is now taken (@abhishekxtrades, 1.2M, 13 Nov). Still open: the first results without the founder, and what that means for Indians who own Nvidia through a Nasdaq 100 fund. A Mon or Tue reel lands before the numbers.
 
-Runner-up: 2, Anthropic, unchanged since Tuesday's filing; pricing is Wed 18 Nov, so a Mon or Tue reel still lands before it. Story 3 (deep lane, carried from yesterday, no new turn): NSE banned brokers from selling digital gold in 2021, then picked Augmont, the biggest digital-gold seller, with no bidding.
+Runner-up: 2, retail inflation at 6.09% in October: the first breach of the RBI's 6% ceiling in two years, food at 8.5 to 8.9%, and SBI's one-year FD at about 6.25%, so a saver's real return is about zero before tax. RBI meets 2-4 Dec. Story 3 (deep lane, The Ken, 14 Nov): India's 'sovereign' AI is rented from Nvidia GPU clouds (Yotta, E2E, Neysa). Listed E2E is down about 36% from its 14 Oct high. Not on today's three but on the board: Anthropic prices on Wed 18 Nov (HOT, no change in its filed terms since Tue).
 
-> **Correction:** Yesterday's email (13 Nov) called Nvidia the largest holding in the Motilal Oswal Nasdaq 100 ETF at 8.36%. That figure is from 30 Sep (StockAnalysis). The issuer's newer 31 Oct holdings, cited in the Nvidia story draft of 13 Nov, put it at about 8.02%, second to Apple. Say 'about 8%', and don't call it the biggest holding.
+## 1. Nvidia's first results without Jensen Huang come on Tuesday, while 108,000 people, including Elon Musk and 5,600 of its own staff, sign to bring him back
 
-## 1. Nvidia without Jensen: the board courts Arm's CEO, employees and Elon Musk want Huang back, and $585 billion went in a week
+Hot lane (tracked since 13 Nov; new since yesterday: petition past 108,000 with 5,600+ employees and 58,000+ shareholders, an Altimeter and Atreides letter to the board, and earnings now two days away) · HOT · **9/10** (momentum 3/3, stake 1/1, shareability 2/2, gap 1/2, known name 2/2) · tracker id `nvidia-huang-resigns`
 
-Hot lane (tracked since 13 Nov; new since yesterday: board approached Arm's CEO, employees and Musk push to reinstate Huang, Congress testimony set) · HOT · **9/10** (momentum 3/3, stake 1/1, shareability 2/2, gap 1/2, known name 2/2) · tracker id `nvidia-huang-resigns`
-
-Window: To Tue 17 Nov, Nvidia's first earnings without Huang. A permanent CEO announcement or Huang's testimony to Congress (before Thanksgiving, 26 Nov) would be the next turns.
+Window: To Wed 18 Nov IST: results come after the US close on Tue 17 Nov. Kress holds a company meeting on 18 Nov. Huang's testimony to Congress before Thanksgiving (26 Nov) or a permanent CEO would be the next turns.
 
 ### What's happening
-- Nvidia's board accepted Jensen Huang's resignation on Wed 11 Nov and announced it on Thu 12 Nov, ending 33 years as CEO of the company he co-founded in 1993. CFO Colette Kress is interim CEO and keeps the CFO job; Harvey C. Jones is the first board chair (TechCrunch).
-- New on 13-14 Nov: the Financial Times reports the board has approached Arm Holdings CEO Rene Haas, who worked at Nvidia for about seven years more than a decade ago. Nvidia says it is still selecting a search firm, has not formally engaged any candidate, and calls talk of names premature (ANI via The Tribune, 14 Nov).
-- Also new: reports of an employee petition to reinstate Huang. Elon Musk replied on X: 'A petition is underway to reinstate Jensen and I'm signing it too' (The Tribune). Two days earlier Musk had said it would be an 'honour' to hire Huang if Nvidia fired him (@thisismoney TikTok, 627K).
-- Bloomberg says Huang looked 'broken and shattered' when he gave up the job; the WSJ says he called Kress 'a deer in the headlights' (TechCrunch, 13 Nov).
-- Congress: Huang has agreed to testify under oath to House committees before Thanksgiving; the Senate Banking chair has summoned him and Commerce Secretary Lutnick for December. The board's own investigation continues despite his exit (CNBC; NBC, 13 Nov).
-- Money: Nvidia lost $585 billion in value this week (NBC, 13 Nov). The Nasdaq 100 closed down 1.2% on Friday, and Nvidia's 2031 bond yield rose nearly 5% in the week (CNBC, 13 Nov). Earnings come Tue 17 Nov.
-- India stake: Nvidia is about 8% of the Motilal Oswal Nasdaq 100 ETF (8.36% on 30 Sep, StockAnalysis; about 8.02% and second to Apple on 31 Oct, per the issuer figure in the 13 Nov story draft), the usual way Indian SIP investors own US tech.
+- Jensen Huang resigned as president, CEO and director on Thu 12 Nov. CFO Colette Kress is interim CEO and keeps the CFO job until a permanent successor is named (Nvidia 8-K; Yahoo Finance).
+- The 'Stand with Jensen' petition had more than 108,000 signatures by Saturday afternoon (14 Nov). Organisers say they include more than 58,000 shareholders, more than 5,600 current Nvidia employees and over 1,000 former ones. Fake entries ('Xi Jingping') are being removed. Signers include Elon Musk, Replit's Amjad Masad, Boom Supersonic's Blake Scholl and Y Combinator's Garry Tan (Yahoo Finance, 14 Nov).
+- The petition asks for Huang to stay CEO while the investigation runs, for the board to disclose its scope and timeline, and for evidence behind any removal (Yahoo Finance).
+- Brad Gerstner (Altimeter) and Gavin Baker (Atreides), who together hold about $2.1 billion of Nvidia shares, wrote to the board asking for a slow, measured search that keeps a return for Huang open. They did not demand immediate reinstatement (Yahoo Finance; zetik).
+- Earnings: Nvidia reports its fiscal third quarter after the US close on Tue 17 Nov, its first call under Kress. Guidance was $108 billion of revenue, plus or minus 2%; consensus is about $109.2 billion and adjusted EPS of $2.48 (LSEG and IG figures, via Invezz, 13 Nov).
+- Money: Nvidia lost $585 billion in value in the week of the resignation (NBC, 13 Nov; context from yesterday).
+- India stake: Nvidia is about 8% of the Motilal Oswal Nasdaq 100 ETF (about 8.02% and second to Apple on the issuer's 31 Oct holdings, per the 13 Nov story draft), the usual way Indian SIP investors own US tech.
 
 ### The curiosity gap
-- The board pushed out the founder; now staff and the world's richest man want him back, and the board is courting a former employee who runs a rival chip company. Who actually runs a $4 trillion company when its founder leaves?
-- Many Indian investors own Nvidia through a Nasdaq 100 fund. The company lost $585 billion this week and reports earnings on Tuesday without its founder. What does that mean for the fund in their SIP?
+- A company's own staff and its shareholders are petitioning to bring back the CEO the board just let go. Who actually runs Nvidia on Tuesday, when it reports $108 billion of sales without him?
+- Many Indian investors own Nvidia through a Nasdaq 100 fund without ever buying the stock. What does a founder-less Nvidia's first results mean for the fund in their SIP?
 
 ### How hot it is
-- trends.py 'Jensen Huang petition': COLD (2 news items today, 6 this week): the petition turn is still early. Yesterday's 'Jensen Huang resign' read RISING.
-- vidIQ YouTube (since 12 Nov, region IN, by views): a Spider-Man parody Short 6.85M (233,973/hr, 119x usual); Bloomberg Originals 4.34M; Fireship 2.08M; CNN 1.76M; Gamers Nexus 1.02M on 13 Nov.
-- vidIQ Instagram outliers since 11 Nov: five Indian reels on Nvidia at 0.8M to 2.5M views (below), all posted 11-12 Nov.
+- trends.py 'Jensen Huang petition': HOT (10 news items today, 9 this week, 111% today); YouTube this week 4 videos, 567K views, best 11,335/hr ('Jensen Huang PUSHED OUT of Nvidia and the Story Doesn't Add Up', 544K in 48 h).
+- Tracker: nvidia-huang-resigns HOT, steady (7 of 27 news items today; YouTube 3.66M views this week, best 37,530/hr).
+- vidIQ Instagram/TikTok outliers since 12 Nov: the petition turn already has one big Indian reel (@abhishekxtrades, 1.2M, 21x); six more Nvidia reels at 0.1M to 3.2M. A TikTok edit already opens on 'NVDA, Earnings Report 17 Nov'.
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [@greygold__ (Instagram, 1M followers)](https://www.instagram.com/reel/DfpTijNJbDJ) | Split screen: 'Nvidia CEO Jensen Huang resigns', what it means politically and for the company | 2.5M | 4x usual | 12 Nov |
-| [@cryptowalaindia (Instagram)](https://www.instagram.com/reel/DfpbKSrTls0) | Split screen: 'Jensen Huang resigns: from dishwasher to $5 trillion', career story and stock impact | 2M | 6.8x usual | 12 Nov |
-| [@abhishekxtrades (Instagram)](https://www.instagram.com/reel/DfontLVRm-U) | Split screen 'case files': the Chinese spy story, two affairs, board crisis | 1.2M | 21.5x usual | 12 Nov |
-| [@kanika.garg___ (Instagram, 3.1K followers)](https://www.instagram.com/reel/DfmYFW2SY0P) | Split screen with B-roll: China's spy controversy | 786K | 334x usual | 11 Nov |
-| [@himanshu_pasricha (Instagram, 801 followers)](https://www.instagram.com/reel/Dflkv8bhoKg) | Split screen: 'Nvidia CEO cannot be fired' (a day before he went) | 379K | 198x usual | 11 Nov |
-| [@thisismoney (TikTok)](https://www.tiktok.com/@thisismoney/video/7707243873436814614) | Still image: Musk says it would be an 'honour' to hire Huang | 627K | 9.3x usual | 12 Nov |
+| [@greygold__ (Instagram, 1M followers)](https://www.instagram.com/reel/DfpTijNJbDJ) | Split screen: 'Nvidia CEO Jensen Huang resigns', the politics and the company | 3.2M | 5x usual | 12 Nov |
+| [@cryptowalaindia (Instagram)](https://www.instagram.com/reel/DfpbKSrTls0) | Split screen: 'From dishwasher to $5 trillion', career story and stock impact | 2.6M | 8.5x usual | 12 Nov |
+| [@abhishekxtrades (Instagram)](https://www.instagram.com/reel/DfsDgLGMrAu) | Split screen, creator below a news image: 'Bagawat inside Nvidia', employees want Huang back | 1.2M | 21x usual | 13 Nov |
+| [@iamharshvikas (Instagram, 1M followers)](https://www.instagram.com/reel/Dfpea5yzTR3) | Split screen: 'the most expensive affair in human history' | 1.2M | 1.5x usual | 12 Nov |
+| [@igr_media (Instagram)](https://www.instagram.com/reel/DfpmW6BiJzL) | Anchor read with B-roll: 'Jensen Huang resigns as Nvidia scandal deepens' | 560K | 28x usual | 12 Nov |
+| [@tanishdawg (Instagram, 6.2K followers)](https://www.instagram.com/reel/DfrGf2oSN1U) | Split screen with stock chart: 'Nvidia's biggest mistake' | 111K | 41x usual | 13 Nov |
 
-_All the Indian reels stop at the resignation and the scandal, and all use the split screen. Missing: what happened next (the succession fight: Arm's CEO, the petition, Musk) and the viewer's own stake through a Nasdaq 100 fund before Tuesday's earnings._
+_Every Indian reel tells the scandal or the revolt, and all of them use the split screen. Missing: Tuesday's results as the first test without the founder, and the Indian viewer's own exposure through a Nasdaq 100 fund._
 
 ### Facts and sources
-- Board accepted resignation Wed 11 Nov; Kress interim CEO and CFO; Jones first board chair; testimony before Thanksgiving (26 Nov); 'broken and shattered' (Bloomberg); 'deer in the headlights' (WSJ); third affair reported (Reuters). — [TechCrunch, 13 Nov 2026](https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/)
-- FT: board approached Arm CEO Rene Haas; Nvidia 'in the process of selecting a search firm', no candidate formally engaged; Musk: 'A petition is underway to reinstate Jensen and I'm signing it too'; 33 years; co-founded 1993. — [ANI via The Tribune, 14 Nov 2026](https://tribuneindia.com/news/softbank/nvidia-tips-arm-holdings-ceo-haas-to-take-over-jensen-huangs-job-musk-backs-huangs-reinstatement)
-- Nvidia lost $585 billion in value this week; independent directors and a former federal prosecutor keep investigating. — [NBC News, 13 Nov 2026](https://www.nbcnews.com/tech/tech-news/nvidia-investigation-jensen-huang-continue-departure-sources-say-rcna609136)
-- House testimony under oath in the coming weeks; Senate Banking summons Huang and Lutnick for December. — [CNBC, 13 Nov 2026](https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-washington-congress.html)
-- Nasdaq 100 closed down 1.2% Friday; Nvidia 2031 bond yield 5.717%, up nearly 5% on the week; $36bn of neocloud backstops. — [CNBC, 13 Nov 2026](https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-resignation-ai-financing.html)
-- Nvidia 8.36% of the Motilal Oswal Nasdaq 100 ETF, holdings as of 30 Sep 2026 (context; the issuer's 31 Oct figure is about 8.02%, second to Apple). — [StockAnalysis (MON100 holdings)](https://stockanalysis.com/quote/nse/MON100/holdings/)
+- Petition past 108,000 signatures (14 Nov afternoon); 58,000+ shareholders, 5,600+ current employees, 1,000+ former employees per organisers; signers Musk, Masad, Scholl, Tan; what it asks; Gerstner and Baker urge no rushed replacement; Kress interim CEO. — [Yahoo Finance, 14 Nov 2026](https://finance.yahoo.com/markets/stocks/articles/petition-reinstate-jensen-huang-nvidia-172805507.html)
+- Results after the close Tue 17 Nov, first under Kress; guidance $108.0bn plus or minus 2%; consensus ~$109.2bn and adjusted EPS $2.48 (LSEG, IG). Page blocked when opened (403); figures from the search summary, so confirm before quoting. — [Invezz, 13 Nov 2026](https://invezz.com/news/2026/11/13/nvidia-earnings-preview-q3-kress-huang/)
+- Huang resigns as president, CEO and director; Kress interim CEO while remaining EVP and CFO. — [Nvidia Form 8-K (SEC)](https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm)
+- Shareholders with a $2.1 billion stake urge the board to weigh Huang's return. — [zetik, Nov 2026](https://www.zetik.com/news/article/story_id-p008-232239)
+- Nvidia lost $585 billion in value in the resignation week (context, 13 Nov). — [NBC News, 13 Nov 2026](https://www.nbcnews.com/tech/tech-news/nvidia-investigation-jensen-huang-continue-departure-sources-say-rcna609136)
 
 ### Watch out
-- The affairs and the spy suspicion are reports and allegations. Say 'reports say'. No invented words for Huang, Musk or Haas; quote Musk's post only as written. Real photos are fine, with no lip-synced lines.
-- Haas is one of several candidates, not chosen; the employee petition is reported, not confirmed by Nvidia. Say so.
-- Friday's Nvidia share move isn't on any page I opened; use the $585bn week (NBC) and name the window.
-- Fund weight: 'about 8%', not 'the biggest holding' (see the correction). No buy, sell or 'stop your SIP' call.
-- Bets: B3 (a line about the viewer's own Nasdaq SIP), B4 (split screen: Huang and Musk photos, or the Nvidia logo, with $585bn on top). The hook-in-frame-one rule stays standard.
+- Signature counts come from the organisers and include fakes being removed. Say 'more than 1 lakh signatures, organisers say'. Reports range from 108,000 to 115,000; use the lower one.
+- The affairs and the spy suspicion are allegations under investigation. Say 'reports say'. No invented words for Huang, Musk or Kress; quote Musk only as he posted. Real photos are fine, with no lip-synced lines.
+- Earnings guidance and consensus: the Invezz page wouldn't open here (403), so check the $108bn guidance on Nvidia's own Q2 release before it goes in a script. No guess at the result, no share-price target, no chart with price levels, no buy or sell call.
+- Fund weight: 'about 8%', not 'the biggest holding'.
+- Bets: B3 (the viewer's own Nasdaq SIP); B4 split screen (Huang's photo or the Nvidia logo with '1 lakh signatures' or '$108bn' on top). The hook-in-frame-one rule stays standard.
 
-## 2. Anthropic prices on Wednesday: a book several times oversubscribed, a possible record above SpaceX, and its chip supplier Nvidia is without a CEO
+## 2. Retail inflation hits 6.09%, past the RBI's 6% ceiling for the first time in two years, while SBI's one-year FD pays about 6.25%
 
-Hot lane (tracked since 29 Oct; Ride-now follow-up to E15; no filed change since Tue 10 Nov; pricing Wed 18 Nov) · HOT · **8/10** (momentum 3/3, stake 1/1, shareability 1/2, gap 1/2, known name 2/2) · tracker id `anthropic-s1`
+Hot lane (new; CPI released Thu 12 Nov; RBI policy 2-4 Dec) · HOT · **8/10** (momentum 3/3, stake 1/1, shareability 2/2, gap 1/2, known name 1/2) · tracker id `india-cpi-6pct`
 
-Window: To Thu 19 Nov, the first trading day (pricing Wed 18 Nov). A raised range in an amended filing would be a turn of its own; a Mon or Tue reel lands before pricing.
+Window: To Wed 2 Dec, when the RBI's policy meeting starts (decision 4 Dec). November CPI comes around 14 Dec.
 
 ### What's happening
-- Filed terms are unchanged since Tue 10 Nov: $70 to $78 a share, 825 million shares, up to $64.4 billion, Nasdaq ticker ANT, pricing Wed 18 Nov, trading Thu 19 Nov. About $1.405 trillion fully diluted at the top, up from $965 billion in May (CNBC).
-- Demand: Bloomberg reports orders several times the shares on offer, mostly large institutional orders. CNBC's sources say institutional demand is stronger than SpaceX's was at the same stage. The FT says underwriters expect to price above the range, which would mean more than $1.5 trillion fully diluted (Seoul Economic Daily).
-- Record: with the $26 billion private placement the raise is up to $90.4 billion, and above $100 billion if priced above the range. That would beat SpaceX's $85.7 billion IPO in June (Seoul Economic Daily).
-- The Nvidia link: Nvidia is one of seven suppliers (with AMD, Broadcom, Google, Micron, Microsoft and TSMC) buying the $26 billion placement at the IPO price (CNBC); Nvidia's part is about $10 billion (Seoul Economic Daily). Anthropic relies heavily on Nvidia chips (NBC). Nvidia lost its CEO on Thursday, six days before pricing.
+- October retail (CPI) inflation was 6.09%, up from 5.54% in September and 2.74% in January. It is the year's highest reading and above the RBI's 2-6% band (ThePrint; MoSPI data released 12 Nov). DownToEarth calls it a two-year high.
+- Food and beverages inflation was 8.51% in October, up from 7.36% (ThePrint). DownToEarth gives food inflation as 8.94% (a different food index; quote it as 'nearly 9%' only with its source). Inflation rose in 11 of 12 CPI divisions.
+- Rural 6.63%, urban 5.41% (ThePrint; DownToEarth).
+- The RBI raised the repo rate by 25 basis points to 5.50% on 7 Oct, its first hike in 44 months (TradingView/Moody's, 3 Nov; consistent with the RBI's 12 Nov money-market release: SDF 5.25%, MSF 5.75%). ICRA's Aditi Nayar says another 25 bp hike in December 'appears almost certain', and expects CPI to stay above 6% for a couple of months (ThePrint).
+- Saver's side: SBI's one-year FD pays 6.25% (6.75% for seniors) per GoldenPi's rate table (card effective 15 Dec 2025, so check SBI's own page). At 6.09% inflation that's a real return of about 0.16% before tax. At a 30% slab the post-tax return is about 4.4%, under inflation.
+- A single month above 6% isn't a formal failure for the RBI; that takes three quarters running outside the band (ThePrint).
 
 ### The curiosity gap
-- The world's most valuable chip company is in crisis, and the AI company that runs on its chips has more orders than shares. Is the AI money still flowing, and who is buying?
-- If Anthropic beats SpaceX, it becomes the biggest IPO in history, from a company that lost $104 billion in nine months.
+- Your FD earns 6.25% and prices are rising 6.09%. After tax, is your 'safe' money quietly shrinking?
+- Onion, milk and sugar are pushing food inflation past 8%. What does the RBI do on 4 December, and what does it mean for the money you've saved?
 
 ### How hot it is
-- trends.py 'Anthropic IPO': HOT. YouTube this week: 14 videos (7 in the last 24 h), 1.19M views, best 8,401/hr ('Anthropic eying absurd $1.3 trillion IPO', 605K in 72 h). No news items today: nothing new was reported on Friday or Saturday.
-- vidIQ outliers (Instagram/TikTok since 9 Nov): CNBC TikTok on the range, 220K (34.5x usual). No Indian reel on the oversubscription, the SpaceX record or pricing week found.
-- Tracker: picked 12 Nov; two story drafts (valuation and loss; supplier-investors) await approval.
+- trends.py 'retail inflation India': HOT. YouTube this week 17 videos (10 in the last 24 h), 675K views, best 10,535/hr ('INFLATION BREAKS ALL RECORDS! Prices Surge Beyond RBI's 6% Limit', 253K in 24 h).
+- vidIQ YouTube (region IN, since 11 Nov, by views): Stock Market ka Commando 159K (11 min, 12 Nov); Dr Mukul Agrawal Short 126K ('Will RBI hike rates again?', 2,059/hr); Saam TV Marathi 29K (13.7x usual).
+- Instagram outliers on the adjacent cost-of-living theme: Dhruv Rathee 'What happens if $1 = Rs 100?' 7.9M (11 Nov); @poojash1203 handwritten poem on inflation and hosting relatives 2.6M (82x, 12 Nov). No Indian reel found on the saver's real return.
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [Fireship (YouTube)](https://www.youtube.com/watch?v=1FurWDiK9A4) | Did Anthropic just save its $1 trillion IPO? | 1.57M | 32,637 views/hr | 10 Nov |
-| [@cnbc (TikTok)](https://www.tiktok.com/@cnbc/video/7706561491138268429) | Anchor read: range $70 to $78, trading 19 Nov | 189K | 30x usual | 10 Nov |
-| [@cryptokibate (Instagram)](https://www.instagram.com/reel/DfAUHmAvtqJ) | 'Jio ka 10X hoga Anthropic ka IPO' (before the range) | 1.2M | 134x usual | 27 Oct |
+| [Stock Market ka Commando (YouTube, 2M subs)](https://www.youtube.com/watch?v=Zzyr7qkZuTM) | Breaking-news video: 'India CPI 6.09%', market impact | 159K | 1.7x usual | 12 Nov |
+| [Dr Mukul Agrawal (YouTube Shorts)](https://www.youtube.com/shorts/_n3hxzHEzqw) | Short: 'Inflation hits 6.09%! Will RBI hike rates again?' sector impact | 126K | 1.3x usual | 12 Nov |
+| [@dhruvrathee (Instagram, 20M followers)](https://www.instagram.com/reel/Dfm3_nnNxNd) | Talking head with live chart: 'What happens if $1 = Rs 100?', rupee and cost of living (adjacent) | 7.9M | 0.6x usual | 11 Nov |
+| [@poojash1203 (Instagram)](https://www.instagram.com/reel/DfoeFgVAqhL) | Handwritten poem, sung: inflation makes it hard to invite relatives (adjacent, comedy) | 2.6M | 82x usual | 12 Nov |
+| [Saam TV News (YouTube)](https://www.youtube.com/watch?v=5Z7uYQRIaoU) | Marathi news read: retail inflation 6.09% | 29K | 13.7x usual | 13 Nov |
 
-_Indian creators haven't posted the oversubscription, the SpaceX record or the Nvidia link. Missing: 'biggest IPO ever, in the week its chip supplier lost its CEO'._
+_Everyone reads the 6.09% headline and asks about the RBI, the market or EMIs. Missing: the saver's side, an FD paying about the same as inflation and less after tax._
 
 ### Facts and sources
-- $70-78; 825M shares; up to $1.405tn fully diluted vs $965bn in May; pricing 18 Nov, trading 19 Nov, ANT; demand stronger than SpaceX at a similar stage; book covered in the range; Nvidia among seven companies in the $26bn Class N placement. — [CNBC, 10 Nov 2026](https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html)
-- Demand several times the shares (Bloomberg); up to $64.4bn IPO plus $26bn placement; max $90.4bn; could pass $100bn; SpaceX raised $85.7bn in June; FT: price above range, over $1.5tn; Nvidia about $10bn. — [Seoul Economic Daily, 12 Nov 2026](https://en.sedaily.com/world/2026/11/12/anthropic-ipo-demand-swamps-order-book-may-top-spacex-record)
-- Anthropic relies heavily on Nvidia chips; IPO next week. — [NBC News, 12 Nov 2026](https://www.nbcnews.com/business/markets/nvidia-stock-huang-resigns-rcna608958)
-- $104bn nine-month net loss, mostly a paper charge (context). — [TechCrunch, 10 Nov 2026](https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/)
+- CPI 6.09% Oct vs 5.54% Sep and 2.74% Jan; food and beverages 8.51% vs 7.36%; 11 of 12 divisions up; rural 6.63%, urban 5.41%; RBI band 2-6%; MPC 2-4 Dec; Nayar: Dec 25 bp hike 'appears almost certain'. — [ThePrint, 12 Nov 2026](https://theprint.in/economy/indias-october-retail-inflation-breaches-rbis-6-ceiling-odds-of-december-repo-rate-hike-rise/3097181/)
+- Two-year high of 6.09%; MoSPI release 12 Nov; food inflation 8.94% (provisional). — [DownToEarth, Nov 2026](https://www.downtoearth.org.in/economy/indias-retail-inflation-hits-two-year-high-of-609-as-food-prices-rise)
+- Repo raised 25 bp to 5.50% on 7 Oct 2026, first hike in 44 months. — [TradingView (Moody's), 3 Nov 2026](https://www.tradingview.com/news/moodys:3ced57393d09d:0-fd-interest-rates-after-rbi-repo-rate-hike-nov-2026-public-or-private-which-banks-give-highest-fixed-deposit-returns/)
+- RBI money-market operations release, 12 Nov: SDF 5.25%, MSF 5.75% (consistent with a 5.50% repo). — [RBI, 12 Nov 2026](https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63959)
+- SBI FD 1 year to under 2 years: 6.25% general, 6.75% seniors; 444-day Amrit Vrishti 6.45% (rate card effective 15 Dec 2025). — [GoldenPi (updated for Nov 2026)](https://goldenpi.com/blog/fixed-deposit/sbi-fd-interest-rates-latest-rates-features-and-things-investors-should-know/)
 
 ### Watch out
-- Some aggregators (Futu, ChainCatcher) say 'about six times oversubscribed'. No page I could open confirms an exact multiple; say 'several times'.
-- The 'biggest IPO ever' is conditional: it needs pricing above the range. Only Nvidia's part (~$10bn) is reported, not filed.
-- No apply, buy or skip call and no listing-gain guess. Indians can't apply in the US IPO directly. Claude logo fine.
-- Bets: B1 (the record number in second one), B3, B4 (Claude logo above).
+- Loans and EMIs are a rested topic: tell it from the saver's side (FD, savings), not the borrower's.
+- SBI's rate comes from an aggregator whose card is dated Dec 2025; SBI may have raised it after the October hike. Check sbi.co.in before the number goes in a script. The real-return sum is arithmetic, so say the tax slab is an assumption ('30% slab maan ke').
+- Two food numbers are in circulation (8.51% food and beverages, 8.94% food index). Use one, with its name.
+- The December hike is an economist's forecast, not an RBI decision. No advice to break or move FDs and no product recommendation.
+- Bets: B3 (a number a saver forwards: 'FD 6.25, inflation 6.09'); B4 split screen (a grocery bill or onion prices with '6.09%' on top). No politicians in the footage.
 
-## 3. NSE banned brokers from selling digital gold in 2021, then picked digital-gold seller Augmont, with no bidding, to drive its exchange gold
+## 3. India's 'sovereign' AI is rented from Nvidia: the GPU clouds behind the IndiaAI Mission all buy from Nvidia, and listed E2E is down about 36% from its October high
 
-Deep lane (via The Ken, 12 Nov; carried from yesterday, no new turn; window to Thu 26 Nov) · DEEP · **7/10** (momentum 0/3, stake 1/1, shareability 2/2, gap 2/2, known name 2/2) · tracker id `nse-augmont-digital-gold`
+Deep lane (via The Ken, 14 Nov; with Inc42, 10 Nov) · DEEP · **7/10** (momentum 1/3, stake 1/1, shareability 1/2, gap 2/2, known name 2/2) · tracker id `india-sovereign-ai-nvidia`
 
-Window: To Thu 26 Nov (deep lane, two weeks).
+Window: To Sun 29 Nov (deep lane, two weeks). Nvidia's results on 17 Nov or a US export-control move would sharpen it.
 
 ### What's happening
-- In August 2021, NSE's circular 73/2021 (10 Aug), sent after a SEBI letter of 3 Aug, told its member brokers to stop selling digital gold by 10 Sep 2021, because it isn't a security under SEBI's rules. Groww, Upstox and Motilal Oswal wound it down. Unregulated apps (Google Pay, PhonePe) kept selling it (Moneylife; context).
-- On 26 Sep 2026, NSE empanelled Augmont Gold Tech, a subsidiary of Augmont Enterprises, which calls itself India's no.1 gold platform, as its key partner to promote Electronic Gold Receipts (EGRs). EGRs are SEBI-regulated, demat units backed by gold in vaults, with T+1 settlement and 3% GST when withdrawn as physical gold (BusinessToday).
-- The Ken (12 Nov): NSE won't say how Augmont was chosen or on what terms. There was no bidding process, and neither company's IPO papers (Augmont listed in August, NSE in September) mention the tie-up. NSE announced record EGR volumes on Dhanteras (about 228,000 units), but the unit had shrunk from 10 g to 0.1 g; on the old basis that is 2,277 units (The Ken, public excerpt).
-- We use only The Ken's headline and public facts. The rest is paywalled; credit 'via The Ken'.
+- The Ken (14 Nov): 'Nvidia's scandal runs through a GPU cloud. India's "sovereign" AI is made of them.' Its point: the business at the centre of Nvidia's reporting, renting out GPU compute, is the one Yotta, Neysa and E2E run in India. We use only the headline and public facts; the rest is paywalled. Credit 'via The Ken'.
+- IndiaAI Mission: launched March 2024 with Rs 10,371.92 crore over five years. More than 45,000 GPUs were onboarded by June 2026, and 237 projects had 93.18 lakh subsidised GPU hours sanctioned by August (Outlook India; Inc42). The government says India's compute relies on globally sourced GPUs.
+- Yotta's Shakti Cloud is reportedly built around more than 20,000 Nvidia Blackwell Ultra GPUs (Outlook India). Yotta plans over $7 billion of AI infrastructure by FY27 and is targeting a $1.5 billion IPO, partly to repay debt (Inc42, 10 Nov).
+- Listed exposure: E2E Networks closed 9 Nov about 36% below its 14 Oct high; ESDS was about 38% below its 24 Sep high (Inc42, 10 Nov). Nvidia's board opened its investigation on 8 Nov (Inc42).
+- Earlier Ken reporting (context): Yotta, E2E and Neysa all buy their chips from Nvidia, and Nvidia may be helping finance Yotta's orders.
 
 ### The curiosity gap
-- The exchange told brokers digital gold was off-limits. Now it is pushing gold through the biggest digital-gold seller. What changed?
-- 'Record volume' on Dhanteras came after NSE cut the unit size 100 times. How big was it, really?
+- India calls its AI 'sovereign', but every big GPU cloud behind it buys from one American company, which just lost its CEO in a spy-suspicion scandal. How sovereign is it?
+- There are Indian listed stocks riding this. Why has E2E lost about a third of its value in a month, before Nvidia even reports?
 
 ### How hot it is
-- Deep lane: momentum 0 by nature. trends.py 'NSE Augmont': COLD (1 news item today, 2 this week; Augmont share-news videos only, 567 views).
-- No public response from NSE or Augmont to The Ken's questions found (search, 14 Nov); the July and September announcements are the only statements.
-- Gold is in the Indian money outliers for a fifth week: @coachsagarsinha 'GLOBAL GOLD -21.4%' 1.1M (10 Nov); @shivankgold daily gold rate 1.3M (11 Nov).
+- trends.py 'sovereign AI India GPU': HOT on YouTube only (6 videos this week, 281K views; the best is Ruchir Sharma on AI bubble risks for India, 258K in 48 h); no news items today.
+- vidIQ outliers (since 1 Nov): no Indian reel on India's GPU clouds or E2E. Adjacent: @thegreatrewiring 'THE AI LOSER' (India and global AI flows), 109K, 74x (6 Nov); @abhishekkarofficial 'Nvidia, China and a $4.8B love affair' 2.8M (8 Nov).
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [@aditya_vine.s (Instagram)](https://www.instagram.com/reel/DfPmSeNpJno) | Chalkboard: 'Gold dhadaam se gira' | 5M | 26x usual | 2 Nov |
-| [@tarunmalikx (Instagram)](https://www.instagram.com/reel/DfIJPeuTvKA) | Gold falls Rs 28,000: how much lower? | 3.4M | 14x usual | 30 Oct |
-| [@roshnideshmukhh (Instagram)](https://www.instagram.com/reel/DemjwWmxWA8) | Split screen: never exchange your old gold (tax) | 2M | 731x usual | 18 Oct |
+| [@abhishekkarofficial (Instagram, 3.8M followers)](https://www.instagram.com/reel/DfeiMouvNbF) | Talking head: 'AI stocks may fall because Jensen babu is in love', Nvidia, China and the chip trade (adjacent) | 2.8M | 2.9x usual | 8 Nov |
+| [@vivekonpoint (Instagram, 1M followers)](https://www.instagram.com/reel/DfYFVE_ulU5) | Talking head with charts: 'The bubble is about to pop?', US AI panic and India (adjacent) | 1.7M | 3.4x usual | 5 Nov |
+| [@startup_of_india_ (Instagram)](https://www.instagram.com/reel/DfjJmkJu_TE) | Explainer: why India rallies while US AI stocks fall, India as an 'AI hedge' (adjacent) | 161K | 23x usual | 10 Nov |
+| [@thegreatrewiring (Instagram, 1.6K followers)](https://www.instagram.com/reel/DfZX-NMv_6r) | Faceless animation: 'THE AI LOSER', foreign money leaving India for AI markets (adjacent) | 109K | 74x usual | 6 Nov |
 
-_Gold reels travel, but nobody has touched who sells you 'safe' digital gold, or the exchange's U-turn. Missing: the rule-maker who banned it, now partnering with its biggest seller._
+_Indian creators ask whether India is the AI winner or loser. Nobody has shown that India's own AI runs on Nvidia GPU clouds, or the listed stocks that fell with it._
 
 ### Facts and sources
-- Headline and subheading; 7 Nov record EGR volume; about 228,000 units on Dhanteras; unit 10 g until 5 Nov, then 0.1 g (2,277 units on a 10 g basis); Augmont listed August 2026, NSE September 2026; Augmont: 1,60,357 units in the first hours. — [The Ken, 12 Nov 2026 (public excerpt)](https://the-ken.com/story/why-nses-tie-up-with-augmont-doesnt-add-up/)
-- NSE empanels Augmont Gold Tech as key EGR partner (26 Sep 2026); EGRs SEBI-regulated, vault-backed, T+1, 3% GST on physical withdrawal. — [BusinessToday, 26 Sep 2026 (context)](https://www.businesstoday.in/personal-finance/story/nse-empanels-augmont-as-key-partner-to-promote-electronic-gold-receipts-558031-2026-09-26)
-- NSE circular 10 Aug 2021 after SEBI letter of 3 Aug: members stop digital gold by 10 Sep 2021. — [Moneylife, Aug 2021 (context)](https://moneylife.in/article/nse-bars-members-from-selling-digital-gold-after-sebi-raises-concerns/64952.html)
+- Headline: 'Nvidia's scandal runs through a GPU cloud. India's "sovereign" AI is made of them'; the GPU-cloud business is the one Yotta, Neysa and E2E are in (public teaser). — [The Ken, 14 Nov 2026 (headline and teaser)](https://the-ken.com/all-stories/)
+- E2E closed ~Rs 490.50 on 9 Nov vs Rs 769 high on 14 Oct (about -36%); ESDS ~Rs 1,147 vs Rs 1,864 on 24 Sep; Yotta $7bn+ capex by FY27, $1.5bn IPO target; 45,000+ GPUs by June; 237 projects, 93.18 lakh GPU hours by Aug; Nvidia board probe 8 Nov; Nvidia results 17 Nov. — [Inc42, 10 Nov 2026](https://inc42.com/?p=579810)
+- IndiaAI Mission Rs 10,371.92 cr over 5 years (March 2024); Yotta Shakti Cloud 20,000+ Nvidia Blackwell Ultra GPUs; India relies on globally sourced GPUs; no evidence the scandal affected India's chip supply. — [Outlook India, Nov 2026](https://www.outlookindia.com/international/india-ai-mission-nvidia-alternatives-chinese-spy-jensen-huang)
+- Yotta, E2E and Neysa sell GPU compute in India and all buy chips from Nvidia (context). — [The Ken (earlier story, context)](https://the-ken.com/story/theres-a-three-way-fight-to-rent-india-its-ai-nvidia-seems-to-be-winning-it-anyway/)
 
 ### Watch out
-- Not a scandal finding: The Ken questions the process, and there is no allegation of wrongdoing. Keep it to 'no bidding, terms not disclosed'.
-- Don't call EGRs unsafe. They are regulated; digital gold on apps is not. No buy or sell call on gold or on NSE or Augmont shares.
-- The headline facts beyond the public excerpt are paywalled. Use the headline, the public numbers and open sources only.
-- Bets: B1 (the 'record' number with its 100x unit cut), B3, B4 (NSE logo and gold bars on top).
+- The Ken's story is paywalled. Use the headline and open-source facts only, and credit 'via The Ken'. I couldn't open the 14 Nov article page itself, only its headline in the Daybreak listing and search snippets.
+- Stock moves: say 'about 36% below its October high' as news. SEBI's price-data rule means no price levels on screen, no chart with prices, no buy or sell call on E2E, ESDS or Yotta's IPO.
+- Don't say India's AI is compromised: Outlook found no evidence the scandal affected India's chip supply. The risk is export controls and dependence.
+- It overlaps story 1 (Nvidia). It works as a follow-up after Tuesday's results rather than as a rival on the same day.
+- Bets: B3 ('sovereign AI, Made in USA'); B4 split screen (Nvidia logo and a data-centre rack with '-36%' on top; E2E's logo is fine because the reel is about it). No politicians: avoid IndiaAI launch footage with ministers.
 
 ## Stories we're tracking
 
@@ -151,27 +157,28 @@ Full board: research/desk/TRACKER.md
 
 | Story | Now | Direction | Day | Status |
 |---|---|---|---|---|
-| Groww's F&O share of revenue falls to 45%; turns to IPOs and wealth (via The Arc) (`groww-derivatives-arc`) | COLD | steady | 28 | active |
-| Anthropic S-1: $16.3 bn H1 revenue, $80.7 bn loss ($72.4 bn paper charge) (`anthropic-s1`) | HOT | rising | 17 | active |
-| Axis MF front-running: Dubai AnyDesk trades, brokers fined ₹10 lakh each (`axis-mf-frontrun`) | COLD | fading | 11 | active |
-| Airlines fly fewer, charge more: IndiGo passengers -4.7%, yield +34%; SC 'Don't travel by air' (via The Ken) (`airfares-fly-less-pay-more`) | COLD | fading | 7 | active |
-| Ramayana: ₹499 cr worldwide in 4 days vs ₹4,000 cr bill for two films (`ramayana-box-office`) | HOT | rising | 6 | active |
-| ₹89,000 cr of unclaimed shares with IEPF; Reliance biggest slice (Diwali-cleaning certificate reels) (`unclaimed-shares-iepf`) | COLD | rising | 6 | active |
-| India's best week since Feb 2021: Nifty +8.6%, FIIs buy ~₹46,000 cr back after ₹45,162 cr October exit (`india-best-week-fii`) | COLD | fading | 5 | active |
-| Novartis India: ~50 staff, ₹1,446 cr for 71%; open offer got 40 shares (via The Ken) (`novartis-india-ken`) | COLD | steady | 5 | active |
-| B.R. Shetty liable in $5.4 bn NMC fraud; sold Finablr for $1; BoB paid $600M (via The Morning Context) (`br-shetty-nmc`) | FLAT | rising | 4 | active |
-| Jio more customers, Airtel more money: ARPU ₹271 vs ₹218.8 (`airtel-vs-jio-arpu`) | HOT | rising | 3 | active |
-| Jensen Huang quits Nvidia; ~$1.7 tn off since Oct peak; top Nasdaq 100 fund holding (`nvidia-huang-resigns`) | HOT | new | 2 | active |
-| NSE banned brokers' digital gold, then picked Augmont for EGRs (via The Ken) (`nse-augmont-digital-gold`) | COLD | new | 2 | active |
+| Groww's F&O share of revenue falls to 45%; turns to IPOs and wealth (via The Arc) (`groww-derivatives-arc`) | COLD | fading | 29 | active |
+| Anthropic S-1: $16.3 bn H1 revenue, $80.7 bn loss ($72.4 bn paper charge) (`anthropic-s1`) | HOT | fading | 18 | active |
+| Axis MF front-running: Dubai AnyDesk trades, brokers fined ₹10 lakh each (`axis-mf-frontrun`) | HOT | rising | 12 | active |
+| Airlines fly fewer, charge more: IndiGo passengers -4.7%, yield +34%; SC 'Don't travel by air' (via The Ken) (`airfares-fly-less-pay-more`) | COLD | steady | 8 | active |
+| Ramayana: ₹499 cr worldwide in 4 days vs ₹4,000 cr bill for two films (`ramayana-box-office`) | HOT | fading | 7 | active |
+| ₹89,000 cr of unclaimed shares with IEPF; Reliance biggest slice (Diwali-cleaning certificate reels) (`unclaimed-shares-iepf`) | COLD | fading | 7 | active |
+| Novartis India: ~50 staff, ₹1,446 cr for 71%; open offer got 40 shares (via The Ken) (`novartis-india-ken`) | COLD | steady | 6 | active |
+| B.R. Shetty liable in $5.4 bn NMC fraud; sold Finablr for $1; BoB paid $600M (via The Morning Context) (`br-shetty-nmc`) | FLAT | steady | 5 | active |
+| Jio more customers, Airtel more money: ARPU ₹271 vs ₹218.8 (`airtel-vs-jio-arpu`) | COLD | fading | 4 | active |
+| Jensen Huang quits Nvidia; ~$1.7 tn off since Oct peak; top Nasdaq 100 fund holding (`nvidia-huang-resigns`) | HOT | steady | 3 | active |
+| NSE banned brokers' digital gold, then picked Augmont for EGRs (via The Ken) (`nse-augmont-digital-gold`) | COLD | steady | 3 | active |
+| Retail inflation 6.09%, past RBI's 6% ceiling; SBI 1-yr FD ~6.25% (`india-cpi-6pct`) | - | new | 1 | active |
+| India's 'sovereign' AI rented from Nvidia GPU clouds; E2E -36% from Oct high (via The Ken) (`india-sovereign-ai-nvidia`) | - | new | 1 | active |
 
 ## Also on the wire
-- Tracker: Anthropic HOT (14 YouTube videos this week, 1.19M views; no news today). Nvidia HOT. Ramayana HOT on YouTube (74 of 100 news items this week came today). Airtel vs Jio ARPU HOT on YouTube (best 5,623/hr). Unclaimed shares (IEPF) COLD but rising. B.R. Shetty FLAT. eMudhra retired (cold twice). Groww derivatives, Axis MF front-running, airfares, India's best week and Novartis India all COLD.
-- Also seen, not picked: Razorpay's SEBI IPO approval (reported 4 Nov, Reuters 13 Nov; Rs 5,000-6,500 cr, about $5bn valuation, listing likely Jan-Mar 2027): no new terms yet. The Core (13 Nov): Rs 2,000 cr EV-charger subsidy, Parliament told in August that no chargers were installed; investor stake 0. Dhruv Rathee's 'What happens if $1 = Rs 100?' 7.6M (11 Nov), but the rupee closed at 93.70 on 11 Nov, off its record low. Gold loans (ET Prime, 13 Nov) skipped: loans are a rested topic.
+- Tracker: Anthropic HOT but fading (75 of 100 news items; prices Wed 18 Nov, trades Thu 19 Nov; filed terms unchanged since 10 Nov; CNBC says the order book is covered and Anthropic targets a retail allocation of about 20%). Axis MF front-running HOT and rising on YouTube (417K views this week). Ramayana box office HOT and fading. B.R. Shetty FLAT. India's best week (FIIs) retired. Unclaimed shares, airfares (Supreme Court hearing Mon 16 Nov), Novartis India, Airtel vs Jio ARPU, Groww derivatives and NSE-Augmont all COLD.
+- Also seen, not picked: Accenture India's November bonuses of 8% to 26% with base-pay hikes and promotions mostly on hold until June (BusinessToday, 14 Nov; India has over 300,000 staff); a salary story, not an investor one, and trends.py reads it COLD. Ola Electric is closing its own stores for dealers (Business Standard, 13 Nov; revenue down 39% to Rs 421 cr in Q2; The Morning Context, 13 Nov); FLAT. Hitachi Energy India +10.7% on 13 Nov, no clear single cause found. Brent about $95 (down 2.4% for the week) and the rupee near 94.2 per dollar. FIIs bought about Rs 33,342 cr in the week while DIIs sold about Rs 24,892 cr (Goodreturns). Hormuz mine reports (Reuters, 14 Nov) didn't move crude by Friday's close.
 
 ## Where we stand
 
-795 followers (+86 this week)  
-Last reel (Diwali greeting: 'Aaj khabar nahi, Diwali hai!' (fireworks above Sarika), no money story): 128 plays so far, 73% swiped away in the first 3 s, watched 31% of the way  
+797 followers (+88 this week)  
+Last reel (Space and semiconductor sectors for long-term investors: Centum, MTAR (space); CG Power, Kaynes (semis); read the chart setup before entry): 246 plays so far, 66% swiped away in the first 3 s  
 What every reel is testing:  
 - A line worth sending: shares per 1,000 plays 4.6 now, target 8 (4 of 4 reels in)
 - Split-screen opener: plays per reel 582 now, target 2000 (0 of 4 reels in)

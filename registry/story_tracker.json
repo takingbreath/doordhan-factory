@@ -4103,6 +4103,18 @@
      "yt_best_vph": 1885,
      "yt_top": "Why Indian Railways Doesn’t Make Money Even on Diwali Rush? (180,923 views in 96h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-15",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 9,
+     "yt_week_views": 231667,
+     "yt_best_vph": 1538,
+     "yt_top": "Why Indian Railways Doesn’t Make Money Even on Diwali Rush? (184,560 views in 120h)",
+     "google_trending": []
     }
    ]
   },
@@ -6241,6 +6253,18 @@
      "yt_top": "Fable 5.2 just revealed how shady Anthropic really is (237,370 views in 24h)",
      "google_trending": [],
      "desk_score": 8.0
+    },
+    {
+     "date": "2026-11-15",
+     "label": "HOT",
+     "news_1d": 75,
+     "news_7d": 100,
+     "momentum_pct": 75,
+     "yt_week_videos": 14,
+     "yt_week_views": 769059,
+     "yt_best_vph": 8017,
+     "yt_top": "Ackman on Huang's Exit, Anthropic IPO Roadshow (192,415 views in 24h)",
+     "google_trending": []
     }
    ]
   },
@@ -7449,6 +7473,18 @@
      "yt_best_vph": 2467,
      "yt_top": "जमीन खरीदकर अमीर बनने का सपना? पहले ये सच्चाई जान लो! (177,639 views in 72h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-15",
+     "label": "HOT",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 11,
+     "yt_week_views": 417299,
+     "yt_best_vph": 3329,
+     "yt_top": "Who knew? His mystical wife calms elite family feuds and protects the  (79,906 views in 24h)",
+     "google_trending": []
     }
    ]
   },
@@ -7868,6 +7904,18 @@
      "yt_best_vph": 915,
      "yt_top": "Why are flight tickets so expensive now? The truth behind rising airfa (131,726 views in 144h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-15",
+     "label": "COLD",
+     "news_1d": 1,
+     "news_7d": 2,
+     "momentum_pct": 50,
+     "yt_week_videos": 17,
+     "yt_week_views": 30025,
+     "yt_best_vph": 105,
+     "yt_top": "Delta Sees No Pushback on Higher Fares, CEO Says (5,029 views in 48h)",
+     "google_trending": []
     }
    ]
   },
@@ -7948,6 +7996,18 @@
      "yt_best_vph": 72044,
      "yt_top": "Budget recover kar liya? Ramayana day 7 box office explained (1,729,067 views in 24h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-15",
+     "label": "HOT",
+     "news_1d": 60,
+     "news_7d": 100,
+     "momentum_pct": 60,
+     "yt_week_videos": 6,
+     "yt_week_views": 690574,
+     "yt_best_vph": 12825,
+     "yt_top": "Ramayana Box Office Collection, Ranbir Kapoor, Yash, Sunny D, Ramayana (307,792 views in 24h)",
+     "google_trending": []
     }
    ]
   },
@@ -8026,6 +8086,18 @@
      "yt_best_vph": 376,
      "yt_top": "Thousands of SNAP benefit cards remain unclaimed (36,120 views in 96h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-15",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 6,
+     "momentum_pct": 0,
+     "yt_week_videos": 3,
+     "yt_week_views": 35576,
+     "yt_best_vph": 296,
+     "yt_top": "Thousands of SNAP benefit cards remain unclaimed (35,552 views in 120h)",
+     "google_trending": []
     }
    ]
   },
@@ -8036,7 +8108,7 @@
    "first_seen": "2026-11-10",
    "lane": "hot",
    "window_until": "2026-11-14",
-   "status": "active",
+   "status": "retired",
    "notes": [],
    "readings": [
     {
@@ -8090,8 +8162,24 @@
      "yt_best_vph": 648,
      "yt_top": "Nifty 40,000 Target? FIIs Buy ₹7,212 Cr | Citi's 28,000 Forecast & $12 (46,645 views in 72h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-15",
+     "label": "HOT",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 13,
+     "yt_week_views": 369104,
+     "yt_best_vph": 3548,
+     "yt_top": "Nifty की Rally में अभी मौका है? FII की वापसी का असली खेल (85,160 views in 24h)",
+     "google_trending": []
     }
-   ]
+   ],
+   "retired": {
+    "date": "2026-11-15",
+    "reason": "past its window"
+   }
   },
   {
    "id": "novartis-india-ken",
@@ -8153,6 +8241,18 @@
      "yt_week_views": 3648,
      "yt_best_vph": 20,
      "yt_top": "Tata Steel Share + Dividend Stocks Equity Right Issue BHEL Taparia Too (2,832 views in 144h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-11-15",
+     "label": "COLD",
+     "news_1d": 1,
+     "news_7d": 4,
+     "momentum_pct": 25,
+     "yt_week_videos": 14,
+     "yt_week_views": 2611,
+     "yt_best_vph": 24,
+     "yt_top": "Stock In News: Tata Power, Genus Power, Jyothy Labs समेत आज किन शेयरों (1,730 views in 72h)",
      "google_trending": []
     }
    ]
@@ -8254,6 +8354,18 @@
      "yt_best_vph": 746,
      "yt_top": "BR Shetty Held Liable in $5.4 Billion NMC Fraud Case | UAE Court Deliv (71,604 views in 96h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-15",
+     "label": "FLAT",
+     "news_1d": 0,
+     "news_7d": 17,
+     "momentum_pct": 0,
+     "yt_week_videos": 20,
+     "yt_week_views": 239013,
+     "yt_best_vph": 603,
+     "yt_top": "BR Shetty Held Liable in $5.4 Billion NMC Fraud Case | UAE Court Deliv (72,363 views in 120h)",
+     "google_trending": []
     }
    ]
   },
@@ -8296,6 +8408,18 @@
      "yt_best_vph": 5623,
      "yt_top": "Airtel Big Good News😍,iPhone 20 Pro 200MP,POCO X9 Pro 185Hz,Jio Big Ne (269,891 views in 48h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-15",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 2,
+     "momentum_pct": 0,
+     "yt_week_videos": 0,
+     "yt_week_views": 0,
+     "yt_best_vph": 0,
+     "yt_top": "",
+     "google_trending": []
     }
    ]
   },
@@ -8309,7 +8433,8 @@
    "status": "active",
    "notes": [
     "2026-11-13: resigned 12 Nov",
-    "2026-11-14: 14 Nov: new turn, board approached Arm CEO Haas (FT); employee petition, Musk signing; testimony before Thanksgiving; -$585bn week"
+    "2026-11-14: 14 Nov: new turn, board approached Arm CEO Haas (FT); employee petition, Musk signing; testimony before Thanksgiving; -$585bn week",
+    "2026-11-15: 15 Nov: new turn, petition 108K+ (5,600 staff, 58K shareholders), Altimeter/Atreides letter; earnings Tue 17 Nov"
    ],
    "readings": [
     {
@@ -8326,6 +8451,19 @@
      "yt_week_views": 4153687,
      "yt_best_vph": 73292,
      "yt_top": "Nvidia CEO Jensen Huang resigns, Nvidia stock plunges (1,759,006 views in 24h)",
+     "google_trending": [],
+     "desk_score": 9.0
+    },
+    {
+     "date": "2026-11-15",
+     "label": "HOT",
+     "news_1d": 7,
+     "news_7d": 27,
+     "momentum_pct": 26,
+     "yt_week_videos": 18,
+     "yt_week_views": 3655377,
+     "yt_best_vph": 37530,
+     "yt_top": "Nvidia CEO Jensen Huang resigns, Nvidia stock plunges (1,801,427 views in 48h)",
      "google_trending": [],
      "desk_score": 9.0
     }
@@ -8358,6 +8496,54 @@
      "yt_best_vph": 1,
      "yt_top": "Augmont Enterprises Ltd | Q2 FY27 Earnings Concall (27 views in 48h)",
      "google_trending": [],
+     "desk_score": 7.0
+    },
+    {
+     "date": "2026-11-15",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 2,
+     "yt_week_views": 60,
+     "yt_best_vph": 0,
+     "yt_top": "Augmont Enterprises Ltd | Q2 FY27 Earnings Concall (29 views in 72h)",
+     "google_trending": []
+    }
+   ]
+  },
+  {
+   "id": "india-cpi-6pct",
+   "title": "Retail inflation 6.09%, past RBI's 6% ceiling; SBI 1-yr FD ~6.25%",
+   "query": "retail inflation India|महंगाई दर",
+   "first_seen": "2026-11-15",
+   "lane": "hot",
+   "window_until": "2026-12-02",
+   "status": "active",
+   "notes": [
+    "sent 15 Nov, 8/10"
+   ],
+   "readings": [
+    {
+     "date": "2026-11-15",
+     "desk_score": 8.0
+    }
+   ]
+  },
+  {
+   "id": "india-sovereign-ai-nvidia",
+   "title": "India's 'sovereign' AI rented from Nvidia GPU clouds; E2E -36% from Oct high (via The Ken)",
+   "query": "sovereign AI India GPU|सॉवरेन एआई",
+   "first_seen": "2026-11-15",
+   "lane": "deep",
+   "window_until": "2026-11-29",
+   "status": "active",
+   "notes": [
+    "sent 15 Nov, 7/10, The Ken 14 Nov"
+   ],
+   "readings": [
+    {
+     "date": "2026-11-15",
      "desk_score": 7.0
     }
    ]
