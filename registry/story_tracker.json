@@ -4115,6 +4115,18 @@
      "yt_best_vph": 1538,
      "yt_top": "Why Indian Railways Doesn’t Make Money Even on Diwali Rush? (184,560 views in 120h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-16",
+     "label": "HOT",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 8,
+     "yt_week_views": 542808,
+     "yt_best_vph": 4016,
+     "yt_top": "Vande Bharat Is Quietly Building a Steel Industry? (289,123 views in 72h)",
+     "google_trending": []
     }
    ]
   },
@@ -6265,6 +6277,18 @@
      "yt_best_vph": 8017,
      "yt_top": "Ackman on Huang's Exit, Anthropic IPO Roadshow (192,415 views in 24h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-16",
+     "label": "HOT (saturated: everyone has it; needs a sharper angle)",
+     "news_1d": 100,
+     "news_7d": 100,
+     "momentum_pct": 100,
+     "yt_week_videos": 13,
+     "yt_week_views": 878761,
+     "yt_best_vph": 5221,
+     "yt_top": "Ackman on Huang's Exit, Anthropic IPO Roadshow (250,598 views in 48h)",
+     "google_trending": []
     }
    ]
   },
@@ -7485,6 +7509,18 @@
      "yt_best_vph": 3329,
      "yt_top": "Who knew? His mystical wife calms elite family feuds and protects the  (79,906 views in 24h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-16",
+     "label": "HOT",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 14,
+     "yt_week_views": 619491,
+     "yt_best_vph": 3162,
+     "yt_top": "Who knew? His mystical wife calms elite family feuds and protects the  (151,797 views in 48h)",
+     "google_trending": []
     }
    ]
   },
@@ -7916,6 +7952,18 @@
      "yt_best_vph": 105,
      "yt_top": "Delta Sees No Pushback on Higher Fares, CEO Says (5,029 views in 48h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-16",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 2,
+     "momentum_pct": 0,
+     "yt_week_videos": 20,
+     "yt_week_views": 64872,
+     "yt_best_vph": 442,
+     "yt_top": "Flight Price Hike: विदेश यात्रा से भी महंगी हुई बिहार की फ्लाइट! टिकट  (10,608 views in 24h)",
+     "google_trending": []
     }
    ]
   },
@@ -7926,7 +7974,7 @@
    "first_seen": "2026-11-09",
    "lane": "hot",
    "window_until": "2026-11-15",
-   "status": "active",
+   "status": "retired",
    "notes": [
     "sent 9 Nov, 8/10",
     "2026-11-12: 12 Nov: ₹828.57 cr worldwide in 6 days, record Monday"
@@ -8008,8 +8056,24 @@
      "yt_best_vph": 12825,
      "yt_top": "Ramayana Box Office Collection, Ranbir Kapoor, Yash, Sunny D, Ramayana (307,792 views in 24h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-16",
+     "label": "HOT",
+     "news_1d": 54,
+     "news_7d": 100,
+     "momentum_pct": 54,
+     "yt_week_videos": 7,
+     "yt_week_views": 3787870,
+     "yt_best_vph": 56656,
+     "yt_top": "Ramayana is Ruling the Box Office! King's New Song? - Flick the News 1 (1,359,756 views in 24h)",
+     "google_trending": []
     }
-   ]
+   ],
+   "retired": {
+    "date": "2026-11-16",
+    "reason": "past its window"
+   }
   },
   {
    "id": "unclaimed-shares-iepf",
@@ -8097,6 +8161,18 @@
      "yt_week_views": 35576,
      "yt_best_vph": 296,
      "yt_top": "Thousands of SNAP benefit cards remain unclaimed (35,552 views in 120h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-11-16",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 5,
+     "momentum_pct": 0,
+     "yt_week_videos": 5,
+     "yt_week_views": 35688,
+     "yt_best_vph": 247,
+     "yt_top": "Thousands of SNAP benefit cards remain unclaimed (35,531 views in 144h)",
      "google_trending": []
     }
    ]
@@ -8254,6 +8330,18 @@
      "yt_best_vph": 24,
      "yt_top": "Stock In News: Tata Power, Genus Power, Jyothy Labs समेत आज किन शेयरों (1,730 views in 72h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-16",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 4,
+     "momentum_pct": 0,
+     "yt_week_videos": 16,
+     "yt_week_views": 175260,
+     "yt_best_vph": 2399,
+     "yt_top": "Qualcomm's India Layoff Bloodbath! 1,000+ Jobs at Risk, Severance Reve (172,694 views in 72h)",
+     "google_trending": []
     }
    ]
   },
@@ -8366,6 +8454,18 @@
      "yt_best_vph": 603,
      "yt_top": "BR Shetty Held Liable in $5.4 Billion NMC Fraud Case | UAE Court Deliv (72,363 views in 120h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-16",
+     "label": "FLAT",
+     "news_1d": 1,
+     "news_7d": 12,
+     "momentum_pct": 8,
+     "yt_week_videos": 18,
+     "yt_week_views": 807660,
+     "yt_best_vph": 2604,
+     "yt_top": "Russell Brand sentenced to 10-and-a-half years in prison for rape and  (375,006 views in 144h)",
+     "google_trending": []
     }
    ]
   },
@@ -8420,6 +8520,18 @@
      "yt_best_vph": 0,
      "yt_top": "",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-16",
+     "label": "HOT",
+     "news_1d": 0,
+     "news_7d": 2,
+     "momentum_pct": 0,
+     "yt_week_videos": 10,
+     "yt_week_views": 428771,
+     "yt_best_vph": 5936,
+     "yt_top": "सस्ते Mobile Recharge के दिन खत्म? Airtel के Sunil Mittal ने कहा दाम ब (284,921 views in 48h)",
+     "google_trending": []
     }
    ]
   },
@@ -8434,7 +8546,8 @@
    "notes": [
     "2026-11-13: resigned 12 Nov",
     "2026-11-14: 14 Nov: new turn, board approached Arm CEO Haas (FT); employee petition, Musk signing; testimony before Thanksgiving; -$585bn week",
-    "2026-11-15: 15 Nov: new turn, petition 108K+ (5,600 staff, 58K shareholders), Altimeter/Atreides letter; earnings Tue 17 Nov"
+    "2026-11-15: 15 Nov: new turn, petition 108K+ (5,600 staff, 58K shareholders), Altimeter/Atreides letter; earnings Tue 17 Nov",
+    "2026-11-16: sent 16 Nov: FT comeback talk, Haas approached, petition 160K"
    ],
    "readings": [
     {
@@ -8464,6 +8577,19 @@
      "yt_week_views": 3655377,
      "yt_best_vph": 37530,
      "yt_top": "Nvidia CEO Jensen Huang resigns, Nvidia stock plunges (1,801,427 views in 48h)",
+     "google_trending": [],
+     "desk_score": 9.0
+    },
+    {
+     "date": "2026-11-16",
+     "label": "HOT",
+     "news_1d": 1,
+     "news_7d": 26,
+     "momentum_pct": 4,
+     "yt_week_videos": 17,
+     "yt_week_views": 5140684,
+     "yt_best_vph": 25228,
+     "yt_top": "Nvidia CEO Jensen Huang resigns, Nvidia stock plunges (1,816,401 views in 72h)",
      "google_trending": [],
      "desk_score": 9.0
     }
@@ -8509,6 +8635,18 @@
      "yt_best_vph": 0,
      "yt_top": "Augmont Enterprises Ltd | Q2 FY27 Earnings Concall (29 views in 72h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-16",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 2,
+     "yt_week_views": 63,
+     "yt_best_vph": 0,
+     "yt_top": "Augmont Enterprises Ltd | Q2 FY27 Earnings Concall (31 views in 96h)",
+     "google_trending": []
     }
    ]
   },
@@ -8527,6 +8665,18 @@
     {
      "date": "2026-11-15",
      "desk_score": 8.0
+    },
+    {
+     "date": "2026-11-16",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 3,
+     "momentum_pct": 0,
+     "yt_week_videos": 3,
+     "yt_week_views": 168799,
+     "yt_best_vph": 1786,
+     "yt_top": "India Inflation Hits 6.09%! Will RBI Hike Rates Again? Impact on Nifty (128,574 views in 72h)",
+     "google_trending": []
     }
    ]
   },
@@ -8545,6 +8695,54 @@
     {
      "date": "2026-11-15",
      "desk_score": 7.0
+    },
+    {
+     "date": "2026-11-16",
+     "label": "HOT",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 8,
+     "yt_week_views": 307091,
+     "yt_best_vph": 5952,
+     "yt_top": "क्या NVIDIA CEO के Resign के पीछे भी है #China का Plan ? | #america #I (285,674 views in 48h)",
+     "google_trending": []
+    }
+   ]
+  },
+  {
+   "id": "mahanadi-coalfields-ipo",
+   "title": "Mahanadi Coalfields IPO: Coal India sells 10% of India's largest coal producer (opens 19 Nov)",
+   "query": "Mahanadi Coalfields IPO|महानदी कोलफील्ड्स आईपीओ",
+   "first_seen": "2026-11-16",
+   "lane": "hot",
+   "window_until": "2026-11-27",
+   "status": "active",
+   "notes": [
+    "sent 16 Nov, 7/10"
+   ],
+   "readings": [
+    {
+     "date": "2026-11-16",
+     "desk_score": 7.0
+    }
+   ]
+  },
+  {
+   "id": "ola-electric-dealers",
+   "title": "Ola Electric closes its own stores for dealers; Q2 revenue -39% to Rs 421 cr (via The Morning Context)",
+   "query": "Ola Electric|ओला इलेक्ट्रिक",
+   "first_seen": "2026-11-16",
+   "lane": "deep",
+   "window_until": "2026-11-29",
+   "status": "active",
+   "notes": [
+    "sent 16 Nov, 8/10, The Morning Context 13 Nov"
+   ],
+   "readings": [
+    {
+     "date": "2026-11-16",
+     "desk_score": 8.0
     }
    ]
   }
