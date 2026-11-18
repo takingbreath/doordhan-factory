@@ -4127,6 +4127,18 @@
      "yt_best_vph": 4016,
      "yt_top": "Vande Bharat Is Quietly Building a Steel Industry? (289,123 views in 72h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-18",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 9,
+     "yt_week_views": 98717,
+     "yt_best_vph": 1566,
+     "yt_top": "🔥Trading Kaise Sikhe | Trading Kaise Kare in Hindi | trading kaise kar (37,583 views in 24h)",
+     "google_trending": []
     }
    ]
   },
@@ -6057,7 +6069,8 @@
     "2026-11-11: filed range $70-78, $1.4T diluted, $104bn 9-month loss, trading 19 Nov",
     "2026-11-12: 12 Nov: new turn, book several times oversubscribed; FT: bankers may price above $78, target $1.5T+",
     "2026-11-13: several times oversubscribed; may beat SpaceX record; Nvidia CEO out",
-    "2026-11-14: 14 Nov: no filed change; pricing Wed 18 Nov"
+    "2026-11-14: 14 Nov: no filed change; pricing Wed 18 Nov",
+    "2026-11-18: 18 Nov: new turn, prices tonight, trades Thu; FT above-range talk; Nvidia and Google $10bn each at IPO price; pick"
    ],
    "readings": [
     {
@@ -6289,6 +6302,19 @@
      "yt_best_vph": 5221,
      "yt_top": "Ackman on Huang's Exit, Anthropic IPO Roadshow (250,598 views in 48h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-18",
+     "label": "RISING (saturated: everyone has it; needs a sharper angle)",
+     "news_1d": 100,
+     "news_7d": 100,
+     "momentum_pct": 100,
+     "yt_week_videos": 7,
+     "yt_week_views": 230623,
+     "yt_best_vph": 1912,
+     "yt_top": "Altimeter's Gerstner: We're putting in for $5 billion on Anthropic's I (45,899 views in 24h)",
+     "google_trending": [],
+     "desk_score": 8.0
     }
    ]
   },
@@ -7369,7 +7395,7 @@
    "first_seen": "2026-11-04",
    "lane": "deep",
    "window_until": "2026-11-17",
-   "status": "active",
+   "status": "retired",
    "notes": [
     "SEBI AO order 3 Nov; sent 4 Nov, 7/10"
    ],
@@ -7521,8 +7547,24 @@
      "yt_best_vph": 3162,
      "yt_top": "Who knew? His mystical wife calms elite family feuds and protects the  (151,797 views in 48h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-18",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 9,
+     "yt_week_views": 311088,
+     "yt_best_vph": 2248,
+     "yt_top": "Who knew? His mystical wife calms elite family feuds and protects the  (215,792 views in 96h)",
+     "google_trending": []
     }
-   ]
+   ],
+   "retired": {
+    "date": "2026-11-18",
+    "reason": "past its window"
+   }
   },
   {
    "id": "stockal-unauthorised-trades",
@@ -7860,7 +7902,7 @@
    "first_seen": "2026-11-08",
    "lane": "deep",
    "window_until": "2026-11-16",
-   "status": "active",
+   "status": "retired",
    "notes": [
     "The Ken 6 Nov; SC hearing 16 Nov"
    ],
@@ -7964,8 +8006,24 @@
      "yt_best_vph": 442,
      "yt_top": "Flight Price Hike: विदेश यात्रा से भी महंगी हुई बिहार की फ्लाइट! टिकट  (10,608 views in 24h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-18",
+     "label": "COLD",
+     "news_1d": 1,
+     "news_7d": 2,
+     "momentum_pct": 50,
+     "yt_week_videos": 18,
+     "yt_week_views": 50933,
+     "yt_best_vph": 154,
+     "yt_top": "Flight Price Hike: विदेश यात्रा से भी महंगी हुई बिहार की फ्लाइट! टिकट  (11,098 views in 72h)",
+     "google_trending": []
     }
-   ]
+   ],
+   "retired": {
+    "date": "2026-11-18",
+    "reason": "past its window"
+   }
   },
   {
    "id": "ramayana-box-office",
@@ -8174,6 +8232,18 @@
      "yt_best_vph": 247,
      "yt_top": "Thousands of SNAP benefit cards remain unclaimed (35,531 views in 144h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-18",
+     "label": "COLD",
+     "news_1d": 1,
+     "news_7d": 4,
+     "momentum_pct": 25,
+     "yt_week_videos": 8,
+     "yt_week_views": 233,
+     "yt_best_vph": 1,
+     "yt_top": "ISITC Europe TalkTime $16 billion Tax Reclaim Loss to Investors with A (20 views in 24h)",
+     "google_trending": []
     }
    ]
   },
@@ -8342,6 +8412,18 @@
      "yt_best_vph": 2399,
      "yt_top": "Qualcomm's India Layoff Bloodbath! 1,000+ Jobs at Risk, Severance Reve (172,694 views in 72h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-18",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 1,
+     "momentum_pct": 0,
+     "yt_week_videos": 10,
+     "yt_week_views": 185999,
+     "yt_best_vph": 1481,
+     "yt_top": "Qualcomm's India Layoff Bloodbath! 1,000+ Jobs at Risk, Severance Reve (177,670 views in 120h)",
+     "google_trending": []
     }
    ]
   },
@@ -8466,6 +8548,18 @@
      "yt_best_vph": 2604,
      "yt_top": "Russell Brand sentenced to 10-and-a-half years in prison for rape and  (375,006 views in 144h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-18",
+     "label": "HOT",
+     "news_1d": 0,
+     "news_7d": 7,
+     "momentum_pct": 0,
+     "yt_week_videos": 10,
+     "yt_week_views": 1331995,
+     "yt_best_vph": 20775,
+     "yt_top": "Andagaathiye Lyrical | MARRIAGE PARTY | Vineeth Kumar| Chayan shetty | (997,181 views in 48h)",
+     "google_trending": []
     }
    ]
   },
@@ -8532,6 +8626,18 @@
      "yt_best_vph": 5936,
      "yt_top": "सस्ते Mobile Recharge के दिन खत्म? Airtel के Sunil Mittal ने कहा दाम ब (284,921 views in 48h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-18",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 2,
+     "momentum_pct": 0,
+     "yt_week_videos": 0,
+     "yt_week_views": 0,
+     "yt_best_vph": 0,
+     "yt_top": "",
+     "google_trending": []
     }
    ]
   },
@@ -8542,7 +8648,7 @@
    "first_seen": "2026-11-13",
    "lane": "hot",
    "window_until": "2026-11-17",
-   "status": "active",
+   "status": "retired",
    "notes": [
     "2026-11-13: resigned 12 Nov",
     "2026-11-14: 14 Nov: new turn, board approached Arm CEO Haas (FT); employee petition, Musk signing; testimony before Thanksgiving; -$585bn week",
@@ -8592,8 +8698,24 @@
      "yt_top": "Nvidia CEO Jensen Huang resigns, Nvidia stock plunges (1,816,401 views in 72h)",
      "google_trending": [],
      "desk_score": 9.0
+    },
+    {
+     "date": "2026-11-18",
+     "label": "HOT",
+     "news_1d": 0,
+     "news_7d": 27,
+     "momentum_pct": 0,
+     "yt_week_videos": 13,
+     "yt_week_views": 1368275,
+     "yt_best_vph": 5131,
+     "yt_top": "Nvidia fallout so far: From allegations to Huang’s resignation (369,445 views in 72h)",
+     "google_trending": []
     }
-   ]
+   ],
+   "retired": {
+    "date": "2026-11-18",
+    "reason": "past its window"
+   }
   },
   {
    "id": "nse-augmont-digital-gold",
@@ -8647,6 +8769,18 @@
      "yt_best_vph": 0,
      "yt_top": "Augmont Enterprises Ltd | Q2 FY27 Earnings Concall (31 views in 96h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-18",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 1,
+     "yt_week_views": 32,
+     "yt_best_vph": 0,
+     "yt_top": "Augmont Enterprises Ltd | Q2 FY27 Earnings Concall (32 views in 144h)",
+     "google_trending": []
     }
    ]
   },
@@ -8657,7 +8791,7 @@
    "first_seen": "2026-11-15",
    "lane": "hot",
    "window_until": "2026-12-02",
-   "status": "active",
+   "status": "retired",
    "notes": [
     "sent 15 Nov, 8/10"
    ],
@@ -8677,8 +8811,24 @@
      "yt_best_vph": 1786,
      "yt_top": "India Inflation Hits 6.09%! Will RBI Hike Rates Again? Impact on Nifty (128,574 views in 72h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-18",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 5,
+     "momentum_pct": 0,
+     "yt_week_videos": 18,
+     "yt_week_views": 500942,
+     "yt_best_vph": 2991,
+     "yt_top": "Retail inflation breaches RBI's 6% upper limit at 2-yr high | Ankit Ag (287,119 views in 96h)",
+     "google_trending": []
     }
-   ]
+   ],
+   "retired": {
+    "date": "2026-11-18",
+    "reason": "COLD on 2 checks running"
+   }
   },
   {
    "id": "india-sovereign-ai-nvidia",
@@ -8707,6 +8857,18 @@
      "yt_best_vph": 5952,
      "yt_top": "क्या NVIDIA CEO के Resign के पीछे भी है #China का Plan ? | #america #I (285,674 views in 48h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-18",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 6,
+     "yt_week_views": 23128,
+     "yt_best_vph": 214,
+     "yt_top": "Sunil Mittal Sees The AI Bubble Bursting Like Dot-Com Crash & An Oppor (20,575 views in 96h)",
+     "google_trending": []
     }
    ]
   },
@@ -8725,6 +8887,18 @@
     {
      "date": "2026-11-16",
      "desk_score": 7.0
+    },
+    {
+     "date": "2026-11-18",
+     "label": "FLAT",
+     "news_1d": 26,
+     "news_7d": 76,
+     "momentum_pct": 34,
+     "yt_week_videos": 8,
+     "yt_week_views": 138852,
+     "yt_best_vph": 2192,
+     "yt_top": "Mahanadi Coalfields IPO: निवेश करें या नहीं? CMD और CFO से जानिए पूरी  (52,602 views in 24h)",
+     "google_trending": []
     }
    ]
   },
@@ -8742,6 +8916,54 @@
    "readings": [
     {
      "date": "2026-11-16",
+     "desk_score": 8.0
+    },
+    {
+     "date": "2026-11-18",
+     "label": "HOT",
+     "news_1d": 12,
+     "news_7d": 100,
+     "momentum_pct": 12,
+     "yt_week_videos": 12,
+     "yt_week_views": 477876,
+     "yt_best_vph": 5827,
+     "yt_top": "फेल हो गई Ola Electric? घाटे के बीच Bhavish Aggarwal ने बदला प्लान | Q (279,692 views in 48h)",
+     "google_trending": []
+    }
+   ]
+  },
+  {
+   "id": "nvidia-q3-board-no-huang",
+   "title": "Nvidia Q3 $115.8 bn, doubled; board won't reinstate Huang",
+   "query": "Nvidia results|एनवीडिया",
+   "first_seen": "2026-11-18",
+   "lane": "hot",
+   "window_until": "2026-11-20",
+   "status": "active",
+   "notes": [
+    "sent 18 Nov, 9/10"
+   ],
+   "readings": [
+    {
+     "date": "2026-11-18",
+     "desk_score": 9.0
+    }
+   ]
+  },
+  {
+   "id": "yes-bank-at1",
+   "title": "Yes Bank AT1 Rs 8,415 cr: SC restored the bonds; Yes Bank and RBI seek review",
+   "query": "Yes Bank AT1|यस बैंक",
+   "first_seen": "2026-11-18",
+   "lane": "deep",
+   "window_until": "2026-12-02",
+   "status": "active",
+   "notes": [
+    "sent 18 Nov, 8/10, Moneylife lead"
+   ],
+   "readings": [
+    {
+     "date": "2026-11-18",
      "desk_score": 8.0
     }
    ]
