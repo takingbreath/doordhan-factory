@@ -1,140 +1,139 @@
-# Doordhan desk research — Thu 19 Nov 2026
+# Doordhan desk research — Fri 20 Nov 2026
 
-Session: https://claude.ai/code/session_01PasrAqGewwGh25Uw5x21Lk
+Session: https://claude.ai/code/session_01PasrAqXpWkN6oAMKsFw2Bx
 
-**Pick: story 1.** Anthropic, because it is this week's plan item 2 and the follow-up E15's 12,700 viewers were promised, and today is the day: it priced overnight at $83, above the $70-78 range, raised a record $81.3 billion after upsizing to about 980 million shares, and starts trading on Nasdaq tonight India time. A reel posted today lands while the first trade is the news, and old reels on a company earn again when it is back in the news (Jio, 2 Nov).
+**Pick: story 1.** Anthropic, because it is this week's plan item 2, E15's 12,700 viewers were promised this follow-up, and the first trade has now happened. It is a story with a shape: the stock opened at $111.50, 34% above the $83 IPO price, then gave back half the gain and closed at $97.17 (+17%). It ran from +34% to +17% in one afternoon. That is the turn nobody in India has covered, and the window closes over the weekend.
 
-Runner-up: 2: SpiceJet scores the same (9): its shares are up about 30% in a week while it cancels 15-20 flights a day and owes salaries since June, and on 18 Nov its board approved raising up to Rs 5,500 crore, about 3.6 times its Rs 1,522 crore market value. Its window runs to the BSE's 7 Dec results deadline, so it can go tomorrow. Story 3 (deep lane): ESDS, 2026's best-performing IPO, tripled on a $1.25 billion AI deal that is actually a bill ESDS pays (about $250 million a year against Rs 472 crore of FY26 revenue); The Morning Context questioned its AI numbers yesterday, and no Indian reel has touched it.
+Runner-up: 2: Hallmarked gold (8). The CAG's draft audit says BIS did only 2,826 of 5,020 required checks on hallmarking centres in five years (43.7% short), and in 2024-25 it inspected 5,444 of 28,865 licensed jewellers. It is the hottest money story on Indian Reels this week (Aaj Tak 2.2M; Bhaskar English 714K, 341x; @wittychokha 665K, 154x), so it needs the angle they skipped: the audit numbers and BIS's 'staff shortage' reply, not the rhenium sting. Story 3 (deep lane, The Ken, 19 Nov): SEBI made direct plans the default on fund-house websites on 1 November, yet 70% of retail and HNI mutual fund assets are still in the costlier 'regular' plans. Almost no Shorts are made on it.
 
-## 1. Anthropic priced its IPO at $83, above its own range, raising a record $81.3 billion, and starts trading on Nasdaq tonight at about $1.5 trillion
+## 1. Anthropic's first day on Nasdaq: opened 34% above its IPO price, then gave back half and closed at $97.17, up 17%
 
-Hot lane (tracked since 29 Oct as the E15 follow-up; new since yesterday: priced at $83, above the range, deal upsized, record raise; trades tonight IST) · HOT · **9/10** (momentum 3/3, stake 1/1, shareability 2/2, gap 1/2, known name 2/2) · tracker id `anthropic-s1`
+Hot lane (tracked since 29 Oct as the E15 follow-up; new since yesterday: the first day of trading, opened +34%, closed +17%) · HOT · **9/10** (momentum 3/3, stake 1/1, shareability 2/2, gap 1/2, known name 2/2) · tracker id `anthropic-s1`
 
-Window: Today to Fri 20 Nov: first trade on Nasdaq Thursday (tonight IST); the opening price is the next turn, and the first-day close tomorrow morning IST.
+Window: Today to Sun 22 Nov: the first-day story is news until Monday's trade; after that it becomes a stock-price story (no price levels or charts under the SEBI rule).
 
 ### What's happening
-- Anthropic priced its IPO at $83 a share on Wed 18 Nov, above the $70-78 range it marketed last week (CNBC, 18 Nov).
-- It upsized the deal from 825 million to about 980 million shares and raised $81.3 billion; the fully diluted value is about $1.5 trillion. Trading on Nasdaq under 'ANT' is expected Thursday (CNBC).
-- Google, Microsoft, Nvidia and AMD agreed to invest a combined $26 billion at the IPO price, on top of the offering (CNBC).
-- Each of the seven co-founders is selling 3.38 million shares, $1.96 billion in total (CNBC).
-- Nine months to 30 Sep: revenue $33.24 billion, up about 1,200% from a year earlier; net loss $104 billion, mostly from fair-value changes on convertible notes and derivatives (2025 same period: $25.1 billion loss). Run-rate revenue about $81 billion at end-October (CNBC).
-- Record or not depends on how you count: CNBC calls it the largest IPO on record against SpaceX's $75 billion base deal in June; SpaceX's total with the over-allotment was $85.7 billion (same article).
+- Anthropic (Nasdaq: ANT) priced its IPO at $83 and began trading just after 11:30 am ET on Thu 19 Nov at $111.50, a 34% premium (Yahoo Finance live blog).
+- It rose as high as $115.10, then fell through the afternoon and closed at $97.17, up 17% from the IPO price (Yahoo Finance; Forbes and Bloomberg headlines say the same).
+- After 30 minutes it was about 13% below its opening trade; SpaceX was up almost 10% at the same point in its June debut (Yahoo Finance).
+- Its opening pop of 34% was about three times SpaceX's 11%. About $15 billion of stock changed hands in the first minute, nearly twice SpaceX's ~$9 billion (Yahoo Finance).
+- It raised $81.3 billion selling 980 million shares, the largest IPO raise on record (Yahoo Finance; CNBC 18 Nov).
+- Ashton Kutcher's A-Grade put in $435 million early; that stake is now worth roughly $7 billion (Yahoo Finance, citing Newsweek).
 
 ### The curiosity gap
-- Demand was strong enough to sell more shares at a higher price than planned. What did buyers see in a company that lost $104 billion in nine months?
-- The company less than six years old raised more in one night than almost any IPO ever. What happens to that price when it starts trading tonight?
-- E15's 'share you could never buy' is buyable from tonight; its 12,700 viewers were promised this sequel.
+- People who bought at the open lost about 13% by the close, while people who got IPO shares made 17%. Who were the buyers at $111.50?
+- It was the biggest IPO ever and it opened three times stronger than SpaceX, so why did half the pop vanish by the evening?
+- E15 said it was 'a share you could never buy'. Now anyone can buy it, so what did day one look like for the people who did?
 
 ### How hot it is
-- trends.py 'Anthropic IPO': HOT and saturated (100 of 100 news items this week came today); YouTube this week 7 videos, 663K views, best 16,345/hr (CNBC's Steve Eisman interview, 390K).
-- vidIQ keyword 'anthropic ipo' (18 Nov): volume 85/100, competition 74, about 516,000 searches a month, demand +78.7%; India 19% of searches, second to the US.
-- vidIQ outliers since 12 Nov: no Indian reel on the Anthropic IPO broke out; Indian IPO outliers are Mahanadi Coalfields quota and GMP reels (@stock_o_sphere 572K, 27.5x).
+- trends.py 'Anthropic IPO': HOT and saturated (100 of 100 news items this week came today); YouTube 3 new videos in 24 h, 372K views, best 11,985/hr ('Anthropic IPO: What investors are really betting on', 288K in 24 h).
+- vidIQ keyword 'anthropic ipo' (18 Nov reading): volume 85/100, competition 74, about 516,000 searches a month, India 19% of searches.
+- vidIQ Instagram/TikTok outliers since 12 Nov: still no Indian reel on the Anthropic IPO broke out; Indian IPO outliers are Mahanadi Coalfields quota and GMP reels.
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [CNBC Television (YouTube, 3.4M subscribers)](https://www.youtube.com/watch?v=eYDIDemcXz0) | Squawk Box: 'Anthropic IPO is not important anymore', Big Short investor Steve Eisman | 390K | 9.9x usual | 17 Nov |
-| [@cnbc (TikTok, 1.4M followers)](https://www.tiktok.com/@cnbc/video/7706561491138268429) | Anchor read: 825 million shares at $70-78, trades 19 Nov | 240K | 37.6x usual | 10 Nov |
-| [@angelxic2 (TikTok, 3.2K followers)](https://www.tiktok.com/@angelxic2/video/7707328942503415071) | 'Did Anthropic just take down Jensen Huang?' talking head | 66K | 92x usual | 12 Nov |
-| [@jam.100k (TikTok, 5.7K followers)](https://www.tiktok.com/@jam.100k/video/7707515561315536150) | 9 s screen recording, 'why would Anthropic release on 19th' | 114K | 11.3x usual | 13 Nov |
+| [@cnbc (TikTok, 1.4M followers)](https://www.tiktok.com/@cnbc/video/7706561491138268429) | Anchor read of the terms: 825 million shares at $70-78, trades 19 Nov | 240K | 37.6x usual | 10 Nov |
+| [@jam.100k (TikTok, 5.8K followers)](https://www.tiktok.com/@jam.100k/video/7707515561315536150) | 9 s screen recording: 'why would Anthropic release on 19th' | 119K | 11.8x usual | 13 Nov |
+| [CNBC Television (YouTube)](https://www.youtube.com/watch?v=eYDIDemcXz0) | Squawk Box, Steve Eisman: 'Anthropic IPO is not important anymore' | 390K | 9.9x usual | 17 Nov |
 | [Doordhan E15 (our own, Instagram)](https://www.instagram.com/reel/DfCLDbOyFWj) | Creator format: 'the God share' you can never buy | 12.7K | about 22x our 72 h median | 28 Oct |
 
-_Still no Indian breakout on Anthropic; the US reels read the terms. Open: the above-range price and upsized deal from a company that lost $104 billion in nine months, told on the day it trades._
+_Everyone read the terms before the listing; nobody in India has told the day itself: +34% at the open, +17% at the close. Missing: the afternoon slide, and who bought at the open._
 
 ### Facts and sources
-- Priced at $83, above the $70-78 range; upsized from 825 million to about 980 million shares; $81.3 billion raised; about $1.5 trillion fully diluted; Nasdaq 'ANT', trading Thursday; $26 billion from Google, Microsoft, Nvidia and AMD at the IPO price; seven co-founders sell 3.38 million shares each ($1.96 billion); 9M revenue $33.24 billion (+~1,200%), 9M net loss $104 billion; run-rate ~$81 billion; SpaceX $75 billion base, $85.7 billion with over-allotment. — [CNBC, 18 Nov 2026 (10:15 am EST, updated)](https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html)
+- IPO price $83; opened just after 11:30 am ET at $111.50 (+34%); high $115.10; closed $97.17 (+17%); down ~13% from the open after 30 minutes; SpaceX opened +11% and was up ~10% at 30 minutes; ~$15 bn traded in the first minute vs ~$9 bn for SpaceX; $81.3 bn raised on 980 million shares; A-Grade's $435 million now ~$7 bn. — [Yahoo Finance live blog, 19 Nov 2026](https://finance.yahoo.com/technology/live/anthropic-ipo-live-anthropic-stock-begins-trading-in-record-81b-raise-with-15t-valuation-192410598.html)
+- Close $97, up more than 17% (headline). — [Forbes, 19 Nov 2026 (headline seen; page refused our fetch)](https://www.forbes.com/sites/fionariley/2026/11/19/anthropic-ipo-live-stock-closes-day-at-97-up-more-than-17/)
 
 ### Watch out
-- No apply, buy or skip call, and no listing-gain promise. Report the price and the first trade as news.
-- 'Largest IPO ever' holds only against SpaceX's $75 billion base deal; with over-allotment SpaceX raised $85.7 billion. Say 'one of the biggest' or name the comparison.
-- The $104 billion loss is mostly an accounting charge on convertible notes and derivatives, not cash burned; say so if the loss is used.
-- The opening price comes out tonight IST; if the script uses it, recheck before the script gate.
-- Dario Amodei's real photo and the Claude logo are fine (E15 used them); no politicians on screen or on the cover.
+- Market value at the close differs by source: about $1.27 trillion on the listed share count (Yahoo, Forbes) and $1.76-1.77 trillion fully diluted (CNN, Bloomberg). Say which one, or use the price and the % instead.
+- Bloomberg's headline says a $107 billion IPO; Yahoo, Forbes and CNBC say $81.3 billion. Use $81.3 billion (the offering) unless the script says otherwise.
+- SEBI price-data rule: the first day as news is fine (open, close, % move); no chart, price levels, targets or ratings, and no buy, hold or sell call. Don't tell Indian viewers how to buy it.
+- Bets: carries B4 (split screen: the Claude logo and '+34% → +17%' on the top half) and B3 if one line inside 12 s names who lost (the buyers at the open).
 
-## 2. SpiceJet's shares are up about 27-30% in a week while it cancels flights and hasn't paid salaries since June; now it wants to raise Rs 5,500 crore, more than three times what the whole company is worth
+## 2. Hallmark on your gold, but who checked it? A CAG draft audit says BIS skipped 43.7% of its required checks on hallmarking centres, and inspected 5,444 of 28,865 jewellers in 2024-25
 
-Hot lane (new: board approved a fundraise on 18 Nov; stock up about 30% in six sessions) · HOT · **9/10** (momentum 3/3, stake 1/1, shareability 2/2, gap 1/2, known name 2/2) · tracker id `spicejet-fundraise`
+Hot lane (new: CAG draft audit of BIS reported 17 Nov; the week's biggest money topic on Indian Reels) · HOT · **8/10** (momentum 3/3, stake 1/1, shareability 2/2, gap 1/2, known name 1/2) · tracker id `bis-hallmark-cag`
 
-Window: To Mon 7 Dec: BSE will suspend trading from 10 Dec unless SpiceJet files its overdue March and June quarter results by 7 Dec. Next turns: the shareholder vote on the raise, and the results filing.
+Window: Through the wedding season, about two weeks; the next turn is the Consumer Affairs Ministry's reply or the report reaching Parliament.
 
 ### What's happening
-- On 18 Nov SpiceJet's board approved raising up to Rs 5,500 crore through equity and other instruments, and raising its authorised share capital from Rs 2,000 crore to Rs 7,500 crore; both need shareholder and regulatory approval (Equitypandit, 18 Nov).
-- The company's market value is about Rs 1,522 crore (BusinessToday, 18 Nov), so the raise is about 3.6 times the whole company.
-- The stock hit its 5% upper circuit at Rs 9.97 on 18 Nov, up 27% in five sessions (BusinessToday) or about 30% in six (Lapaas Voice), yet still down about 67% this year; its 52-week high was Rs 37.90 and its low Rs 7.40 on 30 Oct (BusinessToday).
-- Operations: 15-20 flights cancelled a day out of about 65, a fleet of 12 with three grounded over unpaid lessor dues, salaries unpaid since June (NationPress, 11 Nov). Domestic market share fell to 0.6% in September from 1.2% in August (DGCA via BusinessToday).
-- BSE said on 9 Nov it will suspend trading from 10 Dec unless the March and June quarter results are filed by 7 Dec; SpiceJet said on 13 Nov it will meet the deadline (Equitypandit). Its last filed results are for Oct-Dec 2025 (BusinessToday).
+- A CAG draft audit report on the Bureau of Indian Standards found BIS carried out 2,826 of the 5,020 prescribed surveillance audits of Assaying and Hallmarking Centres (the labs that test purity before the hallmark goes on) from 2020-21 to 2024-25: 2,194 missed, a 43.7% shortfall (Business Today, 17 Nov, citing The Hindu BusinessLine).
+- Worst regions: Kolkata did 359 of 1,345 (73.3% short); Delhi 348 of 1,063 (67.3% short); Chandigarh missed 38.8%; Chennai 14.45% (Business Today).
+- In 2024-25 BIS inspected 5,444 of 28,865 licensed jewellers, leaving 23,421 unchecked that year; over the five years more than 83% of registered jewellers missed their annual inspection (APAC News Network, 17 Nov).
+- BIS blamed manpower shortages and the difficulty of collecting samples in remote areas; the CAG called that inadequate. The draft has gone to the Consumer Affairs Ministry and goes to Parliament after that (APAC News Network).
+- Separately, a Dainik Bhaskar sting on rhenium-mixed gold getting a 22K hallmark is driving most of the views; we could not open the original report, so its numbers are unverified.
 
 ### The curiosity gap
-- The planes are grounded and the staff unpaid, so why are the shares flying? Who is buying a Rs 10 stock of an airline that hasn't filed results since February?
-- SpiceJet wants Rs 5,500 crore from a market that values the entire company at about Rs 1,500 crore. Where would that money come from, and what happens to today's shareholders if it comes?
+- Every jeweller says 'hallmark hai'. The audit says the people meant to check the hallmark labs skipped 2,194 checks. So who is checking?
+- 4 out of 5 licensed jewellers were not inspected in a year, and the regulator's answer is 'we're short of staff'.
+- It's wedding season. Is the 22K you're paying for actually 22K?
 
 ### How hot it is
-- trends.py 'SpiceJet': HOT and saturated (100 of 100 news items this week came today); YouTube this week 11 videos, 258K views, best 4,134/hr (crew not being paid, 99K in 24 h).
-- vidIQ outliers since 5 Nov: @aatmajkapoor's SpiceJet crisis reel 785K (21.7x), the only Indian breakout; nothing on the share rally or the raise.
-- vidIQ keyword 'spicejet share' (IN): low search volume (<750 a month), competition 46: the stock angle is not crowded.
+- trends.py 'hallmark gold': HOT; YouTube this week 11 videos (6 in 24 h), 1.07M views, best 19,690/hr.
+- Google News: 3 items this week (Hindi coverage is wider than English).
+- vidIQ YouTube (IN, since 10 Nov): Ankit Avasthi 623K (15,888/hr), Ankit Sir Clips 663K, CryptoWala 277K short (8,403/hr); Manveen Singh's short 79K, 93x his usual.
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [@aatmajkapoor (Instagram, 40K followers)](https://www.instagram.com/reel/DfxAj1cySlh) | POV at the airport: 'nobody was allowed to board even though the plane was right there', news clips of the crisis | 785K | 21.7x usual | 15 Nov |
-| [@rajat.talks.tech (Instagram, 52K followers)](https://www.instagram.com/reel/DfzLBTTgQFP) | Adjacent (unpaid workers): Accenture freezes salary hikes, headline overlays | 268K | 23.5x usual | 16 Nov |
+| [@aajtak (Instagram, 18M followers)](https://www.instagram.com/reel/Df0BAmqBq-m) | Split screen, anchor over gold close-ups: 'Hallmark asli, phir bhi sona nakli?' on the CAG report | 2.2M | 3.6x usual | 16 Nov |
+| [@bhaskarenglish_ (Instagram, 41K)](https://www.instagram.com/reel/Df0wWOWhTCG) | Investigation montage: rhenium powder from China beats the testing machines | 714K | 340.6x usual | 17 Nov |
+| [@wittychokha (Instagram, 77K)](https://www.instagram.com/reel/DfzEkf6gF8Y) | Host to camera then news clips: 'hallmark wala nakli sona' and the CAG report | 665K | 153.9x usual | 16 Nov |
+| [Manveen Singh (YouTube Shorts, 1K subscribers)](https://www.youtube.com/watch?v=5gty8zc1pnM) | How adulterated gold passes BIS hallmark tests, with the CAG's 81% stat | 79K | 93x usual | 18 Nov |
 
-_The breakout reel is the passenger's crisis. Nobody has told the shareholder's side: the stock flying while the planes don't, and a raise worth 3.6 times the company._
+_Everyone made the rhenium sting and 'check the HUID'. Nobody told it from the audit's own numbers: 2,194 missed checks, 4 in 5 jewellers unchecked, and the regulator's 'staff shortage' reply. The joke lands on the system._
 
 ### Facts and sources
-- Board cleared up to Rs 5,500 crore; authorised capital Rs 2,000 cr to Rs 7,500 cr, pending approvals; market cap Rs 1,521.52 crore; opened and held at Rs 9.97 (5% upper circuit); BSE's 9 Nov notice: suspension from 10 Dec unless March and June results filed by 7 Dec; SpiceJet said 13 Nov it will comply. — [Equitypandit, 18 Nov 2026](https://www.equitypandit.com/spicejet-board-clears-rs-5500-cr-fundraise-plan/)
-- 5% upper circuit at Rs 9.97; market cap ~Rs 1,521.52 crore; +27.01% in five sessions, -66.64% YTD; 52-week high Rs 37.90, low Rs 7.40 (30 Oct); market share 0.6% in Sep vs 1.2% in Aug; last results filed: Q3 FY26 in Feb 2026. — [BusinessToday, 18 Nov 2026](https://www.businesstoday.in/markets/stocks/story/spicejet-shares-stuck-in-upper-circuit-ahead-of-board-meet-to-raise-funds-568136-2026-11-18)
-- 15-20 flights cancelled daily of ~65; fleet 12, three grounded over lessor dues; salaries unpaid since June 2026. — [NationPress, 11 Nov 2026](https://www.nationpress.com/business/spicejet-in-crisis-20-flights-cut-daily)
-- About 30% in six sessions; five straight upper circuits; on-time performance 16.6% in September. — [Lapaas Voice, 18 Nov 2026](https://lapaasvoice.com/spicejet-shares-rally-30-in-6-days-despite-flight-cancellations-and-passenger-disruptions)
+- 2,826 of 5,020 prescribed AHC surveillance audits done, 2020-21 to 2024-25; 2,194 missed; 43.7% shortfall; Kolkata 359/1,345 (73.3%), Delhi 348/1,063 (67.3%), Chandigarh 38.8%, Chennai 14.45%; draft audit report. — [Business Today, 17 Nov 2026](https://www.businesstoday.in/latest/corporate/story/2194-gold-hallmarking-audits-missed-in-five-years-who-is-checking-the-labs-certifying-your-jewellery-567810-2026-11-17)
+- 2024-25: 5,444 of 28,865 licensed jewellers inspected, 23,421 not; over 83% missed annual inspections over five years; ~2.3 lakh registered jewellery establishments; BIS cited manpower and logistics, CAG found it inadequate; draft sent to the Consumer Affairs Ministry. — [APAC News Network, 17 Nov 2026](https://apacnewsnetwork.com/2026/11/cag-bis-gold-hallmarking-oversight-jeweller-inspections/)
 
 ### Watch out
-- No buy/sell call and no price chart, levels or targets (SEBI price-data rule): report the move as news.
-- The rally figure differs: 27% in five sessions (BusinessToday) vs about 30% in six (others). Say 'about 30% in a week' or use 27% with BusinessToday.
-- The Rs 5,500 crore is a ceiling approved by the board, not money raised; it still needs shareholders and regulators.
-- Salaries unpaid since June is from one outlet (NationPress); say 'reports say'. Promoter Ajay Singh is a businessman, not a politician, so his photo is fine.
+- It is a draft audit: say 'CAG's draft report', not 'CAG proved fake gold'. Missed inspections are not proof that hallmarks are fake.
+- The rhenium-sting numbers (1 g rhenium in 7.83 g gold, 22K916 hallmark) appear only in creators' descriptions; we could not open the Bhaskar original. Keep them out unless Akhilesh wants them, and then source them first.
+- '5,444 of 28,865' is one year (2024-25); '83%' is the five-year figure. Don't mix them.
+- Gold has been in the outliers for weeks; this is a consumer-protection story, not a gold-price call. Bets: B4 (gold close-up and '2,194 checks missed' on the top half), B3 (a line a viewer sends to whoever is buying wedding gold).
 
-## 3. 2026's best-performing IPO, ESDS, tripled on an AI deal worth $1.25 billion; but the deal is a bill ESDS pays, about $250 million a year, against Rs 472 crore of yearly revenue
+## 3. Direct plans became the default on fund-house websites on 1 November, yet 70% of retail and HNI mutual fund money still sits in the costlier 'regular' plans
 
-Deep lane (The Morning Context, 18 Nov: 'ESDS' AI numbers do not quite add up'; facts from open sources) · DEEP · **6/10** (momentum 0/3, stake 1/1, shareability 2/2, gap 2/2, known name 1/2) · tracker id `esds-sharon-ai`
+Deep lane (The Ken, 19 Nov: 'The costlier mutual fund plan is still called regular, and most investors are in it'; facts from open pages) · COLD · **6/10** (momentum 0/3, stake 1/1, shareability 2/2, gap 2/2, known name 1/2) · tracker id `regular-plan-70pc`
 
-Window: To Thu 3 Dec (deep lane, two weeks). Next turn: the 8,200-GPU cluster is due to go live in early-to-mid December, with first revenue expected in December.
+Window: Evergreen, but it rides on the 1 November SEBI change; best within two weeks while 'direct default' is new.
 
 ### What's happening
-- ESDS Software listed on 4 Sep at Rs 757 on NSE against an IPO price of Rs 429; by 11 Sep it was at Rs 1,740, up about 306% from the issue price and worth about Rs 20,400 crore (INDmoney).
-- The rally rode a five-year agreement with Australia's Sharon AI worth about $1.25 billion. INDmoney points out it is Sharon supplying about 8,200 Nvidia B300 GPUs to ESDS: ESDS is the customer and pays roughly $250 million a year (about Rs 12,000 crore over five years, around 25 times FY26 revenue), posts $140 million of letters of credit and can't exit for 36 months.
-- ESDS's own size: FY26 revenue Rs 472.2 crore, profit Rs 120.8 crore (INDmoney). About Rs 576 crore of the Rs 720 crore IPO money is earmarked for cloud and GPU equipment.
-- The stock then fell: six straight 5% lower circuits by 5 Oct, when exchanges put it under long-term Additional Surveillance (BusinessToday, 5 Oct); it was at about Rs 1,188 on 3 Nov (BusinessToday).
-- First revenue from the GPU cluster has slipped three weeks, to December; customer testing was due by mid-November (BusinessToday, 3 Nov). The Morning Context questioned ESDS's AI numbers on 18 Nov (headline only; paywalled).
+- From 1 November, SEBI made direct plans the default option on fund houses' own websites and apps; regular plans stay, and existing investments don't move by themselves (The Ken subhead; Business Today and 5paisa explainers).
+- Even so, 70% of retail and HNI mutual fund assets are still in regular plans (The Ken, 19 Nov, public subhead).
+- Regular plans cost more because the expense ratio includes a distributor's trail commission, paid every year for as long as the money stays invested (Business Today, 13 Nov).
+- Business Today's illustration: a Rs 10,000 monthly SIP for 20 years, assuming 12% a year in direct and 11% in regular, ends at Rs 98.9 lakh vs Rs 87.4 lakh, a gap of Rs 11.5 lakh. These are assumptions, not returns (13 Nov).
 
 ### The curiosity gap
-- A Rs 472-crore-a-year company signed up to pay about $250 million a year for GPUs. Who is going to rent all of that from ESDS?
-- The market read a $1.25 billion bill as a $1.25 billion order and tripled the stock. How many other 'AI order wins' are bills?
+- The cheaper plan is now the default button, and 70% of the money still sits in the expensive one. Why?
+- It's called 'regular', which sounds normal. It's the one that pays a commission every year, forever.
+- One percentage point a year sounds small. On a Rs 10,000 SIP over 20 years, assumed returns put the gap at about Rs 11.5 lakh.
 
 ### How hot it is
-- trends.py 'ESDS share': COLD (1 news item this week); YouTube 52K views this week, best 225/hr.
-- No Indian reel on ESDS or the Sharon AI deal in vidIQ outliers since 5 Nov; the story is unmade.
+- trends.py 'regular plan mutual fund': COLD; Google News 0 items this week; YouTube 8 videos, 94K views, best 792/hr.
+- vidIQ outliers since 1 Nov: no reel on direct vs regular broke out; the MF outliers are portfolio reviews (@investwithshikhar 442K, 21.7x) and SWP maths (@ashavkumar25 311K, 296x).
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [@prateekshah03 (Instagram, 2.7K followers)](https://www.instagram.com/reel/Dfwm2UNI0hm) | Adjacent: 'coffee shops are all losing money in India', the numbers behind a hyped sector | 100K | 62x usual | 15 Nov |
-| [@bhaprath (Instagram, 3.5K followers)](https://www.instagram.com/reel/Dfv7WJpph1C) | Adjacent: 5 Indian companies that turned Rs 1 lakh into crores, data cards | 432K | 20.7x usual | 15 Nov |
+| [@ashavkumar25 (Instagram, 396 followers)](https://www.instagram.com/reel/Df1yJDKNZlv) | Adjacent: SWP maths with the numbers in frame one ('Rs 10 lakh, Rs 6,000 a month') | 311K | 295.5x usual | 17 Nov |
+| [@investwithshikhar (Instagram, 13K)](https://www.instagram.com/reel/DfnIHDYubYp) | Adjacent: a 12-fund portfolio review on a split screen | 442K | 21.7x usual | 11 Nov |
 
-_Nobody has made a reel on ESDS's deal. Open: the 'order' that is really a bill, told in two numbers (what it pays vs what it earns)._
+_Nobody has made the 1 November default change into a reel. Open: 70% still in regular, and a name that hides a lifetime commission. The humour lands on the seller and the label, not the viewer._
 
 ### Facts and sources
-- IPO Rs 429, listed 4 Sep at Rs 757 (NSE); Rs 1,740.40 on 11 Sep, +305.7%, mcap ~Rs 20,400 cr; FY24/25/26 revenue Rs 286.5/361.3/472.2 cr, PAT Rs 13.6/55.6/120.8 cr; Sharon AI supplies ~8,200 B300 GPUs to ESDS for ~$1.25 bn over 60 months, ~$250 m a year, ~Rs 12,000 cr, ~25x FY26 revenue; $140 m LCs; no exit for 36 months; Rs 576 cr of Rs 720 cr IPO for cloud/GPU equipment. — [INDmoney, updated 11 Sep 2026 (context: older than a week)](https://www.indmoney.com/blog/stocks/esds-software-share-price-rally-analysis)
-- Locked at 5% upper circuit, ~Rs 1,188; monetisation delayed three weeks; customer testing by mid-Nov; revenue recognition from Dec 2026; 8,200-GPU cluster live early-to-mid Dec. — [BusinessToday, 3 Nov 2026 (context)](https://www.businesstoday.in/markets/stocks/story/esds-share-price-up-5-choice-says-buy-after-q2-results-sees-37-upside-565287-2026-11-03)
-- Sixth straight 5% lower circuit; Rs 1,360.15; up 217% from the Rs 429 IPO price; long-term ASM. — [BusinessToday, 5 Oct 2026 (context)](https://www.businesstoday.in/markets/stocks/story/esds-software-shares-hit-5-lower-circuit-for-sixth-straight-session-still-up-217-from-ipo-price-559472-2026-10-05)
+- Direct plans became the default on AMC websites from 1 November; 70% of retail and HNI mutual fund assets remain in regular plans. — [The Ken (Ka-Ching!), 19 Nov 2026, public subhead](https://the-ken.com/story/the-costlier-mutual-fund-plan-is-still-called-regular-and-most-investors-are-in-it/)
+- Rs 10,000 monthly SIP, 20 years, 12% (direct) vs 11% (regular) assumed: Rs 98.9 lakh vs Rs 87.4 lakh, gap Rs 11.5 lakh; invested Rs 24 lakh each; illustrative, not guaranteed. — [Business Today, 13 Nov 2026](https://www.businesstoday.in/mutual-funds/story/direct-vs-regular-mutual-funds-are-investors-paying-a-lifetime-commission-for-one-time-advice-567195-2026-11-13)
 
 ### Watch out
-- All number pages are older than a week (context, not a headline number); today's news is only the Morning Context headline. Get a current price and any Q2 FY27 revenue from an exchange filing before the script uses them.
-- ESDS's plan is to resell the GPU capacity to its own customers; the reel can question the scale but must not say the deal is a fraud.
-- A US short seller (Bleecker Street) also argues ESDS can't carry the deal; it holds a short position, so cite it as a short seller's view or leave it out.
-- No buy/sell call; the stock is under exchange surveillance. Credit 'via The Morning Context' in the caption if the angle is theirs.
+- The 70% is The Ken's figure for retail and HNI assets; older AMFI/CRISIL data puts the direct share of individual investors' AUM at about 30% (Mint), which agrees. Credit 'via The Ken' in the caption.
+- Any return in the example is said as an assumption ('12% maan ke'). No 'switch now' or fund names: it is about plan type, not a buy/sell call.
+- Distributors do give advice; aim the joke at the label and the lifetime trail, not at people who chose regular.
+- Bets: B4 (the '70%' and the two plan labels on the top half), B3 (a line to send to the parent whose SIP the bank RM set up).
 
 ## Stories we're tracking
 
@@ -142,30 +141,32 @@ Full board: research/desk/TRACKER.md
 
 | Story | Now | Direction | Day | Status |
 |---|---|---|---|---|
-| Groww's F&O share of revenue falls to 45%; turns to IPOs and wealth (via The Arc) (`groww-derivatives-arc`) | COLD | steady | 33 | active |
-| Anthropic S-1: $16.3 bn H1 revenue, $80.7 bn loss ($72.4 bn paper charge) (`anthropic-s1`) | HOT | rising | 22 | active |
-| ₹89,000 cr of unclaimed shares with IEPF; Reliance biggest slice (Diwali-cleaning certificate reels) (`unclaimed-shares-iepf`) | COLD | rising | 11 | active |
-| Novartis India: ~50 staff, ₹1,446 cr for 71%; open offer got 40 shares (via The Ken) (`novartis-india-ken`) | COLD | steady | 10 | active |
-| B.R. Shetty liable in $5.4 bn NMC fraud; sold Finablr for $1; BoB paid $600M (via The Morning Context) (`br-shetty-nmc`) | HOT | steady | 9 | active |
-| Jio more customers, Airtel more money: ARPU ₹271 vs ₹218.8 (`airtel-vs-jio-arpu`) | HOT | rising | 8 | active |
-| NSE banned brokers' digital gold, then picked Augmont for EGRs (via The Ken) (`nse-augmont-digital-gold`) | COLD | fading | 7 | active |
-| India's 'sovereign' AI rented from Nvidia GPU clouds; E2E -36% from Oct high (via The Ken) (`india-sovereign-ai-nvidia`) | COLD | rising | 5 | active |
-| Mahanadi Coalfields IPO: Coal India sells 10% of India's largest coal producer (opens 19 Nov) (`mahanadi-coalfields-ipo`) | FLAT | rising | 4 | active |
-| Ola Electric closes its own stores for dealers; Q2 revenue -39% to Rs 421 cr (via The Morning Context) (`ola-electric-dealers`) | HOT | steady | 4 | active |
-| Nvidia Q3 $115.8 bn, doubled; board won't reinstate Huang (`nvidia-q3-board-no-huang`) | HOT | new | 2 | active |
-| Yes Bank AT1 Rs 8,415 cr: SC restored the bonds; Yes Bank and RBI seek review (`yes-bank-at1`) | HOT | new | 2 | active |
-| SpiceJet: Rs 5,500 cr raise vs Rs 1,522 cr mcap; shares +30% in a week amid cancellations (`spicejet-fundraise`) | - | new | 1 | active |
-| ESDS: 2026's top IPO tripled on a $1.25 bn GPU deal it pays for (via The Morning Context) (`esds-sharon-ai`) | - | new | 1 | active |
+| Groww's F&O share of revenue falls to 45%; turns to IPOs and wealth (via The Arc) (`groww-derivatives-arc`) | COLD | fading | 34 | active |
+| Anthropic S-1: $16.3 bn H1 revenue, $80.7 bn loss ($72.4 bn paper charge) (`anthropic-s1`) | HOT | steady | 23 | active |
+| ₹89,000 cr of unclaimed shares with IEPF; Reliance biggest slice (Diwali-cleaning certificate reels) (`unclaimed-shares-iepf`) | HOT | rising | 12 | active |
+| Novartis India: ~50 staff, ₹1,446 cr for 71%; open offer got 40 shares (via The Ken) (`novartis-india-ken`) | COLD | steady | 11 | active |
+| B.R. Shetty liable in $5.4 bn NMC fraud; sold Finablr for $1; BoB paid $600M (via The Morning Context) (`br-shetty-nmc`) | COLD | fading | 10 | active |
+| Jio more customers, Airtel more money: ARPU ₹271 vs ₹218.8 (`airtel-vs-jio-arpu`) | COLD | fading | 9 | active |
+| NSE banned brokers' digital gold, then picked Augmont for EGRs (via The Ken) (`nse-augmont-digital-gold`) | COLD | steady | 8 | active |
+| India's 'sovereign' AI rented from Nvidia GPU clouds; E2E -36% from Oct high (via The Ken) (`india-sovereign-ai-nvidia`) | COLD | rising | 6 | active |
+| Mahanadi Coalfields IPO: Coal India sells 10% of India's largest coal producer (opens 19 Nov) (`mahanadi-coalfields-ipo`) | RISING | rising | 5 | active |
+| Ola Electric closes its own stores for dealers; Q2 revenue -39% to Rs 421 cr (via The Morning Context) (`ola-electric-dealers`) | FLAT | fading | 5 | active |
+| Nvidia Q3 $115.8 bn, doubled; board won't reinstate Huang (`nvidia-q3-board-no-huang`) | FLAT | fading | 3 | active |
+| Yes Bank AT1 Rs 8,415 cr: SC restored the bonds; Yes Bank and RBI seek review (`yes-bank-at1`) | COLD | fading | 3 | active |
+| SpiceJet: Rs 5,500 cr raise vs Rs 1,522 cr mcap; shares +30% in a week amid cancellations (`spicejet-fundraise`) | FLAT | new | 2 | active |
+| ESDS: 2026's top IPO tripled on a $1.25 bn GPU deal it pays for (via The Morning Context) (`esds-sharon-ai`) | COLD | new | 2 | active |
+| CAG draft audit: BIS hallmark checks missed (`bis-hallmark-cag`) | - | new | 1 | active |
+| 70% still in regular MF plans after direct default (`regular-plan-70pc`) | - | new | 1 | active |
 
 ## Also on the wire
-- Tracker: Anthropic HOT (now story 1). SpiceJet and ESDS added today. Nvidia's results-and-Huang story HOT (Huang's first statement, 'serious mistakes', 506K views in 24 h on YouTube) but nothing new since yesterday's results. Yes Bank AT1 HOT: 'yes bank limited' is on Google's India trending list today (200+), cause not found; still review petitions, not admitted. Ola Electric's dealers and B.R. Shetty read HOT on YouTube; Airtel vs Jio ARPU HOT on YouTube only. Mahanadi Coalfields FLAT (opens today). Groww, unclaimed shares, Novartis India, NSE-Augmont and India's sovereign AI COLD.
-- Also seen, not picked: CAG's draft audit says BIS inspected under a fifth of hallmark-registered jewellers in five years (@wittychokha 665K, 154x, 16 Nov; reports call it a draft, not confirmed fraud). Gold fell to Rs 1,35,884 per 10 g, 24K (@hindikhabarlive 4.6M, 53x, 15 Nov; figure not checked). Milk up Rs 2-8 a litre from 1-12 Nov (Nandini Rs 8, Amul and Mother Dairy Rs 2-4; Upstox, 13 Nov), FLAT. Sensex fell 0.61% to 82,032 on 18 Nov (Business Standard). The Ken: hospitals vs insurers on medical inflation (17 Nov).
+- Tracker: Anthropic HOT (story 1). Hallmark gold and regular plans added today. Unclaimed shares (IEPF) reads HOT and rising on YouTube (281K views this week) with little news (1 of 5 items today). Mahanadi Coalfields RISING (its IPO is open; quota reels are this week's Indian IPO outliers). SpiceJet FLAT, Nvidia and Ola Electric dealers FLAT and fading. Groww, Novartis India, B.R. Shetty, Airtel vs Jio, NSE-Augmont, sovereign AI, Yes Bank AT1 and ESDS COLD.
+- Also seen, not picked: markets rallied on 19 Nov, Nifty +1.14% to 25,514 and Sensex +1.21% to 83,022, auto index +4% (HDFC Sky/ANI). NSE's own shares hit a record Rs 2,207, up 26.46% in a month (Business Today, 19 Nov); the story turns on brokerage targets, which the SEBI rule keeps off screen. Page Industries (Jockey) fell about 12-13% on 12 Nov results; The Ken's follow-up (19 Nov) asks why investors fled, but trends reads COLD.
 - Tool changes: no Higgsfield keys on this machine, so model_live.py refresh was skipped.
 
 ## Where we stand
 
 794 followers (-2 this week)  
-Last reel (Space and semiconductor sectors for long-term investors: Centum, MTAR (space); CG Power, Kaynes (semis); read the chart setup before entry): 361 plays so far, 65% swiped away in the first 3 s  
+Last reel (Space and semiconductor sectors for long-term investors: Centum, MTAR (space); CG Power, Kaynes (semis); read the chart setup before entry): 365 plays so far, 64% swiped away in the first 3 s  
 What every reel is testing:  
 - A line worth sending: shares per 1,000 plays 4.6 now, target 8 (4 of 4 reels in)
 - Split-screen opener: plays per reel 582 now, target 2000 (0 of 4 reels in)

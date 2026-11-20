@@ -4151,6 +4151,18 @@
      "yt_best_vph": 685,
      "yt_top": "Daily Stock Market News(18 Nov 2026):ICRA GDP Forecast 7.5%, SEBI Marg (16,434 views in 24h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-20",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 11,
+     "yt_week_views": 35475,
+     "yt_best_vph": 358,
+     "yt_top": "Daily Stock Market News(18 Nov 2026):ICRA GDP Forecast 7.5%, SEBI Marg (17,168 views in 48h)",
+     "google_trending": []
     }
    ]
   },
@@ -6083,7 +6095,8 @@
     "2026-11-13: several times oversubscribed; may beat SpaceX record; Nvidia CEO out",
     "2026-11-14: 14 Nov: no filed change; pricing Wed 18 Nov",
     "2026-11-18: 18 Nov: new turn, prices tonight, trades Thu; FT above-range talk; Nvidia and Google $10bn each at IPO price; pick",
-    "2026-11-19: priced $83 above range, $81.3bn, trades 19 Nov"
+    "2026-11-19: priced $83 above range, $81.3bn, trades 19 Nov",
+    "2026-11-20: day one: opened $111.50 (+34%), closed $97.17 (+17%)"
    ],
    "readings": [
     {
@@ -6339,6 +6352,19 @@
      "yt_week_views": 697018,
      "yt_best_vph": 16345,
      "yt_top": "Anthropic IPO is not important anymore: 'Big Short' investor Steve Eis (392,275 views in 24h)",
+     "google_trending": [],
+     "desk_score": 9.0
+    },
+    {
+     "date": "2026-11-20",
+     "label": "HOT (saturated: everyone has it; needs a sharper angle)",
+     "news_1d": 100,
+     "news_7d": 100,
+     "momentum_pct": 100,
+     "yt_week_videos": 4,
+     "yt_week_views": 831048,
+     "yt_best_vph": 11974,
+     "yt_top": "Anthropic IPO: What investors are really betting on (287,384 views in 24h)",
      "google_trending": [],
      "desk_score": 9.0
     }
@@ -8282,6 +8308,18 @@
      "yt_best_vph": 164,
      "yt_top": "Unclaimed Shares and Dividends: Share Certificate खो गया? सरकार के Inv (3,933 views in 24h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-20",
+     "label": "HOT",
+     "news_1d": 1,
+     "news_7d": 5,
+     "momentum_pct": 20,
+     "yt_week_videos": 17,
+     "yt_week_views": 281278,
+     "yt_best_vph": 3445,
+     "yt_top": "老乞丐故意掉下10塊錢，只有窮小夥撿起還給他，豈料竟意外獲得逆天幸運吊墜！從此吃泡麵開出金條，隨手一撿就是百萬財富！拯救被綁架的男孩，他性感 (248,040 views in 72h)",
+     "google_trending": []
     }
    ]
   },
@@ -8474,6 +8512,18 @@
      "yt_best_vph": 1248,
      "yt_top": "Qualcomm's India Layoff Bloodbath! 1,000+ Jobs at Risk, Severance Reve (179,661 views in 144h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-20",
+     "label": "COLD",
+     "news_1d": 2,
+     "news_7d": 3,
+     "momentum_pct": 67,
+     "yt_week_videos": 12,
+     "yt_week_views": 8568,
+     "yt_best_vph": 91,
+     "yt_top": "Hedgefondförvaltaren positiv: “Någonting håller på att ske” (6,564 views in 72h)",
+     "google_trending": []
     }
    ]
   },
@@ -8622,6 +8672,18 @@
      "yt_best_vph": 14954,
      "yt_top": "Andagaathiye Lyrical | MARRIAGE PARTY | Vineeth Kumar| Chayan shetty | (1,076,684 views in 72h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-20",
+     "label": "COLD",
+     "news_1d": 6,
+     "news_7d": 8,
+     "momentum_pct": 75,
+     "yt_week_videos": 7,
+     "yt_week_views": 174481,
+     "yt_best_vph": 2025,
+     "yt_top": "Datsons Labs Promoters Who Ditched Investors, Now in Latvian Citizensh (48,606 views in 24h)",
+     "google_trending": []
     }
    ]
   },
@@ -8711,6 +8773,18 @@
      "yt_week_views": 1010499,
      "yt_best_vph": 5710,
      "yt_top": "Are We Slaves of Jio and Airtel ? Recharge Price Doubled, Now Rs 350 ? (411,128 views in 72h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-11-20",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 2,
+     "momentum_pct": 0,
+     "yt_week_videos": 14,
+     "yt_week_views": 921113,
+     "yt_best_vph": 4407,
+     "yt_top": "Are We Slaves of Jio and Airtel ? Recharge Price Doubled, Now Rs 350 ? (423,068 views in 96h)",
      "google_trending": []
     }
    ]
@@ -8867,6 +8941,18 @@
      "yt_best_vph": 0,
      "yt_top": "",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-20",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 0,
+     "yt_week_views": 0,
+     "yt_best_vph": 0,
+     "yt_top": "",
+     "google_trending": []
     }
    ]
   },
@@ -8967,6 +9053,18 @@
      "yt_best_vph": 1771,
      "yt_top": "Sarvam AI को सरकारी सब्सिडी पर मिले GPU | कंपनी ने Token Factory खोल द (42,501 views in 24h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-20",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 12,
+     "yt_week_views": 151576,
+     "yt_best_vph": 2463,
+     "yt_top": "Xi Jinping Speaks at APEC as Nvidia Posts Solid First Post-Huang Earni (59,101 views in 24h)",
+     "google_trending": []
     }
    ]
   },
@@ -9008,6 +9106,18 @@
      "yt_week_views": 323702,
      "yt_best_vph": 1923,
      "yt_top": "Mahanadi Coalfields IPO review | Mahanadi coal field IPO latest GMP |  (46,153 views in 24h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-11-20",
+     "label": "RISING",
+     "news_1d": 39,
+     "news_7d": 100,
+     "momentum_pct": 39,
+     "yt_week_videos": 0,
+     "yt_week_views": 0,
+     "yt_best_vph": 0,
+     "yt_top": "",
      "google_trending": []
     }
    ]
@@ -9051,6 +9161,18 @@
      "yt_best_vph": 5005,
      "yt_top": "फेल हो गई Ola Electric? घाटे के बीच Bhavish Aggarwal ने बदला प्लान | Q (360,331 views in 72h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-20",
+     "label": "FLAT",
+     "news_1d": 5,
+     "news_7d": 53,
+     "momentum_pct": 9,
+     "yt_week_videos": 16,
+     "yt_week_views": 575383,
+     "yt_best_vph": 4196,
+     "yt_top": "फेल हो गई Ola Electric? घाटे के बीच Bhavish Aggarwal ने बदला प्लान | Q (402,855 views in 96h)",
+     "google_trending": []
     }
    ]
   },
@@ -9080,6 +9202,18 @@
      "yt_week_views": 397550,
      "yt_best_vph": 5636,
      "yt_top": "Nvidia Delivers Solid Outlook in First Post-Huang Earnings (135,270 views in 24h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-11-20",
+     "label": "FLAT",
+     "news_1d": 9,
+     "news_7d": 100,
+     "momentum_pct": 9,
+     "yt_week_videos": 13,
+     "yt_week_views": 417404,
+     "yt_best_vph": 2891,
+     "yt_top": "Nvidia Delivers Solid Outlook in First Post-Huang Earnings (138,784 views in 48h)",
      "google_trending": []
     }
    ]
@@ -9113,6 +9247,18 @@
      "google_trending": [
       "yes bank limited 200+"
      ]
+    },
+    {
+     "date": "2026-11-20",
+     "label": "COLD",
+     "news_1d": 2,
+     "news_7d": 9,
+     "momentum_pct": 22,
+     "yt_week_videos": 18,
+     "yt_week_views": 493750,
+     "yt_best_vph": 2004,
+     "yt_top": "YES Bank's ₹8,415 Crore AT1 Bond Shock: Is Another Crisis Coming for I (288,594 views in 144h)",
+     "google_trending": []
     }
    ]
   },
@@ -9129,6 +9275,18 @@
     {
      "date": "2026-11-19",
      "desk_score": 9.0
+    },
+    {
+     "date": "2026-11-20",
+     "label": "FLAT",
+     "news_1d": 28,
+     "news_7d": 100,
+     "momentum_pct": 28,
+     "yt_week_videos": 16,
+     "yt_week_views": 330097,
+     "yt_best_vph": 2334,
+     "yt_top": "They don’t get paid enough for this. Actually, they don’t get paid at  (112,029 views in 48h)",
+     "google_trending": []
     }
    ]
   },
@@ -9144,6 +9302,54 @@
    "readings": [
     {
      "date": "2026-11-19",
+     "desk_score": 6.0
+    },
+    {
+     "date": "2026-11-20",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 1,
+     "momentum_pct": 0,
+     "yt_week_videos": 16,
+     "yt_week_views": 57380,
+     "yt_best_vph": 190,
+     "yt_top": "Crossed 2000 for the first time 🔥 NSE Share News Today 🤔 NSE Share 🌟 W (27,382 views in 144h)",
+     "google_trending": []
+    }
+   ]
+  },
+  {
+   "id": "bis-hallmark-cag",
+   "title": "CAG draft audit: BIS hallmark checks missed",
+   "query": "hallmark gold|हॉलमार्क सोना",
+   "first_seen": "2026-11-20",
+   "lane": "hot",
+   "window_until": "2026-12-04",
+   "status": "active",
+   "notes": [
+    "CAG draft: 2,194 of 5,020 AHC audits missed; 5,444 of 28,865 jewellers inspected 2024-25"
+   ],
+   "readings": [
+    {
+     "date": "2026-11-20",
+     "desk_score": 8.0
+    }
+   ]
+  },
+  {
+   "id": "regular-plan-70pc",
+   "title": "70% still in regular MF plans after direct default",
+   "query": "regular plan mutual fund|रेगुलर प्लान",
+   "first_seen": "2026-11-20",
+   "lane": "deep",
+   "window_until": "2026-12-04",
+   "status": "active",
+   "notes": [
+    "The Ken 19 Nov"
+   ],
+   "readings": [
+    {
+     "date": "2026-11-20",
      "desk_score": 6.0
     }
    ]
