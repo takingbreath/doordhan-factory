@@ -1,139 +1,149 @@
-# Doordhan desk research — Fri 20 Nov 2026
+# Doordhan desk research — Sat 21 Nov 2026
 
-Session: https://claude.ai/code/session_01PasrAqXpWkN6oAMKsFw2Bx
+Session: https://claude.ai/code/session_01PasrAtaDD7TG91XgGsoh3o
 
-**Pick: story 1.** Anthropic, because it is this week's plan item 2, E15's 12,700 viewers were promised this follow-up, and the first trade has now happened. It is a story with a shape: the stock opened at $111.50, 34% above the $83 IPO price, then gave back half the gain and closed at $97.17 (+17%). It ran from +34% to +17% in one afternoon. That is the turn nobody in India has covered, and the window closes over the weekend.
+**Pick: story 1.** The AI selloff, because it is the biggest market story of the week and it has a shape nobody in India has drawn: on Fri 20 Nov the S&P 500 fell 3.59% into a correction, Japan and Korea fell about 5%, and Anthropic gave back about 9% on its second day, while the Sensex rose 1.08% to a nine-month high on record foreign buying. It follows on from Thursday's Anthropic story (plan item 2), it opens on names every viewer knows (Nvidia, Anthropic, Sensex), and the window is this weekend, before Monday's open.
 
-Runner-up: 2: Hallmarked gold (8). The CAG's draft audit says BIS did only 2,826 of 5,020 required checks on hallmarking centres in five years (43.7% short), and in 2024-25 it inspected 5,444 of 28,865 licensed jewellers. It is the hottest money story on Indian Reels this week (Aaj Tak 2.2M; Bhaskar English 714K, 341x; @wittychokha 665K, 154x), so it needs the angle they skipped: the audit numbers and BIS's 'staff shortage' reply, not the rhenium sting. Story 3 (deep lane, The Ken, 19 Nov): SEBI made direct plans the default on fund-house websites on 1 November, yet 70% of retail and HNI mutual fund assets are still in the costlier 'regular' plans. Almost no Shorts are made on it.
+Runner-up: 2: Mahanadi Coalfields IPO (8). Coal India's ₹8,981 crore IPO closes Monday, and two days in, retail has bid for only 0.25x of its quota while the grey-market premium fell from ₹25 on 13 Nov to ₹1.3 on 20 Nov. Every creator is asking 'apply or avoid'; nobody has asked why the grey market walked away. Story 3 (deep lane, Reuters and The Morning Context, 17 Nov): Indians have borrowed a record ₹1.53 lakh crore from brokers to buy shares, at 9-18% interest, two-thirds of it in small and mid caps, and SEBI is weighing a cap.
 
-## 1. Anthropic's first day on Nasdaq: opened 34% above its IPO price, then gave back half and closed at $97.17, up 17%
+## 1. The world dumped AI stocks on Friday and bought India: S&P 500 in a correction, Japan and Korea down 5%, Anthropic down 9% on day two, while the Sensex hit a nine-month high
 
-Hot lane (tracked since 29 Oct as the E15 follow-up; new since yesterday: the first day of trading, opened +34%, closed +17%) · HOT · **9/10** (momentum 3/3, stake 1/1, shareability 2/2, gap 1/2, known name 2/2) · tracker id `anthropic-s1`
+Hot lane (new; follows the Anthropic first-day story sent yesterday) · HOT · **9/10** (momentum 3/3, stake 1/1, shareability 2/2, gap 1/2, known name 2/2) · tracker id `ai-selloff-india-rally`
 
-Window: Today to Sun 22 Nov: the first-day story is news until Monday's trade; after that it becomes a stock-price story (no price levels or charts under the SEBI rule).
+Window: Today and Sunday 22 Nov: it is a weekend story until Monday's open (Mon 23 Nov); if Monday reverses, the story changes.
 
 ### What's happening
-- Anthropic (Nasdaq: ANT) priced its IPO at $83 and began trading just after 11:30 am ET on Thu 19 Nov at $111.50, a 34% premium (Yahoo Finance live blog).
-- It rose as high as $115.10, then fell through the afternoon and closed at $97.17, up 17% from the IPO price (Yahoo Finance; Forbes and Bloomberg headlines say the same).
-- After 30 minutes it was about 13% below its opening trade; SpaceX was up almost 10% at the same point in its June debut (Yahoo Finance).
-- Its opening pop of 34% was about three times SpaceX's 11%. About $15 billion of stock changed hands in the first minute, nearly twice SpaceX's ~$9 billion (Yahoo Finance).
-- It raised $81.3 billion selling 980 million shares, the largest IPO raise on record (Yahoo Finance; CNBC 18 Nov).
-- Ashton Kutcher's A-Grade put in $435 million early; that stake is now worth roughly $7 billion (Yahoo Finance, citing Newsweek).
+- On Fri 20 Nov the S&P 500 fell 3.59% to 6,918.45, its seventh straight loss and the longest losing streak since February 2020; it closed more than 10% below its 6 Oct record, which makes it a correction. The Nasdaq gave back all its 2026 gains (Fortune).
+- Chipmakers Nvidia, Micron, Broadcom and AMD fell roughly 12-14%. Nvidia's CEO Jensen Huang resigned on 12 Nov; CFO Colette Kress is interim CEO. The VIX topped 30 for the first time since March (Fortune).
+- Anthropic, a day after its record $81.3 billion IPO, fell about 9% on its second day of trade, after closing +17% on day one (Fortune). It had opened at $111.50 against the $83 IPO price and closed day one at $97.17 (Coinpaper; Kotak Neo).
+- Asia: the Nikkei fell 5.1% to about 56,437 and the Kospi 5.2% to about 4,870; Taiwan's index fell about 6.2% on the day and about 17.5% for the week, its worst week since 1991 (Coinpaper). Asian stocks had their worst week since 2020 (Kotak Neo).
+- India went the other way: the Sensex rose 897.96 points (+1.08%) to 83,919.71 and the Nifty 286.30 points (+1.12%) to 25,800.60, nine-month highs, a fourth straight weekly gain, led by private banks (+3%) (HDFC Sky).
+- Why, per the reports: foreign funds are rotating out of AI-heavy markets (US, Korea, Taiwan) into India. FPIs have bought a record amount of Indian shares in November (₹89,856 crore by about 17 Nov per Econiti; $12.21 billion per HDFC Sky); Brent is down about 23% in November and the rupee rose to 92.67 a dollar, a seven-month high (HDFC Sky).
 
 ### The curiosity gap
-- People who bought at the open lost about 13% by the close, while people who got IPO shares made 17%. Who were the buyers at $111.50?
-- It was the biggest IPO ever and it opened three times stronger than SpaceX, so why did half the pop vanish by the evening?
-- E15 said it was 'a share you could never buy'. Now anyone can buy it, so what did day one look like for the people who did?
+- The same foreign investors who pulled money out of India for two years are now pouring in a record amount. What changed, and is India now the world's 'non-AI' bet?
+- The biggest IPO in history lost about 9% on its second day, in the week the AI trade broke. What does that do to the 'AI bubble' question every investor is asking?
+- Your SIP rose on Friday while Japan and Korea fell 5%. Is that India's strength, or just where the money ran to?
 
 ### How hot it is
-- trends.py 'Anthropic IPO': HOT and saturated (100 of 100 news items this week came today); YouTube 3 new videos in 24 h, 372K views, best 11,985/hr ('Anthropic IPO: What investors are really betting on', 288K in 24 h).
-- vidIQ keyword 'anthropic ipo' (18 Nov reading): volume 85/100, competition 74, about 516,000 searches a month, India 19% of searches.
-- vidIQ Instagram/TikTok outliers since 12 Nov: still no Indian reel on the Anthropic IPO broke out; Indian IPO outliers are Mahanadi Coalfields quota and GMP reels.
+- trends.py 'Sensex': HOT and saturated (100 of 100 news items this week came today); YouTube best 11,114 views/hr this week.
+- trends.py 'AI stocks crash': COLD on Google News (an English phrase that Indian outlets don't use), but YouTube has 1.64M views this week, best 10,953/hr ('Nvidia Will Trigger a Massive Stock Market Crash', 1.05M in 96 h).
+- trends.py 'FPI record inflow': COLD on news, YouTube 29K views: the inflow number itself has not been made into Shorts.
+- vidIQ Instagram/TikTok outliers since 12 Nov (India, finance): the theme is breaking out: 'World in danger' (US outages and risk, 'invest in India') 6.8M; FII-buying data lists 172.6K (77x); India's market back in the world's top 5, split screen, 96.8K (27x).
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [@cnbc (TikTok, 1.4M followers)](https://www.tiktok.com/@cnbc/video/7706561491138268429) | Anchor read of the terms: 825 million shares at $70-78, trades 19 Nov | 240K | 37.6x usual | 10 Nov |
-| [@jam.100k (TikTok, 5.8K followers)](https://www.tiktok.com/@jam.100k/video/7707515561315536150) | 9 s screen recording: 'why would Anthropic release on 19th' | 119K | 11.8x usual | 13 Nov |
-| [CNBC Television (YouTube)](https://www.youtube.com/watch?v=eYDIDemcXz0) | Squawk Box, Steve Eisman: 'Anthropic IPO is not important anymore' | 390K | 9.9x usual | 17 Nov |
-| [Doordhan E15 (our own, Instagram)](https://www.instagram.com/reel/DfCLDbOyFWj) | Creator format: 'the God share' you can never buy | 12.7K | about 22x our 72 h median | 28 Oct |
+| [@abhishekkarofficial (Instagram, 3.8M followers)](https://www.instagram.com/reel/Df1QPIXPDQE) | 'World in danger': talking head on US tech outages and market risk, ends by favouring the Indian market | 6.8M | 8x usual | 17 Nov |
+| [@moneycharcha_ (Instagram, 1.8K followers)](https://www.instagram.com/reel/Dfrn4ZiR79Q) | FII buying data 'will shock you', comment-a-keyword CTA for the stock list | 172.6K | 76.7x usual | 13 Nov |
+| [@vishal_techzone_ (Instagram, 2.1K followers)](https://www.instagram.com/reel/DftaUr0pB2X) | Split screen: India back in the world's top 5 markets at $5.4 trillion, foreign money driving it | 96.8K | 26.9x usual | 14 Nov |
+| [@tradeinvestsimplify (TikTok, US)](https://www.tiktok.com/@tradeinvestsimplify/video/7709261118098771213) | Nvidia earnings, outages, 'markets in chaos', split screen over news screenshots | 58K | 5.2x usual | 17 Nov |
 
-_Everyone read the terms before the listing; nobody in India has told the day itself: +34% at the open, +17% at the close. Missing: the afternoon slide, and who bought at the open._
+_Indian creators are making 'world in danger' warnings and FII stock lists; nobody has put Friday's two screens side by side: the US in a correction and Asia's worst week since 2020 on one half, India at a nine-month high on the other. Missing: the one-day contrast, with Anthropic's day two as the face of it._
 
 ### Facts and sources
-- IPO price $83; opened just after 11:30 am ET at $111.50 (+34%); high $115.10; closed $97.17 (+17%); down ~13% from the open after 30 minutes; SpaceX opened +11% and was up ~10% at 30 minutes; ~$15 bn traded in the first minute vs ~$9 bn for SpaceX; $81.3 bn raised on 980 million shares; A-Grade's $435 million now ~$7 bn. — [Yahoo Finance live blog, 19 Nov 2026](https://finance.yahoo.com/technology/live/anthropic-ipo-live-anthropic-stock-begins-trading-in-record-81b-raise-with-15t-valuation-192410598.html)
-- Close $97, up more than 17% (headline). — [Forbes, 19 Nov 2026 (headline seen; page refused our fetch)](https://www.forbes.com/sites/fionariley/2026/11/19/anthropic-ipo-live-stock-closes-day-at-97-up-more-than-17/)
+- S&P 500 -3.59% to 6,918.45, 7th straight loss, longest streak since Feb 2020, >10% below the 6 Oct record (correction); Nasdaq erased its 2026 gains; Nvidia, Micron, Broadcom, AMD down ~12-14%; Anthropic ~-9% on day two after +17% on day one; Huang resigned 12 Nov, Kress interim CEO; VIX above 30; Taiwan -5.65%, Nikkei and Kospi ~-5%. — [Fortune, 20 Nov 2026](https://fortune.com/2026/11/20/sp-500-correction-panic-selling-ai-selloff-nasdaq-2026-gains-bnp-paribas/)
+- Nikkei -5.1% to ~56,437; Kospi -5.2% to ~4,870; Taiwan ~-6.2% on the day, ~-17.5% for the week (worst since 1991); MSCI Asia-Pacific ex-Japan ~-8.5% for the week; Anthropic opened $111.50 vs $83, closed day one $97.17. — [Coinpaper, 20 Nov 2026](https://coinpaper.com/39137/nvidia-and-anthropic-fail-to-save-ai-stocks-as-asia-faces-worst-market-week-since-2020)
+- Asian stocks heading for their worst week since 2020; Hang Seng about 20% below its 29 Jan peak; SoftBank, Kioxia, Ibiden down more than 10% in the morning. — [Kotak Neo, 20 Nov 2026](https://www.kotakneo.com/news/global-markets/kospi-nikkei-fall-hang-seng-nears-bear-market-as-ai-selloff-spreads/)
+- Sensex +897.96 (+1.08%) to 83,919.71; Nifty +286.30 (+1.12%) to 25,800.60; nine-month highs; fourth straight weekly gain; private banks +3%; breadth negative (2,456 fell, 1,582 rose); FPIs $12.21 bn in November so far; Brent -23% in November; rupee 92.67/$. — [HDFC Sky market close report, 20 Nov 2026](https://hdfcsky.com/news/market-close-report-today-november-20-2026-nifty-sensex-scale-nine-month-highs-as-investors-dump-global-ai-for-india)
+- FPIs bought a record ₹89,856 crore of Indian equities in November so far; $9.53 bn in the first half of the month; reasons: AI slowdown pushing money out of the US, Korea and Taiwan, strong Jul-Sep earnings, cheaper crude; analysts call much of it tactical and reversible (a December Fed hike is priced at 95%). — [Econiti, 18 Nov 2026](https://www.econiti.org/daily-news/2026-11-18/2026-11-18-fpi-record-inflows-november-ltcg-debate/)
 
 ### Watch out
-- Market value at the close differs by source: about $1.27 trillion on the listed share count (Yahoo, Forbes) and $1.76-1.77 trillion fully diluted (CNN, Bloomberg). Say which one, or use the price and the % instead.
-- Bloomberg's headline says a $107 billion IPO; Yahoo, Forbes and CNBC say $81.3 billion. Use $81.3 billion (the offering) unless the script says otherwise.
-- SEBI price-data rule: the first day as news is fine (open, close, % move); no chart, price levels, targets or ratings, and no buy, hold or sell call. Don't tell Indian viewers how to buy it.
-- Bets: carries B4 (split screen: the Claude logo and '+34% → +17%' on the top half) and B3 if one line inside 12 s names who lost (the buyers at the open).
+- The November FPI number differs by source and cutoff: ₹89,856 crore (Econiti, ~17 Nov), ₹99,158 crore (Business Standard headline, NSDL, 18 Nov; page refused our fetch), $12.21 bn (HDFC Sky, likely including debt and IPO flows). Say 'a record' or use the newest rupee figure with its date.
+- Nvidia's Friday move differs by source (Fortune: chipmakers down roughly 12-14%; other reports 3-6% at the close). Use the S&P, Nikkei and Kospi numbers, which agree, rather than Nvidia's.
+- Anthropic's day-two close price was not on any page we opened; only 'about 9%' (Fortune). Don't put a price on screen.
+- No buy or sell call, and no 'invest in India instead' (that is the 6.8M reel's call; it is advice). The SEBI price-data rule: index moves as news are fine; no chart levels or targets.
+- No politicians on screen (E16): Trump's data-centre tax threat is in the Fortune story; leave him out of the footage and the cover.
+- Bets: carries B4 (split screen: the S&P/Nikkei/Kospi in red on the top half against the Sensex in green, or Anthropic's logo and '-9%') and B3 if one line inside 12 s gives the viewer something to send (the one-day contrast).
 
-## 2. Hallmark on your gold, but who checked it? A CAG draft audit says BIS skipped 43.7% of its required checks on hallmarking centres, and inspected 5,444 of 28,865 jewellers in 2024-25
+## 2. Coal India's ₹8,981 crore Mahanadi Coalfields IPO is half-subscribed after two days: retail 0.25x, and the grey-market premium fell from ₹25 to ₹1.3 in a week
 
-Hot lane (new: CAG draft audit of BIS reported 17 Nov; the week's biggest money topic on Indian Reels) · HOT · **8/10** (momentum 3/3, stake 1/1, shareability 2/2, gap 1/2, known name 1/2) · tracker id `bis-hallmark-cag`
+Hot lane (tracked since 18 Nov; new since then: the IPO opened Thu 19 Nov and is half-subscribed after two days, with the grey-market premium near zero) · HOT · **8/10** (momentum 3/3, stake 1/1, shareability 1/2, gap 2/2, known name 1/2) · tracker id `mahanadi-coalfields-ipo`
 
-Window: Through the wedding season, about two weeks; the next turn is the Consumer Affairs Ministry's reply or the report reaching Parliament.
+Window: Today to Mon 23 Nov (the issue closes Monday); listing Fri 27 Nov is the follow-up.
 
 ### What's happening
-- A CAG draft audit report on the Bureau of Indian Standards found BIS carried out 2,826 of the 5,020 prescribed surveillance audits of Assaying and Hallmarking Centres (the labs that test purity before the hallmark goes on) from 2020-21 to 2024-25: 2,194 missed, a 43.7% shortfall (Business Today, 17 Nov, citing The Hindu BusinessLine).
-- Worst regions: Kolkata did 359 of 1,345 (73.3% short); Delhi 348 of 1,063 (67.3% short); Chandigarh missed 38.8%; Chennai 14.45% (Business Today).
-- In 2024-25 BIS inspected 5,444 of 28,865 licensed jewellers, leaving 23,421 unchecked that year; over the five years more than 83% of registered jewellers missed their annual inspection (APAC News Network, 17 Nov).
-- BIS blamed manpower shortages and the difficulty of collecting samples in remote areas; the CAG called that inadequate. The draft has gone to the Consumer Affairs Ministry and goes to Parliament after that (APAC News Network).
-- Separately, a Dainik Bhaskar sting on rhenium-mixed gold getting a 22K hallmark is driving most of the views; we could not open the original report, so its numbers are unverified.
+- Mahanadi Coalfields, a Coal India subsidiary, opened its IPO on Thu 19 Nov at ₹129-136 a share; it closes Mon 23 Nov, with allotment on 25 Nov and listing (tentative) on 27 Nov (Chittorgarh).
+- It is entirely an offer for sale of ₹8,981.12 crore by Coal India: the company gets none of the money. Market value at the top of the band is ₹90,009.74 crore; anchors took ₹2,295.25 crore (Chittorgarh).
+- After two days (5:05 pm, 20 Nov) it was subscribed 0.49x overall: QIBs 1.37x, retail 0.25x, NII 0.18x, employees 0.09x, Coal India shareholders 0.28x (HDFC Sky).
+- The grey-market premium fell from ₹25 on 13 Nov to ₹13 on 14 Nov, ₹6 on 16 Nov, ₹2.3 on 19 Nov and ₹1.3 on 20 Nov, an implied listing gain under 1% (IPOWatch).
+- Profit was ₹10,698 crore in FY26, down from ₹10,825 crore in FY25; total income ₹33,899 crore, up about 3% (Chittorgarh).
 
 ### The curiosity gap
-- Every jeweller says 'hallmark hai'. The audit says the people meant to check the hallmark labs skipped 2,194 checks. So who is checking?
-- 4 out of 5 licensed jewellers were not inspected in a year, and the regulator's answer is 'we're short of staff'.
-- It's wedding season. Is the 22K you're paying for actually 22K?
+- A coal company that makes over ₹10,000 crore a year, sold by Coal India, and retail has bid for a quarter of its shares. Why are small investors staying away from a 'safe' PSU?
+- The grey market priced a ₹25 gain a week ago and about ₹1 now. Who walked away, and what did they see?
+- Every rupee raised goes to Coal India, not to Mahanadi. Whose IPO is it really?
 
 ### How hot it is
-- trends.py 'hallmark gold': HOT; YouTube this week 11 videos (6 in 24 h), 1.07M views, best 19,690/hr.
-- Google News: 3 items this week (Hindi coverage is wider than English).
-- vidIQ YouTube (IN, since 10 Nov): Ankit Avasthi 623K (15,888/hr), Ankit Sir Clips 663K, CryptoWala 277K short (8,403/hr); Manveen Singh's short 79K, 93x his usual.
+- trends.py 'Mahanadi Coalfields IPO': HOT (23 of 100 news items this week came today); YouTube 16 videos this week, 654,705 views, best 5,769/hr.
+- vidIQ YouTube (Shorts and short videos, IN, since 12 Nov): Zee Business 'apply or not? 9.3% dividend yield' 157.6K (28.5x usual); Zee Business Anil Singhvi preview 138.4K (9.1x); Kotak Neo review 97.3K.
+- Strategist (15 Nov): Indian IPO outliers this month are Mahanadi quota and GMP reels.
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [@aajtak (Instagram, 18M followers)](https://www.instagram.com/reel/Df0BAmqBq-m) | Split screen, anchor over gold close-ups: 'Hallmark asli, phir bhi sona nakli?' on the CAG report | 2.2M | 3.6x usual | 16 Nov |
-| [@bhaskarenglish_ (Instagram, 41K)](https://www.instagram.com/reel/Df0wWOWhTCG) | Investigation montage: rhenium powder from China beats the testing machines | 714K | 340.6x usual | 17 Nov |
-| [@wittychokha (Instagram, 77K)](https://www.instagram.com/reel/DfzEkf6gF8Y) | Host to camera then news clips: 'hallmark wala nakli sona' and the CAG report | 665K | 153.9x usual | 16 Nov |
-| [Manveen Singh (YouTube Shorts, 1K subscribers)](https://www.youtube.com/watch?v=5gty8zc1pnM) | How adulterated gold passes BIS hallmark tests, with the CAG's 81% stat | 79K | 93x usual | 18 Nov |
+| [Zee Business (YouTube, 6.49M subscribers)](https://www.youtube.com/watch?v=jcn8lIuQN1Y) | 'Apply? 9.3% dividend yield and the truth about valuation' | 157.6K | 28.5x usual | 19 Nov |
+| [Zee Business (YouTube)](https://www.youtube.com/watch?v=RdMh-qvHJo0) | IPO preview, apply or not, Anil Singhvi's view | 138.4K | 9.1x usual | 19 Nov |
+| [StockBox (YouTube, 59.1K subscribers)](https://www.youtube.com/watch?v=0_jAhMCpTpo) | Review short: apply or avoid, pure OFS, GMP ₹7-9 on 16 Nov | 76.1K | 4.8x usual | 16 Nov |
+| [Aism India (YouTube Shorts, 340K subscribers)](https://www.youtube.com/watch?v=lt5VY-kpXRI) | 'India's largest coal producer is going public', the shareholder quota | 48.1K | n/a | 16 Nov |
 
-_Everyone made the rhenium sting and 'check the HUID'. Nobody told it from the audit's own numbers: 2,194 missed checks, 4 in 5 jewellers unchecked, and the regulator's 'staff shortage' reply. The joke lands on the system._
+_Every reel is an 'apply or avoid' review made before the issue opened. Nobody has covered what happened next: retail at 0.25x and the grey market falling from ₹25 to ₹1.3. Missing: why the crowd is staying away._
 
 ### Facts and sources
-- 2,826 of 5,020 prescribed AHC surveillance audits done, 2020-21 to 2024-25; 2,194 missed; 43.7% shortfall; Kolkata 359/1,345 (73.3%), Delhi 348/1,063 (67.3%), Chandigarh 38.8%, Chennai 14.45%; draft audit report. — [Business Today, 17 Nov 2026](https://www.businesstoday.in/latest/corporate/story/2194-gold-hallmarking-audits-missed-in-five-years-who-is-checking-the-labs-certifying-your-jewellery-567810-2026-11-17)
-- 2024-25: 5,444 of 28,865 licensed jewellers inspected, 23,421 not; over 83% missed annual inspections over five years; ~2.3 lakh registered jewellery establishments; BIS cited manpower and logistics, CAG found it inadequate; draft sent to the Consumer Affairs Ministry. — [APAC News Network, 17 Nov 2026](https://apacnewsnetwork.com/2026/11/cag-bis-gold-hallmarking-oversight-jeweller-inspections/)
+- Dates 19-23 Nov, allotment 25 Nov, listing 27 Nov (tentative); price band ₹129-136; lot 110 shares (₹14,960); ₹8,981.12 crore, all OFS by Coal India; anchor ₹2,295.25 crore; market cap ₹90,009.74 crore at the top; FY26 PAT ₹10,698.12 crore vs ₹10,825.12 crore in FY25. — [Chittorgarh IPO page](https://www.chittorgarh.com/ipo/mahanadi-coalfields-ipo/3247/)
+- Day 2 (5:04:59 pm, 20 Nov): total 0.49x; QIB 1.37x; retail 0.25x; NII 0.18x; employees 0.09x; shareholders 0.28x; day 1 was 0.38x. — [HDFC Sky, 20 Nov 2026](https://hdfcsky.com/news/mahanadi-coalfields-ipo-subscription-status-day-2)
+- GMP ₹25 (13 Nov), ₹13 (14 Nov), ₹10 (15 Nov), ₹6 (16 Nov), ₹3.5 (17 Nov), ₹3 (18 Nov), ₹2.3 (19 Nov), ₹1.3 (20 Nov, 6:17 pm; est. gain 0.96%); subscription 0.48x. — [IPOWatch GMP tracker](https://ipowatch.in/mahanadi-coalfields-ipo-gmp/)
 
 ### Watch out
-- It is a draft audit: say 'CAG's draft report', not 'CAG proved fake gold'. Missed inspections are not proof that hallmarks are fake.
-- The rhenium-sting numbers (1 g rhenium in 7.83 g gold, 22K916 hallmark) appear only in creators' descriptions; we could not open the Bhaskar original. Keep them out unless Akhilesh wants them, and then source them first.
-- '5,444 of 28,865' is one year (2024-25); '83%' is the five-year figure. Don't mix them.
-- Gold has been in the outliers for weeks; this is a consumer-protection story, not a gold-price call. Bets: B4 (gold close-up and '2,194 checks missed' on the top half), B3 (a line a viewer sends to whoever is buying wedding gold).
+- Subscription figures differ slightly by source and time (0.48x Business Standard and IPOWatch, 0.49x HDFC Sky). Day 3 is Monday; numbers will move. Give the time with any number.
+- GMP is unofficial; say so if it is used.
+- No 'apply' or 'avoid' call: that is the line every other creator crosses, and it is a buy/sell call on a specific stock for us.
+- The '9.3% dividend yield' is Zee Business's claim; we have not verified it. Don't use it without the source.
+- Bets: carries B4 (split screen: the Coal India/MCL name and 'GMP ₹25 → ₹1.3' on the top half) and B3 if one line inside 12 s names the stake (whose money the IPO raises).
 
-## 3. Direct plans became the default on fund-house websites on 1 November, yet 70% of retail and HNI mutual fund money still sits in the costlier 'regular' plans
+## 3. Indians have borrowed a record ₹1.53 lakh crore from their brokers to buy shares, at 9-18% interest, two-thirds of it in small and mid caps, and SEBI is weighing a cap
 
-Deep lane (The Ken, 19 Nov: 'The costlier mutual fund plan is still called regular, and most investors are in it'; facts from open pages) · COLD · **6/10** (momentum 0/3, stake 1/1, shareability 2/2, gap 2/2, known name 1/2) · tracker id `regular-plan-70pc`
+Deep lane (Reuters, 17 Nov; The Morning Context, 17 Nov: 'SEBI's flip-flops on leverage trading surge') · FLAT · **7/10** (momentum 1/3, stake 1/1, shareability 2/2, gap 2/2, known name 1/2) · tracker id `mtf-record-leverage`
 
-Window: Evergreen, but it rides on the 1 November SEBI change; best within two weeks while 'direct default' is new.
+Window: Two weeks (to about 5 Dec), or until SEBI's consultation paper comes out, which makes it news again.
 
 ### What's happening
-- From 1 November, SEBI made direct plans the default option on fund houses' own websites and apps; regular plans stay, and existing investments don't move by themselves (The Ken subhead; Business Today and 5paisa explainers).
-- Even so, 70% of retail and HNI mutual fund assets are still in regular plans (The Ken, 19 Nov, public subhead).
-- Regular plans cost more because the expense ratio includes a distributor's trail commission, paid every year for as long as the money stays invested (Business Today, 13 Nov).
-- Business Today's illustration: a Rs 10,000 monthly SIP for 20 years, assuming 12% a year in direct and 11% in regular, ends at Rs 98.9 lakh vs Rs 87.4 lakh, a gap of Rs 11.5 lakh. These are assumptions, not returns (13 Nov).
+- Margin trading facility (MTF) books, money brokers lend clients to buy shares, reached a record ₹1.53 lakh crore (about $16.3 billion), up 29% in a year and nearly double the end-2024 level (Reuters via Khaleej Times, 17 Nov).
+- About two-thirds of it is in small- and mid-cap stocks. Brokers lend up to 4 times the client's own money, at 9-18% interest a year (Reuters).
+- In at least 36 stocks, borrowed positions exceed 10% of the shares that trade freely; in more than 220 stocks, over 5% (Reuters).
+- SEBI is discussing a cap: no new margin-funded buying in a stock once 5-10% of its free float is margin-funded. The thresholds are not final and will go to public consultation; SEBI is not planning to stop MTF and has put on hold an earlier plan to widen it (Reuters; Kotak Neo).
+- The Morning Context (17 Nov) reports on SEBI's back-and-forth on leverage as the surge grew (paywalled; headline only).
 
 ### The curiosity gap
-- The cheaper plan is now the default button, and 70% of the money still sits in the expensive one. Why?
-- It's called 'regular', which sounds normal. It's the one that pays a commission every year, forever.
-- One percentage point a year sounds small. On a Rs 10,000 SIP over 20 years, assumed returns put the gap at about Rs 11.5 lakh.
+- ₹1.53 lakh crore of the money in the market right now is borrowed, at up to 18% a year. Who is borrowing at credit-card-like rates to buy small caps?
+- In 36 stocks, more than a tenth of the freely traded shares were bought with borrowed money. What happens to those stocks on a bad day, when the brokers call the loans?
+- Your broker's app offers '4x'. Why is SEBI now thinking of switching it off stock by stock?
 
 ### How hot it is
-- trends.py 'regular plan mutual fund': COLD; Google News 0 items this week; YouTube 8 videos, 94K views, best 792/hr.
-- vidIQ outliers since 1 Nov: no reel on direct vs regular broke out; the MF outliers are portfolio reviews (@investwithshikhar 442K, 21.7x) and SWP maths (@ashavkumar25 311K, 296x).
+- trends.py 'margin trading facility': FLAT (3 of 18 news items this week came today); YouTube 11 videos this week, 21,605 views, best 304/hr ('SEBI ne share bazaar par chalaya danda! Margin Trading Facility', 14.6K in 48 h). (channel and link not captured)
+- Few Shorts on it: the gap is wide open.
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [@ashavkumar25 (Instagram, 396 followers)](https://www.instagram.com/reel/Df1yJDKNZlv) | Adjacent: SWP maths with the numbers in frame one ('Rs 10 lakh, Rs 6,000 a month') | 311K | 295.5x usual | 17 Nov |
-| [@investwithshikhar (Instagram, 13K)](https://www.instagram.com/reel/DfnIHDYubYp) | Adjacent: a 12-fund portfolio review on a split screen | 442K | 21.7x usual | 11 Nov |
+| [@marketwithpradeep (Instagram, 48K followers; adjacent: retail behaviour)](https://www.instagram.com/reel/DfuM0hjAsPe) | 'Why retail investors always lose money': split-screen table of then-and-now prices | 1.9M | 92.9x usual | 14 Nov |
 
-_Nobody has made the 1 November default change into a reel. Open: 70% still in regular, and a name that hides a lifetime commission. The humour lands on the seller and the label, not the viewer._
+_Almost nothing on the leverage number itself; the adjacent 'retail investors always lose' reels are breaking out (1.9M, 93x). Missing: the borrowed ₹1.53 lakh crore and the 9-18% interest behind it._
 
 ### Facts and sources
-- Direct plans became the default on AMC websites from 1 November; 70% of retail and HNI mutual fund assets remain in regular plans. — [The Ken (Ka-Ching!), 19 Nov 2026, public subhead](https://the-ken.com/story/the-costlier-mutual-fund-plan-is-still-called-regular-and-most-investors-are-in-it/)
-- Rs 10,000 monthly SIP, 20 years, 12% (direct) vs 11% (regular) assumed: Rs 98.9 lakh vs Rs 87.4 lakh, gap Rs 11.5 lakh; invested Rs 24 lakh each; illustrative, not guaranteed. — [Business Today, 13 Nov 2026](https://www.businesstoday.in/mutual-funds/story/direct-vs-regular-mutual-funds-are-investors-paying-a-lifetime-commission-for-one-time-advice-567195-2026-11-13)
+- MTF book ₹1.53 trillion (~$16.3 bn), a record, +29% y/y, nearly double end-2024; two-thirds in small and mid caps; leverage up to 4x at 9-18%; 36 stocks >10% of free float, 220+ stocks >5%; SEBI weighing a 5-10% free-float cap on new MTF positions, to go to consultation; not curbing MTF; wider-scope plan on hold. — [Reuters via Khaleej Times, 17 Nov 2026](https://www.khaleejtimes.com/business/india-may-limit-leveraged-stock-bets-to-curb-volatility-sources-say)
+- Same figures; NSE, BSE and Groww shares on the day (Groww ₹227.98, +1.36% at 1:15 pm). — [Kotak Neo, 17 Nov 2026](https://www.kotakneo.com/news/market-news/nse-bse-groww-shares-in-focus-as-sebi-considers-tighter-mtf-rules-amid-rising-margin-funded-exposure)
+- Context (older): NSE put the MTF book at ₹1.48 lakh crore in August 2026, up from ₹96,000 crore a year earlier. — [Free Press Journal (context, not the headline number)](https://www.freepressjournal.in/business/nse-flags-margin-trading-violations-by-stockbrokers-as-mtf-book-surges-to-148-lakh-crore)
 
 ### Watch out
-- The 70% is The Ken's figure for retail and HNI assets; older AMFI/CRISIL data puts the direct share of individual investors' AUM at about 30% (Mint), which agrees. Credit 'via The Ken' in the caption.
-- Any return in the example is said as an assumption ('12% maan ke'). No 'switch now' or fund names: it is about plan type, not a buy/sell call.
-- Distributors do give advice; aim the joke at the label and the lifetime trail, not at people who chose regular.
-- Bets: B4 (the '70%' and the two plan labels on the top half), B3 (a line to send to the parent whose SIP the bank RM set up).
+- The Reuters story is from sources; the thresholds are not final. Say 'SEBI is considering', not 'SEBI has capped'.
+- No names of the 36 stocks were published; don't guess any.
+- Humour on the system or the herd (the '4x' button), not on the viewer who uses it.
+- Credit the outlet in the caption if the reel uses The Morning Context's angle ('via The Morning Context').
+- Bets: B4 needs a picture for the top half (a broker app's '4x' leverage screen, made locally, no real broker logo unless the reel is about that broker); B3 if one line names the 9-18% rate inside 12 s.
 
 ## Stories we're tracking
 
@@ -141,32 +151,32 @@ Full board: research/desk/TRACKER.md
 
 | Story | Now | Direction | Day | Status |
 |---|---|---|---|---|
-| Groww's F&O share of revenue falls to 45%; turns to IPOs and wealth (via The Arc) (`groww-derivatives-arc`) | COLD | fading | 34 | active |
-| Anthropic S-1: $16.3 bn H1 revenue, $80.7 bn loss ($72.4 bn paper charge) (`anthropic-s1`) | HOT | steady | 23 | active |
-| ₹89,000 cr of unclaimed shares with IEPF; Reliance biggest slice (Diwali-cleaning certificate reels) (`unclaimed-shares-iepf`) | HOT | rising | 12 | active |
-| Novartis India: ~50 staff, ₹1,446 cr for 71%; open offer got 40 shares (via The Ken) (`novartis-india-ken`) | COLD | steady | 11 | active |
-| B.R. Shetty liable in $5.4 bn NMC fraud; sold Finablr for $1; BoB paid $600M (via The Morning Context) (`br-shetty-nmc`) | COLD | fading | 10 | active |
-| Jio more customers, Airtel more money: ARPU ₹271 vs ₹218.8 (`airtel-vs-jio-arpu`) | COLD | fading | 9 | active |
-| NSE banned brokers' digital gold, then picked Augmont for EGRs (via The Ken) (`nse-augmont-digital-gold`) | COLD | steady | 8 | active |
-| India's 'sovereign' AI rented from Nvidia GPU clouds; E2E -36% from Oct high (via The Ken) (`india-sovereign-ai-nvidia`) | COLD | rising | 6 | active |
-| Mahanadi Coalfields IPO: Coal India sells 10% of India's largest coal producer (opens 19 Nov) (`mahanadi-coalfields-ipo`) | RISING | rising | 5 | active |
-| Ola Electric closes its own stores for dealers; Q2 revenue -39% to Rs 421 cr (via The Morning Context) (`ola-electric-dealers`) | FLAT | fading | 5 | active |
-| Nvidia Q3 $115.8 bn, doubled; board won't reinstate Huang (`nvidia-q3-board-no-huang`) | FLAT | fading | 3 | active |
-| Yes Bank AT1 Rs 8,415 cr: SC restored the bonds; Yes Bank and RBI seek review (`yes-bank-at1`) | COLD | fading | 3 | active |
-| SpiceJet: Rs 5,500 cr raise vs Rs 1,522 cr mcap; shares +30% in a week amid cancellations (`spicejet-fundraise`) | FLAT | new | 2 | active |
-| ESDS: 2026's top IPO tripled on a $1.25 bn GPU deal it pays for (via The Morning Context) (`esds-sharon-ai`) | COLD | new | 2 | active |
-| CAG draft audit: BIS hallmark checks missed (`bis-hallmark-cag`) | - | new | 1 | active |
-| 70% still in regular MF plans after direct default (`regular-plan-70pc`) | - | new | 1 | active |
+| Groww's F&O share of revenue falls to 45%; turns to IPOs and wealth (via The Arc) (`groww-derivatives-arc`) | COLD | fading | 35 | active |
+| ₹89,000 cr of unclaimed shares with IEPF; Reliance biggest slice (Diwali-cleaning certificate reels) (`unclaimed-shares-iepf`) | COLD | fading | 13 | active |
+| Novartis India: ~50 staff, ₹1,446 cr for 71%; open offer got 40 shares (via The Ken) (`novartis-india-ken`) | HOT | rising | 12 | active |
+| B.R. Shetty liable in $5.4 bn NMC fraud; sold Finablr for $1; BoB paid $600M (via The Morning Context) (`br-shetty-nmc`) | FLAT | rising | 11 | active |
+| Jio more customers, Airtel more money: ARPU ₹271 vs ₹218.8 (`airtel-vs-jio-arpu`) | COLD | fading | 10 | active |
+| NSE banned brokers' digital gold, then picked Augmont for EGRs (via The Ken) (`nse-augmont-digital-gold`) | COLD | steady | 9 | active |
+| India's 'sovereign' AI rented from Nvidia GPU clouds; E2E -36% from Oct high (via The Ken) (`india-sovereign-ai-nvidia`) | COLD | fading | 7 | active |
+| Mahanadi Coalfields IPO: Coal India sells 10% of India's largest coal producer (opens 19 Nov) (`mahanadi-coalfields-ipo`) | HOT | rising | 6 | active |
+| Ola Electric closes its own stores for dealers; Q2 revenue -39% to Rs 421 cr (via The Morning Context) (`ola-electric-dealers`) | FLAT | steady | 6 | active |
+| Yes Bank AT1 Rs 8,415 cr: SC restored the bonds; Yes Bank and RBI seek review (`yes-bank-at1`) | FLAT | rising | 4 | active |
+| SpiceJet: Rs 5,500 cr raise vs Rs 1,522 cr mcap; shares +30% in a week amid cancellations (`spicejet-fundraise`) | RISING | rising | 3 | active |
+| ESDS: 2026's top IPO tripled on a $1.25 bn GPU deal it pays for (via The Morning Context) (`esds-sharon-ai`) | COLD | fading | 3 | active |
+| CAG draft audit: BIS hallmark checks missed (`bis-hallmark-cag`) | HOT | new | 2 | active |
+| 70% still in regular MF plans after direct default (`regular-plan-70pc`) | COLD | new | 2 | active |
+| AI selloff abroad, India at a nine-month high on record FPI buying (`ai-selloff-india-rally`) | - | new | 1 | active |
+| Record ₹1.53 lakh crore margin trading book; SEBI weighs a cap (`mtf-record-leverage`) | - | new | 1 | active |
 
 ## Also on the wire
-- Tracker: Anthropic HOT (story 1). Hallmark gold and regular plans added today. Unclaimed shares (IEPF) reads HOT and rising on YouTube (281K views this week) with little news (1 of 5 items today). Mahanadi Coalfields RISING (its IPO is open; quota reels are this week's Indian IPO outliers). SpiceJet FLAT, Nvidia and Ola Electric dealers FLAT and fading. Groww, Novartis India, B.R. Shetty, Airtel vs Jio, NSE-Augmont, sovereign AI, Yes Bank AT1 and ESDS COLD.
-- Also seen, not picked: markets rallied on 19 Nov, Nifty +1.14% to 25,514 and Sensex +1.21% to 83,022, auto index +4% (HDFC Sky/ANI). NSE's own shares hit a record Rs 2,207, up 26.46% in a month (Business Today, 19 Nov); the story turns on brokerage targets, which the SEBI rule keeps off screen. Page Industries (Jockey) fell about 12-13% on 12 Nov results; The Ken's follow-up (19 Nov) asks why investors fled, but trends reads COLD.
+- Tracker: Mahanadi Coalfields HOT and rising (story 2). Hallmark gold (CAG) still HOT on YouTube (793K views this week, best 15,756/hr) but no news since Thursday; stays on the board. Novartis India (The Ken) HOT on YouTube with no news. SpiceJet fundraise RISING (56 of 100 news items today). B.R. Shetty and Yes Bank AT1 FLAT; Ola Electric dealers FLAT. Regular plans (70%) COLD on its first check. Anthropic and Nvidia retired after their windows (Anthropic folds into story 1). Groww, unclaimed shares, Airtel vs Jio, NSE-Augmont, sovereign AI and ESDS COLD.
+- Also seen, not picked: Nifty's top gainers on 20 Nov were Apollo Hospitals (+5.29%) and Axis Bank (+4.72%), and IndusInd Bank rose 8.59%, but we found no clear cause on an open page (HDFC Sky). Retail-psychology reels ('everyone wanted TCS at ₹4,600', @tradingmargin 3.5M, 145x) are this week's biggest Indian finance outliers; they are stock lists, which we can't make.
 - Tool changes: no Higgsfield keys on this machine, so model_live.py refresh was skipped.
 
 ## Where we stand
 
-794 followers (-2 this week)  
-Last reel (Space and semiconductor sectors for long-term investors: Centum, MTAR (space); CG Power, Kaynes (semis); read the chart setup before entry): 365 plays so far, 64% swiped away in the first 3 s  
+795 followers (+0 this week)  
+Last reel (Space and semiconductor sectors for long-term investors: Centum, MTAR (space); CG Power, Kaynes (semis); read the chart setup before entry): 367 plays so far, 64% swiped away in the first 3 s  
 What every reel is testing:  
 - A line worth sending: shares per 1,000 plays 4.6 now, target 8 (4 of 4 reels in)
 - Split-screen opener: plays per reel 582 now, target 2000 (0 of 4 reels in)
