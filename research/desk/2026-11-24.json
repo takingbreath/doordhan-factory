@@ -1,0 +1,309 @@
+{
+ "date": "2026-11-24",
+ "date_label": "Tue 24 Nov 2026",
+ "session_link": "https://claude.ai/code/session_01PasrAtdXPTCzaesLaomq5A",
+ "pick": {
+  "id": "1",
+  "reason": "SEBI told brokers, research analysts, advisers and IPO platforms on Monday evening to stop publishing grey market premiums, calling them 'unofficial, unverified and unregulated'. GMP is the number our viewers check before every IPO, and nobody has a reel on the advisory yet (YouTube: one video, 4,063 views). It landed the evening India's biggest PSU IPO this year closed: Mahanadi Coalfields' GMP slid from ₹3.65 (17 Nov) to ₹0.45 (23 Nov), and retail filled only 46% of its quota. Shares list Friday 27 Nov, so the first listing after the advisory is a ready payoff. SEBI and the letters GMP land in frame one with a headline on the top half (split-screen bet).",
+  "runner_up": "2: Nvidia's biggest day ever. Jensen Huang was reinstated as CEO on Monday and Nvidia added about $952 billion in a day (+31.48%), the largest one-day gain in market value in history. Same day, the Sensex fell 1,484 points, and Anthropic slipped for a second day to $87.64, close to its $83 IPO price (follow-up for E15's viewers). Bigger heat, but the Huang saga has already been covered heavily (2.7M and 1.4M reels in India)."
+ },
+ "stories": [
+  {
+   "id": "1",
+   "tracker_id": "sebi-gmp-advisory",
+   "lane": "Hot lane (new; SEBI advisory Mon 23 Nov evening; tied to the tracked Mahanadi Coalfields IPO, which lists Fri 27 Nov)",
+   "title": "SEBI asked brokers, analysts and IPO platforms to stop publishing grey market premiums, calling GMP 'unofficial, unverified and unregulated', on the day Mahanadi Coalfields' IPO closed with a ₹0.45 GMP",
+   "label": "RISING",
+   "score": {
+    "total": 9,
+    "momentum": 2,
+    "stake": 1,
+    "share": 2,
+    "gap": 2,
+    "name": 2
+   },
+   "window": "Post by Thu 26 Nov. Mahanadi lists Fri 27 Nov (allotment Wed 25 Nov), and Crystal Crop Protection lists Thu 26 Nov: the first listings after the advisory. Watch for NSE/BSE circulars forwarding it.",
+   "happening": [
+    "On Monday 23 Nov SEBI issued a press release (PR No. 75/2026) asking all registered intermediaries and market participants to stop publishing, displaying or broadcasting IPO grey market premium figures, on websites, apps, email, SMS and social media (Tribune/ANI; Marketcalls).",
+    "Its reason: GMP figures are 'unofficial, unverified and unregulated', shared widely as if they predict listing prices or returns. GMP deals happen outside the exchanges, with no settlement guarantee and no investor protection (Tribune/ANI).",
+    "Investors in GMP-linked trades get no investor protection and cannot use the exchanges' grievance system or SEBI's ODR portal (Tribune/ANI; Marketcalls).",
+    "It is an advisory: no effective date, no penalty clause and no regulation cited, and it says nothing to newspapers or unregistered websites. By Monday night no NSE or BSE circular had forwarded it (Marketcalls).",
+    "Same day, the year's biggest PSU IPO closed: Mahanadi Coalfields (Coal India selling 10%, ₹8,981 crore, price band ₹129-136) ended 1.52x subscribed, carried by institutions at 4.95x while retail filled only 46% of its quota (BusinessToday, BSE data).",
+    "Its GMP slid from ₹3.65 on 17 Nov to ₹0.70 on 22 Nov and ₹0.45 on 23 Nov (IIFL), about 49 rupees a lot. Sources disagree: an earlier tracker reading had it near ₹25 before the issue opened, and Goodreturns printed a 'retail GMP of ₹100'. The disagreement is SEBI's point. Listing Fri 27 Nov."
+   ],
+   "curiosity_gaps": [
+    "Every IPO reel and app shows a GMP. SEBI now says nobody official stands behind that number. So who makes it, and why did it move from ₹3.65 to ₹0.45 in a week?",
+    "If you trade at the GMP and the other side doesn't pay, SEBI says nobody will hear your complaint. What exactly are people buying in the grey market?",
+    "Mahanadi lists on Friday. Will the first listing without the GMP crutch look any different from what the GMP said?"
+   ],
+   "measured": [
+    "trends.py 'IPO GMP | आईपीओ जीएमपी': RISING. 17 of 47 news items this week came today (36%); YouTube 3 videos this week, 68,524 views, best 1,943/hr ('Mahanadi Coalfields IPO final verdict | Mahanadi IPO latest GMP', 46,633 views in 24 h).",
+    "trends.py 'Sebi GMP ban': COLD so far (the news broke Monday evening); one YouTube video this week, 4,063 views.",
+    "Tracker: Mahanadi Coalfields IPO HOT and rising this morning (news 25 of 100 this week; YouTube 884,122 views this week, best 9,290/hr).",
+    "vidIQ Instagram/TikTok outliers since 10 Nov (India): IPO reels break out on PSU and quota angles (below); none yet on the advisory."
+   ],
+   "others": [
+    {
+     "who": "@stock_o_sphere (Instagram, 29K followers)",
+     "what": "Split screen with a demat screen: buy one Coal India share for Mahanadi's shareholder quota",
+     "views": "633K",
+     "multiple": "30.4x usual",
+     "date": "15 Nov",
+     "url": "https://www.instagram.com/reel/Dfw5Vrqza-n"
+    },
+    {
+     "who": "@accompanyakki (Instagram, 59K followers)",
+     "what": "'500 crore ka loss phir IPO': Atomberg's losses against its IPO, desk talking head with charts",
+     "views": "233K",
+     "multiple": "56.1x usual",
+     "date": "19 Nov",
+     "url": "https://www.instagram.com/reel/Df7MTRhjC52"
+    },
+    {
+     "who": "@ankitwealthmanager (Instagram, 908K followers)",
+     "what": "Animated '2 upcoming govt IPOs' with shareholder quota",
+     "views": "144K",
+     "multiple": "6.5x usual",
+     "date": "11 Nov",
+     "url": "https://www.instagram.com/reel/DfluntOsJwP"
+    }
+   ],
+   "others_takeaway": "IPO reels that travel are about getting an edge (quotas, red flags). Nobody has made a reel on SEBI's advisory, and nobody has shown the GMP's own record on Mahanadi (₹3.65 to ₹0.45 in a week) as evidence of what SEBI is warning about.",
+   "facts": [
+    {
+     "text": "SEBI advisory, Mon 23 Nov: stop publishing or circulating GMP; 'unofficial, unverified, and unregulated'; covers websites, platforms, email, SMS, social media; no investor protection; ODR not available; apply only via SEBI-registered intermediaries.",
+     "source": "The Tribune (ANI), 23 Nov 2026",
+     "url": "https://www.tribuneindia.com/news/gmp/sebi-advises-market-intermediaries-to-stop-publishing-ipo-grey-market-premiums-cautions-investors"
+    },
+    {
+     "text": "PR No. 75/2026; covers brokers, research analysts, investment advisers, IPO distribution platforms and pre-listing research notes; advisory with no effective date, no penalty clause; no NSE/BSE circular by 9:20 pm Monday.",
+     "source": "Marketcalls, 23 Nov 2026",
+     "url": "https://www.marketcalls.in/market-regulations/sebi-asks-registered-intermediaries-stop-publishing-ipo-gmp.html"
+    },
+    {
+     "text": "Mahanadi Coalfields final day: 1.52x; QIB 4.95x, NII 66%, retail 46%; ₹8,981.12 crore OFS by Coal India (10%); price band ₹129-136; allotment 25 Nov; listing 27 Nov.",
+     "source": "BusinessToday, 23 Nov 2026 (BSE data)",
+     "url": "https://www.businesstoday.in/markets/stocks/story/mahanadi-coalfields-ipo-subscribed-1-52-times-on-final-day-qibs-lead-demand-569138-2026-11-23"
+    },
+    {
+     "text": "Mahanadi GMP ₹3.65 (17 Nov), ₹0.70 (22 Nov), ₹0.45 (23 Nov); lot 110 shares; about ₹49 a lot.",
+     "source": "IIFL, 23 Nov 2026",
+     "url": "https://www.indiainfoline.com/news/ipo/mahanadi-coalfields-ipo-subscription-status-at-0-58x-gmp-falls-to-0-45-on-november-23"
+    },
+    {
+     "text": "Context: SEBI signalled in January 2025 that it wanted to curb IPO grey market trading, with a 'when listed' segment proposed.",
+     "source": "Business Standard, 21 Jan 2025 (context only)",
+     "url": "https://www.business-standard.com/amp/markets/stock-market-news/market-regulator-sebi-aims-to-curb-grey-market-trading-in-ipo-shares-125012100990_1.html"
+    }
+   ],
+   "watch_out": [
+    "It's an advisory, not a ban or a rule with penalties: don't call it a ban.",
+    "No listing-gain prediction for Mahanadi and no apply or skip call; the GMP figures are reported as what was published, not as a forecast.",
+    "Sources disagree on Mahanadi's GMP (₹0.45 IIFL, 0.29% BusinessToday, '₹100' Goodreturns); use IIFL's dated series and say the sites disagreed.",
+    "If our own past reels or captions quoted a GMP, don't make that the joke on viewers; the humour lands on the grey market and the apps that published it."
+   ]
+  },
+  {
+   "id": "2",
+   "tracker_id": "ai-selloff-india-rally",
+   "lane": "Hot lane (tracked since 21 Nov as 'AI selloff, India rally'; new turn: the trade flipped on Monday)",
+   "title": "Nvidia added about $952 billion in one day (+31.48%), the biggest one-day gain in market value ever, after Jensen Huang was reinstated as CEO; the same day the Sensex fell 1,484 points and Anthropic slid toward its IPO price",
+   "label": "HOT",
+   "score": {
+    "total": 9,
+    "momentum": 3,
+    "stake": 1,
+    "share": 2,
+    "gap": 1,
+    "name": 2
+   },
+   "window": "Today and tomorrow (Indian market shut today for Gurpurb; reopens Wed 25 Nov). Cools fast once Nvidia settles.",
+   "happening": [
+    "New since we last sent it: on Monday 23 Nov the trade we described on Saturday (India up, the AI stocks down) flipped in a single day.",
+    "Jensen Huang resigned as Nvidia's CEO on 12 Nov amid reports about his private life; Nvidia's board unanimously reinstated him on Monday, effective immediately (CNBC; Fox News).",
+    "Nvidia closed up 31.48% at about $165.05, its best day since May 2003. Market value rose about $952 billion to about $3.98 trillion, the largest one-day gain in market value in history, recovering nearly all of the $1.16 trillion lost after he left (Fox News; CNBC).",
+    "The Nasdaq rose 6.51%, its best day since April 2025, a week after its worst week since 2020 (CNBC).",
+    "Anthropic, which listed on Thu 19 Nov after a record $93.5 billion IPO and rose 17% on day one, fell for a second day: -8.5% Friday, -1.43% Monday to $87.64 (CNBC; Fox News). Its offering price was $83; on Monday it touched $84.61 intraday, and TradingKey tied the drop to Huang's push for open-weight models, a cheaper alternative for Claude's customers (NewsBreak/TradingKey).",
+    "India went the other way: the Sensex fell 1,483.72 points (1.77%) to 82,435.99 and the Nifty 1.75% to 25,349.65, led by banks (Nifty Bank -3%, off an all-time high). Reports cited fears of an AI bubble, a tighter US Fed and profit booking (DD India)."
+   ],
+   "curiosity_gaps": [
+    "One man came back to work and his company gained about $952 billion (about ₹88 lakh crore) in a day. What did investors price in him?",
+    "All of AI rallied on Monday except the stock everyone queued up for last week. Why did Anthropic fall while Nvidia jumped 31%?",
+    "Saturday's story was India winning while AI crashed. Monday it reversed. Was India's November rally just the other side of the AI trade?"
+   ],
+   "measured": [
+    "trends.py 'Nvidia Jensen Huang': RISING (85 of 100 news items this week came today); 'Sensex crash': HOT (YouTube 911,610 views this week, best 6,401/hr).",
+    "'Anthropic shares': FLAT (28 of 100 news items today; best YouTube 'Anthropic shares tumble after record-setting IPO', 17,728 views in 48 h).",
+    "Tracker this morning: ai-selloff-india-rally HOT and rising (YouTube 1,374,677 views this week, best 6,982/hr).",
+    "vidIQ Instagram outliers on the Huang saga in India since 10 Nov reach 1.3M to 2.7M (below); none yet on Monday's reinstatement."
+   ],
+   "others": [
+    {
+     "who": "@cryptowalaindia (Instagram, 755K followers)",
+     "what": "Split screen with the headline: 'Jensen Huang resigns: from dishwasher to $5 trillion'",
+     "views": "2.7M",
+     "multiple": "8.3x usual",
+     "date": "12 Nov",
+     "url": "https://www.instagram.com/reel/DfpbKSrTls0"
+    },
+    {
+     "who": "@abhishekxtrades (Instagram, 425K followers)",
+     "what": "Headline on top: '1,600 Nvidia employees urge the board to reinstate Huang'",
+     "views": "1.4M",
+     "multiple": "21.7x usual",
+     "date": "13 Nov",
+     "url": "https://www.instagram.com/reel/DfsDgLGMrAu"
+    },
+    {
+     "who": "@bhumir_24 (Instagram, 535K followers)",
+     "what": "Comedy: 'Nvidia CEO owes me', a portfolio grievance against Huang",
+     "views": "1.3M",
+     "multiple": "0.8x usual",
+     "date": "10 Nov",
+     "url": "https://www.instagram.com/reel/DfkLh96x_vF"
+    },
+    {
+     "who": "@startup_of_india_ (Instagram, 34K followers)",
+     "what": "Why India rallies while the US falls: India as an AI hedge",
+     "views": "294K",
+     "multiple": "39.2x usual",
+     "date": "10 Nov",
+     "url": "https://www.instagram.com/reel/DfjJmkJu_TE"
+    },
+    {
+     "who": "@hitech.anshi (Instagram, 74K followers)",
+     "what": "'World vs India': reaction skit, every market red except India",
+     "views": "130K",
+     "multiple": "11.9x usual",
+     "date": "22 Nov",
+     "url": "https://www.instagram.com/reel/DgAnlP6Ii9F"
+    }
+   ],
+   "others_takeaway": "The resignation was covered to death; the return and its record-sized day have no Indian reel yet. Nobody has put Monday's two screens side by side (Nvidia +31%, Sensex -1,484), or the one AI stock that fell.",
+   "facts": [
+    {
+     "text": "Nvidia +31.48% on 23 Nov; best day since May 2003; nearly $1 trillion added; down 40%+ over the past month; Huang resigned 12 Nov; Nasdaq +6.51%, best since 9 Apr 2025; Anthropic $93.5bn IPO, +17% debut, -8.5% Fri, -1.43% Mon.",
+     "source": "CNBC, 23 Nov 2026",
+     "url": "https://www.cnbc.com/2026/11/23/anthropic-nvidia-shares.html"
+    },
+    {
+     "text": "Board unanimously reinstated Huang 23 Nov; close about $165.05; market cap about $3.98tn, +$952bn, largest one-day market-value gain in history; Anthropic closed $87.64.",
+     "source": "Fox News live blog, 23 Nov 2026",
+     "url": "https://www.foxnews.com/live-news/ai-news-tech-markets-nvidia-11-23-26"
+    },
+    {
+     "text": "Anthropic $83 offering price; intraday low $84.61 on Monday (down more than 4% at one point); open-weight models may weaken Claude's pricing power; large tradable float.",
+     "source": "NewsBreak (TradingKey), 23 Nov 2026",
+     "url": "https://www.newsbreak.com/tradingkey-331884976/5025300308416-anthropic-shares-drop-over-4-after-jensen-huang-returns-to-nvidia-open-weight-models-may-weaken-claude-s-pricing-power"
+    },
+    {
+     "text": "Sensex -1,483.72 (1.77%) to 82,435.99; Nifty -450.95 (1.75%) to 25,349.65; Nifty Bank -3% to 62,585; Tata Steel, Axis Bank, HDFC Bank among laggards.",
+     "source": "DD India, 23 Nov 2026",
+     "url": "https://ddindia.co.in/2026/11/sensex-sheds-1484-points-nifty-drops-below-25400-amid-heavy-selling-in-banking-metal-stocks/"
+    }
+   ],
+   "watch_out": [
+    "No politicians: reports say President Trump lobbied Nvidia's board. Keep him out of footage, photos, the cover and the script's on-screen text (E16 rule).",
+    "Huang's resignation involves allegations about his private life and a possible security issue: state only that he resigned on 12 Nov and was reinstated; no speculation, no words in his mouth. His real photo is fine.",
+    "The ₹88 lakh crore conversion is our arithmetic at ₹92.92 a dollar ($952bn × 92.92); say 'about'. Sources give $952bn and 'nearly $963bn'; use $952bn (Fox, closing figures).",
+    "No buy or sell on Nvidia, Anthropic or Indian banks; no price targets or charts with levels (SEBI price-data rule)."
+   ]
+  },
+  {
+   "id": "3",
+   "tracker_id": "nsel-settlement",
+   "lane": "Deep lane (Moneylife and Free Press Journal, 23 Nov; the 2013 NSEL default)",
+   "title": "Thirteen years after the NSEL default, 5,682 investors were paid ₹1,950 crore on Monday: 42.34% of their admitted claims",
+   "label": "COLD",
+   "score": {
+    "total": 6,
+    "momentum": 0,
+    "stake": 1,
+    "share": 2,
+    "gap": 2,
+    "name": 1
+   },
+   "window": "This week, while the payout is news. A deep-lane story; no hard deadline.",
+   "happening": [
+    "On Monday 23 Nov the National Spot Exchange (NSEL) released a ₹1,950 crore one-time settlement to 5,682 claimants, under a scheme approved by the NCLT in Mumbai; 92.81% of claimants by number and 91.35% by value had voted for it (Free Press Journal; webindia123/PTI).",
+    "That is 42.34% of their admitted claims. One investor who put in about ₹12 crore received ₹4.73 crore (Free Press Journal).",
+    "The dispute dates back to July 2013, when NSEL stopped paying out on its commodity contracts (webindia123/PTI).",
+    "The payout came through NSEL's parent 63 Moons, founded by Jignesh Shah; an Economic Offences Wing investigation is part of the history. Shah: 'Not a single transaction was linked to my account; they were connected to the defaulters' accounts' (Free Press Journal).",
+    "An investor who has waited since 2013: 'What do you do when you are not getting anything? At least you are getting something' (Free Press Journal)."
+   ],
+   "curiosity_gaps": [
+    "An exchange stopped paying in 2013. Thirteen years later investors got 42 paise on the rupee. Where did the rest go?",
+    "₹12 crore went in, ₹4.73 crore came back after 13 years. What would that ₹12 crore have become in a plain FD?",
+    "The settlement came through the exchange's parent company. Who actually ended up with the money that went missing in 2013?"
+   ],
+   "measured": [
+    "trends.py 'NSEL settlement': COLD (3 news items today of 6 this week; YouTube 2 videos, 737 views, one in Telugu).",
+    "vidIQ outliers since 25 Oct: no reel on NSEL at all; the nearest breakouts are SEBI rule explainers (@abhishekkarofficial 990K) and a stock-return brag (@singhlicious 884K, off-limits)."
+   ],
+   "others": [
+    {
+     "who": "@abhishekkarofficial (Instagram, 3.8M followers)",
+     "what": "Adjacent: 'Ab mutual fund industry hilegi', a SEBI ruling explained to camera",
+     "views": "990K",
+     "multiple": "6.1x usual",
+     "date": "29 Oct",
+     "url": "https://www.instagram.com/reel/DfEjsvqs95i"
+    },
+    {
+     "who": "@the.b33st (TikTok)",
+     "what": "Adjacent: archival-footage documentary on the Ambani brothers' feud",
+     "views": "137K",
+     "multiple": "8.4x usual",
+     "date": "15 Nov",
+     "url": "https://www.tiktok.com/@the.b33st/video/7708404228850601229"
+    }
+   ],
+   "others_takeaway": "Nobody has made this. The angle nobody has taken: the 13-year price of an exchange failure, in one investor's numbers (₹12 crore in, ₹4.73 crore back).",
+   "facts": [
+    {
+     "text": "₹1,950 crore to 5,682 claimants on 23 Nov; 42.34% of admitted claims; ₹12 crore invested → ₹4.73 crore received; Jignesh Shah and investor quotes.",
+     "source": "Free Press Journal, 23 Nov 2026",
+     "url": "https://www.freepressjournal.in/mumbai/nsel-disburses-1950-crore-to-5682-investors-under-one-time-settlement-after-13-year-wait-jignesh-shah-says-payout-marks-end-of-long-litigation"
+    },
+    {
+     "text": "Headline: 'NSEL Scam: 5,682 Investors Receive ₹1,950 Crore as One-time Settlement' (page blocked to our fetcher; headline only).",
+     "source": "Moneylife, 23 Nov 2026",
+     "url": "https://www.moneylife.in/article/nsel-scam-5682-investors-receive-1950-crore-as-onetime-settlement/82254.html"
+    },
+    {
+     "text": "NCLT approval; 92.81% of claimants by number and 91.35% by value voted for it; dispute dates back to July 2013.",
+     "source": "webindia123 (PTI), 23 Nov 2026",
+     "url": "https://news.webindia123.com/news/Articles/Business/20261123/4523562.html"
+    },
+    {
+     "text": "Headline: 'NSEL releases ₹1,950 cr in one-time settlement, ends 14-yr payment default' (page blocked to our fetcher; headline only).",
+     "source": "Business Standard, 23 Nov 2026",
+     "url": "https://www.business-standard.com/markets/news/nsel-releases-1-950-cr-in-one-time-settlement-ends-14-yr-payment-default-126112300903_1.html"
+    }
+   ],
+   "watch_out": [
+    "Jignesh Shah has not been convicted; criminal cases continue. No 'scamster' language, and his quote only as he said it.",
+    "The total default (reported elsewhere as about ₹5,600 crore, about 13,000 investors) isn't on any page I could open (Rediff's headline says ₹5,600 crore; Business Standard and Moneylife blocked my fetcher). Check before using it.",
+    "'13 years' (from 2013) or 'nearly 14' differ by outlet; say 'since 2013'.",
+    "The FD comparison would be a worked example: say the rate as an assumption ('7% maan ke'). Credit 'via Moneylife' if their angle is used."
+   ]
+  }
+ ],
+ "wire": [
+  {
+   "text": "Tracker: Silver HOT but steady (no fresh low found since Friday's ₹1,47,813 close; your own silver-ETF draft is already in the repo). Mahanadi Coalfields IPO HOT and rising (folded into story 1). ESDS and the CAG hallmark audit HOT and rising; Ola Electric dealers FLAT but rising. IndusInd's Kathpalia clawback FLAT (IndusInd fell 3-4% Monday after formally terminating him). SpiceJet, Yes Bank AT1, MTF leverage and EPFO's PF payouts FLAT and fading. Groww, unclaimed shares, Novartis India, B.R. Shetty, Airtel vs Jio, NSE-Augmont, sovereign AI and regular plans COLD."
+  },
+  {
+   "text": "Also seen: RBI proposed a 'stop switch' that freezes all outgoing payments and a trusted-person approval for large digital transfers, to curb fraud (Mint, Moneycontrol, 23 Nov; draft rules). Big for everyone, but COLD so far and closer to everyday banking than investing."
+  },
+  {
+   "text": "Also seen: economists in a Moneycontrol poll unanimously expect a 25 bp RBI rate hike in December with inflation above 6%; S&P expects the same, and Indian companies rushed to raise $2.7 billion of debt ahead of it (Reuters). Touches EMIs and loans, which are resting."
+  },
+  {
+   "text": "Also seen: Tata Steel fell after its APL Apollo deal (CNBC); SG Mart +14% to a 52-week high on a fundraise plan; the rupee ended a five-day rally at 92.92 a dollar."
+  },
+  {
+   "text": "Tool changes: no Higgsfield keys on this machine, so model_live.py refresh was skipped."
+  }
+ ]
+}
