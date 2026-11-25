@@ -2,11 +2,11 @@
 
 Session: https://claude.ai/code/session_01PasrAsEdTHVotHJsZ53ikK
 
-**Pick: story 1.** India's biggest company decides on Monday 30 Nov whether it goes to the stock market. Tata Sons' board meeting on listing was pushed from 26 to 30 Nov after Tata Trusts chairman Noel Tata objected that directors got four days' notice, not seven. The RBI wrote on 16 Nov telling Tata Sons to follow the upper-layer NBFC rules 'including the requirement of listing', a rule that gave it three years from September 2022. The Tata name lands in frame one, a family-and-boardroom fight makes it shareable, and on Instagram only NDTV Profit's clip of Noel Tata (150K, 18.8x) has travelled. Post by Sun 29 Nov, or ride the outcome on Mon 30 Nov. Carries B4 (Tata logo or the RBI letter headline on the top half) and B3.
+**Pick: story 1.** Tata Sons' board meets on Monday 30 Nov with the stock-market listing the RBI wants back on the table. Tata Sons' board meeting on listing was pushed from 26 to 30 Nov after Tata Trusts chairman Noel Tata objected that directors got four days' notice, not seven. The RBI wrote on 16 Nov telling Tata Sons to follow the upper-layer NBFC rules 'including the requirement of listing', a rule that gave it three years from September 2022. The Tata name lands in frame one, a family-and-boardroom fight makes it shareable, and on Instagram only NDTV Profit's clip of Noel Tata (150K, 18.8x) has travelled. Post by Sun 29 Nov, or ride the outcome on Mon 30 Nov. Carries B4 (Tata logo or the RBI letter headline on the top half) and B3.
 
 Runner-up: 3: The Ken's deep piece on crypto: agencies chase up to Rs 20,000 crore in crypto trades that may break forex rules, the ED has searched CoinDCX and Delta Exchange, and nobody protects India's users after the $6.4 billion Binance hack. Good names, but the ED raids were covered heavily on 6-9 Nov (270K and 185K Shorts).
 
-## 1. Tata Sons' board will take up whether India's biggest group goes public on Mon 30 Nov, after Noel Tata got the 26 Nov meeting pushed back and the RBI told Tata Sons to follow its listing rule
+## 1. Tata Sons' board meets Mon 30 Nov with listing on the table, after Noel Tata got the 26 Nov meeting pushed back and the RBI told Tata Sons to follow its listing rule
 
 Hot lane (new turn on a story retired on 8 Nov: the RBI's 16 Nov letter and the board meeting moved to Mon 30 Nov) · FLAT · **8/10** (momentum 1/3, stake 1/1, shareability 2/2, gap 2/2, known name 2/2) · tracker id `tata-sons-board-nov30`
 
@@ -26,7 +26,7 @@ Window: Post by Sun 29 Nov, before the board meets Mon 30 Nov; the result is a r
 - If it lists, ordinary investors could own a piece of the company that owns TCS, Tata Motors and Titan. What would that piece cost, and who decides on Monday?
 
 ### How hot it is
-- trends.py 'Tata Sons IPO | टाटा संस आईपीओ': FLAT. 1 of 15 news items this week came today; YouTube 7 videos this week, 8,499 views, best 107/hr.
+- trends.py 'Tata Sons IPO' (English and Hindi): FLAT. 1 of 15 news items this week came today; YouTube 7 videos this week, 8,499 views, best 107/hr.
 - trends.py 'Noel Tata': FLAT. 13 of 100 news items today; YouTube 15 videos this week (8 in the last 24 h), 217,117 views, best 1,077/hr ('The Power Struggle at India's Tata', 129,230 views in 120 h).
 - YouTube Shorts (IN, since 11 Nov): Aism India 'The Tata family power struggle explained' 113,341 views; Business Standard 'Jimmy Tata takes on Noel' 72,451 (6.4x outlier score).
 - vidIQ Instagram outliers since 11 Nov: one reel on the listing itself (below).
@@ -108,7 +108,7 @@ Window: Evergreen for about two weeks; post by Mon 7 Dec. Credit 'via The Ken'.
 - Your app shows Indian rupees, but the ED says some trades were actually done on foreign exchanges. Where is your crypto really?
 
 ### How hot it is
-- trends.py 'crypto India tax notice': HOT on YouTube (8 videos this week, 163,442 views, best 3,220/hr: 'Crypto पर सबसे बड़ा झटका: 1000% Tax का सच या सिर्फ अफवाह?', a rumour video), no news today.
+- trends.py 'crypto India tax notice': HOT on YouTube (8 videos this week, 163,442 views, best 3,220/hr: a Hindi video asking whether a '1000% tax' on crypto is real or a rumour), no news today.
 - trends.py 'CoinDCX ED': COLD now (8 videos this week, 4,448 views); the raids peaked 6-9 Nov.
 - vidIQ Instagram outliers since 11 Nov: crypto tax reels travel (below).
 
