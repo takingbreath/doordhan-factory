@@ -1,0 +1,142 @@
+{
+ "date": "2026-11-25",
+ "date_label": "Wed 25 Nov 2026",
+ "session_link": "https://claude.ai/code/session_01PasrAsEdTHVotHJsZ53ikK",
+ "pick": {
+  "id": "1",
+  "reason": "India's biggest company decides on Monday 30 Nov whether it goes to the stock market. Tata Sons' board meeting on listing was pushed from 26 to 30 Nov after Tata Trusts chairman Noel Tata objected that directors got four days' notice, not seven. The RBI wrote on 16 Nov telling Tata Sons to follow the upper-layer NBFC rules 'including the requirement of listing', a rule that gave it three years from September 2022. The Tata name lands in frame one, a family-and-boardroom fight makes it shareable, and on Instagram only NDTV Profit's clip of Noel Tata (150K, 18.8x) has travelled. Post by Sun 29 Nov, or ride the outcome on Mon 30 Nov. Carries B4 (Tata logo or the RBI letter headline on the top half) and B3.",
+  "runner_up": "3: The Ken's deep piece on crypto: agencies chase up to Rs 20,000 crore in crypto trades that may break forex rules, the ED has searched CoinDCX and Delta Exchange, and nobody protects India's users after the $6.4 billion Binance hack. Good names, but the ED raids were covered heavily on 6-9 Nov (270K and 185K Shorts)."
+ },
+ "stories": [
+  {
+   "id": "1",
+   "tracker_id": "tata-sons-board-nov30",
+   "lane": "Hot lane (new turn on a story retired on 8 Nov: the RBI's 16 Nov letter and the board meeting moved to Mon 30 Nov)",
+   "title": "Tata Sons' board will take up whether India's biggest group goes public on Mon 30 Nov, after Noel Tata got the 26 Nov meeting pushed back and the RBI told Tata Sons to follow its listing rule",
+   "label": "FLAT",
+   "score": {"total": 8, "momentum": 1, "stake": 1, "share": 2, "gap": 2, "name": 2},
+   "window": "Post by Sun 29 Nov, before the board meets Mon 30 Nov; the result is a ready follow-up that day. Tata Sons must also hold its delayed AGM by 31 Dec.",
+   "happening": [
+    "Tata Sons postponed its board meeting from 26 to 30 Nov after Noel Tata objected that directors had not got the seven days' notice the company's practice requires; the papers were uploaded on 22 Nov, four days ahead (Tribune/ANI, 23 Nov; BigGo Finance, 24 Nov).",
+    "The RBI's letter of 16 Nov, replying to a Tata Sons letter of 6 Oct, told the company to 'comply with all applicable regulations/guidelines/directions' for upper-layer NBFCs, 'including the requirement of listing by your company' (Tribune/ANI).",
+    "The rule: an upper-layer NBFC must list within three years of being identified (paragraph 43 of the 2025 NBFC governance directions). Tata Sons was first classified as one in September 2022 (Tribune/ANI), so the three years ran out in September 2025.",
+    "Agenda for 30 Nov: a proposal to call an extraordinary general meeting, the half-year results, and a review of loss-making businesses including Air India (BigGo Finance).",
+    "The fight: the board voted 4-1 on 17 Sep to reappoint N Chandrasekaran for five years; Noel Tata has written seven letters since, calling it illegal, and opposes listing. The Sir Ratan Tata Trust alone holds 23.56% of Tata Sons (BigGo Finance).",
+    "Context only (older than a week): ICICI Direct estimated in March 2024 that a 5% float would make a Rs 55,000 crore IPO on a Rs 11 lakh crore valuation, India's largest ever; Tata Trusts own 65.9% and the Mistry family 18.4%."
+   ],
+   "curiosity_gaps": [
+    "India's most trusted business name is being told by the RBI to list, and the man who chairs its biggest owner doesn't want it to. Why would anyone refuse what would be India's biggest IPO?",
+    "The deadline ran out in September 2025 and Tata Sons is still private. What does the RBI actually do to a company that ignores a listing rule?",
+    "If it lists, ordinary investors could own a piece of the company that owns TCS, Tata Motors and Titan. What would that piece cost, and who decides on Monday?"
+   ],
+   "measured": [
+    "trends.py 'Tata Sons IPO | टाटा संस आईपीओ': FLAT. 1 of 15 news items this week came today; YouTube 7 videos this week, 8,499 views, best 107/hr.",
+    "trends.py 'Noel Tata': FLAT. 13 of 100 news items today; YouTube 15 videos this week (8 in the last 24 h), 217,117 views, best 1,077/hr ('The Power Struggle at India's Tata', 129,230 views in 120 h).",
+    "YouTube Shorts (IN, since 11 Nov): Aism India 'The Tata family power struggle explained' 113,341 views; Business Standard 'Jimmy Tata takes on Noel' 72,451 (6.4x outlier score).",
+    "vidIQ Instagram outliers since 11 Nov: one reel on the listing itself (below)."
+   ],
+   "others": [
+    {"who": "@ndtvprofit (Instagram, 492K followers)", "what": "'Should Tata Sons go public?': Noel Tata's own summit clip on the risks of listing, with a title header and captions", "views": "149.7K", "multiple": "18.8x usual", "date": "14 Nov", "url": "https://www.instagram.com/reel/DfuReCzHGUD"},
+    {"who": "Aism India (YouTube Shorts, 341K subs)", "what": "Tata family power struggle explained: Jimmy Tata vs Noel Tata, RBI listing rules", "views": "113K", "multiple": "1.4x", "date": "17 Nov", "url": "https://www.youtube.com/watch?v=e4eZ5UvIFP0"},
+    {"who": "Business Standard (YouTube, 720K subs)", "what": "'Jimmy Tata takes on Noel: why he wants Tata Sons listed'", "views": "72K", "multiple": "6.4x", "date": "16 Nov", "url": "https://www.youtube.com/watch?v=etT7GHfZpaQ"}
+   ],
+   "others_takeaway": "What travels is the family fight told through the people (Noel, Jimmy, Chandrasekaran). Nobody has made a short on the 30 Nov meeting, or on the plain stake: the rule's deadline passed 14 months ago and the RBI just told Tata Sons to list anyway.",
+   "facts": [
+    {"text": "Board meeting moved 26 Nov to 30 Nov; seven days' notice required, papers uploaded 22 Nov; RBI letter 16 Nov to the CFO, reply to Tata Sons' 6 Oct letter, 'including the requirement of listing'; upper-layer NBFC since Sept 2022; must list within three years (para 43, 2025 NBFC Governance Directions).", "source": "The Tribune (ANI), 23 Nov 2026", "url": "https://www.tribuneindia.com/news/board-meeting/tata-sons-postpones-board-meeting-to-november-30-after-noel-tata-objects-to-late-circulation-of-agenda-sources"},
+    {"text": "Four days' notice against seven; agenda: EGM proposal, half-year results, loss-making businesses incl. Air India; 4-1 vote on 17 Sep, five-year term; seven letters from Noel Tata; Sir Ratan Tata Trust 23.56%; AGM deadline extended to 31 Dec.", "source": "BigGo Finance, 24 Nov 2026", "url": "https://finance.biggo.com/news/0a1bbf91-9fab-4b15-8e96-661b6a6c1bdb"},
+    {"text": "Context (18 Mar 2024): 5% float about Rs 55,000 crore IPO on about Rs 11 lakh crore value, would be India's largest IPO; Tata Trusts 65.9%, Mistry family 18.4%.", "source": "ICICI Direct, 18 Mar 2024 (context only)", "url": "https://icicidirect.com/research/equity/finace/tata-sons-ipo-will-the-ipo-take-place"}
+   ],
+   "watch_out": [
+    "Nothing is decided: no IPO date, size or price exists. Say 'could be India's biggest IPO' with the 2024 estimate as an estimate, never a figure Tata has announced.",
+    "Noel Tata, Jimmy Tata and Chandrasekaran are real people: real photos and their own quoted words only; no invented lines or lip-sync.",
+    "No apply call and no call on Tata group stocks (TCS, Tata Motors, Titan).",
+    "Humour on the boardroom and the four-day notice, not on viewers."
+   ]
+  },
+  {
+   "id": "2",
+   "tracker_id": "ketan-parekh-prosecution",
+   "lane": "Hot lane (new; SEBI prosecution reported 23-24 Nov, court order 20 Nov)",
+   "title": "SEBI is prosecuting Ketan Parekh, the broker of the 2001 market scam, for not paying back Rs 27 crore from a front-running case, days after a court refused him a 91-day holiday in nine countries",
+   "label": "FLAT",
+   "score": {"total": 7, "momentum": 2, "stake": 0, "share": 2, "gap": 2, "name": 1},
+   "window": "Post by Fri 27 Nov while it's in the news; the court hearing on the complaint is the next turn.",
+   "happening": [
+    "On Fri 20 Nov the special SEBI court in Mumbai refused Ketan Parekh's plea to travel for 91 days (20 Dec to 20 Mar) to nine countries: Thailand, Malaysia, Indonesia, the UAE, Norway, Sweden, Finland, Denmark and Switzerland (BusinessToday, 23 Nov).",
+    "Special judge RM Jadhav: it 'would not be expedient in the national interest and economy of the country' to allow it. Parekh's earlier permitted trips ran six to twenty days (BusinessToday).",
+    "SEBI has filed a prosecution complaint under Section 24(2) of the SEBI Act against Parekh and Singapore-based Rohit Salgaocar for not depositing Rs 27 crore of wrongful gains it ordered on 3 Jan 2025. The offence carries one month to 10 years in jail, a fine of up to Rs 25 crore, or both (The Open Press, 24 Nov).",
+    "The case: SEBI's interim order of 2 Jan 2025 alleged a front-running scheme on a large foreign client's trades, with about Rs 66 crore of unlawful gains in all (The Open Press)."
+   ],
+   "curiosity_gaps": [
+    "The man behind India's 2001 market crash was caught again in 2025, and hasn't paid Rs 27 crore back. So he asked for three months in Switzerland and Scandinavia. What did the judge say?",
+    "Front-running means trading ahead of a big client's orders. How did someone banned from the market do it, and what does it cost everyone else's trades?"
+   ],
+   "measured": [
+    "trends.py 'Ketan Parekh': FLAT overall, but 9 of 14 news items this week came today (64%); YouTube 12 videos this week, 2,353 views, best 14/hr: almost no shorts on it.",
+    "vidIQ: no Instagram outlier on Ketan Parekh in the last two weeks."
+   ],
+   "others": [
+    {"who": "YouTube (this week)", "what": "'Ketan Parekh Story: The 2001 Stock Market Crash, Jail, and the 2025 SEBI case' long explainer", "views": "1,034", "multiple": "-", "date": "22 Nov", "url": "https://www.youtube.com/results?search_query=Ketan+Parekh+story"}
+   ],
+   "others_takeaway": "Empty field: no reel on the prosecution or the holiday plea. The story has a villain viewers' parents remember, a fresh twist and a number.",
+   "facts": [
+    {"text": "Plea refused Fri 20 Nov; 91 days, 20 Dec-20 Mar; nine countries listed; Judge RM Jadhav quote; Rs 27 crore not deposited under the 2 Jan 2025 order; earlier trips six to twenty days.", "source": "BusinessToday, 23 Nov 2026", "url": "https://businesstoday.in/india/story/stockbroker-ketan-parekhs-9-country-holiday-plan-rejected-by-mumbai-court-over-securities-law-concerns-569023-2026-11-23"},
+    {"text": "Prosecution under Sec 24(2) SEBI Act; one month to 10 years and/or fine up to Rs 25 crore; Rs 27 crore disgorgement direction of 3 Jan 2025; about Rs 66 crore alleged unlawful gains; Salgaocar Singapore-based.", "source": "The Open Press, 24 Nov 2026", "url": "https://theopenpress.in/article/sebi-ketan-parekh-prosecution-front-running-27-crore"}
+   ],
+   "watch_out": [
+    "These are SEBI's allegations and a prosecution complaint, not a conviction in the front-running case: say 'SEBI alleges'.",
+    "Parekh's 2001 conviction is well documented, but name no other person as guilty; Salgaocar is 'accused'.",
+    "Real people: real photos only, no invented words. No politicians in the 2001 archive footage.",
+    "Stake for our investors is indirect (front-running hits big clients' fills, i.e. fund investors), so the desk scores it 0 for stake."
+   ]
+  },
+  {
+   "id": "3",
+   "tracker_id": "ken-crypto-20000cr",
+   "lane": "Deep lane (The Ken, 24 Nov: 'India is chasing Rs 20,000 crore in crypto. Who is protecting its 100 million users?')",
+   "title": "Agencies are chasing up to Rs 20,000 crore of crypto trades that may break forex rules and the ED has searched CoinDCX and Delta Exchange, but nobody protects Indian users, a month after the $6.4 billion Binance hack (via The Ken)",
+   "label": "COLD",
+   "score": {"total": 7, "momentum": 1, "stake": 1, "share": 2, "gap": 1, "name": 2},
+   "window": "Evergreen for about two weeks; post by Mon 7 Dec. Credit 'via The Ken'.",
+   "happening": [
+    "The Ken (24 Nov) reports, from an unnamed agency source, that crypto transactions involving forex violations could exceed Rs 20,000 crore, and argues the government cares more about money leaving its forex controls than about users losing money (public standfirst; the rest is paywalled).",
+    "On 4-5 Nov the ED's Bengaluru office searched premises linked to CoinDCX and Delta Exchange India under FEMA, alleging Delta moved hundreds of crores to foreign associate entities and CoinDCX kept trading accounts on foreign platforms; the exchanges say they comply with Indian law (search results summarising Inc42, Decrypt, BusinessToday, 7 Nov).",
+    "The ED searched Mudrex, Saber.money and DeFi protocol Instadapp separately on 27 Oct.",
+    "Binance lost about $6.3-6.4 billion from its hot wallets on 29 Oct, the biggest crypto theft on record (Binance's estimate $6.3 billion; Chainalysis and TRM about $6.4 billion; Decrypt, Khaleej Times).",
+    "Crypto gains are still taxed at a flat 30% with 1% TDS, losses can't be set off, and no law licenses exchanges (crypto tax guides, Nov 2026)."
+   ],
+   "curiosity_gaps": [
+    "The government is chasing Rs 20,000 crore in crypto. Not to give it back to users: to find money that left India. So if your exchange goes down, who do you complain to?",
+    "Your app shows Indian rupees, but the ED says some trades were actually done on foreign exchanges. Where is your crypto really?"
+   ],
+   "measured": [
+    "trends.py 'crypto India tax notice': HOT on YouTube (8 videos this week, 163,442 views, best 3,220/hr: 'Crypto पर सबसे बड़ा झटका: 1000% Tax का सच या सिर्फ अफवाह?', a rumour video), no news today.",
+    "trends.py 'CoinDCX ED': COLD now (8 videos this week, 4,448 views); the raids peaked 6-9 Nov.",
+    "vidIQ Instagram outliers since 11 Nov: crypto tax reels travel (below)."
+   ],
+   "others": [
+    {"who": "CryptoWala (YouTube Shorts, 473K subs)", "what": "'ED raids on CoinDCX and Delta Exchange', the ED press release explained", "views": "270.6K", "multiple": "1.0x", "date": "7 Nov", "url": "https://www.youtube.com/watch?v=VGzbWPN8SK4"},
+    {"who": "Pushkar Raj Thakur (YouTube Shorts, 15.5M subs)", "what": "'ED raids CoinDCX & Delta Exchange! Is this a big crypto scam?'", "views": "184.8K", "multiple": "1.4x", "date": "9 Nov", "url": "https://www.youtube.com/watch?v=uv6nIZLRGDY"},
+    {"who": "@thefinanceschooll (Instagram, 23.6K followers)", "what": "'TDS on Binance P2P', talking head with tax rule overlays", "views": "99.2K", "multiple": "8.3x usual", "date": "17 Nov", "url": "https://www.instagram.com/reel/Df1bBKUBQof"}
+   ],
+   "others_takeaway": "The raids were covered as 'is my money safe?'. Nobody has taken The Ken's angle: the state is chasing the forex money, not protecting the 100 million users.",
+   "facts": [
+    {"text": "Rs 20,000 crore (could exceed, unnamed agency source); 100 million users (headline); $6.4 billion Binance hack; ED searches of CoinDCX, Delta Exchange, Mudrex, Instadapp.", "source": "The Ken, 24 Nov 2026 (public standfirst)", "url": "https://the-ken.com/story/india-is-chasing-rs-20000-crore-in-crypto-who-is-protecting-its-100-million-users/"},
+    {"text": "ED Bengaluru searches of CoinDCX (Neblio Technologies) and Delta Exchange India (Excelium Technologies) under FEMA, 4-5 Nov.", "source": "BusinessToday, 7 Nov 2026", "url": "https://www.businesstoday.in/india/story/foreign-exchange-violations-ed-searches-offices-of-coindcx-delta-exchange-566298-2026-11-07"},
+    {"text": "Binance hack 29 Oct: about $6.3 billion (Binance) to $6.4 billion (Chainalysis, TRM).", "source": "Decrypt", "url": "https://decrypt.co/382306/binance-hack-everything-you-need-to-know"}
+   ],
+   "watch_out": [
+    "Rs 20,000 crore is The Ken's unnamed-source 'could exceed' figure: say it as reported, credit The Ken, and don't copy its paywalled text.",
+    "The ED searches are a probe, not findings: no exchange has been found in violation.",
+    "No buy, sell or 'move your crypto' call, and no exchange named as unsafe.",
+    "The '1000% tax' video is a rumour; don't repeat it as news."
+   ]
+  }
+ ],
+ "wire": [
+  {"text": "Tracker: B.R. Shetty, regular plans and the crypto-tax query read HOT on YouTube, but their top videos are off-topic (a film trailer, a generic investing video), so they're not real heat. Silver FLAT and fading (window ends Fri 27 Nov). SEBI's GMP advisory COLD on search, but your draft is already in the repo; Mahanadi Coalfields lists Fri 27 Nov and Crystal Crop Protection (17.06x subscribed) is due Thu 26 Nov, the first listings after the advisory. IndusInd clawback FLAT, SpiceJet RISING, EPFO FLAT. Novartis India retired."},
+  {"text": "Also seen: foreign investors bought a record of about Rs 1.1-1.2 lakh crore of Indian shares in November to the 20th (NSDL; sources differ by cut-off), beating November 2020's record, after selling about Rs 3 lakh crore earlier in 2026. 'India up while the world falls' reels broke out last week (@amansarchivesss rupee and FPI headline 520K, 155x; @vishalsahu21 253K), but the rally broke on Monday (Sensex -1,484) and markets were shut Tuesday for Guru Nanak Jayanti."},
+  {"text": "Also seen: SEBI warned about fraudsters posing as registered intermediaries in WhatsApp and Telegram groups (Moneylife, 24 Nov); Lenskart fell 4% after a Rs 921 crore block deal (23 Nov); LocalCircles says 94% of India's most-used platforms still use dark patterns (Moneylife, 24 Nov)."},
+  {"text": "Tool changes: no Higgsfield keys on this machine, so model_live.py refresh was skipped. The Morning Context feed returned HTTP 429."}
+ ]
+}

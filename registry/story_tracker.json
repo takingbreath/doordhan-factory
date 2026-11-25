@@ -4211,6 +4211,18 @@
      "yt_best_vph": 2233,
      "yt_top": "Why Are FIIs and DIIs Buying this stock? Q2 FY27 Results Decoded | CA  (160,796 views in 72h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-25",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 14,
+     "yt_week_views": 347148,
+     "yt_best_vph": 1823,
+     "yt_top": "Why Are FIIs and DIIs Buying this stock? Q2 FY27 Results Decoded | CA  (175,032 views in 96h)",
+     "google_trending": []
     }
    ]
   },
@@ -8526,7 +8538,7 @@
    "first_seen": "2026-11-10",
    "lane": "deep",
    "window_until": "2026-11-24",
-   "status": "active",
+   "status": "retired",
    "notes": [],
    "readings": [
     {
@@ -8688,8 +8700,24 @@
      "yt_best_vph": 502,
      "yt_top": "Global Tech Stocks Tumble: Has the AI Bubble Burst? (36,158 views in 72h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-25",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 6,
+     "momentum_pct": 0,
+     "yt_week_videos": 7,
+     "yt_week_views": 59817,
+     "yt_best_vph": 892,
+     "yt_top": "Stocks Rebound After AI-Driven Correction; Crowdstrike to Buy ZScaler (21,403 views in 24h)",
+     "google_trending": []
     }
-   ]
+   ],
+   "retired": {
+    "date": "2026-11-25",
+    "reason": "past its window"
+   }
   },
   {
    "id": "coindcx-ed-raid",
@@ -8896,6 +8924,18 @@
      "yt_best_vph": 801,
      "yt_top": "Soma Helps Manu In Jail | SSE Side A | Rakshit Shetty | Rukmini Vasant (57,638 views in 72h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-25",
+     "label": "HOT",
+     "news_1d": 0,
+     "news_7d": 9,
+     "momentum_pct": 0,
+     "yt_week_videos": 18,
+     "yt_week_views": 1114985,
+     "yt_best_vph": 38733,
+     "yt_top": "MARRIAGE PARTY | OFFICIAL TRAILER | Vineeth Kumar | Santhosh V | Chaya (929,587 views in 24h)",
+     "google_trending": []
     }
    ]
   },
@@ -9045,6 +9085,18 @@
      "yt_week_views": 47112,
      "yt_best_vph": 979,
      "yt_top": "❌End Date of VI 4G Network 🛜, Jio Big Bad News, VI & Airtel Special Di (23,505 views in 24h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-11-25",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 11,
+     "yt_week_views": 85734,
+     "yt_best_vph": 572,
+     "yt_top": "❌End Date of VI 4G Network 🛜, Jio Big Bad News, VI & Airtel Special Di (27,440 views in 48h)",
      "google_trending": []
     }
    ]
@@ -9261,6 +9313,18 @@
      "yt_best_vph": 4,
      "yt_top": "Augmont Enterprises Share गिर रहा है क्यों? 😱 ₹800 Support | ₹1,100 Ta (213 views in 48h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-25",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 1,
+     "yt_week_views": 264,
+     "yt_best_vph": 4,
+     "yt_top": "Augmont Enterprises Share गिर रहा है क्यों? 😱 ₹800 Support | ₹1,100 Ta (264 views in 72h)",
+     "google_trending": []
     }
    ]
   },
@@ -9421,6 +9485,18 @@
      "yt_best_vph": 515,
      "yt_top": "Sarvam AI को सरकारी सब्सिडी पर मिले GPU | कंपनी ने Token Factory खोल द (74,199 views in 144h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-25",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 9,
+     "yt_week_views": 2852,
+     "yt_best_vph": 26,
+     "yt_top": "Foundation Models vs Chinese Open Weights: How Indian Founders Split O (1,862 views in 72h)",
+     "google_trending": []
     }
    ]
   },
@@ -9527,6 +9603,18 @@
      "yt_top": "MAHANADI IPO Review! कोयला बेचकर सोना कमाने वाली कंपनी! (445,908 views in 48h)",
      "google_trending": [],
      "desk_score": 8.0
+    },
+    {
+     "date": "2026-11-25",
+     "label": "HOT",
+     "news_1d": 7,
+     "news_7d": 100,
+     "momentum_pct": 7,
+     "yt_week_videos": 16,
+     "yt_week_views": 1018339,
+     "yt_best_vph": 6763,
+     "yt_top": "MAHANADI IPO Review! कोयला बेचकर सोना कमाने वाली कंपनी! (486,971 views in 72h)",
+     "google_trending": []
     }
    ]
   },
@@ -9628,6 +9716,18 @@
      "yt_week_views": 205944,
      "yt_best_vph": 1726,
      "yt_top": "OLA Electric \"STOP STORE ORDER\" ! Vinfast EVO, KYO, KINET Update !TVS  (41,424 views in 24h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-11-25",
+     "label": "FLAT",
+     "news_1d": 0,
+     "news_7d": 37,
+     "momentum_pct": 0,
+     "yt_week_videos": 0,
+     "yt_week_views": 0,
+     "yt_best_vph": 0,
+     "yt_top": "",
      "google_trending": []
     }
    ]
@@ -9779,6 +9879,18 @@
      "yt_best_vph": 366,
      "yt_top": "YES BANK AT1 BONDS- SC RULING-- SMBC ROADMAP- IMPACT ON SHARE PRICE (26,325 views in 72h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-25",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 7,
+     "momentum_pct": 0,
+     "yt_week_videos": 12,
+     "yt_week_views": 62994,
+     "yt_best_vph": 292,
+     "yt_top": "YES BANK AT1 BONDS- SC RULING-- SMBC ROADMAP- IMPACT ON SHARE PRICE (28,000 views in 96h)",
+     "google_trending": []
     }
    ]
   },
@@ -9854,6 +9966,18 @@
      "yt_week_views": 232220,
      "yt_best_vph": 952,
      "yt_top": "They don’t get paid enough for this. Actually, they don’t get paid at  (137,125 views in 144h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-11-25",
+     "label": "RISING",
+     "news_1d": 35,
+     "news_7d": 100,
+     "momentum_pct": 35,
+     "yt_week_videos": 19,
+     "yt_week_views": 272454,
+     "yt_best_vph": 1114,
+     "yt_top": "India's Dumbest Business Deal? | How Sun TV Dumped SpiceJet for ₹2 (160,431 views in 144h)",
      "google_trending": []
     }
    ]
@@ -9931,6 +10055,18 @@
      "yt_best_vph": 6857,
      "yt_top": "Silver మళ్ళీ 4 లక్షలు ఎప్పుడు దాటనుంది? 1. ఈ Stock పెరిగితే, ఈ Stock ఇ (164,557 views in 24h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-25",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 17,
+     "yt_week_views": 24257,
+     "yt_best_vph": 89,
+     "yt_top": "🔥🤑 Nvidia News: E2E Networks, Netweb, and ESDS Share Latest News Today (2,145 views in 24h)",
+     "google_trending": []
     }
    ]
   },
@@ -9999,6 +10135,18 @@
      "yt_best_vph": 9159,
      "yt_top": "This Gold Even Passed the Hallmark Test… But It Was Fake 😳 #shorts #gr (659,468 views in 72h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-25",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 1,
+     "momentum_pct": 0,
+     "yt_week_videos": 19,
+     "yt_week_views": 3958483,
+     "yt_best_vph": 7560,
+     "yt_top": "This Gold Even Passed the Hallmark Test… But It Was Fake 😳 #shorts #gr (725,805 views in 96h)",
+     "google_trending": []
     }
    ]
   },
@@ -10065,6 +10213,18 @@
      "yt_best_vph": 700,
      "yt_top": "How to Start SIP Investment? | Everything Beginners Must Know Before I (16,806 views in 24h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-25",
+     "label": "HOT",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 16,
+     "yt_week_views": 465234,
+     "yt_best_vph": 4742,
+     "yt_top": "Why Investing Isn't Working Anymore (and how you fix it) (227,597 views in 48h)",
+     "google_trending": []
     }
    ]
   },
@@ -10123,6 +10283,18 @@
      "yt_top": "Wall Street in Panic! Nasdaq Crashes as AI Stocks Face Massive Sell Of (335,113 views in 48h)",
      "google_trending": [],
      "desk_score": 9.0
+    },
+    {
+     "date": "2026-11-25",
+     "label": "COLD",
+     "news_1d": 1,
+     "news_7d": 3,
+     "momentum_pct": 33,
+     "yt_week_videos": 4,
+     "yt_week_views": 38683,
+     "yt_best_vph": 317,
+     "yt_top": "“Big Short” Investor Sounds the Alarm as AI Stocks Sell Off (30,470 views in 96h)",
+     "google_trending": []
     }
    ]
   },
@@ -10177,6 +10349,18 @@
      "yt_best_vph": 21,
      "yt_top": "SEBI Weighs Stricter MTF Rules As Margin-Funded Stock Purchases Hit ₹1 (2,983 views in 144h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-25",
+     "label": "FLAT",
+     "news_1d": 3,
+     "news_7d": 24,
+     "momentum_pct": 12,
+     "yt_week_videos": 12,
+     "yt_week_views": 5352,
+     "yt_best_vph": 14,
+     "yt_top": "MTF Restrictions Buzz Triggers Selloff, But Brokerages See Limited Imp (2,059 views in 144h)",
+     "google_trending": []
     }
    ]
   },
@@ -10221,6 +10405,18 @@
      "yt_best_vph": 4696,
      "yt_top": "Why Silver Can Fall Again😳? (225,403 views in 48h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-25",
+     "label": "FLAT",
+     "news_1d": 9,
+     "news_7d": 27,
+     "momentum_pct": 33,
+     "yt_week_videos": 13,
+     "yt_week_views": 1293405,
+     "yt_best_vph": 3656,
+     "yt_top": "Why Gold and Silver Just Crashed (The Real Reason) (438,775 views in 120h)",
+     "google_trending": []
     }
    ]
   },
@@ -10262,6 +10458,18 @@
      "yt_week_views": 40941,
      "yt_best_vph": 404,
      "yt_top": "NSE உலகின் Top 5 பட்டியலில்! IndusInd Bank அதிரடி நடவடிக்கை | BSE Inde (19,413 views in 48h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-11-25",
+     "label": "FLAT",
+     "news_1d": 13,
+     "news_7d": 100,
+     "momentum_pct": 13,
+     "yt_week_videos": 16,
+     "yt_week_views": 48126,
+     "yt_best_vph": 278,
+     "yt_top": "NSE உலகின் Top 5 பட்டியலில்! IndusInd Bank அதிரடி நடவடிக்கை | BSE Inde (20,045 views in 72h)",
      "google_trending": []
     }
    ]
@@ -10305,6 +10513,18 @@
      "yt_best_vph": 2783,
      "yt_top": "EPFO Changes Explained: Withdraw Your PF in Monthly Instalments | Hand (200,399 views in 72h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-25",
+     "label": "FLAT",
+     "news_1d": 0,
+     "news_7d": 11,
+     "momentum_pct": 0,
+     "yt_week_videos": 18,
+     "yt_week_views": 1194789,
+     "yt_best_vph": 2410,
+     "yt_top": "EPFO Changes Explained: Withdraw Your PF in Monthly Instalments | Hand (231,337 views in 96h)",
+     "google_trending": []
     }
    ]
   },
@@ -10323,6 +10543,18 @@
     {
      "date": "2026-11-24",
      "desk_score": 9.0
+    },
+    {
+     "date": "2026-11-25",
+     "label": "COLD",
+     "news_1d": 26,
+     "news_7d": null,
+     "momentum_pct": 0,
+     "yt_week_videos": 4,
+     "yt_week_views": 36204,
+     "yt_best_vph": 677,
+     "yt_top": "SEBI BAN : IPO GMP 🔴🔴 HUGE JUMP 🔴🔴 IMPORTANT ETFS 🔴🔴 INVEST IN BHARAT  (16,240 views in 24h)",
+     "google_trending": []
     }
    ]
   },
@@ -10341,6 +10573,72 @@
     {
      "date": "2026-11-24",
      "desk_score": 6.0
+    },
+    {
+     "date": "2026-11-25",
+     "label": "COLD",
+     "news_1d": 4,
+     "news_7d": 9,
+     "momentum_pct": 44,
+     "yt_week_videos": 14,
+     "yt_week_views": 21883,
+     "yt_best_vph": 210,
+     "yt_top": "NSEL OTS Payment Update: 13 साल की कानूनी लड़ाई के बाद NSEL के निवेशको (5,046 views in 24h)",
+     "google_trending": []
+    }
+   ]
+  },
+  {
+   "id": "tata-sons-board-nov30",
+   "title": "Tata Sons board takes up listing on 30 Nov; RBI letter 16 Nov says list",
+   "query": "Tata Sons IPO|टाटा संस आईपीओ",
+   "first_seen": "2026-11-25",
+   "lane": "hot",
+   "window_until": "2026-11-30",
+   "status": "active",
+   "notes": [
+    "sent 25 Nov, 8/10 (pick); new turn on retired tata-sons-listing"
+   ],
+   "readings": [
+    {
+     "date": "2026-11-25",
+     "desk_score": 8.0
+    }
+   ]
+  },
+  {
+   "id": "ketan-parekh-prosecution",
+   "title": "SEBI prosecutes Ketan Parekh over unpaid Rs 27 cr; court refused 91-day 9-country trip",
+   "query": "Ketan Parekh|केतन पारेख",
+   "first_seen": "2026-11-25",
+   "lane": "hot",
+   "window_until": "2026-11-27",
+   "status": "active",
+   "notes": [
+    "sent 25 Nov, 7/10"
+   ],
+   "readings": [
+    {
+     "date": "2026-11-25",
+     "desk_score": 7.0
+    }
+   ]
+  },
+  {
+   "id": "ken-crypto-20000cr",
+   "title": "Rs 20,000 cr crypto forex chase; ED searched CoinDCX, Delta; no user protection (via The Ken)",
+   "query": "crypto India ED|क्रिप्टो ईडी",
+   "first_seen": "2026-11-25",
+   "lane": "deep",
+   "window_until": "2026-12-07",
+   "status": "active",
+   "notes": [
+    "sent 25 Nov, 7/10"
+   ],
+   "readings": [
+    {
+     "date": "2026-11-25",
+     "desk_score": 7.0
     }
    ]
   }
