@@ -52,7 +52,7 @@ Stage 3 targets are live in the block below (from 16 Nov); Stages 1 and 2 are cl
 
 ## The book and where we stand
 <!-- scoreboard -->
-_Updated 2026-11-24 21:40 IST by `scoreboard.py write`._
+_Updated 2026-11-25 21:52 IST by `scoreboard.py write`._
 
 **Stage 3: Build the habit** (2026-11-16 to 2026-12-31): enough reels, often enough, that viewers follow and come back: 2,000 followers by 31 Dec, and YouTube Shorts live
 
@@ -61,7 +61,7 @@ _Updated 2026-11-24 21:40 IST by `scoreboard.py write`._
 
 | Bet | Lever | Judged on | Baseline | Now | Target | Stop | Reels (judged/carried) | Verdict |
 |---|---|---|---|---|---|---|---|---|
-| B1 Hook in frame one | Frame 1: the anchor looks into the lens, already saying the viewer's stake; the hook in 6 big words or fewer on screen; nothing (Namaskar, title, logo) before it; a cut or punch-in by 1 s; cover = frame 1 | skip rate % | 60.7 | 42.8 | 45 | 58 | 6/6 (judge at 3, max 6) | **WON** Won: skip rate 42.5% pooled over 5 judged reels (E3 54.2, E6 46.3, E7 38.2, E12 21.6, E15 51.5) against a 60.7% baseline and a 45% target, read on the owner feed's return after 35 nights. E14 taken off as an execution miss (no cut by 1 s). Caveat: Salman Khan (E12, 21.6%) carries the pool; without it the other four pool near 52%, so the lever is standard but the next stop-stage gain has to come from the story and the picture in frame one, not the hook text alone. Now standard in docs/script-bible.md. |
+| B1 Hook in frame one | Frame 1: the anchor looks into the lens, already saying the viewer's stake; the hook in 6 big words or fewer on screen; nothing (Namaskar, title, logo) before it; a cut or punch-in by 1 s; cover = frame 1 | skip rate % | 60.7 | 35.4 | 45 | 58 | 6/6 (judge at 3, max 6) | **WON** Won: skip rate 42.5% pooled over 5 judged reels (E3 54.2, E6 46.3, E7 38.2, E12 21.6, E15 51.5) against a 60.7% baseline and a 45% target, read on the owner feed's return after 35 nights. E14 taken off as an execution miss (no cut by 1 s). Caveat: Salman Khan (E12, 21.6%) carries the pool; without it the other four pool near 52%, so the lever is standard but the next stop-stage gain has to come from the story and the picture in frame one, not the hook text alone. Now standard in docs/script-bible.md. |
 | B2 Tight 20-30 s | 20-30 s total; title montage 1.5 s or less and only after the hook; payoff by 20 s; the last line echoes the hook so a replay feels natural; no dead air | watched % | 26.3 | 38.6 | 45 | 32 | 1/1 (judge at 3, max 6) | **NO-EDGE** Closed as no edge, starved: 1 judged reel in 36 days (E3, 38.6% watched); the six breakouts since 9 Oct ran 57-92 s. Akhilesh's 30 s rule in CLAUDE.md stands as a writing rule; it is no longer traded as a bet. Reopen as a new bet if owner data shows long reels watched under 20% while 30 s reels sit above 35%. |
 | B3 A line worth sending | Every script lands one line a viewer would forward to a specific person (a number to remember, a jab at the system, an 'I told you so'); never ask for shares | sends per 1k plays | 2.6 | 4.6 | 8 | 2 | 4/5 (judge at 4, max 6) | **HOLD** 4 reels, between stop and target |
 | B4 Split-screen opener | Frame one is a split screen: the story's picture, logo, real footage or B-roll on the top half with the hook in 6 words or fewer (the number or the known name), our presenter on the bottom half; from the very first frame; the cover is frame one | median plays at 72 h | 582 | – | 2000 | 500 | 0/0 (judge at 4, max 6) | **WAITING** no reel with readings yet |
