@@ -4223,6 +4223,18 @@
      "yt_best_vph": 1823,
      "yt_top": "Why Are FIIs and DIIs Buying this stock? Q2 FY27 Results Decoded | CA  (175,032 views in 96h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-26",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 14,
+     "yt_week_views": 374539,
+     "yt_best_vph": 1510,
+     "yt_top": "Why Are FIIs and DIIs Buying this stock? Q2 FY27 Results Decoded | CA  (181,191 views in 120h)",
+     "google_trending": []
     }
    ]
   },
@@ -8772,7 +8784,7 @@
    "first_seen": "2026-11-11",
    "lane": "deep",
    "window_until": "2026-11-25",
-   "status": "active",
+   "status": "retired",
    "notes": [
     "sent 11 Nov"
    ],
@@ -8936,8 +8948,24 @@
      "yt_best_vph": 38733,
      "yt_top": "MARRIAGE PARTY | OFFICIAL TRAILER | Vineeth Kumar | Santhosh V | Chaya (929,587 views in 24h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-26",
+     "label": "HOT",
+     "news_1d": 0,
+     "news_7d": 10,
+     "momentum_pct": 0,
+     "yt_week_videos": 5,
+     "yt_week_views": 2367391,
+     "yt_best_vph": 94986,
+     "yt_top": "Harivarasanam - Official Teaser | Malayalam | Saiju Kurup | Rajesh Nai (2,279,653 views in 24h)",
+     "google_trending": []
     }
-   ]
+   ],
+   "retired": {
+    "date": "2026-11-26",
+    "reason": "past its window"
+   }
   },
   {
    "id": "airtel-vs-jio-arpu",
@@ -9097,6 +9125,18 @@
      "yt_week_views": 85734,
      "yt_best_vph": 572,
      "yt_top": "❌End Date of VI 4G Network 🛜, Jio Big Bad News, VI & Airtel Special Di (27,440 views in 48h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-11-26",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 18,
+     "yt_week_views": 88425,
+     "yt_best_vph": 518,
+     "yt_top": "Stop Paying ₹706/Month - Sim WiFi Router vs Jio/Airtel Airfiber [Reali (24,871 views in 48h)",
      "google_trending": []
     }
    ]
@@ -9325,6 +9365,18 @@
      "yt_best_vph": 4,
      "yt_top": "Augmont Enterprises Share गिर रहा है क्यों? 😱 ₹800 Support | ₹1,100 Ta (264 views in 72h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-26",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 2,
+     "yt_week_views": 351,
+     "yt_best_vph": 3,
+     "yt_top": "Augmont Enterprises Share गिर रहा है क्यों? 😱 ₹800 Support | ₹1,100 Ta (314 views in 96h)",
+     "google_trending": []
     }
    ]
   },
@@ -9497,6 +9549,18 @@
      "yt_best_vph": 26,
      "yt_top": "Foundation Models vs Chinese Open Weights: How Indian Founders Split O (1,862 views in 72h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-26",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 0,
+     "yt_week_views": 0,
+     "yt_best_vph": 0,
+     "yt_top": "",
+     "google_trending": []
     }
    ]
   },
@@ -9615,6 +9679,18 @@
      "yt_best_vph": 6763,
      "yt_top": "MAHANADI IPO Review! कोयला बेचकर सोना कमाने वाली कंपनी! (486,971 views in 72h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-26",
+     "label": "FLAT",
+     "news_1d": 13,
+     "news_7d": 100,
+     "momentum_pct": 13,
+     "yt_week_videos": 12,
+     "yt_week_views": 902415,
+     "yt_best_vph": 5286,
+     "yt_top": "MAHANADI IPO Review! कोयला बेचकर सोना कमाने वाली कंपनी! (507,478 views in 96h)",
+     "google_trending": []
     }
    ]
   },
@@ -9724,6 +9800,18 @@
      "news_1d": 0,
      "news_7d": 37,
      "momentum_pct": 0,
+     "yt_week_videos": 0,
+     "yt_week_views": 0,
+     "yt_best_vph": 0,
+     "yt_top": "",
+     "google_trending": []
+    },
+    {
+     "date": "2026-11-26",
+     "label": "RISING",
+     "news_1d": 20,
+     "news_7d": 51,
+     "momentum_pct": 39,
      "yt_week_videos": 0,
      "yt_week_views": 0,
      "yt_best_vph": 0,
@@ -9891,6 +9979,18 @@
      "yt_best_vph": 292,
      "yt_top": "YES BANK AT1 BONDS- SC RULING-- SMBC ROADMAP- IMPACT ON SHARE PRICE (28,000 views in 96h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-26",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": null,
+     "momentum_pct": 0,
+     "yt_week_videos": 18,
+     "yt_week_views": 60140,
+     "yt_best_vph": 238,
+     "yt_top": "YES BANK AT1 BONDS- SC RULING-- SMBC ROADMAP- IMPACT ON SHARE PRICE (28,617 views in 120h)",
+     "google_trending": []
     }
    ]
   },
@@ -9978,6 +10078,18 @@
      "yt_week_views": 272454,
      "yt_best_vph": 1114,
      "yt_top": "India's Dumbest Business Deal? | How Sun TV Dumped SpiceJet for ₹2 (160,431 views in 144h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-11-26",
+     "label": "FLAT",
+     "news_1d": 27,
+     "news_7d": 100,
+     "momentum_pct": 27,
+     "yt_week_videos": 16,
+     "yt_week_views": 98611,
+     "yt_best_vph": 361,
+     "yt_top": "Flights cancelled again: Why SpiceJet keeps crashing into financial tr (8,658 views in 24h)",
      "google_trending": []
     }
    ]
@@ -10067,6 +10179,18 @@
      "yt_best_vph": 89,
      "yt_top": "🔥🤑 Nvidia News: E2E Networks, Netweb, and ESDS Share Latest News Today (2,145 views in 24h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-26",
+     "label": "COLD",
+     "news_1d": 0,
+     "news_7d": 1,
+     "momentum_pct": 0,
+     "yt_week_videos": 17,
+     "yt_week_views": 22481,
+     "yt_best_vph": 106,
+     "yt_top": "best ai share | best penny share | ai ke konse share kharide | hfcl sh (2,546 views in 24h)",
+     "google_trending": []
     }
    ]
   },
@@ -10147,6 +10271,18 @@
      "yt_best_vph": 7560,
      "yt_top": "This Gold Even Passed the Hallmark Test… But It Was Fake 😳 #shorts #gr (725,805 views in 96h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-26",
+     "label": "HOT",
+     "news_1d": 1,
+     "news_7d": 3,
+     "momentum_pct": 33,
+     "yt_week_videos": 17,
+     "yt_week_views": 4415181,
+     "yt_best_vph": 63780,
+     "yt_top": "Fake Gold Hallmark Scam ? @NitishRajput (1,530,718 views in 24h)",
+     "google_trending": []
     }
    ]
   },
@@ -10225,6 +10361,18 @@
      "yt_best_vph": 4742,
      "yt_top": "Why Investing Isn't Working Anymore (and how you fix it) (227,597 views in 48h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-26",
+     "label": "HOT",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 9,
+     "yt_week_views": 122571,
+     "yt_best_vph": 3425,
+     "yt_top": "Can a Small SIP Make You a Crorepati? (82,209 views in 24h)",
+     "google_trending": []
     }
    ]
   },
@@ -10235,7 +10383,7 @@
    "first_seen": "2026-11-21",
    "lane": "hot",
    "window_until": "2026-11-30",
-   "status": "active",
+   "status": "retired",
    "notes": [
     "S&P correction, Nikkei/Kospi -5%, Anthropic -9% day 2; Sensex +1.08% to 83,919.71",
     "2026-11-23: Nov MTD Sensex +12.7% vs Nasdaq -11.1%; FII record ₹1,11,949 cr, DII -₹61,786 cr",
@@ -10295,8 +10443,24 @@
      "yt_best_vph": 317,
      "yt_top": "“Big Short” Investor Sounds the Alarm as AI Stocks Sell Off (30,470 views in 96h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-26",
+     "label": "COLD",
+     "news_1d": 2,
+     "news_7d": 6,
+     "momentum_pct": 33,
+     "yt_week_videos": 1,
+     "yt_week_views": 55365,
+     "yt_best_vph": 769,
+     "yt_top": "5 AI Stocks to Buy After the Massive Sell-Off? (55,365 views in 72h)",
+     "google_trending": []
     }
-   ]
+   ],
+   "retired": {
+    "date": "2026-11-26",
+    "reason": "COLD on 2 checks running"
+   }
   },
   {
    "id": "mtf-record-leverage",
@@ -10361,6 +10525,18 @@
      "yt_best_vph": 14,
      "yt_top": "MTF Restrictions Buzz Triggers Selloff, But Brokerages See Limited Imp (2,059 views in 144h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-26",
+     "label": "FLAT",
+     "news_1d": 1,
+     "news_7d": 15,
+     "momentum_pct": 7,
+     "yt_week_videos": 8,
+     "yt_week_views": 4242,
+     "yt_best_vph": 16,
+     "yt_top": "Why Zerodha's CEO is Worried About This Trading Trend! (748 views in 48h)",
+     "google_trending": []
     }
    ]
   },
@@ -10417,6 +10593,18 @@
      "yt_best_vph": 3656,
      "yt_top": "Why Gold and Silver Just Crashed (The Real Reason) (438,775 views in 120h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-26",
+     "label": "FLAT",
+     "news_1d": 7,
+     "news_7d": 26,
+     "momentum_pct": 27,
+     "yt_week_videos": 14,
+     "yt_week_views": 1217996,
+     "yt_best_vph": 3187,
+     "yt_top": "Why Gold and Silver Just Crashed (The Real Reason) (458,957 views in 144h)",
+     "google_trending": []
     }
    ]
   },
@@ -10470,6 +10658,18 @@
      "yt_week_views": 48126,
      "yt_best_vph": 278,
      "yt_top": "NSE உலகின் Top 5 பட்டியலில்! IndusInd Bank அதிரடி நடவடிக்கை | BSE Inde (20,045 views in 72h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-11-26",
+     "label": "FLAT",
+     "news_1d": 14,
+     "news_7d": 100,
+     "momentum_pct": 14,
+     "yt_week_videos": 19,
+     "yt_week_views": 39055,
+     "yt_best_vph": 202,
+     "yt_top": "नई UPI बैंक 🔥🔥 Zero Balance Account Opening without video kyc | Withou (4,838 views in 24h)",
      "google_trending": []
     }
    ]
@@ -10525,6 +10725,18 @@
      "yt_best_vph": 2410,
      "yt_top": "EPFO Changes Explained: Withdraw Your PF in Monthly Instalments | Hand (231,337 views in 96h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-26",
+     "label": "FLAT",
+     "news_1d": null,
+     "news_7d": 11,
+     "momentum_pct": 0,
+     "yt_week_videos": 17,
+     "yt_week_views": 790055,
+     "yt_best_vph": 2058,
+     "yt_top": "EPFO Changes Explained: Withdraw Your PF in Monthly Instalments | Hand (246,927 views in 120h)",
+     "google_trending": []
     }
    ]
   },
@@ -10554,6 +10766,18 @@
      "yt_week_views": 36204,
      "yt_best_vph": 677,
      "yt_top": "SEBI BAN : IPO GMP 🔴🔴 HUGE JUMP 🔴🔴 IMPORTANT ETFS 🔴🔴 INVEST IN BHARAT  (16,240 views in 24h)",
+     "google_trending": []
+    },
+    {
+     "date": "2026-11-26",
+     "label": "HOT",
+     "news_1d": 11,
+     "news_7d": 64,
+     "momentum_pct": 17,
+     "yt_week_videos": 10,
+     "yt_week_views": 419391,
+     "yt_best_vph": 4127,
+     "yt_top": "No More IPO GMP? SEBI’s Big Crackdown Explained! (99,055 views in 24h)",
      "google_trending": []
     }
    ]
@@ -10585,6 +10809,18 @@
      "yt_best_vph": 210,
      "yt_top": "NSEL OTS Payment Update: 13 साल की कानूनी लड़ाई के बाद NSEL के निवेशको (5,046 views in 24h)",
      "google_trending": []
+    },
+    {
+     "date": "2026-11-26",
+     "label": "FLAT",
+     "news_1d": 3,
+     "news_7d": 10,
+     "momentum_pct": 30,
+     "yt_week_videos": 17,
+     "yt_week_views": 2250248,
+     "yt_best_vph": 15453,
+     "yt_top": "Gold Loans:కొత్త చిక్కులు తెస్తున్న గోల్డ్ లోన్స్ - TV9 (2,225,238 views in 144h)",
+     "google_trending": []
     }
    ]
   },
@@ -10603,6 +10839,18 @@
     {
      "date": "2026-11-25",
      "desk_score": 8.0
+    },
+    {
+     "date": "2026-11-26",
+     "label": "FLAT",
+     "news_1d": 9,
+     "news_7d": 31,
+     "momentum_pct": 29,
+     "yt_week_videos": 6,
+     "yt_week_views": 34321,
+     "yt_best_vph": 1082,
+     "yt_top": "Tata Sons IPO Battle: What's Behind Noel Tata's Objection? | Boardroom (25,967 views in 24h)",
+     "google_trending": []
     }
    ]
   },
@@ -10621,6 +10869,18 @@
     {
      "date": "2026-11-25",
      "desk_score": 7.0
+    },
+    {
+     "date": "2026-11-26",
+     "label": "FLAT",
+     "news_1d": 2,
+     "news_7d": 15,
+     "momentum_pct": 13,
+     "yt_week_videos": 12,
+     "yt_week_views": 34192,
+     "yt_best_vph": 220,
+     "yt_top": "The Future of Banking and Finance in India | Journey Unscripted with C (31,715 views in 144h)",
+     "google_trending": []
     }
    ]
   },
@@ -10639,6 +10899,72 @@
     {
      "date": "2026-11-25",
      "desk_score": 7.0
+    },
+    {
+     "date": "2026-11-26",
+     "label": "HOT",
+     "news_1d": 0,
+     "news_7d": 0,
+     "momentum_pct": 0,
+     "yt_week_videos": 10,
+     "yt_week_views": 269236,
+     "yt_best_vph": 3461,
+     "yt_top": "Bitcoin Crash Coming? Is a Massive Bitcoin Price Drop Ahead? (83,073 views in 24h)",
+     "google_trending": []
+    }
+   ]
+  },
+  {
+   "id": "phonepe-ipo-revival",
+   "title": "PhonePe restarts IPO at $12-15 bn",
+   "query": "PhonePe IPO|फोनपे आईपीओ",
+   "first_seen": "2026-11-26",
+   "lane": "hot",
+   "window_until": "2026-12-20",
+   "status": "active",
+   "notes": [
+    "revived 25 Nov; FY26 loss Rs 2,792 cr"
+   ],
+   "readings": [
+    {
+     "date": "2026-11-26",
+     "desk_score": 9.0
+    }
+   ]
+  },
+  {
+   "id": "gold-crash-nov",
+   "title": "Gold falls 9.4% in nine days",
+   "query": "gold rate|सोने का भाव",
+   "first_seen": "2026-11-26",
+   "lane": "hot",
+   "window_until": "2026-12-06",
+   "status": "active",
+   "notes": [
+    "Delhi 24K 1,36,200 to 1,23,420"
+   ],
+   "readings": [
+    {
+     "date": "2026-11-26",
+     "desk_score": 7.0
+    }
+   ]
+  },
+  {
+   "id": "tata-steel-apl-apollo",
+   "title": "Tata Steel-APL Apollo deal",
+   "query": "Tata Steel APL Apollo|टाटा स्टील एपीएल अपोलो",
+   "first_seen": "2026-11-26",
+   "lane": "deep",
+   "window_until": "2026-12-04",
+   "status": "active",
+   "notes": [
+    "The Ken: ammo for Noel; Rs 2,100 vs 2,301.40"
+   ],
+   "readings": [
+    {
+     "date": "2026-11-26",
+     "desk_score": 9.0
     }
    ]
   }
