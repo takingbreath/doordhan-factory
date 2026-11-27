@@ -52,11 +52,11 @@ Stage 3 targets are live in the block below (from 16 Nov); Stages 1 and 2 are cl
 
 ## The book and where we stand
 <!-- scoreboard -->
-_Updated 2026-11-26 21:38 IST by `scoreboard.py write`._
+_Updated 2026-11-27 21:38 IST by `scoreboard.py write`._
 
 **Stage 3: Build the habit** (2026-11-16 to 2026-12-31): enough reels, often enough, that viewers follow and come back: 2,000 followers by 31 Dec, and YouTube Shorts live
 
-- followers: now 796, target 2000 → not yet
+- followers: now 794, target 2000 → not yet
 - sends per 1k plays: now –, target 10 → not yet
 
 | Bet | Lever | Judged on | Baseline | Now | Target | Stop | Reels (judged/carried) | Verdict |
