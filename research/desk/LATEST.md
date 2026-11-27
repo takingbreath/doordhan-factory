@@ -100,7 +100,7 @@ _Nobody has a reel on the court case yet (filed yesterday). What travels in this
 
 ## 3. A $1 billion cap means Indians who buy US-index ETFs on the NSE pay well above what the shares inside are worth
 
-Deep lane (The Ken, 26 Nov: 'A $1 billion limit is making Indian investors overpay for US stocks') · COLD · **6/10** (momentum 0/3, stake 1/1, shareability 2/2, gap 2/2, known name 1/2) · tracker id `us-etf-premium-cap`
+Deep lane (The Ken, 26 Nov: 'A $1 billion limit is making Indian investors overpay for US stocks'; the desk sent the NSE's premium warning in early October, not made, retired cold) · COLD · **6/10** (momentum 0/3, stake 1/1, shareability 2/2, gap 2/2, known name 1/2) · tracker id `us-etf-premium-cap`
 
 Window: Evergreen while the cap stands (deep lane, 14 days). Note: SEBI's price-band base moves back to NAV from 1 Apr 2027.
 
