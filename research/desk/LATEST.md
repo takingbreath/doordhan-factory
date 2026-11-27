@@ -1,140 +1,143 @@
-# Doordhan desk research — Thu 26 Nov 2026
+# Doordhan desk research — Fri 27 Nov 2026
 
-Session: https://claude.ai/code/session_01PasrAqPWCpXtkkwoxry84Q
+Session: https://claude.ai/code/session_01PasrAqPArRcCQsoJXdX1fi
 
-**Pick: story 1.** PhonePe, the payments app on most viewers' phones, restarted its IPO yesterday: bankers talk of a Rs 1.2-1.5 lakh crore ($12-15 billion) valuation and a January-March listing. Its FY26 loss widened 62% to Rs 2,792 crore on Rs 7,920 crore of revenue, and the offer is mostly or entirely an offer for sale (reports differ), so Walmart (71.77%) sells and PhonePe itself may get little or nothing. The logo and one loss number land in frame one, and almost nobody has made a short on it yet: the best YouTube video on the news has under 3,500 views. The adjacent 'Rs 500 crore loss, phir bhi IPO?' reel on Atomberg did 233K (56x). Window: weeks (updated papers due in 30-45 days). Carries B4 (PhonePe logo and the loss number on the top half) and B3.
+**Pick: story 1.** Flipkart's CEO Kalyan Krishnamurthy is out after 11 years (last day Thu 4 Dec), and the reports say Walmart pushed: a Rs 150 crore seller-kickback probe (alleged, unconfirmed), a FY26 loss of Rs 8,468 crore on Rs 1.46 lakh crore of revenue, and an IPO now likely pushed to 2028. The same week, Walmart's other Indian company, PhonePe, restarted its IPO. A brand on every viewer's phone, a number that lands in two seconds, and it is HOT on YouTube (best 5,932 views/hr). Two creators have already done 'why did the CEO resign' (708K and 318K), so the open angle is Walmart's two Indian bets: one heads to the market, the other loses its CEO. Window: now to his exit on 4 Dec, and again when the successor is named. Carries B4 (Flipkart logo and the loss number on the top half) and B3.
 
-Runner-up: 3: Tata Steel-APL Apollo, the hottest money story of the week (Rs 2,100 to the promoter, Rs 2,301.40 in the open offer, APL Apollo -21.4% in a day), and The Ken reads it as ammunition for Noel Tata before Monday's Tata Sons board. But Anil Singhvi (601K), CA Rachana Ranade (124K) and Rohit Tated (107K) have already done 'why both stocks fell', so it needs the money-loop angle.
+Runner-up: 2: Tata Sons. The Tata Trusts went to the Bombay High Court yesterday to stop Chandrasekaran's reappointment; the hearing is today at 3 pm and the board meets Mon 30 Nov. HOT on YouTube (5,230/hr), but the family fight is well covered, so it needs a stake angle.
 
-## 1. PhonePe restarts its paused IPO, eyeing a Rs 1.2-1.5 lakh crore valuation and a January-March listing, though its FY26 loss widened 62% to Rs 2,792 crore
+## 1. Flipkart's CEO Kalyan Krishnamurthy leaves after 11 years; reports say Walmart pushed him over a kickback probe, a Rs 8,468 crore loss and a delayed IPO
 
-Hot lane (new; reported 25 Nov by ET, Moneycontrol, Reuters and others, from sources) · RISING · **9/10** (momentum 2/3, stake 1/1, shareability 2/2, gap 2/2, known name 2/2) · tracker id `phonepe-ipo-revival`
+Hot lane (new; announced Wed 25 Nov) · HOT · **9/10** (momentum 3/3, stake 1/1, shareability 2/2, gap 1/2, known name 2/2) · tracker id `flipkart-ceo-exit`
 
-Window: Weeks. Updated draft papers are expected in 30-45 days (or after the December-quarter results), with a listing targeted for January-March 2027. Best posted this week while it is news.
+Window: Now to his last day, Thu 4 Dec; a follow-up when Walmart names the successor ('in the coming weeks').
 
 ### What's happening
-- PhonePe has restarted the IPO it paused in March, according to sources quoted by ET, Moneycontrol, Reuters and others on 25 Nov. Neither PhonePe nor Walmart has confirmed it.
-- Valuation talked about: $12-15 billion, which Indian Startup News puts at about Rs 1.2-1.5 lakh crore. Earlier in 2026 the ask had reportedly been cut to about $9 billion (Indian Startup News).
-- Timing: a listing in the January-March quarter (Q4 FY27). Updated draft papers are expected within 30-45 days (Indian Startup News) or after the December-quarter results (Kotak Neo).
-- Structure: reports disagree. Indian Startup News says it is entirely an offer for sale (OFS) of up to 5.06 crore shares, raising $1.2-1.5 billion. Kotak Neo says an OFS of Rs 12,000-13,000 crore plus a fresh issue of Rs 3,000-5,000 crore. In an OFS, the money goes to the selling shareholders, not to PhonePe.
-- Who sells: Walmart held 71.77% of PhonePe and was to sell 4.59 crore shares in the earlier plan; Microsoft and Tiger Global are also selling (Indian Startup News; Kotak Neo).
-- Money: FY26 operating revenue rose about 11% to Rs 7,920 crore, and the net loss widened 62% to Rs 2,792 crore (Rs 1,377 crore 'normalised'). UPI carries no merchant fee: the government keeps the MDR at zero (Indian Startup News; Kotak Neo). Its credit business is growing about 100% a year (Kotak Neo).
-- Why it paused: PhonePe deferred the listing in March amid the geopolitical tension around the Iran war (Kotak Neo). Same day: Flipkart CEO Kalyan Krishnamurthy is stepping down after about 10 years (Moneycontrol headline).
+- Flipkart announced on Wed 25 Nov that group CEO Kalyan Krishnamurthy is stepping down after more than 11 years at the company (CEO since January 2017). His last working day is 4 Dec (AIR News).
+- Chief product and technology officer Balaji Thiagarajan and the board run the company in the interim; a successor is to be named 'in the coming weeks' (Gulf News). Flipkart gave no reason; Walmart International's CEO Chris Nicholas praised him.
+- Reports say Walmart asked him to go: an internal probe allegedly found executives took Rs 150 crore in kickbacks from sellers for visibility and on private-label quality (the third such probe in under three years; an earlier one led to the CFO's exit in March), plus frustration over losses and the IPO timeline (Inc42). Neither company has confirmed this, and no report names him as a recipient.
+- AIR News instead describes a rift over the IPO's timing and cash-outs for employee stock options: Krishnamurthy wanted an earlier listing, Walmart wanted better margins first. The emergency town hall caught staff off guard.
+- Money: FY26 revenue from operations up 18% to Rs 1,45,880 crore; consolidated net loss Rs 8,468 crore (Rs 8,646 crore a year earlier); the marketplace alone lost Rs 5,498 crore on Rs 16,295 crore of revenue. The latest ESOP exercise valued Flipkart at about $38.2 billion (Outlook Business).
+- IPO: Walmart has mandated EBITDA breakeven by March 2027 and brought in McKinsey to judge IPO readiness; the listing is now likely pushed to 2028 (Inc42). Walmart bought 77% of Flipkart in 2018 for about $16 billion (AIR News).
+- Same week: PhonePe, also Walmart-controlled, restarted its own IPO (tracked, 26 Nov desk).
 
 ### The curiosity gap
-- India's most-used payments app, on almost every viewer's phone, lost Rs 2,792 crore last year. How is a company that earns nothing on a UPI payment worth more than a lakh crore?
-- If the IPO is an offer for sale, the money goes to Walmart, Microsoft and Tiger Global, not to PhonePe. So who is this IPO really for?
-- The valuation was reportedly cut to about $9 billion before the March pause; now it's $12-15 billion again. What changed in eight months?
+- Walmart owns both of India's apps that everyone uses: PhonePe is heading to the market and Flipkart just lost its CEO. Why is one ready for an IPO and the other isn't?
+- Flipkart earned Rs 1.46 lakh crore in revenue last year and still lost Rs 8,468 crore. How does India's biggest online shop lose that much?
+- A Rs 150 crore kickback probe, reportedly about which products get shown to you. What was actually going on in the search results?
 
 ### How hot it is
-- trends.py 'PhonePe IPO' (English and Hindi): RISING. 11 news items today against 5 earlier this week; YouTube 4 videos this week, 40,699 views, best 838/hr (an IPO-pipeline roundup, not about PhonePe alone).
-- vidIQ keyword 'phonepe ipo' (IN): under 750 monthly searches, competition 51/100; related 'phonepe ipo date', 'phonepe ipo review' also under 750. Search follows the filing, not the rumour.
-- YouTube since 24 Nov (IN, by views): the best videos on the news are a Hindi IPO-allotment roundup (3,312 views) and CNBC-TV18's own clips (740-1,067). No Short on PhonePe's loss or valuation.
-- vidIQ Instagram outliers since 12 Nov: nothing on PhonePe itself; the nearest is the loss-making-IPO angle below.
+- trends.py 'Kalyan Krishnamurthy Flipkart' (English and Hindi): HOT. 3 of 7 news items this week came today; YouTube 11 videos in the last 24 h, 157,986 views, best 5,932/hr.
+- vidIQ keyword 'flipkart ceo' (IN): under 750 monthly searches, competition 50; search sits on 'flipkart' itself (2 million a month). The story travels on feeds, not search.
+- YouTube since 25 Nov (IN, by views): Sanjay Kathuria's short 142K; NewsX 1.6K; everything else under 500, including the only 'Why did Walmart remove Flipkart's CEO' video (139).
+- vidIQ Instagram outliers since 13 Nov: two on the story itself (below).
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [@accompanyakki (Instagram, 59K followers)](https://www.instagram.com/reel/Df7MTRhjC52) | '500 crore ka loss, phir IPO?': Atomberg's losses against its IPO, talking head with charts | 233K | 56.1x usual | 19 Nov |
-| [Learn to Earn by AKR (YouTube, 75K subs)](https://www.youtube.com/watch?v=RWjFy4Jt2J8) | Mahanadi Coalfields allotment, with 'PhonePe IPO kab tak aayega & size' tacked on | 3.3K | n/a | 25 Nov |
-| [CNBC-TV18 (YouTube, 5.3M subs)](https://www.youtube.com/watch?v=qWpzWxuPXrs) | 'PhonePe resumes IPO process, eyes listing by Jan-March 2027': straight news clip | 740 | low | 25 Nov |
+| [@financebysanjay (Instagram, 2.2M followers)](https://www.instagram.com/reel/DgKJ3RARKp8) | 'Why did Flipkart's CEO resign?': talking head listing losses, IPO delay, ESOPs, quick commerce | 708.8K | 2.9x usual | 25 Nov |
+| [@abhishekxtrades (Instagram, 427K followers)](https://www.instagram.com/reel/DgLFDaDsmQt) | 'Flipkart ko double jhatka': split screen (cart graphic on top, creator below), CEO exit plus losses, three data points | 317.7K | 8.3x usual | 26 Nov |
+| [Sanjay Kathuria (YouTube Shorts, 1.45M subs)](https://www.youtube.com/watch?v=GSdhDq2u7JE) | Same reel as above on YouTube | 142K | 1.3x | 25 Nov |
 
-_Open field: nobody has a short that travels on PhonePe's IPO. The loss-against-valuation question already works for a smaller brand (Atomberg, 56x); nobody has asked it of the app every viewer uses, or said who gets the money in an offer for sale._
+_The 'why did he resign' explainer is done and travelling (708K, 318K, split screen in the 8.3x one). Missing: the Walmart angle across both companies (PhonePe IPO on, Flipkart IPO off, the same week), and the kickback probe, which none of the top reels mentions._
 
 ### Facts and sources
-- Rs 1.2-1.5 lakh crore valuation target; earlier ask cut to about $9 billion; entirely OFS, up to 5.06 crore shares, $1.2-1.5 billion; January-March listing; updated draft in 30-45 days; Walmart 71.77%, to sell 4.59 crore shares; FY26 revenue Rs 7,920 crore (+11%), net loss Rs 2,792 crore (+62%), normalised loss Rs 1,377 crore; MDR on UPI kept at zero. — [Indian Startup News, 25 Nov 2026](https://indianstartupnews.com/news/walmart-owned-phonepe-restarts-ipo-process-after-eight-months-eyes-up-to-rs-15-lakh-crore-valuation-12841485)
-- $12-15 billion valuation; OFS Rs 12,000-13,000 crore plus fresh issue Rs 3,000-5,000 crore (differs from the all-OFS reports); Q4 FY27 listing; filing after December-quarter results; paused in March amid Iran-war tension; FY26 revenue Rs 7,920 crore, loss Rs 2,792 crore (+62%); credit growing about 100%. — [Kotak Neo, 25 Nov 2026](https://www.kotakneo.com/news/ipos/walmart-owned-phonepe-revives-ipo-plans-eyes-12-15-billion-valuation-and-fy27-listing/)
+- Rs 150 crore seller-kickback probe (alleged), third probe in under three years, CFO exit in March; FY26 loss Rs 8,468 crore; EBITDA breakeven mandated by March 2027; McKinsey; IPO likely 2028; Thiagarajan interim; PhonePe $1.3 bn OFS-only IPO at $12-15 bn. — [Inc42, 26 Nov 2026](https://inc42.com/buzz/flipkart-ceo-ousted-phonepe-revives-ipo-more)
+- Revenue from operations +18% to Rs 1,45,880 crore; net loss Rs 8,468 crore vs Rs 8,646 crore; marketplace loss Rs 5,498 crore on Rs 16,295 crore; ESOP valuation about $38.2 bn; CEO since Jan 2017; ESOP buyback at Rs 713.40. — [Outlook Business, 26 Nov 2026](https://www.outlookbusiness.com/corporate/kalyan-krishnamurthys-flipkart-legacy-a-bigger-business-but-unfinished-ambitions)
+- Last day 4 Dec; rift over IPO timing and ESOP liquidity; emergency town hall; Walmart bought 77% in 2018 for about $16 bn. — [AIR News, 26 Nov 2026](https://www.airnews.in/articles/e0c4e16aab-kalyan-krishnamurthy-resigns-as-flipkart-ceo-ahead-of-dec-4-exit-amid-walmart-rift)
+- Stepping down after more than 11 years; Thiagarajan and the board in the interim; successor in coming weeks; business grew more than fivefold; 500 million registered users. — [Gulf News, 25 Nov 2026](https://gulfnews.com/business/markets/flipkart-ceo-kalyan-krishnamurthy-to-step-down-successor-to-be-named-in-coming-weeks-1.500760416)
 
 ### Watch out
-- It is all from sources: PhonePe and Walmart haven't confirmed. Say 'reports say' / 'bankers say', and give the valuation as a range.
-- OFS vs fresh issue: the reports disagree, so don't say PhonePe gets 'zero'; say 'mostly to the sellers' unless the filing settles it.
-- No apply or skip call; no word on Paytm's stock.
-- Humour on the valuation maths or the sellers, not on people who use the app.
+- The kickback probe and 'Walmart pushed him' are from unnamed sources; say 'reports say'. No report names Krishnamurthy as a recipient, so never imply he took money.
+- Use his real photo if needed (CLAUDE.md rule 4), but put no words in his mouth.
+- Humour on Walmart's maths or the losses, not on Flipkart shoppers or employees.
+- No buy/sell, and no word on Walmart's own stock.
 
-## 2. Gold falls Rs 4,470 per 10 g in a day and about Rs 12,800 (9.4%) in nine days, Rs 1,36,200 to Rs 1,23,420 in Delhi, while JP Morgan's call of Rs 2.13 lakh goes viral
+## 2. The Tata Trusts take Tata Sons to the Bombay High Court to stop Chandrasekaran's new five-year term; hearing today at 3 pm, board meets Mon 30 Nov
 
-Hot lane (ride: the week's plan, item 1; gold fell another Rs 4,470 per 10 g on 25 Nov) · HOT · **7/10** (momentum 3/3, stake 1/1, shareability 2/2, gap 0/2, known name 1/2) · tracker id `gold-crash-nov`
+Hot lane (tracked since 25 Nov; new turn: the Tata Trusts went to court on 26 Nov) · HOT · **8/10** (momentum 3/3, stake 1/1, shareability 1/2, gap 1/2, known name 2/2) · tracker id `tata-sons-board-nov30`
 
-Window: Rolling: as long as gold keeps moving. Wedding-season buying is in the news now. Silver (tracked) is the same story.
+Window: Today's hearing (Fri 27 Nov, 3 pm) and Monday's board (30 Nov). Post by Sun 29 Nov; the court's order or the board's decision is a ready follow-up.
 
 ### What's happening
-- 24K gold in Delhi (Groww's daily table, per 10 g): Rs 1,36,200 on 17 Nov, Rs 1,33,410 on 18 Nov, Rs 1,30,840 on 19 Nov, Rs 1,25,720 on 20 Nov, a bounce to Rs 1,27,900 on 24 Nov, then Rs 1,23,430 on 25 Nov and Rs 1,23,420 today. That is Rs 4,470 off in a day and about 9.4% in nine days.
-- Other trackers differ by city and time of day (Kotak Neo had Bangalore at Rs 1,27,910 on 25 Nov; another site Rs 1,24,580), so quote one source and one city.
-- Two loud numbers in creator reels: a January record of 'Rs 1.83 lakh' (used by @tarunmalikx and @unfolded_vault21) and JP Morgan's 'Rs 2.13 lakh' forecast (@financebyankita, 1M views). I could not verify either on a source page this morning; don't use them until checked.
-- ET Prime (25 Nov, paywalled): 'The fall is new, the pattern is 11 years old: making sense of gold's crash' (headline only).
+- New since we last sent it: Sir Dorabji Tata Trust and Sir Ratan Tata Trust filed in the Bombay High Court on 26 Nov, asking for an injunction stopping Tata Sons from acting on the 17 Sep resolution that reappointed N Chandrasekaran as executive chairman for five years, and an order barring Tata Sons from treating future decisions as passed without the required votes (The Tribune/ANI, 26 Nov).
+- Their case: Article 121 of Tata Sons' Articles needs the affirmative votes of the Trusts' nominated directors. On 17 Sep Noel Tata voted against, Venu Srinivasan for, and chairman of the meeting Harish Manwani used a casting vote; the Trusts say a casting vote can't stand in for that (The Tribune/ANI).
+- The hearing is listed for 'Friday at 3 pm', which is today (The Tribune/ANI).
+- Monday's board (moved from 26 Nov after Noel Tata objected to short notice) has on its agenda a proposal to call an extraordinary general meeting, the half-year results and a review of loss-making businesses including Air India (26 Nov desk, BigGo Finance).
+- The RBI's 16 Nov letter told Tata Sons to follow the upper-layer NBFC rules, 'including the requirement of listing' (25 Nov desk, The Tribune/ANI).
+- Side note: Venu Srinivasan, the Trust nominee who voted for Chandrasekaran, is also at the centre of the TVS family property dispute, which did 1.5M views for @adityasaidwhat (22 Nov).
 
 ### The curiosity gap
-- Gold lost about Rs 12,800 per 10 g in nine days, in the middle of the wedding season. Who is selling, and why now?
-- The same week one bank says Rs 2.13 lakh. Both can't be right; what does the viewer actually know?
+- The Tatas' own charities, the owners of the group, are suing the group's holding company over who runs it. What happens to TCS, Titan and Tata Motors shareholders if the court says the chairman was never validly reappointed?
+- One Trust director's 'no' against a casting vote: does the Trusts' nominee really hold a veto over who runs the Tata group?
+- The RBI says list; the biggest owner says no and is now in court. Who decides on Monday?
 
 ### How hot it is
-- trends.py 'gold rate': HOT. 100 news items today (127% of the week's pace); YouTube 5 videos this week, 339,875 views, best 4,920/hr.
-- trends.py 'silver price': HOT. YouTube 14 videos this week, 1.48M views, best 4,009/hr.
-- vidIQ Instagram outliers since 18 Nov: 7 of the 12 top Indian finance outliers are gold or silver.
+- Tracker check 'Tata Sons IPO' (English and Hindi): HOT, up from FLAT yesterday. 9 of 38 news items this week came today; YouTube 15 videos this week, 335,594 views, best 5,230/hr.
+- trends.py 'Tata Trusts Bombay High Court': COLD on its own (3 news items, all today; no YouTube video yet). The court turn is brand new.
+- vidIQ Instagram outliers since 13 Nov: NDTV Profit's Noel Tata clip is still the best on the listing; nothing on the court case yet.
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [@news24official (Instagram, 5.4M followers)](https://www.instagram.com/reel/DgIDUuAhrOR) | '16 din girne ke baad sone mein uchhaal, Rs 1,052 mehnga': anchor on top, jewellery footage below | 5.9M | 149.9x usual | 24 Nov |
-| [@tarunmalikx (Instagram, 217K)](https://www.instagram.com/reel/Df-N5-dJEoj) | 'Gold Rs 1,83,000 to Rs 1,22,000: right time to buy?': split screen, creator over the chart | 3.6M | 13.0x | 20 Nov |
-| [@financebyankita (Instagram, 469K)](https://www.instagram.com/reel/DgKdmRrIJA1) | JP Morgan's Rs 2.13 lakh gold call: the headline and the CEO's photo on top, creator below | 1M | 8.2x | 25 Nov |
-| [@market.jargon (Instagram, 3.9K)](https://www.instagram.com/reel/DgAt6_VkzYd) | 'Gold loan companies: tension badhi': what a 9% fall does to gold-loan cushions | 172K | 79.4x | 21 Nov |
+| [@ndtvprofit (Instagram, 492K followers)](https://www.instagram.com/reel/DfuReCzHGUD) | 'Should Tata Sons go public?': Noel Tata's summit clip on the risks of listing | 149.7K | 18.8x usual | 14 Nov |
+| [@adityasaidwhat (Instagram, 322K followers)](https://www.instagram.com/reel/DgC5jkNBKNc) | TVS family property dispute (Venu Srinivasan), news clippings floating over a talking head (adjacent) | 1.5M | 11.5x usual | 22 Nov |
+| [@moneytalksbybrahmi (Instagram)](https://www.instagram.com/reel/DgID_xDNxsE) | Tata Steel news breakdown, talking head with overlays (adjacent) | 150.7K | 9.7x usual | 24 Nov |
 
-_Saturated: every big account has 'gold crashed, buy now?'. The unclaimed angles are second-order ones that @market.jargon showed can travel from a tiny account: who gets hurt by the fall (gold-loan borrowers and lenders), or the two forecasts that can't both be right._
+_Nobody has a reel on the court case yet (filed yesterday). What travels in this family of stories is the people and the family fight; missing is the plain stake for a listed-Tata shareholder._
 
 ### Facts and sources
-- 24K per 10 g, Delhi: 17 Nov Rs 1,36,200; 18 Nov Rs 1,33,410; 19 Nov Rs 1,30,840; 20 Nov Rs 1,25,720; 21-22 Nov Rs 1,25,230; 23 Nov Rs 1,26,710; 24 Nov Rs 1,27,900; 25 Nov Rs 1,23,430; 26 Nov Rs 1,23,420. — [Groww, Delhi gold rate table, read 26 Nov 2026](https://groww.in/gold-rates/gold-rate-today-in-delhi)
+- SDTT and RDTT moved the Bombay HC; injunction on the 17 Sep resolution; Article 121 affirmative vote; Noel Tata against, Venu Srinivasan for, Manwani casting vote; Trusts' 20 Sep statement; hearing Friday 3 pm; board moved from 26 to 30 Nov. — [The Tribune (ANI), 26 Nov 2026](https://www.tribuneindia.com/news/affirmative-votes/tata-trusts-move-bombay-hc-against-chandrasekarans-reappointment-seek-stay-on-board-resolution-sources)
+- RBI letter of 16 Nov, 'including the requirement of listing'; board moved to 30 Nov. — [The Tribune (ANI), 23 Nov 2026](https://www.tribuneindia.com/news/board-meeting/tata-sons-postpones-board-meeting-to-november-30-after-noel-tata-objects-to-late-circulation-of-agenda-sources)
 
 ### Watch out
-- No 'right time to buy' answer. Facts and the stake only.
-- Use one source and one city for every price number; trackers disagree.
-- The Rs 1.83 lakh record and the JP Morgan Rs 2.13 lakh call are unverified this morning.
+- Sub judice: report what each side says and what the court orders; no verdict before the court gives one.
+- Keep the PM off screen (the Mistry family reportedly approached him; CLAUDE.md, no politicians).
+- No buy/sell call on any listed Tata stock.
+- Re-check this afternoon: the 3 pm hearing may change the story.
 
-## 3. Tata Steel buys control of APL Apollo: the promoter gets Rs 2,100 a share, the open offer Rs 2,301.40, APL Apollo pays Tata Rs 28,000 crore of borrowed money for Tata's own businesses, and Rs 30,707 crore of market value vanished in a day
+## 3. A $1 billion cap means Indians who buy US-index ETFs on the NSE pay well above what the shares inside are worth
 
-Deep lane (The Ken, 25 Nov: 'The Tata Steel-APL Apollo deal could be ammo for Noel in his fight against Chandra'; Moneylife, 25 Nov, on how it shortchanged minority shareholders), on the week's hottest company story · HOT · **9/10** (momentum 3/3, stake 1/1, shareability 2/2, gap 1/2, known name 2/2) · tracker id `tata-steel-apl-apollo`
+Deep lane (The Ken, 26 Nov: 'A $1 billion limit is making Indian investors overpay for US stocks') · COLD · **6/10** (momentum 0/3, stake 1/1, shareability 2/2, gap 2/2, known name 1/2) · tracker id `us-etf-premium-cap`
 
-Window: This week. The Tata Sons board meets Mon 30 Nov, where The Ken says the deal could be used against Chandrasekaran; the open-offer dates and any shareholder vote are next.
+Window: Evergreen while the cap stands (deep lane, 14 days). Note: SEBI's price-band base moves back to NAV from 1 Apr 2027.
 
 ### What's happening
-- Announced 22-23 Nov. Leg one: APL Apollo buys Tata Steel's tubes business and Tata Steel Colors for Rs 28,000 crore (Rs 11,700 crore and Rs 16,300 crore), first with acquisition loans, later replaced by long-term capital (CNBC; DSIJ).
-- Leg two: Tata Steel buys 26.4% of APL Apollo from the promoter entity, S Gupta Holding, at Rs 2,100 a share, about Rs 15,510 crore ($1.67 billion), then makes an open offer for another 26% at Rs 2,301.40, about 9.6% more than the promoter got. If the offer fills, Tata Steel holds 52.38% (CNBC; DSIJ).
-- Market reaction on 23 Nov: APL Apollo -21.39% to Rs 1,668.15, Tata Steel -8.4% to Rs 163 (DSIJ). Business Standard put the market value lost across both at Rs 30,707 crore (headline).
-- On 25 Nov Tata Steel CEO T V Narendran said the company is working on concerns raised by both sets of shareholders (Business Standard headline).
-- The deep read: The Ken (25 Nov, paywalled) argues the deal gives Noel Tata ammunition against N Chandrasekaran before the Tata Sons board on 30 Nov; Moneylife (25 Nov) calls it a deal that shortchanged APL Apollo's minority shareholders.
+- The Ken's story (26 Nov, paywalled; headline only used): the $1 billion limit is making Indian investors overpay for US stocks.
+- The mechanism, from open sources: Indian mutual funds can hold about $7 billion abroad in all, of which about $1 billion is for overseas ETFs; that ETF room was reportedly used up in April 2024. With no new units being created, nobody can arbitrage the price back to the fund's real value (NAV), so buyers on the NSE pay a premium (Fund Compass, 20 Sep).
+- SEBI changed the 20% price band on 7 Sep 2026 to work off the previous day's market price instead of NAV, and premiums jumped after it; a circular moves the base back to NAV from 1 Apr 2027 (Fund Compass, 20 Sep).
+- Context only (older than a week): the Motilal Oswal Nasdaq 100 ETF hit a record 27.7% premium on 5 Jun 2026 and averaged 3.7% over three years (Finvezto, 17 Jun). A YouTube video citing Trendlyne put it at about 32% on 20 Nov (Rs 298.89 against a NAV of Rs 226.67); not yet confirmed on a primary page.
+- Context only: one creator's analysis put the Motilal Oswal Nasdaq Q50 ETF at a 235% premium on 18 Sep after the band change, and 86% on 23 Oct (Compound Wealth, 2 Nov, from NSE closes and AMFI NAVs); not confirmed on a primary page.
 
 ### The curiosity gap
-- Tata Steel announced India's tube-making giant was becoming a Tata company, and investors in both companies dumped the shares. Why would a Tata deal make Tata shareholders lose Rs 30,707 crore in a day?
-- APL Apollo borrows Rs 28,000 crore to pay Tata Steel, and Tata Steel then buys APL Apollo. Whose money is going round in a circle?
-- Days before the Tata Sons board meets, does this deal become the weapon in the Noel vs Chandra fight?
+- You buy 'Apple and Nvidia' on the NSE for Rs 100 and get maybe Rs 75 of shares. Where does the other Rs 25 go?
+- A rule caps how much all of India's mutual funds can put into overseas ETFs at $1 billion. Why does the cap exist, and who pockets the premium?
+- Your app shows the ETF up 20% while the Nasdaq didn't move. What exactly did you buy?
 
 ### How hot it is
-- trends.py 'Tata Steel APL Apollo': HOT. 34 news items today (52% of the week); YouTube 6 videos this week, 318,362 views, best 8,756/hr (a Hindi explainer on the Rs 2,301 open offer, 210K in 24 h).
-- trends.py 'APL Apollo': RISING but saturated (100 news items today).
-- vidIQ keyword 'tata steel apl apollo deal' (IN): about 4,200 monthly searches, competition 49; 'tata steel' about 86,500, +52.5%.
+- Deep lane: no momentum expected. YouTube since 27 Oct (IN): every video on ETF premiums is under 400 views; nothing in Hindi or Hinglish that travels.
+- vidIQ Instagram outliers since 28 Oct: nothing on the premium itself; adjacent 'India vs US markets' explainer did 301K (40.1x) on 10 Nov.
 
 ### What others are making
 
 | Who | What | Views | vs usual | When |
 |---|---|---|---|---|
-| [@anilsinghvimedia (Instagram, 704K)](https://www.instagram.com/reel/DgEqofDhPXT) | 'Achhi deal, phir kyun toote APL Apollo aur Tata Steel?': single-shot talking head | 601K | 3.2x usual | 23 Nov |
-| [@ca_rachanaranade (Instagram, 1.2M)](https://www.instagram.com/reel/DgFWbKzo2W3) | Why Tata Steel fell as much as 8% while taking control of India's biggest structural tube maker | 124K | 2.2x | 23 Nov |
-| [@rohit_tated (Instagram, 250K)](https://www.instagram.com/reel/DgFedx8Mtwe) | 'Tata Steel -10%, APL Apollo -22%': split screen with the two numbers, 'deal achhi thi ya kharab?' | 107K | 1.9x | 23 Nov |
-| [Zee Business (YouTube, 6.5M)](https://www.youtube.com/watch?v=bj7RKzzUGyo) | Anil Singhvi decodes the crash: promoters exit at Rs 2,100, open offer near the life high | 130K | 35x | 23 Nov |
+| [@startup_of_india_ (Instagram, 35K followers)](https://www.instagram.com/reel/DfjJmkJu_TE) | Why India rallied while US markets fell (adjacent) | 301.4K | 40.1x usual | 10 Nov |
+| [SocialPost Finance (YouTube, 58K subs)](https://www.youtube.com/watch?v=Z6Sx3ICnmwM) | Nasdaq 100 ETF premium: hidden risks | 372 | low | 21 Nov |
 
-_'Why both stocks fell' is taken by the big accounts. Nobody has done the money loop (APL Apollo's borrowed Rs 28,000 crore paying for Tata's own businesses) or tied it to Monday's Tata Sons board, which is The Ken's angle and fits the Tata story already on your desk._
+_Open field: nobody has a short that travels on the premium. It is a 'the system is rigged against the small investor' story with a number that lands, which fits the channel's humour on the system._
 
 ### Facts and sources
-- 26.4% at Rs 2,100 a share, 155.1 billion rupees ($1.67 billion); open offer 26% at Rs 2,301.40; 52.38% if it fills; tubes and Tata Steel Colors sold to APL Apollo for 280 billion rupees, funded by acquisition financing; Tata Steel down more than 9%, APL Apollo more than 19% on Monday. — [CNBC, 23 Nov 2026](https://www.cnbc.com/2026/11/23/tata-steel-acquisition-deal-apl-india.html)
-- APL Apollo -21.39% to Rs 1,668.15, Tata Steel -8.4% to Rs 163 on 23 Nov; promoter S Gupta Holding sells at Rs 2,100; open offer Rs 2,301.40, about 9.6% higher; Rs 11,700 crore (tubes) + Rs 16,300 crore (Tata Steel Colors) = Rs 28,000 crore. — [DSIJ Insights, Nov 2026](https://insights.dsij.in/dsijarticledetail/tata-steel-apl-apollo-deal-a-promoters-exit-a-corporate-takeover-and-a-minority-shareholders-dilemma-60624)
-- Rs 30,707 crore of market cap erased across both companies (headline; page blocked to fetch, confirm before quoting). — [Business Standard, 23 Nov 2026](https://www.business-standard.com/markets/news/30-707-cr-mcap-erased-as-deal-rattles-tata-steel-apl-apollo-shareholders-126112301294_1.html)
+- $7 bn industry overseas cap; $1 bn for overseas ETFs, reportedly filled April 2024; $300 mn per fund for ETFs; SEBI price band on previous day's price from 7 Sep 2026, back to NAV from 1 Apr 2027; LRS $250,000 a year. — [Fund Compass, 20 Sep 2026 (context)](https://fundcompass.substack.com/p/paying-100-premium-for-nothing)
+- MON100 premium record 27.7% on 5 Jun 2026; 17.0% on 15 Jun; 3-year average 3.7%, median 0.7%. — [Finvezto, 17 Jun 2026 (context)](https://finvezto.com/reports/global-etf-premium-to-nav)
+- MON100 Rs 298.89 vs NAV Rs 226.67 on 20 Nov (about 32%), citing Trendlyne (unconfirmed). — [Make in India Investments (YouTube), 22 Nov 2026](https://www.youtube.com/watch?v=gQ9eQanUBOU)
 
 ### Watch out
-- Company facts only: no view on whether to tender in the open offer, and no price levels, targets or charts of the shares (SEBI price-data rule).
-- Noel Tata and Chandrasekaran: real photos and their own quoted words only. The Ken's angle is its analysis; credit 'via The Ken' and don't copy paywalled text.
-- The Rs 30,707 crore figure is from Business Standard's headline; the page wouldn't open here.
+- Today's premium must be read off the NSE price and the AMC's NAV on the day of the script; don't use the 32% until then.
+- Facts only: no 'don't buy' or 'buy directly instead' call; say what the premium is and why.
+- Credit 'via The Ken' in the caption; don't copy its text.
 
 ## Stories we're tracking
 
@@ -142,38 +145,38 @@ Full board: research/desk/TRACKER.md
 
 | Story | Now | Direction | Day | Status |
 |---|---|---|---|---|
-| Groww's F&O share of revenue falls to 45%; turns to IPOs and wealth (via The Arc) (`groww-derivatives-arc`) | COLD | steady | 40 | active |
-| Jio more customers, Airtel more money: ARPU ₹271 vs ₹218.8 (`airtel-vs-jio-arpu`) | COLD | steady | 15 | active |
-| NSE banned brokers' digital gold, then picked Augmont for EGRs (via The Ken) (`nse-augmont-digital-gold`) | COLD | rising | 14 | active |
-| India's 'sovereign' AI rented from Nvidia GPU clouds; E2E -36% from Oct high (via The Ken) (`india-sovereign-ai-nvidia`) | COLD | fading | 12 | active |
-| Mahanadi Coalfields IPO: Coal India sells 10% of India's largest coal producer (opens 19 Nov) (`mahanadi-coalfields-ipo`) | FLAT | fading | 11 | active |
-| Ola Electric closes its own stores for dealers; Q2 revenue -39% to Rs 421 cr (via The Morning Context) (`ola-electric-dealers`) | RISING | rising | 11 | active |
-| Yes Bank AT1 Rs 8,415 cr: SC restored the bonds; Yes Bank and RBI seek review (`yes-bank-at1`) | COLD | steady | 9 | active |
-| SpiceJet: Rs 5,500 cr raise vs Rs 1,522 cr mcap; shares +30% in a week amid cancellations (`spicejet-fundraise`) | FLAT | fading | 8 | active |
-| ESDS: 2026's top IPO tripled on a $1.25 bn GPU deal it pays for (via The Morning Context) (`esds-sharon-ai`) | COLD | steady | 8 | active |
-| CAG draft audit: BIS hallmark checks missed (`bis-hallmark-cag`) | HOT | rising | 7 | active |
-| 70% still in regular MF plans after direct default (`regular-plan-70pc`) | HOT | fading | 7 | active |
-| Record ₹1.53 lakh crore margin trading book; SEBI weighs a cap (`mtf-record-leverage`) | FLAT | fading | 6 | active |
-| Silver ~65% off January's ₹4.2 lakh record; silver ETF inflows +57% in October (`silver-crash-65pc`) | FLAT | steady | 5 | active |
-| IndusInd fires ex-CEO Kathpalia, claws back pay from 2020 (`indusind-kathpalia-clawback`) | FLAT | steady | 5 | active |
-| EPFO monthly PF payouts (SWP), 10% minimum balance, 2-month wait (`epfo-swp-pf-pension`) | FLAT | fading | 5 | active |
-| SEBI asks intermediaries to stop publishing IPO GMP (advisory, 23 Nov) (`sebi-gmp-advisory`) | HOT | rising | 3 | active |
-| NSEL pays 5,682 investors ₹1,950 crore, 42.34% of claims, 13 years on (`nsel-settlement`) | FLAT | rising | 3 | active |
-| Tata Sons board takes up listing on 30 Nov; RBI letter 16 Nov says list (`tata-sons-board-nov30`) | FLAT | new | 2 | active |
-| SEBI prosecutes Ketan Parekh over unpaid Rs 27 cr; court refused 91-day 9-country trip (`ketan-parekh-prosecution`) | FLAT | new | 2 | active |
-| Rs 20,000 cr crypto forex chase; ED searched CoinDCX, Delta; no user protection (via The Ken) (`ken-crypto-20000cr`) | HOT | new | 2 | active |
-| PhonePe restarts IPO at $12-15 bn (`phonepe-ipo-revival`) | - | new | 1 | active |
-| Gold falls 9.4% in nine days (`gold-crash-nov`) | - | new | 1 | active |
-| Tata Steel-APL Apollo deal (`tata-steel-apl-apollo`) | - | new | 1 | active |
+| Groww's F&O share of revenue falls to 45%; turns to IPOs and wealth (via The Arc) (`groww-derivatives-arc`) | COLD | fading | 41 | active |
+| India's 'sovereign' AI rented from Nvidia GPU clouds; E2E -36% from Oct high (via The Ken) (`india-sovereign-ai-nvidia`) | COLD | rising | 13 | active |
+| Mahanadi Coalfields IPO: Coal India sells 10% of India's largest coal producer (opens 19 Nov) (`mahanadi-coalfields-ipo`) | FLAT | fading | 12 | active |
+| Ola Electric closes its own stores for dealers; Q2 revenue -39% to Rs 421 cr (via The Morning Context) (`ola-electric-dealers`) | FLAT | fading | 12 | active |
+| Yes Bank AT1 Rs 8,415 cr: SC restored the bonds; Yes Bank and RBI seek review (`yes-bank-at1`) | COLD | steady | 10 | active |
+| SpiceJet: Rs 5,500 cr raise vs Rs 1,522 cr mcap; shares +30% in a week amid cancellations (`spicejet-fundraise`) | FLAT | steady | 9 | active |
+| ESDS: 2026's top IPO tripled on a $1.25 bn GPU deal it pays for (via The Morning Context) (`esds-sharon-ai`) | COLD | steady | 9 | active |
+| CAG draft audit: BIS hallmark checks missed (`bis-hallmark-cag`) | HOT | steady | 8 | active |
+| 70% still in regular MF plans after direct default (`regular-plan-70pc`) | COLD | fading | 8 | active |
+| Record ₹1.53 lakh crore margin trading book; SEBI weighs a cap (`mtf-record-leverage`) | FLAT | rising | 7 | active |
+| Silver ~65% off January's ₹4.2 lakh record; silver ETF inflows +57% in October (`silver-crash-65pc`) | HOT | rising | 6 | active |
+| IndusInd fires ex-CEO Kathpalia, claws back pay from 2020 (`indusind-kathpalia-clawback`) | FLAT | steady | 6 | active |
+| EPFO monthly PF payouts (SWP), 10% minimum balance, 2-month wait (`epfo-swp-pf-pension`) | FLAT | steady | 6 | active |
+| SEBI asks intermediaries to stop publishing IPO GMP (advisory, 23 Nov) (`sebi-gmp-advisory`) | FLAT | fading | 4 | active |
+| NSEL pays 5,682 investors ₹1,950 crore, 42.34% of claims, 13 years on (`nsel-settlement`) | FLAT | fading | 4 | active |
+| Tata Sons board takes up listing on 30 Nov; RBI letter 16 Nov says list (`tata-sons-board-nov30`) | HOT | rising | 3 | active |
+| SEBI prosecutes Ketan Parekh over unpaid Rs 27 cr; court refused 91-day 9-country trip (`ketan-parekh-prosecution`) | FLAT | rising | 3 | active |
+| Rs 20,000 cr crypto forex chase; ED searched CoinDCX, Delta; no user protection (via The Ken) (`ken-crypto-20000cr`) | COLD | fading | 3 | active |
+| PhonePe restarts IPO at $12-15 bn (`phonepe-ipo-revival`) | FLAT | new | 2 | active |
+| Gold falls 9.4% in nine days (`gold-crash-nov`) | HOT | new | 2 | active |
+| Tata Steel-APL Apollo deal (`tata-steel-apl-apollo`) | FLAT | new | 2 | active |
+| Flipkart CEO Kalyan Krishnamurthy exits; Walmart, kickback probe, IPO to 2028 (`flipkart-ceo-exit`) | - | new | 1 | active |
+| $1 bn cap: Indians overpay for US-index ETFs (The Ken) (`us-etf-premium-cap`) | - | new | 1 | active |
 
 ## Also on the wire
-- Tracker: SEBI's GMP advisory reads HOT and rising (11 of 64 news items today; YouTube best 4,127/hr), with Crystal Crop listing today and Mahanadi Coalfields on Fri 27 Nov, the first listings since the advisory; your draft is in the repo. BIS hallmarking (CAG) HOT on YouTube. Tata Sons board (30 Nov) FLAT; new turn: Moneylife, citing Mint, reports Shapoor Mistry approached the PM twice to push for the listing (keep the PM off screen). Silver FLAT and steady; its window ends Fri 27 Nov. Ola Electric dealers RISING. B.R. Shetty and the AI-selloff story retired.
-- Also seen: TVS family dispute RISING (Lakshmi Venu asked the Madras High Court to partition Venu Srinivasan's assets; Moneylife, 25 Nov); LIC told by the NCDRC it can't escape liability for an agent's fraud, Rs 5.30 crore refund (Moneylife, 25 Nov); a reported 17% US tariff proposal on India (CNBC-TV18 headlines, 25 Nov; unverified here); Jupiter Wagons +20% on a JV (25 Nov).
-- Tool changes: no Higgsfield keys on this machine, so model_live.py refresh was skipped. SEBI's orders feed returned nothing for the week.
+- Tracker: gold HOT (36 of 86 news items today; YouTube best 15,211/hr) and still rolling; silver HOT and rising but its window ends today. PhonePe IPO FLAT (no new videos). Tata Steel-APL Apollo FLAT. BIS hallmarking HOT on YouTube. Airtel vs Jio ARPU and NSE-Augmont retired.
+- Also seen: the US trade office proposed tariffs of up to 25% on Indian goods on 25 Nov (17% with a trade deal), HOT on YouTube (best 25,908/hr, Palki Sharma 622K in 24 h), but abstract for an investor and keep Trump off screen (Outlook India, 25 Nov). Supreme Court told HDFC, ICICI and others to clear 34 prosecution sanctions in the builder-bank home-loan fraud probe (Moneylife, 26 Nov; loans are rested). FIIs bought for an 18th straight session (Rs 5,843 crore on Thursday); NSE is now the world's third-largest listed exchange by value (IndiaIPO, 26 Nov).
+- Tool changes: no Higgsfield keys on this machine, so model_live.py refresh was skipped. Value Research and Business Standard pages refused the fetch (403), so their figures are not used.
 
 ## Where we stand
 
-795 followers (+1 this week)  
+796 followers (+2 this week)  
 Last reel (Space and semiconductor sectors for long-term investors: Centum, MTAR (space); CG Power, Kaynes (semis); read the chart setup before entry): 374 plays so far, 64% swiped away in the first 3 s  
 What every reel is testing:  
 - A line worth sending: shares per 1,000 plays 4.6 now, target 8 (4 of 4 reels in)
